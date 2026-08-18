@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ![](../../assets/export-textures-window.png){width="500px"}
 
-Abra la <b>ventana de exportación </b> con el método abreviado de teclado <b>Ctrl + Mayús + E</b> o {Archivo > Exportar texturas </b>.<b>
+Abra la <b>ventana de exportación </b> con el método abreviado de teclado <b>Ctrl + Mayús + E</b> o &lbrace;Archivo > Exportar texturas </b>.<b>
 
 La <b>ventana de exportación </b> está dividida en tres pestañas:
 

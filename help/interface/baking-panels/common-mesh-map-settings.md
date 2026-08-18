@@ -24,4 +24,4 @@ En el [**modo de cocción**](../../baking/baking.md), el **panel de configuraci�
 > 1. Cambie la configuración común **Tamaño de salida**.
 > 1. **Hornear** el mapa Normal.
 
-Hay disponible una lista completa de los ajustes de mapa de malla disponibles en **Ajustes comunes** y los [**paneles de ajustes de mapa de malla**](mesh-map-settings.md) en la sección de procesamiento de la documentación](../../baking/mesh-map-settings.md).[
+Hay disponible una lista completa de los ajustes de mapa de malla disponibles en **Ajustes comunes** y los [**paneles de ajustes de mapa de malla**](mesh-map-settings.md) en la sección de procesamiento de la documentación[&#128279;](../../baking/mesh-map-settings.md).

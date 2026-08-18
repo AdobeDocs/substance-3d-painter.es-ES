@@ -13,7 +13,7 @@ ht-degree: 3%
 
 **El modo de cocción** te proporciona acceso a todas las herramientas y parámetros que necesitas para crear pasteles excelentes de alta calidad.
 
-Para acceder al **modo de horneado**, haga clic en el botón (horneado) Croissant en la parte superior derecha de la ventana gráfica. Como alternativa, use el [método abreviado de teclado ](../interface/settings/shortcuts.md)**F8** o seleccione **Modo > Convertir mapas de malla**
+Para acceder al **modo de horneado**, haga clic en el botón (horneado) Croissant en la parte superior derecha de la ventana gráfica. Como alternativa, use el [método abreviado de teclado &#x200B;](../interface/settings/shortcuts.md)**F8** o seleccione **Modo > Convertir mapas de malla**
 
 ![](../assets/baking/mode_select_buttons.png)
 
