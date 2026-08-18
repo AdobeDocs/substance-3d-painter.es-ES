@@ -21,4 +21,4 @@ ht-degree: 0%
 # Conflicto con aplicaciones en segundo plano
 
 Algunas aplicaciones que se ejecutan en segundo plano pueden interferir con Substance 3D Painter y provocar problemas. El software antispyware y antivirus analiza a menudo procesos de bajo nivel que pueden provocar ralentizaciones, por lo que la desactivación de este software puede ayudar a mejorar el rendimiento al utilizar Painter.\
-Una lista de aplicaciones conocidas que pueden bloquear Painter o al menos ralentizarlo [ está disponible aquí](../technical-issues/startup-issues/software-conflicts.md).
+Una lista de aplicaciones conocidas que pueden bloquear Painter o al menos ralentizarlo [&#x200B; está disponible aquí](../technical-issues/startup-issues/software-conflicts.md).

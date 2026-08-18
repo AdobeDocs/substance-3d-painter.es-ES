@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## lib-normal.glsl
 
-**Funciones públicas:** *normalBlend* *normalBlendOriented* *normalFade* *normalUnpack* *normalFromBaseNormal* *normalFromNormal* *normalFromHeight* *getTSNormal* *computeWSBaseNormal* 0}computeWSNormal **
+**Funciones públicas:** *normalBlend* *normalBlendOriented* *normalFade* *normalUnpack* *normalFromBaseNormal* *normalFromNormal* *normalFromHeight* *getTSNormal* *computeWSBaseNormal* 0&rbrace;computeWSNormal **
 
 Importar desde biblioteca
 

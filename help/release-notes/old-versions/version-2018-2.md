@@ -190,7 +190,7 @@ Para encontrar el proyecto, use **Archivo** > **Abrir ejemplo...Entrada de menú
 
 (Publicado el 25 de septiembre de 2018)
 
-****Corregido:****
+**&#x200B;**&#x200B;Corregido:**&#x200B;**
 
 * [Vista 2D] La vista 2D se rompe con algunas mallas al crear un proyecto nuevo
 * [Bloqueo] El cambio de la Proyección de UV a la proyección triplanar produce un bloqueo

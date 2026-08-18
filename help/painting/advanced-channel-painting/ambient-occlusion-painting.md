@@ -22,7 +22,7 @@ ht-degree: 0%
 
 El canal de oclusión ambiental permite pintar detalles en las sombras ambientales de un objeto. Se puede utilizar para añadir detalles del AO procedentes de materiales o simplemente para corregir errores de cocción manual cuando sea necesario.
 
->> 
+&#x200B;>> 
 
 En los gráficos de ordenador, la oclusión de ambiente es una técnica de sombreado y de procesamiento que se utiliza para calcular la exposición de cada punto de una escena a la luz de ambiente. El interior de un tubo suele estar más ocluido (y, por lo tanto, más oscuro) que las superficies exteriores expuestas, y cuanto más profundo sea el interior del tubo, más ocluida (y más oscura) será la iluminación. La oclusión ambiental se puede ver como un valor de accesibilidad que se calcula para cada punto de superficie.\
 Fuente: &lt;https://en.wikipedia.org/wiki/Ambient_occlusion>
