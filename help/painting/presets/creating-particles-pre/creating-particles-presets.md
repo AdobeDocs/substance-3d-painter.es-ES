@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/creating-particles-presets.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/presets/creating-particles-presets.html"
 breadcrumb-title: ''
 description: Aprenda a crear ajustes preestablecidos de pincel de partículas en Substance 3D Painter para añadir efectos dinámicos de pintura de texturas a su flujo de trabajo.
 helpx_creative_field: ""
@@ -26,6 +26,6 @@ Los pinceles de partículas se componen de dos partes: el **Emisor** y el **Rece
 
 Para obtener más información, consulte las páginas dedicadas :
 
-* [Instalación del editor de partículas](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/installation-of-the-editor-67403780.html)
-* [Descripción general del editor de partículas](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/overview-of-popcornfx-particle-editor-67796996.html)
+* [Instalación del editor de partículas](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/installation-of-the-editor-67403780.html)
+* [Descripción general del editor de partículas](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/overview-of-popcornfx-particle-editor-67796996.html)
 * [Creación De Un Nuevo Script De Partículas](creating-a-new-particle-script.md)

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/shelf-resources-are-gone-after-7-2-update.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/shelf-resources-are-gone-after-7-2-update.html"
 breadcrumb-title: ''
 description: Obtenga información sobre cómo recuperar recursos de estantería que desaparecieron después de la actualización de Substance 3D Painter 7.2 para restaurar la biblioteca de recursos.
 helpx_creative_field: ""

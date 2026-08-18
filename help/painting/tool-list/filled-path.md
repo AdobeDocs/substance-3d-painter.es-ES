@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/filled-path.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/tool-list/filled-path.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar la herramienta Trazado relleno en Substance 3D Painter para crear formas rellenas y trazados para pintar texturas.
 helpx_creative_field: ""

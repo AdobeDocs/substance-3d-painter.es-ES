@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/warp-projection.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/fill-projections/warp-projection.html"
 breadcrumb-title: ''
 description: Utilice la proyección de deformación en Substance 3D Painter para proyectar texturas con efectos de distorsión para pintar texturas de forma creativa.
 helpx_creative_field: ""

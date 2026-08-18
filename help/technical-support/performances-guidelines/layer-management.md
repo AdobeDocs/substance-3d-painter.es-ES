@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/performances-guidelines/layer-management.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/performances-guidelines/layer-management.html"
 breadcrumb-title: ''
 description: Conozca las prácticas recomendadas de administración de capas en Substance 3D Painter para optimizar el rendimiento y mantener los proyectos organizados.
 helpx_creative_field: ""

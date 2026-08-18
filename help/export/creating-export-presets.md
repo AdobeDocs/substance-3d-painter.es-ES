@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/creating-export-presets.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/getting-started/export/creating-export-presets.html"
 breadcrumb-title: ''
 description: Aprenda a crear plantillas de salida personalizadas en Substance 3D Painter para definir sus propias configuraciones de exportación de texturas.
 helpx_creative_field: ""

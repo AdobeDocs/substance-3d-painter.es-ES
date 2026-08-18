@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/fill-match-per-uv-tile.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/fill-projections/fill-match-per-uv-tile.html"
 breadcrumb-title: ''
 description: Utilice la coincidencia de relleno por azulejo UV en Substance 3D Painter para hacer coincidir los patrones de textura en los azulejos UV para un mosaico perfecto.
 helpx_creative_field: ""

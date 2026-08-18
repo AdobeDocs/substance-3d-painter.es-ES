@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/exporting-a-dxdiag.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/exporting-a-dxdiag.html"
 breadcrumb-title: ''
 description: Obtenga información sobre cómo exportar información del sistema DXDiag desde la solución de problemas y la asistencia de Substance 3D Painter para Windows.
 helpx_creative_field: ""
