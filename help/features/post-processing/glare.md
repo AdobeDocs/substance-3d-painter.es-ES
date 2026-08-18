@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/glare.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/post-processing/glare.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar el efecto de posprocesamiento de destellos en Substance 3D Painter para añadir efectos de destello de lente y floración a las áreas brillantes.
 helpx_creative_field: ""

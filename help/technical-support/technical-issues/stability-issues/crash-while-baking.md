@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-while-baking.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-while-baking.html"
 breadcrumb-title: ''
 description: Obtenga información sobre cómo solucionar los bloqueos de Substance 3D Painter durante las operaciones de pandeo para obtener flujos de trabajo fiables de panificación de texturas.
 helpx_creative_field: ""

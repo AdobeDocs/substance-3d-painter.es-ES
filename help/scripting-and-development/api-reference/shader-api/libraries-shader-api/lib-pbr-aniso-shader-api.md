@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pbr-aniso-shader-api.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pbr-aniso-shader-api.html"
 breadcrumb-title: ''
 description: Accede a la referencia de API del sombreador Lib PBR Aniso para Substance 3D Painter para crear materiales anisotrópicos basados en la física.
 helpx_creative_field: ""

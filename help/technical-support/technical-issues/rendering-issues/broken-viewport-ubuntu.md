@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/rendering-issues/broken-viewport-ubuntu.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/technical-issues/rendering-issues/broken-viewport-ubuntu.html"
 breadcrumb-title: ''
 description: Obtenga información sobre cómo solucionar problemas de la ventana gráfica rota o que no responde en Ubuntu en Substance 3D Painter para una representación 3D adecuada.
 helpx_creative_field: ""

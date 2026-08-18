@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/main-menu/help-menu.html'
+helpx_url: 'https://helpx.adobe.com/es/substance-3d-painter/interface/main-menu/help-menu.html'
 breadcrumb-title: ''
 description: Acceda al menú Ayuda de Substance 3D Painter para encontrar documentación, tutoriales y recursos de asistencia.
 helpx_creative_field: ''
@@ -29,7 +29,7 @@ ht-degree: 6%
 
 | Acción | Descripción |
 | --- | --- |
-| Tutoriales | Vínculo a [tutoriales](https://helpx.adobe.com/substance-3d/unlisted/tutorials.html) oficiales relacionados con la aplicación. |
+| Tutoriales | Vínculo a [tutoriales](https://helpx.adobe.com/es/substance-3d/unlisted/tutorials.html) oficiales relacionados con la aplicación. |
 | Notas de la versión | Vínculo a las [notas de la versión](../../release-notes/all-changes.md). |
 | Documentación | Vínculo a esta documentación. |
 | Lista de accesos directos | Vínculo a la documentación de [accesos directos](../settings/shortcuts.md). |

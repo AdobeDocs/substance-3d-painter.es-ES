@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/color-management/color-management-with-opencolorio.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/color-management/color-management-with-opencolorio.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar la gestión de color OpenColorIO en Substance 3D Painter para obtener flujos de trabajo de color uniformes entre canalizaciones.
 helpx_creative_field: ""

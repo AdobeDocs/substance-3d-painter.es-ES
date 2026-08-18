@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/symmetry.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/symmetry.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar las herramientas de simetría de Substance 3D Painter para crear efectos de pintura de textura equilibrados y reflejados.
 helpx_creative_field: ""

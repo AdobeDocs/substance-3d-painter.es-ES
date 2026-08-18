@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-emissive-shader-api.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-emissive-shader-api.html"
 breadcrumb-title: ''
 description: Acceda a la referencia de API del sombreador Emisora de labios de Substance 3D Painter para crear materiales emisores y efectos brillantes.
 helpx_creative_field: ""

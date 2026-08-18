@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/viewport-issues/mesh-faces-disappear-when-looking-at-them-from-behind.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/workflow-issues/viewport-issues/mesh-faces-disappear-when-looking-at-them-from-behind.html"
 breadcrumb-title: ''
 description: Obtenga más información sobre cómo corregir la desaparición de caras de malla cuando se visualizan desde detrás en la ventana gráfica de Substance 3D Painter para obtener una visibilidad de malla adecuada.
 helpx_creative_field: ""

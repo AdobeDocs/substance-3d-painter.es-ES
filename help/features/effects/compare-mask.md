@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/compare-mask.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/effects/compare-mask.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar el efecto Comparar máscara en Substance 3D Painter para crear máscaras basadas en operaciones de comparación de texturas.
 helpx_creative_field: ""

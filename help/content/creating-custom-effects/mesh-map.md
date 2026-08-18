@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/mesh-map.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/content/creating-custom-effects/mesh-map.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar los mapas de malla en efectos personalizados para que Substance 3D Painter acceda a la información de textura basada en la geometría.
 helpx_creative_field: ""

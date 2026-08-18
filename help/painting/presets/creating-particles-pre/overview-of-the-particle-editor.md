@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/creating-particles-presets/overview-of-the-particle-editor.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/presets/creating-particles-presets/overview-of-the-particle-editor.html"
 breadcrumb-title: ''
 description: Obtenga más información sobre el editor de partículas de Substance 3D Painter para crear ajustes preestablecidos de pincel de partículas personalizados para la pintura de texturas.
 helpx_creative_field: ""
