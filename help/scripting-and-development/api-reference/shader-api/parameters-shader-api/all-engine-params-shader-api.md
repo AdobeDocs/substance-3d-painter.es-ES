@@ -62,7 +62,7 @@ Todas estas texturas están **premultiplicadas** y **dilatadas** para evitar pro
 
 **Canales del conjunto de texturas**
 
-*channel\_ambientocclusion* *channel\_anisotropyangle* *channel\_anisotropylevel* *channel\_basecolor* *channel\_blendingmask* *channel\_diffuse* *channel\_desplazamiento* *channel\_emissive* *channel\_glossiness* *channel\_height* canal\_ior ** canal\_metálico ** canal\_normal ** canal\_opacidad ** canal\_reflexión ** canal\_rugosidad ** canal\_dispersión ** canal\_specular ** canal\_nivel especular ** canal\_transmisivo **
+*channel\_ambientocclusion* *channel\_anisotropyangle* *channel\_anisotropylevel* *channel\_basecolor* *channel\_blendingmask* *channel\_diffuse* *channel\_desplazamiento* *channel\_emissive* *channel\_glossiness* *channel\_height* canal\_ior **&#x200B; canal\_metálico &#x200B;** canal\_normal **&#x200B; canal\_opacidad &#x200B;** canal\_reflexión **&#x200B; canal\_rugosidad &#x200B;** canal\_dispersión **&#x200B; canal\_specular &#x200B;** canal\_nivel especular **&#x200B; canal\_transmisivo &#x200B;**
 
 **Canales de usuario**
 

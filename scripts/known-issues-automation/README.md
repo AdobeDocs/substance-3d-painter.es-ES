@@ -12,7 +12,7 @@ Automatiza la generación del documento de marcado de problemas conocidos para S
 
 Los problemas se originan en la épica de Jira `SBSFOUR-6267`. El script obtiene todos los problemas, filtra todo lo que ya se haya solucionado en la versión de destino y genera un archivo de marcado con formato listo para ejecutarse.
 
----
+&#x200B;---
 
 ## Inicio rápido
 
@@ -25,12 +25,13 @@ En estos pasos se supone que ya ha completado la configuración única que se in
    ```
    python fetch_known_issues.py
    ```
+
 4. Compruebe el resumen de resultados: informará de cuántos problemas se han recuperado y cuántos se han excluido
 5. Copie el `known-issues.md` generado en `help/release-notes/known-issues.md`
 
 > Si falta algún problema o es inesperado, inspeccione `raw_issues.json` para ver exactamente lo que Jira devolvió antes de aplicar el filtro.
 
----
+&#x200B;---
 
 ## Configuración de una sola vez
 
@@ -64,7 +65,7 @@ OUTPUT_FILE=known-issues.md
 
 `TARGET_VERSION` es la versión de Substance 3D Painter para la que está generando la página de problemas conocidos. Controla los problemas corregidos que se excluyen. Consulte [Lógica de filtrado](#filtering-logic) más abajo.
 
----
+&#x200B;---
 
 ## Estructura del repositorio
 
@@ -78,7 +79,7 @@ OUTPUT_FILE=known-issues.md
 └── known-issues.md            # Generated output from last run — gitignored
 ```
 
----
+&#x200B;---
 
 ## Referencia de Jira
 
@@ -90,7 +91,7 @@ OUTPUT_FILE=known-issues.md
 
 Todos los problemas conocidos deben estar vinculados a esta épica para que aparezcan en el documento generado. Si es necesario añadir o eliminar un problema de la página, actualice la imagen épica en Jira en lugar de editar el marcado manualmente.
 
----
+&#x200B;---
 
 ## Cómo funciona el script
 
@@ -153,7 +154,7 @@ El script genera `known-issues.md` con:
 - Líneas en blanco entre grupos de categorías
 - Una sección `## Stability` al final para problemas de bloqueo
 
----
+&#x200B;---
 
 ## Lógica de filtrado
 
@@ -165,7 +166,7 @@ El script genera `known-issues.md` con:
 | `Fixed` | Sí | Fix version ≤ target | No (ya enviado) |
 | `Fixed` | Sí | Fijar versión > destino | Sí (la corrección está en una versión futura) |
 
----
+&#x200B;---
 
 ## Formato de salida
 
@@ -194,7 +195,7 @@ This page lists all the active known issues present in v12.0.3 of Substance 3D P
 
 **Nota de formato:** Las etiquetas de categoría usan un ajuste de comilla trasera — `` `[Category]` `` — no dobles marcas. El documento heredado mantenido manualmente contenía errores de doble acento grave; el script siempre produce el formato correcto.
 
----
+&#x200B;---
 
 ## Resolución de problemas
 

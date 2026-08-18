@@ -144,7 +144,7 @@ También hemos añadido contenido nuevo en esta versión:
   La dirección se puede definir con dos posiciones 3D, que se pueden seleccionar directamente en el mapa de posición.\
   Ejemplo :
 
-1. 
+1. &#x200B;
    1. Cree el generador de máscaras **3D linear gradient** en una de las capas
    1. Cambie la visualización de la ventana gráfica a &quot;**Posición**&quot; (mediante el menú desplegable de la ventana gráfica o usando la clave &quot;**B**&quot;)
    1. Haga clic en el parámetro &quot;**Inicio de posición 3D**&quot; para abrir el elemento emergente **Selector de color**

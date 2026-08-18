@@ -59,7 +59,7 @@ Desde la introducción de [Texturas virtuales dispersas](../../../features/spars
 Hay dos soluciones fáciles para este problema:
 
 * Libere espacio en el disco para dejar más espacio en el sistema de caché.
-* Mueva el directorio de caché a otra unidad con más espacio. Esta ubicación se puede cambiar entrando en la configuración principal de la aplicación, consulte la configuración [ &quot;Archivos temporales&quot;](https://docs.substance3d.com/display/SPDOC/General) .
+* Mueva el directorio de caché a otra unidad con más espacio. Esta ubicación se puede cambiar entrando en la configuración principal de la aplicación, consulte la configuración [&#x200B; &quot;Archivos temporales&quot;](https://docs.substance3d.com/display/SPDOC/General) .
 
 ### Disco defectuoso (HDD o SSD)
 
