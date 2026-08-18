@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/viewport-menu.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/main-menu/viewport-menu.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar el menú Ventana gráfica en Substance 3D Painter para acceder a la configuración de la ventana gráfica y a las opciones de visualización.
 helpx_creative_field: ""

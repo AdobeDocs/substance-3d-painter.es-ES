@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/viewport.html'
+helpx_url: 'https://helpx.adobe.com/es/substance-3d-painter/interface/viewport.html'
 description: Aprenda a utilizar la ventana gráfica de Substance 3D Painter para visualizar sus modelos y texturas 3D durante el proceso de pintura.
 helpx_description: Painter > Interface > Viewport
 title: Área de visualización

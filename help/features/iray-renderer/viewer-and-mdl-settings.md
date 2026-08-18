@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/iray-renderer/viewer-and-mdl-settings.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/iray-renderer/viewer-and-mdl-settings.html"
 breadcrumb-title: ''
 description: Aprenda a configurar los ajustes de visor y MDL para el procesador Iray en Substance 3D Painter para personalizar la representación del material.
 helpx_creative_field: ""

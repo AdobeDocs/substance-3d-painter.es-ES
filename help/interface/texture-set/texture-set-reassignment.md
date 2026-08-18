@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/texture-set/texture-set-reassignment.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/texture-set/texture-set-reassignment.html"
 breadcrumb-title: ''
 description: Aprenda a reasignar conjuntos de texturas en Substance 3D Painter para reorganizar las asignaciones de mallas y la asignación de texturas.
 helpx_creative_field: ""

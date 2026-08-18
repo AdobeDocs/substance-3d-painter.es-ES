@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/plugins.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/plugins.html"
 breadcrumb-title: ''
 description: Aprende a usar plug-ins en Substance 3D Painter para ampliar la funcionalidad y personalizar tu flujo de trabajo de pintura de texturas.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/fill.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/effects/fill.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar el efecto Relleno en Substance 3D Painter para rellenar capas con colores, texturas o materiales sólidos.
 helpx_creative_field: ""

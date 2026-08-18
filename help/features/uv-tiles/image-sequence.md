@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/uv-tiles/image-sequence.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/uv-tiles/image-sequence.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar secuencias de imágenes con mosaicos UV en Substance 3D Painter para flujos de trabajo de texturas animadas.
 helpx_creative_field: ""

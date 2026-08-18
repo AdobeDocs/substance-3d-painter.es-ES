@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/baking/mesh-map-settings.html'
+helpx_url: 'https://helpx.adobe.com/es/substance-3d-painter/baking/mesh-map-settings.html'
 breadcrumb-title: ''
 description: Aprenda a configurar los ajustes del mapa de malla en Substance 3D Painter para controlar los parámetros de procesamiento y la calidad de salida.
 helpx_creative_field: ''

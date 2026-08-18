@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/settings/general-preferences.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/settings/general-preferences.html"
 breadcrumb-title: ''
 description: Aprenda a configurar las preferencias generales en Substance 3D Painter para personalizar el comportamiento de la aplicación y la experiencia del usuario.
 helpx_creative_field: ""

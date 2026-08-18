@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/automatic-uv-unwrapping.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/automatic-uv-unwrapping.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar el desajuste UV automático en Substance 3D Painter para generar diseños UV para sus modelos 3D automáticamente.
 helpx_creative_field: ""

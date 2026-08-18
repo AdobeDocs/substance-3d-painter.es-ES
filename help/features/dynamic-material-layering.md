@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/dynamic-material-layering.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/dynamic-material-layering.html"
 breadcrumb-title: ''
 description: Aprenda a usar control dinámico de capas de materiales en Substance 3D Painter para mezclar y combinar materiales con máscaras de procedimiento.
 helpx_creative_field: ""
