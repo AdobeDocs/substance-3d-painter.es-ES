@@ -266,15 +266,15 @@ También actualizamos parte del contenido existente para perfeccionarlo :
 
 * La malla desaparece a veces de la ventana gráfica 3D (presione F para restablecer la cámara)
 * [glTF] Actualizar el cargador de Substance Painter Sketchfab con los nuevos tipos de licencia de Sketchfab
-* [Import][glTF] Modulación incorrecta de la textura de entrada definida en los archivos glTF
-* [Import][glTF] El plano de tierra se muestra incorrectamente con la importación de glTF en algunos casos
-* [Export][USD] La opacidad no funciona en Arkit
-* [Export][USD] La exportación de USDz se bloquea en algunos casos
-* [Export][USD] Exportar a USD sin guardar provoca un bloqueo
-* [Export][USD] Modo de mosaico incorrecto para texturas, modo de subdivisión para mallas y tipos de salida para sombreadores
-* [Export][USD] Exportaciones dispersas de solo algunos conjuntos de texturas con toda la geometría
+* [Import]&#x200B;[glTF] Modulación incorrecta de la textura de entrada definida en los archivos glTF
+* [Import]&#x200B;[glTF] El plano de tierra se muestra incorrectamente con la importación de glTF en algunos casos
+* [Export]&#x200B;[USD] La opacidad no funciona en Arkit
+* [Export]&#x200B;[USD] La exportación de USDz se bloquea en algunos casos
+* [Export]&#x200B;[USD] Exportar a USD sin guardar provoca un bloqueo
+* [Export]&#x200B;[USD] Modo de mosaico incorrecto para texturas, modo de subdivisión para mallas y tipos de salida para sombreadores
+* [Export]&#x200B;[USD] Exportaciones dispersas de solo algunos conjuntos de texturas con toda la geometría
 * [Instancia] Bloqueo al intentar eliminar una capa de instancia rota
-* [Regresión][Exportar] Algunos mapas no exportados en la profundidad de bits elegida
+* [Regresión]&#x200B;[Exportar] Algunos mapas no exportados en la profundidad de bits elegida
 * [Linux] Problema con library libtbb.so.2
 
 **Problemas conocidos:**
@@ -353,19 +353,19 @@ También actualizamos parte del contenido existente para perfeccionarlo :
 * [Pila de capas] Colores en capas y carpetas
 * [Pila de capas] Activación y desactivación rápidas de varias capas y efectos
 * [Pila de capas] Navegación más sencilla por los modos de fusión con las teclas hacia arriba y el desplazamiento del ratón
-* [Proj][UI] Manipulador de rotación adicional en los tres ejes para triplanar
-* [Proj][Atajos] : y + para cambiar el tamaño del manipulador de Proyección de UV
+* [Proj]&#x200B;[UI] Manipulador de rotación adicional en los tres ejes para triplanar
+* [Proj]&#x200B;[Atajos] : y + para cambiar el tamaño del manipulador de Proyección de UV
 * [Shader] Controle los parámetros de capa revestida con canales en el sombreador recubierto de PBR
 * [Substance] Expone nuevas entradas de textura basadas en malla para filtros y generadores
-* [Simetría][Ventana gráfica][IU] Controlar el desplazamiento de simetría con manipuladores
-* [Simetría][Barra de herramientas contextual][IU] Nuevo panel de simetría con opciones
+* [Simetría]&#x200B;[Ventana gráfica]&#x200B;[IU] Controlar el desplazamiento de simetría con manipuladores
+* [Simetría]&#x200B;[Barra de herramientas contextual]&#x200B;[IU] Nuevo panel de simetría con opciones
 * [Simetría] Nuevo modo de intersección de línea de simetría
 * [Simetría] Nuevo cursor de clonación de simetría
 * [Simetría] [Métodos abreviados] Q para ocultar y -, + para cambiar el tamaño y cambiar para ajustar
 * [Log] Mejore los mensajes de error cuando no se pueden exportar texturas
 * [Scripting] Permite cambiar o actualizar los recursos en Configuración de visualización
 * [Scripting] Permite crear o quitar canales en conjuntos de texturas
-* [Contenido][Shaders] Añadir compatibilidad para la anisotropía con un sombreado específico (pbr-metal-rough-anisotropía-angle)
+* [Contenido]&#x200B;[Shaders] Añadir compatibilidad para la anisotropía con un sombreado específico (pbr-metal-rough-anisotropía-angle)
 * [Contenido] Actualización de la esfera de previsualización con anisotropía y ángulo modificado
 * [Contenido] Se ha actualizado el obturador de matFx
 * [Contenido] Nueva digitalización de caras sin problemas Texturing.XYZ
@@ -374,16 +374,16 @@ También actualizamos parte del contenido existente para perfeccionarlo :
 * [Contenido] Nuevo mapa de entorno: studio automotive neutral
 * [Contenido] Nueva plantilla de proyecto: PBR - ángulo de Anisotropía de rugosidad metálica (con canales de anisotropía)
 * [Contenido] Nueva plantilla de proyecto: PBR - Rugosidad metálica Recubierta
-* [SVT][Motor] Texturas virtuales dispersas (SVT)
-* [SVT][Preferencias][IU] Opción de aceleración de compatibilidad de hardware SVT
-* [SVT][Log] Información adicional para la función de texturas virtuales dispersas (p. ej., disco de tamaño)
-* [SVT][UI] Ventana de mensaje al inicio si el tamaño del disco es demasiado bajo para la caché
-* [SVT][Preferencias][IU] Ubicación de caché global del Substance Painter
+* [SVT]&#x200B;[Motor] Texturas virtuales dispersas (SVT)
+* [SVT]&#x200B;[Preferencias]&#x200B;[IU] Opción de aceleración de compatibilidad de hardware SVT
+* [SVT]&#x200B;[Log] Información adicional para la función de texturas virtuales dispersas (p. ej., disco de tamaño)
+* [SVT]&#x200B;[UI] Ventana de mensaje al inicio si el tamaño del disco es demasiado bajo para la caché
+* [SVT]&#x200B;[Preferencias]&#x200B;[IU] Ubicación de caché global del Substance Painter
 * [SVT] Nueva variable de entorno para especificar la ruta de acceso de la caché del Substance Painter
 * [SVT] Nueva variable de entorno para activar la aceleración de compatibilidad de hardware SVT
 * [SVT] Detectar compatibilidad dispersa por hardware
-* [SVT][Hardware disperso] Aumentar la versión mínima del controlador para la GPU Nvidia
-* [SVT][Shader][Viewport][UI] Advertencia al usuario si hay artefactos con texturas virtuales dispersas al abrir el proyecto
+* [SVT]&#x200B;[Hardware disperso] Aumentar la versión mínima del controlador para la GPU Nvidia
+* [SVT]&#x200B;[Shader]&#x200B;[Viewport]&#x200B;[UI] Advertencia al usuario si hay artefactos con texturas virtuales dispersas al abrir el proyecto
 
 <b><b>Corregido:</b>\
 </b>
@@ -391,7 +391,7 @@ También actualizamos parte del contenido existente para perfeccionarlo :
 * [Selector de color] Cursor de pintura que aparece al intentar seleccionar un color
 * Bloqueo al seleccionar o anular la selección de capas en un orden específico puede producir un bloqueo
 * Bloqueo al pegar como instancia una capa con una máscara
-* [Canal de usuario][Regresión] Bloqueo al cambiar el nombre del canal de usuario
+* [Canal de usuario]&#x200B;[Regresión] Bloqueo al cambiar el nombre del canal de usuario
 * [Canal de usuario] Vista previa de pincel atenuado
 * [Alembic] Solo un conjunto de texturas de varios materiales tras la importación
 * [Motor] La textura exportada difiere de la ventana gráfica para los sellos de pincel

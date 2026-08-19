@@ -180,7 +180,7 @@ Resumen : **Corrección de error**
 **Corregido:**
 
 * [Plugin] El complemento de origen no funciona
-* [MacOS][Shader] Mac OS 10.14.5 y AMD: la colocación de los materiales en capas no funciona como se pretende
+* [MacOS]&#x200B;[Shader] Mac OS 10.14.5 y AMD: la colocación de los materiales en capas no funciona como se pretende
 
 **Problemas conocidos:**
 
@@ -205,7 +205,7 @@ Resumen : **Corrección de error**
 
 **Corregido:**
 
-* [Mac][USD] No se pueden abrir los archivos USDZ exportados de MacOS
+* [Mac]&#x200B;[USD] No se pueden abrir los archivos USDZ exportados de MacOS
 * [Conjunto de texturas] No es posible aislar un conjunto de texturas con el modificador ALT
 * [Shelf] Los ajustes preestablecidos, los materiales inteligentes y las máscaras inteligentes siempre se modifican al salir de la aplicación
 * [Pila de capas] No se puede seleccionar el efecto después de eliminar otro efecto
@@ -229,13 +229,13 @@ Resumen : **Versión principal con actualizaciones de los panaderos en términos
 
 * [Panaderos] Se ha agregado compatibilidad para Trazados de rayos de GPU con DXR y OptiX (Oclusión ambiental, Thickness)
 * [Bakers] Optimizaciones y aceleraciones para trazado de rayo de CPU
-* [Panaderos][Modo Vis][IU] Nuevo modo de visualización de panificación en la ventana gráfica
-* [Panaderos][Preferencias][IU] Nueva opción de panificación para activar y desactivar el Trazado de rayos de GPU
-* [Bakers][UI] Repaso del diálogo de la barra de progreso
+* [Panaderos]&#x200B;[Modo Vis]&#x200B;[IU] Nuevo modo de visualización de panificación en la ventana gráfica
+* [Panaderos]&#x200B;[Preferencias]&#x200B;[IU] Nueva opción de panificación para activar y desactivar el Trazado de rayos de GPU
+* [Bakers]&#x200B;[UI] Repaso del diálogo de la barra de progreso
 * [Panaderos] Mejora de los mensajes de advertencia y error
 * [Panaderos] Permite una cancelación más sensible del proceso de cocción
 * [Bakers] Vuelva a abrir la ventana de cocción después de hacer clic en Cancelar
-* [Proj][UX] Mejora de la usabilidad del manipulador de rotación
+* [Proj]&#x200B;[UX] Mejora de la usabilidad del manipulador de rotación
 * [Configuración] Opción para mejorar el rendimiento reduciendo la resolución de la ventana gráfica para las pantallas HDPI
 * [Scripting] Cambiar la resolución del conjunto de texturas
 * [Scripting] Obtener conjunto de texturas seleccionado

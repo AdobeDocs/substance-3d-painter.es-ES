@@ -280,7 +280,7 @@ Resumen : **Corrección de error con 2 nuevas características**
 * [TextureSet] Bloqueo al hacer clic entre máscaras
 * [SVT] El Desplazamiento no se muestra correctamente y parpadea en algunos casos
 * [Alembic] Bloqueo con la malla utilizando normales de punto en lugar de normales de vértice
-* [Alembic][Log] Informar de un error en Log si no se admite el archivo Alembic durante la importación
+* [Alembic]&#x200B;[Log] Informar de un error en Log si no se admite el archivo Alembic durante la importación
 
 ### 2019.1.2
 
@@ -337,16 +337,16 @@ Resumen : **Trazo dinámico con contenido nuevo dedicado, Desplazamiento y tesel
 * [Trazo dinámico] [Estante] Ayuda para buscar un recurso de trazo dinámico con un icono nuevo dedicado
 * Desplazamiento y teselación en la ventana gráfica en tiempo real
 * Desplazamiento y teselado en Iray
-* [Configuración de sombreado][IU] Nueva ficha para controlar el desplazamiento y la teselación
+* [Configuración de sombreado]&#x200B;[IU] Nueva ficha para controlar el desplazamiento y la teselación
 * [Pila de capas] Nuevo efecto CompararMáscara: generar una máscara comparando dos canales
-* [Pila de capas][IU] Nueva entrada en el menú contextual &quot;Añadir máscara con combinación de heightes&quot; para insertar un efecto Comparar máscara
+* [Pila de capas]&#x200B;[IU] Nueva entrada en el menú contextual &quot;Añadir máscara con combinación de heightes&quot; para insertar un efecto Comparar máscara
 * [Simetría] Nuevo modo de simetría: pintura radial
 * [Configuración de simetría] Expanda las secciones &quot;Configuración&quot; y &quot;Pantalla&quot;
 * [Ajustes de simetría] [IU] Vista previa para pintura radial
 * Exponga dos nuevos modos de proyección: planar y esférico
 * [Proj] Nuevo modo de recorte de forma para todas las proyecciones
 * [Proj] Modo plano con nuevo manipulador: Herramienta Superficie
-* [Proj][Acceso directo] Método abreviado MAYÚS+W para la herramienta Superficie
+* [Proj]&#x200B;[Acceso directo] Método abreviado MAYÚS+W para la herramienta Superficie
 * [Proj] Enmascaramiento de proyección plana con selección de profundidad y sacrificio de la cara posterior
 * [Manipulador] Mejora del manipulador de rotación en los tres ejes para triplanar
 * [Herramienta] [Experiencia de usuario] Al pulsar Alt y hacer clic en un canal, se selecciona ese canal (lo activa o desactiva todos los demás).
@@ -355,17 +355,17 @@ Resumen : **Trazo dinámico con contenido nuevo dedicado, Desplazamiento y tesel
 * [Conjunto de texturas] Activación y desactivación rápidas de los conjuntos de texturas
 * [Conjunto de texturas] Combina solo y todas las opciones en un nuevo menú
 * [Conjunto de texturas] [Pila de capas] Nuevo icono para activación y desactivación
-* [Pila de capas][UX] Inserta efectos por encima de los que ya están seleccionados
-* [Pila de capas][IU] Reprocesamiento de la vista de la pila de capas
+* [Pila de capas]&#x200B;[UX] Inserta efectos por encima de los que ya están seleccionados
+* [Pila de capas]&#x200B;[IU] Reprocesamiento de la vista de la pila de capas
 * [Pila de capas] El modo de fusión para capas con instancias ahora está en modo Pass Through de forma predeterminada
 * [Exportar] Opción para activar y desactivar el tramado
 * [Plugin] Compatibilidad con el modificador de precisión para reguladores (MAYÚS)
-* [Plugin][UI] Nuevo icono para autoguardar
+* [Plugin]&#x200B;[UI] Nuevo icono para autoguardar
 * [Scripting] Enumera el contenido de una carpeta
 * [Scripting] Permitir la eliminación de archivos
 * [Scripting] Lea toda la información de la pila, incluidos los recursos utilizados
-* [Contenido][Trazo dinámico] Nuevas herramientas y ajustes preestablecidos de pincel
-* [Content][Dynamic stroke] Dos nuevos degradados de procedimiento: Tono de degradado y Generador de degradado
+* [Contenido]&#x200B;[Trazo dinámico] Nuevas herramientas y ajustes preestablecidos de pincel
+* [Content]&#x200B;[Dynamic stroke] Dos nuevos degradados de procedimiento: Tono de degradado y Generador de degradado
 * [Contenido] 11 nuevos filtros: Pintura descascarillada MatFx, gotas de agua MatFx y más
 * [Contenido] 7 nuevos generadores: Stitcher automático, UV Random Color, UV Texel Density y más
 * [Contenido] 93 alfas nuevas: nuevos textos, flechas y otras formas
