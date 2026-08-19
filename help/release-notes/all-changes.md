@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/es/substance-3d-painter/release-notes/all-changes.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/release-notes/all-changes.html'
 breadcrumb-title: ''
 description: Revisa todos los cambios y actualizaciones en las versiones de Substance 3D Painter para realizar un seguimiento de la evolución y las mejoras de las funciones a lo largo del tiempo.
 helpx_creative_field: ''
@@ -123,7 +123,7 @@ Resumen: <b>Esta actualización es una versión importante, contiene mejoras en 
 * [Auto-Cage] Carga infinita cuando la ruta del archivo de poli alto no es válida
 * [Linux] [Windows] En ocasiones, el selector de color puede ser completamente negro o no aparecer
 * [Herramienta Relleno poligonal] La herramienta no funciona con PBR
-* &lbrack;[Paint] Al eliminar el canal de color base no se elimina el color pintado anteriormente
+* [[Paint] Al eliminar el canal de color base no se elimina el color pintado anteriormente
 * [USD] No se detectan correctamente todas las instancias de sombreado
 * [Substance] Solo se tiene en cuenta el primer uso de un nodo de entrada/salida
 * [Sombreado] La Oclusión ambiental se aplica dos veces con conjuntos de texturas mediante diferentes métodos de mezcla
