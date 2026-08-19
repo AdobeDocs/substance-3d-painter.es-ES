@@ -3,9 +3,9 @@ helpx_url: 'https://helpx.adobe.com/es/substance-3d-painter/interface/viewport.h
 description: Aprenda a utilizar la ventana gráfica de Substance 3D Painter para visualizar sus modelos y texturas 3D durante el proceso de pintura.
 helpx_description: Painter > Interface > Viewport
 title: Área de visualización
-source-git-commit: 7b5f6e6c9623cb51253b6e49c8dbcbb22856418c
+source-git-commit: 307c4f1121ae6841d68f8ea5dc597790e0d18a14
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '475'
 ht-degree: 2%
 
 ---
@@ -74,19 +74,19 @@ El diseño predeterminado coloca la vista 3D a la izquierda y la vista 2D a la d
     <th><em>Descripción</em></th>
   </tr>
   <tr>
-    <td><strong>Modo de ventana gráfica</strong><br>![](../../assets/viewport-viewmode.png)</td>
+    <td><strong>Modo de ventana</strong><br><img src="../../assets/viewport-viewmode.png"/></td>
     <td>Estos ajustes controlan el diseño de la ventana gráfica:<br><ul><li><strong>3D/2D</strong> (predeterminado): mostrar las vistas 3D y 2D en la ventana gráfica</li><li><strong>Solo 3D</strong>: maximice la vista 3D y oculte la vista 2D.</li><li><strong>Solo 2D</strong>: maximiza la vista 2D y oculta la vista 3D.</li><li><strong>Intercambiar 3D/2D</strong>: cambie el orden en el que se muestran las vistas. Si la vista 3D estaba a la izquierda, estará a la derecha después de elegir esta acción.</li></ul></td>
   </tr>
   <tr>
-    <td><strong>Modo de perspectiva</strong><br>![](../../assets/viewport-camera-projection.png)</td>
+    <td><strong>Modo Perspectiva</strong><br><img src="../../assets/viewport-camera-projection.png"/></td>
     <td>Estos ajustes controlan cómo aparecerá la malla 3D en la vista 3D:<br><ul><li><strong>Vista de perspectiva</strong> (predeterminada): muestra la malla 3D tal y como la vería el ojo humano o una cámara.</li><li><strong>Vista ortográfica</strong>: muestra la malla 3D, ya que cada dirección mide la misma longitud.</li></ul></td>
   </tr>
   <tr>
-    <td><strong>Modo de rotación de cámara</strong><br>![](../../assets/viewport-camera-axis.png)</td>
+    <td><strong>Modo de rotación de cámara</strong><br><img src="../../assets/viewport-camera-axis.png"/></td>
     <td>Esta configuración controla cuántos ejes puede rotar la cámara de la ventanilla.<br><ul><li><strong>Rotación gratuita</strong>: la cámara gira sobre los ejes X, Y y Z.</li><li><strong>Rotación restringida</strong> (predeterminado): la cámara gira únicamente en los ejes X e Y (sin desplazamiento).</li></ul></td>
   </tr>
   <tr>
-    <td><strong>Modo de procesamiento</strong><br>![](../../assets/viewport-rendering.png)</td>
+    <td><strong>Modo de procesamiento</strong><br><img src="../../assets/viewport-rendering.png"/></td>
     <td>Cambie al <a href="../../features/iray-renderer/iray-renderer.md">modo de representación</a>.</td>
   </tr>
 </table>
