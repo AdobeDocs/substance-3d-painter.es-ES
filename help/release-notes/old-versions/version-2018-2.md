@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/old-versions/version-2018-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2018-2.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 2018.2 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
 helpx_creative_field: ""
@@ -190,7 +190,7 @@ Para encontrar el proyecto, use **Archivo** > **Abrir ejemplo...Entrada de menú
 
 (Publicado el 25 de septiembre de 2018)
 
-**&#x200B;**&#x200B;Corregido:**&#x200B;**
+****Corregido:****
 
 * [Vista 2D] La vista 2D se rompe con algunas mallas al crear un proyecto nuevo
 * [Bloqueo] El cambio de la Proyección de UV a la proyección triplanar produce un bloqueo

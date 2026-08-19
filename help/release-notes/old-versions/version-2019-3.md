@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/old-versions/version-2019-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2019-3.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 2019.3 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
 helpx_creative_field: ""
@@ -34,7 +34,7 @@ Ahora puede usar sus pinceles de Photoshop en Substance Painter. Con solo export
 
 Si no tiene archivos ABR para importar, puede encontrar muchos de ellos en línea:
 
-* [Pinceles preestablecidos de Kyle en el Adobe](https://www.adobe.com/es/products/photoshop/brushes.html)
+* [Pinceles preestablecidos de Kyle en el Adobe](https://www.adobe.com/products/photoshop/brushes.html)
 * [Ajustes preestablecidos de pincel en ArtStation](https://www.artstation.com/marketplace?q=photoshop%20brush&sort_by=trending)
 * [Ajustes preestablecidos de pincel en DeviantArt](https://www.deviantart.com/search?q=photoshop%20brush)
 * [Ajustes preestablecidos de pincel en pincel de cubo](https://cubebrush.co/marketplace?categories=354,57)
@@ -115,7 +115,7 @@ Además de la compatibilidad con los ajustes preestablecidos de pincel de Photos
 Substance Painter ahora desenvolverá automáticamente las mallas que tengan coordenadas UV que falten. Esto permite importar cualquier tipo de geometría y comenzar inmediatamente a pintar. Nuestro sistema de desempaquetado UV generará una Isla de UV por submalla mientras sigue la asignación de materiales para crear conjuntos de texturas. Esta función se encuentra actualmente en fase beta y evolucionará en futuras versiones. El desajuste automático solo se aplicará a proyectos que **no utilicen el flujo de trabajo UDIM**.
 
 * **Desempaquetado automático de UV**\
-  De forma predeterminada, el Substance Painter generará automáticamente las coordenadas UV de las mallas a las que les faltan. Esto se aplica tanto a la creación de proyectos como a la reimportación de mallas. Sin embargo, es posible deshabilitar este comportamiento entrando en la [configuración principal](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/general-71008262.html) y deshabilitando **Habilitar desajuste automático de UV** en **Opciones de importación**.
+  De forma predeterminada, el Substance Painter generará automáticamente las coordenadas UV de las mallas a las que les faltan. Esto se aplica tanto a la creación de proyectos como a la reimportación de mallas. Sin embargo, es posible deshabilitar este comportamiento entrando en la [configuración principal](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) y deshabilitando **Habilitar desajuste automático de UV** en **Opciones de importación**.
 
   ![](../../assets/uv-unwrap-setting.png)
 * **Barra de progreso de desempaquetado de UV**\
@@ -215,7 +215,7 @@ En esta versión se ha añadido mucho contenido nuevo:
 * **Nuevos ajustes preestablecidos de pincel**
 
   * **102 pinceles preestablecidos de Photoshop**\
-    Con la introducción de la compatibilidad con el pincel de Photoshop, se ha incluido un nuevo conjunto de ajustes preestablecidos para mostrarlo. Estos ajustes preestablecidos se han seleccionado entre los paquetes de Kyle T. Webster disponibles en el [sitio web de Adobe](https://www.adobe.com/es/products/photoshop/brushes.html).
+    Con la introducción de la compatibilidad con el pincel de Photoshop, se ha incluido un nuevo conjunto de ajustes preestablecidos para mostrarlo. Estos ajustes preestablecidos se han seleccionado entre los paquetes de Kyle T. Webster disponibles en el [sitio web de Adobe](https://www.adobe.com/products/photoshop/brushes.html).
 
     ![](../../assets/shelf-abr-demo.jpg){width="500px"}
   * **18 nuevos ajustes preestablecidos de pincel**\

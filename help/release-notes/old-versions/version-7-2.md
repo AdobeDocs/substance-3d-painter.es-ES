@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/old-versions/version-7-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-7-2.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 7.2 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Versión 7.2
 
-**Substance 3D Painter 7.2** ofrece nuevas funciones de representación con el flujo de trabajo de Adobe Standard Material, nuevas formas de compartir contenido entre [aplicaciones de Substance 3D](https://www.adobe.com/es/products/substance3d/3d-augmented-reality.html) y una ventana de activos revisada.
+**Substance 3D Painter 7.2** ofrece nuevas funciones de representación con el flujo de trabajo de Adobe Standard Material, nuevas formas de compartir contenido entre [aplicaciones de Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) y una ventana de activos revisada.
 
 Fecha de publicación: *23 de junio de 2021*
 
