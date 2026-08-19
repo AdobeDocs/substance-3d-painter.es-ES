@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 2017.3 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ Fecha de publicación : *28 de septiembre de 2017*
 
 ![](../../assets/adobe-dimension-meetmat.jpg)
 
-Uno de los nuevos exportadores que incluimos en esta versión es el soporte de Adobe Standard Material, que se utilizará con Adobe Dimension (anteriormente Adobe Project Felix). Le permitimos exportar la malla de la escena y sus texturas para importarlas en el proyecto Felix con un solo clic. Para acceder a él, simplemente elige &quot;**Adobe Standard Material**&quot; en la ventana de texturas de exportación. Para obtener más información, consulte: [http://www.adobe.com/es/products/dimension.html](https://www.adobe.com/es/products/dimension.html)
+Uno de los nuevos exportadores que incluimos en esta versión es el soporte de Adobe Standard Material, que se utilizará con Adobe Dimension (anteriormente Adobe Project Felix). Le permitimos exportar la malla de la escena y sus texturas para importarlas en el proyecto Felix con un solo clic. Para acceder a él, simplemente elige &quot;**Adobe Standard Material**&quot; en la ventana de texturas de exportación. Para obtener más información, consulte: [http://www.adobe.com/products/dimension.html](https://www.adobe.com/products/dimension.html)
 
 También puedes consultar nuestra entrada de blog sobre ello : <https://www.allegorithmic.com/blog/new-dimension-substance-ecosystem>
 
@@ -55,7 +55,7 @@ Si se crea una copia de seguridad pero el proyecto no se ha guardado (también c
 
 ![](../../assets/gradient-rust.jpg)
 
-El **filtro de degradado** se ha renovado por completo. Actuando de una manera mucho más similar al nodo **gradient map** disponible en **Substance Designer**. Ahora admite hasta **10 colores diferentes**, con la posibilidad de especificar **dónde se ubica el color dentro de** el degradado **&#x200B;**, lo que abre muchas puertas nuevas. Esto permite crear más **patrones de color avanzados**, pero también **reasignar mapas de altura**&#x200B;y crear **nuevas formas**.
+El **filtro de degradado** se ha renovado por completo. Actuando de una manera mucho más similar al nodo **gradient map** disponible en **Substance Designer**. Ahora admite hasta **10 colores diferentes**, con la posibilidad de especificar **dónde se ubica el color dentro de** el degradado ****, lo que abre muchas puertas nuevas. Esto permite crear más **patrones de color avanzados**, pero también **reasignar mapas de altura**y crear **nuevas formas**.
 
 El regulador principal (cantidad de color) define el número de colores totales utilizados para crear el degradado. El botón situado justo debajo define el modo de fusión de color (sRGB o Lineal). Esto es importante si desea tener una fusión adecuada entre colores. Por ejemplo, mezclar un rojo puro y un verde puro debería dar un amarillo bonito en medio. Este no será el caso si el botón está desactivado (se dará un marrón oscuro en su lugar). Al reasignar el height o cualquier otro canal de escala de grises, este botón debe desactivarse para evitar la conversión de gamma.
 
