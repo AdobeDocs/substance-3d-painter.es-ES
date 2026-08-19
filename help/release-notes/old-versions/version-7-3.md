@@ -132,15 +132,15 @@ Resumen : **Versión principal. Contiene una nueva proyección de deformación 3
 * [Proyección] [Deformar] Exponer deformación 3D como un nuevo modo de proyección
 * [Proyección] [Deformar] Permitir el modo de pegatina para Alpha, texturas y procedimientos con la función de arrastrar y soltar en la ventana gráfica
 * [Proyección] [Deformar] Utilice la proyección de deformación con el método abreviado de pegatina (ALT)
-* [Proyección][Deformar][Barra de herramientas] Transformar deformación como completa o por vértices
-* [Proyección][Deformar][Barra de herramientas] Añadir puntos de cuadrícula con opciones de deformación dividida en sentido cruzado, horizontal o vertical
-* [Proyección][Deformar][Barra de herramientas] Menú específico para acciones de restablecimiento
-* [Proyección][Deformar][Barra de herramientas] Opción para ajustar automáticamente las tangentes al mover puntos
-* [Proyección][Deformar][Barra de herramientas] Menú específico para la edición de la cuadrícula (tamaño, restablecimiento, color y tamaño del control)
+* [Proyección]&#x200B;[Deformar]&#x200B;[Barra de herramientas] Transformar deformación como completa o por vértices
+* [Proyección]&#x200B;[Deformar]&#x200B;[Barra de herramientas] Añadir puntos de cuadrícula con opciones de deformación dividida en sentido cruzado, horizontal o vertical
+* [Proyección]&#x200B;[Deformar]&#x200B;[Barra de herramientas] Menú específico para acciones de restablecimiento
+* [Proyección]&#x200B;[Deformar]&#x200B;[Barra de herramientas] Opción para ajustar automáticamente las tangentes al mover puntos
+* [Proyección]&#x200B;[Deformar]&#x200B;[Barra de herramientas] Menú específico para la edición de la cuadrícula (tamaño, restablecimiento, color y tamaño del control)
 * [Proyección] [Deformar] Nuevo método abreviado de teclado para cambiar el modo de edición de deformación de vértices completos (MAYÚS+V)
 * [Proyección] [Deformar] Haga clic en + Ctrl para cambiar entre la herramienta Superficie y otras herramientas
 * [Proyección] [Cilíndrica] Exponer el modo de proyección cilíndrica
-* [Proyección][Barra de herramientas] Configuración del manipulador de grupos (tamaño, pasos de cuadrícula, pasos de ángulo)
+* [Proyección]&#x200B;[Barra de herramientas] Configuración del manipulador de grupos (tamaño, pasos de cuadrícula, pasos de ángulo)
 * [Selector de color] Nueva interfaz de usuario del selector de color
 * [Selector de color] Uso de valores sRGB en widgets de selector de color
 * [Selector de color] Permitir guardar y eliminar muestras de color
@@ -173,4 +173,4 @@ Resumen : **Versión principal. Contiene una nueva proyección de deformación 3
 * [Proyección] [Deformación] Líneas de artefactos entre parches en algunos casos raros
 * [Proyección] [UV] El punto de giro se restablece al voltear la proyección
 * [Mac M1] Los materiales inteligentes no se muestran correctamente
-* [M1][Regresión] Las capas de materiales no funcionan
+* [M1]&#x200B;[Regresión] Las capas de materiales no funcionan

@@ -228,14 +228,14 @@ Resumen: <b>Versión principal, edición de la pila de capas con la API de Pytho
 * [Illustrator] Uso de archivos de Illustrator con mesas de trabajo en Painter
 * [Illustrator] [SVG] Añadir vistas previas en la selección de ámbito
 * [Substance 3D Assets] Busque, seleccione y descargue contenidos 3D directamente en Painter
-* [Substance 3D Assets][UI] Nuevo panel
+* [Substance 3D Assets]&#x200B;[UI] Nuevo panel
 * [Substance 3D Assets] Mapas y materiales del entorno de apoyo
 * [Substance 3D Assets] Permite volver a cargar, navegar y abrir la carpeta de ubicación en el nuevo panel Substance 3D Assets.
 * [Substance 3D Assets] Adición de un gestor de descargas
 * [Recurso de texto] Permitir el uso de fuentes incrustables
 * [Recurso de texto] Permitir procesar una fuente/texto en una malla
 * [Recurso de texto] Visualización de fuentes del usuario y otras rutas compartidas en el panel Activos con una nueva categoría
-* [Recurso de texto][Propiedades] Añadir compatibilidad con propiedades de fuentes avanzadas
+* [Recurso de texto]&#x200B;[Propiedades] Añadir compatibilidad con propiedades de fuentes avanzadas
 * [Recurso de texto] Permitir buscar/ver fuentes en miniestantes
 * [Recurso de texto] Añadir mensaje/cuadro de diálogo de error al importar una fuente incompatible
 * Miscelánea
@@ -298,8 +298,8 @@ Resumen: <b>Versión principal, edición de la pila de capas con la API de Pytho
 <b>Problemas conocidos</b>:
 
 * [Gestión de color] Las conversiones de espacio de color HDR con ACE en Linux producen colores con sujeción
-* [Crash][Linux][AMD] Arrastre y colocación de recursos en la pila de capas del sistema operativo Wayland
-* [Regresión][UI] El menú contextual es demasiado pequeño en pantallas HD
+* [Crash]&#x200B;[Linux]&#x200B;[AMD] Arrastre y colocación de recursos en la pila de capas del sistema operativo Wayland
+* [Regresión]&#x200B;[UI] El menú contextual es demasiado pequeño en pantallas HD
 * [Bloqueo] [Python] Exportación de USD desencadenada por TextureStateEvent
 * [Guardar] El archivo de proyecto de Spp se pierde cuando falla &quot;guardar como&quot;
 * [MacOS Intel] Bloqueo al importar algunos ajustes preestablecidos

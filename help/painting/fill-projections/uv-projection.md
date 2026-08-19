@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Proyección de UV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+source-git-commit: 2903c7fdf6a9fe0da149b61fa9064033bb88926a
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 4%
@@ -28,7 +28,7 @@ La Proyección de UV del relleno es una proyección 2D que solo funciona en el e
 
 | *Configuración* | *Descripción* |
 | --- | --- |
-| **Filtrado** | Controla cómo se filtrará la textura o el material. Esta configuración puede afectar al aspecto de la textura cuando se repite varias veces. Con valores de escala altos, el uso de un método de filtrado diferente al predeterminado puede producir resultados más atractivos. Configuración disponible actualmente:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Bilineal | HQ </strong>: (predeterminado) Filtro bilineal avanzado que intenta mejorar la calidad de la textura cuando los valores de mosaico son altos.</li><li data-preserve-html="true"><strong>Bilineal | Agudo </strong>: Filtro bilineal simple que suaviza ligeramente la textura pero intenta conservar los detalles.</li><li data-preserve-html="true"><strong>Más cercano a </strong>: Sin filtrado, útil si el filtrado bilineal proporciona un resultado borroso y rompe detalles precisos. Puede introducir suavizado en la textura.</li></ul> |
+| **Filtrado** | Controla cómo se filtrará la textura o el material. Esta configuración puede afectar al aspecto de la textura cuando se repite varias veces. Con valores de escala altos, el uso de un método de filtrado diferente al predeterminado puede producir resultados más atractivos. Configuración disponible actualmente:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Sede `\|` Bilineal </strong>: (predeterminado) Filtro bilineal avanzado que intenta mejorar la calidad de la textura cuando los valores de mosaico son altos.</li><li data-preserve-html="true"><strong>Bilineal `\|` Agudo </strong>: Filtro bilineal simple que suaviza ligeramente la textura pero intenta conservar los detalles.</li><li data-preserve-html="true"><strong>Más cercano a </strong>: Sin filtrado, útil si el filtrado bilineal proporciona un resultado borroso y rompe detalles precisos. Puede introducir suavizado en la textura.</li></ul> |
 | **Envolvimiento de UV** | Controla cómo debe repetirse el material/imagen proyectado dentro de la forma de proyección. Los valores posibles son:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Ninguno</strong> : No hay repetición de la proyección.</li><li data-preserve-html="true"><strong>Repetir horizontalmente</strong> : Repetir sólo horizontalmente.</li><li data-preserve-html="true"><strong>Repetir verticalmente</strong> : Repetir sólo verticalmente.</li><li data-preserve-html="true"><strong>Repetir</strong> (predeterminado) : Repetir horizontal y verticalmente.</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/2d-repeat.jpg" width="500px"/></div> |
 
 ### Transformación UV
