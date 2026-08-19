@@ -244,7 +244,7 @@ Resumen: <b>Esta actualización es una versión importante, contiene mejoras en 
 * [Auto-Cage] Carga infinita cuando la ruta del archivo de poli alto no es válida
 * [Linux] [Windows] En ocasiones, el selector de color puede ser completamente negro o no aparecer
 * [Herramienta Relleno poligonal] La herramienta no funciona con PBR
-* [[Paint] Al eliminar el canal de color base no se elimina el color pintado anteriormente
+* &lbrack;[Paint] Al eliminar el canal de color base no se elimina el color pintado anteriormente
 * [USD] No se detectan correctamente todas las instancias de sombreado
 * [Substance] Solo se tiene en cuenta el primer uso de un nodo de entrada/salida
 * [Sombreado] La Oclusión ambiental se aplica dos veces con conjuntos de texturas mediante diferentes métodos de mezcla

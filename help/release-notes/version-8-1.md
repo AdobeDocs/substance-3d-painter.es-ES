@@ -197,7 +197,7 @@ Ahora las mallas se cortan en Islas de UV separadas usando un método se acerca 
 * [Gestión de color] Permite especificar el perfil de color utilizado para seleccionar el color fuera de la interfaz de usuario
 * [Gestión de color] Recordar el último valor de visualización elegido en la ventana gráfica
 * [Gestión de color] [Substance] Hacer que los generadores/filtros funcionen correctamente con la gestión de color
-* [Gestión de color][Substance] Añadir nuevas palabras clave de anulación de espacio de color $working y $standardsrgb
+* [Gestión de color]&#x200B;[Substance] Añadir nuevas palabras clave de anulación de espacio de color $working y $standardsrgb
 * [Tamaño físico] [Motor] Extraer información de tamaño físico de la malla
 * [Tamaño físico] [Motor] Cálculo del Tamaño físico
 * [Tamaño físico] Opciones de exposición para utilizar tamaño físico en la interfaz de usuario
@@ -241,7 +241,7 @@ Ahora las mallas se cortan en Islas de UV separadas usando un método se acerca 
 * [Gestión de color] Falta el valor del espacio de trabajo en el selector de color con algunas configuraciones de OCIO
 * [Gestión de color] La previsualización del pincel en la ventana gráfica no tiene gestión de color
 * [SpaceMouse] La tabla dinámica no se actualiza inmediatamente con el cambio de enfoque y, a veces, se sale del modelo
-* [Export][USD] Los archivos USD exportados tienen una estructura incorrecta
+* [Export]&#x200B;[USD] Los archivos USD exportados tienen una estructura incorrecta
 * [USD] Problema de Oclusión ambiental al exportar
 * [Contenido] Actualice la malla de la miniatura para que coincida con el proyecto de ejemplo Previsualizar esfera
 

@@ -167,9 +167,9 @@ Resumen: <b>Versión principal con Paint along path que permite curvas 3D, nuevo
 * [Trazos dinámicos] Agregar propiedad de distancia para trazos dinámicos
 * [Trazos dinámicos] Añadir propiedades de tamaño y espaciado a los trazos dinámicos
 * [Trazos dinámicos] Agregar propiedad de inicio/centro/fin para trazos dinámicos
-* [Python][USD] Exponer los parámetros de configuración del proyecto para el formato USD
-* [Python][USD] Exponer parámetros de creación de proyectos para el formato USD
-* [Export][USD] Añadir información de la ruta del proyecto dentro del archivo USD exportado
+* [Python]&#x200B;[USD] Exponer los parámetros de configuración del proyecto para el formato USD
+* [Python]&#x200B;[USD] Exponer parámetros de creación de proyectos para el formato USD
+* [Export]&#x200B;[USD] Añadir información de la ruta del proyecto dentro del archivo USD exportado
 * [GLTF] Actualización de texturas en la biblioteca al volver a cargar un archivo GLTF
 * [Sombreado] Reducir los defectos de costura de las Islas de UV con diferentes orientaciones
 * [Motor] Actualice a la versión 9.0 del motor de Substance

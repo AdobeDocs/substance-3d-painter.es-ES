@@ -286,7 +286,7 @@ Sumario: <b>Esta actualización es una versión importante, contiene la nueva he
 * [Horneado] El ajuste de AO &quot;Oclusión automática&quot; se ignora con varios conjuntos de texturas y &quot;coincidencia por nombre&quot; activado
 * [Horneando] El AO con normal tiene defectos en los bordes debido a la falta de relleno
 * [Gestión de color] Las conversiones de espacio de color HDR con ACE en Linux producen colores con sujeción
-* [Regresión][IU] El menú contextual es demasiado pequeño en pantallas HD
+* [Regresión]&#x200B;[IU] El menú contextual es demasiado pequeño en pantallas HD
 * [Bloqueo] [Python] Exportación de USD desencadenada por TextureStateEvent
 * [Motor] Pintar con la herramienta Clonar en colores de cambio de canal normales incorrectamente
 * [Python] El widget fantasma aparece eliminado por la secuencia de comandos y sigue funcionando
