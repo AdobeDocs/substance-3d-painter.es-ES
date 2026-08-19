@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/fill-projections/warp-projection.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/warp-projection.html"
 breadcrumb-title: ''
 description: Utilice la proyección de deformación en Substance 3D Painter para proyectar texturas con efectos de distorsión para pintar texturas de forma creativa.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Proyección de deformación
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+source-git-commit: 5ab9709e1630071fddf0db0f03a292e92b84b31f
 workflow-type: tm+mt
 source-wordcount: '1859'
 ht-degree: 2%
@@ -41,7 +41,7 @@ Los tipos de recursos compatibles son:
 
 | Configuración | Descripción |
 | --- | --- |
-| **Filtrado** | Controla cómo se filtrará la textura o el material. Este ajuste puede afectar al aspecto de la textura cuando se repite varias veces. Si los valores de escala son altos y se utiliza un filtro diferente al predeterminado, el resultado puede ser más atractivo. Configuración actual disponible:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Bilineal | HQ</strong> (predeterminado): Filtro bilineal avanzado que intenta mejorar la calidad de la textura cuando los valores de mosaico son altos.</li><li data-preserve-html="true"><strong>Bilineal | Sharp</strong>: Filtro bilineal simple que suaviza ligeramente la textura pero intenta conservar los detalles.</li><li data-preserve-html="true"><strong>Más cercano</strong>: Sin filtrado, útil si el filtrado bilineal proporciona un resultado borroso y rompe detalles precisos. Puede introducir suavizado en la textura.</li></ul> |
+| **Filtrado** | Controla cómo se filtrará la textura o el material. Este ajuste puede afectar al aspecto de la textura cuando se repite varias veces. Si los valores de escala son altos y se utiliza un filtro diferente al predeterminado, el resultado puede ser más atractivo. Configuración actual disponible:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>HQ `\|` bilineal</strong> (predeterminado): Filtro bilineal avanzado que intenta mejorar la calidad de la textura cuando los valores de mosaico son altos.</li><li data-preserve-html="true"><strong>Bilineal `\|` Agudo</strong>: Filtro bilineal simple que suaviza ligeramente la textura pero intenta conservar los detalles.</li><li data-preserve-html="true"><strong>Más cercano</strong>: Sin filtrado, útil si el filtrado bilineal proporciona un resultado borroso y rompe detalles precisos. Puede introducir suavizado en la textura.</li></ul> |
 | **Envolvimiento de UV** | Controle cómo se repite la textura dentro de la proyección. Los valores posibles son:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Ninguno</strong>: la textura no se repite. Cualquier cosa fuera de la textura es negro/transparente.</li><li data-preserve-html="true"><strong>Repetir horizontalmente</strong>: la textura solo se repite horizontalmente.</li><li data-preserve-html="true"><strong>Repetir verticalmente</strong>: la textura solo se repite verticalmente.</li><li data-preserve-html="true"><strong>Repetir</strong> (predeterminado): la textura se repite en ambos ejes.</li></ul> |
 | **Recorte de forma** | Defina si la textura proyectada debe ser visible fuera del área de proyección. Los valores posibles son:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Proyecto recortado a la forma</strong>: la proyección está confinada dentro del área de proyección.</li><li data-preserve-html="true"><strong>La proyección se extiende fuera de la forma</strong> (predeterminado): la proyección continúa más allá del área de proyección.</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/warp-extend.jpg" width="500px"/></div> |
 | **profundidad de proyección** | Controle hasta dónde llega la proyección a lo largo de su eje Z. Este ajuste ayuda a alcanzar la superficie de la malla cuando el punto de la cuadrícula o el plano de proyección están demasiado lejos.Las flechas verdes indican la dirección y la distancia de la proyección para cada punto de la cuadrícula. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r4-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/warp-depth.gif"/></div> **Alerta:** Un valor alto puede afectar gravemente al rendimiento. Se recomienda mantener este parámetro bajo tanto como sea posible. |
