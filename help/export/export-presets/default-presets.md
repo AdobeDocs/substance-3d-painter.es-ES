@@ -24,7 +24,7 @@ A continuación se muestra una lista de Plantillas de salida adicionales proporc
 
 >[!NOTE]
 >
-> Es posible que también se admita algún otro software que no figure aquí (como **Octane**). Para obtener más información, consulte [ecosistema y complementos](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home).
+> Es posible que también se admita algún otro software que no figure aquí (como **Octane**). Para obtener más información, consulte [ecosistema y complementos](https://experienceleague.adobe.com/es/docs/substance-3d/ecosystem/home).
 
 | *Ajuste preestablecido* | *Descripción* |
 | --- | --- |
