@@ -37,4 +37,4 @@ Para obtener una visión general rápida del modo de cocción, echa un vistazo a
 
 >[!NOTE]
 >
-> Para obtener más información sobre la panadería en general, consulta la [Documentación de panadería](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).
+> Para obtener más información sobre la panadería en general, consulta la [Documentación de panadería](https://experienceleague.adobe.com/es/docs/substance-3d/bakers/home).

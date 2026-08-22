@@ -19,6 +19,6 @@ El **panel de registro de horneado** muestra los resultados técnicos relacionad
 
 >[!TIP]
 >
-> La información sobre cómo hacer coincidir los activos por nombre está disponible en [la documentación de Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/matching-by-name).
+> La información sobre cómo hacer coincidir los activos por nombre está disponible en [la documentación de Bakers](https://experienceleague.adobe.com/es/docs/substance-3d/bakers/features/matching-by-name).
 
 ![](../../assets/baking/baking-log-panel.png)
