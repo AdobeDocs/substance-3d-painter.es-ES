@@ -2,9 +2,9 @@
 title: Versión 12.1
 description: Notas de la versión 12.1
 helpx_description: Substance 3D Painter
-source-git-commit: 77c68a586777b200c4d814928c5e93a752e1d355
+source-git-commit: 50df3a58ec4719d302999421774a1c67ce3e0ef1
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1717'
 ht-degree: 0%
 
 ---
@@ -149,6 +149,24 @@ Echa un vistazo a nuestro último tutorial en Youtube:
 [![](../assets/v12/v12_youtube_tutorial.jpg)](https://www.youtube.com/watch?v=WwyElRpiQgY)
 
 ## Notas de la versión
+
+### 12.1.3
+
+Fecha de publicación: **2026/08/25**
+
+Resumen: **Versión secundaria**
+
+**Agregado:**
+
+* Actualizar el motor de Substance a la versión 9.4.6v
+
+**Corregido:**
+
+* El selector [Escala de grises] permanece abierto después de cambiar la herramienta
+* [Procesamiento de sesgo]: se producen saltos de corrección de sesgo al pintar y deshacer
+* La herramienta de proyección [Projection Tool] bloquea la interacción de la ventana gráfica
+* [Trazo dinámico]: faltan parámetros de trazo dinámico en las propiedades del pincel
+* La exportación a una red ya no funciona
 
 ### 12.1.2
 

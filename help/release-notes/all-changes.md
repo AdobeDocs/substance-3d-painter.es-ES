@@ -11,9 +11,9 @@ title: Todos los cambios
 user-guide-description: ''
 user-guide-title: ''
 hold: false
-source-git-commit: 77c68a586777b200c4d814928c5e93a752e1d355
+source-git-commit: 9bb3d9d70fb00c8817a11c2938292aa337279b74
 workflow-type: tm+mt
-source-wordcount: '33932'
+source-wordcount: '33992'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,24 @@ Esta página contiene notas de la versión de todas las versiones anteriores de 
 > Para ver los problemas conocidos que pueden afectar a Painter, consulte la [página de documentación dedicada](known-issues.md).
 
 ## Versión 12
+
+### 12.1.3
+
+Fecha de publicación: **2026/08/26**
+
+Resumen: **Versión secundaria**
+
+**Agregado:**
+
+* Actualizar el motor de Substance a la versión 9.4.6
+
+**Corregido:**
+
+* El selector [Escala de grises] permanece abierto después de cambiar la herramienta
+* [Procesamiento de sesgo]: se producen saltos de corrección de sesgo al pintar y deshacer
+* La herramienta de proyección [Projection Tool] bloquea la interacción de la ventana gráfica
+* [Trazo dinámico]: faltan parámetros de trazo dinámico en las propiedades del pincel
+* La exportación a una red ya no funciona
 
 ### 12.1.2
 
