@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Versión 8.1
 
-**Substance 3D Painter 8.1** integra el Adobe Color Engine (ACE) con soporte para perfiles ICC, nuevos panaderos, nuevos sonidos 3D y 20 mapas de suciedad, y un cuentagotas mejorado.
+**Substance 3D Painter 8.1** integra el Adobe Color Engine (ACE) con soporte para perfiles ICC, nuevos bakeres, nuevos sonidos 3D y 20 mapas de suciedades, y un cuentagotas mejorado.
 
 Fecha de publicación: *7 de junio de 2022*
 
@@ -49,7 +49,7 @@ En esta nueva versión, el sistema de gestión de color se ha ampliado con la ay
 
 * **Importar y exportar imágenes con perfiles ICC incrustados**\
   Al importar mapas de bits, el perfil ICC se puede extraer automáticamente. También es posible anular ese perfil en las propiedades de capa.\
-  Al exportar, es posible especificar el perfil ICC deseado que se incrustará en los archivos de textura.
+  Al exportar, es posible especificar el perfil ICC previsto que se incrustará en los archivos de textura.
 
   ![](../assets/export-icc.png){width="400px"}
 
@@ -82,7 +82,7 @@ El tamaño dentro de los materiales de Substance ahora se puede utilizar para au
 >
 > Para obtener más información, consulte la [documentación dedicada](../features/physical-size.md).
 
-### Nuevos panaderos
+### Nuevos bakeres
 
 ![](../assets/banner-baker.jpg)
 
@@ -92,9 +92,9 @@ Se han añadido a la lista de panaderos, pero están desactivados de forma prede
 
 ![](../assets/baker-list.png)
 
-Los nuevos panaderos son:
+Los nuevos bakeres son:
 
-* **Panadero de normas dobladas** El panadero de normas dobladas permite hornear una dirección de oclusión (como un vector, similar a los mapas normales). Esta textura se puede usar para mejorar el sombreado en la ventana gráfica habilitando la configuración **Bent Normal** en la ventana [Shader settings](../interface/shader-settings/shader-settings.md). Las normas dobladas mejoran enormemente la precisión del sombreado de la ventanilla en tiempo real.\
+* **baker de Normales dobladas** El baker de Normales dobladas permite hacer un bake una dirección de oclusión (como un vector, similar a los mapas de normales). Esta textura se puede usar para mejorar el sombreado en la ventana gráfica habilitando la configuración **Bent Normal** en la ventana [configuración de Sombreador](../interface/shader-settings/shader-settings.md). Las normales dobladas mejoran enormemente la precisión del sombreado de la ventana gráfica en tiempo real.\
   Para el **sombreado difuso**, proporciona una oclusión más precisa e incluso puede parecer una iluminación global aproximada (el primer ejemplo a continuación).\
   Para los **reflejos de specular**, permite simular el sombreado automático y reducir la cantidad de fuga de luz, lo que hace que el objeto se sienta mucho más conectado a tierra, especialmente con superficies metálicas (segundo ejemplo a continuación).
 
@@ -103,12 +103,12 @@ Los nuevos panaderos son:
   ![](../assets/bent-normal-car-compressed.gif){width="400px"}
 
 * **panadero de Heightes**\
-  El panadero de Height permite hornear la diferencia entre la malla baja y alta en polo como una textura en escala de grises que luego podría utilizarse para producir desplazamiento en mallas teseladas. Por ejemplo, al realizar un barrido de información en un plano.
+  El baker de Height permite hacer un bake la diferencia entre la malla baja y alta en polo como una textura en escala de grises que podría utilizarse para producir desplazamiento en mallas teseladas. Por ejemplo, al hacer un bake información de exploración en un plano.
 
   ![](../assets/disp-demo.jpg){width="400px"}
 
 * **Panadero de opacidad**\
-  El panadero Opacity produce un mapa en blanco y negro que muestra los agujeros de una malla de alto polietileno. Por ejemplo, se puede utilizar para hornear cercas o incluso agujeros dentro de una superficie de tela.
+  El baker Opacidad produce un mapa en blanco y negro que muestra los agujeros de una malla de alta densidad. Por ejemplo, se puede utilizar para hacer un bake vallas o incluso agujeros dentro de una superficie de tela.
 
 ### Nuevo contenido
 
@@ -151,7 +151,7 @@ Se han realizado varias mejoras en el cuentagotas para facilitar la extracción 
 
   ![](../assets/peek-color-shortcut.gif){width="400px"}
 
-* **Nuevo método abreviado de teclado de cuentagotas**\
+* **Nuevo método abreviado de cuentagotas**\
   Cuando la ventana del selector de color esté abierta, también puedes presionar **I** para entrar en el modo de cuentagotas sin necesidad de hacer clic en el icono dedicado, lo que facilita la iteración rápida entre el picking y la pintura.
 
 * **Nueva vista previa al colocar los ojos**\
@@ -170,7 +170,7 @@ Se han realizado varias mejoras en el cuentagotas para facilitar la extracción 
   ![](../assets/eyedropper-color-space.png)
 
 * **Comportamiento mejorado del selector de materiales**\
-  El selector de material de la barra de herramientas Herramientas (método abreviado de teclado P) ahora respeta la selección de canal dentro de la ventana de propiedades. Ya no se activará por los canales en sí.
+  El selector de materiales de la barra de herramientas Herramientas (método abreviado del teclado P) ahora respeta la selección de canales dentro de la ventana de propiedades. Ya no se activará por los canales en sí.
 
   ![](../assets/material-picker.gif){width="400px"}
 
@@ -222,33 +222,33 @@ Ahora las mallas se cortan en Islas de UV separadas usando un método se acerca 
 * Actualizar Auto Unwrap a 0.9.0
 * Actualizar a Qt 5.15.8
 * Actualizar a Python 3.9
-* [Sombreado] Añadir compatibilidad con el sombreado de normales dobladas
+* [Sombreador] Añadir compatibilidad con el sombreado de Normales dobladas
 * [MacOS] Compatibilidad con SpaceMouse de conexión 3D
 * [Python] Documentar la versión de Python utilizada en la API
 * [Contenido] Añade 6 nuevos sonidos 3D con 105 ajustes preestablecidos
 * [Contenido] 20 nuevos mapas de suciedad y 2 patrones de pliegues de tela
-* [Contenido] Actualizar el ajuste preestablecido de exportación &quot;Mapas de malla&quot; para utilizar nuevos panaderos
+* [Contenido] Actualizar el ajuste preestablecido &quot;Mapas de malla&quot; para utilizar nuevos bakeres
 * [Contenido] La Pendiente de desenfoque y el filtro de deformación dependen de la resolución del conjunto de texturas
-* [Contenido] Actualizar proyectos de muestra para utilizar los 3 nuevos panaderos
+* [Contenido] Actualizar proyectos de muestra para utilizar los 3 nuevos bakeres
 
 **Corregido:**
 
 * [glTF] No se puede abrir glTF con un carácter especial
 * [Motor] Artefactos con anisotropía y SVT desactivados
-* [MacOS] [M1] Los materiales inteligentes no se muestran correctamente
+* [MacOS]&#x200B;[M1] Los Materiales inteligentes no se muestran correctamente
 * [Procesamiento de malla] No se pueden importar mallas desde Modeler
 * [UI] Barra de desplazamiento horizontal en la ventana de nuevo proyecto con la gestión de color habilitada
 * [Gestión de color] Falta el valor del espacio de trabajo en el selector de color con algunas configuraciones de OCIO
 * [Gestión de color] La previsualización del pincel en la ventana gráfica no tiene gestión de color
 * [SpaceMouse] La tabla dinámica no se actualiza inmediatamente con el cambio de enfoque y, a veces, se sale del modelo
-* [Export]&#x200B;[USD] Los archivos USD exportados tienen una estructura incorrecta
+* [Exportar] [USD] Los archivos de USD exportados tienen una estructura incorrecta
 * [USD] Problema de Oclusión ambiental al exportar
 * [Contenido] Actualice la malla de la miniatura para que coincida con el proyecto de ejemplo Previsualizar esfera
 
 **Problemas conocidos:**
 
 * La exportación de texturas mediante relleno de difusión produce mapas negros
-* La mezcla de Oclusión normal/ambiental no funciona
-* [MacOS] Bloqueo al iniciar Iray en algunos casos excepcionales
+* La mezcla normal o de Oclusión ambiental no funciona
+* [MacOS] Bloqueo al lanzar Iray en algunos casos raros
 * [Vista previa en miniatura] Las miniaturas simplificadas no se actualizan cuando se utiliza un delimitador
-* [Gestión de color] Las conversiones de espacio de color HDR con ACE en Linux producen colores con sujeción
+* [Gestión de color] HDR. las conversiones de espacio de color con ACE en Linux producen colores con sujeción

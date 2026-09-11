@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/effects/paint.html"
 breadcrumb-title: ''
-description: Aprenda a utilizar el efecto Pintura en Substance 3D Painter para aplicar trazos de pintura y efectos de pintura de textura a las capas.
+description: Aprenda a utilizar el efecto Pintura en Substance 3D Painter para aplicar trazos de pintura y efectos de textura a las capas.
 helpx_creative_field: ""
 helpx_description: Painter > Features > Effects > Paint
 helpx_experience_level: ""
@@ -20,4 +20,4 @@ ht-degree: 4%
 
 # Pintura
 
-Este efecto permite pintar sobre otros efectos. Se comporta como una capa, lo que significa que tiene acceso a los distintos modos de fusión y a un control de opacidad.
+Este efecto permite la pintura sobre otros efectos. Se comporta como una capa, lo que significa que tiene acceso a los distintos modos de fusión y a un control de opacidad.

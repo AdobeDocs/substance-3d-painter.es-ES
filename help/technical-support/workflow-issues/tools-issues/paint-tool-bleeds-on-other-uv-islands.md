@@ -7,7 +7,7 @@ helpx_description: Painter > Technical support > Workflow Issues > Tools Issues 
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: La herramienta Pintura se desvanece en otras Islas de UV
+title: La herramienta pintura se desvanece en otras Islas de UV
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,11 +18,11 @@ ht-degree: 0%
 ---
 
 
-# La herramienta Pintura se desvanece en otras Islas de UV
+# La herramienta pintura se desvanece en otras Islas de UV
 
-Algunos comportamientos predeterminados de la [herramienta Paint](../../../features/effects/paint.md) pueden parecer contradictorios en algunas situaciones específicas. Substance 3D Painter es una aplicación que funciona principalmente en el espacio 3D, esto se aplica a la pintura también. La configuración predeterminada del pincel es intentar no tener problemas en las UV al pintar. Por esta razón, al interactuar con la vista 2D, algunos resultados pueden parecer inesperados.
+Algunos comportamientos predeterminados de la [herramienta de Pintura](../../../features/effects/paint.md) pueden parecer contradictorios en algunas situaciones específicas. Substance 3D Painter es una aplicación que funciona principalmente en el espacio 3D, esto se aplica a la pintura también. La configuración predeterminada del pincel de pintura es intentar pintar sin interrupciones en todas las UV. Por esta razón, al interactuar con el Vista 2D, algunos resultados pueden parecer inesperados.
 
-Para evitar el sangrado en otras Islas de UV al pintar en la vista 2D, simplemente cambie el valor **Alignment** en los parámetros de la herramienta:
+Para evitar el sangrado en otras Islas de UV al pintar en la Vista 2D, simplemente cambie el valor **Alignment** en los parámetros de la herramienta:
 
 | *Modo de alineación* | *Vista previa* |
 | --- | --- |

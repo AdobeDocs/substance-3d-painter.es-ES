@@ -20,9 +20,9 @@ ht-degree: 0%
 
 # Materiales de enlace de capas - API del sombreador
 
-## Capas de materiales: enlazar materiales como parámetros de sombreado
+## Capas de materiales: enlazar materiales como parámetros de sombreador
 
-Un material se define mediante un identificador único &quot;id&quot;. Parámetros adicionales:
+Un material se define mediante un &#39;id&#39; de identificador único. Parámetros adicionales:
 
 * &#39;predeterminado&#39;: nombre de recurso material por defecto que se va a utilizar.
 * &#39;tamaño&#39;: el tamaño de textura de los mapas de material.

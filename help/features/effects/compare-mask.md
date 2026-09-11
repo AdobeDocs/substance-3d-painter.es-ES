@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/effects/compare-mask.html"
 breadcrumb-title: ''
-description: Aprenda a utilizar el efecto Comparar máscara en Substance 3D Painter para crear máscaras basadas en operaciones de comparación de texturas.
+description: Aprenda a utilizar el efecto Máscara de comparación en Substance 3D Painter para crear máscaras basadas en operaciones de comparación de texturas.
 helpx_creative_field: ""
 helpx_description: Painter > Features > Effects > Compare Mask
 helpx_experience_level: ""
@@ -36,5 +36,5 @@ A continuación se muestran los ajustes disponibles para este efecto:
 
 >[!NOTE]
 >
-> Es posible hacer clic con el botón derecho en una capa y elegir el método abreviado &quot;**Añadir máscara con la combinación de heightes**&quot; para agregar rápidamente este nuevo efecto en una capa. Este método abreviado también cambiará el canal de Height **modo de fusión** a &quot;**Normal**&quot; en lugar del valor predeterminado &quot;**Sobreexposición lineal (añadir)**&quot;.\
+> Es posible hacer clic con el botón derecho en una capa y elegir el método abreviado &quot;**Agregar máscara con combinación de height**&quot; para agregar rápidamente este nuevo efecto en una capa. Este método abreviado también cambiará el canal de Height **modo de fusión** a &quot;**Normal**&quot; en lugar del valor predeterminado &quot;**Sobreexposición lineal (Agregar)**&quot;.\
 > ![](../../assets/compare-shortcut.png)

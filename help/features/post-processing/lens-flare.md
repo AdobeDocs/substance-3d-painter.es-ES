@@ -30,4 +30,4 @@ Simula los defectos ópticos producidos cuando las fuentes de luz brillante inte
 | <b>smoothness de Oclusión</b> | Controla el grado de atenuación del destello de lente. Los valores más altos crean transiciones más suaves. |
 | <b>Fantasmas únicos</b> | Define la variación de las formas de destello. Los valores más altos pueden afectar significativamente al rendimiento. |
 | <b>Escala de posición de fantasma</b> | Controla la extensión y el tamaño de los reflejos fantasma de los destellos. |
-| <b>Textura de apertura</b> | Define la forma de la apertura de la lente utilizada para generar el patrón de destello. La textura controla la difracción y las formas fantasma. |
+| <b>textura de apertura</b> | Define la forma de la apertura de la lente utilizada para generar el patrón de destello. La textura controla la difracción y las formas fantasma. |

@@ -43,7 +43,7 @@ Este nuevo flujo de trabajo permite gestionar y calibrar los colores desde la im
 * **Configuración de visualización del área de visualización**\
   En la parte superior de las vistas 2D y 3D hay dos controles para la gestión de color:\
   **Botón Color**: active o desactive la transformación de color de la ventana gráfica.\
-  **Menú desplegable de transformación de visualización**: seleccione qué transformación de visualización desea utilizar para convertir los colores.
+  **Mostrar lista desplegable transformar**: seleccione qué pantalla transformar para utilizar para convertir los colores.
 
   ![](../../assets/cm-viewport.jpg){width="500px"}
 
@@ -76,7 +76,7 @@ Este nuevo flujo de trabajo permite gestionar y calibrar los colores desde la im
 
 ![](../../assets/banner-undock.jpg)
 
-Las vistas 2D y 3D ahora se pueden desacoplar para moverlas a otro lugar. Por ejemplo, teniendo la vista 3D en una pantalla principal mientras la vista 2D se encuentra en otra pantalla.
+Las vistas 2D y 3D ahora se pueden desacoplar para moverlas a otro lugar. Por ejemplo, teniendo la vista 3D en una pantalla principal mientras el Vista 2D está en otra pantalla.
 
 Trabajar con una vista desacoplada es más fácil para organizar el diseño de la aplicación y estar al tanto de las cosas sin perder demasiada área de pintura.
 
@@ -91,7 +91,7 @@ Trabajar con una vista desacoplada es más fácil para organizar el diseño de l
   ![](../../assets/swap-undock.gif){width="500px"}
 
 * **Compatible con la administración de color**\
-  La vista desacoplada tiene su propia transformación de visualización de gestión de color, lo que facilita su administración en diferentes monitores.
+  La vista no acoplada tiene su propio transforme de visualización de gestión de color, lo que facilita la gestión en diferentes monitores.
 
   ![](../../assets/false-colors-undock.jpg){width="500px"}
 
@@ -131,9 +131,9 @@ Se ha añadido un nuevo conjunto de activos al contenido predeterminado disponib
     * Inflar Encoger/Envolver
 
 * Nuevos mapas de bits de suciedades (de **Emiel Sleegers**):
-  * Suciedad Yeso de pintura
+  * Suciedad Pintura de yeso
   * Yeso de suciedad descolorido
-  * Pintura suciedad pelada
+  * Pintura de suciedad pelada
   * Humedad de la suciedad
   * Pelusa de suciedad
   * Suciedad Cobweb
@@ -161,7 +161,7 @@ A continuación se muestra un ejemplo de esta nueva configuración sin usarla fr
 
 La API de Python tiene un nuevo método que permite llamar a la API de Javascript.
 
-Este nuevo método facilita la migración de complementos antiguos a la nueva API de Python. También desbloquea algunas características como la administración de **Baking** y **Shader** que aún no se han expuesto en Python.
+Este nuevo método facilita la migración de complementos antiguos a la nueva API de Python. También desbloquea algunas características como la administración de **Hacer un bake** y **Sombreador** que aún no se han expuesto en Python.
 
 Para ejecutar un comando Javascript desde Python, use la función **evaluation()** del nuevo submódulo **js**. Puede encontrar más información en la documentación de la API (disponible a través del menú Ayuda de la aplicación).
 

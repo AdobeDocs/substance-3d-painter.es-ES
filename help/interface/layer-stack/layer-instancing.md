@@ -84,7 +84,7 @@ Para crear una instancia en varios conjuntos de texturas:
 ## Cambiar entre una instancia y su origen
 
 Dado que una instancia **solo** puede actualizarse **editando el origen** (por razones técnicas), es obligatorio seleccionar la capa de origen para editar sus propiedades.\
-Esto se puede hacer haciendo clic en el botón **propiedades de instancia** en la capa de la pila de capas.
+Para ello, haga clic en el botón **propiedades de la instancia** en la capa de la pila de capas.
 
 ![](../../assets/instance-properties-optim.gif)
 

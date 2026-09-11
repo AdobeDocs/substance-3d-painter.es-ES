@@ -33,7 +33,7 @@ De forma predeterminada, se predefinen dos rutas:
 | **tus\_assets** | Esta ruta se encuentra en la carpeta Documentos del perfil de usuario actual. Aquí es donde los recursos, como los ajustes preestablecidos, se crean de forma predeterminada desde la aplicación. (Se denomina &quot;estantería&quot; en las versiones anteriores). |
 | **starter\_assets** | Esta ruta se encuentra en la carpeta de instalación de la aplicación. Contiene los recursos predeterminados. (Se denomina &quot;alegorithmic&quot; o &quot;substance&quot; en versiones anteriores). |
 
-El botón de opción **default** se utiliza para definir en qué ruta se guardará el nuevo contenido (como los ajustes preestablecidos de pincel, los ajustes preestablecidos de material o los materiales inteligentes).
+El botón de opción **default** se utiliza para definir en qué ruta se guardará el nuevo contenido (como los ajustes preestablecidos de pincel, los ajustes preestablecidos de material o los Materiales inteligentes).
 
 ## Adición de una nueva ruta
 

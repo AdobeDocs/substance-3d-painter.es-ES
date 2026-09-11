@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![](../../../assets/pink-mesh.jpg){width="400px"}
 
-La malla puede aparecer **rosa** dentro del área de visualización porque el **sombreador** usado para dibujarla **ya no se compila** (como se indica en la **ventana de registro** ). Esto puede deberse a un sombreado obsoleto que no admite la última versión de la API del sombreador.
+La malla puede aparecer **rosada** dentro del área de visualización porque el **sombreador** que se usó para dibujarla **ya no se compila** (como se indica en la **ventana de registro** ). Esto puede deberse a que el sombreador no es compatible con la última versión de la API del sombreador.
 
 A continuación se indica cómo solucionarlo:
 

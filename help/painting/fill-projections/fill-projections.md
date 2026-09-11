@@ -22,7 +22,7 @@ ht-degree: 8%
 
 ![](../../assets/fill-properties.png)
 
-Los efectos Rellenar capa y Rellenar proyectan una textura directamente en la malla en función de un modo específico. Este tipo de capa/efecto evita pintar manualmente texturas en el modelo 3D. Los ajustes de la proyección se pueden editar a través de la ventana Propiedades.
+Los efectos Rellenar capa y Rellenar proyectan una textura directamente en la malla en función de un modo específico. Este tipo de capa/efecto evita la pintura manual de texturas en el modelo 3D. Los ajustes de la proyección se pueden editar a través de la ventana Propiedades.
 
 Las propiedades se dividen en dos categorías: **Propiedades de relleno** y **Material**.
 
@@ -32,7 +32,7 @@ Las propiedades de relleno controlan cómo se aplica y/o se proyecta el material
 
 Los modos de proyección actuales disponibles son:
 
-* [Relleno (coincidencia por azulejo UV)](fill-match-per-uv-tile.md)
+* [Relleno (coincidencia por Mosaico de UV)](fill-match-per-uv-tile.md)
 * [Proyección de UV](uv-projection.md)
 * [Proyección de plano triple](tri-planar-projection.md)
 * [Proyección de plano](planar-projection.md)
@@ -44,4 +44,4 @@ Los modos de proyección actuales disponibles son:
 
 ![](../../assets/properties-mat.png)
 
-Los controles Material/Escala de grises son idénticos a los del resto de herramientas. Consulte la [documentación de la herramienta de pintura](../tool-list/paint-brush.md) para obtener más detalles.
+Los controles Material/Escala de grises son idénticos a los del resto de herramientas. Consulte la [documentación de la herramienta de Pintura](../tool-list/paint-brush.md) para obtener más detalles.

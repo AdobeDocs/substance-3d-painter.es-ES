@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/layer-stack/masking-and-effects.html"
 breadcrumb-title: ''
-description: Aprenda a utilizar máscaras y efectos en la pila de capas de Substance 3D Painter para controlar la visibilidad de las capas y aplicar efectos de capa.
+description: Aprenda a usar máscaras y efectos en Substance 3D Painter pila de capas para controlar la visibilidad de las capas y aplicar efectos de capa.
 helpx_creative_field: ""
 helpx_description: Painter > Interface > Layer stack > Masking and effects
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 ## Enmascaramiento
 
-Las capas se pueden enmascarar para mostrar/aplicar su contenido solo en partes específicas de la textura. La máscara funciona como un parámetro de intensidad sobre el contenido de la capa. Una máscara de una capa siempre está en escala de grises, independientemente del contenido que se utilice para pintar sobre ella (por lo tanto, cualquier color se convertirá en un valor de escala de grises antes de pintarse).
+Las capas se pueden enmascarar para mostrar/aplicar su contenido solo en partes específicas de la textura. La máscara funciona como un parámetro de intensidad sobre el contenido de la capa. Una máscara de una capa siempre está en escala de grises, independientemente del contenido que se utilice para realizar la pintura sobre ella (por lo tanto, cualquier color se convertirá en un valor de escala de grises antes de pintarse).
 
 Puede añadir una máscara con el menú del botón derecho o con el botón dedicado :
 
@@ -56,7 +56,7 @@ Para obtener más información, [consulte la página dedicada](../../features/ef
 
 ## Máscaras inteligentes
 
-Las máscaras inteligentes son una forma de guardar una máscara y su efecto para reutilizarlas fácilmente en otras capas u otros proyectos. Para crear una máscara inteligente, simplemente haz clic con el botón derecho sobre una máscara y elige &quot;**Crear máscara inteligente**&quot;.\
+Las máscaras inteligentes son una forma de guardar una máscara y su efecto para reutilizarlas fácilmente en otras capas u otros proyectos. Para crear una máscara inteligente, solo tienes que hacer clic con el botón derecho sobre una máscara y elegir &quot;**Crear máscara inteligente**&quot;.\
 Al arrastrar y soltar una máscara inteligente en una capa, se creará una máscara negra si aún no existe; de lo contrario, la lista de efectos se combinará con la existente. Es posible sobrescribir por completo la lista de efectos manteniendo presionado &quot;**CTRL**&quot; al colocar la máscara inteligente.
 
 ![](../../assets/smart-mask-new-optimized.gif)

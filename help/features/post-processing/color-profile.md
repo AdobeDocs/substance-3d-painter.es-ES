@@ -28,7 +28,7 @@ Se puede utilizar un perfil de color para calibrar el color final de la pantalla
 >[!NOTE]
 >
 > **LUT** significa &quot;**tabla de consulta**&quot;. Es una forma optimizada de realizar la gradación de color como efecto posterior. Se utiliza una LUT para compensar la diferencia entre un origen y un resultado.\
->  Substance 3D Painter usa **LUT 3D** almacenadas como **textura 2D** (flotante) de cualquier resolución posible (los valores predeterminados son **2048x128 píxeles**). Esto significa que el cubo que almacena las operaciones de color se separa en sectores que se muestran uno al lado del otro. Para obtener más detalles técnicos, consulte el artículo **GPU Gem** : <http://http.developer.nvidia.com/GPUGems2/gpugems2_chapter24.html>
+>  Substance 3D Painter usa **LUT 3D** almacenadas como **textura 2D** (flotante) de cualquier resolución posible (los valores predeterminados son **2048x128 píxeles** ). Esto significa que el cubo que almacena las operaciones de color se separa en sectores que se muestran uno al lado del otro. Para obtener más detalles técnicos, consulte el artículo **GPU Gem** : <http://http.developer.nvidia.com/GPUGems2/gpugems2_chapter24.html>
 
 ## Uso de un perfil de color
 
@@ -64,11 +64,11 @@ Substance 3D Painter desplazará la ventana gráfica a la representación **Line
 
 ### Método 1 : Modificación de la LUT de identidad
 
-La edición de la LUT de identidad se puede realizar en un software que admita <b>texturas flotantes</b> de 32 bits, como <b>Substance 3D Designer</b>. Descargue la LUT de identidad como punto de partida para crear un nuevo perfil:
+La edición de la LUT de identidad se puede realizar en un software que admita texturas <b>flotantes</b> de 32 bits, como <b>Substance 3D Designer</b>. Descargue la LUT de identidad como punto de partida para crear un nuevo perfil:
 
 [Descargar color\_profile\_linear.exr](https://github.com/AdobeDocs/painter-python-api/raw/refs/heads/main/static/misc/color_profile_linear.exr)
 
-### Método 2 : Uso de E/S de OpenColor para generar una textura LUT
+### Método 2 : Uso de E/S de OpenColor para generar una Textura LUT
 
 Instale las herramientas **OpenColor IO**. A continuación, descargue el Ejemplo de configuración de OCIO, disponible aquí : <http://opencolorio.org/downloads.html>\
 Desde allí, ejecute el programa **ociolutimage** con los siguientes argumentos:

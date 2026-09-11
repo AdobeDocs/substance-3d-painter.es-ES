@@ -22,15 +22,15 @@ ht-degree: 0%
 
 ## lib-sparse.glsl
 
-Este archivo proporciona funciones útiles para garantizar la corrección de muestreo de texturas dispersas (ARB\_sparse\_texture). Permite muestrear solo una parte de las texturas realmente presentes en la memoria de vídeo.
+Este archivo proporciona funciones útiles para garantizar la corrección de muestreo de texturas dispersas (ARB\_sparse\_textura). Permite muestrear solo una parte de las texturas realmente presentes en la memoria de vídeo.
 
 **Funciones públicas:** *getSparseCoord* *getSparseCoordLod0* *textureSparseQueryLod* *textureSparse*
 
 **Estructuras públicas:** *SamplerSparse* *SparseCode*
 
-La macro *FEATURE\_SPARSE\_TEXTURE* solo se define si está habilitada la extensión de textura virtual dispersa.
+La macro *FEATURE\_SPARSE\_TEXTURA* solo se define si está habilitada la extensión de textura virtual dispersa.
 
-Si está activado, procese las búsquedas de textura adicionales para subir a la pirámide mipmap si faltan texeles.
+Si está activado, procese las comprobaciones de búsqueda de textura adicionales para subir la pirámide mipmap si faltan texeles.
 
 ```
 ## ifdef FEATURE_SPARSE_TEXTURE
@@ -109,7 +109,7 @@ struct SparseCoord {
 ```
 
 
-Estructura de coordenadas de textura de compilación usada por la función de muestreo *textureSparse()* (debe llamarse desde el sombreador de fragmentos)
+Estructura de coordenadas de textura de compilación usada por la función de muestreo *textureSparse()* (debe llamarse desde el sombreador del fragmento)
 
 Ejemplo: *SparseCoord uv1coord = getSparseCoord(input.multi\_tex\_coord[1]);*
 
@@ -144,7 +144,7 @@ SparseCoord getSparseCoord(vec2 tex_coord) {
 ```
 
 
-Estructura de coordenadas de textura de compilación usada por la función de muestreo *textureSparse()* Versión de muestreo de nivel base (se puede usar si el sombreador de fragmentos está fuera)
+Estructura de coordenadas de textura de compilación usada por la función de muestreo *textureSparse()* Versión de muestreo de nivel base (se puede usar si el sombreador del fragmento externo)
 
 ```
 SparseCoord getSparseCoordLod0(vec2 tex_coord) { 
@@ -179,7 +179,7 @@ SparseCoord getSparseCoordLod0(vec2 tex_coord) {
 ```
 
 
-Calcular el nivel de detalle que se utilizará para tomar muestras de una textura dispersa
+Calcular el nivel de detalle que se utilizaría para tomar muestras de una textura dispersa
 
 Subir la pirámide mipmap si faltan texeles Devuelve LoD ANTES de aplicar el sesgo LoD
 
@@ -249,9 +249,9 @@ void textureSparseQueryGrad(out vec2 dfdx, out vec2 dfdy, SamplerSparse sampler,
 ```
 
 
-Realiza una búsqueda de textura en una textura dispersa y sube los niveles de mapa MIP si es necesario
+Realiza una búsqueda de textura en una textura dispersa, subir los niveles de mapa MIP si es necesario
 
-Esta función reemplaza el estándar *texture(sampler2D, vec2)* para recuperar texeles de una textura dispersa
+Esta función reemplaza la textura estándar *sampler2D, vec2)* para recuperar texeles de una textura dispersa
 
 ```
 vec4 textureSparse(SamplerSparse sampler, SparseCoord coord) { 

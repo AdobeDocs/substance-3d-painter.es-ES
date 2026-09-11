@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/home.html"
 breadcrumb-title: ''
-description: Empezar con Substance 3D Painter para pintar texturas directamente en modelos 3D y crear superficies de materiales realistas.
+description: Da tus primeros pasos con Substance 3D Painter para pintura texturas directamente en modelos en 3D y crea superficies de materiales realistas.
 helpx_creative_field: ""
 helpx_description: Painter > Home
 helpx_experience_level: ""
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-Substance 3D Painter es un software de pintura en 3D que le permite texturizar y representar sus mallas en 3D.
+Substance 3D Painter es un software de textura en 3D que le permite crear y representar mallas en 3D.
 
 Esta documentación está diseñada para ayudarle a aprender a utilizar este software, desde técnicas básicas hasta técnicas avanzadas.
 
@@ -68,17 +68,17 @@ Si tienes alguna pregunta que no se responde en este manual, no dudes en pregunt
 
 * [Lista de herramientas](painting/tool-list/tool-list.md): en esta página se detallan todas las herramientas de pintura disponibles y cómo utilizarlas.
 * [Línea recta](painting/straight-line.md): La línea recta es una forma fácil de dibujar una línea con cualquier herramienta de pintura con menos clics y más precisión.
-* [Ratón perezoso](painting/lazy-mouse.md) — El ratón perezoso es un desplazamiento de distancia entre el cursor del ratón y la pintura real que permite pintar trazos más precisos o suaves.
-* [Simetría](painting/symmetry/symmetry.md): la simetría es la acción de pintar en varias ubicaciones al mismo tiempo en función de las restricciones geométricas.
-* [Proyecciones de relleno](painting/fill-projections/fill-projections.md): Los efectos de relleno y capa de relleno proyectan una textura directamente en la malla en función de un modo específico. Este tipo de capa/efecto evita pintar manualmente texturas en el modelo 3D. Los ajustes de la proyección se pueden editar a través de la ventana Propiedades.
+* [Ratón perezoso](painting/lazy-mouse.md): el Ratón perezoso es un desplazamiento de distancia entre el cursor del ratón y la pintura real, lo que permite trazo más preciso o suave.
+* [Simetría](painting/symmetry/symmetry.md): la Simetría es la acción de pintar en varias ubicaciones al mismo tiempo en función de restricciones geométricas.
+* [Rellenar proyecciones](painting/fill-projections/fill-projections.md): los efectos Rellenar capa y Rellenar proyectan una textura directamente en la malla en función de un modo específico. Este tipo de capa/efecto evita la pintura manual de texturas en el modelo 3D. Los ajustes de la proyección se pueden editar a través de la ventana Propiedades.
 * [Ajustes preestablecidos](painting/presets/presets.md): los ajustes preestablecidos son configuraciones guardadas de Herramientas de pintura. En esta página se explica cómo y por qué utilizarlas.
 * [Trazos dinámicos](painting/dynamic-strokes/dynamic-strokes.md): los Trazos dinámicos son trazos de pincel normales potenciados por archivos de Substance que pueden cambiar para cada sello dentro de un trazo de pincel.
-* [Pintado avanzado de canales](painting/advanced-channel-painting/advanced-channel-painting.md): algunos de los canales predeterminados que se usan en los sombreados se pueden pintar en efectos complejos o avanzados creados. Por ejemplo, pintar información de height que se convierte en un mapa normal.
+* [Pintado avanzado de canales](painting/advanced-channel-painting/advanced-channel-painting.md): algunos de los canales predeterminados que se usan en los sombreados se pueden pintar en efectos complejos o avanzados creados. Por ejemplo, pintar información de height que se convierte en un mapa de normales.
 
 ### Baking
 
-* [Cómo hornear mapas de malla](baking/how-to-bake-mesh-maps.md)
-* [Configuración de visualización de horneado](baking/baking-visualization-settings.md)
+* [Cómo hacer un bake mapas de malla](baking/how-to-bake-mesh-maps.md)
+* [Hacer un bake la configuración de visualización](baking/baking-visualization-settings.md)
 
 ### Contenido
 
@@ -90,7 +90,7 @@ Si tienes alguna pregunta que no se responde en este manual, no dudes en pregunt
 * [Desempaquetado automático de UV](features/automatic-uv-unwrapping.md)
 * [Efectos](features/effects/effects.md)
 * [Tamaño físico](features/physical-size.md)
-* [Materiales y máscaras inteligentes](features/smart-materials-and-masks.md)
+* [Materiales inteligentes y máscaras](features/smart-materials-and-masks.md)
 * [Dispersión de subsuperficie](features/subsurface-scattering/subsurface-scattering.md)
 * [Control dinámico de capas de materiales](features/dynamic-material-layering.md)
 * [Reproyección UV](features/uv-reprojection.md)

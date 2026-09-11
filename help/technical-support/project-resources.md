@@ -23,19 +23,19 @@ ht-degree: 0%
 La administración de los recursos del proyecto puede ayudar a establecer una buena base para el rendimiento del proyecto en Painter.
 
 +++Reducir escala de mapas con bake
-A veces, no todos los mapas con bake deben tener resoluciones 2k o 4k. No dude en hornear un lote a 2k, luego vuelva a hornear a una resolución más baja para ver si hay una diferencia visual.
+A veces, no todos los mapas con bake deben tener resoluciones 2k o 4k. No dude en hacer un bake un lote a 2k, luego vuelva a hacer a una resolución más baja para ver si hay una diferencia visual.
 
 +++
 
 +++Administrar mapas de bits importados
 Las imágenes importadas pueden afectar drásticamente al rendimiento, por lo que es importante tener en cuenta lo que se importa. Si los conjuntos de texturas se establecen en 2k y no se exportan con una resolución más alta de todos modos, el uso de una imagen 8k no tendrá ningún impacto positivo: su calidad se limitará a 2k, ya que es la resolución del conjunto de texturas.
 
-El formato también importa: EXR, HDR e incluso PNG son mucho más pesados que un  JPG, y puede que no todas las imágenes necesiten el nivel de calidad de un EXR (como el color base frente a los detalles de Height, por ejemplo).
+El formato también importa: EXR, HDR e incluso PNG pesan mucho más que un JPG, y puede que no todas las imágenes necesiten el nivel de calidad de un EXR (como el Color base o los detalles de Height, por ejemplo).
 
 +++
 
-+++Ajustar la configuración del sombreado
-La calidad del specular en Ultra dará un resultado más preciso, pero el ajuste es costoso. Cuantos más efectos se activen a la vez en el sombreado, más pesado será el cálculo. Siempre que sea posible, divide los materiales complejos en otro conjunto de texturas con un sombreado independiente. Si el desplazamiento está activado, tenga cuidado con el parámetro teselación.
++++Ajustar la configuración del sombreador
+La calidad del specular en Ultra dará un resultado más preciso, pero el ajuste es costoso. Cuantos más efectos se activen a la vez en el sombreador, más pesado será el cálculo. Siempre que sea posible, divide los materiales complejos en otro conjunto de texturas con un sombreador independiente. Si el desplazamiento está activado, tenga cuidado con el parámetro teselación.
 
 +++
 

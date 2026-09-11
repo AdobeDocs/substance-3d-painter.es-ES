@@ -30,12 +30,12 @@ Fecha de publicación : *23 de noviembre de 2017*
 
 ![](../../assets/instancing.jpg)
 
-La **creación de instancias de capas** es un nuevo sistema que permite mantener la capa **sincronizada** y los **parámetros** en **otras capas y conjuntos de texturas**. Al crear una instancia de capa, la capa original se convierte en el **origen** y las instancias **se mantendrán actualizadas** a menos que se rompa el vínculo entre ellas. Las capas instanciadas son una **excelente manera** de **texturizar un activo con solo unos clics**, así como evitar ir cambiando de una capa a otra para actualizarlas. Para aplicar texturas a un activo con facilidad, basta con **crear instancias de una carpeta** en otros conjuntos de texturas y ponerle un material inteligente o cualquier otra capa, se **replicará en todas partes** al instante.
+La **creación de instancias de capas** es un nuevo sistema que permite mantener la capa **sincronizada** y los **parámetros** en **otras capas y conjuntos de texturas**. Al crear una instancia de capa, la capa original se convierte en el **origen** y las instancias **se mantendrán actualizadas** a menos que se rompa el vínculo entre ellas. Las capas instanciadas son una **excelente manera** de **textura un recurso con solo unos clics**, así como de evitar ir cambiando de una capa a otra para actualizarlas. Para textura fácilmente un recurso, basta con **crear una instancia de un recurso** en otros conjuntos de texturas y ponerle un material inteligente o cualquier otra capa, se **replicará en todas partes** al instante.
 
 Hay dos formas de crear una instancia:
 
-* Elija &quot;**pegar como instancia**&quot; (o utilice el método abreviado CTRL+MAYÚS+V), después de copiar una capa
-* Elija &quot;**crear instancias entre conjuntos de texturas**&quot; (o utilice el método abreviado CTRL+MAYÚS+D) después de seleccionar una capa
+* Elija &quot;**pegar como instancia**&quot; (o use el método abreviado CTRL+MAYÚS+V), después de copiar una capa
+* Elija &quot;**crear instancias en conjuntos de texturas**&quot; (o use el método abreviado CTRL+MAYÚS+D) después de seleccionar una capa
 
 >[!NOTE]
 >
@@ -43,8 +43,8 @@ Hay dos formas de crear una instancia:
 > 
 > * Las acciones de pintura solo estarán presentes en la capa de origen; las capas con instancias no replicarán trazos de pincel.
 > * Las referencias de anclaje deben tener el punto de anclaje en el mismo nivel de la instancia; un punto de anclaje no puede estar fuera de una carpeta con instancias; de lo contrario, se romperá.
-> * Si se guarda un material inteligente con capas instanciadas, la capa de origen debe estar en la carpeta de material inteligente; de lo contrario, el vínculo de instancia se romperá.
-> * Según la configuración de la pila de capas, las capas con instancias pueden crear un ciclo, lo que no se admite y romperá el resultado de la instancia. Elimine o mueva la instancia para corregirla.
+> * Si se guarda un material inteligente con capas con instancias, la capa de origen debe estar en la carpeta de material inteligente; de lo contrario, el vínculo de la instancia se romperá.
+> * Dependiendo de la configuración de la pila de capas, las capas con instancias pueden crear un ciclo que no se admite y que interrumpirá el resultado de la instancia. Elimine o mueva la instancia para corregirla.
 
 Para obtener más detalles y ejemplos, consulte la página dedicada : [Creación de instancias de capas](../../interface/layer-stack/layer-instancing.md)
 
@@ -93,21 +93,21 @@ Las nuevas funciones se detallan en nuestros vídeos más recientes :
 * [Exportar] Exporte texturas a Sketchfab sin perder la calidad normal del mapa
 * [Export] Exportación en formato binario glTF (glb)
 * [Exportar] Permitir cambiar el tamaño de las columnas en la ficha de configuración de la ventana de exportación
-* [Shader] Agregar un registro de cambios para la API del sombreador
-* [Scripting] Añadir funciones de devolución de llamada Antes y Después al exportar texturas
+* [Sombreador] Agregar un registro de cambios para la API del sombreador
+* [Scripting] Agregar funciones de devolución de llamada Antes y Después al exportar texturas
 * [Israel] Actualización a SDK 2017.1 (compatibilidad con las GPU Volta)
 
 **&#x200B;**&#x200B;Corregido:**&#x200B;**
 
-* Bloqueo al salir de la aplicación antes de que se muestre la ventana principal
+* Bloqueo al salir de la aplicación antes de mostrar la ventana principal
 * [MAC] Bloqueo al cargar mapas en escala de grises con IRA
-* [MAC] La detección de VRAM no es correcta con el nuevo sistema operativo High Sierra
+* [MAC] VRAM detección no es correcta con el nuevo sistema operativo High Sierra
 * [Complemento] La descarga de recursos de Substance Source ya no funciona
 * [Scripting] Detección de versión mínima de plugin incorrecta
 * [Exportar] Error al guardar el ajuste preestablecido de exportación después de exportar texturas
 * [Instancing] Problema en generadores instanciados en un TextureSet sin Mapas Adicionales
 * [Ventana gráfica] El tramado no funciona con una resolución superior a 4k
-* [Ventana gráfica] La visualización de material 2D View está cubierta de ruido
+* [Ventana gráfica] La visualización de material de vista 2D está cubierta de ruido
 * [Estante] Mejorar el tiempo de carga para los ajustes preestablecidos de estante
 * [Motor] Fusión incorrecta al pintar en la selección de color
 
@@ -124,16 +124,16 @@ Las nuevas funciones se detallan en nuestros vídeos más recientes :
 **Corregido:**
 
 * Bloqueo si la aplicación se cierra antes de que finalice el rastreo de recursos
-* Bloqueo al abrir proyectos con la herramienta Difuminar/Clonar
+* Bloqueo al abrir proyectos con la herramienta Dedo/Clonar
 * Bloqueo al utilizar rehacer después de deshacer un cambio de sombreado en la configuración del visor
 * [Motor] Las texturas difieren entre Painter 2017.2 y 2017.4
 * [Ventana gráfica] Al seleccionar un mapa de ID de una instancia, se muestra un color incorrecto
-* [Export] Bloqueo al exportar una textura normal o de oclusión no válida
+* bloqueo [Export] al exportar una textura normal o de oclusión no válida
 * [Exportar] Los grupos de archivos de PSD se bloquean al abrirse en Photoshop CS6
 * [Plugin] El plugin de Photoshop ignora la selección de canales y siempre exporta todo
 * [Capas] Los anclajes se rompen al copiar o pegar entre conjuntos de texturas
 * [Capas] Algunas referencias de anclaje no se pueden restaurar si se rompen
-* El parámetro de rugosidad secundaria con revestimiento de pbr [Shader] está roto
+* [Sombreador] el parámetro de rugosidad secundaria con revestimiento de pbr está roto
 * [Steam] La ventana emergente del comprobador de versiones no debería estar visible al iniciarse
 
 **Problemas conocidos:**

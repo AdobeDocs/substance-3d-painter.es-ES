@@ -22,10 +22,10 @@ ht-degree: 0%
 
 ![](../assets/banner-usd.jpg)
 
-El flujo de trabajo en USD está disponible en Painter 8.3. [USD](https://graphics.pixar.com/usd/release/intro.html) fue desarrollado por Pixar como un formato intercambiable y amigable con la colaboración que permite transportar muchos tipos diferentes de datos.
+USD flujo de trabajo está disponible en Painter 8.3. [USD](https://graphics.pixar.com/usd/release/intro.html) fue desarrollado por Pixar como un formato intercambiable que permite la colaboración y que permite transportar muchos tipos diferentes de datos.
 
 En el contexto de Painter, ahora es posible:
 
-* [Crea un proyecto](../getting-started/project-creation.md), haciendo uso de características específicas de USD, como la elección del ámbito y las variantes, los niveles de subdivisión y los fotogramas de animación.
-* [Exporta](../export/export-window/export-settings.md) materiales y texturas con formato USD.
-* Además, se ha añadido USD como nuevo formato de archivo para la exportación solo de malla.
+* [Crea un proyecto](../getting-started/project-creation.md), utilizando USD características específicas, como la elección del ámbito y las variantes, los niveles de subdivisión y los marcos de animación.
+* [Exporta](../export/export-window/export-settings.md) materiales y texturas con el formato USD.
+* Además, se USD añadido como un nuevo formato de archivo para la exportación solo de malla.

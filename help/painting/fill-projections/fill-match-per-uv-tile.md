@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/fill-projections/fill-match-per-uv-tile.html"
 breadcrumb-title: ''
-description: Utilice la coincidencia de relleno por azulejo UV en Substance 3D Painter para hacer coincidir los patrones de textura en los azulejos UV para un mosaico perfecto.
+description: Utilice la coincidencia de relleno por mosaico UV en Substance 3D Painter para hacer coincidir los patrones de textura en los mosaicos UV para un mosaico perfecto.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Fill projections > Fill (match per UV Tile)
 helpx_experience_level: ""
@@ -20,9 +20,9 @@ ht-degree: 1%
 
 # Relleno (coincidencia por azulejo UV)
 
-**Relleno (coincidencia por azulejo UV)** es una proyección 2D especial que resulta útil para los proyectos de [azulejo UV](../../features/uv-tiles/uv-tiles.md). Permite asignar una textura UDIM a partir de una secuencia para cada mosaico UV.
+**Relleno (coincidencia por azulejo UV)** es una proyección 2D especial que resulta útil para los proyectos de [azulejo UV](../../features/uv-tiles/uv-tiles.md). Permite asignar una textura de UDIM de una secuencia para cada Mosaico de UV.
 
-Esta proyección no tiene ningún ajuste específico, ya que se asigna una sola imagen o más para rellenar cada mosaico UV. Como no hay ajustes, este modo también es mejor para el rendimiento.
+Esta proyección no tiene ningún ajuste específico, ya que se asigna una sola imagen o más para rellenar cada Mosaico de UV. Como no hay ajustes, este modo también es mejor para el rendimiento.
 
 | Modo | Descripción |
 | --- | --- |

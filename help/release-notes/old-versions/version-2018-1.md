@@ -55,7 +55,7 @@ Substance Painter 2018.1 presenta una **revisión completa de la interfaz**, que
   ![](../../assets/contextual-toolbar_1.png)
 * Ahora es posible **reordenar efectos** con **arrastrar y soltar** en la **pila de capas**.\
   ![](../../assets/re-order-effects.gif)
-* Aunque los métodos abreviados &quot;**C**&quot; y &quot;**B**&quot; te permiten visualizar rápidamente **Channel** y **Baked textures** en el **puerto de visualización**, ahora es posible usar el menú desplegable unificado **para cambiar la visualización del puerto de visualización.**\
+* Aunque los accesos directos &quot;**C**&quot; y &quot;**B**&quot; te permiten visualizar rápidamente las **texturas Hechas un bake** y **Channel** en el **puerto de visualización**, ahora es posible usar el menú desplegable unificado **para cambiar la visualización del puerto de visualización.**\
   En la **parte superior derecha** del **puerto de visualización** hay ahora una lista desplegable con **todos los canales y mapas de malla** (anteriormente mapas adicionales). Este menú desplegable unificado también está disponible en el conjunto acoplado **Display Settings**.\
   ![](../../assets/dropdown-viewport.gif)
 * **Configuración de pantalla** y **Configuración del visor** se han **combinado** en un solo Dock.\
@@ -67,7 +67,7 @@ Substance Painter 2018.1 presenta una **revisión completa de la interfaz**, que
 
 ![](../../assets/drag-drop-material-resize.gif){width="650px"}
 
-Ahora puedes **arrastrar y soltar** materiales y materiales inteligentes **directamente en el área de visualización**.\
+Ahora puedes **arrastrar y soltar** materiales y Materiales inteligentes **directamente en el área de visualización**.\
 Esta nueva acción **resaltará la geometría** del objeto del **conjunto de texturas de destino** al mismo tiempo. Esta acción creará las nuevas capas en la parte superior de la pila de capas del conjunto de texturas.
 
 ### Comportamiento mejorado del lápiz de Tablet PC
@@ -113,18 +113,18 @@ También hemos mejorado las prestaciones en esta versión en varios niveles:
   Ya no es obligatorio combinar una malla en una sola pieza antes de cargarla en Substance Painter. El rendimiento debe ser bueno incluso con **8000 subobjetos** en un proyecto.
 * Hemos cambiado la forma en que **viewport** se **actualizó** para reducir la carga en la GPU al pintar.\
   Esto significa que ya no actualizamos toda la imagen, sino que actualicemos una pequeña región en la que esté trabajando actualmente.\
-  Se nota la diferencia en las GPU menos potentes o cuando se utiliza un recuento de muestras alto en el sombreado.
+  Se nota la diferencia en las GPU menos potentes o cuando se utiliza un recuento de muestras alto en el sombreador.
 * El sistema **shelf** ahora es **más rápido de descubrir** recursos al iniciar la aplicación.\
   Los materiales de Substance con mapas de bits incrustados son **dos veces más rápidos** de descubrir (si se cocinan como no sólidos). **Ajustes preestablecidos** también debería ver mejoras.
 
-### Panadero de posición de escena global
+### Baker global de posición de escena
 
 ![](../../assets/position-baker.jpg)
 
-Ahora tenemos una nueva configuración que permite hornear un mapa de posición por conjunto de texturas que tenga en cuenta el tamaño completo de la escena.\
-Este nuevo comportamiento permite utilizar proyecciones triplanares en generadores de máscaras que coincidirán en toda la escena en lugar de crear costuras como antes. Esto resulta muy útil con proyectos que tienen muchos conjuntos de texturas (como los proyectos basados en UDIM).
+Ahora tenemos una nueva configuración que permite hacer un bake un mapa de posición por conjunto de texturas que tenga en cuenta el tamaño completo de la escena.\
+Este nuevo comportamiento permite utilizar proyecciones triplanares en Generadores de máscaras que coincidirán en toda la escena en lugar de crear costuras como antes. Esto resulta muy útil con proyectos que tienen muchos conjuntos de texturas (como los proyectos basados en UDIM).
 
-En la configuración del marcador de posición, cambie el parámetro &quot;**Escala de normalización**&quot; de &quot;**Por material**&quot; a &quot;**Escena completa**&quot; para habilitar este nuevo comportamiento.
+En la configuración del baker de posición, cambie el parámetro &quot;**Normalization Scale**&quot; de &quot;**Per Material**&quot; a &quot;**Full Scene**&quot; para habilitar este nuevo comportamiento.
 
 ![](../../assets/position-baker-example.png)
 
@@ -145,7 +145,7 @@ También hemos añadido contenido nuevo en esta versión:
   Ejemplo :
 
 1. &#x200B;
-   1. Cree el generador de máscaras **3D linear gradient** en una de las capas
+   1. Cree el generador de máscaras **3D linear gradient** en una de sus capas
    1. Cambie la visualización de la ventana gráfica a &quot;**Posición**&quot; (mediante el menú desplegable de la ventana gráfica o usando la clave &quot;**B**&quot;)
    1. Haga clic en el parámetro &quot;**Inicio de posición 3D**&quot; para abrir el elemento emergente **Selector de color**
    1. **Selecciona un color** en tu malla **en la ventana gráfica**
@@ -155,8 +155,8 @@ También hemos añadido contenido nuevo en esta versión:
 
 * Nueva plantilla **Lens-studio** (aplicación Snap Chat 3D).\
   Disponemos de una nueva plantilla para crear fácilmente proyectos dirigidos a la aplicación Lens-Studio creada por Snap.\
-  También hay disponibles un sombreado dedicado y un ajuste preestablecido de exportación. Para obtener más información sobre Lens Studio, consulte : <https://lensstudio.snapchat.com/>
-* **Materiales inteligentes** y **Máscaras inteligentes** se han actualizado con la última versión de nuestros generadores de máscaras.\
+  También dispone de un sombreador específico y un ajuste preestablecido de exportación. Para obtener más información sobre Lens Studio, consulte : <https://lensstudio.snapchat.com/>
+* **Materiales inteligentes** y **Máscaras inteligentes** se han actualizado con la última versión de nuestros Generadores de máscaras.\
   Nuestros ajustes preestablecidos inteligentes ahora admiten la función **micro details**, que se puede usar con **puntos de ancla**.
 
 ### Nuevo proyecto de muestra
@@ -164,7 +164,7 @@ También hemos añadido contenido nuevo en esta versión:
 ![](../../assets/seamless-paint-material-optim.gif){width="650px"}
 
 Ahora hay un nuevo proyecto de muestra llamado &quot;**TilingMaterial**&quot; que puede abrir mediante la acción de menú &quot;**Archivo > Abrir muestra**&quot;.\
-Este proyecto usa una simple malla de plano con UV superpuestos que permite **pintar sin problemas** materiales y pinceladas para **crear materiales de mosaico**.
+Este proyecto usa una simple malla de plano con UV superpuestos que permite **pintura sin problemas** materiales y pinceladas para **crear materiales de mosaico**.
 
 ![](../../assets/seamless-paint-optim.gif){width="400px"}
 
@@ -203,7 +203,7 @@ Se ha añadido un nuevo curso tutorial a Substance Academy para que abarque nues
 
 **Agregado:**
 
-* Resumen: Mejora de la velocidad de cocción, Sistema de guardado mejorado, Reguladores actualizados, Plugin API actualizado, Traducción al chino, Relleno mejorado ahora Opcional
+* Resumen: Velocidad de Haga un bake mejorada, Sistema de guardado mejorado, Reguladores actualizados, Plugin API actualizado, Traducción al chino, Relleno mejorado ahora Opcional
 * [Bakers] Mejora del rendimiento con la nueva versión de baker
 * Cuadro de diálogo Forzar visualización con GPU no compatible
 * [Guardar] Exponer nueva funcionalidad de proyecto compacto (modo de guardado completo/compacto)
@@ -310,7 +310,7 @@ Se ha añadido un nuevo curso tutorial a Substance Academy para que abarque nues
 * [Nuevo proyecto] Nuevo proyecto: mejora del tiempo de actualización de la malla
 * [Guardar] Ahorro de tiempo del proyecto
 * [Log] Tipo de licencia registrado en el registro
-* [TextureSet] Cambiar el nombre del botón &quot;Hornear texturas&quot; por &quot;Hornear mapas de malla&quot;
+* [TextureSet] Cambie el nombre del botón &quot;Hacer un bake Texturas&quot; por &quot;Hacer un bake mapas de malla&quot;
 * Cambie el nombre de &quot;Mapas adicionales&quot; por &quot;Mapas de malla&quot;
 
 **Corregido:**
@@ -319,22 +319,22 @@ Se ha añadido un nuevo curso tutorial a Substance Academy para que abarque nues
 * [Herramientas > Propiedades] Canal desactivado al arrastrar y soltar una imagen en la ranura de material
 * [Herramientas, propiedades] La vista previa del pincel se rompe con las herramientas de difuminado y clonado
 * [Conjunto de texturas] El orden de los canales es incorrecto al utilizar plantillas
-* [Shelf] Falta icono para el generador de conversión de escala de grises
+* [Shelf] Falta icono para el generador de Conversión de escala de grises
 * [Estante] El número de círculo de Sign alfa está roto (falta fuente)
 * Detección incorrecta de GPU integradas al iniciarse
 * [Bloqueo] Arrastrar y colocar un recurso importado cuyo nombre tenga el carácter #
 * [Motor] Problema de detección de Vram en la GPU integrada
 * [Motor] Se han solucionado numerosos bloqueos en Substance Engine Linker
 * [Motor] Artefactos cuadrados al cambiar la resolución
-* [Post Effects] El cambio de tamaño de la interfaz es lento cuando los efectos posteriores están activados
-* [Bakers] La unidad de escena no se respeta correctamente para los valores de distancia de rayos
-* [Panaderos] El AO de la distancia del Mesh Occluder se fija a 1 independientemente del valor de entrada
-* [Bakers] La coincidencia por nombre ignora algunas mallas con nombres específicos
-* [Bakers] El color de la configuración de Polygroup de malla e ID de submalla siempre devuelve una imagen en negro
-* [Bakers] El procesamiento de ID falla con mallas FBX binarias de Blender
-* [Shader] Ruido en la vista 2D con dota-2 y non-pbr-spec-gloss
-* [Linux] Solo se utiliza un subproceso de CPU al realizar el procesamiento
-* [MacOS] Bloqueo al mover el cursor del pincel por la ventana gráfica
+* [Efectos de posprocesamiento] El cambio de tamaño de la interfaz es lento cuando los efectos de posprocesamiento están activados
+* [Bakeres] La unidad de escena no se respeta correctamente para los valores de distancia de rayos
+* [Bakeres] El AO de la distancia del Mesh Occluder se fija en 1 independientemente del valor de entrada
+* [Bakeres] La coincidencia por nombre ignora algunas mallas con nombres específicos
+* [Bakeres] El color de la configuración de Polygroup de malla e ID de submalla siempre devuelve una imagen en negro
+* [Bakeres] La Hace un bake de ID falla con mallas de FBX binarias de Blender
+* [Sombreador] Ruido en el vista 2D con dota-2 y non-pbr-spec-gloss
+* [Linux] Sólo se utiliza un subproceso de CPU al hacer un bake
+* [MacOS] Bloqueo con el cursor del pincel moviéndose por la ventana gráfica
 
 **Problemas conocidos:**
 

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-random-shader-api.html"
 breadcrumb-title: ''
-description: Acceda a la referencia de API del sombreador Lib Random para que Substance 3D Painter genere valores aleatorios en el desarrollo de sombreadores personalizados.
+description: Acceda a la referencia de API del sombreador Lib Random para Substance 3D Painter para generar valores aleatorios en el desarrollo de sombreadores personalizados.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Random - Shader API
 helpx_experience_level: ""
@@ -47,7 +47,7 @@ const ivec2 texture_blue_noise_size = ivec2(256);
 ```
 
 
-Semilla aleatoria del fotograma actual
+Semilla aleatoria del marco actual
 
 ```
 //: param auto random_seed 
@@ -69,7 +69,7 @@ float getBlueNoiseThreshold()
 ```
 
 
-Obtenga un valor aleatorio uniforme basado en las coordenadas de píxeles y el identificador de fotograma.
+Obtenga un valor aleatorio uniforme basado en las coordenadas de píxeles y el ID de marco.
 
 ```
 float getBlueNoiseThresholdTemporal() 
@@ -114,7 +114,7 @@ vec2 fibonacci2D(int i, int nbSamples)
 ```
 
 
-Devuelve la pareja i *th* de la secuencia de fibonacci. nbSample es necesario para obtener una distribución uniforme. Esta versión tiene una rotación pseudoaleatoria por fotograma y por píxel aplicada.
+Devuelve la pareja i *th* de la secuencia de fibonacci. nbSample es necesario para obtener una distribución uniforme. Esta versión tiene una rotación pseudoaleatoria por marco y por píxel aplicada.
 
 ```
 vec2 fibonacci2DDitheredTemporal(int i, int nbSamples) 

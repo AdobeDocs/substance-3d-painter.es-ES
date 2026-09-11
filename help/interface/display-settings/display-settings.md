@@ -33,8 +33,8 @@ El modo de visualización controla el aspecto que tendrá la ventana gráfica. E
 | Sección | Descripción |
 | --- | --- |
 | **Iluminación** | Muestre el modelo 3D en la ventana gráfica con iluminación completa, incluidas las sombras si está activada. |
-| **Canal único** | También se denomina modo solo. Muestre la malla en la ventana gráfica solo con un canal o textura específicos sin iluminación. |
-| **Mapas de malla** | Mostrar la malla en la ventana gráfica solo con texturas horneadas específicas sin iluminación. |
+| **Canal único** | También se denomina modo solo. Muestre la malla en la ventana gráfica solo con un canal o una textura específicos sin iluminación. |
+| **Mapas de malla** | Mostrar la malla en la ventana gráfica solo con texturas hechas un bake específicas sin iluminación. |
 
 >[!NOTE]
 >

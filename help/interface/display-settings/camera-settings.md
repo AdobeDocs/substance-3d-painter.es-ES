@@ -41,7 +41,7 @@ Consulte la [página Post-Effect](../../features/post-processing/post-processing
 ![](../../assets/taa.png)
 
 Cuando se habilita, el **Suavizado temporal** (**TAA**) quitará los bordes dentados en la ventana gráfica.\
-**TAA** funciona acumulando información en varios fotogramas del procesamiento, lo que significa que el efecto se deshabilita hasta que la cámara deja de moverse o se realizan otras operaciones.
+**TAA** funciona acumulando información en varios marcos de procesamiento, lo que significa que el efecto se deshabilita hasta que la cámara deja de moverse o se realizan otras operaciones.
 
 | *Configuración* | *Descripción* |
 | --- | --- |
@@ -69,4 +69,4 @@ Consulte la [página Perfil de color](../../features/post-processing/color-profi
 
 | Configuración | Descripción |
 | --- | --- |
-| **Función** | Especifique la función utilizada para ajustar los valores de color que superen las capacidades de visualización del monitor (reasignación de valores HDR a un rango LDR). Los valores posibles son:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Lineal</strong> (predeterminado): sin transformación, los valores por encima de 1.0 se fijan.</li><li data-preserve-html="true"><strong>ACES</strong>: Utilice la curva de asignación de tonos de película ACES.</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/linear-vs-aces.jpg" width="450px"/></div> **Nota:** Algunos motores de juegos y software de procesamiento usan el asignador de tonos ACES. Al habilitar esta función, se ayuda a igualar los colores entre las aplicaciones y se evitan diferencias. |
+| **Función** | Especifique la función utilizada para ajustar los valores de color que superan las capacidades de visualización del monitor (reasignación de valores de HDR a un rango de LDR).Los valores posibles son:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Lineal</strong> (predeterminado): sin transformación, los valores por encima de 1.0 se fijan.</li><li data-preserve-html="true"><strong>ACE</strong>: Utilice la curva de asignación de tonos ACE Filmic.</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/linear-vs-aces.jpg" width="450px"/></div> **Nota:** Algunos motores de juegos y software de procesamiento usan el asignador de tonos de ACE. Al habilitar esta función, se ayuda a igualar los colores entre las aplicaciones y se evitan diferencias. |

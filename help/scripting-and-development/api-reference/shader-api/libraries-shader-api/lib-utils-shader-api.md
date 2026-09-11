@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-utils-shader-api.html"
 breadcrumb-title: ''
-description: Acceda a la referencia de la API del sombreador Lib Utils de Substance 3D Painter para utilizar funciones de utilidad en el desarrollo de sombreadores personalizados.
+description: Acceda a la referencia de API del sombreador de Lib Utils de Substance 3D Painter para utilizar funciones de utilidad en el desarrollo de sombreadores personalizados.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Utils - Shader API
 helpx_experience_level: ""
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## Asignación de tonos
 
-Estos son ejemplos de asignación de tonos que puede utilizar en el sombreado. Painter no aplica ninguna asignación de tonos, excepto la opcional aplicada por Yebis. Si decide hacer alguna asignación de tonos en el sombreador, se aplicará antes de la asignación de tonos yebis.
+Estos son ejemplos de mapeado de tonos que puede usar en su sombreador. Painter no aplica ninguna asignación de tonos, excepto la opcional aplicada por Yebis. Si decides hacer alguna asignación de tonos en tu sombreador, se aplicará antes de la asignación de tonos Yebis.
 
 Efectúe la asignación de tonos de la curva en S en función de los parámetros sigma y n.
 
@@ -43,7 +43,7 @@ vec3 tonemapSCurve(vec3 value, float sigma, float n)
 
 ## conversiones sRGB
 
-Estas son las conversiones utilizadas en Painter. Puede anular la conversión lineal -> sRGB automática en la ventana gráfica colocando esta línea en el sombreador personalizado:
+Estas son las conversiones utilizadas en Painter. Puede anular la conversión lineal -> sRGB automática en la ventana gráfica colocando esta línea en su sombreador personalizado:
 
 *#define DISABLE\_FRAMEBUFFER\_SRGB\_CONVERSION*
 

@@ -32,15 +32,15 @@ Fecha de publicación: *13 de octubre de 2021*
 
 Esta versión presenta la nueva proyección de deformación 3D para capas de relleno y efectos de relleno. Esta proyección permite distorsionar una textura o una imagen con la ayuda de una cuadrícula de deformación y puntos controlables.
 
-* **Configuración rápida mediante arrastrar y soltar** Elige un material, un alfa, una textura o un procedimiento de la biblioteca de activos, arrastra y suelta en la parte deseada de la malla (método abreviado **ALT** necesario para los materiales). Si el activo no es un material, aparece un mensaje emergente con información sobre el canal al que desea asignarlo.\
+* **Configuración rápida mediante arrastrar y soltar** Elige un material, un alfa, una textura o un procedimiento de la biblioteca de activos, arrastra y suelta en la parte deseada de la malla (se requiere el método abreviado **ALT** para los materiales). Si el activo no es un material, aparece un mensaje emergente con información sobre el canal al que desea asignarlo.\
   Una vez creada la capa, verás que la nueva *proyección de deformación* se selecciona automáticamente. La capa tiene controles de modo de proyección 3D estándar, pero también un nuevo parámetro *Profundidad de proyección* que permite establecer la profundidad de la proyección de deformación (representada por flechas verdes como cola visual).\
   También puede seleccionar este modo de proyección manualmente en cualquier capa de relleno o efecto sin tener que arrastrar y soltar un recurso en la ventana gráfica.
 
   ![](../../assets/drop-viewport-warp.gif)
 
-* **Colocación automática con la herramienta Superficie** Cuando se crea la nueva capa de deformación, verás que la herramienta Superficie se selecciona automáticamente. Esto le permite mover la imagen para que permanezca en la superficie de la malla en todo momento. Sin embargo, siempre puede cambiar a cualquiera de los otros manipuladores y ajustar su traducción (método abreviado **W**), rotación (método abreviado **E**) o escala (método abreviado **R**). Para volver a la herramienta Superficie, use el método abreviado **MAYÚS + W**. Al cambiar al modo *Editar vértices*, la herramienta Superficie también es la selección predeterminada y ajusta el movimiento del vértice a la superficie de la malla. Sin embargo, puede reemplazar temporal y rápidamente la herramienta de superficie **manteniendo CTRL**, lo que le permite mover el punto seleccionado en cualquier dirección, no solo en la superficie.
+* **Colocación automática con la herramienta Superficie** Cuando se crea la nueva capa de deformación, verás que la herramienta Superficie se selecciona automáticamente. Esto le permite mover la imagen para que permanezca en la superficie de la malla en todo momento. Sin embargo, siempre puedes cambiar a cualquiera de los otros manipuladores y ajustar su traslación (método abreviado **W**), rotación (método abreviado **E**) o escala (método abreviado **R**). Para volver a la herramienta Superficie, use el método abreviado **MAYÚS + W**. Al cambiar al modo *Editar vértices*, la herramienta Superficie también es la selección predeterminada y ajusta el movimiento del vértice a la superficie de la malla. Sin embargo, puede reemplazar temporal y rápidamente la herramienta de superficie **manteniendo CTRL**, lo que le permite mover el punto seleccionado en cualquier dirección, no solo en la superficie.
 
-* **Cuadrícula de deformación fácilmente editable** Una vez que se haya colocado la imagen en su totalidad, también es posible editar la cuadrícula de deformación para obtener una mayor precisión y flexibilidad. Para entrar en el modo de edición de cuadrícula, puede usar el menú de deformación recién agregado o el método abreviado **MAYÚS + V**. Esto permitirá editar los vértices existentes de la cuadrícula.\
+* **Cuadrícula de deformación fácilmente editable** Una vez que se haya colocado la imagen en su totalidad, también es posible editar la cuadrícula de deformación para obtener una mayor precisión y flexibilidad. Para entrar en el modo de edición de cuadrícula, puedes usar el menú de deformación recién agregado o el método abreviado **MAYÚS + V**. Esto permitirá editar los vértices existentes de la cuadrícula.\
   Puede subdividir uniformemente la cuadrícula en su conjunto, pero tenga en cuenta que si previamente ha movido los vértices, se restablecerán a sus posiciones originales. La subdivisión de la cuadrícula se puede realizar mediante el nuevo menú de opciones de deformación.\
   Como alternativa, es posible añadir divisiones colocadas individualmente que permitan tener más detalles solo cuando sea necesario. Para añadir divisiones, seleccione cualquiera de las tres opciones del menú de deformación: transversal, horizontal o vertical. Cuando se selecciona una de ellas, al pasar el cursor sobre la proyección de deformación y hacer clic en cualquier punto dentro de ella, se agregará una nueva división. Esto no alterará la posición de los puntos existentes.
 
@@ -106,13 +106,13 @@ Para obtener más información, consulte la [página de documentación dedicada]
   ![](../../assets/improved-decal.gif)
 
 * **Mejora del complemento de guardado automático**\
-  El guardado automático ya no se activará durante operaciones más largas o más pesadas, como la recarga de malla, el procesamiento o la exportación.
+  El guardado automático ya no se activará durante operaciones más largas o más pesadas, como la recarga, hace un bake o exportación de malla.
 
 * **Mejoras de rendimiento**\
   Se realizaron tareas de mantenimiento y optimización para la manipulación de los reguladores y el rendimiento de la pintura.
 
 * **Nuevas funciones en la API python**\
-  La API de Python ha visto algunas adiciones recientes, que permiten volver a cargar mallas, actualizar recursos, así como establecer y consultar la resolución de los mosaicos UV a través de scripts.
+  La API de Python ha visto algunas adiciones recientes, que permiten volver a cargar mallas, actualizar recursos, así como establecer y consultar la resolución de los Mosaicos de UV a través de scripts.
 
 * **Actualización del motor del Substance 8.3.0**\
   Junto con algunas correcciones y mejoras generales, esta actualización del motor de Substance ahora tiene en cuenta nuevos tipos de gráficos. También es posible comprobar la versión del archivo .sbsar, lo que debería mejorar el uso y la descarga de las versiones de Substance 3D Assets adecuadas.
@@ -172,5 +172,5 @@ Resumen : **Versión principal. Contiene una nueva proyección de deformación 3
 * [Proyección] [Deformar] El giro no funciona cuando la transformación se establece en espacio de entorno
 * [Proyección] [Deformación] Líneas de artefactos entre parches en algunos casos raros
 * [Proyección] [UV] El punto de giro se restablece al voltear la proyección
-* [Mac M1] Los materiales inteligentes no se muestran correctamente
+* [Mac M1] Los Materiales inteligentes no se muestran correctamente
 * [M1]&#x200B;[Regresión] Las capas de materiales no funcionan

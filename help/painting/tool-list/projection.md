@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/tool-list/projection.html"
 breadcrumb-title: ''
-description: Utilice la herramienta Proyección de Substance 3D Painter para proyectar imágenes 2D en superficies 3D para los flujos de trabajo de pintura de texturas.
+description: Utilice la herramienta Proyección de Substance 3D Painter para proyectar imágenes 2D en superficies 3D para los flujos de trabajo de textura.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Tool list > Projection
 helpx_experience_level: ""
@@ -52,4 +52,4 @@ Es posible editar la transformación de la proyección pulsando el **método abr
 </table>
 
 * **Proyección** : Herramienta de pintura basada en la proyección del espacio de pantalla. Esta herramienta mostrará y repetirá un patrón en la ventana gráfica.
-* **Proyección física** : Herramienta de pintura de proyección con propiedades físicas basadas en ajustes preestablecidos de partículas.
+* **Proyección física** : Herramienta de pintura de proyecciones con propiedades físicas basadas en ajustes preestablecidos de partículas.

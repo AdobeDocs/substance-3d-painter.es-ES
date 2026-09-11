@@ -44,8 +44,8 @@ Puede importar diferentes tipos de archivos a la biblioteca de Substance 3D Pain
 | **SBSAR** | Material de Substance | activos / Materiales |
 | **SBSAR** | Filtros | activos/efectos |
 | **SBSAR** | Generadores | activos / Generadores |
-| **PNG, TGA, JPEG, etc.** | Textura o Alpha | activos / Texturas **o** Estante / Alpha |
-| **HDR, EXR** | Entorno o Lut de color | activos / Entornos **o** Shelf / Colorlut |
+| **PNG, TGA, JPEG, etc.** | TEXTURA o ALPHA | activos / Texturas **o** estante / Alpha |
+| **HDR., EXR** | Entorno o Lut de color | activos / Entornos **o** Shelf / Colorlut |
 | **GLSL** | Sombreador | activos / Shaders |
 | **SPPR** | Pincel preestablecido | activos / Ajustes preestablecidos / Pincel |
 | **SPPR** | Ajuste preestablecido de objetos | activos / Ajustes preestablecidos / Partículas |

@@ -52,7 +52,7 @@ Resumen: **Versión secundaria**
 **Corregido:**
 
 &#x200B;* El selector [Escala de grises] permanece abierto después de cambiar la herramienta
-&#x200B;* [Procesamiento de sesgo]: se producen saltos de corrección de sesgo al pintar y deshacer
+&#x200B;* [Hacer un bake sesgo] La corrección de sesgo se interrumpe al pintar y deshacer
 &#x200B;* La herramienta de proyección [Projection Tool] bloquea la interacción de la ventana gráfica
 &#x200B;* [Trazo dinámico]: faltan parámetros de trazo dinámico en las propiedades del pincel
 &#x200B;* La exportación a una red ya no funciona
@@ -65,12 +65,12 @@ Resumen: **Versión secundaria**
 
 **Corregido:**
 
-&#x200B;* \[Bloqueo\] Algunos Substance pueden producir un bloqueo al procesarse
-&#x200B;* \[Bloqueo\] Volver a importar la malla en el modo de procesamiento
+&#x200B;* \[Bloqueo\] Algunos Substance pueden provocar un bloqueo al procesarse
+&#x200B;* \[Bloqueo\] Volver a importar la malla mientras está en modo de hacer un bake
 &#x200B;* \[Bloqueo\] Si no se inicializa la visualización de gráficos, se puede producir un bloqueo
-&#x200B;* \[Bloqueo\] La exportación de texturas puede producir bloqueos en algunos casos al actualizar el registro
-&#x200B;* \[Bloqueo\] Bloqueo en modo de hace un bake en algunos casos al cargar o actualizar el mapa de entorno
-&#x200B;* \[Hacer un bake\] Si se vuelve a iniciar hacer un bake después de modificar el archivo de alta poly, se puede producir un bloqueo
+&#x200B;* \[Bloqueo\] La exportación de texturas puede bloquearse en algunos casos al actualizar el registro
+&#x200B;* \[Crash\] Bloqueo en el modo de procesamiento en algunos casos al cargar o actualizar el mapa de entorno
+&#x200B;* \[Horneado\] Si se vuelve a iniciar el horneado después de modificar el archivo de alta densidad, se puede producir un bloqueo
 &#x200B;* \[Enviar a Photoshop\] No se puede exportar la máscara de capa
 &#x200B;* \[Motor\] El resultado del punto de ancla no se procesa entre una máscara y un canal de color
 
@@ -82,19 +82,19 @@ Resumen: Versión secundaria
 
 Añadido:
 
-&#x200B;* [Sesgar Haciendo un bake] Exponer el modo normal de base de sesgo: malla o por triángulo
+&#x200B;* [Horneado de sesgo] Exponer modo normal de base de sesgo: malla o por triángulo
 &#x200B;* [Propiedades] Hacer que los colores uniformes siempre se restablezcan al valor predeterminado de su canal
-&#x200B;* [OpenPBR] reagrupa los canales por categorías en la ventana Exportar Texturas para crear plantillas de salida
+&#x200B;* [OpenPBR] reagrupa los canales por categorías en la ventana Exportar texturas para crear plantillas de salida
 &#x200B;* Actualizar el motor de Substance a la versión 9.4.5
 
 Corregido:
 
 &#x200B;* [Proyecto] Abrir y guardar algunos proyectos puede tardar más de lo habitual
 &#x200B;* [Bloqueo] La recarga de varias mallas puede provocar un bloqueo
-&#x200B;* [Bloqueo] Si se elimina un canal mientras se está en el modo de vista de máscara, se produce un bloqueo
-&#x200B;* [Bloqueo] Algunos Substance pueden provocar un bloqueo cuando se procesan
-&#x200B;* [Sesgo de Pintura] La herramienta seleccionada en el sesgo de pintura permanece seleccionada después de cambiar al modo de pintura
-&#x200B;* [Haciendo un bake configuración común] La configuración de la distancia de la jaula no actualiza la visualización de la malla metálica de la jaula y del sombreador
+&#x200B;* [Bloqueo] Al eliminar un canal en el modo de vista de máscara, se produce un bloqueo
+&#x200B;* [Bloqueo] Algunos Substance pueden producir un bloqueo al procesarse
+&#x200B;* [Sesgar pintura] La herramienta seleccionada en el sesgo de pintura permanece seleccionada después de cambiar al modo de pintura
+&#x200B;* [Configuración común de horneado] La configuración de la distancia de la jaula no actualiza la visualización de la malla metálica de la jaula y del sombreador
 &#x200B;* El modo &quot;Vecino del espacio 3D&quot; del relleno UV [Engine] no funciona bien en triángulos finos
 &#x200B;* El resultado del punto de anclaje [Engine] no se procesa entre una máscara y un canal de color
 
@@ -102,7 +102,7 @@ Corregido:
 
 Fecha de publicación: <b>2026/06/23</b>
 
-Resumen: <b>Esta actualización es una versión importante, contiene mejoras de bakeres con el nuevo estado de IU predeterminado de hace un bake, mapa de sesgo de pintura, reprocesamiento automático, nueva opción para el desajuste UV automático para mallas de superficie dura y OpenPBRs. Para obtener más detalles, vea las notas de la versión completas.</b>
+Resumen: <b>Esta actualización es una versión importante, contiene mejoras en los panaderos con el nuevo estado predeterminado de la interfaz de usuario para panificación, mapa de sesgo de pintura, reprocesamiento automático, nueva opción para el desempaquetado UV automático para mallas de superficie dura y OpenPBRs. Para obtener más detalles, vea las notas de la versión completas.</b>
 
 <b>Agregado</b>:
 
@@ -157,7 +157,7 @@ Resumen: <b>Esta actualización es una versión importante, contiene mejoras de 
 &#x200B;* [Sombreador] La Oclusión ambiental se aplica dos veces con los conjuntos de texturas usando diferentes métodos de mezcla
 &#x200B;* [Motor] Las texturas normales con un canal azul vacío (negro) pueden producir resultados de mezclas incorrectos
 &#x200B;* [Importación GLTF] La fusión alfa está activada en todos los conjuntos de texturas
-&#x200B;* [GLTF Export] La fusión de Alpha siempre está activada al exportar
+&#x200B;* [GLTF Export] La fusión alfa siempre está activada en la exportación
 &#x200B;* [Exportar] La geometría de doble cara siempre está desactivada al importar un archivo GLTF
 &#x200B;* [Javascript] La modificación de la configuración de los sombreadores no contribuye al historial de deshacer
 &#x200B;* [Muestras] La dispersión subsuperficial no está activada en Configuración de visualización para Meet Mat
@@ -170,7 +170,7 @@ Resumen: **Versión secundaria**
 
 **Agregado:**
 
-&#x200B;* Actualice Bakers a la versión 3.2.2.
+&#x200B;* Actualizar bakeres a la versión 3.2.2
 &#x200B;* Actualizar el motor de Substance a la versión 9.4.3
 &#x200B;* \[Python\] Guardar un material inteligente en una ubicación específica
 
@@ -178,12 +178,12 @@ Resumen: **Versión secundaria**
 
 &#x200B;* \[Ubuntu\] Bloqueo al seleccionar material
 &#x200B;* \[Mac\] Aparece una ventana emergente periódica para solicitar acceso a los datos de otras aplicaciones
-&#x200B;* \[Horneado\] Pueden aparecer defectos en el mapa de curvatura
-&#x200B;* \[Horneado\] El horneado es más lento en algunos casos
+&#x200B;* \[Hacer un bake\] Pueden aparecer artefactos en el mapa de curvatura
+&#x200B;* \[Hacer un bake\] Hacer un bake es más lento en algunos casos
 &#x200B;* \[Deformar en geometría\] En algunos casos, la opción Deformar en geometría se desactiva
-&#x200B;* \[Mosaico UV\] El punto de anclaje extraído alfa omitido por otros mosaicos
+&#x200B;* \[Mosaico de UV\] El alfa extraído del punto de anclaje es ignorado por otros mosaicos
 &#x200B;* \[Python\]\[Mac\] Excepciones en la consola de Python con SSL
-&#x200B;* \[Python\] Bloqueo de Painter al salir con widgets Qt sobrantes
+&#x200B;* \[Python\] bloqueo de Painter al salir con widgets Qt sobrantes
 
 ### 12.0.2
 
@@ -193,7 +193,7 @@ Resumen: **Versión secundaria**
 
 **Agregado:**
 
-&#x200B;* [Gestión de color] Añadir nuevo OCIO para especificar el espacio de color predeterminado del selector de color
+&#x200B;* [Gestión de color] Añada nuevos OCIO para especificar el espacio de color predeterminado del selector de color
 &#x200B;* [Python] Exponer la configuración de desajuste automático en la API de Python
 
 **Corregido:**
@@ -240,7 +240,7 @@ Resumen: <b>Esta es una versión importante. Esta versión contiene las funcione
 &#x200B;* [Nuevo proyecto] Cambios en la función de reimportación de mallas
 &#x200B;* [Nuevo proyecto] Permitir la apertura de archivos \*.geo.usd
 &#x200B;* [Configuración del proyecto] Mejorar la interfaz de usuario para la configuración del proyecto
-&#x200B;* Actualizar USD biblioteca a la versión 25.05
+&#x200B;* Actualizar la biblioteca USD a la versión 25.05
 &#x200B;* Actualizar Substance Engine a la versión 9.3.4
 &#x200B;* Aumentar controladores mínimos a 25.3.1/25.Q2 para las GPU AMD
 &#x200B;* Actualizar Qt a 6.8.6
@@ -249,12 +249,12 @@ Resumen: <b>Esta es una versión importante. Esta versión contiene las funcione
 
 <b>Corregido:</b>
 
-&#x200B;* [Bloqueo] El cambio de una salida de canal de material en una máscara puede generar un bloqueo
-&#x200B;* [Import] Las texturas de EXR se fuerzan en sRGB en lugar de lineales al importar archivos USD
-&#x200B;* [Mosaicos de UV] La secuencia de imágenes con una sola imagen también llena otros Mosaicos de UV
-&#x200B;* [Hacer un bake] El AO es diferente entre la CPU y la GPU al hacer un bake
+&#x200B;* [Bloqueo] Cambiar una salida de canal de material en una máscara puede bloquearse
+&#x200B;* [Importar] Las texturas EXR se fuerzan en sRGB en lugar de lineales al importar archivos USD
+&#x200B;* [UV Tiles] La secuencia de imágenes con una sola imagen también llena otros UV Tiles
+&#x200B;* [Banca] El AO es diferente entre la CPU y la GPU
 &#x200B;* [Gestión de color] [MacOS] Viewport BaseColor no coincide con el selector de color
-&#x200B;* [USD] En algunos casos no se importan valores uniformes
+&#x200B;* [USD] En algunos casos, los valores uniformes no se importan
 
 ## Versión 11
 
@@ -265,9 +265,9 @@ Resumen: <b>Versión secundaria</b>
 
 <b>Corregido</b>:
 
-&#x200B;* [Pintura] En algunos casos, el patrón y la simetría no funcionan
+&#x200B;* [Pintar] La galería de símbolos y la simetría no funcionan en algunos casos
 &#x200B;* [Ruta] No hay actualización al cambiar el regulador de opacidad del trazo de difuminado
-&#x200B;* [Proyecto] No se puede realizar la pintura en alguna geometría
+&#x200B;* [Proyecto] No se puede pintar en alguna geometría
 &#x200B;* [Cinta de opciones] La ruta instanciada desaparece al cambiar la resolución del conjunto de texturas
 &#x200B;* [UI] El selector de color puede reducirse y desaparecer en algunos casos
 
@@ -278,25 +278,25 @@ Resumen: <b>Versión secundaria</b>
 
 <b>Agregado</b>:
 
-&#x200B;* [Hacer un bake] Mejorar el tiempo de hace un bake para el proyecto de Mosaicos de UV con el ahorro asíncrono
+&#x200B;* [Horneado] Mejore el tiempo de horneado para el proyecto de azulejos UV con el ahorro asíncrono
 &#x200B;* [Shaders] Mención en cambios de registro de cambios tras la migración de Vulkan
 &#x200B;* Actualizar OpenEXR a la versión 3.4.4
 
 <b>Corregido</b>:
 
-&#x200B;* [Bloqueo] Bloqueo durante el inicio en la serie Nvidia GTX 10xx
-&#x200B;* [Bloqueo] El uso del selector de color en diferentes conjuntos de texturas puede provocar un bloqueo al salir de la aplicación
+&#x200B;* [Bloqueo] Bloqueo al iniciarse en la serie Nvidia GTX 10xx
+&#x200B;* [Bloqueo] El uso del selector de color en diferentes conjuntos de texturas puede producir un bloqueo al salir de la aplicación
 &#x200B;* [Rendimiento] Problema de rendimiento al pintar en un proyecto con muchas capas
 &#x200B;* [Rendimiento] Retraso al pintar con el lápiz de Tablet PC gráfico
 &#x200B;* [UI] Los ajustes de la cámara permanecen desactivados en el modo de procesamiento (Iray)
 &#x200B;* [Cinta] En algunos casos, la ruta puede superponerse inesperadamente después de una esquina
-&#x200B;* [Cinta] Problema de rendimiento con Mosaicos de UV
+&#x200B;* [Ribbon] Problema de rendimiento con mosaicos UV
 &#x200B;* [Substance]&#x200B;[UI] Las entradas de imagen desaparecen al contraerse
 &#x200B;* [Substance] [IU] Los grupos anidados pueden permanecer aunque se muestren si los oculta
-&#x200B;* [Haciendo un bake]&#x200B;[UI] No se puede establecer el radio de muestreo de curvatura más allá de 0,01
-&#x200B;* [Haciendo un bake]&#x200B;[UI] No se puede establecer la distancia máxima del oclusor más allá de 1
-&#x200B;* [Haciendo un bake] El ajuste de AO &quot;Oclusión automática&quot; se ignora con varios conjuntos de texturas y hace un bake baja como alta
-&#x200B;* [Haciendo un bake] El mapa de ID no hace un bake los colores de vértice de FBX en modo Bajo como Alto
+&#x200B;* [Banking]&#x200B;[UI] No se puede establecer el radio de muestreo de curvatura más allá de 0,01
+&#x200B;* [Horneado]&#x200B;[IU] No se puede establecer la distancia máxima del oclusor más allá de 1
+&#x200B;* [Horneado] El ajuste de AO &quot;Oclusión automática&quot; se ignora con varios conjuntos de texturas y un horneado bajo como alto
+&#x200B;* [Horneado] El mapa de ID no hornea los colores de los vértices de FBX en modo Bajo como Alto
 &#x200B;* [Contenido] El filtro Paso alto genera colores atenuados en canales con gestión de color
 
 ### 11.1.1
@@ -306,42 +306,42 @@ Resumen: <b>Versión secundaria</b>
 
 <b>Agregado</b>:
 
-&#x200B;* [Rendimiento] Mejora del rendimiento de los Mosaicos de UV al calcular texturas parciales
-&#x200B;* [Baker] Actualización a la versión 3.15.4
+&#x200B;* [Rendimiento] Mejora el rendimiento de los mosaicos UV al calcular texturas parciales
+&#x200B;* [Bakers] Actualización a la versión 3.15.4
 
 <b>Corregido</b>:
 
-&#x200B;* [Bloqueo] [MacOS] Guardar siempre el bloqueo del proyecto de la versión anterior
-&#x200B;* [Bloqueo] Cerrar un proyecto a veces puede provocar un bloqueo
+&#x200B;* [Bloqueo] [MacOS] Al guardar un proyecto de una versión anterior, siempre se bloquea
+&#x200B;* [Bloqueo] El cierre de un proyecto puede provocar a veces un bloqueo
 &#x200B;* [Proyecto] Error &quot;los miembros no coinciden en el recuento&quot; al abrir el proyecto realizado en la versión anterior
-&#x200B;* [Haciendo un bake] Los Mosaicos de UV no se combinan con los resultados hechos un bake anteriores, si los hay
-&#x200B;* [Haciendo un bake] El dispositivo se pierde incluso con el trazado de rayos desactivado en la serie Nvidia GTX 10XX
-&#x200B;* [Haciendo un bake] El AO con normal tiene defectos en los bordes porque no hay relleno
-&#x200B;* [Haciendo un bake] El ajuste de AO &quot;Oclusión automática&quot; se ignora con varios conjuntos de texturas y &quot;coincidencia por nombre&quot; en
-&#x200B;* [Haciendo un bake] El mapa de ID es completamente negro si a alguna malla de alta densidad le faltan colores de vértice
-&#x200B;* [Cinta] La información sobre herramientas del modo de fusión Alfa menciona el modo de fusión de pantalla en lugar de Sobreexposición lineal
+&#x200B;* [Horneado] Las baldosas UV no se combinan con los resultados anteriores del horneado, si están presentes
+&#x200B;* [Banca] El dispositivo se pierde incluso con el trazado de rayos desactivado en la serie Nvidia GTX 10XX
+&#x200B;* [Horneando] El AO con normal tiene defectos en los bordes porque no hay relleno
+&#x200B;* [Horneado] El ajuste de AO &quot;Oclusión automática&quot; se ignora con varios conjuntos de texturas y &quot;coincidencia por nombre&quot; en
+&#x200B;* [Baking] El mapa de ID es completamente negro si a alguna malla de alto contenido de poli le faltan colores de vértice
+&#x200B;* [Cinta] La información sobre herramientas del modo de fusión Alpha menciona el modo de fusión de pantalla en lugar de Sobreexposición lineal
 &#x200B;* [Path] Las tangentes crean bucles inesperados cuando el punto se acerca a los extremos del trazado
 &#x200B;* [Herramienta] La previsualización de material no funciona cuando se utiliza la proyección en una máscara
 &#x200B;* [Motor] Pintar trazos pequeños puede dar como resultado artefactos de bloque
-&#x200B;* [Sombreador] Al deshacer la creación de la instancia del sombreador, no se elimina correctamente
+&#x200B;* [Shader] Al deshacer la creación de la instancia del sombreado, no se elimina correctamente
 &#x200B;* El modo de Alpha [Export] para la exportación GLTF siempre está establecido en MASK
 &#x200B;* [Python] Error inesperado al editar la pila de capas fuera del bloque de modificación de ámbito
 
 <b>Problemas conocidos</b>:
 
-&#x200B;* [Cinta] Problema de rendimiento con Mosaicos de UV
+&#x200B;* [Ribbon] Problema de rendimiento con mosaicos UV
 &#x200B;* [Cinta] En algunos casos, la ruta puede superponerse inesperadamente después de una esquina
-&#x200B;* [Bloqueo] [Cinta de opciones] La creación de textos muy largos en la cinta de opciones puede generar bloqueos
-&#x200B;* [Gestión de color] HDR. las conversiones de espacio de color con ACE en Linux producen colores con sujeción
+&#x200B;* [Bloqueo] [Cinta] La creación de textos muy largos en la cinta de opciones puede bloquearse
+&#x200B;* [Gestión de color] Las conversiones de espacio de color HDR con ACE en Linux producen colores con sujeción
 &#x200B;* [Regresión]&#x200B;[IU] El menú contextual es demasiado pequeño en pantallas HD
-&#x200B;* [Bloqueo] [Python] USD exportación desencadenada por TextureStateEvent
-&#x200B;* [Motor] Pintura con la herramienta Clonar en colores de cambio de canal normales incorrectamente
+&#x200B;* [Bloqueo] [Python] Exportación de USD desencadenada por TextureStateEvent
+&#x200B;* [Motor] Pintar con la herramienta Clonar en colores de cambio de canal normales incorrectamente
 &#x200B;* [Python] El widget fantasma aparece eliminado por la secuencia de comandos y sigue funcionando
 
 ### 11.1.0
 
 Fecha de publicación: <b>11/2025/18</b>
-Sumario: <b>Esta actualización es una versión importante, contiene la nueva herramienta Cinta de opciones con contenido nuevo dedicado, soporte de simetría para capas de relleno, parámetro de tamaño físico para desplazamiento, rendimiento mejorado a través de los bakeres actualizados, soporte completo de Vulkan para Windows y Linux y otras mejoras.</b>
+Resumen: <b>Esta actualización es una versión importante, contiene la nueva herramienta Cinta de opciones con contenido nuevo dedicado, soporte de simetría para capas de relleno, parámetro de tamaño físico para desplazamiento, rendimiento mejorado a través de los panaderos actualizados, soporte completo de Vulkan para Windows y Linux y otras mejoras.</b>
 
 <b>Agregado</b>:
 
@@ -351,39 +351,39 @@ Sumario: <b>Esta actualización es una versión importante, contiene la nueva he
 &#x200B;* [Cinta] Permite cambiar la opacidad de la Cinta por vértice en la ruta
 &#x200B;* [Cinta de opciones] Permite cambiar el tamaño de la Cinta de opciones por vértice en la ruta
 &#x200B;* [Cinta de opciones] Quitar el inicio o el final definido en un Substance cuando las rutas están cerradas
-&#x200B;* [Cinta] Quitar vista previa de ruta/material en la ventana de propiedades para las herramientas de Pintura/Borrador/Difuminado de trazado
+&#x200B;* [Cinta] Quitar vista previa de ruta/material en la ventana de propiedades de las herramientas Pintar/Borrador/Difuminar trazado
 &#x200B;* [Cinta] Añadir modos de fusión para el canal alfa y algunos canales cuando se superponen automáticamente
-&#x200B;* Rellenar simetría
-&#x200B;* [Rellenar] Compatibilidad añadida para la simetría en capas y efectos de relleno
-&#x200B;* [Relleno] [IU] Visualización de la configuración de simetría en la ventana de propiedades para la capa de relleno y los efectos
-&#x200B;* [Fill] Interfaz de usuario de configuración de reprocesamiento de simetría tanto en el menú de la ventana como en la ventana de propiedades
-&#x200B;* [Fill] Reorienta correctamente las texturas normales al proyectar en modo de deformación
+&#x200B;* Simetría de relleno
+&#x200B;* [Relleno] Compatibilidad añadida para la simetría en capas y efectos de relleno
+&#x200B;* [Relleno] [IU] Visualización de los ajustes de simetría en la ventana de propiedades para la capa de relleno y los efectos
+&#x200B;* [Fill] Interfaz de usuario de configuración de simetría de trabajo tanto en el menú Ventana como en la ventana de propiedades
+&#x200B;* [Rellenar] Reorienta correctamente las texturas normales al proyectar en modo de deformación
 &#x200B;* desplazamiento tamaño físico
 &#x200B;* [Desplazamiento] Utilice tamaño físico como unidad de desplazamiento
 &#x200B;* Mejora del rendimiento
 &#x200B;* [Rendimiento] Mejora el procesamiento de trazos de pincel pequeños en triángulos grandes
-&#x200B;* [Rendimiento] Mejorar el tiempo de compilación del Sombreador
+&#x200B;* [Performance] Mejora el tiempo de compilación del sombreado
 &#x200B;* [Rendimiento] Compatibilidad total con Vulkan para Windows y Linux
-&#x200B;* [Rendimiento] bakeres actualizados con procesamiento de GPU más rápido y compatibilidad con trazados de rayos AMD
+&#x200B;* [Rendimiento] Panaderos actualizados con procesamiento de GPU más rápido y compatibilidad con trazado de rayos AMD
 &#x200B;* [UI] Reorganizar las propiedades de las herramientas en grupos y contraer algunas de forma predeterminada
 &#x200B;* [Motor] Actualice Substance Engine a la versión 9.2.5.
 &#x200B;* [Substance] Anulación de resolución de exposición para recursos de Substance en Herramientas y rellenos
 &#x200B;* [Exportar] Actualizar el ajuste preestablecido de exportación de Mapas de malla para exportar texturas en escala de grises
 &#x200B;* Python
-&#x200B;* [Haciendo un bake] [Python] Indicar en el registro de cambios los cambios después de la actualización de bakeres
-&#x200B;* [Python] Exposición de la configuración de simetría de relleno en Python
+&#x200B;* [Horneando] [Python] Indicar en el registro de cambios los cambios de ruptura después de la actualización de los panaderos
+&#x200B;* [Python] Exposición de los ajustes de simetría de relleno en Python
 &#x200B;* Contenido y nuevo contenido
 &#x200B;* [Contenido] Añadir 75 nuevos ajustes preestablecidos de herramientas para la herramienta Cinta de opciones
 &#x200B;* [Contenido] Actualizar el recurso del generador de degradados para que sea compatible con la cinta de opciones
 
 <b>Corregido</b>:
 
-&#x200B;* [Bloqueo] La carga de otro proyecto mientras el ajuste de ruta está activado puede generar bloqueos
-&#x200B;* [Bloqueo] Al hacer clic con el botón derecho en el panel Trazado con información de otra sesión del portapapeles, se puede crear un bloqueo
+&#x200B;* [Bloqueo] La carga de otro proyecto mientras el ajuste de ruta está activado puede bloquearse
+&#x200B;* [Bloqueo] El clic derecho en el panel Trazado con información de otra sesión del portapapeles puede bloquearse
 &#x200B;* [UI] La interfaz se desplaza hacia arriba en las propiedades de la herramienta al crear un trazado
 &#x200B;* [UI] El cursor del ratón desaparece cuando la visualización de la ventanilla de trazado está oculta
 &#x200B;* [Path] Copiar/pegar diferentes propiedades de herramienta en el panel Trazado genera propiedades inestables
-&#x200B;* Los ajustes preestablecidos de las herramientas Borrador y Difuminado no siempre actualizan la selección de canales
+&#x200B;* [Herramienta] Los ajustes preestablecidos de las herramientas Borrador y Difuminado no siempre actualizan la selección de canales
 &#x200B;* [Herramienta] El valor pintado es gris, pero la interfaz de usuario se muestra blanca después de cargar el ajuste preestablecido de herramienta de color en la máscara
 &#x200B;* [Herramienta] El ajuste preestablecido creado a partir de la máscara conserva los valores de canales cargados de otro ajuste preestablecido
 &#x200B;* [Substance] No se tiene en cuenta la anulación del espacio de color normal definido en el gráfico
@@ -537,30 +537,30 @@ Resumen: <b>Versión principal, nueva función de actualización automática, he
 &#x200B;* [Path] Los vértices deben conservar el estado de selección al activar o desactivar la IU de nuevo
 &#x200B;* [Ruta] Permitir eliminar la ruta con la barra espaciadora
 &#x200B;* [Path] Mantenga abierta la lista de rutas si el usuario la expande
-&#x200B;* [Ruta]&#x200B;[Pila de capas] Cambiar correctamente el nombre de los duplicados al copiar y pegar
+&#x200B;* [Ruta] [Pila de capas] Cambiar el nombre de los duplicados correctamente al copiar y pegar
 &#x200B;* [Path] Mejoras en la interfaz de usuario y la información sobre herramientas
 &#x200B;* Rendimiento
 &#x200B;* [Rendimiento] Mejore el rendimiento de la ventanilla al utilizar un nivel de teselación alto
 &#x200B;* [Rendimiento] Habilite solo el primer canal en las nuevas capas/efectos de relleno
 &#x200B;* [Rendimiento] Paralelizar el cálculo de trazos de pincel
 &#x200B;* Baking
-&#x200B;* [Hacer un bake] Añadir nueva opción de generación de jaulas totalmente automática para hacer un bake con mallas de alto contenido de polietileno (experimental)
+&#x200B;* [Horneado] Añadir nueva opción de generación de jaulas totalmente automática para horneado con mallas de alto contenido de polietileno (Experimental)
 &#x200B;* Contenido
 &#x200B;* [Contenido] Añade 6 filtros nuevos: estilización, cuantificar, anisotrópico kuwahara, suavizado de bisel, distancia direccional, conversión de escala de grises
 &#x200B;* [Contenido] Actualización de Noises y Grunges a la versión más reciente de Designer (con el nuevo 2D Voronoi)
-&#x200B;* [Contenido] Añada 3 nuevos generadores de textura (Aleatorio de azulejos, Triangle Grid, Generador de Scratches)
+&#x200B;* [Contenido] Añada 3 nuevos generadores de texturas (Aleatorio de azulejos, Triangle Grid, Generador de Scratches)
 &#x200B;* [Contenido] Cambiar nombre de plantilla de Unreal Engine y exportar ajustes preestablecidos
 &#x200B;* Python
-&#x200B;* [Shelf] [Python] Guardar material inteligente o máscara inteligente en disco desde Python
-&#x200B;* [Python] Adición de la jaula automática de hace un bake a la API de Python
-&#x200B;* [Python] Permite editar nombres y descripciones de conjuntos de texturas/Mosaicos de UV
+&#x200B;* [Shelf] [Python] Guarda material inteligente o máscara inteligente en el disco desde Python
+&#x200B;* [Python] Adición de la jaula automática de banca a la API de Python
+&#x200B;* [Python] Permite editar nombres y descripciones de conjuntos de texturas y mosaicos UV
 &#x200B;* [Python] Compartir la configuración de resolución en fuentes de fuentes y vectores
 &#x200B;* [Actualización automática] [Python] Exponer las funcionalidades de actualización automática del proyecto en Python
 &#x200B;* Varios
 &#x200B;* [Exportar] Facilite el acceso a las opciones de Enviar a con un nuevo panel
 &#x200B;* [Nvidia] Añadir advertencia sobre los controladores más recientes de Nvidia (572.16)
 &#x200B;* El ajuste de ángulo debe verse afectado por la selección de espacio Objeto/Mundo
-&#x200B;* [Lista de conjuntos de texturas] Permitir agregar nombres personalizados a los Mosaicos de UV y utilizarlos en la exportación
+&#x200B;* [Lista de conjuntos de texturas] Permite añadir un nombre personalizado a los mosaicos UV y utilizarlos en la exportación
 &#x200B;* Mac
 &#x200B;* [Mac] Uso de Metal en lugar de OpenGL para el procesamiento de gráficos
 &#x200B;* [Mac] Se retira la asistencia de Mac Intel
@@ -568,16 +568,16 @@ Resumen: <b>Versión principal, nueva función de actualización automática, he
 <b>Corregido</b>:
 
 &#x200B;* [Bloqueo] Eliminar entrada de imagen
-&#x200B;* No se puede agregar una alfombra inteligente mediante el botón de pila de capas
+&#x200B;* No se puede añadir una alfombra inteligente mediante el botón de pila de capas
 &#x200B;* [Python] No se pueden encontrar efectos en GroupLayerNode
 
 <b>Problemas conocidos</b>:
 
-&#x200B;* [Gestión de color] HDR. las conversiones de espacio de color con ACE en Linux producen colores con sujeción
+&#x200B;* [Gestión de color] Las conversiones de espacio de color HDR con ACE en Linux producen colores con sujeción
 &#x200B;* [Regresión]&#x200B;[IU] El menú contextual es demasiado pequeño en pantallas HD
-&#x200B;* [Bloqueo] [Python] USD exportación desencadenada por TextureStateEvent
-&#x200B;* bloqueo [MacOS Intel] al importar algunos ajustes preestablecidos
-&#x200B;* [Motor] Pintura con la herramienta Clonar en colores de cambio de canal normales incorrectamente
+&#x200B;* [Bloqueo] [Python] Exportación de USD desencadenada por TextureStateEvent
+&#x200B;* [MacOS Intel] Bloqueo al importar algunos ajustes preestablecidos
+&#x200B;* [Motor] Pintar con la herramienta Clonar en colores de cambio de canal normales incorrectamente
 &#x200B;* [Python] El widget fantasma aparece eliminado por la secuencia de comandos y sigue funcionando
 &#x200B;* [RedHat] Problemas con el selector de color
 
@@ -591,16 +591,16 @@ Resumen: <b>versión secundaria, correcciones de errores</b>
 <b>Corregido</b>:
 
 &#x200B;* [Bloqueo] Eliminar entrada de imagen
-&#x200B;* No se puede agregar una alfombra inteligente mediante el botón de pila de capas
+&#x200B;* No se puede añadir una alfombra inteligente mediante el botón de pila de capas
 &#x200B;* [Python] No se pueden encontrar efectos en GroupLayerNode
 
 <b>Problemas conocidos</b>:
 
-&#x200B;* [Gestión de color] HDR. las conversiones de espacio de color con ACE en Linux producen colores con sujeción
+&#x200B;* [Gestión de color] Las conversiones de espacio de color HDR con ACE en Linux producen colores con sujeción
 &#x200B;* [Regresión]&#x200B;[IU] El menú contextual es demasiado pequeño en pantallas HD
-&#x200B;* [Bloqueo] [Python] USD exportación desencadenada por TextureStateEvent
-&#x200B;* bloqueo [MacOS Intel] al importar algunos ajustes preestablecidos
-&#x200B;* [Motor] Pintura con la herramienta Clonar en colores de cambio de canal normales incorrectamente
+&#x200B;* [Bloqueo] [Python] Exportación de USD desencadenada por TextureStateEvent
+&#x200B;* [MacOS Intel] Bloqueo al importar algunos ajustes preestablecidos
+&#x200B;* [Motor] Pintar con la herramienta Clonar en colores de cambio de canal normales incorrectamente
 &#x200B;* [Python] El widget fantasma aparece eliminado por la secuencia de comandos y sigue funcionando
 &#x200B;* [RedHat] Problemas con el selector de color
 
@@ -612,8 +612,8 @@ Resumen: <b>versión secundaria, correcciones de errores</b>
 <b>Agregado</b>:
 
 &#x200B;* [Project] Mantenga abierto el proyecto actual hasta que se valide la selección de nuevo proyecto
-&#x200B;* [Desenvolvimiento automático] La densidad de los textos permite dividir mejor las Islas de UV en UDIM
-&#x200B;* [Hacer un bake] Corregir copia ambigua en el menú contextual de Mapas de malla
+&#x200B;* [Auto-unwrap] La densidad de texto permite dividir mejor las Islas de UV en UDIM
+&#x200B;* [Banking] Corregir copia ambigua en el menú contextual de Mapas de malla
 &#x200B;* [Deformar] Eliminación de la escala en la ventana gráfica para el eje Z (profundidad)
 &#x200B;* [Importar/Exportar] Quitar la compatibilidad de los formatos de archivo de imagen no utilizados
 &#x200B;* Actualizar Substance Engine a 9.1.4
@@ -622,8 +622,8 @@ Resumen: <b>versión secundaria, correcciones de errores</b>
 
 &#x200B;* [Bloqueo] Después de reubicar el recurso en Recursos y guardar el proyecto
 &#x200B;* [Bloqueo] Problemas con la biblioteca de aiserver
-&#x200B;* [Bloqueo] bloqueo del servidor Illustrator en algunos casos excepcionales
-&#x200B;* [Bloqueo] Al salir de la aplicación en algunos casos raros
+&#x200B;* [Bloqueo] El servidor de Illustrator se bloquea en algunos casos excepcionales
+&#x200B;* [Bloqueo] Al salir de la aplicación en algunos casos excepcionales
 &#x200B;* No se pueden enviar informes de bloqueo en algunos equipos
 &#x200B;* [Horneado] El color del vértice no se lee correctamente
 &#x200B;* [UI] La ubicación de las ventanas y las novedades al inicio se cambian
@@ -750,8 +750,8 @@ Resumen: <b>Versión principal, edición de la pila de capas con la API de Pytho
 &#x200B;* [Recurso de texto] Añadir mensaje/cuadro de diálogo de error al importar una fuente incompatible
 &#x200B;* Miscelánea
 &#x200B;* [Proyección de relleno] Mejora el comportamiento del manipulador Escala al utilizar valores pequeños
-&#x200B;* [Manipuladores] Añadir nuevo modo preciso al pulsar el método abreviado CTRL
-&#x200B;* [Manipuladores] Mejora la estabilidad del manipulador de superficie al trasladar
+&#x200B;* [Manipuladores] Añadir nuevo modo preciso al pulsar el método abreviado de CTRL
+&#x200B;* [Manipuladores] Mejorar la estabilidad del manipulador de superficies al traducir
 &#x200B;* [Exportar] Añadir nombre de espacio de color en salidas SBSAR
 &#x200B;* [Rendimiento] Mejora el tiempo de detección de activos en la biblioteca en el disco
 &#x200B;* [Substance] Actualización al motor de Substance versión 9.1.2
@@ -761,8 +761,8 @@ Resumen: <b>Versión principal, edición de la pila de capas con la API de Pytho
 &#x200B;* [Python] Permitir obtener/definir modos de fusión de capas
 &#x200B;* [Python] Permitir obtener o establecer la configuración de proyección de la capa de relleno
 &#x200B;* [Python] Permitir consultar el color de material de Substance desde una capa de relleno
-&#x200B;* [Python] Permite consultar y establecer colores uniformes y recursos en capas y efectos
-&#x200B;* [Python] Permita crear y editar recursos de texto en pila de capas
+&#x200B;* [Python] Permite consultar y establecer colores y recursos uniformes en capas y efectos
+&#x200B;* [Python] Permita crear y editar recursos de texto en la pila de capas
 &#x200B;* [Python] Permite editar canales activos en capas y efectos
 &#x200B;* [Python] Permitir que las acciones por lotes tengan una sola acción de deshacer/rehacer
 &#x200B;* [Python] Permita cargar o editar parámetros de origen vectoriales
@@ -774,7 +774,7 @@ Resumen: <b>Versión principal, edición de la pila de capas con la API de Pytho
 &#x200B;* [Python] Permite navegar a nodos hermanos y principales
 &#x200B;* [Python] Permitir la creación de un efecto de filtro/generador
 &#x200B;* [Python] Permitir añadir un efecto de nivel
-&#x200B;* [Python] Permitir añadir máscara inteligente en una capa
+&#x200B;* [Python] Permitir la adición de una máscara inteligente en una capa
 &#x200B;* [Python] Permitir crear o editar puntos de ancla
 &#x200B;* [Python] Permitir obtener/Establecer máscara en capas
 &#x200B;* [Python] Permitir la creación del efecto de máscara de comparación
@@ -802,19 +802,19 @@ Resumen: <b>Versión principal, edición de la pila de capas con la API de Pytho
 &#x200B;* [Contenido] El filtro Gráfico a material tiene una fusión alfa y un espacio de color incorrectos
 &#x200B;* [Contenido] Los modos de fusión del Tile Generator no funcionan
 &#x200B;* [Contenido] El filtro de barrido de histograma produce bandas en algunos casos
-&#x200B;* [Contenido] La iluminación Hecha un bake estilizada no tiene en cuenta el height pintado
-&#x200B;* [Python] Error inesperado al recuperar información de capas instanciada después de un cambio de sombreador
+&#x200B;* [Contenido] La iluminación al horno estilizada no tiene en cuenta el height pintado
+&#x200B;* [Python] Error inesperado al recuperar información de capas instanciada después de cambiar el sombreador
 &#x200B;* [Guardar] El archivo de proyecto se pierde cuando se produce un error en &quot;Guardar como&quot; en casos específicos
 
 <b>Problemas conocidos</b>:
 
-&#x200B;* [Gestión de color] HDR. las conversiones de espacio de color con ACE en Linux producen colores con sujeción
-&#x200B;* [Bloqueo]&#x200B;[Linux]&#x200B;[AMD] Arrastre y eliminación de recursos en la pila de capas en el sistema operativo Wayland
+&#x200B;* [Gestión de color] Las conversiones de espacio de color HDR con ACE en Linux producen colores con sujeción
+&#x200B;* [Crash]&#x200B;[Linux]&#x200B;[AMD] Arrastre y colocación de recursos en la pila de capas del sistema operativo Wayland
 &#x200B;* [Regresión]&#x200B;[UI] El menú contextual es demasiado pequeño en pantallas HD
-&#x200B;* [Bloqueo] [Python] USD exportación desencadenada por TextureStateEvent
+&#x200B;* [Bloqueo] [Python] Exportación de USD desencadenada por TextureStateEvent
 &#x200B;* [Guardar] El archivo de proyecto de Spp se pierde cuando se produce un error en &quot;Guardar como copia&quot; en casos específicos
-&#x200B;* bloqueo [MacOS Intel] al importar algunos ajustes preestablecidos
-&#x200B;* [Illustrator] No es posible importar archivos de Ai después del bloqueo del servidor sin reiniciar Painter
+&#x200B;* [MacOS Intel] Bloqueo al importar algunos ajustes preestablecidos
+&#x200B;* [Illustrator] No es posible importar archivos de Ai tras un bloqueo del servidor sin reiniciar Painter
 &#x200B;* [Importar] Los recursos con el mismo nombre pero extensiones diferentes se anulan
 
 ## Versión 9
@@ -834,22 +834,22 @@ Resumen: <b>versión secundaria, correcciones de errores</b>
 
 &#x200B;* La acción de guardar falla en proyectos de versiones anteriores cuando se modifica la ventana gráfica
 &#x200B;* [Bloqueo] Reimportación de mallas al utilizar archivos AO y gestión de color personalizados
-&#x200B;* [Rellenar la proyección] Al hacer clic en el manipulador de escala aparece el mensaje &quot;no puede pintarse&quot;
+&#x200B;* [Rellenar la proyección] Al hacer clic en el manipulador Escala aparece el mensaje &quot;No se puede pintar&quot;
 &#x200B;* [Pincel] Pintar con alineación UV provoca defectos
 &#x200B;* [Pila de capas] El cambio de nombre de la capa es lento cuando la pila es muy larga
-&#x200B;* [Pila de capas] Mensaje de error incorrecto al utilizar filtros incompatibles en la máscara
+&#x200B;* [Pila de capas] Mensaje de error incorrecto al utilizar un filtro incompatible en la máscara
 &#x200B;* [Pila de capas] La selección vuelve a la capa superior después de la eliminación
-&#x200B;* [Exportar] La textura normal generada siempre está en el modo de relleno de vecinos del espacio 3D
-&#x200B;* [Exportar] La Textura alfa no se genera con el ajuste preestablecido de exportación de vista 2D
+&#x200B;* [Exportar] La textura normal generada siempre se encuentra en el modo de relleno 3D Space Neighbor
+&#x200B;* [Exportar] La textura alfa no se genera con el ajuste preestablecido de exportación de vista 2D
 &#x200B;* [Exportar] La exportación SBSAR tiene usos incorrectos con mapas convertidos
-&#x200B;* [Sombreador] El registro de cambios de API del sombreador no está actualizado con los últimos cambios de ASM
+&#x200B;* [Shader] El registro de cambios de API del sombreador no está actualizado con los últimos cambios de ASM
 
 <b>Problemas conocidos</b>:
 
-&#x200B;* [Gestión de color] HDR. las conversiones de espacio de color con ACE en Linux producen colores con sujeción
-&#x200B;* [Bloqueo]&#x200B;[Linux]&#x200B;[AMD] Arrastre y eliminación de recursos en la pila de capas en el sistema operativo Wayland
+&#x200B;* [Gestión de color] Las conversiones de espacio de color HDR con ACE en Linux producen colores con sujeción
+&#x200B;* [Crash]&#x200B;[Linux]&#x200B;[AMD] Arrastre y colocación de recursos en la pila de capas del sistema operativo Wayland
 &#x200B;* [Regresión]&#x200B;[UI] El menú contextual es demasiado pequeño en pantallas HD
-&#x200B;* [Bloqueo] [Python] USD exportación desencadenada por TextureStateEvent
+&#x200B;* [Bloqueo] [Python] Exportación de USD desencadenada por TextureStateEvent
 
 ### 9.1.1
 
@@ -903,25 +903,25 @@ Resumen: <b>Versión principal con compatibilidad con SVG y transparencia, así 
 &#x200B;* [QoL] Arrastrar y soltar máscaras inteligentes como nuevas capas en la ventana gráfica y la pila de capas
 &#x200B;* [QoL] Añadir selector para generadores con varias salidas cuando se utiliza en la máscara
 &#x200B;* [QoL] Permite arrastrar y soltar imágenes de un solo canal sobre un efecto de relleno
-&#x200B;* [QoL] [Pila de capas] Utilice los modificadores CTRL/ALT con arrastrar y soltar para especificar dónde y cómo crear efectos o capas
+&#x200B;* [QoL] [Pila de capas] Utilice los modificadores CTRL/ALT con la función de arrastrar y soltar para especificar dónde y cómo crear efectos o capas
 &#x200B;* [Path] Cambiar la visibilidad de los trazados individualmente en el panel de trazados
-&#x200B;* [Path] Permita el uso de manipuladores de transformación para puntos de trazado
+&#x200B;* [Path] Permite utilizar manipuladores de transformación para puntos de trazado
 &#x200B;* [Path] Permite controlar manualmente las tangentes por vértice
 &#x200B;* [Path] Copiar y pegar propiedades de ruta
-&#x200B;* [Path] Introducir un método abreviado vacío para el botón de tangente de rotura
-&#x200B;* [Shader] Añadir compatibilidad con Opacidad y translucidez en sombreador de ASM
-&#x200B;* [Shader] Añadir compatibilidad para canal de Color de absorción con sombreador de ASM
-&#x200B;* [Shader] Mejora de la información sobre herramientas de parámetros de sombreado de ASM
-&#x200B;* [Sombreado] Cambiar el color predeterminado del canal de translación a negro
+&#x200B;* [Ruta] Introduzca un método abreviado vacío para el botón de tangente de rotura
+&#x200B;* [Sombreador] Añadir compatibilidad con Opacidad y Translucidez en sombreador de ASM
+&#x200B;* [Sombreador] Añadir compatibilidad para canal de Color de absorción con sombreador de ASM
+&#x200B;* [Sombreador] Mejora de la información sobre parámetros de sombreador de ASM
+&#x200B;* [Sombreador] Cambiar el color predeterminado del canal de Translucidez a negro
 &#x200B;* [Configuración de pantalla] Habilitar Suavizado temporal de forma predeterminada
 &#x200B;* [Configuración de visualización] Activar configuración de dispersión subsuperficial de forma predeterminada
 &#x200B;* [Substance] Se ha añadido compatibilidad con la propiedad ColorSpace desde la entrada/salida del gráfico.
 &#x200B;* [Substance] Actualice el motor del Substance a la versión 9.0.3.
 &#x200B;* [UI] Hacer accesible el botón de la barra de herramientas contextual incluso si la ventana de la aplicación es pequeña
-&#x200B;* [Auto Unwrap] Control UV Azulejos número con Densidad de Texel
-&#x200B;* [Banking] Desactivar Trazado de rayos de GPU en GPU AMD de forma predeterminada
+&#x200B;* [Auto Unwrap] Controle el número de Mosaicos de UV con la densidad de texto
+&#x200B;* [Hacer un bake] Desactivar Trazado de rayos de GPU en GPU AMD de forma predeterminada
 &#x200B;* [Rendimiento] Aplique compresión sin pérdida en imágenes de 16 bits para reducir el espacio del proyecto
-&#x200B;* [Python] Permita manipular la cámara predeterminada en la vista 3D
+&#x200B;* [Python] Permite manipular la cámara predeterminada en Vista 3D
 &#x200B;* [Python] Exponer la capacidad de exportar mallas mediante scripts
 &#x200B;* [Contenido]&#x200B;[Muestras] Añadir nuevo proyecto de muestra &quot;French Restaurant Table&quot;
 &#x200B;* [Contenido] Actualizar el logotipo de Substance alfa a una nueva versión
@@ -929,7 +929,7 @@ Resumen: <b>Versión principal con compatibilidad con SVG y transparencia, así 
 
 <b>Corregido:</b>
 
-&#x200B;* [Bloqueo] Cambio del tamaño del manipulador cuando no se utiliza la herramienta de simetría
+&#x200B;* [Bloqueo] Cambio del tamaño del manipulador cuando no se utiliza la herramienta simetría
 &#x200B;* [Bloqueo] [Pila de capas] Crear capa cuando no hay nada seleccionado
 &#x200B;* [Proyecto] Las asignaciones de malla se pueden dañar después de eliminar los recursos no utilizados
 &#x200B;* [Proyecto] Daños en los recursos tras volver a importar o hacer un bake la imagen
@@ -962,34 +962,34 @@ Resumen: <b>Versión menor de corrección de errores con varias mejoras</b>
 <b>Agregado:</b>
 
 &#x200B;* [Importar] Establecer ubicación de importación predeterminada en la ventana de importación
-&#x200B;* [Modo de Hace un bake] Permite restablecer los parámetros a sus valores predeterminados
-&#x200B;* [Hacer un bake] Establecer hacer un bake a la resolución de pintura al crear un proyecto
-&#x200B;* [Simetría] Desvincular manipulador específico de simetría de método abreviado Q
+&#x200B;* [Modo de cocción] Permite restablecer los parámetros a sus valores predeterminados
+&#x200B;* [Baking] Establezca el procesamiento en resolución de pintura al crear un proyecto
+&#x200B;* [Simetría] Desvincular el manipulador específico de simetría del método abreviado Q
 &#x200B;* [Menú] Añada la opción &quot;mostrar registro&quot; en el menú de ayuda
 &#x200B;* [Ventana gráfica] Mejorar la velocidad de procesamiento de sombras
 &#x200B;* [Substance] Actualice el motor a la versión 9.0.1
-&#x200B;* [Gestión de color] OCIO archivo de configuración puede tener cualquier tipo de extensión
+&#x200B;* [Gestión de color] El archivo de configuración de OCIO puede tener cualquier tipo de extensión
 &#x200B;* [Assets] El recurso de Sbsar con uso de &quot;pegatina&quot; debe configurarse automáticamente para deformar la proyección
 &#x200B;* [Path] Muestra un mensaje al intentar interactuar con la herramienta Ruta mientras la IU y los Gizmos están ocultos
 
 <b>Corregido:</b>
 
-&#x200B;* [Bloqueo] Alt + arrastrar en el panel Trazado
-&#x200B;* [Importar recursos] bloqueo aleatorio al quitar recursos para importar
+&#x200B;* [Bloqueo] Alt + Arrastrar en el panel Trazado
+&#x200B;* [Importar recursos] Bloqueo aleatorio al quitar recursos para importar
 &#x200B;* Bloqueo al importar un archivo GLB comprimido
 &#x200B;* Problema al pintar en mallas que comparten UV
 &#x200B;* Parpadeo de malla negro al volver a calcular o cargar la caché
 &#x200B;* [Propiedades] El menú contextual para restablecer parámetros no aparece en los menús desplegables
 &#x200B;* [Nivel] Reguladores de entrada bloqueados por nivel anterior
 &#x200B;* [AMD] [Disperso] La opción SVT si se activa genera artefactos
-&#x200B;* bloqueo [Proyección] [Deformar] al hacer doble clic en los vértices
-&#x200B;* [Path] Interfaz de usuario y ruta de acceso visibles en el modo de hacer un bake
-&#x200B;* [AMD] Se pierde la Textura al jugar con la visibilidad
+&#x200B;* [Proyección]&#x200B;[Deformación] Bloqueo al hacer doble clic en los vértices
+&#x200B;* [Path] Interfaz de usuario y ruta de acceso visibles en el modo de procesamiento
+&#x200B;* [AMD] Se pierde textura al jugar con la visibilidad
 &#x200B;* Resolución [dispersa] demasiado baja al girar la malla
 
 <b>Problemas conocidos:</b>
 
-&#x200B;* [Gestión de color] HDR. las conversiones de espacio de color con ACE en Linux producen colores con sujeción
+&#x200B;* [Gestión de color] Las conversiones de espacio de color HDR con ACE en Linux producen colores con sujeción
 
 ### 9.0.0
 
@@ -1034,24 +1034,24 @@ Resumen: <b>Versión principal con Pintura a lo largo de la ruta que permite cur
 &#x200B;* [Trazos dinámicos] Agregar propiedad de inicio/centro/fin para trazos dinámicos
 &#x200B;* [Python]&#x200B;[USD] Exponer los parámetros de configuración del proyecto para el formato USD
 &#x200B;* [Python]&#x200B;[USD] Exponer parámetros de creación de proyectos para el formato USD
-&#x200B;* [Export]&#x200B;[USD] Añadir información de la ruta del proyecto dentro del archivo de USD exportado
+&#x200B;* [Export]&#x200B;[USD] Añadir información de la ruta del proyecto dentro del archivo USD exportado
 &#x200B;* [GLTF] Actualización de texturas en la biblioteca al volver a cargar un archivo GLTF
-&#x200B;* [Sombreador] Reducir los defectos de costura para Islas de UV con diferente orientación
+&#x200B;* [Sombreado] Reducir los defectos de costura de las Islas de UV con diferentes orientaciones
 &#x200B;* [Motor] Actualice a la versión 9.0 del motor de Substance
 
 <b>Corregido:</b>
 
-&#x200B;* [Import] Algunos GLB con texturas no reciben texturas en Painter
+&#x200B;* [Importar] Algunos GLB con texturas no obtienen texturas en Painter
 &#x200B;* [AMD] Artefactos en los bordes para todos los rellenos de proyección 3D
-&#x200B;* [Motor] Las Texturas se rompen al alternar la visibilidad de las capas
-&#x200B;* [Motor] Las Texturas están vacías en algunos lugares al cambiar el modo de fusión
-&#x200B;* [Motor] La Textura/proyección está en modo de deformación vacío en algunos casos
-&#x200B;* [Iray] Iteración restablecida a 0 al guardar procesamiento
-&#x200B;* [Log] USD mensaje de error al hacer Archivo > Nuevo
+&#x200B;* [Motor] Las texturas se rompen al alternar la visibilidad de la capa
+&#x200B;* [Motor] Las texturas están vacías en algunos lugares al cambiar el modo de fusión
+&#x200B;* [Motor] La textura/proyección está en modo de deformación vacío en algunos casos
+&#x200B;* [Iray] La iteración se restablece en 0 al guardar el procesamiento
+&#x200B;* [Log] Mensaje de error de USD al hacer Archivo > Nuevo
 
 <b>Problemas conocidos:</b>
 
-&#x200B;* [Gestión de color] Las conversiones de espacio de color HDR con ACE en Linux producen colores con sujeción
+&#x200B;* [Gestión de color] HDR. las conversiones de espacio de color con ACE en Linux producen colores con sujeción
 &#x200B;* [Pila de capas] El origen de entrada no se guarda por capa
 
 ## Versión 8
@@ -1062,89 +1062,89 @@ Fecha de publicación: <b>2023/04/27</b>
 
 <b>Agregado:</b>
 
-&#x200B;* [Modo de panadería] Añada un método abreviado (vacío) para mostrar/ocultar la visualización de la ventanilla
-&#x200B;* [Modo de cocción] Mostrar siempre la capa baja de polietileno al utilizar el botón &quot;Ocultar mallas de cocción&quot;
-&#x200B;* [Modo de cocción] Mostrar sufijo para hacer coincidir por nombre en función del conjunto de texturas actual
+&#x200B;* [Modo de Hace un bake] Añada método abreviado (vacío) para mostrar u ocultar la visualización de la ventana gráfica
+&#x200B;* [Modo de Haga un bake] Mostrar siempre la opción de baja resistencia al utilizar el botón &quot;Ocultar mallas de haga un bake&quot;
+&#x200B;* [Modo de Hace un bake] Mostrar sufijo para hacer coincidir por nombre en función del conjunto de texturas actual
 &#x200B;* [Importar] Añadir soporte para archivos binarios GLTF (glb)
-&#x200B;* [Lista Conjunto de texturas] Añadir menú para seleccionar o crear instancias de sombreado
-&#x200B;* [Lista de conjuntos de texturas] Permita cambiar rápidamente la resolución del conjunto de texturas y el azulejo UV
-&#x200B;* [Tamaño físico] Mejora el comportamiento del manipulador al utilizar tamaño físico en Proyección de UV
+&#x200B;* [Lista Conjunto de texturas] Añadir menú para seleccionar o crear instancias del sombreador
+&#x200B;* [Lista de conjuntos de texturas] Permitir cambiar rápidamente el conjunto de texturas y la resolución de Mosaicos de UV
+&#x200B;* [Tamaño físico] Mejora del comportamiento del manipulador al utilizar tamaño físico en Proyección de UV
 &#x200B;* [UI] Volver a &quot;Guardar como&quot; en el menú Archivo principal
 &#x200B;* [UI] Guardar selección de vista (solo 2D, solo 3D, ambos) en diseño de IU
-&#x200B;* [USD] Mensaje de error menos impreciso al crear un proyecto con formas USD no compatibles
-&#x200B;* [Python] Añadir eventos de procesamiento para seguir el progreso de procesamiento
-&#x200B;* [Python] Permitir la cancelación de una cocción
+&#x200B;* [USD] Mensaje de error menos impreciso al crear un proyecto con formas de USD no compatibles
+&#x200B;* [Python] Añadir eventos de hace un bake para seguir el progreso de Hace un bake
+&#x200B;* [Python] Permitir cancelar una hace un bake
 &#x200B;* [Python] Exponer &quot;Según plantilla de salida&quot; para tipo de archivo y profundidad de bits en la exportación
 &#x200B;* [Python] Exponer el tiempo de actualización para TextureStateEvent.Update
 
 <b>Corregido:</b>
 
-&#x200B;* [Bloqueo] Bloqueo raro al cerrar un proyecto
-&#x200B;* [Bloqueo] [Horneado] Activar la sincronización del mapa de malla con el Height o la curvatura en un proyecto específico
-&#x200B;* [Crash]&#x200B;[Scripting] Bloqueo al añadir un material tras la creación de la instancia del sombreador
-&#x200B;* [Modo de cocción] La intensidad de AO en material neutro no tiene efecto
-&#x200B;* bloqueo [Modo de Hace un bake] al cambiar al modo de hace un bake antes de cargar el modelo
-&#x200B;* [Modo de Hace un bake] Falta el mensaje de error en la ficha Hacer un bake proceso
-&#x200B;* [Modo de Hace un bake] Los ajustes de material neutro no tienen efecto después de volver a importar una malla
-&#x200B;* [Modo de Hace un bake] El separador de ventanilla se guarda globalmente y no por modo
-&#x200B;* [Modo de Haga un bake] Problema de visualización: normal promedio no cambia la superficie de la jaula
-&#x200B;* [Gestión de color] La opción Detección automática del espacio de color se desactiva cuando OCIO env var está presente
+&#x200B;* [Bloqueo] bloqueo raro al cerrar un proyecto
+&#x200B;* [Bloqueo] [Haciendo un bake] Activar la sincronización del mapa de malla con el Height o la curvatura en un proyecto específico
+&#x200B;* [Bloqueo] [Scripting] Bloqueo al añadir un material después de crear la instancia del sombreador
+&#x200B;* [Modo de Haga un bake] La intensidad de AO en material neutro no tiene efecto
+&#x200B;* [Modo de cocción] Bloqueo al cambiar al modo de cocción antes de cargar el modelo
+&#x200B;* [Modo de cocción] Mensaje de error que falta en la ficha Proceso de cocción
+&#x200B;* [Modo de cocción] Los ajustes de material neutro no tienen efecto después de volver a importar una malla
+&#x200B;* [Modo de panificación] El separador de ventanilla se guarda globalmente y no por modo
+&#x200B;* [Modo de cocción] Problema de visualización: normal promedio no cambia la superficie de la jaula
+&#x200B;* [Gestión de color] La opción Detección automática del espacio de color se desactiva cuando está presente OCIO env var
 &#x200B;* [Contenido] El filtro Contorno de máscara tiene un artefacto con la entrada de height
 &#x200B;* [Contenido] El regulador de intensidad del filtro de desenfoque de Pendiente se fija en 1.0
 &#x200B;* [Interop] No se puede crear el proyecto con GLTF de Sampler
-&#x200B;* [Pila de capas] El valor del mosaico de proyección no se actualiza correctamente con manipulador
+&#x200B;* [Pila de capas] El valor de mosaico de proyección no se actualiza correctamente con el manipulador
 &#x200B;* [Linux] Desplazamiento entre el lápiz gráfico de la tableta y el cursor con HDPI superior al 100 %
 &#x200B;* [Python] Bloqueo al volver a importar una malla después de crear un proyecto
 &#x200B;* [Substance] Los ruidos 3D se rompen después de volver a importar una malla
-&#x200B;* [Mosaicos de UV] El desplazamiento de la Proyección de UV se fija en 1
+&#x200B;* [UV Tiles] El desplazamiento para la Proyección de UV se fija en 1
 &#x200B;* [Ventana gráfica] Los comentarios visuales de líneas rectas ya no son visibles
 &#x200B;* [WhatsNew] Retorno de línea incorrecto en títulos de funciones
 
 <b>Problemas conocidos:</b>
 
-&#x200B;* [Import] Algunos GLB con texturas no reciben texturas en Painter
+&#x200B;* [Importar] Algunos GLB con texturas no obtienen texturas en Painter
 
 ### 8.3.0
 
 *(Lanzado: 10 de enero de 2023)*
-Resumen: <b>Versión principal con nuevo modo de hacer un bake, nueva importación y exportación de archivos USD y compatibilidad de tamaño físico para la Proyección de UV</b>
+Resumen: <b>Versión principal con nuevo modo de procesamiento, nueva importación y exportación de archivos en USD y compatibilidad de tamaño físico para la Proyección de UV</b>
 
 <b>Agregado:</b>
 
-&#x200B;* [Modo de Hacer un bake] Nuevo modo de hacer un bake dedicado a hacer un bake el proceso
-&#x200B;* [Modo de Hacer un bake] Definir el método abreviado para cambiar al modo de hacer un bake a F8
-&#x200B;* [Modo de Haga un bake] Botón Añadir Inicio y Cancelar hacer un bake en la ventana gráfica
-&#x200B;* [Modo de Hace un bake] Añadir selección de hace un bake en la lista Conjunto de texturas
-&#x200B;* [Modo de Hace un bake] Añada una nueva ventana Bakeres de mapa de malla para seleccionar bakeres
-&#x200B;* [Modo de Hace un bake] Añadir nueva ventana Ajustes de mapa de malla para editar los ajustes de hace un bake
-&#x200B;* [Modo de Hace un bake] Añadir nueva ventana Hacer un bake registro para seguir el proceso de hace un bake
-&#x200B;* [Modo de Hace un bake] Añadir parámetros de hace un bake y acciones de deshacer a la ventana de historial
-&#x200B;* [Modo de Hace un bake] Añadir rutas de navegación en Ajustes de mapa de malla
-&#x200B;* [Modo de Hace un bake] Añadir miniaturas de mapas de malla en la ventana Bakeres de mapas de malla
-&#x200B;* [Modo de Haga un bake] Añadir menú de ajustes de visualización contraíbles en la ventana gráfica 3D
-&#x200B;* [Modo de Hace un bake] Añadir ajuste de visualización para mostrar/ocultar la malla de alta densidad
-&#x200B;* [Modo de Haga un bake] Añadir ajuste de visualización para mostrar/ocultar la malla de la jaula y la malla metálica
-&#x200B;* [Modo de Hace un bake] Añadir ajuste de visualización para mostrar/ocultar la malla de baja densidad
-&#x200B;* [Modo de Haga un bake] Añada ajustes de visualización para mostrar bordes duros sin costuras UV como errores
-&#x200B;* [Modo de Hace un bake] Informar en la ventanilla sobre los errores de malla y hacer un bake si el registro de Hace un bake no está visible
+&#x200B;* [Modo de cocción] Nuevo modo de cocción dedicado al proceso de cocción
+&#x200B;* [Modo de cocción] Defina el método abreviado para cambiar al modo de cocción a F8
+&#x200B;* [Modo de cocción] Botón Añadir inicio y Cancelar cocción en la ventana gráfica
+&#x200B;* [Modo de cocción] Añadir selección de cocción en la lista Conjunto de texturas
+&#x200B;* [Modo de cocción] Añadir nueva ventana Mesh Map Bakers para seleccionar panaderos
+&#x200B;* [Modo de cocción] Añadir nueva ventana Ajustes de mapa de malla para editar los ajustes de horneado
+&#x200B;* [Modo de cocción] Añadir nueva ventana de registro de cocción para seguir el proceso de cocción
+&#x200B;* [Modo de procesamiento] Añadir parámetros de procesamiento y acciones de deshacer a la ventana de historial
+&#x200B;* [Modo de cocción] Añadir rutas de navegación en Ajustes de mapa de malla
+&#x200B;* [Modo de panificación] Añadir miniaturas de mapas de malla en la ventana Panificadores de mapas de malla
+&#x200B;* [Modo de cocción] Añadir menú de ajustes de visualización contraíbles en la ventana gráfica 3D
+&#x200B;* [Modo de cocción] Añada un ajuste de visualización para mostrar/ocultar la malla de alta densidad
+&#x200B;* [Modo de cocción] Añadir ajuste de visualización para mostrar/ocultar la malla de la jaula y la malla metálica
+&#x200B;* [Modo de cocción] Añada un ajuste de visualización para mostrar/ocultar la malla de baja densidad
+&#x200B;* [Modo de cocción] Añada un ajuste de visualización para mostrar los bordes duros sin costuras UV como errores
+&#x200B;* [Modo de cocción] Informar en la ventanilla sobre errores de malla y horneado si el registro de cocción no está visible
 &#x200B;* [Modo de Hace un bake] Añadir acción para sincronizar la configuración de baker en todos los conjuntos de texturas
 
-  En la ventana Bakeres de mapa de malla, cada baker (así como los ajustes comunes) se pueden sincronizar en los conjuntos de texturas haciendo clic en el icono de enlace junto a su nombre. Esta acción abrirá una ventana que permite seleccionar qué conjuntos de texturas compartirán los mismos parámetros.
+  En la ventana Mesh Map Bakers, cada panadero (así como los ajustes comunes) se pueden sincronizar en los conjuntos de texturas haciendo clic en el icono de enlace junto a su nombre. Esta acción abrirá una ventana que permite seleccionar qué conjuntos de texturas compartirán los mismos parámetros.
 
-&#x200B;* [Modo de Hace un bake] Añadir acciones para copiar y pegar ajustes de baker
+&#x200B;* [Modo de cocción] Añadir acciones para copiar y pegar ajustes de panadero
 
-  En la ventana Bakeres de mapa de malla hay acciones disponibles para copiar y pegar cada configuración de baker en los conjuntos de texturas, ya sea a través del menú específico en la parte superior de la ventana o el menú contextual del botón derecho.
+  En la ventana Mesh Map Bakers hay disponibles acciones para copiar y pegar cada configuración de panadero en los conjuntos de texturas, ya sea a través del menú dedicado en la parte superior de la ventana o el menú contextual del botón derecho.
 
-&#x200B;* [Modo de Haga un bake] Botón Añadir en Hacer un bake registro para saltar del error a la configuración correcta
+&#x200B;* [Modo de cocción] Botón Añadir en el registro de cocción para saltar del error a la configuración correcta
 
-  Cuando un baker falla o una malla no se carga correctamente, aparece un mensaje de error en el registro de Hace un bake. Un botón junto al mensaje permite cambiar la ventana Bakeres de mapa de malla y ajustes de mapa de malla para mostrar los ajustes relacionados. Esto ayuda a aislar con mayor facilidad el origen de un problema para poder solucionarlo.
+  Cuando un panadero falla o una malla no se carga correctamente, aparece un mensaje de error en el registro de panadería. Un botón junto al mensaje permite cambiar los marcadores de mapa de malla y la ventana Ajustes de mapa de malla para mostrar los ajustes relacionados. Esto ayuda a aislar con mayor facilidad el origen de un problema para poder solucionarlo.
 
-&#x200B;* [Modo de Hace un bake] Añadir menús para gestionar conjuntos de texturas y selecciones de Bakeres
+&#x200B;* [Modo de cocción] Añadir menús para gestionar conjuntos de texturas y selecciones de panadero
 
-  En las ventanas &quot;Lista de conjuntos de texturas&quot; y &quot;Bakeres de mapa de malla&quot; se ha añadido un pequeño menú de acciones para ayudar a copiar e invertir las selecciones.
+  En las ventanas &quot;Texture Set list&quot; y &quot;Mesh Map Bakers&quot; se ha añadido un pequeño menú de acción para ayudar a copiar e invertir las selecciones.
 
-&#x200B;* [Modo de Hace un bake] Dividir la lista de selección de baker por conjunto de texturas
-&#x200B;* [Modo de Hace un bake] Dividir ajustes comunes por conjunto de texturas
+&#x200B;* [Modo de cocción] Dividir la lista de selección de panadero por conjunto de texturas
+&#x200B;* [Modo de cocción] Dividir ajustes comunes por conjunto de texturas
 &#x200B;* [Modo de Haga un bake] Cargar mallas de alta poly y jaula sin congelar la interfaz
 &#x200B;* [Modo de Hace un bake] Utilice la barra de progreso de la ventanilla para mostrar la carga de malla
 &#x200B;* [Modo de Hace un bake] Añadir estado de carga de malla en Hacer un bake registro
@@ -1221,26 +1221,26 @@ Resumen: <b>Versión principal con nuevo modo de hacer un bake, nueva importaci�
 
 &#x200B;* [Importar] Mejora el tiempo de importación general de modelos 3D
 
-  Mejoramos el tiempo general de importación de mallas. Por ejemplo, reducir el tiempo de espera al cargar mallas de alto contenido de polietileno para hornear. Esta optimización se aplica en particular a la carga de archivos OBJ.
+  Mejoramos el tiempo general de importación de mallas. Por ejemplo, reducir el tiempo de espera al cargar mallas de alta densidad para hacer un bake. Esta optimización se aplica en particular a la carga de archivos OBJ.
 
 <b>Corregido:</b>
 
 &#x200B;* [Bloqueo] Cambio de canales en el filtro con una pila específica
-&#x200B;* [Mac]&#x200B;[M1] Bloqueo al crear una capa de relleno y salir de la pila de capas
+&#x200B;* bloqueo [Mac] [M1] al crear una capa de relleno y salir de la pila de capas
 
   Este problema se puede solucionar actualizando a Mac OS 13 (Ventura).
 
-&#x200B;* [Scripting]&#x200B;[Python] Bloqueo al utilizar ui.add\_dock\_widget() con un tipo incorrecto
-&#x200B;* [Horneado] Mensaje de error incompleto en el registro cuando se produce un error en el horneado
-&#x200B;* [Horneado] La memoria no se libera cuando finaliza el horneado
-&#x200B;* [Motor] La caché de texturas no se actualiza al cambiar la visibilidad del efecto
-&#x200B;* [Exportar] La vista 2D exporta un mapa aleatoriamente uniforme
+&#x200B;* [Scripting] [Python] Bloqueo al utilizar ui.add\_dock\_widget() con un tipo incorrecto
+&#x200B;* [Haciendo un bake] Mensaje de error incompleto en el registro cuando falla una hace un bake
+&#x200B;* [Haciendo un bake] La memoria no se libera cuando finaliza la hace un bake
+&#x200B;* [Motor] La caché de Textura no se actualiza al cambiar la visibilidad del efecto
+&#x200B;* [Exportar] exportaciones de vista 2D mapa aleatoriamente uniforme
 &#x200B;* [Proyecto] Error de asignación de memoria al guardar el proyecto con malla grande
 &#x200B;* [Ventana gráfica] El TAA provoca defectos al pintar en algunos casos
 
 <b>Problemas conocidos:</b>
 
-&#x200B;* [Gestión de color] HDR. las conversiones de espacio de color con ACE en Linux producen colores con sujeción
+&#x200B;* [Gestión de color] Las conversiones de espacio de color HDR con ACE en Linux producen colores con sujeción
 &#x200B;* [Pila de capas] El origen de entrada no se guarda por capa
 
 ### 8.2.0
@@ -1369,9 +1369,9 @@ Resumen: **Versión principal con nuevos paneles de incorporación (nuevo panel 
 **Corregido:**
 
 &#x200B;* Bloqueo al utilizar 16k exr
-&#x200B;* [Bloqueo] Ctrl Z Después de eliminar una instancia del sombreador
+&#x200B;* [Bloqueo] Ctrl Z Después de eliminar una instancia de sombreado
 &#x200B;* [Iray] El valor de IoR está bloqueado en 1 para algunos sombreadores
-&#x200B;* [Win]&#x200B;[Haciendo un bake] No se pueden cargar algunos archivos de alta calidad
+&#x200B;* [Win] [Horneando] No se pueden cargar algunos elementos de alta poli
 &#x200B;* [Gestión de color] Nombre de espacio de color incorrecto en la IU con filtros
 &#x200B;* [Python] Los objetos de recursos devueltos por la función de importación no tienen un tipo
 
@@ -1379,10 +1379,10 @@ Resumen: **Versión principal con nuevos paneles de incorporación (nuevo panel 
 
 **Problemas conocidos:**
 
-&#x200B;* [Gestión de color] HDR. las conversiones de espacio de color con ACE en Linux producen colores con sujeción
+&#x200B;* [Gestión de color] Las conversiones de espacio de color HDR con ACE en Linux producen colores con sujeción
 &#x200B;* [Pila de capas] El origen de entrada no se guarda por capa
 &#x200B;* [Pintura] El suavizado temporal provoca defectos al pintar en algunos casos
-&#x200B;* [Exportar] exportaciones de vista 2D mapa aleatoriamente uniforme
+&#x200B;* [Exportar] La vista 2D exporta un mapa aleatoriamente uniforme
 
 ### 8.1.3
 
@@ -1395,14 +1395,14 @@ Resumen: **Versión secundaria de corrección de errores**
 
 **Corregido:**
 
-&#x200B;* [Sombreador] Bloqueo con sombreador defectuoso
+&#x200B;* [Shader] Bloqueo con el sombreador antiguo defectuoso
 &#x200B;* [Material Layering] Los materiales pueden desaparecer al reabrir un proyecto
 
 **Problemas conocidos:**
 
-&#x200B;* [Gestión de color] Las conversiones de espacio de color HDR con ACE en Linux producen colores con sujeción
+&#x200B;* [Gestión de color] HDR. las conversiones de espacio de color con ACE en Linux producen colores con sujeción
 &#x200B;* [Pila de capas] El origen de entrada no se guarda por capa
-&#x200B;* [Bloqueo] Ctrl Z Después de eliminar una instancia de sombreado
+&#x200B;* [Bloqueo] Ctrl Z Después de eliminar una instancia del sombreador
 &#x200B;* [Iray] El IoR está bloqueado a 1 para algunos sombreadores
 
 ### 8.1.2
@@ -1414,11 +1414,11 @@ Resumen: **Versión secundaria de corrección de errores**
 
 &#x200B;* [Auto Unwrap] Nueva opción &quot;Optimizar para mallas orgánicas&quot; para seleccionar el algoritmo de segmentación
 &#x200B;* [Tamaño físico] Opciones de unidad de exposición en Nueva configuración de proyecto y proyecto
-&#x200B;* [Gestión de color] Usar la visualización del monitor de forma predeterminada al utilizar ACE
-&#x200B;* [Gestión de color] [Python] Tenga en cuenta el archivo de ajuste preestablecido ACE env-var al crear el proyecto
+&#x200B;* [Gestión de color] Usar la pantalla del monitor de forma predeterminada al utilizar ACE
+&#x200B;* [Gestión de color] [Python] Tenga en cuenta ACE archivo de ajustes preestablecidos env-var al crear el proyecto
 &#x200B;* [Gestión de color] Restablecer la configuración de Gestión de color en la ventana Nuevo proyecto cuando cambie la configuración
-&#x200B;* [Gestión de color] Desactivar el acceso a la configuración de OCIO cuando env-var está presente
-&#x200B;* [Gestión de color] Actualice de forma segura la configuración de ACE cuando ya no exista un parámetro
+&#x200B;* [Gestión de color] Desactivar el acceso a la configuración de OCIO cuando está presente env-var
+&#x200B;* [Gestión de color] Actualice de forma segura ACE configuración cuando ya no exista un parámetro
 &#x200B;* Actualizar Substance Engine a la versión 8.6.0
 &#x200B;* [Exportar] Añada un nuevo ajuste preestablecido de exportación GLTF compatible con Desplazamiento
 &#x200B;* [Scripting] [Python] Recuperar información de recursos (incluidos metadatos personalizados)
@@ -1465,23 +1465,23 @@ Resumen: **Revisión de versión secundaria**
 
 &#x200B;* [Bloqueo] Abrir un proyecto antiguo guardado en modo de vista en solitario
 &#x200B;* [Bloqueo] Eliminar un generador en propiedades
-&#x200B;* [Ajustes del conjunto de texturas] Se interrumpe la mezcla de Oclusión normal/ambiental y el height con los métodos normales
-&#x200B;* [Exportar] La exportación de texturas mediante relleno de difusión produce mapas negros
+&#x200B;* [Ajustes del conjunto de texturas] Se interrumpe la mezcla de normal/Oclusión ambiental y el height con los métodos normales
+&#x200B;* [Exportar] La exportación de texturas mediante relleno de difusión genera mapas negros
 
 **Problemas conocidos:**
 
-&#x200B;* [MacOS] Bloqueo al iniciar Iray en Monterey
+&#x200B;* [MacOS] Bloqueo al lanzar Iray en Monterey
 &#x200B;* [Vista previa en miniatura] Las miniaturas simplificadas no se actualizan cuando se utiliza un anclaje
-&#x200B;* [Gestión de color] Las conversiones de espacio de color HDR con ACE en Linux producen colores con sujeción
+&#x200B;* [Gestión de color] HDR. las conversiones de espacio de color con ACE en Linux producen colores con sujeción
 
 ### 8.1.0
 
 *(Lanzado: 7 de junio de 2022)*
-Resumen: **Versión principal compatible con ICC, escalado de materiales basado en datos de tamaño físico, nuevos panaderos, mejoras en el cuentagotas de color y una amplia gama de contenido adicional**
+Resumen: **Versión principal compatible con ICC, escalado de materiales basado en datos de tamaño físico, nuevos bakeres, mejoras en el cuentagotas de color y una amplia gama de contenido adicional**
 
 **Agregado:**
 
-&#x200B;* [Gestión de color] Añadir compatibilidad con perfiles ICC mediante Adobe Color Engine (ACE)
+&#x200B;* [Gestión de color] Añadir compatibilidad para perfiles ICC con Adobe Color Engine (ACE)
 &#x200B;* [Gestión de color] Añada compatibilidad con &quot;RGB de Adobe 98&quot; como espacio de color de trabajo para ICC
 &#x200B;* [Gestión de color] Permitir la configuración de ACE/ICC mediante un archivo de configuración
 &#x200B;* [Gestión de color] Permitir la entrada de valores de color lineal en el Selector de color con el modo Heredado
@@ -1493,16 +1493,16 @@ Resumen: **Versión principal compatible con ICC, escalado de materiales basado 
 &#x200B;* [Tamaño físico] [Motor] Cálculo del Tamaño físico
 &#x200B;* [Tamaño físico] Opciones de exposición para utilizar tamaño físico en la interfaz de usuario
 &#x200B;* [Tamaño físico] Añadir ayudantes visuales en la ventana gráfica
-&#x200B;* [Horneando] Añadir panadero de Height
-&#x200B;* [Horneado] Añadir el panadero de normales dobladas
-&#x200B;* [Horneado] Añadir el panadero de opacidad
+&#x200B;* [Haciendo un bake] Añadir baker de Height
+&#x200B;* [Haciendo un bake] baker Agregar Normales dobladas
+&#x200B;* [Hacer un bake] Añadir baker de opacidad
 &#x200B;* [Cuentagotas] Nueva previsualización del cuentagotas de color junto al ratón y gestión del color
 &#x200B;* [Cuentagotas] El panel del selector de color vuelve a aparecer en su última posición cuando se vuelve a abrir
 &#x200B;* [Cuentagotas] Un nuevo icono para el Selector de material
 &#x200B;* [Cuentagotas] Color para administrar la vista previa del canal del selector de color
 &#x200B;* [Cuentagotas] Añada la funcionalidad de hacer clic para seleccionar al cuentagotas
 &#x200B;* [Cuentagotas] El selector de material ya no activa los canales no activos
-&#x200B;* [Cuentagotas] Permitir el uso de cuentagotas con un método abreviado
+&#x200B;* [Cuentagotas] Permitir el uso del cuentagotas con un método abreviado
 &#x200B;* [Cuentagotas] El cuentagotas selecciona el canal correspondiente, cuando corresponde
 &#x200B;* [Cuentagotas] Al entrar en el modo del selector de color se desactivan todos los métodos abreviados
 &#x200B;* [Cuentagotas] Eliminación de la selección automática del campo hexadecimal
@@ -1513,36 +1513,36 @@ Resumen: **Versión principal compatible con ICC, escalado de materiales basado 
 &#x200B;* Actualizar Auto Unwrap a 0.9.0
 &#x200B;* Actualizar a Qt 5.15.8
 &#x200B;* Actualizar a Python 3.9
-&#x200B;* [Sombreador] Añadir compatibilidad con el sombreado de Normales dobladas
+&#x200B;* [Sombreado] Añadir compatibilidad con el sombreado de normales dobladas
 &#x200B;* [MacOS] Compatibilidad con SpaceMouse de conexión 3D
 &#x200B;* [Python] Documentar la versión de Python utilizada en la API
 &#x200B;* [Contenido] Añade 6 nuevos sonidos 3D con 105 ajustes preestablecidos
 &#x200B;* [Contenido] 20 nuevos mapas de suciedad y 2 patrones de pliegues de tela
 &#x200B;* [Contenido] Actualizar el ajuste preestablecido &quot;Mapas de malla&quot; para utilizar nuevos bakeres
 &#x200B;* [Contenido] La Pendiente de desenfoque y el filtro de deformación dependen de la resolución del conjunto de texturas
-&#x200B;* [Contenido] Actualizar proyectos de muestra para utilizar los 3 nuevos bakeres
+&#x200B;* [Contenido] Actualizar proyectos de muestra para utilizar los 3 nuevos panaderos
 
 **Corregido:**
 
 &#x200B;* [glTF] No se puede abrir glTF con un carácter especial
 &#x200B;* [Motor] Artefactos con anisotropía y SVT desactivados
-&#x200B;* [MacOS]&#x200B;[M1] Los Materiales inteligentes no se muestran correctamente
+&#x200B;* [MacOS] [M1] Los materiales inteligentes no se muestran correctamente
 &#x200B;* [Procesamiento de malla] No se pueden importar mallas desde Modeler
 &#x200B;* [UI] Barra de desplazamiento horizontal en la ventana de nuevo proyecto con la gestión de color habilitada
 &#x200B;* [Gestión de color] Falta el valor del espacio de trabajo en el selector de color con algunas configuraciones de OCIO
 &#x200B;* [Gestión de color] La previsualización del pincel en la ventana gráfica no tiene gestión de color
 &#x200B;* [SpaceMouse] La tabla dinámica no se actualiza inmediatamente con el cambio de enfoque y, a veces, se sale del modelo
-&#x200B;* [Exportar] [USD] Los archivos de USD exportados tienen una estructura incorrecta
+&#x200B;* [Export]&#x200B;[USD] Los archivos USD exportados tienen una estructura incorrecta
 &#x200B;* [USD] Problema de Oclusión ambiental al exportar
 &#x200B;* [Contenido] Actualice la malla de la miniatura para que coincida con el proyecto de ejemplo Previsualizar esfera
 
 **Problemas conocidos:**
 
 &#x200B;* La exportación de texturas mediante relleno de difusión produce mapas negros
-&#x200B;* La mezcla normal o de Oclusión ambiental no funciona
-&#x200B;* [MacOS] Bloqueo al lanzar Iray en algunos casos raros
+&#x200B;* La mezcla de Oclusión normal/ambiental no funciona
+&#x200B;* [MacOS] Bloqueo al iniciar Iray en algunos casos excepcionales
 &#x200B;* [Vista previa en miniatura] Las miniaturas simplificadas no se actualizan cuando se utiliza un delimitador
-&#x200B;* [Gestión de color] HDR. las conversiones de espacio de color con ACE en Linux producen colores con sujeción
+&#x200B;* [Gestión de color] Las conversiones de espacio de color HDR con ACE en Linux producen colores con sujeción
 
 ## Versión 7
 
@@ -1594,14 +1594,14 @@ Resumen: **Corrección de error compatible con SpaceMouse de conexión 3D y mejo
 &#x200B;* [Gestión de color] Mejoras en el menú de anulación del espacio de color
 &#x200B;* [Gestión de color] Permita anular el espacio de color del mapa de entorno en Ajustes de visualización.
 &#x200B;* [Gestión de color] Dibujo de degradados del selector de color en función de la visualización actual
-&#x200B;* [Gestión de color] Ajustar valores HDR. de forma predeterminada en el editor de color
+&#x200B;* [Gestión de color] Fijar valores HDR de forma predeterminada en el editor de color
 &#x200B;* [Gestión de color] Usar passthrough (sin espacio de color) para filtros en modo heredado
 &#x200B;* [Gestión de color] Limitar la visualización de degradados en el editor de color para que coincidan con el rango [0-1]
 &#x200B;* [Gestión de color] Ocultar el selector de visualización en el selector de color en el modo Heredado
 &#x200B;* [Administración de color] Convertir el campo hexadecimal del selector de color siempre en espacio de color sRGB
 &#x200B;* [Gestión de color] Desactivar el menú desplegable de visualización del selector de color para canales de datos
 &#x200B;* [Optimización] La cuadrícula de deformación vuelve a calcular únicamente los mosaicos UV cubiertos
-&#x200B;* [Exportar] Permitir la exportación de proyectos de Mosaico de UV para Sketchfab, USD y glTF
+&#x200B;* [Exportar] Permite exportar proyectos de azulejo UV para Sketchfab, USD y glTF
 &#x200B;* [Scripting]&#x200B;[Python] Permitir el cambio de la función de asignación de tonos
 
 **Corregido:**
@@ -1609,17 +1609,17 @@ Resumen: **Corrección de error compatible con SpaceMouse de conexión 3D y mejo
 &#x200B;* [Sketchfab] Al actualizar el modelo existente, se crea un nuevo modelo
 &#x200B;* [Sketchfab] Bloqueo al buscar un modelo actualizado anteriormente
 &#x200B;* Bloqueo al exportar a USD
-&#x200B;* Bloqueo al crear una nueva instancia del sombreador en Máscara de geometría o cuando la geometría está oculta
+&#x200B;* Bloqueo al crear una nueva instancia de sombreado en Máscara de geometría o cuando la geometría está oculta
 &#x200B;* [Ventana Importar recurso] Bloqueo al cambiar el tipo de recursos importados
 &#x200B;* Los mapas de malla normales se invierten cuando se utilizan en la pila de capas
 &#x200B;* [Substance] No se tiene en cuenta el modo de fusión de datos de usuarios
-&#x200B;* [Gestión de color] Los mapas de bits con espacio de color en el nombre de archivo se importan como secuencias de Mosaico de UV
+&#x200B;* [Gestión de color] Los mapas de bits con espacio de color en el nombre de archivo se importan como secuencias de mosaico UV
 &#x200B;* [Gestión de color] Las salidas con gestión de color del gráfico del Substance están en un espacio de color incorrecto
 &#x200B;* [Gestión de color] La herramienta Relleno poligonal muestra un color incorrecto
-&#x200B;* [Gestión de color] ACE ajuste de tono se aplica a los canales en modo solo
+&#x200B;* [Gestión de color] El asignador de tonos ACES se aplica a los canales en modo solo
 &#x200B;* [Gestión de color] La previsualización de la iluminación de la esfera de la herramienta no está gestionada por color
 &#x200B;* [Administración de color] [Exportar] Los mapas convertidos aplican una conversión incorrecta
-&#x200B;* [Scripting]&#x200B;[Python]&#x200B;[Gestión de color] Los proyectos creados con plantillas y OCIO variables de entorno están en modo heredado
+&#x200B;* [Scripting]&#x200B;[Python]&#x200B;[Gestión de color] Los proyectos creados con plantillas y variables de entorno OCIO están en modo heredado
 &#x200B;* [Scripting] [Python] No se puede utilizar la función de evaluación de JavaScript al inicio
 &#x200B;* [Oferta de Adobe 3D] No se puede iniciar Painter si se utiliza la configuración regional con idiomas no admitidos de forma predeterminada
 
@@ -1627,8 +1627,8 @@ Resumen: **Corrección de error compatible con SpaceMouse de conexión 3D y mejo
 
 &#x200B;* Conexión 3D con SpaceMouse no compatible en MacOS
 &#x200B;* [UI] Barra de desplazamiento horizontal con administración de color que aparece en algunos casos en la ventana de nuevo proyecto
-&#x200B;* [Bakeres] El ajuste &quot;Normales medias&quot; no tiene efecto en los proyectos de Mosaico de UV
-&#x200B;* [Mac M1] Los Materiales inteligentes no se muestran correctamente
+&#x200B;* [Panaderos] El ajuste &quot;Normal promedio&quot; no tiene efecto en los proyectos de azulejo UV
+&#x200B;* [Mac M1] Los materiales inteligentes no se muestran correctamente
 &#x200B;* [Gestión de color] Los recursos utilizados en el modo de proyección no se administran por color en la superposición
 &#x200B;* [Selector de color] No se puede escribir en campos hexadecimales
 
@@ -1640,18 +1640,18 @@ Resumen: **Corrección de error con mejoras en la administración de color**
 **Agregado:**
 
 &#x200B;* [Gestión de color] Usar función de datos en nombres de archivo exportados
-&#x200B;* [Administración de color] Expanda la sección Administración de color de forma predeterminada cuando se selecciona OCIO en las nuevas ventanas de configuración de proyecto y proyecto
-&#x200B;* [Gestión de color] Añadir ACE asignador de tonos en modo heredado
+&#x200B;* [Gestión de color] Expanda la sección Gestión de color de forma predeterminada cuando OCIO está seleccionado en las nuevas ventanas de configuración de proyecto y proyecto
+&#x200B;* [Gestión de color] Añadir ACES a un asignador en modo heredado
 &#x200B;* [Gestión de color] Ajustar los valores de configuración predeterminados
 &#x200B;* [Gestión de color]&#x200B;[Exportar] Rellenar $colorSpace en nombres de archivo para canales de datos
-&#x200B;* [Exportar] Exportar proyecto de Mosaico de UV a Stager
+&#x200B;* [Exportar] Exportar proyecto de azulejo UV a Stager
 &#x200B;* [Interoperabilidad] No disponible para las ediciones Steam y Substance
-&#x200B;* [Interoperabilidad] Permitir el envío de un proyecto de Mosaico de UV a Stager
+&#x200B;* [Interoperabilidad] Permitir el envío de un proyecto de mosaico UV a Stager
 
 **Corregido:**
 
 &#x200B;* [MacOS] [Bloqueo] Painter no se inicia con Catalina
-&#x200B;* [Gestión de color] [Bloqueo] bloqueo aleatorio al reproducir con gestión de color/tipo de datos en el canal del usuario
+&#x200B;* [Administración de color] [Bloqueo] Bloqueo aleatorio al reproducir con administración de color/tipo de datos en el canal de usuario
 &#x200B;* [Gestión de color] Recursos utilizados como escala de grises en la máscara visualización del espacio de color nuevo menú
 &#x200B;* [Gestión de color] El canal del usuario es más oscuro en la ventana gráfica en el modo heredado + vista en solitario
 &#x200B;* [Gestión de color] El mapa Env siempre es lineal cuando se utiliza en iRay
@@ -1687,10 +1687,10 @@ Resumen: **Versión principal. Introducción de la primera versión de la admini
 &#x200B;* [Gestión de color]&#x200B;[Ventana] Permitir la gestión de color de vistas 2D y 3D por separado
 &#x200B;* [Gestión de color] Cargar y convertir mapa de entorno en el espacio de color de trabajo
 &#x200B;* [Gestión de color] Ajuste el selector de color y el editor con el espacio de color actual
-&#x200B;* [Gestión de color] Permite seleccionar la visualización transformar espacio de color en la ventana gráfica con un nuevo menú desplegable.
-&#x200B;* [Gestión de color] Aplicación de visualización transformar con resultados de procesamiento de Iray
+&#x200B;* [Gestión de color] Permite seleccionar el espacio de color de transformación de visualización en la ventana gráfica con un nuevo menú desplegable.
+&#x200B;* [Gestión de color] Aplicación de la transformación de visualización con resultados de procesamiento de Iray
 &#x200B;* [Gestión de color] Exportar texturas con diferentes espacios de color
-&#x200B;* [Administración de color] [Python] Aplicación de la configuración de administración de color de la variable de entorno (OCIO) a proyectos nuevos
+&#x200B;* [Gestión de color] [Python] Aplicación de la configuración de gestión de color de la variable de entorno (OCIO) a proyectos nuevos
 &#x200B;* [Ventana gráfica] Permite desacoplar la ventana gráfica 2D o 3D
 &#x200B;* [Auto Unwrap] Nueva opción para evitar islas alargadas
 &#x200B;* [Scripting Python] Llamar a funciones de JavaScript desde la API de Python
@@ -1703,8 +1703,8 @@ Resumen: **Versión principal. Introducción de la primera versión de la admini
 
 **Problemas conocidos:**
 
-&#x200B;* [Mac M1] Los Materiales inteligentes no se muestran correctamente
-&#x200B;* [Gestión de color] [Bloqueo] bloqueo aleatorio al reproducir con gestión de color/tipo de datos en el canal del usuario
+&#x200B;* [Mac M1] Los materiales inteligentes no se muestran correctamente
+&#x200B;* [Administración de color] [Bloqueo] Bloqueo aleatorio al reproducir con administración de color/tipo de datos en el canal de usuario
 &#x200B;* [Gestión de color] El selector de color no selecciona el valor adecuado para el canal de datos en el modo heredado
 &#x200B;* [Gestión de color] [Iray] Guardar el renderizado en EXR o TIFF mientras la Gestión de color está activada en la ventana gráfica siempre se guarda en lineal
 &#x200B;* [Administración de color] Los recursos utilizados como escala de grises en la máscara muestran un menú de espacio de color incorrecto
@@ -1748,7 +1748,7 @@ Resumen: **Versión principal. Contiene una nueva proyección de deformación 3D
 &#x200B;* [Proyección] [Deformar] Exponer deformación 3D como un nuevo modo de proyección
 &#x200B;* [Proyección] [Deformar] Permitir el modo de pegatina para Alpha, texturas y procedimientos con la función de arrastrar y soltar en la ventana gráfica
 &#x200B;* [Proyección] [Deformar] Utilice la proyección de deformación con el método abreviado de pegatina (ALT)
-&#x200B;* [Proyección]&#x200B;[Deformar]&#x200B;[Barra de herramientas] Transformar la deformación como completa o por vértices
+&#x200B;* [Proyección]&#x200B;[Deformar]&#x200B;[Barra de herramientas] Transformar deformación como completa o por vértices
 &#x200B;* [Proyección]&#x200B;[Deformar]&#x200B;[Barra de herramientas] Añadir puntos de cuadrícula con opciones de deformación dividida en sentido cruzado, horizontal o vertical
 &#x200B;* [Proyección]&#x200B;[Deformar]&#x200B;[Barra de herramientas] Menú específico para acciones de restablecimiento
 &#x200B;* [Proyección]&#x200B;[Deformar]&#x200B;[Barra de herramientas] Opción para ajustar automáticamente las tangentes al mover puntos
@@ -1756,7 +1756,7 @@ Resumen: **Versión principal. Contiene una nueva proyección de deformación 3D
 &#x200B;* [Proyección] [Deformar] Nuevo método abreviado de teclado para cambiar el modo de edición de deformación de vértices completos (MAYÚS+V)
 &#x200B;* [Proyección] [Deformar] Al pulsar+Ctrl se puede cambiar entre la herramienta Superficie y otras herramientas
 &#x200B;* [Proyección] [Cilíndrica] Exponer el modo de proyección cilíndrica
-&#x200B;* [Proyección]&#x200B;[Barra de herramientas] Ajustes del manipulador de grupo (tamaño, pasos de cuadrícula, pasos de ángulo)
+&#x200B;* [Proyección]&#x200B;[Barra de herramientas] Configuración del manipulador de grupos (tamaño, pasos de cuadrícula, pasos de ángulo)
 &#x200B;* [Selector de color] Nueva interfaz de usuario del selector de color
 &#x200B;* [Selector de color] Uso de valores sRGB en widgets de selector de color
 &#x200B;* [Selector de color] Permitir guardar y eliminar muestras de color
@@ -1769,7 +1769,7 @@ Resumen: **Versión principal. Contiene una nueva proyección de deformación 3D
 &#x200B;* [Motor] Actualización a la nueva versión del motor de Substance (8.3.0)
 &#x200B;* [Scripting] [Python] Permite volver a cargar la malla del proyecto actual
 &#x200B;* [Scripting] [Python] Permitir la actualización de recursos en proyectos
-&#x200B;* [Scripting] [Python] Permite establecer y consultar la resolución de Mosaicos de UV
+&#x200B;* [Scripting] [Python] Permite establecer y consultar la resolución de los mosaicos UV
 &#x200B;* [Interoperabilidad] No disponible para las ediciones Steam y Substance
 &#x200B;* [Interoperabilidad] Recibir varios recursos de Bridge
 
@@ -1837,7 +1837,7 @@ Resumen: **Versión secundaria, revisión**
 
 **Agregado:**
 
-&#x200B;* [Interop] Añada información sobre herramientas para indicar que el envío de proyectos de Mosaico de UV a Stager aún no se admite
+&#x200B;* [Interop] Añada información sobre herramientas para indicar que el envío de proyectos de UV Tile a Stager aún no es compatible
 &#x200B;* [Plugin]&#x200B;[UI] Actualización del icono de Livelink
 
 **Corregido:**
@@ -1845,7 +1845,7 @@ Resumen: **Versión secundaria, revisión**
 &#x200B;* [Nvidia] La versión del controlador que comienza por 30 se considera obsoleta
 &#x200B;* [Bibliotecas] El estado del panel Activos no se guarda a menos que esté abierto un proyecto
 &#x200B;* [Bibliotecas] La nueva búsqueda guardada conserva la palabra clave de la antigua búsqueda guardada
-&#x200B;* [Baker] [UVTiles] Los mapas de ID por meshID también tienen en cuenta los Mosaicos de UV
+&#x200B;* [Bakers] [UVTiles] Los mapas de ID por meshID también tienen en cuenta los mosaicos UV
 &#x200B;* [Exportar] Los archivos gLTF no importan el color del vértice
 &#x200B;* [Iray] Faltan algunas sugerencias
 &#x200B;* [Interop] Enviar a Stager no siempre está desactivado cuando Stager no se detecta
@@ -1855,7 +1855,7 @@ Resumen: **Versión secundaria, revisión**
 ### 7.2.0
 
 *(Lanzado: 23 de junio de 2021)*
-Resumen: **Versión principal: proporciona una actualización del panel de recursos, un nuevo sombreador con acceso a nuevos canales y parámetros, una actualización general de la interfaz de usuario, algunas mejoras de rendimiento muy solicitadas, compatibilidad con más idiomas y mucho más.**
+Resumen: **Versión principal, proporciona una actualización del panel de activos, un nuevo sombreado con acceso a nuevos canales y parámetros, una actualización general de la interfaz de usuario, algunas mejoras de rendimiento muy solicitadas, compatibilidad de idioma ampliada y mucho más.**
 
 **Agregado:**
 
@@ -1871,11 +1871,11 @@ Resumen: **Versión principal: proporciona una actualización del panel de recur
 &#x200B;* [Bibliotecas]&#x200B;[IU] Permitir ocultar carpetas vacías
 &#x200B;* [Bibliotecas]&#x200B;[UI] La biblioteca de usuario predeterminada debe estar visible aunque esté vacía.
 &#x200B;* [Bibliotecas]&#x200B;[IU] Nuevo método de filtrado mediante iconos de tipos de activos
-&#x200B;* [Bibliotecas] Método abreviado &quot;CTRL&quot; para seleccionar varios tipos de recursos
+&#x200B;* [Bibliotecas] Método abreviado de teclado &quot;CTRL&quot; para seleccionar varios tipos de recursos
 &#x200B;* [Bibliotecas] Nueva variable de entorno para controlar el presupuesto de memoria de previsualización de activos
 &#x200B;* [Bibliotecas]&#x200B;[Contenido] Nuevos mapas de entorno
 &#x200B;* [Bibliotecas]&#x200B;[Contenido]&#x200B;[IU] desplazamiento de procesamiento en los materiales predeterminados
-&#x200B;* [Bibliotecas]&#x200B;[Contenido] Establezca sombreador de Adobe Standard Material (ASM) como predeterminado para la generación de vistas previas
+&#x200B;* [Bibliotecas]&#x200B;[Contenido] Establezca el sombreado de Adobe Standard Material (ASM) como predeterminado para la generación de vistas previas
 &#x200B;* [Bibliotecas]&#x200B;[Contenido]&#x200B;[ASM] Nuevas plantillas de proyecto para el nuevo sombreador de ASM
 &#x200B;* [Bibliotecas]&#x200B;[Miniatura] Usar nuevo mapa de entorno de Studio 6
 &#x200B;* [Bibliotecas]&#x200B;[Miniatura] Lea la miniatura del recurso en lugar de generarla
@@ -1905,8 +1905,8 @@ Resumen: **Versión principal: proporciona una actualización del panel de recur
 &#x200B;* [Motor] Mejoras en el rendimiento de pintura
 &#x200B;* [Auto Unwrap]
 &#x200B;* [Auto Unwrap] Mejoras en el rendimiento del Empaquetado
-&#x200B;* [Auto Unwrap] Auto unwrap compatible con el flujo de trabajo de Mosaico de UV
-&#x200B;* [Desenvolvimiento automático] Nueva opción para colocar los UV según la orientación de la malla
+&#x200B;* [Auto Unwrap] Auto unwrap compatible con el flujo de trabajo de UV Tile
+&#x200B;* [Auto-Unwrap] Nueva opción para colocar las coordenadas UV según la orientación de la malla
 &#x200B;* [Otros]
 &#x200B;* [Configuración] Se ha cambiado la dirección de zoom predeterminada
 &#x200B;* [UI] Actualización general de la IU
@@ -2049,10 +2049,10 @@ Resumen: **Versión principal, nueva máscara de geometría que permite seleccio
 &#x200B;* Bloqueo al utilizar monitores con diferentes resoluciones
 &#x200B;* Bloqueo en Substance Engine con algunos proyectos raros
 &#x200B;* La actualización de la ventana gráfica falla con Ocultar/Ignorar geometría excluida al cambiar de capa
-&#x200B;* [vista 2D] Puede que falte la ventana gráfica 2D en algunos proyectos
-&#x200B;* [Haciendo un bake] &quot;Coincidir por nombre de malla&quot; ignora partes del objeto
-&#x200B;* [Pila de capas] Hacer clic en un efecto de capa abre una carpeta
-&#x200B;* El Mosaico de UV [Máscara de geometría] se sigue contando en la máscara incluso al volver a importar la malla sin ella
+&#x200B;* [Vista 2D] Puede que falte la ventana 2D en algunos proyectos
+&#x200B;* [Horneado] &quot;Coincidir por nombre de malla&quot; ignora partes del objeto
+&#x200B;* [Pila de capas] Al hacer clic en un efecto de capa se abre la carpeta
+&#x200B;* [Máscara de geometría] El azulejo UV se sigue contando en la máscara, incluso al volver a importar la malla sin ella
 &#x200B;* [Máscara de geometría] El menú contextual de la ventana gráfica no proporciona las herramientas correctas
 &#x200B;* [Motor] Grandes retrasos en proyectos concretos
 &#x200B;* [Scripting] Alta latencia con solicitudes remotas de POST JSON en Windows
@@ -2116,7 +2116,7 @@ Resumen: **Versión secundaria, revisión**
 **Agregado:**
 
 &#x200B;* Añada la variable de entorno &quot;SUBSTANCE\_PAINTER\_VRAM\_BUDGET&quot; para anular la cantidad de GPU VRam
-&#x200B;* [Mosaicos de UV]&#x200B;[Rendimiento] No calcular todos los mosaicos UV al utilizar la herramienta Relleno poligonal
+&#x200B;* [Mosaicos UV]&#x200B;[Rendimiento] No calcule todos los mosaicos UV al utilizar la herramienta Relleno poligonal
 
 **Corregido:**
 
@@ -2132,25 +2132,25 @@ Resumen: **Versión secundaria, revisión**
 &#x200B;* [Texture Set List] No se puede ocultar la descripción
 &#x200B;* [Lista de conjuntos de texturas] Problemas de IU
 &#x200B;* [Iray] El procesamiento de PSD no se abre
-&#x200B;* [Plugin de Photoshop] No compatible con el flujo de trabajo de Mosaicos de UV
+&#x200B;* [Plugin Photoshop] No compatible con el flujo de trabajo de mosaicos UV
 
 ### 6.2.0 (2020.2.0)
 
 *(Lanzado: 23 de julio de 2020)*
-Resumen: **Versión principal con nuevo flujo de trabajo de Mosaicos de UV, pintura entre Mosaicos de UV y mejora del rendimiento**
+Resumen: **Versión principal con nuevo flujo de trabajo de mosaicos UV, pintura en mosaicos UV y mejora del rendimiento**
 
 **Agregado:**
 
-&#x200B;* Mosaicos de UV (UDIM)
-&#x200B;* [Mosaicos de UV] Pintura en mosaicos UV
-&#x200B;* [Mosaicos de UV] Permite elegir entre el flujo de trabajo nuevo y el heredado para Mosaicos de UV.
-&#x200B;* [Mosaicos de UV] Importación de UDIM/secuencias de imágenes de Mosaico de UV como recurso
-&#x200B;* [Mosaicos de UV] Añadir lista de Mosaicos de UV por conjunto de texturas en la ventana Lista de conjuntos de texturas
-&#x200B;* [Mosaicos de UV] Permite editar la resolución de varios Mosaicos de UV a la vez en Ajustes de conjunto de texturas.
+&#x200B;* Mosaicos UV (UDIM)
+&#x200B;* [UV Tiles] Pintura en mosaicos UV
+&#x200B;* [Mosaicos UV] Permite elegir entre el flujo de trabajo nuevo y el heredado para los mosaicos UV
+&#x200B;* [UV Tiles] Importar secuencias de imágenes UDIM/UV Tile como recurso
+&#x200B;* [UV Tiles] Añadir una lista de UV Tiles por conjunto de texturas en la ventana Lista de conjuntos de texturas
+&#x200B;* [Mosaicos UV] Permite editar la resolución de varios mosaicos UV a la vez en Ajustes de conjunto de texturas
 &#x200B;* [Mosaicos de UV]&#x200B;[vista 2D] Mostrar Mosaicos de UV como una cuadrícula
-&#x200B;* [Mosaicos de UV]&#x200B;[vista 2D] Botón Nueva ventana para mostrar u ocultar información de Mosaicos de UV
-&#x200B;* [Mosaicos de UV] Cambiar la herramienta de pintura a un solo canal de forma predeterminada para proyectos de Mosaico de UV
-&#x200B;* [Mosaicos de UV] Botón nuevo en la barra de herramientas contextual para ignorar los Mosaicos de UV enmascarados mientras se pinta
+&#x200B;* [Mosaicos UV]&#x200B;[Vista 2D] Botón Nueva ventana para mostrar u ocultar la información de los mosaicos UV
+&#x200B;* [UV Tiles] Cambiar la herramienta de pintura a un solo canal de forma predeterminada para proyectos de UV Tile
+&#x200B;* [UV Tiles] Botón Nuevo en la barra de herramientas contextual para ignorar los mosaicos UV enmascarados mientras se pinta
 &#x200B;* [Mosaicos de UV]&#x200B;[Pila de capas] Nuevos iconos de pila de capas para mejorar el rendimiento
 &#x200B;* [Mosaicos de UV] [Pila de capas] Mejora de los iconos de Pintura y relleno en la barra de herramientas
 &#x200B;* [Máscara de Mosaico de UV]&#x200B;[vista 2D] Permite incluir o excluir varios Mosaicos de UV a la vez (clic izquierdo, CTRL+clic izquierdo)
@@ -2160,12 +2160,12 @@ Resumen: **Versión principal con nuevo flujo de trabajo de Mosaicos de UV, pint
 &#x200B;* [Mosaicos de UV]&#x200B;[Bakeres] Permite seleccionar y hacer un bake Mosaicos de UV específicos
 &#x200B;* [Mosaicos de UV]&#x200B;[Bakeres] Añadir opciones de selección para conjuntos de texturas/Mosaicos de UV
 &#x200B;* [Mosaicos de UV] [Bakeres] Haga clic con el botón derecho en la opción de menú para seleccionar Mosaicos de UV dentro de un conjunto de texturas
-&#x200B;* [Mosaicos de UV] [Bakeres] Permite una selección rápida en el conjunto de texturas/Mosaicos de UV arrastrando
+&#x200B;* [Mosaicos UV] [Panaderos] Permite una selección rápida en el Conjunto de texturas/Mosaicos UV arrastrando
 &#x200B;* [Mosaicos de UV] [Bakeres] Reemplace los botones &quot;Todo&quot; y &quot;Ninguno&quot; en Mapas de malla por opciones de selección más explícitas
 &#x200B;* [Mosaicos de UV]&#x200B;[Bakeres] Mostrar el número de texturas que se van a hacer un bake
 &#x200B;* [Mosaicos de UV]&#x200B;[Exportar] Permitir la selección y exportación de Mosaicos de UV específicos
-&#x200B;* [Mosaicos de UV] [Exportar] Permite una selección rápida de Mosaicos de UV arrastrándolos
-&#x200B;* [Mosaicos de UV] [Exportar] Añadir opciones del menú desplegable para Mosaicos de UV
+&#x200B;* [UV Tiles]&#x200B;[Export] Permite una selección rápida de UV Tiles arrastrando
+&#x200B;* [UV Tiles]&#x200B;[Exportar] Añadir opciones de menú desplegable para UV Tiles
 &#x200B;* [Mosaicos de UV] [Exportar] Hacer que algunos ajustes preestablecidos de exportación no estén disponibles si no funcionan con Mosaicos de UV (Adobe Dimension, Sketchfab, glTF, USD)
 &#x200B;* [Mosaicos de UV]&#x200B;[Contenido] Actualice los ajustes preestablecidos de exportación para utilizar la nueva etiqueta $udim
 &#x200B;* [Mosaicos de UV] Mejora de los informes de errores al importar mallas con Islas de UV superpuestas
@@ -2307,7 +2307,7 @@ Resumen: **Versión principal con nueva textura y exportador de malla (con despl
 &#x200B;* [Exportar] Nueva interfaz de exportador
 &#x200B;* [Exportar] [ficha Exportar] Permite seleccionar qué canales de mapas se exportan por conjunto de texturas
 &#x200B;* [Exportar] [ficha Exportar] Permite modificar el tamaño del conjunto de texturas para todos los conjuntos de texturas en una sola acción
-&#x200B;* [Exportar] [Ficha Exportar] Permitir una plantilla diferente por conjunto de texturas (excepto USD, glTF, Sketchfab y Dimension)
+&#x200B;* [Exportar] [ficha Exportar] Permite crear una plantilla diferente por conjunto de texturas (excepto para USD, glTF, Sketchfab y Dimension)
 &#x200B;* [Exportar] [Ficha Exportar] Activación y desactivación rápidas de mapas y conjuntos de texturas
 &#x200B;* [Exportar] [Ficha Exportar] La resolución de exportación 8192x8192 ya no es experimental
 &#x200B;* [Exportar] [ficha Exportar] Permite modificar el formato de archivo y la profundidad de bits por mapa
@@ -2328,8 +2328,8 @@ Resumen: **Versión principal con nueva textura y exportador de malla (con despl
 &#x200B;* [Desajuste UV]&#x200B;[UI] Nuevas opciones para volver a calcular completamente los pasos de desajuste
 &#x200B;* [Desajuste UV]&#x200B;[UI] Nueva opción para controlar el tamaño del margen (ninguno, pequeño, mediano y grande)
 &#x200B;* Nuevos Bakeres
-&#x200B;* [Panaderos] Reemplace la curvatura antigua por la nueva curvatura de la malla
-&#x200B;* [Panaderos] Añadir la opción de coincidencia por nombre para ignorar la cara posterior en el panadero de &quot;Oclusión ambiental&quot;
+&#x200B;* [Bakeres] Reemplazar la curvatura antigua por la nueva curvatura de la malla
+&#x200B;* [Bakeres] Opción Añadir coincidencia por nombre para ignorar la cara posterior en el baker &quot;Oclusión ambiental&quot;
 &#x200B;* [Bakeres] Opción Añadir plano de tierra en el baker &quot;Oclusión ambiental&quot;
 &#x200B;* Nueva API de Python de scripts (3.7.6)
 &#x200B;* [Python]&#x200B;[UI] Nuevo menú de scripts para Python
@@ -2345,18 +2345,18 @@ Resumen: **Versión principal con nueva textura y exportador de malla (con despl
 &#x200B;* [Contenido] 5 nuevos materiales de pegatina de Substance Source
 &#x200B;* [Contenido] Añadir nuevas plantillas de proyecto y ajustes preestablecidos de exportación para el procesador Maxwell
 &#x200B;* [Contenido] Añadir plantilla de proyecto para la exportación de Keyshot 9
-&#x200B;* [Contenido] Actualización del ajuste preestablecido de exportación de Keyshot 9 para admitir el desplazamiento y el emisivo
+&#x200B;* [Contenido] Actualice el ajuste preestablecido de exportación de Keyshot 9 para admitir desplazamientos y emisiones
 &#x200B;* [Contenido] [Exportador] Actualización de todos los ajustes preestablecidos de exportación para que coincidan con las últimas versiones de motores de juegos y procesadores
-&#x200B;* [Contenido]&#x200B;[Exportador] Actualice los archivos de ajustes preestablecidos de exportación para utilizar el nuevo formato y la nueva configuración de tramado
+&#x200B;* [Contenido] [Exportador] Actualice los archivos de ajustes preestablecidos de exportación para utilizar el nuevo formato y la nueva configuración de tramado
 &#x200B;* [Contenido] Nuevas plantillas y sombreadores para admitir material de VRay (VRayMtl)
-&#x200B;* [Pila de capas] Permita la eliminación de efectos de capa mediante el icono de la papelera o el método abreviado del teclado Eliminar
+&#x200B;* [Pila de capas] Permita la eliminación de efectos de capa mediante el icono de la papelera o el método abreviado de teclado Eliminar
 &#x200B;* Eliminar el Substance Source de plugins (utilizar el iniciador con la funcionalidad &quot;enviar a&quot;)
 &#x200B;* [Windows] No se muestra ninguna advertencia de TDR en las GPU de gama alta
 
 **Corregido:**
 
 &#x200B;* Problemas de traducción en el cuadro de diálogo Nuevo archivo de proyecto
-&#x200B;* [Bakeres] La configuración &quot;Guardar archivo de escena preprocesado&quot; ya no funciona
+&#x200B;* [Bakers] La configuración &quot;Guardar archivo de escena preprocesado&quot; ya no funciona
 &#x200B;* [Proyección plana] La proyección no funciona en mallas con UV repetidos
 &#x200B;* [Decal] Diferencia de comportamiento en el canal normal al utilizar distintos modos de proyección de la capa de relleno
 &#x200B;* [Difuminado] [Clonar] El artefacto puede aparecer al pintar en una máscara
@@ -2479,9 +2479,9 @@ Resumen: **Versión principal con mejora de la experiencia del usuario al pintar
 &#x200B;* [Desempaquetado UV] Versión registrada en el archivo de registro
 &#x200B;* [Desempaquetado UV]&#x200B;[IU] Indicar el progreso del desempaquetado UV
 &#x200B;* [UI] Nuevos ajustes en la barra de herramientas contextual para seleccionar la vista previa del pincel: Vista previa completa, contorno de pincel y forma de cruz
-&#x200B;* [Herramienta] Nuevo modo de fusión avanzado en la sección alfa: Aclarar (máximo) además de Normal
+&#x200B;* [Herramienta] Nuevo modo de fusión avanzado en la sección alfa: Aclarar (máxima) además de Normal
 &#x200B;* [Pila de capas] Opción de corrección de gamma por capa para alfa o máscara (menú del botón derecho)
-&#x200B;* [Pila de capas]&#x200B;[IU] Se añade el icono &quot;i&quot; cuando se corrige la gamma de una capa alfa
+&#x200B;* [Pila de capas] [IU] Se añade el icono &quot;i&quot; cuando se corrige gamma en una capa alfa
 &#x200B;* [Tablet] [Herramienta] Exponer presión mínima para tamaño y flujo
 &#x200B;* [Tablet]&#x200B;[UI] Nueva configuración en la barra de herramientas contextual para seleccionar la presión de curva: lineal, fácil de entrar, fácil de salir
 &#x200B;* [Tablet]&#x200B;[UX] Pulse Ctrl+Alt y haga clic para desplazarse
@@ -2684,7 +2684,7 @@ Resumen: **Corrección de error con 2 nuevas características**
 **Problemas conocidos:**
 
 &#x200B;* No se pueden importar archivos Alembic con subdivisiones
-&#x200B;* Bloqueos raros al importar algunos archivos Alembic
+&#x200B;* Los bloqueos raros al importar algunos archivos Alembic
 
 ### 5.1.2 (2019.1.2)
 
@@ -2707,17 +2707,17 @@ Resumen: **Revisión**
 **Corregido:**
 
 &#x200B;* [Substance] Visible Si no se tiene en cuenta para las imágenes de entrada
-&#x200B;* [SVT]&#x200B;[Motor] El cambio de la resolución del conjunto de texturas provoca un bloqueo en algunos casos
+&#x200B;* [SVT] [Motor] El cambio de la resolución del conjunto de texturas provoca bloqueos en algunos casos
 &#x200B;* [Motor] En algunos casos aparecen texturas negras aleatorias
 &#x200B;* [Pila de capas] [IU] Al alternar una máscara con MAYÚS, se pueden seleccionar varias capas al mismo tiempo
 &#x200B;* [Pila de capas] La opacidad no afecta al efecto Pintura con el modo de fusión PassThrough
-&#x200B;* [Pila de capas] La entrada de Height a filtro normal no se actualiza correctamente con el trazo del pincel borrador
-&#x200B;* [LayersStack] Bloqueo al deshacer la caída de una máscara inteligente
+&#x200B;* [Pila de capas] La entrada de Height a filtro normal no se actualiza correctamente con el trazo del pincel del borrador
+&#x200B;* [LayersStack] Bloqueo al deshacer el soltar una máscara inteligente
 &#x200B;* Malla metálica parpadeando con sombras y anti-aliasing temporal activado
 &#x200B;* [Desplazamiento] Retraso en AMD con algunas mallas pesadas
 &#x200B;* [Windows] Bloqueo al abrir algunos proyectos mediante el explorador de archivos
-&#x200B;* [Histograma] Bloqueo al quitar la máscara con punto de anclaje en algunos casos
-&#x200B;* Bloqueo en la generación de vistas previas en algunos casos raros
+&#x200B;* [Histograma] Bloqueo al eliminar la máscara con el punto de anclaje en algunos casos
+&#x200B;* Bloqueo en la generación de vistas previas en algunos casos excepcionales
 &#x200B;* [Bloqueo] No se puede volver a abrir un proyecto con demasiadas herramientas de clonación y difuminado
 &#x200B;* No se muestra ninguna malla en el modo de material después de guardarla en algunos casos
 &#x200B;* [Scripting] alg.mapexport.documentStructure() devuelve valores incorrectos para las carpetas
@@ -2872,10 +2872,10 @@ Resumen: **Revisión**
 
 **Corregido:**
 
-&#x200B;* La exportación de Vista 2D genera una textura negra en algunos casos
+&#x200B;* [Exportar] La exportación de vista 2D genera una textura negra en algunos casos
 &#x200B;* [Iray] La información normal se vuelve incorrecta en Iray después de crear instancias de una capa de material
-&#x200B;* Los conjuntos de texturas no cuadrados pueden provocar en algunos casos bloqueos
-&#x200B;* [Deshacer] Varias teclas Ctrl+Z pueden llevar al bloqueo de forma aleatoria en algunos casos
+&#x200B;* Los conjuntos de texturas no cuadradas pueden provocar bloqueos en algunos casos
+&#x200B;* [Deshacer] Varias teclas Ctrl+Z pueden provocar el bloqueo en algunos casos de forma aleatoria
 &#x200B;* [QML] AlgScrollView puede crear una advertencia en el registro en algunos casos (bucles de enlace)
 
 **Problemas conocidos:**
@@ -2916,8 +2916,8 @@ Resumen: <b>Actualizaciones de la ventana gráfica, exportación adecuada de la 
 &#x200B;* [Contenido] Nuevos procedimientos anisotrópicos
 &#x200B;* [Content] Nuevo filtro: entorno de iluminación generado
 &#x200B;* [Contenido] Nuevo mapa de entorno: studio automotive neutral
-&#x200B;* [Contenido] Nueva plantilla de proyecto: PBR - Ángulo de anisotropía de rugosidad metálica (con canales de anisotropía)
-&#x200B;* [Contenido] Nueva plantilla de proyecto: PBR - rugosidad metálica recubierta
+&#x200B;* [Contenido] Nueva plantilla de proyecto: PBR - ángulo de Anisotropía de rugosidad metálica (con canales de anisotropía)
+&#x200B;* [Contenido] Nueva plantilla de proyecto: PBR - Rugosidad metálica Recubierta
 &#x200B;* [SVT]&#x200B;[Motor] Texturas virtuales dispersas (SVT)
 &#x200B;* [SVT]&#x200B;[Preferencias]&#x200B;[IU] Opción de aceleración de compatibilidad de hardware SVT
 &#x200B;* [SVT]&#x200B;[Log] Información adicional para la función de texturas virtuales dispersas (p. ej., disco de tamaño)
@@ -2927,20 +2927,20 @@ Resumen: <b>Actualizaciones de la ventana gráfica, exportación adecuada de la 
 &#x200B;* [SVT] Nueva variable de entorno para activar la aceleración de compatibilidad de hardware SVT
 &#x200B;* [SVT] Detectar compatibilidad dispersa por hardware
 &#x200B;* [SVT]&#x200B;[Hardware disperso] Aumentar la versión mínima del controlador para la GPU Nvidia
-&#x200B;* [SVT]&#x200B;[Sombreador]&#x200B;[Viewport]&#x200B;[UI] Advertencia al usuario si hay artefactos con texturas virtuales dispersas al abrir el proyecto
+&#x200B;* [SVT]&#x200B;[Shader]&#x200B;[Viewport]&#x200B;[UI] Advertencia al usuario si hay artefactos con texturas virtuales dispersas al abrir el proyecto
 
 <b>Corregido:</b>
 
 &#x200B;* [Selector de color] Cursor de pintura que aparece al intentar seleccionar un color
-&#x200B;* El bloqueo al seleccionar o anular la selección de capas en un orden específico puede provocar bloqueos
+&#x200B;* Bloqueo al seleccionar o anular la selección de capas en un orden específico puede producir un bloqueo
 &#x200B;* Bloqueo al pegar como instancia una capa con una máscara
 &#x200B;* [Canal de usuario]&#x200B;[Regresión] Bloqueo al cambiar el nombre del canal de usuario
 &#x200B;* [Canal de usuario] Vista previa de pincel atenuado
 &#x200B;* [Alembic] Solo un conjunto de texturas de varios materiales tras la importación
 &#x200B;* [Motor] La textura exportada difiere de la ventana gráfica para los sellos de pincel
-&#x200B;* [Motor] La inversión con un efecto de nivel no afecta completamente a una textura
+&#x200B;* [Motor] La inversión con un efecto de nivel no afecta por completo a una textura
 &#x200B;* El selector de material está aplicando un trazo de pincel al seleccionar
-&#x200B;* Cambiar la resolución a 128x128px conduce a un bloqueo
+&#x200B;* Cambiar la resolución a 128x128px provoca un bloqueo
 &#x200B;* Los vínculos de mapa de malla no se actualizan correctamente al rehornear o crear instancias de capas
 &#x200B;* [Substance] UserData ColorSpace no funciona en la malla Hecha un bake Normal solicitada como entrada
 &#x200B;* No coincide la asociación MDL al utilizar varias instancias de sombreado
@@ -3051,8 +3051,8 @@ Resumen: **Versión de verano, compatibilidad con dispersión subsuperficial, me
 &#x200B;* [Cámaras] [Israel] Seleccione y controle las cámaras importadas en Irán
 &#x200B;* [Cámaras]&#x200B;[IU]&#x200B;[Nuevo proyecto]&#x200B;[Configuración del proyecto] Importar cámaras está marcado de forma predeterminada
 &#x200B;* [Cámaras] [Accesos directos] Añadir accesos directos para cambiar de cámara
-&#x200B;* [Cámaras]&#x200B;[Ventana gráfica] Añadir marco en la ventana gráfica
-&#x200B;* [Cámaras] [Configuración de la ventana gráfica] Control de la opacidad del marco
+&#x200B;* [Cámaras]&#x200B;[Ventana gráfica] Añadir fotograma en la ventana gráfica
+&#x200B;* [Cámaras] [Configuración de la ventana gráfica] Control de la opacidad de los fotogramas
 &#x200B;* [Cámaras]&#x200B;[Configuración de la cámara] distancia focal máxima de 500 mm
 &#x200B;* [Cámaras]&#x200B;[Configuración de la cámara] Relación de exposición
 &#x200B;* [Cámaras]&#x200B;[Configuración de la cámara] Añadir una opción de bloqueo
@@ -3060,17 +3060,17 @@ Resumen: **Versión de verano, compatibilidad con dispersión subsuperficial, me
 &#x200B;* [Cámaras]&#x200B;[Configuración de la cámara] Añadir el atributo de distancia de enfoque
 &#x200B;* [glTF] Importación de un archivo glTF
 &#x200B;* [glTF] Importar mapa de oclusión ambiental
-&#x200B;* [Alembic] Importar marco Alembic 1 con geometría estática
+&#x200B;* [Alembic] Importar Alembic 1 fotograma con geometría estática
 &#x200B;* [Estante] Arrastre y suelte materiales directamente en la malla mediante mapas de ID con un modificador (CTRL/Comando)
 &#x200B;* [Pila de capas] Creación automática de máscaras de ID con arrastrar y soltar materiales en la malla con mapas de ID
-&#x200B;* [Pila de capas] Desplazamiento automático de capas arrastrando y soltando por la pila de capas
+&#x200B;* [Pila de capas] Desplazamiento automático de capas con arrastrar y soltar por la pila de capas
 &#x200B;* [UI]&#x200B;[Propiedades de la herramienta] Exponer el ajuste preestablecido de Substance
 &#x200B;* [UI]&#x200B;[menú Ayuda] Mejora del menú Ayuda
 &#x200B;* [UI]&#x200B;[Nuevo proyecto]&#x200B;[Configuración del proyecto] Reorganización de la ventana
 &#x200B;* [UI]&#x200B;[Nuevo proyecto]&#x200B;[Configuración del proyecto] Reemplazar término de malla por archivo
 &#x200B;* [UI]&#x200B;[Substance] Visualización de atributos de Substance en IU
 &#x200B;* [Métodos abreviados] F4 cambia entre la vista 2D y 3D
-&#x200B;* [Accesos directos] Nuevos métodos abreviados para alternar la galería de símbolos N y la máscara rápida U
+&#x200B;* [Accesos directos] Nuevos métodos abreviados para activar o desactivar la galería de símbolos N y la máscara rápida U
 &#x200B;* [Substance integration] Tenga en cuenta las sentencias &#39;visible if&#39; en los parámetros del Substance
 &#x200B;* [Ventana gráfica] Las sombras no se ven forzadas a computarse después de mover la cámara
 &#x200B;* [Contenido] Actualizar MeetMat con cámaras importadas
@@ -3153,14 +3153,14 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 
 &#x200B;* [Herramienta] La ranura de canal se transforma en una ranura de material en rellenos de un solo canal
 &#x200B;* Bloqueo al cargar una malla (FBX) con algunas caras no asignadas por un material
-&#x200B;* Bloqueo en Irán con NVIDIA GRID 5.2 en una máquina virtual
+&#x200B;* Bloqueo en Irán con NVIDIA GRID 5.2 en máquina virtual
 &#x200B;* Bloqueo al deshacer la eliminación de un ajuste preestablecido de material
 &#x200B;* Bloqueo al cargar algunos proyectos
-&#x200B;* [Línea de comandos] Nueva línea de comandos para las mallas UDIM divididas por udim
+&#x200B;* [Línea de comandos] Nueva línea de comandos para mallas de UDIM divididas por audio
 &#x200B;* [Barra de herramientas] Reducción de la barra de herramientas
 &#x200B;* [Instanciación] No se pueden crear instancias de mapas de bits en varios conjuntos de texturas
 &#x200B;* [Ventana gráfica] La actualización no se completa al pintar en malla con UV en mosaico
-&#x200B;* [Iray] El mapa normal se aplica dos veces para los dieléctricos
+&#x200B;* [Iray] El Mapa de normales se aplica dos veces a los dieléctricos
 &#x200B;* [Shelf] Errores tipográficos en algunos parámetros del Substance (alfas, procedimientos y matfx)
 &#x200B;* [Shelf] Error tipográfico para el mapa de bits &quot;Solo personal autorizado&quot;
 &#x200B;* [Script] La función alg.shaders.materials() ya no funciona
@@ -3176,11 +3176,11 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 **Corregido:**
 
 &#x200B;* [Tablet] Problema al cambiar las opciones de interacción predeterminadas
-&#x200B;* [Baker] Bloqueo con la biblioteca Assimp
-&#x200B;* [Bakeres] Regresión en el rendimiento con el mapa A.O
-&#x200B;* [Iray] La Distorsión de lente no se aplica al canal Alfa
+&#x200B;* [Bakers] Bloqueo con la biblioteca de Assimp
+&#x200B;* [Bakers] Regresión en el rendimiento con mapa A.O.
+&#x200B;* [Iray] La Distorsión de lente no se aplica al canal del Alpha
 &#x200B;* [Controladores] Actualización de los requisitos mínimos de controladores
-&#x200B;* [3Dview] Las normales no se generan correctamente en las mallas del UDIM sin información de normales
+&#x200B;* [3Dview] Las normales no se generan correctamente en mallas UDIM sin información de normales
 &#x200B;* [Intel] Bloqueo con Substance Painter 2018.1.0
 &#x200B;* [Intel]&#x200B;[Viewport] Problema con relleno (defectos negros)
 
@@ -3198,7 +3198,7 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 &#x200B;* Nuevo diseño predeterminado
 &#x200B;* [Tablet] Mejora de la experiencia del usuario al pintar
 &#x200B;* [Menú principal] Ordenar primero los elementos nativos de las vistas y barras de herramientas
-&#x200B;* [Menú principal] Sección Mover acciones de máscara rápida en la ventana gráfica
+&#x200B;* [Menú principal] Sección Mover acciones rápidas de máscara en la ventana gráfica
 &#x200B;* [Menú principal] Sección Mover las acciones del botón derecho al área de visualización
 &#x200B;* [Menú principal] Cambiar el nombre del menú &quot;Ver&quot; por &quot;Ventana&quot;
 &#x200B;* [Menú rápido] Nuevas propiedades de la herramienta haciendo clic con el botón derecho en la ventana gráfica
@@ -3212,7 +3212,7 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 &#x200B;* [Herramientas propiedades] Organización en fichas (rellenar y herramientas)
 &#x200B;* [Herramienta] El resultado de la pintura coincide con la galería de símbolos
 &#x200B;* [Ventana gráfica] Nuevo cursor para la capa de relleno
-&#x200B;* [Ventana gráfica] Navegación y pintura más fluidas (velocidad de fotogramas más alta)
+&#x200B;* [Ventana gráfica] Navegación y pintura más fluidas (velocidad de marco más alta)
 &#x200B;* [Ventana gráfica] Cuadro combinado de selección de material/canal/mapa en la ventana gráfica
 &#x200B;* [Ventana gráfica] Reducción del parpadeo durante la rotación (sombra activada)
 &#x200B;* [Shelf] Mostrar materiales de forma predeterminada al abrir Painter
@@ -3220,15 +3220,15 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 &#x200B;* [Estante] Reorganizar las carpetas de materiales para que se ajusten a la estructura del Substance Source
 &#x200B;* [Estante] Arrastre y suelte los materiales directamente en la malla en la ventana gráfica
 &#x200B;* [Shelf] Nuevos ruidos 3D (Perlin, Perlin Fractal, Simplex y Worley)
-&#x200B;* [Shelf] Nuevo generador de máscara de 3D linear gradient usando posición de malla
+&#x200B;* [Estante] Nuevo generador de máscaras de 3D linear gradient usando la posición de malla
 &#x200B;* [Estante] Ruidos básicos actualizados para admitir la expansión no cuadrada
 &#x200B;* [Estante] Se ha añadido una nueva plantilla y un ajuste preestablecido de exportación para Lens Studio (aplicación Snap)
-&#x200B;* [Estante] Se han actualizado los materiales y las máscaras inteligentes para utilizar la última versión del editor de máscaras (microdetalles).
+&#x200B;* [Estante] Materiales inteligentes y Máscaras inteligentes actualizados para utilizar la última versión del Editor de máscaras (detalles micro)
 &#x200B;* [Estante] Nuevo proyecto de muestra &quot;TilingMaterial&quot; para crear materiales de mosaico sin costuras
 &#x200B;* [Estante] Nuevos ajustes preestablecidos de pincel (caligrafía, mojado, sombreado, etc.)
 &#x200B;* [Reguladores] Nuevos reguladores y estilo y comportamiento de las barras de escala de grises y de color
-&#x200B;* [Bakers] Permite el uso del cuadro delimitador de escena completo para calcular el mapa de posición
-&#x200B;* [Shader] Se elimina el parámetro de fuerza de height de los parámetros de sombreado predeterminados.
+&#x200B;* [Bakeres] Permite el uso del cuadro delimitador de escena completo para calcular el mapa de posición
+&#x200B;* [Sombreador] Quitar el parámetro de fuerza de height de los parámetros de sombreador predeterminados
 &#x200B;* [Motor] Motor del Substance actualizado
 &#x200B;* [Motor] No hay discontinuidades o menos en los fragmentos UV
 &#x200B;* [Complementos] Importa materiales descargados de Substance Source con mayor rapidez
@@ -3248,7 +3248,7 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 &#x200B;* [Herramientas > Propiedades] Canal desactivado al arrastrar y soltar una imagen en la ranura de material
 &#x200B;* [Herramientas, propiedades] La vista previa del pincel se rompe con las herramientas de difuminado y clonado
 &#x200B;* [Conjunto de texturas] El orden de los canales es incorrecto al utilizar plantillas
-&#x200B;* [Shelf] Falta icono para el generador de Conversión de escala de grises
+&#x200B;* [Shelf] Falta icono para el generador de conversión de escala de grises
 &#x200B;* [Estante] El número de círculo de Sign alfa está roto (falta fuente)
 &#x200B;* Detección incorrecta de GPU integradas al iniciarse
 &#x200B;* [Bloqueo] Arrastrar y colocar un recurso importado cuyo nombre tenga el carácter #
@@ -3328,7 +3328,7 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 
 **Problemas conocidos:**
 
-&#x200B;* [AMD] Bloqueos y bloqueos al intentar realizar la pintura en una malla. Se puede solucionar con una actualización del controlador de la GPU.
+&#x200B;* [AMD] Se bloquea al intentar pintar en una malla. Se puede solucionar con una actualización del controlador de la GPU.
 
 ### 3.4.0 (2017.4.0)
 
@@ -3339,7 +3339,7 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 &#x200B;* [Instanciación] Permite crear instancias de parámetros en capas
 &#x200B;* [Instancing] Permite saltar entre una capa de origen y una instancia
 &#x200B;* [Instanciación] Añadir una acción &quot;Crear instancias en conjuntos de texturas&quot;
-&#x200B;* [Instanciación] Indicar en la pila de capas las instancias de reentrada (ciclos)
+&#x200B;* [Instanciación] Indicar en la pila de capas instancias de reentrada (ciclos)
 &#x200B;* [Instanciación] Elimina instancias cuando se elimina un origen
 &#x200B;* [Instanciación] No permitir referencias de delimitador desde fuera de una carpeta con instancias
 &#x200B;* [UI] Mueva la pila Deshacer a su propia ventana llamada &quot;Historial&quot;
@@ -3348,21 +3348,21 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 &#x200B;* [Exportar] Añadir opciones de borrador y reexportación al exportador de Sketchfab
 &#x200B;* [Shelf] Añadir control &quot;flip&quot; para las sustancias de fuentes
 &#x200B;* [Estante] Añadir 20 nuevos materiales de procedimientos
-&#x200B;* [Estante] Añadir 40 nuevos mapas grunges (basados en mapa de bits y procedimientos)
+&#x200B;* [Shelf] Añadir 40 nuevos mapas grunges (basados en mapa de bits y de procedimiento)
 &#x200B;* [Ventana gráfica] Activar colisiones de previsualización de pincel en otros conjuntos de texturas visibles
 &#x200B;* Requisitos mínimos de actualización de controladores de GPU AMD
 
 **Corregido:**
 
-&#x200B;* Bloqueo Al calcular Substance con resoluciones demasiado grandes
+&#x200B;* Bloqueo al calcular Substance con resoluciones demasiado grandes
 &#x200B;* Bloqueo al pintar con partículas
-&#x200B;* [Ventana gráfica] Reflejo de specular incorrecto en el Vista 2D con mallas específicas
+&#x200B;* [Ventana gráfica] Reflejo de specular incorrecto en la vista 2D con mallas específicas
 &#x200B;* [UI] Aparecen algunas acciones no deseadas en la ventana Historial
 
 **Problemas conocidos:**
 
 &#x200B;* [Capas] Algunas referencias de anclaje no se pueden restaurar si se rompen
-&#x200B;* Bloqueo al utilizar rehacer después de deshacer un cambio de Sombreador en Configuración del visor
+&#x200B;* Bloqueo al utilizar rehacer después de deshacer un cambio de sombreado en la configuración del visor
 
 ### 3.3.3 (2017.3.3)
 
@@ -3382,19 +3382,19 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 &#x200B;* [UI] Mejora el diálogo de la nueva versión y añade el registro de cambios
 &#x200B;* [IU] Indique si el mantenimiento ha caducado en el cuadro de diálogo Nueva versión
 &#x200B;* [Licencia] Actualizar el sistema de licencias para gestionar las fechas de mantenimiento
-&#x200B;* [Exportar] Cambiar nombre de Adobe Standard Material a Adobe Dimension
+&#x200B;* [Exportar] Cambiar el nombre de Adobe Standard Material a Adobe Dimension
 
 **Corregido:**
 
-&#x200B;* [Mac] La pintura conduce a cuadrados negros y a corrupciones de textura
+&#x200B;* [Mac] La pintura genera cuadrados negros y corrupciones de texturas
 &#x200B;* [Motor] La caché puede desaparecer en ocasiones en la ventana gráfica
 &#x200B;* [Motor] Aparecen artefactos de bloqueo cuando se activa la compresión de memoria
-&#x200B;* [Hacer un bake] Mensajes de error extraños al hacer un bake mallas específicas
+&#x200B;* [Horneado] Mensajes de error extraños al hornear mallas específicas
 &#x200B;* [Export] PSD no se han escrito correctamente y Photoshop no los reconoce correctamente
 &#x200B;* [Capas] No debería ser posible copiar y pegar capas en varios proyectos
 &#x200B;* [Substance] El espacio de color UserData para la entrada Normal se invierte en algunos casos
 &#x200B;* [Estante] Micro-normal en generadores genera curvatura invertida
-&#x200B;* [Estante] HSL filtro también afecta al canal alfa
+&#x200B;* [Estante] El filtro HSL también afecta al canal alfa
 &#x200B;* [Linux] La instalación en Centos falla debido a la falta de dependencias
 &#x200B;* El instalador no elimina todos los recursos de la instalación anterior en ciertos casos
 
@@ -3412,16 +3412,16 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 
 **Corregido:**
 
-&#x200B;* Bloqueo al borrar varios subestantes
+&#x200B;* Bloqueo al eliminar varios subestantes
 &#x200B;* Bloqueo al cambiar de un nivel a otro durante un cálculo del motor
-&#x200B;* bloqueo [Mac] en la GPU Intel durante los cálculos del motor
+&#x200B;* [Mac] Bloqueo en la GPU Intel durante los cálculos del motor
 &#x200B;* [Mac] [Ventana gráfica] Se producen errores de rendimiento cuando el tramado está activado
 &#x200B;* [Mac] MacOS 10.13 se reconoce como &quot;Versión desconocida&quot; en el archivo de registro.
-&#x200B;* [Baker] Hacer un bake con una jaula ya no funciona
-&#x200B;* [Layers] Ctrl+C método abreviado (copia) no funciona más
+&#x200B;* [Baker] Hornear con una jaula ya no funciona
+&#x200B;* [Capas] El método abreviado de teclado Ctrl+C (acción de copiar) ya no funciona
 &#x200B;* [Capas] Al pegar capas, no se actualiza la interfaz de usuario con las referencias del anclaje
 &#x200B;* [Anclaje] Duplicar o Copiar/Pegar capa con referencias rompe vínculos
-&#x200B;* [Export] En algunos casos, la exportación en 8K puede provocar bloqueos o interbloqueos en las aplicaciones
+&#x200B;* [Exportar] La exportación en 8K puede bloquearse o interbloquear la aplicación en algunos casos
 &#x200B;* [Exportar] Varios problemas en el formato de archivo glTF generado
 &#x200B;* [Importar] Volver a importar una malla con el mismo nombre de archivo ya no funciona
 &#x200B;* [Plugin] La ventana de guardado automático siempre aparece encima de todo
@@ -3436,22 +3436,22 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 
 &#x200B;* [Exportar] Permitir la exportación de mallas y texturas para el proyecto de Adobe Felix
 &#x200B;* [Export] Permitir la exportación al formato de archivo glTF
-&#x200B;* [Motor] Optimice el tamaño de las texturas en VRAM mediante la compresión de bloques
+&#x200B;* [Motor] Optimizar el tamaño de las texturas en VRAM mediante la compresión de bloques
 &#x200B;* [Ventana gráfica] Puede arrastrar y soltar una malla o un proyecto en la ventana gráfica
 &#x200B;* [UI] Mejora el mensaje de advertencia sobre TDR
 &#x200B;* [UI] El registro solo se debe mostrar si se solicita
 &#x200B;* [UI] Permitir borrar el contenido de la ventana de registro
 &#x200B;* [UI] Mostrar advertencias y errores en la barra de estado
 &#x200B;* [UI] Mostrar pestañas en la parte superior como en los navegadores web
-&#x200B;* [UI] Mejorar el contexto y los mensajes &quot;no puede pintarse&quot;
+&#x200B;* [UI] Mejorar el contexto y los mensajes &quot;no pintables&quot;
 &#x200B;* [IU] Añada una acción &quot;guardar como copia&quot; en el menú Archivo
 &#x200B;* [Capa] Establecer el ajuste de mosaico predeterminado en 1 de forma predeterminada
 &#x200B;* [Shelf] Filtro de degradado mejorado para admitir 10 colores dinámicos
 &#x200B;* [Estante] Agregue un espacio en la consulta predeterminada de la miniestantería
 &#x200B;* [Estante] Agregue una acción &quot;Abrir en el explorador&quot; para los recursos locales en el estante
-&#x200B;* [Estante] Añadir plantilla y sombreador para Adobe Material Estándar (Proyecto Félix)
+&#x200B;* [Estante] Añadir plantilla y sombreador para Adobe Material Standard (Proyecto Felix)
 &#x200B;* [Estante] Aumentar el mosaico máximo a 128 en sombreadores de capas de material
-&#x200B;* [Estante] Se ha añadido curvatura sobel para microdetalles de Generadores de máscaras
+&#x200B;* [Estante] Se ha añadido curvatura sobel para microdetalles de generadores de máscara
 &#x200B;* [Plugin] Añadir complemento de guardado automático con intervalo de tiempo personalizable
 &#x200B;* [Scripting] Añadir una función &quot;Guardar como copia&quot;
 
@@ -3459,7 +3459,7 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 
 &#x200B;* [UI] El diseño se interrumpe al iniciarse por primera vez
 &#x200B;* El PSD [Export] generado en la exportación tiene errores de formato
-&#x200B;* [Exportar] EXR siempre exporta el mapa de altura de 8 bits
+&#x200B;* [Exportar] EXR siempre exporta el mapa de height de 8 bits
 &#x200B;* [Exportar] Bloqueo al exportar mapas adicionales dañados
 &#x200B;* [Importar] En algunos casos, los bordes duros no se conservan en mallas de polietileno bajas
 &#x200B;* [Importar] Mensajes de error mejorados al importar mallas con problemas
@@ -3539,14 +3539,14 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 <b>Corregido:</b>
 
 &#x200B;* [Motor] Problema de desaparición de trazos al cambiar la resolución (4K>2K)
-&#x200B;* [Baker] Error al Hacer un bake la asignación de ID. si la opción Coincidir por nombre está activada
-&#x200B;* [Bakeres] Los mensajes de error no son lo suficientemente explícitos
-&#x200B;* [Vista 3D] El espacio tangente no se sincroniza con los bakeres
+&#x200B;* [Bakers] Error de procesamiento de asignación de ID con la opción Coincidir por nombre activada
+&#x200B;* [Bakers] Los mensajes de error no son lo suficientemente explícitos
+&#x200B;* [Vista 3D] El espacio tangente no se sincroniza con los panaderos
 &#x200B;* [Herramienta] Artefactos negros al utilizar la herramienta de difuminado
-&#x200B;* [Sombreador] El sombreador que no es PBR ya no funciona
-&#x200B;* [Sombreador] &quot;recubierto de pbr&quot; está roto
-&#x200B;* [Sombreador] La rugosidad del revestimiento de sombreadores &quot;recubiertos de pbr&quot; ya no tiene impacto
-&#x200B;* [Sombreador] El sombreador de brillo de especificaciones no coincide con Iray y SD
+&#x200B;* [Shader] El sombreado que no sea PBR ya no funciona
+&#x200B;* [Shader] &quot;pbr-coat&quot; está roto
+&#x200B;* [Shader] La rugosidad del revestimiento del sombreador &quot;recubierto de pbr&quot; ya no tiene impacto
+&#x200B;* [Shader] El sombreador de brillo de especificaciones no coincide con Iray y SD
 &#x200B;* [Shelf] Bloqueo al cargar dos archivos con el mismo nombre pero diferentes extensiones
 &#x200B;* [Estante] Ya no se pueden editar los ajustes preestablecidos en los estantes
 &#x200B;* [Estante] No se puede establecer una vista previa personalizada para los recursos importados en el estante
@@ -3565,7 +3565,7 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 
 **Corregido:**
 
-&#x200B;* Bloqueo al cambiar TextureSet después de reemplazar mapa con bake
+&#x200B;* Bloqueo al cambiar de TextureSet después de reemplazar mapa con bake
 &#x200B;* Bloqueo al hacer &quot;Deshacer y Rehacer&quot; después de cambiar el modo de fusión de la capa
 &#x200B;* Bloqueo o congelación al utilizar el efecto &quot;selección de color&quot; con mapa de ID grande
 &#x200B;* [Exportar] Los conjuntos de texturas cuyo nombre se ha cambiado no se ordenan alfabéticamente en la ventana de exportación
@@ -3696,8 +3696,8 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 &#x200B;* [UI] Aumentar la lista de tamaño de &quot;archivo reciente&quot; en el menú Archivo
 &#x200B;* [Importar] Utilice la categoría de sustancias para rellenar el prefijo en el cuadro de diálogo de importación
 &#x200B;* [Bakeres] Permitir hacer un bake texturas 8K
-&#x200B;* [Bakeres] Permitir hacer un bake resoluciones no cuadradas
-&#x200B;* [Bakeres] Mejora el consumo de memoria al hacer un bake mallas pesadas de alto contenido de poli
+&#x200B;* [Panaderos] Permitir que se horneen resoluciones no cuadradas
+&#x200B;* [Panaderos] Mejorar el consumo de memoria al hornear mallas pesadas de alto contenido de polietileno
 &#x200B;* [Estante] Bloquear estantes (y proyectos) para prohibir la edición simultánea y evitar daños
 &#x200B;* [Shelf] Lea la categoría y las palabras clave de las sustancias para usarlas para filtrar
 &#x200B;* [Shelf] Permite excluir recursos del resultado de una consulta de búsqueda
@@ -3705,19 +3705,19 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 &#x200B;* [Estante] Permitir la incrustación de ajustes preestablecidos en proyectos
 &#x200B;* [Estante] Permita contraer o expandir rápidamente la vista de árbol con MAYÚS
 &#x200B;* [Estante] Permite guardar miniaturas cuando los recursos son de solo lectura (caché local)
-&#x200B;* [Estante] Nuevo contenido : nuevos filtros (transformar, espejo, tri-plana, etc.)
+&#x200B;* [Estante] Nuevo contenido : nuevos filtros (transformar, reflejar, triplanar, etc.)
 &#x200B;* [Estante] Nuevo contenido : nuevos perfiles de LUT (clásicos y artísticos, como Film Noir, Vintage, etc.)
 &#x200B;* [Estante] Nuevo contenido : 10 nuevos Substance de fuentes para generar rápidamente textos personalizados
 &#x200B;* [Estante] Nuevas plantillas : Unity 5 y Unreal Engine 4
 &#x200B;* [Estante] Se ha mejorado el filtro de HSL para que sea más fácil de usar por los artistas
 &#x200B;* [Sombreador] Se ha agregado la compatibilidad con el canal de specular level en sombreadores PBR
-&#x200B;* [Sombreador] Añadir soporte para tramado en sombreador de prueba de Alpha
+&#x200B;* [Shader] Añadir compatibilidad con el tramado en el sombreador de prueba de Alpha
 &#x200B;* [Sombreador] Añadir compatibilidad para la asignación de oclusión de paralaje en sombreadores PBR
 &#x200B;* [Sombreador] Permite definir una interfaz de usuario personalizada para los parámetros de sombreador.
 &#x200B;* [MatLayering] Creación de un nuevo canal de máscara para el flujo de trabajo de capas de materiales
 &#x200B;* [Scripting] Permita escribir metadatos en un proyecto de SP
 &#x200B;* [Scripting] Permitir la exportación con un ajuste preestablecido de exportación específico
-&#x200B;* [Scripting] Permite recuperar parámetros de sombreador como JSON
+&#x200B;* [Scripting] Permite recuperar parámetros de sombreado como JSON
 &#x200B;* [Scripting] Agregar compatibilidad para conexiones WebSocket
 &#x200B;* [Scripting] Añadir la posibilidad de cargar instancias del sombreador
 &#x200B;* [Scripting] Añadir la posibilidad de crear un nuevo proyecto
@@ -3757,7 +3757,7 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 &#x200B;* [Estante] Contenido : Se ha corregido una máscara incorrecta en el material inteligente sucio del neumático de goma
 &#x200B;* [Estante] Contenido : Se ha corregido un nombre de grupo incorrecto en el material de la bolsa de cuero
 &#x200B;* [Iray] La mitad de las mallas están desaparecidas en Irak
-&#x200B;* [Linux] Bloqueo al arrastrar un recurso sobre la Vista 3D
+&#x200B;* [Linux] Bloqueo al arrastrar un recurso sobre la vista 3D
 &#x200B;* [Mac] Las preferencias se restablecen en cada inicio en Sierra
 
 **Problemas conocidos:**
@@ -3823,8 +3823,8 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 &#x200B;* [Exportar] El Alpha obtiene una conversión de gamma incorrecta en canales sRGB
 &#x200B;* [Exportar] Los documentos no cuadrados se exportan como cuadrados
 &#x200B;* [Exportar] No es posible exportar mapas adicionales si falta uno
-&#x200B;* [Iray] Algunos parámetros (como la Intensidad del emisivo) no tienen efecto
-&#x200B;* bloqueo [NVIDIA] al inicio con NVIDIA Quadro K2200/GTX 750/760
+&#x200B;* [Iray] Algunos parámetros (como Intensidad de emisión) no tienen efecto
+&#x200B;* [NVIDIA] Bloqueo al iniciar con NVIDIA Quadro K2200/GTX 750/760
 &#x200B;* [AMD] Conjunto incorrecto de colores para miniaturas y vistas previas
 &#x200B;* [AMD] Bloqueos y error del controlador al abrir archivos nuevos y abiertos
 &#x200B;* [Log] Falta &quot;software-version&quot; en el archivo de registro
@@ -3838,18 +3838,18 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 &#x200B;* [Plugin] Nuevo plugin &quot;Exportar a Photoshop&quot; (exportar pila de capas completa)
 &#x200B;* [Exportar] Permite especificar la anchura del relleno (en píxeles o infinito)
 &#x200B;* [Exportar] Permite definir el tipo de fondo fuera de las UV
-&#x200B;* [Estante] sombreador de capas de material nuevo para mezclar 10 materiales
-&#x200B;* [Estante] Nuevo sombreador de arcilla para ver los detalles con el height / canal normal
-&#x200B;* [Estante] Nuevo filtro de iluminación hecho un bake con entrada de entorno
-&#x200B;* [Estante] Se han actualizado algunos generadores de máscaras para añadir transformaciones que no son cuadradas
-&#x200B;* [Ventana gráfica] Añadir mapa de normales compuesto (normal+height+hacer un bake) al modo solo
+&#x200B;* [Estante] Nuevo sombreador de capas de material para mezclar 10 materiales
+&#x200B;* [Estante] Nuevo sombreador de arcilla para ver los detalles con el height/canal normal
+&#x200B;* [Estante] Nuevo filtro de iluminación horneada con entrada de entorno
+&#x200B;* [Shelf] Se han actualizado algunos generadores de máscaras para añadir transformaciones no cuadradas
+&#x200B;* [Ventana gráfica] Añadir mapa normal compuesto (normal+height+hornear) al modo solo
 &#x200B;* [Scripting] Permitir la exportación de mapas adicionales
 &#x200B;* [Scripting] Permitir consultar mapas adicionales disponibles por conjunto de texturas
 &#x200B;* [Scripting] Permitir recuperar el formato de canal
-&#x200B;* [Scripting] Añadir ejemplos en la documentación de haga un bake
+&#x200B;* [Scripting] Añadir ejemplos en la documentación bancaria
 &#x200B;* [Scripting] Permite consultar la visibilidad de una capa
 &#x200B;* [Scripting] Permite consultar el modo de fusión y la opacidad de la capa
-&#x200B;* [Scripting] Permite exportar mapas convertidos (mapas de normales finales, archivos AO mixtos, etc.)
+&#x200B;* [Scripting] Permite exportar mapas convertidos (mapas normales finales, archivos AO mixtos, etc.)
 &#x200B;* [Substance] Lectura y conexión de usos personalizados
 &#x200B;* [Métodos abreviados] Añadir tecla modificadora (MAYÚS) para retroceder en el modo solo cíclico
 &#x200B;* [Exportar] Se ha actualizado el ajuste preestablecido de exportación predeterminado para desactivar alfa.
@@ -3858,24 +3858,24 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 
 **Corregido:**
 
-&#x200B;* Bloqueo con algunos proyectos antiguos al abrirlos
-&#x200B;* Bloqueo con caché de canales de textura dañada
+&#x200B;* Bloqueo en algunos proyectos antiguos al abrirlos
+&#x200B;* Bloqueo con la caché de canales de textura dañada
 &#x200B;* Bloqueo al mezclar más de 4 materiales con el flujo de trabajo de capas de material
 &#x200B;* [UI] Los métodos abreviados de herramientas no funcionan si la barra de herramientas está oculta
 &#x200B;* [UI] La barra de herramientas de Iray se etiqueta &quot;Sin título&quot; en el menú Ver
 &#x200B;* [UI] Las barras de herramientas de los complementos se denominan &quot;Sin inclinación&quot; en el menú Ver
-&#x200B;* [Baker] Al pulsar Intro mientras se edita un ajuste de hacer un bake, se inicia el proceso de hacer un bake
+&#x200B;* [Baker] Al pulsar Intro al editar una configuración de horneado, se inicia el proceso de horneado.
 &#x200B;* [Baker] Rangos incorrectos para algunos parámetros
-&#x200B;* [Importar] Imposible importar OBJ mallas debido a números muy grandes
+&#x200B;* [Importar] Imposible importar mallas OBJ debido a números muy grandes
 &#x200B;* [Importar] Algunos archivos OBJ se importan con demasiados subobjetos
 &#x200B;* [Exportar] el fondo del canal se rellena con negro en lugar del color predeterminado en la exportación
 &#x200B;* [Herramienta] Las partículas no funcionan correctamente si FOV es demasiado bajo
 &#x200B;* [Herramienta] El color de previsualización del pincel es incorrecto con las máscaras en las subpilas
-&#x200B;* [Ventana gráfica] Cuando el pincel entra en áreas vacías de la Vista 2D se vuelve gigantesco
+&#x200B;* [Ventana gráfica] Cuando el pincel se desplaza a áreas vacías en la vista 2D, se vuelve gigantesco
 &#x200B;* [Ventana gráfica] Vista previa del pincel en blanco al pintar texturas normales
 &#x200B;* [Scripting] Documentación incorrecta: &quot;ao&quot; en lugar de &quot;ambientocclusion&quot;
 &#x200B;* [Scripting] El proceso iniciado con subprocess() se cierra al cerrar Painter
-&#x200B;* [Estante] El filtro de iluminación Hecho un bake utiliza una entrada de AO incorrecta
+&#x200B;* [Estante] El filtro de iluminación al horno utiliza una entrada de AO incorrecta
 &#x200B;* [MacOS] Se ha eliminado el proyecto Fire Hydrant (incompatible).
 &#x200B;* El proyecto predeterminado se abre al cargar un archivo \*.spt (en lugar de \*.spp)
 
@@ -3891,29 +3891,29 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 
 &#x200B;* [Estante] Mejorar el sistema de búsqueda y las consultas
 &#x200B;* [Estante] Añadir campo de búsqueda para miniestantes
-&#x200B;* [Sombreador] Permite definir la precisión de paso de los reguladores
-&#x200B;* [Sombreador] Añadir un botón Deshacer/Rehacer para parámetros de sombreador
-&#x200B;* [Sombreador] La recarga de un sombreador no debe restablecer sus parámetros
+&#x200B;* [Sombreado] Permite definir la precisión de paso de los reguladores
+&#x200B;* [Shader] Añadir un botón Deshacer/Rehacer para parámetros de sombreado
+&#x200B;* [Shader] La recarga de un sombreado no debe restablecer sus parámetros
 &#x200B;* [MatLayering] Añadir compatibilidad para Controles dinámicos de capas de materiales y subpilas
-&#x200B;* [MatLayering] Permita importar el archivo json para configurar los ajustes de sombreador
-&#x200B;* [MatLayering] Desbloquear el límite de muestras de textura (cambiar a texturas sin enlace)
-&#x200B;* [Scripting] Permite establecer la configuración de bakeres e iniciar su cálculo
-&#x200B;* [Substance] Usar &quot;usage&quot; para conexiones de entradas/salidas además de identificadores
+&#x200B;* [MatLayering] Permita importar el archivo json para configurar los ajustes del sombreador
+&#x200B;* [MatLayering] Desbloquear límite de muestras de textura (cambiar a texturas sin enlace)
+&#x200B;* [Scripting] Permite establecer la configuración de los panaderos e iniciar su cálculo.
+&#x200B;* [Substance] Usar &quot;uso&quot; para conexiones de entrada/salida además de identificadores
 &#x200B;* [Herramienta] Permite seleccionar el canal de previsualización en la ventana gráfica de la herramienta Proyección
 
 **Corregido:**
 
 &#x200B;* Bloqueo durante el lanzamiento si las sustancias se encuentran en una carpeta incorrecta
 &#x200B;* El informe de bloqueo a veces no funciona debido a un archivo de registro incorrecto
-&#x200B;* [Iray] Los Efectos de posprocesamiento no se actualizan cuando Iray está en pausa
+&#x200B;* [Iray] Los efectos posteriores no se actualizan cuando Iray está en pausa
 &#x200B;* [Iray] El método abreviado de enfoque automático ya no funciona
 &#x200B;* [Iray] El comportamiento del regulador de apertura cambia en función del tamaño del activo
 &#x200B;* [Capas] El primer canal de materiales no está activado de forma predeterminada si todos están desactivados
-&#x200B;* [Sombreador] No se imprimen errores si un &quot;param auto&quot; es incorrecto
+&#x200B;* [Shader] No se imprimen errores si un &quot;param auto&quot; es incorrecto
 
 **Problemas conocidos:**
 
-&#x200B;* [Mac] El límite de muestras de Textura está bloqueado en 16 (problema del controlador de la GPU)
+&#x200B;* [Mac] El límite de muestras de textura está bloqueado en 16 (problema del controlador de la GPU)
 
 ### 2.1.1
 
@@ -3923,13 +3923,13 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 
 &#x200B;* [Licencia] Cambiar la ubicación del archivo de licencia
 &#x200B;* [Ventana gráfica] Añada un método abreviado &quot;B&quot; para desplazarse entre mapas adicionales
-&#x200B;* [Importar] Permitir la importación FBX 2016/2017 correctamente
-&#x200B;* [Herramienta] Quitar fichas al utilizar la máscara rápida
+&#x200B;* [Importar] Permitir importar FBX 2016/2017 correctamente
+&#x200B;* [Herramienta] Quitar fichas cuando se utiliza la máscara rápida
 &#x200B;* [Iray] Añadir información de dimensiones de escena
 &#x200B;* [Iray] Permita aumentar el número máximo de muestras y el tiempo de procesamiento
 &#x200B;* [UI] Actualizar el resultado inmediatamente al utilizar el botón +/- en los reguladores
 &#x200B;* [UI] Mayor precisión de los reguladores de escala de grises
-&#x200B;* [Exportar] No exportar un canal alfa para texturas que solo sean de RGB
+&#x200B;* [Exportar] No exportar un canal alfa para texturas que solo sean RGB
 &#x200B;* [Exportar] Actualizar ajuste preestablecido de exportación de Dota 2
 &#x200B;* [Estante] Nuevo patrón de &quot;Azulejos hexagonales&quot;
 &#x200B;* [Estante] Nueva herramienta &quot;Soldadura&quot;
@@ -3974,13 +3974,13 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 &#x200B;* [Exportar] Permite elegir la profundidad de bits durante la exportación
 &#x200B;* [Baker] Permita hornear varios conjuntos de texturas a la vez
 &#x200B;* Compatibilidad con monitores de alta resolución (escala de PPP alta)
-&#x200B;* [Scripts] Establecer resolución y relleno personalizados por textura en la exportación
+&#x200B;* [Scripts] Establecer resolución y relleno personalizados por textura al exportar
 &#x200B;* [Ventana gráfica] Permite cambiar entre el conjunto de texturas haciendo clic en la malla (mediante Ctrl+Alt+Clic)
 &#x200B;* [Ventana gráfica] Vaya a donde se encuentra el cursor del ratón al hacer zoom con la rueda del ratón
 &#x200B;* [UI] Actualizar la visualización predeterminada del color de fondo y el mapa de entorno
 &#x200B;* [UI] Añadir información sobre herramientas con nombres originales para los canales de usuario
 &#x200B;* [UI] Cambiar el color de fondo de los canales a los que no se puede cambiar el nombre
-&#x200B;* [Herramienta] Quitar fichas al utilizar la máscara rápida
+&#x200B;* [Herramienta] Quitar fichas cuando se utiliza la máscara rápida
 &#x200B;* [Sombreador] Permite definir grupos para parámetros de sombreador y materiales/máscaras
 &#x200B;* [Motor] Optimización del estampado de tamaño pequeño
 &#x200B;* [Stencil] Añada &quot;W&quot; como método abreviado para cambiar temporalmente la máscara
@@ -4074,7 +4074,7 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 
 **Agregado:**
 
-&#x200B;* [Iray] Actualizar la plantilla Spec/Gloss y el sombreador para que sean compatibles con Iray
+&#x200B;* [Iray] Actualizar la plantilla y el sombreador Spec/Gloss para que sean compatibles con Iray
 &#x200B;* [Exportar] Exportar capturas de pantalla a ArtStation
 &#x200B;* [Scripting] Ejecución de soporte desde el directorio de plugins
 &#x200B;* [Scripting] Permitir &quot;Guardar como&quot;
@@ -4109,7 +4109,7 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 
 &#x200B;* Método abreviado a Substance Almacén en la barra de herramientas principal
 &#x200B;* Procesador Iray con modo de visualización y exportación de capturas de pantalla
-&#x200B;* Compatibilidad con la creación y el uso de &quot;Máscaras inteligentes&quot;
+&#x200B;* Compatibilidad con la creación y el uso de &quot;máscaras inteligentes&quot;
 &#x200B;* Compatibilidad con el flujo de trabajo de PBR de Specular y glosinas (con el nuevo canal difuso)
 &#x200B;* Encadenamiento de Substance (enchufe de sustancias en las entradas de imagen de sustancias)
 &#x200B;* Compatibilidad de scripts con complementos personalizados
@@ -4123,7 +4123,7 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 &#x200B;* [Herramienta] Permite seleccionar canales para las herramientas Dedo, Clonar y Borrador
 &#x200B;* [Capa] Añadir nombre de Substance para el nombre del efecto Rellenar
 &#x200B;* [Layer] Permite exportar la máscara al portapapeles
-&#x200B;* [Ventana gráfica] Cambiar entre el modo de Perspectiva y el modo ortográfico
+&#x200B;* [Ventana gráfica] Cambiar entre el modo de perspectiva y el modo ortográfico
 &#x200B;* [Ventana gráfica] Permitir el control del campo de visión en modo de Perspectiva
 &#x200B;* [Ventana gráfica] Permite definir la Profundidad de la distancia del campo con CTRL+clic central
 &#x200B;* [Ventana gráfica] Permite arrastrar y soltar mapas de entorno en la Vista 3D.
@@ -4237,7 +4237,7 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 &#x200B;* [Estante] Nuevo pincel : disco duro por defecto suave y duro por defecto con un nuevo alfa para un mejor control de la dureza
 &#x200B;* [Estante] Nuevos generadores : Distancia y luz 3D
 &#x200B;* [Estante] Pinceles actualizados con proyección de ceñido y sacrificio de caras posteriores (activado de forma predeterminada)
-&#x200B;* [Estante] Se ha actualizado el ruido blanco con la versión de procesador de píxeles para agilizar el cálculo.
+&#x200B;* [Shelf] Se ha actualizado Ruido blanco con la versión de procesador de píxeles para agilizar el cálculo
 
 **Corregido:**
 
@@ -4247,7 +4247,7 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 &#x200B;* [Ventana gráfica] La entrada de máscara está vacía en la lista de canales solo
 &#x200B;* [Compartir] Al exportar un alfa a Compartir desde SP, se crea un archivo .image ilegible
 &#x200B;* [Licencia] Solucionar problemas de activación para nombres de usuario que no tengan caracteres ASCII
-&#x200B;* [Sombreador] El cuadro de diálogo de parámetros de color desaparece al seleccionar un color
+&#x200B;* El cuadro de diálogo de parámetros de color de [Shader] desaparece al seleccionar un color
 &#x200B;* [Shelf] Las miniaturas no se descargan de la memoria cuando no se utilizan
 &#x200B;* [Estante] Filtro de degradado fijo
 &#x200B;* [Herramienta] La Simetría no funciona con la galería de símbolos o la proyección
@@ -4261,7 +4261,7 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 
 **Corregido:**
 
-&#x200B;* Bloqueo al abrir el proyecto si Vista 2D está visible
+&#x200B;* Bloqueo al abrir el proyecto si la vista 2D está visible
 &#x200B;* Bloqueo al crear un nuevo ajuste preestablecido de exportación si el estante actual no existe
 &#x200B;* [Herramienta] El icono del selector de material puede permanecer visible
 &#x200B;* [Herramienta] El selector de material oculta el cursor del ratón al pintar al mismo tiempo
@@ -4295,22 +4295,22 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 &#x200B;* [Herramienta] Cambie el nombre &quot;Geometry Decal&quot; por &quot;Polygon Fill&quot;
 &#x200B;* [Shelf] Actualice los generadores para que sean compatibles con TriPlanar : MG Desgaste del borde del metal, MG Constructor de la máscara, MG Fibra de vidrio, MG Dirt
 &#x200B;* [Estante] Actualizar los materiales con nuevos ajustes y eliminar los materiales no utilizados
-&#x200B;* [Estante] 22 materiales inteligentes nuevos (plástico, hierro, tela, acero y más)
+&#x200B;* [Estante] 22 nuevos materiales inteligentes (plástico, hierro, tela, acero y más)
 &#x200B;* [Estante] Actualiza los filtros Enfocar, Desenfocar y Deformar con entrada de imagen acolchada para evitar costuras
 &#x200B;* [Estante] Mejorar la configuración de deformación para facilitar el uso
-&#x200B;* [Estante] 2 Nuevos ruidos procedimientos : Ruido de Perlin 3D y ruido de Worley 3D
+&#x200B;* [Estante] 2 Nuevos ruidos procedimentales : Ruido de Perlin 3D y ruido de Worley 3D
 
 **Corregido:**
 
 &#x200B;* [Motor] La detección de la cantidad de Vram para la GPU dedicada es incorrecta en Mac
-&#x200B;* [Motor] Las Texturas se convierten en una versión más oscura en la ventana gráfica
+&#x200B;* [Motor] Las texturas se convierten en versiones más oscuras en la ventana gráfica
 &#x200B;* [Motor] Rendimiento deficiente al pintar debajo de varias capas
 &#x200B;* [Motor] Las capas calculadas al abrir el proyecto difieren de la versión almacenada en caché
 &#x200B;* [Substance] Resultados incorrectos en 4K en Mac
 &#x200B;* Los parámetros de [Substance] están en el orden incorrecto
-&#x200B;* [Sombreador] Los sombreadores de tono y pixelado son totalmente negros
-&#x200B;* [Sombreador] Los parámetros desaparecen después de cambiar el mapa de env
-&#x200B;* [Shelf] Bloqueo al colocar archivos png en generator folder
+&#x200B;* [Shader] Los sombreadores de tono y pixelado son totalmente negros
+&#x200B;* [Shader] Los parámetros desaparecen después de cambiar env-map
+&#x200B;* [Shelf] Bloqueo al colocar archivos PNG en la carpeta del generador
 &#x200B;* [Estante] Las miniaturas se generan con poca rugosidad
 &#x200B;* [Herramienta] Bloqueo al utilizar un mapa de bits en el pincel alfa en Windows
 &#x200B;* [Exportar] El ajuste preestablecido de exportación de mapa adicional ahora exporta un mapa del RGB para Posición
@@ -4329,7 +4329,7 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 
 **Agregado:**
 
-&#x200B;* [Shelf] Mejora la calidad de la representación de miniaturas (utiliza texturas de 1K)
+&#x200B;* [Shelf] Mejora la calidad de la representación de miniaturas (usa texturas de 1K)
 
 **Corregido:**
 
@@ -4373,12 +4373,12 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 
 <b>Agregado:</b>
 
-&#x200B;* [Shader] Añadir número de línea en Shader compilando mensajes de error
+&#x200B;* [Sombreador] Añadir número de línea en Sombreador compilando mensajes de error
 &#x200B;* [Shelf] Mejora la calidad de las vistas previas en miniaturas
-&#x200B;* [Shelf] Automatiza la generación de miniaturas para materiales inteligentes
-&#x200B;* [Herramienta] Método abreviado para controlar la configuración de dureza en la sustancia
+&#x200B;* [Shelf] Automatiza la generación de miniaturas para Materiales inteligentes
+&#x200B;* [Herramienta] Método abreviado para controlar el ajuste de dureza en la sustancia
 &#x200B;* [Herramienta] Usar el widget de escala de grises para la calcomanía geométrica sobre una máscara
-&#x200B;* [Herramienta] Método abreviado para invertir el color de la pintura al pintar en un mapa de escala de grises
+&#x200B;* [Herramienta] Método abreviado para invertir el color de la pintura mientras se pinta en un mapa en escala de grises
 &#x200B;* [Ventana gráfica] Permite mostrar la malla metálica y cambiar su color
 &#x200B;* [Ventana gráfica] Desenfocar el fondo del entorno
 &#x200B;* [Controles] Añadir rotación a los métodos abreviados de pincel del ratón
@@ -4395,7 +4395,7 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 
 &#x200B;* [Proyecto] Si los pivotes de mallas son diferentes en el FBX, las mallas se explotan al importar
 &#x200B;* [Substance] Los Substance utilizados en las herramientas de proyección están bloqueados en 256\*256
-&#x200B;* [Layers] Bloqueo al utilizar la máscara transparente
+&#x200B;* [Capas] Bloqueo al utilizar la máscara transparente
 &#x200B;* [Exportar] Conversión de gamma incorrecta en texturas muy oscuras
 &#x200B;* [Exportar] El mapa de posición solo se puede utilizar en los ajustes preestablecidos de exportación como mapa de escala de grises
 &#x200B;* [Herramienta] El color de inicio de la calcomanía geométrica es negro cuando se utiliza en una máscara
@@ -4407,7 +4407,7 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 
 **Corregido:**
 
-&#x200B;* [Herramienta] Bloqueo al utilizar la calcomanía geométrica con máscara rápida
+&#x200B;* [Herramienta] Bloqueo al utilizar la pegatina geométrica con la máscara rápida
 &#x200B;* La actualización de un proyecto de la versión 1.4.0 a la 1.4.1 consume toda la memoria del equipo
 &#x200B;* Importación incorrecta del formato de proyecto antiguo
 &#x200B;* Los estantes personalizados analizan toda la jerarquía y duplican activos en todas partes
@@ -4420,7 +4420,7 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 
 &#x200B;* [Ventana gráfica] Permite acoplar paneles en paralelo
 &#x200B;* [Efecto] Agregue un fondo y una regla para el efecto de nivel
-&#x200B;* [Efecto] Agregue un efecto de Pintura que permita trabajar sobre otro efecto
+&#x200B;* [Efecto] Añada un efecto de pintura que permita trabajar sobre otro efecto
 
 **Corregido:**
 
@@ -4431,14 +4431,14 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 &#x200B;* [Estante] Hacer clic en un material de Substance no conecta mapas adicionales
 &#x200B;* [Herramienta] Valor incorrecto muestreado con el selector de material
 &#x200B;* [Herramienta] Selector de color seleccionar color de cursor de ventanilla
-&#x200B;* [vista 2D] Velocidad de fotogramas/rendimiento muy baja
-&#x200B;* [Export] al abrir la ventana de exportación con ajustes preestablecidos de exportación demasiado recientes.
-&#x200B;* [Exportar] El canal de Height al Mapa de normales se convierte en el espacio incorrecto
+&#x200B;* [Vista 2D] Velocidad de fotogramas/rendimiento muy baja
+&#x200B;* [Export] Bloqueo al abrir la ventana de exportación con ajustes preestablecidos de exportación demasiado recientes.
+&#x200B;* [Exportar] El canal de Height al mapa normal se convierte en el espacio incorrecto
 &#x200B;* [Mac] El color base de los efectos de Substance se muestra como lineal
 &#x200B;* [Mac] El widget de líneas rectas se dibuja incorrectamente en Retina
-&#x200B;* Las líneas rectas pueden permanecer activadas incluso con el método abreviado liberado.
+&#x200B;* Las líneas rectas pueden permanecer activadas incluso con el método abreviado suelto.
 &#x200B;* Las líneas rectas del guizmo desaparecen después de rotar el mapa de entorno
-&#x200B;* Las salidas de oclusión ambiental de sustancias no se conectan automáticamente al canal AO
+&#x200B;* Las salidas de oclusión ambiental de substancias no se conectan automáticamente al canal AO
 &#x200B;* Solucionar el problema de copia de licencia en Windows con un carácter especial en el nombre de usuario
 
 ### 1.4.0
@@ -4451,8 +4451,8 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 &#x200B;* [Estante] Usar materiales sbsar como ajustes preestablecidos de materiales
 &#x200B;* [Estante] Permitir el uso de rutas de biblioteca personalizadas
 &#x200B;* [Estante] Cambiar el tamaño mínimo
-&#x200B;* [Estante] Nuevo contenido : 20 materiales inteligentes nuevos
-&#x200B;* [Estante] Nuevo contenido : nueva sustancia procedimienta (tejido, malla)
+&#x200B;* [Estante] Nuevo contenido : 20 nuevos materiales inteligentes
+&#x200B;* [Estante] Nuevo contenido : nueva sustancia de procedimiento (tejido, malla)
 &#x200B;* [Shelf] Filtro de desenfoque actualizado
 &#x200B;* Dibujo de líneas rectas mediante una tecla modificadora
 &#x200B;* Adición de un canal de Oclusión ambiental y modificación del comportamiento AO/Normal en la pila de capas
@@ -4461,11 +4461,11 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 
 **Corregido:**
 
-&#x200B;* [Baker] [Mac] Bloqueo con baker Normal desde malla
+&#x200B;* [Baker] [Mac] Bloqueo con Normal desde el panadero de mallas
 &#x200B;* [Baker] Bloqueo si no hay UV en el archivo de jaula
-&#x200B;* [Baker] La coincidencia por nombres no funciona con OBJ exportados desde zBrush
-&#x200B;* [Baker] Hacer un bake con una jaula sobrescribe hacer un bake si se utilizan varios conjuntos de texturas y UV superpuestos
-&#x200B;* [Baker] Los archivos OBJ específicos generan texturas negras
+&#x200B;* [Baker] La coincidencia por nombres no funciona con los OBJ exportados desde zBrush
+&#x200B;* [Baker] El horneado con una jaula sobrescribe el horneado si se usan varios conjuntos de texturas y UV superpuestos
+&#x200B;* [Baker] Los archivos OBJ específicos producen texturas negras
 &#x200B;* [Shelf] No se pueden leer recursos si se establece como de solo lectura
 &#x200B;* [Estante] Los archivos de recursos se escriben en Painter si se han utilizado en el proyecto.
 &#x200B;* [Estante] Las sustancias de recarga también actualizan la capa
@@ -4490,7 +4490,7 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 &#x200B;* [Mac] Bloqueo al cargar archivos FBX específicos
 &#x200B;* [Mac]&#x200B;[Vista 3D] Reflejo incorrecto para la GPU integrada
 &#x200B;* [Vista 3D] La fuente de la Máscara rápida está rota
-&#x200B;* [Vista 3D] El selector de material hace que la ventana gráfica sea totalmente negra
+&#x200B;* [Vista 3D] El selector de materiales hace que la ventana gráfica sea totalmente negra
 &#x200B;* Bloqueo después de abrir proyectos creados en 1.3.3
 &#x200B;* La previsualización de material está vacía al utilizar sombreadores con alfa
 &#x200B;* La pintura deja de funcionar en mallas específicas
@@ -4531,8 +4531,8 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 &#x200B;* Efectos: La abrazadera de niveles debe estar activada de forma predeterminada para imitar los niveles &quot;clásicos&quot;
 &#x200B;* Capas: Cambio del nivel mínimo y máximo en la acción Rellenar
 &#x200B;* Capas: Guardar y restaurar el estado de la pila
-&#x200B;* Bakeres: BAKER AO tener en cuenta el mapa de normales si no se especifica ningún HP
-&#x200B;* Bakeres: Se ha añadido información sobre herramientas e información adicional en la ventana hacer un bake
+&#x200B;* Panaderos: AO Baker tener en cuenta el mapa normal si no se especifica ningún HP
+&#x200B;* Panaderos: Se ha añadido información sobre herramientas e información adicional en la ventana de panadería
 &#x200B;* Crear un archivo de copia de seguridad al guardar un proyecto
 
 ### 1.3.3
@@ -4542,7 +4542,7 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 **Agregado:**
 
 &#x200B;* Añadir la versión de software y el nombre del proyecto en la barra de título
-&#x200B;* Corregir nombres de TextureSet y nombres de Materiales inteligentes
+&#x200B;* Corregir nombres de conjuntos de texturas y nombres de materiales inteligentes
 &#x200B;* Actualizar el motor del Substance a V5
 &#x200B;* [Shelf] Añadir nuevos mapas de entorno : Corsica beach, studio 05, Tornoco studio y más
 &#x200B;* [Shelf] Actualizar MG Mask Builder con nuevos parámetros
@@ -4554,14 +4554,14 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 &#x200B;* No es posible arrastrar y soltar en el widget de interfaz de usuario cuando no está acoplado
 &#x200B;* &quot;Buscar actualizaciones&quot; no funciona
 &#x200B;* [Capas] No seleccionar la máscara al pulsar ALT + clic en ella
-&#x200B;* [Herramienta] Tri-plana no funciona con el canal Normal
-&#x200B;* [Vista 3D] La iluminación de la Difuso del mapa env es incorrecta
+&#x200B;* [Herramienta] El triplano no funciona con el canal Normal
+&#x200B;* [Vista 3D] La iluminación difusa del mapa env es incorrecta
 &#x200B;* [Vista 3D] El cálculo de la exposición es diferente de Designer
 &#x200B;* [Vista 3D] Las sombras no deben ser visibles en superficies 100 % metálicas
 &#x200B;* [Vista 3D] La malla con UV reflejados ha volteado la tangente/los binomales
 &#x200B;* [Vista 3D] Las sombras producen resultados incorrectos en determinadas mallas
-&#x200B;* [Bakeres] Quitar la carpeta &quot;.alg\_meta&quot; creada por los archivos de asignación
-&#x200B;* [Baker] Bloqueo al hacer un bake si Painter vuelve a calcular un TextureSet al mismo tiempo
+&#x200B;* [Bakers] Quitar la carpeta &quot;.alg\_meta&quot; creada por los archivos de asignación
+&#x200B;* [Bakers] Bloqueo al realizar el procesamiento si Painter vuelve a calcular un TextureSet al mismo tiempo
 &#x200B;* [Mac] Error de IU de White Box al iniciar la aplicación
 
 ### 1.3.2
@@ -4570,7 +4570,7 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 
 **Corregido:**
 
-&#x200B;* [Vista 3D] No es posible volver a cargar un mapa env guardado con el proyecto
+&#x200B;* [Vista 3D] No es posible volver a cargar un mapa de env guardado con el proyecto
 
 ### 1.3.1
 
@@ -4578,18 +4578,18 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 
 **Agregado:**
 
-&#x200B;* [Bakeres] Agregue una versión en caché de mallas de alto contenido de poli para acelerar el cálculo
-&#x200B;* [Bakeres] Añada un icono de advertencia si no se ha cargado ninguna malla de alta densidad
-&#x200B;* [Bakeres] Si no se carga ninguna malla de alta densidad, utilice en su lugar la malla del proyecto
+&#x200B;* [Bakers] Añada una versión en caché de mallas de alto contenido de poli para acelerar el cálculo
+&#x200B;* [Bakers] Añada un icono de advertencia si no se carga ninguna malla de alta densidad
+&#x200B;* [Bakers] Si no se carga ninguna malla de alta densidad, use la malla del proyecto en su lugar
 
 **Corregido:**
 
-&#x200B;* [Bakeres] Al pulsar &quot;Intro&quot; al editar el valor de un regulador, cierre la ventana.
-&#x200B;* [Bakeres] Al activar o desactivar un baker, también se activa el botón
-&#x200B;* [Bakeres] Imposible de hacer un bake si utiliza el botón &quot;all/none&quot;
-&#x200B;* [Bakeres] La ordenación de los botones del baker no está en el orden correcto
-&#x200B;* [Bakeres] La casilla de verificación se omite y todos los bakeres siempre se procesan
-&#x200B;* [Bakeres] Progreso fijo de la barra de progreso
+&#x200B;* [Bakers] Al pulsar &quot;Intro&quot; al editar el valor de un regulador se cierra la ventana
+&#x200B;* [Panaderos] Si se activa o desactiva un panadero, también se activará el botón
+&#x200B;* [Panaderos] Imposible de hornear si usas el botón &quot;all/none&quot;
+&#x200B;* [Panaderos] La ordenación de los botones del panadero no está en el orden correcto
+&#x200B;* [Panaderos] Se omite la casilla de verificación y todos los panaderos siempre se procesan
+&#x200B;* [Panaderos] Progreso de la barra de progreso fijo
 
 ### 1.3.0
 
@@ -4597,8 +4597,8 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 
 **Agregado:**
 
-&#x200B;* [Bakeres]&#x200B;[Vista 3D] Utilice el cálculo de espacio de tangente Mikkt si no encuentra tangentes/binormales
-&#x200B;* [Bakeres] Se han añadido nuevos bakeres : Normal, ID, Oclusión, Curvatura, Thickness, Posición
+&#x200B;* [Panaderos] [Vista 3D] Usar cálculo de espacio tangente Mikkt si no se encuentran tangentes/binormales
+&#x200B;* [Panaderos] Se han añadido nuevos panaderos : Normal, ID, Oclusión, Curvatura, Thickness, Posición
 &#x200B;* [Efectos] La pila de efectos ahora se invierte y se muestra de arriba abajo (como capas)
 &#x200B;* [Efectos] Añadir nuevos iconos en la pila de efectos
 &#x200B;* [Efectos] Añadir modo de fusión entre acciones de relleno en la pila de efectos
@@ -4647,7 +4647,7 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 
 **Agregado:**
 
-&#x200B;* Nuevo canal Normal que permite la pintura de datos de mapa de normales y combinar los resultados
+&#x200B;* Nuevo canal Normal que permite pintar los datos normales del mapa y combinar los resultados
 &#x200B;* [Exportar] Nueva ventana de exportación con la capacidad de crear empaquetados personalizados y definir nombres personalizados
 &#x200B;* El formato del archivo de proyecto ahora es un único archivo en lugar de carpetas
 &#x200B;* [Export] Admite diferentes formatos normales (DirectX, OpenGL)
@@ -4655,14 +4655,14 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 &#x200B;* [Capas] Mayús + clic izquierdo del ratón se puede utilizar para alternar una máscara
 &#x200B;* [Parámetros] Expone el espacio de color en la parte inferior de una entrada de imagen
 &#x200B;* [Shelf] Efecto &quot;MG Mask Builder&quot; ahora tiene nuevos ajustes
-&#x200B;* [Vista 3D] El mapa de Oclusión ambiental ahora oculta el aporte difuso, no el specular
+&#x200B;* [Vista 3D] El mapa de Oclusión ambiental ahora oculta la contribución difusa, no el specular
 
 **Corregido:**
 
 &#x200B;* El material de proyección o la previsualización de la galería de símbolos no se muestran correctamente en la ventana gráfica
-&#x200B;* [Vista 3D] La información sobre el Método abreviado no se muestra al utilizar el método abreviado &quot;S&quot; (plantilla).
+&#x200B;* [Vista 3D] La información sobre el método abreviado no se muestra al utilizar el método abreviado &quot;S&quot; (galería de símbolos)
 &#x200B;* [Shelf] El efecto &quot;MatFx Skin Scale&quot; tiene ahora mejores prestaciones en baja resolución
-&#x200B;* [Exportar] Las Texturas de la exportación solo se aumentan al especificar un tamaño de documento mayor
+&#x200B;* [Exportar] Las texturas de la exportación solo se aumentan al especificar un tamaño de documento más grande
 
 ### 1.1.2
 
@@ -4698,7 +4698,7 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 &#x200B;* [Pincel] No es posible introducir manualmente valores flotantes por debajo de 1 para el tamaño de pincel.
 &#x200B;* [Capa] Al crear un efecto de selección de color, no se añade a la pila de capas
 &#x200B;* [Capa] Al mover el ratón sobre las capas, Painter se mueve por la barra de tareas
-&#x200B;* [Capa] Añadir un mapa de bits como máscara puede provocar un bloqueo
+&#x200B;* [Layer] Añadir un mapa de bits como máscara puede producir un bloqueo
 &#x200B;* La interfaz gráfica de usuario para el modo solo con el canal de Height es incorrecta
 &#x200B;* &quot;Guardar proyecto&quot; puede dar error y dañar un proyecto
 &#x200B;* Bloqueo al abrir un proyecto después de cargar otro con un sombreador obsoleto
@@ -4713,7 +4713,7 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 &#x200B;* Nueva línea punteada blanca/negra para el gizmo del pincel
 &#x200B;* Nuevo parámetro de seguimiento de ángulo
 &#x200B;* Nuevo parámetro de sacrificio de la cara posterior
-&#x200B;* Nuevo parámetro de Ratón perezoso
+&#x200B;* Nuevo parámetro de ratón perezoso
 &#x200B;* [Layers] Soporte para múltiples selecciones y administración
 &#x200B;* [Capas] Copie y pegue de un conjunto de texturas entre sí
 &#x200B;* [Exportar] Formato de PSD de Adobe Photoshop
@@ -4883,7 +4883,7 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 
 **Corregido:**
 
-&#x200B;* El sombreador proporciona un resultado en negro con poca rugosidad
+&#x200B;* Sombreador dar resultado negro con baja rugosidad
 &#x200B;* Comprobación de GPU: manejar tarjetas &#39;Quadro&#39;, detectar todos los dispositivos y adaptar el mensaje de usuario en consecuencia
 &#x200B;* La mayoría de los materiales de Substance tienen un límite de 256 en Beta 9
 &#x200B;* El height se sujeta al exportar como mapa de bits
@@ -4903,7 +4903,7 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 **Corregido:**
 
 &#x200B;* Compatibilidad con tarjetas Quadro
-&#x200B;* El sombreador proporciona un resultado en negro con poca rugosidad
+&#x200B;* Sombreador dar resultado negro con baja rugosidad
 &#x200B;* Los materiales de Substance tienen un límite de 256
 &#x200B;* La exportación de mapas de normales elimina el canal verde
 
@@ -4944,8 +4944,8 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 
 **Agregado:**
 
-&#x200B;* Múltiples materiales : ahora puede pintar en varios materiales en el mismo documento
-&#x200B;* Pintura de simetría
+&#x200B;* Multimaterial : ahora puede realizar la pintura en varios materiales en el mismo documento
+&#x200B;* Simetría
 &#x200B;* Ya están disponibles todos los modos de fusión
 
 **Corregido:**
@@ -4970,10 +4970,10 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 
 **Corregido:**
 
-&#x200B;* El dibujo del mapa de altura no pintura valores negativos.
-&#x200B;* La visualización del Selector de material no debe tener en cuenta el mapa de normales muestreado
+&#x200B;* El dibujo de mapas de height no pinta valores negativos.
+&#x200B;* La visualización del Selector de material no debe tener en cuenta el mapa normal muestreado
 &#x200B;* Determinismo de partículas roto
-&#x200B;* Matriz de esténcil en Vista 2D
+&#x200B;* Matriz de galería de símbolos en vista 2D
 &#x200B;* Nombres en archivos obj
 &#x200B;* Varios bloqueos
 
@@ -4988,7 +4988,7 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 **Corregido:**
 
 &#x200B;* Compatibilidad con Windows Vista
-&#x200B;* El mapa de altura no pintura valores negativos
+&#x200B;* El mapa de height no pinta valores negativos
 
 ### 0.5.0-beta
 
@@ -4996,16 +4996,16 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 
 **Agregado:**
 
-&#x200B;* Interruptores 3D/Vista 2D
+&#x200B;* Conmutadores de vista 3D/2D
 &#x200B;* Herramienta Selección de fragmentos UV
 &#x200B;* La herramienta cambia automáticamente al pintar sobre máscaras.
 &#x200B;* La resolución de los Substance depende de la
 
 **Corregido:**
 
-&#x200B;* Bloqueo al iniciar
+&#x200B;* Bloqueo al iniciarse
 &#x200B;* Bloqueo con mallas ASCII
-&#x200B;* Matriz de galería de símbolos fija en Vista 2D
+&#x200B;* Matriz de galería de símbolos fija en vista 2D
 &#x200B;* Bloqueo con Borrador
 
 ### 0.4.0-beta
@@ -5014,14 +5014,14 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 
 **Agregado:**
 
-&#x200B;* Vista 2D Fluida
+&#x200B;* Vista 2D sin problemas
 &#x200B;* Máscaras de capa de mapa de bits
 &#x200B;* Control de exposición ambiental
 &#x200B;* Las capas de relleno ahora utilizan las ventanas Herramientas para establecer sus propiedades
 &#x200B;* Los materiales se pueden aplicar a las capas de relleno
 &#x200B;* Se han añadido más galerías de símbolos en la biblioteca de galerías de símbolos
 &#x200B;* Ajustes preestablecidos de partículas actualizados para un cálculo más rápido
-&#x200B;* Optimización y mejora de la calidad del sombreador PBR para ajustes de menor calidad
+&#x200B;* Optimización del sombreador de PBR y mejora de la calidad para ajustes de menor calidad
 
 **Corregido:**
 
@@ -5034,7 +5034,7 @@ Resumen: **Mejora en la velocidad de Hace un bake, Sistema de guardado mejorado,
 
 **Agregado:**
 
-&#x200B;* Permitir valores negativos en el selector de color para la pintura de mapas de height
+&#x200B;* Permitir valores negativos en el selector de color para la pintura de mapas de altura
 &#x200B;* Mostrar previsualización del material/color seleccionado
 &#x200B;* Añadir accesos directos a las herramientas de la barra de herramientas (1,2,3,4)
 &#x200B;* Cambiar el formato Normal (OpenGL frente a DirectX) globalmente en un proyecto

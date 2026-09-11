@@ -57,22 +57,22 @@ Puede encontrar un procedimiento más detallado en la [documentación sobre disp
 
 ![](../../assets/changelog-manipulator.png)
 
-Los controles de las capas de relleno se han mejorado para ofrecer manipuladores. Ahora es más fácil colocar y controlar con precisión las proyecciones de relleno.
+Los controles de las capas de relleno se han mejorado para ofrecer funciones a los manipuladores. Ahora es más fácil colocar y controlar con precisión las proyecciones de relleno.
 
 Al usar la **Proyección de UV**, aparecerá un manipulador en la **vista 2D** :
 
-* Al hacer clic en **fuera**, el manipulador lo **rotará**.
+* Al hacer clic **fuera**, el manipulador lo **rotará**.
 * Al hacer clic en el **cuadrado** en los **bordes**, se **escalará/redimensionará**.
 * Al hacer clic en **dentro**, el manipulador lo **traducirá**.
-* Use **CTRL** para modificar varias esquinas en **simetría**.
+* Use **CTRL** para cambiar varias esquinas en **simetría**.
 * Use **SHIFT** para **restringir** una transformación (traducir, rotar o escalar).\
   ![](../../assets/manipulator-uv.gif)
 
-Al usar la **proyección triplanar**, aparecerá un manipulador en la **vista 3D**:
+Al usar la **proyección Tri-Plana**, aparecerá un manipulador en la **Vista 3D** :
 
 * El cubo de puntos representa la proyección global
 * Usa el método abreviado de teclado **W**, **E** o **R** para cambiar entre el modo **Traducir**, **Rotar** y **Escalar**.
-* Utilice el método abreviado de teclado **T** para cambiar entre la orientación local y mundial del manipulador.
+* Use el método abreviado **T** para cambiar entre la orientación Local y World para el manipulador.
 * Use **SHIFT** para **restringir** la transformación.
 * La proyección del cubo triplano también se puede modificar en las propiedades avanzadas de la capa de relleno :\
   ![](../../assets/fill-properties-triplanar.png)\
@@ -139,7 +139,7 @@ También se tiene en cuenta el marco de la cámara (y su puerta), lo que permite
   Se ha mejorado la función de arrastrar y soltar contenido desde el estante al área de visualización. Al presionar **CTRL** mientras arrastras y sueltas un material, ahora es posible elegir el color de ID que se usará como máscara.\
   Se añadirá una máscara negra con un efecto de selección de color a la nueva capa creada en la pila de capas. Si se arrastra el mismo material y se coloca en otro color de ID, se actualizará la capa ya existente y se combinarán los colores de ID.\
   ![](../../assets/id-drop.gif)
-* **Desplazamiento al arrastrar y soltar la pila de capas :**\
+* **Desplazamiento al arrastrar y soltar Pilas de capas :**\
   Ahora, al arrastrar capas alrededor de la pila de capas, se abre una pequeña ventana.\
   Cuando se arrastra un recurso o una capa cerca de los bordes de la ventana de la pila de capas, automáticamente comienza a desplazarse por su contenido.\
   ![](../../assets/layer-drag.gif)
@@ -192,7 +192,7 @@ Para encontrar el proyecto, use **Archivo** > **Abrir ejemplo...Entrada de menú
 
 **&#x200B;**&#x200B;Corregido:**&#x200B;**
 
-* [Vista 2D] La vista 2D se rompe con algunas mallas al crear un proyecto nuevo
+* [vista 2D] La vista 2D se rompe con algunas mallas al crear un nuevo proyecto
 * [Bloqueo] El cambio de la Proyección de UV a la proyección triplanar produce un bloqueo
 * [RayCollider] Varios bloqueos debido a &quot;RayCollider&quot;
 * [Herramienta] Al cambiar las capas, se pierden las propiedades de pincel modificadas
@@ -329,7 +329,7 @@ Para encontrar el proyecto, use **Archivo** > **Abrir ejemplo...Entrada de menú
 * [Shader] El sombreado compilado no se carga desde la caché cuando el archivo de sombreado no se compila
 * [Estante] Al exportar un archivo HDR desde la estantería, se genera un archivo con valores de sujeción
 * [Export] Exr exporta los valores de color del RGB de las abrazaderas entre 0 y 1
-* [Contenido] Ruido de procedimiento &quot;Fractal de ruido de Perlin 3D&quot; pixelado
+* [Contenido] El ruido Procedimiento &quot;Fractal de ruido de Perlin en 3D&quot; se pixelaba
 
 **Problemas conocidos:**
 

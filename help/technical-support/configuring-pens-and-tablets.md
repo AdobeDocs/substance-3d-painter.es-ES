@@ -123,7 +123,7 @@ A continuación se muestra la configuración de Windows Ink y la configuración 
 | **Hacer clic una vez** | Recomendado:  **Nada** |
 | **Haga doble clic** | Recomendado:  **Nada** |
 | **Mantener presionado (solo se admite en algunos punteros)** | Recomendado:  **Nada** |
-| **Permitir que las aplicaciones anulen el comportamiento del botón de acceso directo** | Recomendado:  **Habilitado** |
+| **Permitir que las aplicaciones anulen el comportamiento del botón de método abreviado** | Recomendado:  **Habilitado** |
 | **Cuando esté disponible, mostrar el área de trabajo de tinta después de quitar el lápiz del almacenamiento** | Recomendado:  **Deshabilitado** |
 
 ## Cómo acceder a la configuración de Lápiz y entrada táctil

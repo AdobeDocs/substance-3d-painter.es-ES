@@ -14,7 +14,7 @@ ht-degree: 2%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_dripping_rust.webp" alt=""/><br><strong>En:</strong> generador, escala de grises, color</td>
-    <td style="border: 0;" valign="top"><strong>Descripción</strong><br>El generador de Óxido de goteo crea rayas de óxido que fluyen hacia abajo, simulando la corrosión causada por la gravedad y la escorrentía de agua.<br><br>El generador de Óxido de goteo genera una textura monocromática (blanco y negro). Como resultado, resulta útil para generar máscaras y crear un efecto de óxido por goteo.Se requiere la posición de horneado, la curvatura y la oclusión ambiente como entradas de imagen. <br><br><a href="../../../baking/baking.md">Obtenga más información sobre el horneado aquí</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descripción</strong><br>El generador de Óxido de goteo crea rayas de óxido que fluyen hacia abajo, simulando la corrosión causada por la gravedad y la escorrentía de agua.<br><br>El generador de Óxido de goteo genera una textura monocromática (blanco y negro). Como resultado, resulta útil para generar máscaras y crear un efecto de óxido por goteo.Se requiere <br><br>posición, curvatura y oclusión ambiental Hechas un bake como entradas de imagen. <a href="../../../baking/baking.md">Obtenga más información sobre cómo hacer un bake aquí</a>.</td>
   </tr>
 </table>
 
@@ -22,9 +22,9 @@ ht-degree: 2%
 
 | Nombre de entrada | Descripción |
 | --- | --- |
-| Escala de grises **Curvatura** | Utilice el mapa de curvatura horneado. |
-| **oclusión ambiental** en escala de grises | Utilice el mapa de Oclusión ambiente al horno. |
-| Color de **Posición** | Utilice el mapa de posición horneado. |
+| Escala de grises **Curvatura** | Utilice el mapa de curvatura hecho un bake. |
+| **Oclusión ambiental** en escala de grises | Utilice el mapa de Oclusión ambiental hecho un bake. |
+| Color de **Posición** | Utilice el mapa de posición hecha un bake. |
 
 ## Parámetros
 

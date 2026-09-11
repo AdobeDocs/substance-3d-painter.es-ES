@@ -22,7 +22,7 @@ ht-degree: 9%
 
 ![](../../assets/banner_filled_path.jpg)
 
-La herramienta de trazado relleno es un tipo de herramienta de trazado que permite crear formas en la superficie del modelo 3D rellenadas con un color uniforme.
+La herramienta Trazado relleno es un tipo de herramienta de trazado que permite crear formas en la superficie del modelo 3D rellenadas con un color uniforme.
 
 ![](../../assets/filled_path_across_gaps.png)
 

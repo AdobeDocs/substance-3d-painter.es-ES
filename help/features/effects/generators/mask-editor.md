@@ -14,7 +14,7 @@ ht-degree: 3%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_mask_editor_dark.png" alt=""/><strong>En:</strong> máscara, generador</td>
-    <td style="border: 0;" valign="top"><strong>Descripción</strong><br>El generador del Editor de máscaras es un generador de máscaras multiusos que te permite combinar Texturas, Oclusión ambiental, Curvatura, Espacio normal, Degradado, Thickness y Micro Detalles en una sola máscara.<br>El generador Mask Builder es muy flexible, pero debido a su complejidad, puede afectar el rendimiento más que la mayoría de los generadores.<br><br>El generador del Editor de máscaras genera una textura monocroma (blanco y negro). Por lo tanto, resulta útil para generar máscaras basadas en los distintos mapas con bake. Se requieren mapas normales de posición, thickness, curvatura, oclusión de ambiente y espacio de entorno como entradas de imagen. <br><br><a href="../../../baking/baking.md">Obtenga más información sobre el horneado aquí</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descripción</strong><br>El generador del Editor de máscaras es un generador de máscaras multiusos que te permite combinar Texturas, Oclusión ambiental, Curvatura, Espacio normal del mundo, Degradado, Thickness y Micro detalles en una sola máscara.<br>El generador Mask Builder es muy flexible, pero debido a su complejidad, puede afectar el rendimiento más que la mayoría de los generadores.<br><br>El generador del Editor de máscaras genera una textura monocromática (en blanco y negro). Por lo tanto, resulta útil para generar máscaras basadas en los distintos mapas con bake. Se requieren mapas normales de posición, thickness, curvatura, oclusión de ambiente y espacio de entorno como entradas de imagen. <br><br><a href="../../../baking/baking.md">Obtenga más información sobre cómo hacer un bake aquí</a>.</td>
   </tr>
 </table>
 
@@ -22,13 +22,13 @@ ht-degree: 3%
 
 | Nombre de entrada | Descripción |
 | --- | --- |
-| Color de **textura** | Utilice una textura personalizada o un punto de ancla. |
-| Color de **textura (secundaria)** | Utilice una textura personalizada o un punto de ancla. |
-| **Normales del espacio mundial** Color | Utilice el mapa de normas espaciales mundiales horneadas. |
-| **Degradado de posición** Color | Utilice el mapa de posición horneado. |
-| **Thickness** en escala de grises | Utilice el mapa de Thickness horneado. |
-| Escala de grises **Curvatura** | Utilice el mapa de curvatura horneado. |
-| **Oclusión ambiental** en escala de grises | Utilice el mapa de Oclusión ambiente al horno. |
+| Color de **Textura** | Utilice una textura personalizada o un punto de ancla. |
+| Color de **Textura (secundaria)** | Utilice una textura personalizada o un punto de ancla. |
+| **Normales del espacio mundial** Color | Utilice el mapa hecho un bake de las normas espaciales mundiales. |
+| **Degradado de posición** Color | Utilice el mapa de posición hecha un bake. |
+| **Thickness** en escala de grises | Utilice el mapa de espesor hecho un bake. |
+| Escala de grises **Curvatura** | Utilice el mapa de curvatura hecho un bake. |
+| **Oclusión ambiental** en escala de grises | Utilice el mapa de Oclusión ambiental hecho un bake. |
 | **Micro Normal** Color | Utilice una textura normal personalizada o un punto de ancla. |
 | **Micro Height** Color | Utilice una textura personalizada o un punto de ancla. |
 
@@ -40,9 +40,9 @@ ht-degree: 3%
 | **Desenfoque global** | Desenfoca la máscara final uniformemente después de combinar todas las capas. |
 | **Equilibrio global** | Ajusta el equilibrio de la máscara final después de que todas las capas se combinen entre blanco o negro, como un ajuste de brillo. |
 | **Contraste global** | Ajuste el contraste de la máscara final después de combinar todas las capas. |
-| **Opacidad de textura** | Ajuste la visibilidad de la textura personalizada. |
+| **Opacidad de Textura** | Ajuste la visibilidad de la textura personalizada. |
 | Opacidad de **Textura 2** | Ajuste la visibilidad de la segunda textura personalizada. |
-| **Opacidad de Oclusión ambiental** | Ajuste la visibilidad de los detalles de la oclusión de ambiente. |
+| **Opacidad de Oclusión ambiental** | Ajuste la visibilidad de los detalles de la oclusión ambiental. |
 | **Opacidad de curvatura** | Ajuste la visibilidad de los detalles de curvatura. |
 | **Opacidad normal del espacio mundial** | Ajuste la visibilidad de los detalles normales del espacio mundial. |
 | **Opacidad de degradado de posición** | Ajuste la visibilidad de los detalles de la posición. |
@@ -61,7 +61,7 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Conversión de escala de grises</strong></td>
-    <td>Establezca el método utilizado para convertir de color completo a escala de grises. El generador de <a href="grayscale-conversion.md">conversión de escala de grises tiene más información sobre cómo funciona cada método</a>.</td>
+    <td>Establezca el método utilizado para convertir de color completo a escala de grises. El generador de Conversiones de escala de grises <a href="grayscale-conversion.md">tiene más información sobre cómo funciona cada método</a>.</td>
   </tr>
   <tr>
     <td><strong>Modo de fusión</strong></td>
@@ -73,7 +73,7 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Contraste</strong></td>
-    <td>Ajuste el contraste y el difuminado de la textura personalizada.</td>
+    <td>Ajuste el contraste/difuminado de la textura personalizada.</td>
   </tr>
   <tr>
     <td><strong>Brillo</strong></td>
@@ -93,7 +93,7 @@ ht-degree: 3%
   </tr>
 </table>
 
-### Textura 2
+### TEXTURA 2
 
 <table>
   <tr>
@@ -106,7 +106,7 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Conversión de escala de grises</strong></td>
-    <td>Establezca el método utilizado para convertir de color completo a escala de grises. El generador de <a href="grayscale-conversion.md">conversión de escala de grises tiene más información sobre cómo funciona cada método</a>.</td>
+    <td>Establezca el método utilizado para convertir de color completo a escala de grises. El generador de Conversiones de escala de grises <a href="grayscale-conversion.md">tiene más información sobre cómo funciona cada método</a>.</td>
   </tr>
   <tr>
     <td><strong>Modo de fusión</strong></td>
@@ -118,7 +118,7 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Contraste</strong></td>
-    <td>Ajuste el contraste y el difuminado de la textura personalizada.</td>
+    <td>Ajuste el contraste/difuminado de la textura personalizada.</td>
   </tr>
   <tr>
     <td><strong>Brillo</strong></td>
@@ -142,11 +142,11 @@ ht-degree: 3%
 
 | Nombre del parámetro | Descripción |
 | --- | --- |
-| **Invertir** | Invierte las capas Oclusión ambiente y Micro detalles. |
+| **Invertir** | Invierte las capas Oclusión ambiental y Detalles del microprocesador. |
 | **Modo De Fusión** | Seleccione el [modo de fusión](../../../interface/layer-stack/blending-modes.md) que desea usar para la capa actual. |
-| **Desenfocar** | Ajusta la Oclusión ambiente y la suavidad de los microdetalles. |
-| **Saldo** | Ajusta el equilibrio de la Oclusión ambiente y los detalles micro, desplazando el punto medio hacia el blanco o el negro como un control de brillo. |
-| **Contraste** | Ajuste el contraste/difuminado de la Oclusión ambiente y los detalles micro. |
+| **Desenfocar** | Ajusta la suavidad de Oclusión ambiental y microdetalles. |
+| **Saldo** | Ajusta el equilibrio de la Oclusión ambiental y los detalles micro, desplazando el punto medio hacia el blanco o el negro como un control de brillo. |
+| **Contraste** | Ajusta el contraste/difuminado de la Oclusión ambiental y los microdetalles. |
 
 ### Curvatura
 
@@ -296,15 +296,15 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Micro Height</strong></td>
-    <td>Activar o desactivar el uso de un mapa de Height Micro personalizado.</td>
+    <td>Activar o desactivar el uso de un mapa de altura micro personalizado.</td>
   </tr>
   <tr>
     <td><strong>Micro Normal</strong></td>
-    <td>Activar o desactivar el uso de un mapa Micro Normal personalizado.</td>
+    <td>Activar o desactivar el uso de un Mapa de normales Micro personalizado.</td>
   </tr>
   <tr>
     <td><strong>Tipo de curvatura</strong></td>
-    <td>Defina el tipo de curvatura. <br><ul><li><strong>Estándar</strong>: Generalmente produce un resultado bastante nítido, pero puede carecer de detalles más amplios.</li><li><strong>Sobel</strong>: Produce resultados similares en comparación con el estándar, pero ligeramente más borrosos porque evalúa el mapa normal utilizando un filtro Sobel.</li><li><strong>Suave</strong>: Produce diferentes niveles de desenfoque (como mipmaps) para acumular información. Esto suele proporcionar curvas más suaves, pero los detalles pueden perderse.</li></ul></td>
+    <td>Defina el tipo de curvatura. <br><ul><li><strong>Estándar</strong>: Generalmente produce un resultado bastante nítido, pero puede carecer de detalles más amplios.</li><li><strong>Sobel</strong>: Produce resultados similares en comparación con el estándar, pero ligeramente más borrosos porque evalúa el mapa de normales utilizando un filtro Sobel.</li><li><strong>Suave</strong>: Produce diferentes niveles de desenfoque (como mipmaps) para acumular información. Esto suele proporcionar curvas más suaves, pero los detalles pueden perderse.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Intensidad de curvatura</strong></td>
@@ -316,10 +316,10 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Radio AO</strong></td>
-    <td>Ajuste el radio (rango) de la Oclusión ambiente con detalles micro.</td>
+    <td>Ajuste el radio (rango) de la Oclusión ambiental con detalles micro.</td>
   </tr>
   <tr>
     <td><strong>PROFUNDIDAD AO</strong></td>
-    <td>Ajuste la profundidad (intensidad) de la Oclusión ambiente con detalles micro.</td>
+    <td>Ajuste la profundidad (intensidad) de la Oclusión ambiental con detalles micro.</td>
   </tr>
 </table>

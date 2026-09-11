@@ -1,6 +1,6 @@
 ---
 title: Oclusión ambiental (OA)
-description: Aprenda a utilizar el generador de Oclusión ambiental de Substance 3D Painter.
+description: Aprenda a utilizar el generador de Oclusiones ambientales de Substance 3D Painter.
 source-git-commit: b095b9b437f75bbb3a3b85ee84a6850026c3bf98
 workflow-type: tm+mt
 source-wordcount: '542'
@@ -14,7 +14,7 @@ ht-degree: 4%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_ambient_occlusion.webp" alt=""/><br><strong>En:</strong> máscara, generador, escala de grises, fusión</td>
-    <td style="border: 0;" valign="top"><strong>Descripción</strong><br>El generador de Oclusiones de ambiente crea una máscara basada en el mapa de Oclusiones de ambiente horneado con la opción de fusionar una textura o microdetalles en la máscara.<br><br>Si usas el generador de Oclusión ambiental para crear una máscara de capa, es posible que tengas que invertir la salida de la Oclusión ambiental. De forma predeterminada, el generador genera áreas ocluidas como áreas oscuras y áreas no ocluidas como luz. Si se utiliza como máscara, la capa enmascarada solo es visible en áreas no ocluidas. Si invierte el resultado, la capa con máscara solo aparecerá en las áreas ocluidas.Se requieren mapas normales de posición de horneado, oclusión de ambiente y espacio mundial como entradas de imagen. <br><br><a href="../../../baking/baking.md">Obtenga más información sobre el horneado aquí</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descripción</strong><br>El generador de Oclusiones ambientales crea una máscara basada en el mapa de Oclusiones ambientales hecho un bake con la opción de fusionar una textura o microdetalles en la máscara.<br><br>Si usas el generador de Oclusiones ambientales para crear una máscara de Oclusión ambiental, es posible que tengas que invertir la salida de la capa. De forma predeterminada, el generador genera áreas ocluidas como áreas oscuras y áreas no ocluidas como luz. Si se utiliza como máscara, la capa enmascarada solo es visible en áreas no ocluidas. Si invierte el resultado, la capa con máscara solo aparecerá en las áreas ocluidas.Se requieren <br><br>mapas normales de posición, oclusión ambiental y espacio mundial Hechos un bake como entradas de imagen. <a href="../../../baking/baking.md">Obtenga más información sobre cómo hacer un bake aquí</a>.</td>
   </tr>
 </table>
 
@@ -25,9 +25,9 @@ ht-degree: 4%
 | Color de textura | Utilice una textura personalizada o un punto de ancla. |
 | Micro Normal Color | Utilice una textura normal personalizada o un punto de ancla. |
 | Color de Height micro | Utilice una textura personalizada o un punto de ancla. |
-| Oclusión ambiental Escala de grises | Utilice el mapa de Oclusión ambiente al horno. |
-| Color normal del espacio mundial | Utilice el mapa de normas espaciales mundiales horneadas. |
-| Color de degradado de posición | Utilice el mapa de posición horneado. |
+| Escala de grises de oclusión ambiental | Utilice el mapa de Oclusión ambiental hecho un bake. |
+| Color normal del espacio mundial | Utilice el mapa hecho un bake de las normas espaciales mundiales. |
+| Color de degradado de posición | Utilice el mapa de posición hecha un bake. |
 
 ## Parámetros
 
@@ -37,17 +37,17 @@ ht-degree: 4%
 | **Desenfoque global** | Suaviza la máscara final uniformemente después de combinar todos los efectos. |
 | **Equilibrio global** | Cambia el equilibrio de la máscara final después de que todos los efectos se combinen entre blanco o negro, como un ajuste de brillo. |
 | **Contraste global** | Ajuste el contraste de la máscara final después de combinar todos los efectos. |
-| **Usar textura** | Activar o desactivar el uso de un mapa de textura personalizado. |
+| **Usar Textura** | Activar o desactivar el uso de un mapa de textura personalizado. |
 | **Usar detalles micro** | Activa o desactiva el uso de los detalles de la microfotografía personalizada. |
 
 ### Oclusión ambiental
 
 | Nombre del parámetro | Descripción |
 | --- | --- |
-| **Invertir** | Invierte solo la Oclusión ambiente y los detalles micro. |
-| **Desenfocar** | Suaviza solo la Oclusión ambiental y los detalles micro. |
-| **Saldo** | Ajusta el equilibrio de solo la Oclusión ambiente y los detalles micro, desplazando el punto medio hacia el blanco o el negro como un control de brillo. |
-| **Contraste** | Ajusta el contraste/difuminado de solo la Oclusión ambiente y los detalles micro. |
+| **Invertir** | Invierte solo los detalles de Oclusión ambiental y micro. |
+| **Desenfocar** | Suaviza solo los detalles de Oclusión ambiental y micro. |
+| **Saldo** | Ajusta el equilibrio de solo los detalles de Oclusión ambiental y micro, desplazando el punto medio hacia el blanco o el negro como un control de brillo. |
+| **Contraste** | Ajusta el contraste/difuminado de solo la Oclusión ambiental y los detalles micro. |
 
 ### Textura
 
@@ -66,7 +66,7 @@ ht-degree: 4%
   </tr>
   <tr>
     <td><strong>Conversión de escala de grises</strong></td>
-    <td>Establezca el método utilizado para convertir de color completo a escala de grises. El generador de <a href="grayscale-conversion.md">conversión de escala de grises tiene más información sobre cómo funciona cada método</a>.</td>
+    <td>Establezca el método utilizado para convertir de color completo a escala de grises. El generador de Conversiones de escala de grises <a href="grayscale-conversion.md">tiene más información sobre cómo funciona cada método</a>.</td>
   </tr>
   <tr>
     <td><strong>Modo de fusión</strong></td>
@@ -78,7 +78,7 @@ ht-degree: 4%
   </tr>
   <tr>
     <td><strong>Contraste</strong></td>
-    <td>Ajuste el contraste y el difuminado de la textura personalizada.</td>
+    <td>Ajuste el contraste/difuminado de la textura personalizada.</td>
   </tr>
   <tr>
     <td><strong>Brillo</strong></td>
@@ -98,7 +98,7 @@ ht-degree: 4%
 
 | Nombre del parámetro | Descripción |
 | --- | --- |
-| **Micro Height** | Activar o desactivar el uso de un mapa de Height Micro personalizado. |
-| **Micro Normal** | Activar o desactivar el uso de un mapa Micro Normal personalizado. |
+| **Micro Height** | Activar o desactivar el uso de un mapa de altura micro personalizado. |
+| **Micro Normal** | Activar o desactivar el uso de un Mapa de normales Micro personalizado. |
 | **Radio AO** | Ajuste el radio (rango) de la Oclusión ambiente con detalles micro. |
-| **Profundidad AO** | Ajuste la profundidad (intensidad) de la Oclusión ambiente con detalles micro. |
+| **Profundidad AO** | Ajuste la profundidad (intensidad) de la Oclusión ambiental con detalles micro. |

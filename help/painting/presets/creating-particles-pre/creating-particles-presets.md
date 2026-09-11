@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/presets/creating-particles-presets.html"
 breadcrumb-title: ''
-description: Aprenda a crear ajustes preestablecidos de pincel de partículas en Substance 3D Painter para añadir efectos dinámicos de pintura de texturas a su flujo de trabajo.
+description: Aprenda a crear ajustes preestablecidos de pincel de partículas en Substance 3D Painter para añadir efectos de textura dinámicos al flujo de trabajo.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Presets > Creating particles presets
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Creación de ajustes preestablecidos de partículas
 
-El sistema de partículas que permite pintar partículas utiliza **PopcornFX**, que se basa en archivos **.pkfx** para definir los comportamientos.
+El sistema de partículas que permite la pintura de partículas utiliza **PopcornFX**, que se basa en archivos **.pkfx** para definir los comportamientos.
 
 Los pinceles de partículas se componen de dos partes: el **Emisor** y el **Receptor** que se guardan juntos dentro del ajuste preestablecido. La aplicación carga el emisor y anula los eventos de colisión para emitir el receptor al pintar.
 

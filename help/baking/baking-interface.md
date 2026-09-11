@@ -1,6 +1,6 @@
 ---
-title: Interfaz de cocción
-description: Obtenga información sobre las diferencias entre la interfaz del modo Hornear y el modo Pintar.
+title: Hacer un bake interfaz
+description: Obtenga información sobre las diferencias entre la interfaz del modo de Hacer un bake y el modo de pintar.
 source-git-commit: 987b94e15c1dbe4ddf392ea7878126ecdf989423
 workflow-type: tm+mt
 source-wordcount: '266'
@@ -11,35 +11,35 @@ ht-degree: 3%
 
 # Modo Generación
 
-**El modo de cocción** te proporciona acceso a todas las herramientas y parámetros que necesitas para crear pasteles excelentes de alta calidad.
+**Modo de Hacer un bake** proporciona acceso a todas las herramientas y parámetros que necesitas para crear hagas un bake de gran calidad.
 
-Para acceder al **modo de horneado**, haga clic en el botón (horneado) Croissant en la parte superior derecha de la ventana gráfica. Como alternativa, use el [método abreviado de teclado &#x200B;](../interface/settings/shortcuts.md)**F8** o seleccione **Modo > Convertir mapas de malla**
+Para acceder al **modo de Hacer un bake**, haga clic en el botón (hecho un bake) Croissant en la parte superior derecha de la ventana gráfica. También puede usar [método abreviado de teclado &#x200B;](../interface/settings/shortcuts.md)**F8** o seleccionar **Modo > Hacer un bake mapas de malla**
 
 ![](../assets/baking/mode_select_buttons.png)
 
-El modo Hornear cambia el diseño de la interfaz de usuario y permite que haya diferentes paneles disponibles específicamente para hornear mapas de malla.
+El modo hacer un bake cambia la disposición de la interfaz de usuario y permite que haya diferentes paneles disponibles específicamente para hacer un bake mapas de malla.
 
 ## Interfaz
 
-De forma predeterminada, la interfaz del modo de panificación está dividida entre el [**área de visualización**](../interface/viewport/viewport.md) y el área del panel.
+De forma predeterminada, la interfaz Modo de Hace un bake se divide entre el [**Ventana gráfica**](../interface/viewport/viewport.md) y el área del panel.
 
 ### Área de visualización
 
 [**Viewport**](../interface/viewport/viewport.md) se comporta igual que en **Modo de pintura**. Puede navegar con los mismos controles y utilizar el menú desplegable **Canal** para cambiar los canales que se muestran.
 
-La **Ventana gráfica del modo de panadería** difiere del **modo de pintura** de dos maneras:
+El **Ventana gráfica del modo de Hacer un bake** difiere del **modo de pintura** de dos maneras:
 
-* En la parte superior izquierda de la ventana gráfica, se encuentra el [**panel de configuración de visualización de horneado**](baking-visualization-settings.md).
-* En la parte inferior de la ventana gráfica, puedes encontrar botones para **Hornear** los mapas de malla seleccionados actualmente o volver al **Modo de pintura**.
+* En la parte superior izquierda de la ventana gráfica, encontrará el [**panel de configuración de visualización Hecha un bake**](baking-visualization-settings.md).
+* En la parte inferior de la ventana gráfica, encontrará botones para **Hacer un bake** los mapas de malla seleccionados actualmente o volver al **modo de pintura**.
 
-### Paneles de modo de panadería
+### Hacer un bake paneles de modo
 
-Hay 4 paneles exclusivos para el modo Horneado:
+Hay 4 paneles exclusivos para el modo de Hacer un bake:
 
-* [**Panaderos de mapas de malla**](../interface/baking-panels/mesh-map-bakers.md): Seleccione los mapas de malla que desea que se cubran.
-* [**Configuración común**](../interface/baking-panels/common-mesh-map-settings.md): Ajuste la configuración de horneado común a todos los mapas de malla.
-* [**Panel de configuración de mapa de malla**](../interface/baking-panels/mesh-map-settings.md): Ajuste la configuración de horneado para el mapa de malla seleccionado.
-* [**Registro de horneado**](../interface/baking-panels/baking-log.md): Vea los resultados de los pasteles y diagnostique los problemas.
+* [**bakeres de mapa de malla**](../interface/baking-panels/mesh-map-bakers.md): Seleccione los mapas de malla que se harán un bake.
+* [**Configuración común**](../interface/baking-panels/common-mesh-map-settings.md): Ajuste los ajustes de hace un bake comunes a todos los mapas de malla.
+* [**Panel de configuración de mapa de malla**](../interface/baking-panels/mesh-map-settings.md): Ajuste los ajustes de hace un bake para el mapa de malla seleccionado.
+* [**Haciendo un bake registro**](../interface/baking-panels/baking-log.md): Ver los resultados de hagas un bake y diagnosticar problemas.
 
 >[!NOTE]
 >

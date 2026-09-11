@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/getting-started/export/export-window/output-templates.html"
 breadcrumb-title: ''
-description: Aprenda a utilizar las plantillas de salida en la ventana de exportación de Substance 3D Painter para configurar los formatos y los nombres de exportación de texturas.
+description: Aprenda a utilizar las plantillas de salida en la ventana de exportación de Substance 3D Painter para configurar los formatos y los nombres de exportación de las texturas.
 helpx_creative_field: ""
 helpx_description: Painter > Getting Started > Export > Export window > Output templates
 helpx_experience_level: ""
@@ -48,7 +48,7 @@ En esta sección se enumeran todas las texturas que generará la plantilla y su 
 
 ### Asignar tipos y palabras clave
 
-La línea superior muestra todos los tipos de texturas que se pueden crear:
+La línea superior muestra todos los tipos de textura que se pueden realizar:
 
 | Botón | Visual | Descripción |
 | --- | --- | --- |
@@ -75,7 +75,7 @@ Se puede asignar un nombre a cada textura mediante una convención de nomenclatu
 | **$proyecto** | Se reemplaza por el nombre del archivo de proyecto (.spp). |
 | **$mesh** | Se reemplaza por el nombre del archivo de malla (archivo de malla de entrada, como .fbx) |
 | **$textureset** | Se sustituye por el nombre del material/conjunto de texturas a partir del que se genera la textura. |
-| **$udim** | Se sustituye por el número UDIM a partir del cual se genera una textura. |
+| **$udim** | Se reemplaza por el número de UDIM a partir del cual se genera una textura. |
 | **$colorSpace** | Se reemplaza por el nombre del espacio de color utilizado para el canal dado (RGB o G, ignora Alpha). |
 
 ### Asignar formato de archivo y profundidad de bits
@@ -104,18 +104,18 @@ La lista de asignación de entrada reagrupa todos los canales que se pueden agre
 
 ### Mapas de malla
 
-Los mapas de malla son las texturas horneadas:
+Los mapas de malla son las texturas hechas un bake:
 
 | Nombre | Descripción |
 | --- | --- |
-| **Normal** | Mapa normal al horno. |
-| **Espacio normal del mundo** | Espacio del mundo al horno normal. |
-| **ID** | Identificación al horno. |
-| **oclusión de ambiente** | Oclusión ambiente al horno |
-| **Curvatura** | Curvatura al horno. |
-| **Posición** | Posición al horno. |
-| **Thickness** | Thickness al horno. |
-| **Height** | Height al horno. |
+| **Normal** | mapa de normales hecho un bake. |
+| **Espacio normal del mundo** | Espacio hecho un bake normal del mundo. |
+| **ID** | ID hecho un bake. |
+| **oclusión de ambiente** | oclusión ambiental hecha un bake |
+| **Curvatura** | Curvatura hecha un bake. |
+| **Posición** | Posición hecha un bake. |
+| **Thickness** | thickness hecho un bake. |
+| **Height** | height hecho un bake. |
 | **Normales dobladas** | Horneado doblado normales. |
 
 ### Mapas convertidos
@@ -124,15 +124,15 @@ Los mapas convertidos son mapas generados por la aplicación desde otro origen:
 
 | Nombre | Descripción |
 | --- | --- |
-| **OpenGL normal** | Mapa normal combinado en formato OpenGL de la normal horneada y el canal normal del conjunto de texturas. |
-| **DirectX normal** | Mapa normal combinado en formato DirectX de la normal horneada y el canal normal del conjunto de texturas. |
+| **OpenGL de normal** | Mapa normal combinado en formato OpenGL de la normal horneada y el canal normal del conjunto de texturas. |
+| **DirectX normal** | Mapa de normales combinado en formato DirectX de la normal hecha un bake y el canal normal del conjunto de texturas. |
 | **OA mixta** | Oclusión de ambiente combinada de la oclusión de ambiente horneada y el canal de oclusión de ambiente del conjunto de texturas. |
-| **Difusión** | Textura difusa generada a partir del canal **Color base** y **Metálico** (las áreas metálicas se reemplazan por un color negro). |
-| **Specular** | Textura de specular generada a partir del canal **Base Color** y **Metallic**. |
+| **Difusión** | textura de Difuso generada a partir del canal **Color base** y **Metálico** (las áreas metálicas se reemplazan por un color negro). |
+| **Specular** | textura de specular generada a partir del **Color base** y el canal **Metallic**. |
 | **Brillo** | Textura brillante generada a partir del inverso del canal de rugosidad. |
-| **Unity4 Diffuse** | Obsoleto. Textura difusa generada a partir del canal **Color base** para que coincida con los sombreadores Unity 4. |
+| **Unity4 Difuso** | Obsoleto. textura de Difuso generada a partir del canal **Color base** para que coincida con los sombreadores de Unity 4. |
 | **Brillo Unity4** | Obsoleto. Textura brillante generada a partir del canal **Roughness** y **Metallic** para que coincida con los sombreadores Unity 4. |
 | **Reflejo** | Texturas donde el blanco indica un material dieléctrico y otros colores como materiales metálicos. |
 | **1/o** | Textura que contiene 1 dividida por el valor **IOR**. **IOR** se genera a partir del mapa metálico: 1,4 para dieléctricos, 100 para metales (color negro). |
 | **Brillo<sup>2</sup>** | Versión cuadrada del canal **Brillo** (**Brillo** \* **Brillo**) |
-| **f0** | Textura con valor de reflectancia como fresnel 0 (0,04 para dielétricos, 1,0 para metálicos). |
+| **f0** | Textura que contiene un valor de reflectancia de 0 (0,04 para dielétricos y 1,0 para metálicos). |

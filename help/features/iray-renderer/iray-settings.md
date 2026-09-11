@@ -39,7 +39,7 @@ En la parte superior de la ventana se muestra el estado de Israel junto con otra
 >[!NOTE]
 >
 > El número de iteraciones definirá la calidad final del procesamiento : más iteraciones = mejor calidad.\
-> Sin embargo, las iteraciones pueden tomar algún tiempo, por eso es posible definir un tiempo máximo. Una iteración se define por el número de muestras.
+> Sin embargo las iteraciones pueden tomar algún tiempo, por eso es posible definir un tiempo máximo. Una iteración se define por el número de muestras.
 
 ## Configuración
 

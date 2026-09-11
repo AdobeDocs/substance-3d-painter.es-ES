@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/physical-size.html"
 breadcrumb-title: ''
-description: Aprende a configurar el tamaño físico en Substance 3D Painter para definir dimensiones del mundo real para aplicar una escala de textura precisa.
+description: Aprenda a configurar el tamaño físico en Substance 3D Painter para definir dimensiones del mundo real para una escala de textura precisa.
 helpx_creative_field: ""
 helpx_description: Painter > Features > Physical size
 helpx_experience_level: ""
@@ -30,7 +30,7 @@ Para obtener más información, consulte:
 
 * <b>Parámetros de Tamaño físico</b> en [Proyecciones de relleno](../painting/fill-projections/fill-projections.md)
 * Parámetros de <b>cuadrícula</b> en [configuración de ventana gráfica](../interface/display-settings/viewport-settings.md)
-* <b>Desplazamiento basado en tamaño físico</b> en [configuración del sombreador](../interface/shader-settings/shader-settings.md)
+* <b>Desplazamiento basado en tamaño físico</b> en [configuración de Sombreador](../interface/shader-settings/shader-settings.md)
 
 >[!NOTE]
 >

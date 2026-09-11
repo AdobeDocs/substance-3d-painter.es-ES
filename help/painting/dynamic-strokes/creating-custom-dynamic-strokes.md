@@ -37,12 +37,12 @@ Encuentra recursos compatibles en la estantería que se ajusten a tus necesidade
 
 A continuación se muestra una lista de los parámetros admitidos para Trazos dinámicos en Substance.
 
-| Identificador de variable | Descripción |
+| Identificador variable | Descripción |
 | --- | --- |
 | <b>Raíz aleatoria</b> | Si se cocina un archivo de Substance con la Raíz aleatoria expuesta, se podrá controlar con la función Trazo dinámico. |
 | <b>stampIndex</b> | <b>Integer1</b> lo usará Substance 3D Painter al pintar el trazo de pincel. Los valores mínimo y máximo no tienen efecto, Substance 3D Painter los ignorará. |
 | <b>stampCycleCount</b> | <b>Integer1</b> Painter leerá los valores de parámetro predeterminado, mínimo y máximo para mostrar el parámetro Stamp Cycle Count. Este parámetro controla cuántas variaciones únicas del Substance se crearán. |
-| <b>$time</b> | Substance 3D Painter usará <b>Float1</b> al pintar el trazo de pincel en función del tiempo de pintura transcurrido (por trazo). Esta propiedad puede generar muchas variaciones Substance y, por lo tanto, puede afectar al rendimiento. |
+| <b>$time</b> | Substance 3D Painter usará <b>Flotante1</b> al pintar el trazo de pincel en función del tiempo de pintura transcurrido (por trazo). Esta propiedad puede generar muchas variaciones Substance y, por lo tanto, puede afectar al rendimiento. |
 | <b>strokeSpacing</b> | <b>float1</b> Valor de espaciado actual para todo el trazo pintado. |
 | <b>strokeSize</b> | <b>float1</b> Valor de tamaño actual para todo el trazo pintado. |
 | <b>stampStrokePosition</b> | <b>integer1</b> Se usa para especificar el inicio o el comienzo de un trazo. El valor final solo está disponible en el trazo de trazado, no mediante pintura manual. Posible valor:<ul data-preserve-html="true"> <li data-preserve-html="true">0 = medio</li> <li data-preserve-html="true">1 = inicio</li> <li data-preserve-html="true">2 = fin</li> </ul>Se puede deshabilitar usando la etiqueta de usuario isstrokepositionactive. |

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Pixelado - API del sombreador
 
-## Sombreado de pixelado básico
+## Sombreador básico de pixelado
 
 Importar desde bibliotecas.
 
@@ -92,7 +92,7 @@ uniform float lit_outline_thickness;
 ```
 
 
-Punto de entrada del sombreado.
+Punto de entrada del sombreador.
 
 ```
 void shade(V2F inputs) 

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-when-opening-or-saving-a-file.html"
 breadcrumb-title: ''
-description: Obtenga información sobre cómo solucionar los bloqueos de Substance 3D Painter al abrir o guardar archivos para una administración de proyectos fiable.
+description: Aprenda a corregir bloqueos de Substance 3D Painter al abrir o guardar archivos para una administración de proyectos fiable.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Crash when opening or saving a file
 helpx_experience_level: ""
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 # Bloqueo al abrir o guardar un archivo
 
-Hay algunas razones por las que Substance 3D Painter se bloquea en Windows al abrir un cuadro de diálogo de archivo. Esta página reagrupa los motivos y las soluciones a este problema.
+Hay algunas razones por las que Substance 3D Painter se bloqueo en Windows al abrir un cuadro de diálogo de archivo. Esta página reagrupa los motivos y las soluciones a este problema.
 
 ## Conflictos de software
 
-Algunos programas pueden agregar extensiones de shell personalizadas que pueden llevar a inestabilidades o bloqueos. Consulta la lista de [conflictos de software](../startup-issues/software-conflicts.md) para obtener más información.
+Algunos programas pueden agregar extensiones de shell personalizadas que pueden conducir a inestabilidades o bloqueos. Consulta la lista de [conflictos de software](../startup-issues/software-conflicts.md) para obtener más información.
 
 ## Extensiones de shell/temas personalizados
 

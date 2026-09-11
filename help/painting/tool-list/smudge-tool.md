@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/tool-list/smudge-tool.html"
 breadcrumb-title: ''
-description: Utilice la herramienta de difuminado de Substance 3D Painter para fusionar y difuminar trazos de pintura y crear transiciones de textura suaves.
+description: Utilice la herramienta de difuminado de Substance 3D Painter para fusionar y difuminar trazos de pintura y así crear transiciones de textura suaves.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Tool list > Smudge tool
 helpx_experience_level: ""
@@ -28,6 +28,6 @@ Introducida en Substance 3D Painter 2, la herramienta de difuminado comparte el 
 
 ## Uso
 
-La forma más sencilla de usar la herramienta de difuminado es usarla directamente en el contenido de una capa de pintura, como una herramienta de pintura normal.
+La forma más sencilla de utilizar la herramienta de difuminado es utilizarla directamente en el contenido de una capa de pintura, como herramienta de pintura normal.
 
 Una forma más inteligente de usar la herramienta de difuminado es crear una capa de pintura y establecer todos los canales de la capa en el modo de fusión &quot;Pass through&quot;. Esto permitirá difuminar de manera no destructiva sobre todas las capas ubicadas debajo de la &quot;capa de difuminado&quot;. Las capas siguientes permanecen intactas y la capa de difuminado tendrá en cuenta todas las modificaciones que se apliquen posteriormente.

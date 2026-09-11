@@ -78,7 +78,7 @@ uniform bool alpha_dither;
 ```
 
 
-Emular prueba alfa : descarte el fragmento actual si su opacidad está por debajo de un umbral definido por el usuario. Se debe llamar después de las llamadas de muestreo de textura: puede romper los derivados
+Emular prueba alfa : descarte el fragmento actual si su opacidad está por debajo de un umbral definido por el usuario. Se debe llamar DESPUÉS de las llamadas de muestreo de textura: puede romper los derivados
 
 ```
 void alphaKill(float alpha) 

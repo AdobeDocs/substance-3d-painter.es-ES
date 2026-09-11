@@ -14,7 +14,7 @@ ht-degree: 1%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top">Degradado <img src="../../../assets/generators/icon_3d_linear_gradient.webp" alt=""/><br><strong>In:</strong>, escala de grises</td>
-    <td style="border: 0;" valign="top"><strong>Descripción</strong><br>El generador de 3D linear gradient usa el mapa de posición para crear un degradado entre dos puntos de la malla. <br><br>3D linear gradient produce una textura monocromática (blanco y negro). Como resultado, es útil para generar máscaras colocar un degradado lineal en un área específica.<br><br>Se requiere un mapa de posición al horno como entrada de imagen. <a href="../../../baking/baking.md">Obtenga más información sobre el horneado aquí</a>.<br><br>El mapa Posición asigna un color a cada punto de la malla que corresponde a su posición entre 0 y 1 a lo largo de los ejes X, Y y Z. Esto significa que cada punto de la malla tiene un color único. Puede definir puntos de inicio y fin para el degradado lineal seleccionando el color del mapa de posición en las ubicaciones de inicio y fin.</td>
+    <td style="border: 0;" valign="top"><strong>Descripción</strong><br>El generador de 3D linear gradient usa el mapa de posición para crear un degradado entre dos puntos de la malla. <br><br>3D linear gradient emite una textura monocromática (blanco y negro). Como resultado, es útil para generar máscaras colocar un degradado lineal en un área específica.<br><br>Se requiere un mapa de posición hecho un bake como entrada de imagen. <a href="../../../baking/baking.md">Obtenga más información sobre cómo hacer un bake aquí</a>.<br><br>El mapa Posición asigna un color a cada punto de la malla que corresponde a su posición entre 0 y 1 a lo largo de los ejes X, Y y Z. Esto significa que cada punto de la malla tiene un color único. Puede definir puntos de inicio y fin para el degradado lineal seleccionando el color del mapa de posición en las ubicaciones de inicio y fin.</td>
   </tr>
 </table>
 
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 | Nombre de entrada | Descripción |
 | --- | --- |
-| **Posición** | Utilice el mapa de posición horneado. |
+| **Posición** | Utilice el mapa de posición hecha un bake. |
 
 ## Parámetros
 

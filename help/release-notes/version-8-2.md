@@ -30,7 +30,7 @@ Fecha de publicación: *6 de octubre de 2022*
 
 ![](../assets/banner-blend-mode-copy.jpg)
 
-Se han añadido varios métodos abreviados y acciones para que sea rápido y fácil copiar y aplicar modos de fusión y la opacidad en varios canales en la pila de capas.
+Se han añadido varios métodos abreviados y acciones para que sea rápido y fácil copiar y aplicar modos de fusión y la opacidad en varios canales de la Pila de capas.
 
 * **Haga clic con el botón derecho en un modo de fusión o control de opacidad**\
   Al hacer clic con el botón derecho en un modo de fusión o en una opacidad, seleccione la acción **Aplicar a todos los canales** para utilizar este modo de fusión en todos los demás canales de la capa. Esta acción también está disponible en los efectos que tienen controles de modo de fusión y opacidad.
@@ -84,7 +84,7 @@ El contenido de la carpeta (la parte de color de una capa) ahora puede recibir e
 El formato de archivo de almacenamiento de Substance (SBSAR) ahora está disponible al exportar texturas. Un SBSAR es un contenedor que se puede abrir en muchas aplicaciones con integración Substance, lo que puede hacer que sea más rápido y fácil &quot;conectar y reproducir&quot; texturas personalizadas.
 
 * **Exportando un archivo de Substance (SBSAR)**\
-  Ahora es posible especificar el formato de archivo SBSAR de la lista de formatos de archivo en la ventana **Exportar texturas**. Esto exportará un único archivo SBSAR que contenga todas las texturas especificadas. La denominación de los nodos de salida y sus usos se define a partir del ajuste preestablecido de exportación seleccionado y sus tipos de canal.
+  Ahora es posible especificar el formato de archivo SBSAR de la lista de formatos de archivo en la ventana **Exportar Texturas**. Esto exportará un único archivo SBSAR que contenga todas las texturas especificadas. La denominación de los nodos de salida y sus usos se define a partir del ajuste preestablecido de exportación seleccionado y sus tipos de canal.
 
   ![](../assets/sbsar-export.png)
 
@@ -134,7 +134,7 @@ Se han añadido muchas pequeñas mejoras y funciones adicionales en esta nueva v
   ![](../assets/whats-new-4.jpg){width="400px"}
 
 * **Nueva acción para volver a importar rápidamente un modelo 3D**\
-  Se ha agregado un nuevo método abreviado de teclado (**CTRL+MAYÚS+R** de forma predeterminada) que permite volver a importar rápidamente el modelo 3D del proyecto actual. Esto hace que la iteración en un activo sea más fácil y rápida. Si no se encuentra el archivo de origen, se generará un mensaje de error en el registro. También se ha agregado una acción al menú **Editar**.
+  Se ha agregado un nuevo método abreviado de teclado (**CTRL+MAYÚS+R** de forma predeterminada) que permite volver a importar rápidamente el modelo 3D del proyecto actual. Esto hace que la iteración en un recurso sea más fácil y rápida. Si no se encuentra el archivo de origen, se generará un mensaje de error en el registro. También se ha agregado una acción al menú **Editar**.
 
   ![](../assets/reimport-mesh.png)
 
@@ -161,8 +161,8 @@ Se han añadido muchas pequeñas mejoras y funciones adicionales en esta nueva v
 
   ![](../assets/fill-tiling.gif)
 
-* **Nueva configuración de exportación de texturas EXR 16f y 32f**\
-  Anteriormente, la exportación de texturas EXR se forzaba a 32f bit en la interfaz, pero dentro del archivo real resultaba en datos de 16f bit (flotante medio). Ahora se ha solucionado y existe la posibilidad explícita de elegir entre bits de 16f y 32f. Los proyectos antiguos y los ajustes preestablecidos de exportación que utilizan EXR como formato de archivo se establecerán de forma predeterminada en bits de 16f para respetar el antiguo comportamiento (principalmente para evitar que se generen archivos más pesados que antes).
+* **Nueva configuración de exportación de textura de EXR 16f y 32f**\
+  Anteriormente, EXR exportación de texturas se forzaba a 32 f bit en la interfaz, pero dentro del archivo real generaba datos de 16 f bit (flotante medio). Ahora se ha solucionado y existe la posibilidad explícita de elegir entre bits de 16f y 32f. Los proyectos antiguos y los ajustes preestablecidos de exportación que utilizan EXR como formato de archivo se establecerán de forma predeterminada en bits de 16f para respetar el antiguo comportamiento (principalmente para evitar que se generen archivos más pesados que antes).
 
   ![](../assets/exr-export.png)
 
@@ -198,7 +198,7 @@ Se han añadido varias funcionalidades nuevas a la API de Python. Para obtener m
   Se han añadido varias funciones para guardar y volver a cargar el diseño de la interfaz de usuario. Tenga en cuenta que el diseño también depende del modo de aplicación actual (Pintar o Procesar).
 
 * **substance\_painter.event**\
-  Se ha agregado un nuevo **TextureStateEvent** para ayudar a realizar el seguimiento de las modificaciones en la pila de capas de conjuntos de texturas, así como de otros cambios en los parámetros. Este evento se activa al realizar trazos de pintura o al añadir o quitar canales.
+  Se ha agregado un nuevo **TextureStateEvent** para ayudar a realizar el seguimiento de las modificaciones en la pila de capas de conjuntos de texturas, así como de otros cambios de parámetros. Este evento se activa al realizar trazos de pintura o al añadir o quitar canales.
 
 ## Notas de la versión
 
@@ -243,15 +243,15 @@ Resumen: **Versión principal con nuevos paneles de incorporación (nuevo panel 
 * Restablecer los parámetros del Substance a sus valores predeterminados
 
   Se ha añadido un nuevo botón en Propiedades en la parte inferior de los recursos .sbsar que permite restablecer el recurso a los valores predeterminados.
-* Restablecer el pincel a sus valores predeterminados
+* Restablecer el pincel de pintura a sus valores predeterminados
 
   Se ha añadido un nuevo menú a la sección Pincel en Propiedades que permite restablecer el pincel básico predeterminado.
 * Haga clic con el botón derecho para restablecer los parámetros individuales del Substance a sus valores predeterminados
 
   Se ha añadido la posibilidad de restablecer parámetros individuales dentro de un recurso .sbsar haciendo clic con el botón derecho.
-* [Panel de activos] &quot;Fijar&quot; los activos favoritos para que aparezcan en la parte superior del panel de activos
+* [Panel Activos] Los activos favoritos del &quot;Pin&quot; aparecen en la parte superior del panel Activos
 
-  Se ha añadido una nueva opción de clic con el botón derecho en los activos de la biblioteca que permite fijarlos como favoritos en la parte superior del panel. También puede ver todos sus activos favoritos a través de Búsquedas guardadas.
+  Se ha añadido una nueva opción de clic con el botón derecho en los recursos de la biblioteca que permite pin como favoritos en la parte superior del panel. También puede ver todos sus activos favoritos a través de Búsquedas guardadas.
 * [Panel Activos] Eliminar, volver a cargar y cambiar el nombre de los activos
 
   Se han añadido opciones de menú contextual para eliminar, volver a cargar y cambiar el nombre de los activos en la biblioteca del usuario. Se eliminan directamente de la ubicación de su biblioteca en el disco y se vuelven a cargar desde la ubicación original. Los activos que forman parte de un paquete como .abr o .sbsar no se pueden editar individualmente.
@@ -261,9 +261,9 @@ Resumen: **Versión principal con nuevos paneles de incorporación (nuevo panel 
 * [Pila de capas] Tapones de cilindro para proyección cilíndrica en capa de relleno/efecto
 
   La proyección cilíndrica en Propiedades de capa de relleno ahora tiene la opción de eliminar tapas de cilindro.
-* [Log] Mostrar un mensaje de error si las partes de la malla están en espacio negativo al intentar crear un proyecto de UV Tile
+* [Log] Mostrar un mensaje de error si los elementos de malla están en espacio negativo al intentar crear un proyecto de Mosaico de UV
 
-  Se ha añadido un mensaje de error más claro al no crear un proyecto de mosaico UV porque las partes UV se encuentran en espacios negativos.
+  Se ha añadido un mensaje de error más claro al no crear un proyecto de Mosaico de UV porque las partes UV se encuentran en espacios negativos.
 * [Project] Indica la versión en el mensaje de error &quot;Datos demasiado recientes&quot; al abrir un proyecto
 
   Al abrir un proyecto que es demasiado reciente para la aplicación, el mensaje de error indicará ahora la versión del proyecto para que sea más fácil identificar la versión correcta de la aplicación.
@@ -275,14 +275,14 @@ Resumen: **Versión principal con nuevos paneles de incorporación (nuevo panel 
   En Configuración de visualización > Configuración de ventana gráfica > Visualización de canal , hay un nuevo ajuste de Canales de color que solo permite mostrar el componente R, G, B o Alpha de un canal en el modo de visualización única.
 * [Shader] Permite definir canales de usuario como RGBA en sombreadores de capas de material
 
-  Al definir la configuración del conjunto de texturas para los canales dentro de un sombreado para la capa de material, ahora es posible especificar el formato del canal para que se desvíe del valor predeterminado. Esto permite en particular solicitar canales de usuario de color en lugar de solo en escala de grises.
-* [Exportar] Permitir la exportación de texturas como SBSAR
+  Al definir la configuración del conjunto de texturas para canales dentro de un sombreador para la capa de material, ahora es posible especificar el formato del canal que se desviará del valor predeterminado. Esto permite en particular solicitar canales de usuario de color en lugar de solo en escala de grises.
+* [Exportar] Permitir exportar texturas como SBSAR
 
-  Al exportar texturas a través de la ventana Archivo > Exportar texturas, se puede elegir el formato de archivo SBSAR (Archivo de Substance) para reagruparlas. El contenido de la SBSAR depende de la plantilla de salida utilizada.\
-  El formato de archivo SBSAR también se puede establecer en los ajustes preestablecidos de exportación. Cuando se utiliza una configuración híbrida (SBSAR + otro formato), las texturas que tienen como destino un SBSAR se agrupan mientras que el resto se exporta junto a él.
-* [Exportar] Opción de exposición de 16 bits para el formato de archivo EXR
+  Al exportar texturas a través de la ventana Archivo > Exportar Texturas , se puede elegir el formato de archivo SBSAR (Archivo de Substance) para reagruparlas. El contenido de la SBSAR depende de la plantilla de salida utilizada.\
+  El formato de archivo SBSAR también se puede establecer en los ajustes preestablecidos de exportación. Cuando se utiliza una configuración híbrida (SBSAR + otro formato), las texturas que tienen como destino un SBSAR se agrupan mientras que el resto se exporta junto a ellas.
+* [Exportar] Opción de exposición de 16 bits para EXR formato de archivo
 
-  Al exportar archivos de texturas EXR, ahora es posible elegir 16f bit (Half-Float) o 32f bit (Float) en la ventana Exportar texturas (tanto para ajustes de exportación como para ajustes preestablecidos de exportación). Los proyectos antiguos y los ajustes preestablecidos de exportación antiguos se establecerán de forma predeterminada en 16f bit para reflejar el comportamiento antiguo.
+  Al exportar archivos de textura de EXR, ahora es posible elegir 16f bit (medio Flotante) o 32f bit (Flotante) en la ventana Exportar Texturas (tanto para ajustes de exportación como para ajustes preestablecidos de exportación). Los proyectos antiguos y los ajustes preestablecidos de exportación antiguos se establecerán de forma predeterminada en 16f bit para reflejar el comportamiento antiguo.
 * [Python] Añadir evento para saber cuándo se modifican los conjuntos de texturas
 
   El nuevo &quot;substance\_painter.event.TextureStateEvent&quot; permite saber cuándo se ha modificado un conjunto de texturas debido a un trazo de pintura, un nuevo canal añadido o un canal eliminado.
@@ -294,7 +294,7 @@ Resumen: **Versión principal con nuevos paneles de incorporación (nuevo panel 
   Se ha eliminado la opción para obtener los complementos de JavaScript, ya que se alojaban en el sitio web obsoleto Compartir .
 * [Contenido] Añadir nueva plantilla Roblox y exportar ajuste preestablecido
 
-  Se han añadido una nueva plantilla de proyecto &quot;Material Variant&quot; y &quot;Surface Appearance&quot; de Roblox y un ajuste preestablecido de exportación para facilitar la exportación de texturas PBR a Roblox. Se puede acceder a la plantilla desde la ventana Archivo > Nuevo proyecto.
+  Se han añadido una nueva plantilla de proyecto &quot;Material Variant&quot; y &quot;Surface Appearance&quot; de Roblox y un ajuste preestablecido de exportación para facilitar la exportación de la textura PBR a Roblox. Se puede acceder a la plantilla desde la ventana Archivo > Nuevo proyecto.
 * Actualizar Substance Engine a la última versión (8.6.3)
 * [Steam] Compilación optimizada para chipset Apple Silicon (Apple M1 / M2)
 
@@ -303,7 +303,7 @@ Resumen: **Versión principal con nuevos paneles de incorporación (nuevo panel 
 * Bloqueo al utilizar 16k exr
 * [Bloqueo] Ctrl Z Después de eliminar una instancia de sombreado
 * [Iray] El valor de IoR está bloqueado en 1 para algunos sombreadores
-* [Win] [Horneado] No se puede cargar un poli alto
+* [Win]&#x200B;[Haciendo un bake] No se puede cargar un poli alto
 * [Gestión de color] Nombre de espacio de color incorrecto en la IU con filtros
 * [Python] Los objetos de recursos devueltos por la función de importación no tienen un tipo
 

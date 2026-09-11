@@ -77,7 +77,7 @@ uniform SamplerSparse ao_tex;
 ```
 
 
-Valor utilizado para ajustar la intensidad de la Oclusión ambiente.
+Valor utilizado para ajustar la intensidad de la Oclusión ambiental.
 
 ```
 //: param custom { 
@@ -188,7 +188,7 @@ float getMetallic(SamplerSparse sampler, SparseCoord coord)
 ```
 
 
-Devolver el nivel de anisotropía muestreado o un valor predeterminado
+Devolver nivel de anisotropía muestreado o un valor predeterminado
 
 ```
 float getAnisotropyLevel(vec4 sampledValue) 
@@ -381,7 +381,7 @@ float getDisplacement(SamplerSparse sampler, SparseCoord coord)
 ```
 
 
-Oclusión de ambiente de retorno
+Oclusión ambiental de devolución
 
 ```
 float getAO(SparseCoord coord, bool is_premult) 
@@ -493,7 +493,7 @@ float getShadowFactor()
 ```
 
 
-Devolver el color base de la muestra o un valor predeterminado
+Devolver color base muestreado o un valor predeterminado
 
 ```
 vec3 getBaseColor(vec4 sampledValue) 
@@ -579,7 +579,7 @@ vec2 generateAnisotropicRoughness(float roughness, float anisoLevel)
 ```
 
 
-Generar color difuso a partir del color base y el factor metálico
+Generar color difuso a partir de color base y factor metálico
 
 ```
 vec3 generateDiffuseColor(vec3 baseColor, float metallic) 
@@ -605,7 +605,7 @@ vec3 generateSpecularColor(float specularLevel, vec3 baseColor, float metallic)
 ```
 
 
-Generar el color del specular a partir del color base y el factor metálico, utilizando el specular level predeterminado (0,04) para los dieléctricos
+Generación del color del specular a partir del color base y el factor metálico, utilizando el specular level predeterminado (0,04) para dieléctricos
 
 ```
 vec3 generateSpecularColor(vec3 baseColor, float metallic) 

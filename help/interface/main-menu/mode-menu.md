@@ -26,6 +26,6 @@ En el menú Modo, puede cambiar entre distintas interfaces para trabajar en dist
 
 | Acción | Descripción |
 | --- | --- |
-| **Cocer mapas de malla** | Utilice este modo para crear mapas de utilidad, como normales, normales de espacio mundial, AO y mapas de ID, pasando de alta a baja poli o simplemente utilizando la propia malla del proyecto. |
-| **Pintando** | Donde pasarás la mayor parte del tiempo en Painter, el modo Pintura es donde puedes acceder a la pila de capas y a los materiales, y pintar directamente en tus modelos 3D. |
+| **Hacer un bake mapas de malla** | Utilice este modo para crear mapas de utilidad como normales, normales de espacio mundial, AO y mapas de ID, haciendo un bake de alta a baja poli o simplemente utilizando la propia malla del proyecto. |
+| **Pintando** | Donde pasarás la mayor parte del tiempo en Painter, el modo Pintura es donde puedes acceder a la pila de capas y los materiales, así como a la pintura directamente en tus modelos 3D. |
 | **Procesamiento (Iray)** | Cambie al modo de renderizado Iray. Iray es un procesador no en tiempo real que puede crear renderizaciones de alta calidad. Para obtener más información, consulte la página dedicada: [Procesador Iray](../../features/iray-renderer/iray-renderer.md). |

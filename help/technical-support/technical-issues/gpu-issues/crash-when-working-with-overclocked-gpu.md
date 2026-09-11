@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/technical-issues/gpu-issues/crash-when-working-with-overclocked-gpu.html"
 breadcrumb-title: ''
-description: Obtenga información sobre cómo solucionar los bloqueos de Substance 3D Painter al trabajar con GPU sobreaceleradas para un rendimiento estable de la aplicación.
+description: Obtenga información sobre cómo corregir bloqueos de Substance 3D Painter al trabajar con GPU sobreaceleradas para un rendimiento estable de la aplicación.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > GPU Issues > Crash when working with overclocked GPU
 helpx_experience_level: ""

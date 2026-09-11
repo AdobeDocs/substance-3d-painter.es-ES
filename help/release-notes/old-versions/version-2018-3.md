@@ -30,19 +30,19 @@ Fecha de publicación : *20 de noviembre de 2018*
 
 ![](../../assets/export-2d-view.jpg)
 
-Ahora es posible **exportar la vista 2D** representando **como una textura**. Esta función ha sido solicitada por muchas personas y finalmente la hemos puesto a su disposición. El proceso de exportación tomará el estado actual de la **vista 2D** para procesar una textura con la configuración de exportación normal (relleno, formato de archivo, profundidad de bits). Esto significa que si el modo de vista está establecido en **Solo** en lugar del modo **Material**, la vista 2D se exportará tal cual.
+Ahora es posible **exportar la representación de Vista 2D** **como una textura**. Esta función ha sido solicitada por muchas personas y finalmente la hemos puesto a su disposición. El proceso de exportación tomará el estado actual de **Vista 2D** para procesar una textura con la configuración de exportación normal (relleno, formato de archivo, profundidad de bits). Esto significa que si el modo de vista está establecido en **Solo** en lugar del modo **Material**, la Vista 2D se exportará tal cual.
 
-Dirígete a la **ventana de exportación** y elige la nueva configuración llamada &quot;**Vista en 2D**&quot; :\
+Dirígete a la **ventana de exportación** y elige la nueva configuración llamada &quot;**vista 2D**&quot; :\
 ![](../../assets/2d-view-export-config.png)
 
-Un nuevo **Mapa convertido** llamado &quot;**Vista en 2D**&quot; también está disponible en la pestaña **Configuración** de la ventana de exportación en caso de que quieras crear tu propio **ajuste preestablecido de exportación**.
+Un nuevo **mapa convertido** llamado &quot;**vista 2D**&quot; también está disponible en la pestaña **Configuración** de la ventana de exportación en caso de que quieras crear tu propio **ajuste preestablecido de exportación**.
 
-### Filtro de iluminación horneada mejorado
+### Filtro de iluminación Hecho un bake mejorado
 
 ![](../../assets/baked-lighting.jpg)
 
-El filtro **Entorno de iluminación generado** se ha mejorado mucho y ahora admite correctamente **mapas de entorno HDR**.\
-Ahora puede replicar la iluminación de la ventana gráfica (como se ve en la vista 2D) y reducirla al canal Color base. El nuevo filtro proporciona más controles, como **rotar** el mapa **entorno** **verticalmente** y cambiar la **exposición**.
+El filtro **Entorno de iluminación generado** se ha mejorado mucho y ahora admite correctamente **HDR. mapas de entorno**.\
+Ahora puede replicar la iluminación de la ventana gráfica (como se ve en el Vista 2D) y hacer un bake hacia abajo en el canal de Color base. El nuevo filtro proporciona más controles, como **rotar** el mapa **entorno** **verticalmente** y cambiar la **exposición**.
 
 ![](../../assets/shelf-baked-lighting.png)
 
@@ -50,23 +50,23 @@ Ahora puede replicar la iluminación de la ventana gráfica (como se ve en la vi
 
 ![](../../assets/capture-optim.gif)
 
-En esta nueva versión, presentamos un nuevo sombreador denominado &quot;**pbr-metal-rough-anisotropía-angle**&quot;. Este sombreador admite dos canales denominados &quot;**Ángulo de Anisotropía**&quot; y &quot;**Nivel de Anisotropía**&quot; que se pueden usar para crear reflejos de speculares anisotrópicos. Este sombreador también se traducirá a Iray tal cual sin necesidad de conversión alguna.
+En esta nueva versión presentamos un nuevo sombreador llamado &quot;**pbr-metal-rough-anisotropía-angle**&quot;. Este sombreador admite dos canales denominados &quot;**Ángulo de anisotropía**&quot; y &quot;**Nivel de anisotropía**&quot; que se pueden usar para crear reflejos de speculares anisotrópicos. Este sombreador también se traducirá a Irak tal cual, sin necesidad de conversión alguna.
 
-Se puede acceder a este nuevo sombreador a través de la [Ventana del sombreador](../../interface/shader-settings/shader-settings.md) haciendo clic en el botón del sombreador y abriendo la miniestantería :
+Se puede acceder a este nuevo sombreador a través de la [Ventana del Sombreador](../../interface/shader-settings/shader-settings.md) haciendo clic en el botón del sombreador y abriendo la mini-estantería:
 
 ![](../../assets/shader-anisotropy.png)
 
-El proyecto de muestra predeterminado &quot;**Esfera de vista previa**&quot; se ha actualizado para aprovechar ese nuevo sombreado y mostrar cómo configurar los diferentes canales.
+El proyecto de muestra predeterminado &quot;**Esfera de vista previa**&quot; se ha actualizado para aprovechar ese nuevo sombreador y mostrar cómo configurar los diferentes canales.
 
 >[!NOTE]
 >
-> Si aparecen **artefactos de línea** de aspecto extraño al utilizar degradados dentro del canal **Ángulo de Anisotropía**, intente cambiar el modo de filtrado a &quot;**Más cercano**&quot; en el caso de una capa de relleno, ya que esto podría mejorar el muestreo para el sombreador y deshacerse del problema.
+> Si aparecen **artefactos de línea** de aspecto extraño al usar degradados dentro del canal **Ángulo de anisotropía**, prueba a cambiar el modo de filtro a &quot;**Más cercano**&quot; en caso de que aparezca una capa de relleno, ya que esto podría mejorar el muestreo del sombreador y eliminar el problema.
 
-### Sombreador de capa transparente actualizado
+### Sombreador de abrigo claro actualizado
 
 ![](../../assets/coated.jpg)
 
-El sombreador **Clear Coat** (**pbr-coat**) se ha mejorado para ofrecer más controles y posibilidades de representación. También aprovechamos la oportunidad para hacerlo compatible con **Iray** con un **MDL** dedicado.
+El sombreador **Clear Coat** (**con revestimiento de pbr**) se ha mejorado para ofrecer más controles y posibilidades de representación. También aprovechamos la oportunidad para hacerlo compatible con **Iray** con un **MDL** dedicado.
 
 A continuación se muestra una lista de los cambios :
 
@@ -74,7 +74,7 @@ A continuación se muestra una lista de los cambios :
 * **Enmascarar** la capa secundaria (a través del canal **Usuario1**).
 * Elija el comportamiento que desea aplicar a la capa de superficie : **Mantener detalles normales** (original) o **Suavizar superficie** (nuevo, omitir mapa normal de malla)
 
-Por comodidad, también hemos añadido una nueva plantilla de proyecto lista para aplicar texturas a este nuevo sombreador denominado : **PBR - Recubierto de rugosidad metálica**.
+Por comodidad, también hemos añadido una nueva plantilla de proyecto lista para aplicar texturas a este nuevo sombreador denominada : **PBR - Recubierto de Rugosidad metálica**.
 
 ![](../../assets/shader-coated.png)
 
@@ -83,11 +83,11 @@ Por comodidad, también hemos añadido una nueva plantilla de proyecto lista par
 ![](../../assets/temporal-anti-aliasing.gif)
 
 El proceso posterior de suavizado Web del Substance Painter se ha rediseñado y se ha cambiado a un nuevo método denominado &quot;**Suavizado temporal**&quot; (**TAA**).\
-Esta nueva técnica ofrece resultados mucho mejores en todos los casos por un costo muy mínimo. **TAA** funciona acumulando información en varios fotogramas, lo que permite producir bordes muy suaves sin perder detalles.
+Esta nueva técnica ofrece resultados mucho mejores en todos los casos por un costo muy mínimo. **TAA** funciona acumulando información en varios marcos, lo que permite producir bordes muy suaves sin perder detalles.
 
 Como ya no es un efecto posterior, la configuración se ha movido un poco dentro de la ventana **Configuración de visualización** y ahora está **debajo** de la sección **Efectos posteriores**.
 
-Este nuevo suavizado también ofrece nuevas posibilidades cuando se combina con la transparencia. Si un proyecto está utilizando el sombreador **Alpha-Test**, intente habilitar la configuración &quot;**Interpolado alfa**&quot; :
+Este nuevo suavizado también ofrece nuevas posibilidades cuando se combina con la transparencia. Si un proyecto utiliza el sombreador **Alpha-Test**, intente habilitar la configuración &quot;**Interpolado alfa**&quot;:
 
 ![](../../assets/dithering-aa.gif)
 
@@ -99,9 +99,9 @@ El nuevo **TAA** también filtrará bien el patrón de Blue Noise visible en las
 
 Un gran cambio en esta nueva versión es la introducción de las **Texturas virtuales dispersas** o **SVT**.
 
-Este nuevo sistema cambia algunos fundamentos de Substance Painter y la forma en que funciona la aplicación. Substance Painter ahora utiliza el SVT como una forma de mantener un espacio de memoria específico para la ventana gráfica que permite **transmitir texturas de entrada y salida**. La principal ventaja es la capacidad de cargar proyectos más grandes con mayor facilidad y reducir la presión sobre la GPU para **mejorar el rendimiento**. Esto significa que si las cosas empiezan a ser demasiado grandes descargará algunas texturas en el disco y recuperarlas más tarde si es necesario). Esta es una **caché volátil** que se elimina cuando se cierra la aplicación.
+Este nuevo sistema cambia algunos fundamentos de Substance Painter y la forma en que funciona la aplicación. Substance Painter ahora utiliza el SVT como una forma de mantener un espacio de memoria específico para el puerto de visualización que permite **transmitir texturas de entrada y salida**. La principal ventaja es la capacidad de cargar proyectos más grandes con mayor facilidad y reducir la presión sobre la GPU para **mejorar el rendimiento**. Esto significa que si las cosas empiezan a ser demasiado grandes se descargan algunas texturas en el disco y recuperarlos más tarde si es necesario). Esta es una **caché volátil** que se elimina cuando se cierra la aplicación.
 
-Otra ventaja del sistema es la introducción de **mipmaps** dentro del **puerto de visualización**, que mejorará la calidad de la textura y reducirá el efecto Moiré, especialmente visible con patrones de tela.
+Otra ventaja del sistema es la introducción de **mipmaps** dentro del **puerto de visualización**, lo que mejorará la calidad de la textura y reducirá el efecto Moiré, especialmente visible con patrones de tela.
 
 Hemos expuesto algunos controles relativos a este nuevo sistema que se pueden editar en las preferencias principales (**Editar > Configuración**) :
 
@@ -118,7 +118,7 @@ Para obtener más información sobre el SVT, consulte nuestra página de documen
 > 
 > Estos ajustes se pueden anular mediante la variable de entorno : [Variables de entorno](../../pipeline-and-integration/configuration/environment-variables.md).
 
-### Herramienta de simetría nueva y mejorada
+### Nueva y mejorada herramienta de Simetría
 
 ![](../../assets/symmetry-offset-optim.gif)
 
@@ -129,51 +129,51 @@ También aprovechamos la oportunidad para darle un poco de cariño a esa funció
 * Ahora **la línea de intersección** está dibujada de forma **predeterminada** en la malla para mostrar dónde está el plano de simetría.
 * Ahora aparece un **punto reflejado** al mover el **cursor** para mostrar dónde se aplicará el trazo de pincel reflejado.
 
-Todos los nuevos elementos visuales se pueden ajustar mediante el nuevo menú Simetría en la barra de herramientas contextual :
+Todos los nuevos elementos visuales se pueden modificar a través del nuevo menú de Simetría en la barra de herramientas contextual :
 
 ![](../../assets/symmetry-menu.png)
 
 * **Espejo X, Espejo Y, Espejo Z** : Definir qué dirección se utiliza para la simetría
 * **Desplazamiento** : Controla el valor de desplazamiento por eje. El icono de flecha cruzada permite restablecer todos los desplazamientos a 0.
 * **Plano de simetría** : Mostrar plano permite dibujar un plano que corta la malla. Mostrar intersección dibuja una línea en la malla donde el plano corta la malla.
-* **Cursor de simetría** El cursor :Show dibujará un cursor de pincel secundario donde se aplique la simetría. Ocultar al pintar solo mostrará el cursor cuando no se pinte.
-* **Manipulador** : Mostrar el manipulador mostrará un manipulador en la ventana gráfica para desplazar el plano de simetría. **Tamaño del manipulador** controla el tamaño del controlador en la ventana gráfica.
+* **Cursor de Simetría** El cursor :Show dibujará un cursor de pincel secundario donde se aplique la simetría. Ocultar al pintar solo mostrará el cursor cuando no se pinte.
+* **Manipulador** : Mostrar Manipulador mostrará un manipulador en la ventana gráfica para desplazar el plano de simetría. **Tamaño del manipulador** controla el tamaño del controlador en la ventana gráfica.
 
 Se pueden usar los mismos **métodos abreviados** que para el manipulador Tri-Planar y UV para ocultar o mostrar el manipulador de simetría :
 
-* **P**: Mostrar/ocultar manipulador
+* **P**: Mostrar/Ocultar Manipulador
 * **Mayús** : Traducción de ajuste (desplazamiento discreto)
-* **+ / -** : Cambiar el tamaño del manipulador
+* **+ / -** : Cambiar el tamaño del Manipulador
 
 ![](../../assets/symmetry-gizmo.gif)
 
-### Manipulador Tri-Planar mejorado
+### Manipulador Tri-Plano mejorado
 
 ![](../../assets/trip-rotation-optim.gif)
 
-Además de los 3 ejes originales para controlar la rotación, también hemos añadido una nueva esfera de rotación al controlar el manipulador Tri-planar. La esfera facilita probar rápidamente diferentes ángulos al proyectar patrones de ruido, por ejemplo.
+Además de los 3 ejes originales para controlar la rotación, también agregamos una nueva esfera de rotación al controlar el manipulador Tri-plana. La esfera facilita probar rápidamente diferentes ángulos al proyectar patrones de ruido, por ejemplo.
 
-### Exportación de texturas tramadas de 8 bits
+### Exportar Texturas tramadas de 8 bits
 
 ![](../../assets/dither-1.jpg)
 
-Al exportar texturas de mapas normales y de Height a formatos de archivo en modo de 8 bits, el Substance Painter aplicará automáticamente **tramado** para reducir **bandas** **problemas**.
+Al exportar texturas de mapa Normal y Altura a formatos de archivo en modo de 8 bits, el Substance Painter aplicará automáticamente **tramado** para reducir **bandas** **problemas**.
 
 >[!NOTE]
 >
-> En el caso de que un ajuste preestablecido de exportación utilice un mapa normal, pero otro elemento del alfa (como RGB = Normal, A = Rugosidad), solo se tramará lo normal.
+> En el caso de que un ajuste preestablecido de exportación utilice un mapa de normales pero otra cosa en el alfa (como RGB = Normal, A = Rugosidad), solo se tramará lo normal.
 
 ### Mejoras en el comportamiento de pila de capas
 
 ![](../../assets/color-layers.gif)
 
-Se han realizado algunas mejoras en el flujo de trabajo de la pila de capas y la administración de capas :
+Se han realizado algunas mejoras en el flujo de trabajo de la administración de pilas de capas y capas :
 
-* Asigna **color** a **capas** y **carpetas** dentro de la pila de capas mediante el menú **clic con el botón derecho** para organizar las capas.\
+* Asigna **color** a **capas** y **carpetas** dentro de la Pila de capas mediante el menú **clic con el botón derecho** para organizar las capas.\
   Sin embargo, los colores de capa de Substance Painter se comportan de forma un poco diferente que en otros paquetes de software :
   * Las capas dentro de una carpeta heredarán el color de la carpeta (pero aparecerán atenuadas).
   * Si mueve una capa sin un color asignado dentro de una carpeta que tiene un color, heredará el color de la carpeta.
-  * Si una capa tiene un color dedicado, la carpeta no la sobrescribirá.Este comportamiento original facilita la coloración y organización de la pila de capas sin tener que asignar demasiados colores a mano.
+  * Si una capa tiene un color dedicado, la carpeta no la sobrescribirá.Este original comportamiento facilita la coloración y organización de la pila de capas sin tener que asignar demasiados colores a mano.
 
 ![](../../assets/hide-slider.gif)
 
@@ -183,13 +183,13 @@ Se han realizado algunas mejoras en el flujo de trabajo de la pila de capas y la
 ![](../../assets/blend-mode_1.gif)
 
 * **Cambia rápidamente entre los modos de fusión** con los **métodos abreviados** del teclado **Arrow**.\
-  Después de **cerrar** el menú emergente de fusión, el **foco** **permanecerá** en la capa y podrá seguir cambiándose con el mismo método abreviado anterior.
+  Después de **cerrar** el menú emergente de fusión, el **enfoque** **permanecerá** en la capa y podrá seguir cambiándose con el mismo método abreviado anterior.
 
 ### Nuevas entradas de Substance para filtros y generadores
 
 ![](../../assets/uv-border-generator.gif)
 
-Se han expuesto nuevas entradas de Substance para generadores y filtros personalizados. Estas nuevas entradas de textura permiten la creación de efectos más avanzados gracias a la nueva información relacionada con la malla.
+Se han expuesto nuevas entradas de Substance para generadores y filtros personalizados. Estas nuevas entradas de textura permiten crear efectos más avanzados gracias a la nueva información relacionada con la malla.
 
 Las nuevas entradas disponibles son:
 
@@ -208,7 +208,7 @@ Como ejemplo, ahora proporcionamos un nuevo **generador de máscaras** denominad
 
 >[!NOTE]
 >
-> Estas entradas se proporcionan directamente desde el motor del Substance Painter en función del proyecto Mesh y no utilizan [Bakers](../../baking/baking.md).
+> Estas entradas se proporcionan directamente desde el motor de Substance Painter basado en el proyecto Mesh y no utilizan [Baker](../../baking/baking.md).
 
 ### Contenido nuevo y actualizado
 
@@ -216,7 +216,7 @@ Como ejemplo, ahora proporcionamos un nuevo **generador de máscaras** denominad
 
 En esta nueva versión incluimos nuevo contenido :
 
-* Nuevos patrones **Gradient** de procedimiento que se usarán con el nuevo sombreado **Anisotropic** :
+* Nuevos patrones procedimientos de **degradado** que se usarán con el nuevo sombreador **Anisotrópico** :
 
   * Radial anisotrópico
   * Degradado circular
@@ -237,19 +237,19 @@ En esta nueva versión incluimos nuevo contenido :
     ![](../../assets/envmap.png)
 * Nuevo **proyecto** **plantillas** :
 
-  * PBR - Ángulo de Anisotropía de rugosidad metálica
+  * PBR - Ángulo de anisotropía de Rugosidad metálica
   * PBR - Revestimiento de rugosidad metálica
 * Nuevo **material**:
 
   * Human Female 30s Face 06 (se puede encontrar rápidamente a través del ajuste preestablecido de la piel en el estante)\
-    Este nuevo material de piel lo ha proporcionado **Texturing.XYZ** y proporciona excelentes detalles de la superficie para pintar una piel realista.\
+    Este nuevo material de piel lo ha proporcionado **Texturing.XYZ** y proporciona excelentes detalles de la superficie para pintura de piel realista.\
     ![](../../assets/skin-face.png)
 
 También actualizamos parte del contenido existente para perfeccionarlo :
 
 * Filtro del actualizador &quot;**Entorno de iluminación generado**&quot; : Véase más arriba.
 * Filtro actualizado &quot;**MatFx Shutline**&quot;: Ahora permite ocultar el efecto de material y solo mantener el resultado height/normal.
-* **Proyecto de muestra** actualizado: La esfera de previsualización ahora se puede utilizar con simetría y tiene un nuevo ángulo de cámara para los procesamientos personalizados. Su sombreador predeterminado es ahora &quot;Ángulo de Anisotropía&quot;.
+* **Proyecto de muestra** actualizado: La esfera de previsualización ahora se puede utilizar con simetría y tiene un nuevo ángulo de cámara para los procesamientos personalizados. Su sombreador predeterminado es ahora &quot;Ángulo de anisotropía&quot;.
 
 ## Notas de la versión
 
@@ -302,7 +302,7 @@ También actualizamos parte del contenido existente para perfeccionarlo :
 * Añadir TAA en material solo
 * Ruido con sombra, TAA y sombreador de prueba alfa con tramado
 * Eliminar el tramado de specular para todos los sombreadores PBR clásicos
-* Bloqueo en la configuración del sombreado en algunos casos
+* Bloqueo en la configuración del sombreador en algunos casos
 * La activación de la dispersión no está sincronizada entre los procesamientos de OpenGL e Iray
 * Las herramientas de difuminado y clonación ya no funcionan en mallas específicas
 * Algunos conjuntos de texturas no pueden aparecer en el procesamiento de Iray
@@ -324,14 +324,14 @@ También actualizamos parte del contenido existente para perfeccionarlo :
 **Agregado:**
 
 * Resumen: revisión
-* [Simetría] [Ventana gráfica] La pintura de simetría en la vista 2D ha vuelto y ahora se ha corregido una previsualización del pincel clónico
+* [Simetría] [Ventana gráfica] El dibujo de la Simetría en la Vista 2D ha vuelto y ahora se ha corregido una previsualización del pincel clónico
 
 **Corregido:**
 
-* [Exportar] La exportación de vista 2D genera una textura negra en algunos casos
+* La exportación de Vista 2D genera una textura negra en algunos casos
 * [Iray] La información normal se vuelve incorrecta en Iray después de crear instancias de una capa de material
-* Los conjuntos de texturas no cuadradas pueden provocar bloqueos en algunos casos
-* [Deshacer] Varias teclas Ctrl+Z pueden provocar el bloqueo en algunos casos de forma aleatoria
+* Los conjuntos de texturas no cuadrados pueden provocar en algunos casos bloqueos
+* [Deshacer] Varias teclas Ctrl+Z pueden llevar al bloqueo de forma aleatoria en algunos casos
 * [QML] AlgScrollView puede crear una advertencia en el registro en algunos casos (bucles de enlace)
 
 **Problemas conocidos:**
@@ -346,34 +346,34 @@ También actualizamos parte del contenido existente para perfeccionarlo :
 
 <b><b>Agregado:</b></b>
 
-* Resumen: actualizaciones de la ventana gráfica, exportación adecuada de la vista 2D, nuevos ayudantes de interfaz de usuario, una herramienta de simetría mejorada, nuevo contenido y un gran aumento en el rendimiento
+* Resumen: actualizaciones de la ventana gráfica, exportación de Vista 2D adecuada, nuevos ayudantes de interfaz de usuario, una herramienta de simetría mejorada, nuevo contenido y un gran aumento en el rendimiento
 * [Suavizado] [Ventana gráfica] Nuevo filtrado de suavizado temporal para la ventana gráfica 3D (mediante Configuración de visualización)
-* [Exportar] Exporte el contenido de la ventana gráfica 2D como una única textura
+* [Exportar] Exporte el contenido de la ventana gráfica 2D como una sola textura
 * [Exportar] [Tramado] Exponer tramado en la exportación
 * [Pila de capas] Colores en capas y carpetas
 * [Pila de capas] Activación y desactivación rápidas de varias capas y efectos
-* [Pila de capas] Navegación más sencilla por los modos de fusión con las teclas hacia arriba y el desplazamiento del ratón
-* [Proj]&#x200B;[UI] Manipulador de rotación adicional en los tres ejes para triplanar
+* [Pila de capas] Navegación más sencilla para los modos de fusión con las teclas de flecha arriba y desplazamiento del ratón
+* [Proj]&#x200B;[UI] manipulador de rotación adicional en los tres ejes para triplanar
 * [Proj]&#x200B;[Atajos] : y + para cambiar el tamaño del manipulador de Proyección de UV
-* [Shader] Controle los parámetros de capa revestida con canales en el sombreador recubierto de PBR
+* [Sombreador] Controlar los parámetros de las capas recubiertas con canales en el sombreador recubierto de PBR
 * [Substance] Expone nuevas entradas de textura basadas en malla para filtros y generadores
-* [Simetría]&#x200B;[Ventana gráfica]&#x200B;[IU] Controlar el desplazamiento de simetría con manipuladores
-* [Simetría]&#x200B;[Barra de herramientas contextual]&#x200B;[IU] Nuevo panel de simetría con opciones
+* [Simetría]&#x200B;[Ventana gráfica]&#x200B;[IU] Control de desplazamiento de simetría con manipuladores
+* [Simetría]&#x200B;[Barra de herramientas contextual]&#x200B;[IU] Nuevo panel simetría con opciones
 * [Simetría] Nuevo modo de intersección de línea de simetría
 * [Simetría] Nuevo cursor de clonación de simetría
 * [Simetría] [Métodos abreviados] Q para ocultar y -, + para cambiar el tamaño y cambiar para ajustar
-* [Log] Mejore los mensajes de error cuando no se pueden exportar texturas
+* [Registro] Mejore los mensajes de error cuando no se pueden exportar texturas
 * [Scripting] Permite cambiar o actualizar los recursos en Configuración de visualización
 * [Scripting] Permite crear o quitar canales en conjuntos de texturas
-* [Contenido]&#x200B;[Shaders] Añadir compatibilidad para la anisotropía con un sombreado específico (pbr-metal-rough-anisotropía-angle)
+* [Contenido]&#x200B;[Shaders] Añadir compatibilidad para la anisotropía con un sombreador específico (pbr-metal-rough-anisotropía-angle)
 * [Contenido] Actualización de la esfera de previsualización con anisotropía y ángulo modificado
 * [Contenido] Se ha actualizado el obturador de matFx
 * [Contenido] Nueva digitalización de caras sin problemas Texturing.XYZ
 * [Contenido] Nuevos procedimientos anisotrópicos
 * [Content] Nuevo filtro: entorno de iluminación generado
 * [Contenido] Nuevo mapa de entorno: studio automotive neutral
-* [Contenido] Nueva plantilla de proyecto: PBR - ángulo de Anisotropía de rugosidad metálica (con canales de anisotropía)
-* [Contenido] Nueva plantilla de proyecto: PBR - Rugosidad metálica Recubierta
+* [Contenido] Nueva plantilla de proyecto: PBR - Ángulo de anisotropía de rugosidad metálica (con canales de anisotropía)
+* [Contenido] Nueva plantilla de proyecto: PBR - rugosidad metálica recubierta
 * [SVT]&#x200B;[Motor] Texturas virtuales dispersas (SVT)
 * [SVT]&#x200B;[Preferencias]&#x200B;[IU] Opción de aceleración de compatibilidad de hardware SVT
 * [SVT]&#x200B;[Log] Información adicional para la función de texturas virtuales dispersas (p. ej., disco de tamaño)

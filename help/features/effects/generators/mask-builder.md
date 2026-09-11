@@ -14,7 +14,7 @@ ht-degree: 2%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_mask_builder_dark.png" alt=""/><strong>En:</strong> máscara, generador</td>
-    <td style="border: 0;" valign="top"><strong>Descripción</strong><br>El generador del Creador de máscaras es una versión heredada del generador del Editor de máscaras. Es un generador de máscaras multiusos que le permite combinar Suciedad, AO, Curvatura, Degradado, Espacio Mundial Normal, Scratches, Dispersión y Micro Detalles en una sola máscara.<br><br>El generador Mask Builder es muy flexible, pero debido a su complejidad, puede afectar el rendimiento más que la mayoría de los generadores.<br><br>El generador del Generador de máscaras genera una textura monocromática (en blanco y negro). Por lo tanto, resulta útil para generar máscaras basadas en los distintos mapas con bake. Se requieren mapas normales de posición, curvatura, oclusión ambiente y espacio mundial de <br><br>al horno como entradas de imagen. <a href="../../../baking/baking.md">Obtenga más información sobre el horneado aquí</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descripción</strong><br>El generador del Creador de máscaras es una versión heredada del generador del Editor de máscaras. Es un generador de máscaras multiusos que te permite combinar Suciedad, AO, Curvatura, Degradado, Espacio Mundial Normal, Scratches, Dispersión y Micro Detalles en una sola máscara.<br><br>El generador Mask Builder es muy flexible, pero debido a su complejidad, puede afectar el rendimiento más que la mayoría de los generadores.<br><br>El generador del Generador de máscaras emite una textura monocromática (en blanco y negro). Por lo tanto, resulta útil para generar máscaras basadas en los distintos mapas con bake. Se requieren mapas normales de posición, curvatura, oclusión ambiental y espacio mundial Hechos un bake como entradas de imagen. <br><br><a href="../../../baking/baking.md">Obtenga más información sobre cómo hacer un bake aquí</a>.</td>
   </tr>
 </table>
 
@@ -22,13 +22,13 @@ ht-degree: 2%
 
 | Nombre de entrada | Descripción |
 | --- | --- |
-| **Espacio mundial normal** Color | Utilice el mapa de normas espaciales mundiales horneadas. |
+| **Espacio mundial normal** Color | Utilice el mapa hecho un bake de las normas espaciales mundiales. |
 | **suciedad personalizada 1** Escala de grises | Utilice una textura personalizada o un punto de ancla. |
 | **suciedad personalizada 2** Escala de grises | Utilice una textura personalizada o un punto de ancla. |
 | **Entrada de Dispersión** Escala de grises | Utilice una textura personalizada o un punto de ancla. |
-| Color de **Posición** | Utilice el mapa de posición horneado. |
-| Escala de grises **Curvatura** | Utilice el mapa de curvatura horneado. |
-| **Oclusión ambiental** en escala de grises | Utilice el mapa de Oclusión ambiente al horno. |
+| Color de **Posición** | Utilice el mapa de posición hecha un bake. |
+| Escala de grises **Curvatura** | Utilice el mapa de curvatura hecho un bake. |
+| **Oclusión ambiental** en escala de grises | Utilice el mapa de Oclusión ambiental hecho un bake. |
 | **Micro Normal** Color | Utilice una textura normal personalizada o un punto de ancla. |
 | **Micro Height** Color | Utilice una textura personalizada o un punto de ancla. |
 
@@ -57,7 +57,7 @@ ht-degree: 2%
   </tr>
   <tr>
     <td><strong>Usar triplanar</strong></td>
-    <td>Cuando <strong>Usar triplanar </strong> está habilitado, la textura se proyecta desde tres direcciones (ejes X, Y, Z) en lugar de depender solo de UV. <br><ul><li>Sin la opción triplanar activada, la textura sigue el diseño UV.</li><li>Con triplanar activado, la textura se proyecta desde múltiples ángulos y se mezcla.</li></ul></td>
+    <td>Cuando <strong>Usar triplanar </strong> está habilitado, la textura se proyecta desde tres direcciones (ejes X, Y, Z) en lugar de depender solo de UV. <br><ul><li>Sin triplanar activado, la textura sigue el diseño UV.</li><li>Con triplanar activado, la textura se proyecta desde múltiples ángulos y se mezcla.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Contraste de fusión triplanar</strong></td>
@@ -69,7 +69,7 @@ ht-degree: 2%
   </tr>
   <tr>
     <td><strong>AO</strong></td>
-    <td>Ajuste en qué medida los ajustes de AO (Oclusión ambiental) afectan al resultado final de la máscara.</td>
+    <td>Ajuste en qué medida la configuración de AO (Oclusión ambiental) afecta al resultado final de la máscara.</td>
   </tr>
   <tr>
     <td><strong>Curvatura</strong></td>
@@ -97,7 +97,7 @@ ht-degree: 2%
 
 | Nombre del parámetro | Descripción |
 | --- | --- |
-| **Escala** | Ajuste el tamaño de la textura de la suciedad. |
+| **Escala** | Ajuste el tamaño de la textura de suciedades. |
 | **Usar Suciedad personalizada** | Activar o desactivar el uso de un mapa de Suciedad personalizado. Es sólo la visibilidad de la Suciedad personalizada 1. Para controlar la visibilidad de la Suciedad personalizada 2, ajuste el regulador Suciedad personalizada secundaria . |
 | **Suciedad secundaria personalizada** | Ajuste la visibilidad de la textura Suciedad personalizada 2. |
 | **Invertir** | Invierte los mapas de suciedades. |
@@ -127,7 +127,7 @@ ht-degree: 2%
 
 ### Degradado
 
-La posición del degradado se basa en el mapa de posición, que se puede hornear con la escala de normalización Escena completa o Por material. Si el material solo aparece en un área pequeña de la escena, pero el mapa de posición se realiza con una escala de Normalización de escena completa, puede resultar difícil ajustar el Rango de degradado para obtener el resultado deseado.
+La posición del degradado se basa en el mapa de posición, que se puede hornear con la escala de normalización Escena completa o Por material. Si el material solo aparece en un área pequeña de la escena, pero el mapa de posición se hace un bake con una escala de normalización completa de la escena, puede resultar difícil ajustar el rango de degradado para obtener el resultado deseado.
 
 | Nombre del parámetro | Descripción |
 | --- | --- |
@@ -174,11 +174,11 @@ Es posible que los valores **Front**, **back**, **left** y **right** no se corre
   </tr>
   <tr>
     <td><strong>Micro Height</strong></td>
-    <td>Activar o desactivar el uso de un mapa de Height Micro personalizado.</td>
+    <td>Activar o desactivar el uso de un mapa de altura micro personalizado.</td>
   </tr>
   <tr>
     <td><strong>Micro Normal</strong></td>
-    <td>Activar o desactivar el uso de un mapa Micro Normal personalizado.</td>
+    <td>Activar o desactivar el uso de un Mapa de normales Micro personalizado.</td>
   </tr>
   <tr>
     <td><strong>Tipo de curvatura</strong></td>
@@ -194,10 +194,10 @@ Es posible que los valores **Front**, **back**, **left** y **right** no se corre
   </tr>
   <tr>
     <td><strong>Radio AO</strong></td>
-    <td>Ajuste el radio (rango) de la Oclusión ambiente con detalles micro.</td>
+    <td>Ajuste el radio (rango) de la Oclusión ambiental con detalles micro.</td>
   </tr>
   <tr>
     <td><strong>PROFUNDIDAD AO</strong></td>
-    <td>Ajuste la profundidad (intensidad) de la Oclusión ambiente con detalles micro.</td>
+    <td>Ajuste la profundidad (intensidad) de la Oclusión ambiental con detalles micro.</td>
   </tr>
 </table>

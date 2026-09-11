@@ -75,7 +75,7 @@ Modo de fusión multiplicativa:
 ```
 
 
-## Localidad de muestreo del sombreador
+## localidad de muestreo de sombreador
 
 De forma predeterminada, los canales de documento se muestrean utilizando coordenadas de textura sin transformar para procesar optimizaciones durante la pintura.
 

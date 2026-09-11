@@ -36,7 +36,7 @@ Para tener acceso a la carpeta **plugins**, vaya a:
 
 El nombre de un complemento se basa en el nombre de su carpeta principal.
 
-Para este ejemplo, simplemente cree una nueva carpeta llamada **export-textures** dentro de la carpeta plugins.
+Para este ejemplo, solo tiene que crear una nueva carpeta denominada **export-texturas** dentro de la carpeta plugins.
 
 ### 3 - Creación de los archivos del plugin
 

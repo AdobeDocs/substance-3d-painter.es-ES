@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/viewport/3d-view.html"
 breadcrumb-title: ''
-description: Aprenda a utilizar la vista 3D en Substance 3D Painter para visualizar e interactuar con sus modelos 3D durante la pintura de texturas.
+description: Aprenda a utilizar la vista 3D en Substance 3D Painter para visualizar e interactuar con sus modelos 3D durante la textura.
 helpx_creative_field: ""
 helpx_description: Painter > Interface > Viewport > 3D view
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 ![](../../assets/3d-view.jpg){width="370px"}
 
-La vista 3D muestra el modelo 3D en condiciones de iluminación, lo que ayuda a observar cómo se define el material de superficie. Aquí también es donde es posible pintar directamente sobre el modelo 3D.
+El Vista 3D muestra el modelo 3D en condiciones de iluminación, lo que ayuda a observar cómo se define el material de superficie. Aquí también es donde es posible realizar la pintura directamente sobre el modelo 3D.
 
 ## Perfil
 
@@ -42,7 +42,7 @@ El cambio de cámara se puede hacer rápidamente con el [método abreviado de te
 
 Por defecto, el modo de visualización de la ventanilla se define en material para mostrar la iluminación del entorno. El menú desplegable permite cambiar el modo de visualización a solo, lo que aísla canales y mapas de malla individualmente.
 
-Esta iluminación se puede controlar mediante la [configuración de la pantalla](../display-settings/display-settings.md), así como mediante otras configuraciones de representación. La orientación de la iluminación también se puede cambiar con la ayuda del [método abreviado de teclado](../settings/shortcuts.md).
+Esta iluminación se puede controlar mediante la [configuración de la pantalla](../display-settings/display-settings.md), así como mediante otras configuraciones de representación. La orientación de la iluminación también se puede cambiar con la ayuda del [método abreviado del teclado](../settings/shortcuts.md).
 
 ## Eje
 

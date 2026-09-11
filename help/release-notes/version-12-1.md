@@ -36,7 +36,7 @@ El flujo de trabajo de banqueo se ha rediseñado para admitir la rebanada contin
 
 * <b>Pintura de corrección de sesgo</b>
 
-  Cuando la jaula está configurada en el modo <b>Basado en distancia</b>, las correcciones de sesgo se pueden pintar directamente en la malla de baja densidad para controlar la dirección de proyección utilizada durante el horneado. Las herramientas de pincel, borrador y relleno de polígono están disponibles, con un selector compacto de valores de escala de grises, simetría y los controles de pincel habituales (<b>Ctrl + clic con el botón derecho del ratón</b> para cambiar el tamaño del pincel, <b>X</b> para invertir el valor pintado). Las acciones de pintura de sesgo se pueden deshacer.
+  Cuando la jaula está establecida en el modo <b>Basado en distancia</b>, las correcciones de sesgo se pueden pintar directamente en la malla de baja densidad para controlar la dirección de proyección utilizada durante la hace un bake. Las herramientas de pincel, borrador y relleno de polígono están disponibles, con un selector compacto de valores de escala de grises, simetría y los controles de pincel habituales (<b>Ctrl + clic con el botón derecho</b> para cambiar el tamaño del pincel, <b>X</b> para invertir el valor pintado). Las acciones de pintura de sesgo se pueden deshacer.
 
   ![](../assets/v12/v12_skew_fix_rebake.gif)
 
@@ -48,19 +48,19 @@ El flujo de trabajo de banqueo se ha rediseñado para admitir la rebanada contin
 
 * <b>Lista de mapas de malla rediseñada</b>
 
-  La lista de mapas de malla proporciona controles por mapa: cambiar un mapa por la ventana gráfica <b>preview</b>, <b>quick bake</b> un solo mapa, cambiar su <b>reprocesamiento automático</b> y <b>sincronizar</b> su configuración entre los conjuntos de texturas (disponible cuando el proyecto tiene varios conjuntos de texturas). Cada control tiene información sobre herramientas al pasar el cursor.
+  La lista de mapas de malla proporciona controles por mapa: cambiar un mapa por la ventana gráfica <b>preview</b>, <b>quick haga un bake</b> un solo mapa, cambiar su <b>reprocesamiento automático</b> y <b>sincronizar</b> su configuración entre los conjuntos de texturas (disponible cuando el proyecto tiene varios conjuntos de texturas). Cada control tiene información sobre herramientas al pasar el cursor.
 
   ![](../assets/v12/v12_quick_bake.png)
 
-* <b>Botón de cocción simplificado</b>
+* <b>Botón hacer un bake simplificado</b>
 
-  El botón hornear de la ventanilla se ha reemplazado por un solo botón <b>Hornear</b> que muestra el número de mapas que se van a hornear (Conjuntos de texturas x Mosaicos UV x mapas de malla seleccionados).
+  El botón hacer un bake de ventanilla se ha reemplazado por un solo botón <b>Hacer un bake</b> que muestra el número de asignaciones que se van a hacer un bake (conjuntos de texturas x Mosaicos de UV x mapas de malla seleccionados).
 
   ![](../assets/v12/v12_bake_button.png)
 
 >[!NOTE]
 >
-> Para obtener más información sobre el procesamiento, consulte la [página de documentación dedicada](../baking/baking.md).
+> Para obtener más información sobre cómo hacer un bake, consulte la [página de documentación dedicada](../baking/baking.md).
 
 ### Compatibilidad con OpenPBR
 
@@ -70,25 +70,25 @@ El modelo de sombreado de OpenPBR ahora es compatible con Painter y se utiliza c
 
 * <b>Nuevo sombreador de OpenPBR y flujo de trabajo predeterminado</b>
 
-  Un sombreador que implementa la especificación OpenPBR 1.1 está disponible y se utiliza de forma predeterminada. Un nuevo proyecto creado sin una plantilla utiliza el sombreador de OpenPBR, y la primera entrada de la ventana del nuevo proyecto ahora se denomina <b>OpenPBR</b> en lugar de <b>ASM</b>. Se incluyen nuevas plantillas de proyecto para el OpenPBR y los proyectos de ejemplo se han actualizado para utilizarlas.
+  Un sombreador que implemente la especificación OpenPBR 1.1 está disponible y se utiliza de forma predeterminada. Un nuevo proyecto creado sin una plantilla utiliza el sombreador de OpenPBR, y la primera entrada de la ventana del nuevo proyecto ahora se denomina <b>OpenPBR</b> en lugar de <b>ASM</b>. Se incluyen nuevas plantillas de proyecto para el OpenPBR y los proyectos de ejemplo se han actualizado para utilizarlas.
 
   ![](../assets/v12/v12_openpbr_shader_icon.jpg)
 
-* <b>Shader seleccionado de la plantilla del proyecto al importar</b>
+* <b>Sombreador seleccionado de la plantilla de proyecto al importar</b>
 
-  Al importar un archivo USD o GLTF, el sombreado ahora se establece a partir de la plantilla del proyecto en lugar de adivinarse a partir del contenido del archivo. Se notifica un mensaje en el registro cuando un material y una plantilla utilizan flujos de trabajo que no coinciden.
+  Al importar un archivo USD o GLTF, el sombreador se establece ahora a partir de la plantilla del proyecto en lugar de adivinarse a partir del contenido del archivo. Se notifica un mensaje en el registro cuando un material y una plantilla utilizan flujos de trabajo que no coinciden.
 
   ![](../assets/v12/v12_openpbr_template.png)
 
 * <b>Convención de nombres de OpenPBR al exportar</b>
 
-  La ventana <b>Exportar texturas</b> tiene un nuevo menú desplegable para elegir la convención de nomenclatura. Se establece de forma predeterminada en OpenPBR cuando al menos un sombreador del proyecto lo utiliza y el esquema seleccionado se refleja en la lista de mapas de cada conjunto de texturas.
+  La ventana <b>Exportar Texturas</b> tiene un nuevo menú desplegable para elegir la convención de nomenclatura. Se establece de forma predeterminada en OpenPBR cuando al menos un sombreador del proyecto lo utiliza y el esquema seleccionado se refleja en la lista de mapas de cada conjunto de texturas.
 
   ![](../assets/v12/v12_openpbr_export.png)
 
 * <b>Compatibilidad con USD y MDL</b>
 
-  Los materiales de OpenPBR son compatibles a través del formato USD. También se ha añadido un nuevo MDL para permitir el procesamiento de materiales de OpenPBR en Iray, lo que proporciona representaciones de materiales más precisas.
+  Los materiales de OpenPBR se admiten a través del formato USD. También se ha añadido un nuevo MDL para permitir el procesamiento de materiales de OpenPBR en Iray, lo que proporciona representaciones de materiales más precisas.
 
 >[!NOTE]
 >
@@ -140,7 +140,7 @@ Se han añadido funciones y mejoras adicionales en esta versión:
 
 * <b>Historial de deshacer unificado</b>
 
-  Los modos de hornear y pintar ahora comparten el mismo historial de deshacer. El cambio entre el modo Hornear y el modo Pintar se graba como un paso que se puede deshacer, de modo que las acciones solo se pueden deshacer en el modo en el que ocurrieron.
+  Los modos de hacer un bake y pintar ahora comparten el mismo historial de deshacer. El cambio entre el modo de Hacer un bake y el modo de Pintura se registra como un paso que se puede deshacer, de modo que las acciones solo se pueden deshacer en el modo en el que ocurrieron.
 
 ## Tutoriales
 
@@ -177,11 +177,11 @@ Resumen: **Versión secundaria**
 **Corregido:**
 
 * \[Bloqueo\] Algunos Substance pueden producir un bloqueo al procesarse
-* \[Bloqueo\] Volver a importar la malla en el modo de procesamiento
+* \[Bloqueo\] Volver a importar la malla mientras está en modo de hacer un bake
 * \[Bloqueo\] Si no se inicializa la visualización de gráficos, se puede producir un bloqueo
-* \[Bloqueo\] La exportación de texturas puede bloquearse en algunos casos al actualizar el registro
-* \[Crash\] Bloqueo en el modo de procesamiento en algunos casos al cargar o actualizar el mapa de entorno
-* \[Horneado\] Si se vuelve a iniciar el horneado después de modificar el archivo de alta densidad, se puede producir un bloqueo
+* \[Bloqueo\] La exportación de texturas puede producir bloqueos en algunos casos al actualizar el registro
+* \[Bloqueo\] Bloqueo en modo de hace un bake en algunos casos al cargar o actualizar el mapa de entorno
+* \[Hacer un bake\] Si se vuelve a iniciar hacer un bake después de modificar el archivo de alta poly, se puede producir un bloqueo
 * \[Enviar a Photoshop\] No se puede exportar la máscara de capa
 * \[Motor\] El resultado del punto de ancla no se procesa entre una máscara y un canal de color
 
@@ -193,19 +193,19 @@ Resumen: Versión secundaria
 
 Añadido:
 
-* [Horneado de sesgo] Exponer modo normal de base de sesgo: malla o por triángulo
+* [Sesgar Haciendo un bake] Exponer el modo normal de base de sesgo: malla o por triángulo
 * [Propiedades] Hacer que los colores uniformes siempre se restablezcan al valor predeterminado de su canal
-* [OpenPBR] reagrupa los canales por categorías en la ventana Exportar texturas para crear plantillas de salida
+* [OpenPBR] reagrupa los canales por categorías en la ventana Exportar Texturas para crear plantillas de salida
 * Actualizar el motor de Substance a la versión 9.4.5
 
 Corregido:
 
 * [Proyecto] Abrir y guardar algunos proyectos puede tardar más de lo habitual
 * [Bloqueo] La recarga de varias mallas puede provocar un bloqueo
-* [Bloqueo] Al eliminar un canal en el modo de vista de máscara, se produce un bloqueo
-* [Bloqueo] Algunos Substance pueden producir un bloqueo al procesarse
-* [Sesgar pintura] La herramienta seleccionada en el sesgo de pintura permanece seleccionada después de cambiar al modo de pintura
-* [Configuración común de horneado] La configuración de la distancia de la jaula no actualiza la visualización de la malla metálica de la jaula y del sombreador
+* [Bloqueo] Si se elimina un canal mientras se está en el modo de vista de máscara, se produce un bloqueo
+* [Bloqueo] Algunos Substance pueden provocar un bloqueo cuando se procesan
+* [Sesgo de Pintura] La herramienta seleccionada en el sesgo de pintura permanece seleccionada después de cambiar al modo de pintura
+* [Haciendo un bake configuración común] La configuración de la distancia de la jaula no actualiza la visualización de la malla metálica de la jaula y del sombreador
 * El modo &quot;Vecino del espacio 3D&quot; del relleno UV [Engine] no funciona bien en triángulos finos
 * El resultado del punto de anclaje [Engine] no se procesa entre una máscara y un canal de color
 
@@ -213,7 +213,7 @@ Corregido:
 
 Fecha de publicación: <b>2026/06/23</b>
 
-Resumen: <b>Esta actualización es una versión importante, contiene mejoras en los panaderos con el nuevo estado predeterminado de la interfaz de usuario para panificación, mapa de sesgo de pintura, reprocesamiento automático, nueva opción para el desempaquetado UV automático para mallas de superficie dura y OpenPBRs. Para obtener más detalles, vea las notas de la versión completas.</b>
+Resumen: <b>Esta actualización es una versión importante, contiene mejoras de bakeres con el nuevo estado de IU predeterminado de hace un bake, mapa de sesgo de pintura, reprocesamiento automático, nueva opción para el desajuste UV automático para mallas de superficie dura y OpenPBRs. Para obtener más detalles, vea las notas de la versión completas.</b>
 
 <b>Agregado</b>:
 
@@ -267,8 +267,8 @@ Resumen: <b>Esta actualización es una versión importante, contiene mejoras en 
 * [Substance] Solo se tiene en cuenta el primer uso de un nodo de entrada/salida
 * [Sombreado] La Oclusión ambiental se aplica dos veces con conjuntos de texturas mediante diferentes métodos de mezcla
 * [Motor] Las texturas normales con un canal azul vacío (negro) pueden producir resultados de mezclas incorrectos
-* [GLTF Import] La fusión de Alpha está activada en todos los conjuntos de texturas
-* [GLTF Export] La fusión de Alpha siempre está activada al exportar
+* [Importación GLTF] La fusión alfa está activada en todos los conjuntos de texturas
+* [GLTF Export] La fusión alfa siempre está activada en la exportación
 * [Exportar] La geometría de doble cara siempre está desactivada al importar un archivo GLTF
 * [Javascript] La modificación de la configuración de los sombreadores no contribuye al historial de deshacer
 * [Muestras] La dispersión subsuperficial no está activada en Configuración de visualización para Meet Mat

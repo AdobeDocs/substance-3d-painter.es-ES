@@ -50,7 +50,7 @@ El Asistente para la activación tiene 3 opciones:
 
 >[!WARNING]
 >
-> Para instalar el archivo de licencia con el Asistente para la activación, asegúrese de ejecutar Painter como administrador y desactive temporalmente el antivirus.
+> Para instalar el archivo de licencia con el Asistente de activación, asegúrese de ejecutar Painter como administrador y desactive temporalmente el antivirus.
 
 ### Activación manual
 

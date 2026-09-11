@@ -22,7 +22,7 @@ ht-degree: 4%
 
 ![](../../assets/texture-set.png)
 
-Substance 3D Painter creará automáticamente un nuevo conjunto de texturas cada vez que encuentre un ID de material en una malla importada ([), a menos que un proyecto utilice el flujo de trabajo de mosaico UV (](../../features/uv-tiles/uv-tiles.md)).
+Substance 3D Painter creará automáticamente un nuevo conjunto de texturas cada vez que encuentre un ID de material en una malla importada ([), a menos que un proyecto utilice el flujo de trabajo de Mosaico de UV (](../../features/uv-tiles/uv-tiles.md)).
 
 Se espera que cada ID de material tenga UV únicos (o solapamiento lógico para la geometría simétrica).
 

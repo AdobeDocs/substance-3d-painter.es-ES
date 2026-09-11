@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # PBR Metal Rough - API del sombreador
 
-## Sombreador de PBR Metal/Rugoso Allegorithmic
+## Sombreador supuestamente algorítmico de metal/PBR rudo
 
 Importar desde bibliotecas.
 
@@ -37,7 +37,7 @@ import lib-utils.glsl
 ```
 
 
-Declare el material iray mdl para utilizarlo con este sombreador.
+Declare el material iray mdl para usar con este sombreador.
 
 ```
 //: metadata { 
@@ -69,7 +69,7 @@ uniform SamplerSparse specularlevel_tex;
 ```
 
 
-Punto de entrada del sombreado.
+Punto de entrada del sombreador.
 
 ```
 void shade(V2F inputs) 

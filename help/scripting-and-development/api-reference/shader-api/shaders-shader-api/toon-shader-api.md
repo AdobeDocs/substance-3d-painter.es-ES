@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Toon - API del sombreador
 
-## Sombreador de tonos básico
+## Sombreador de cartón básico
 
 Importar desde bibliotecas.
 
@@ -116,7 +116,7 @@ uniform bool use_curvature;
 ```
 
 
-Punto de entrada del sombreado.
+Punto de entrada del sombreador.
 
 ```
 void shade(V2F inputs) 

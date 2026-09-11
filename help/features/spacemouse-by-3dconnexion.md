@@ -42,7 +42,7 @@ Todos los modelos y versiones deben ser compatibles con la aplicación:
 | Modelo | Descripción | Visual |
 | --- | --- | --- |
 | **Modelo compacto** | Modelo base con control del mando. | <div><img class="confluence-embedded-image" data-preserve-html="true" src="../assets/3Dconnexion_SpaceMouse-Wireless-400x400.png" width="200"/></div> |
-| **Modelo Pro** | Control del mando y botones adicionales para el método abreviado de teclado. | <div><img class="confluence-embedded-image" data-preserve-html="true" src="../assets/3Dconnexion_SpaceMouse-Pro-400x400.png" width="200"/></div> |
+| **Modelo Pro** | Control del mando y botones adicionales para el método abreviado del teclado. | <div><img class="confluence-embedded-image" data-preserve-html="true" src="../assets/3Dconnexion_SpaceMouse-Pro-400x400.png" width="200"/></div> |
 | **Modelo empresarial** | Control del mando, botones adicionales y visualización contextual. | <div><img class="confluence-embedded-image" data-preserve-html="true" src="../assets/3Dconnexion_SpaceMouse-Enterprise-400x400.png" width="200"/></div> |
 
 >[!NOTE]

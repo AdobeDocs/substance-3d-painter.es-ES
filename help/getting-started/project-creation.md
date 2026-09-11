@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/getting-started/project-creation.html"
 breadcrumb-title: ''
-description: Aprende a crear un nuevo proyecto en Substance 3D Painter para empezar a pintar texturas en tus modelos en 3D.
+description: Aprenda a crear un nuevo proyecto en Substance 3D Painter para empezar a pintar texturas en sus modelos 3D.
 helpx_creative_field: ""
 helpx_description: Painter > Getting Started > Project Creation
 helpx_experience_level: ""
@@ -28,7 +28,7 @@ Se crea un nuevo [conjunto de texturas](../interface/texture-set/texture-set.md)
 
 ## Crear un nuevo proyecto
 
-Para crear un nuevo proyecto, haz clic en <b>Archivo > Nuevo</b> o usa el método abreviado de teclado <b>Ctrl + N</b>.
+Para crear un nuevo proyecto, haz clic en <b>Archivo > Nuevo</b> o usa el método abreviado <b>Ctrl + N</b>.
 
 A continuación, se explican todos los parámetros disponibles en la ventana Nuevo proyecto.
 
@@ -37,25 +37,25 @@ A continuación, se explican todos los parámetros disponibles en la ventana Nue
 | *Parámetro* | *Descripción* |
 | --- | --- |
 | **Archivo** | Haga clic en el botón &quot;Seleccionar&quot; para especificar un archivo de modelo 3D para cargar. [Aquí hay disponible una lista de formatos de archivo compatibles.](https://experienceleague.adobe.com/es/docs/substance-3d/general-knowledge/ecosystem/import-and-export-formats) |
-| **Plantilla** | Especifique una plantilla que defina la configuración predeterminada del proyecto. Una plantilla contiene los siguientes parámetros:<ul data-preserve-html="true"> <li data-preserve-html="true">Ajustes del conjunto de texturas.</li> <li data-preserve-html="true">Ajustes de visualización.</li> <li data-preserve-html="true">Configuración de horneado.</li> <li data-preserve-html="true">Recursos de sombreado (incluidas texturas adjuntas).</li> <li data-preserve-html="true">Archivo de mapa de entorno.</li> </ul>  **Nota:** Las plantillas son <b>\*.spt</b> archivos creados a partir de un proyecto existente a través del [menú Archivo](../interface/main-menu/file-menu.md) y guardados dentro de la carpeta Activos para compartirlos fácilmente con los integrantes del equipo. |
-| <b>Resolución</b> | Defina la resolución de textura por defecto del proyecto para cada conjunto de texturas. La resolución puede llegar a 4K (4096x4096 píxeles) cuando se trabaja dentro de la aplicación y a 8K (8192x8192 píxeles) cuando se exporta. La resolución se puede cambiar en cualquier momento más adelante mediante la [configuración del conjunto de texturas](../interface/texture-set/texture-set-settings.md).  **Nota:** La exportación de 8K requiere al menos 2,5 GB de VRam en la GPU para estar disponible. |
+| **Plantilla** | Especifique una plantilla que defina la configuración predeterminada del proyecto. Una plantilla contiene los siguientes parámetros:<ul data-preserve-html="true"> <li data-preserve-html="true">Ajustes del conjunto de texturas.</li> <li data-preserve-html="true">Ajustes de visualización.</li> <li data-preserve-html="true">Configuración de horneado.</li> <li data-preserve-html="true">Recursos de sombreador (incluidas las texturas adjuntas).</li> <li data-preserve-html="true">Archivo de mapa de entorno.</li> </ul>  **Nota:** Las plantillas son <b>\*.spt</b> archivos creados a partir de un proyecto existente a través del [menú Archivo](../interface/main-menu/file-menu.md) y guardados dentro de la carpeta Activos para compartirlos fácilmente con los integrantes del equipo. |
+| <b>Resolución</b> | Defina la resolución de textura predeterminada del proyecto para cada conjunto de texturas. La resolución puede llegar a 4K (4096x4096 píxeles) cuando se trabaja dentro de la aplicación y a 8K (8192x8192 píxeles) cuando se exporta. La resolución se puede cambiar en cualquier momento más adelante mediante la [configuración del conjunto de texturas](../interface/texture-set/texture-set-settings.md).  **Nota:** La exportación de 8K requiere al menos 2,5 GB de VRam en la GPU para estar disponible. |
 
 ### Configuración específica de tipo de archivo
 
-Cuando se selecciona un USD, otras configuraciones específicas del tipo de archivo quedan disponibles.
+Cuando se selecciona un USD, están disponibles otras configuraciones específicas del tipo de archivo.
 
 | *Parámetro* | *Descripción* |
 | --- | --- |
-| <b>Ámbito y variantes</b> | Seleccione una parte específica de un archivo USD. De forma predeterminada, se establece en &quot;Root&quot;, lo que significa que se utilizará todo el archivo USD para crear el proyecto de Painter.  <b>Cambiar...</b> abre una nueva ventana que muestra el contenido del USD. Si se detectan variantes, es posible seleccionar una variante específica para la creación de proyectos. El ámbito y las variantes se pueden cambiar después de crear el proyecto en la configuración de [Project configuration](../interface/project-configuration.md). Tenga en cuenta que:<ul data-preserve-html="true"> <li data-preserve-html="true">Solo la selección de variante de modelado tendrá algún impacto en el proyecto.</li> <li data-preserve-html="true">Las variantes anidadas dentro de variantes no se detectan actualmente.</li> </ul> |
+| <b>Ámbito y variantes</b> | Seleccione una parte específica de un archivo USD. De forma predeterminada, se establece en &quot;Raíz&quot;, lo que significa que se utilizará todo el archivo USD para crear el proyecto de Painter.  <b>Cambiar...</b> abre una nueva ventana que muestra el contenido del USD. Si se detectan variantes, es posible seleccionar una variante específica para la creación de proyectos. El ámbito y las variantes se pueden cambiar después de crear el proyecto en la configuración de [Project configuration](../interface/project-configuration.md). Tenga en cuenta que:<ul data-preserve-html="true"> <li data-preserve-html="true">Solo la selección de variante de modelado tendrá algún impacto en el proyecto.</li> <li data-preserve-html="true">Las variantes anidadas dentro de variantes no se detectan actualmente.</li> </ul> |
 | <b>Nivel de subdivisión</b> | Para la geometría que se debe subdividir, este ajuste le permite especificar cuánto desea subdividir la malla para texturizar en Painter. Si subdivision se establece explícitamente en &#39;none&#39; dentro del archivo USD, esta configuración estará atenuada.  La subdivisión se aplica después de desenvolver UV, por lo que esto no altera la forma de los UV de la malla. Los niveles de subdivisión se pueden cambiar después de crear el proyecto en la configuración de [Proyecto](../interface/project-configuration.md). |
-| <b>Marco</b> | Para los archivos USD en los que se detectan animaciones, esta configuración le permite seleccionar el marco que se utilizará para crear su proyecto de Painter. Si no hay ninguna animación en el archivo USD seleccionado, esta configuración está atenuada. El marco se puede cambiar después de crear el proyecto en la configuración de [proyecto](../interface/project-configuration.md). |
+| <b>Marco</b> | Para USD archivos en los que se detectan animaciones, esta configuración le permite seleccionar el marco que se utilizará para crear el proyecto de Painter. Si no hay ninguna animación en el archivo de USD seleccionado, esta configuración aparecerá atenuada. El marco se puede cambiar después de crear el proyecto en la configuración de [Proyecto](../interface/project-configuration.md). |
 
 ### Configuración avanzada
 
 | *Parámetro* | *Descripción* |
 | --- | --- |
 | **Formato de mapa de normales** | Define el Formato de mapa de normales del proyecto, puede ser<ul data-preserve-html="true"><li data-preserve-html="true"><strong>DirectX</strong> (X+, Y-, Z+)</li><li data-preserve-html="true"><strong>OpenGL</strong> (X+, Y+, Z+)</li></ul>  **Nota:** Como recordatorio:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Unreal Engine</b> usa DirectX de forma predeterminada.</li> <li data-preserve-html="true"><b>Unity</b> usa OpenGL de forma predeterminada.</li> </ul> |
-| **Calcular espacio tangente por fragmento** | Si se activa, los bitangents se calculan en el sombreador de fragmentos (píxeles) en lugar del sombreador de vértices. Este parámetro afecta a la forma en que el sombreador descodifica el mapa Normal en la ventana gráfica. Para cambiar esta configuración, será necesario volver a realizar el mapa Normal.  **Nota:** Como recordatorio:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>El motor irreal</b> necesita que esta configuración esté habilitada.</li> <li data-preserve-html="true"><b>Unity</b> necesita que esta configuración esté Deshabilitada (o habilitada si está utilizando el flujo de trabajo HDRP)</li> </ul> |
+| **Calcular espacio tangente por fragmento** | Si se activa, los bitangents se calculan en el sombreador del fragmento (píxel) en lugar del sombreador del vértice. Este parámetro afecta a la forma en que el sombreador descodifica el mapa Normal en la ventana gráfica. Para cambiar esta configuración, será necesario volver a realizar el mapa Normal.  **Nota:** Como recordatorio:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>El motor irreal</b> necesita que esta configuración esté habilitada.</li> <li data-preserve-html="true"><b>Unity</b> necesita que esta configuración esté Deshabilitada (o habilitada si está utilizando el flujo de trabajo HDRP)</li> </ul> |
 
 ### Configuración de mosaico de UV (UDIM)
 
@@ -65,20 +65,20 @@ Cuando se selecciona un USD, otras configuraciones específicas del tipo de arch
 
 | *Parámetro* | *Descripción* |
 | --- | --- |
-| **Usar flujo de trabajo de mosaico UV** | Si se marca, la malla importada se procesará de forma diferente para permitir pintar fuera del rango UV normal (0-1). Los proyectos que utilicen UDIM deben habilitar esta configuración. El procesamiento de la malla puede variar dependiendo de la configuración.   Para obtener más información, consulte la [documentación del mosaico UV](../features/uv-tiles/uv-tiles.md). |
-| <b>Conservar diseño de azulejo UV por materiales y habilitar la pintura en azulejos</b> | Los mosaicos UV (UDIM) se importan y agrupan por asignación de material en la malla. Esto significa que un único conjunto de texturas puede contener varios mosaicos UV visibles en paralelo en la vista 2D. Los mosaicos UV que se encuentran dentro del mismo conjunto de texturas se pueden pintar a lo largo sin problemas.  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r2-column-c1_image_copy" src="../assets/uvtiles-paintacross.jpg" width="500px"/></div> |
-| <b>Convertir mosaicos UV en conjuntos de texturas individuales (heredados)</b> | Los mosaicos UV (UDIM) se separan en conjuntos de texturas individuales y se les cambia el nombre, ignorando cualquier asignación de material. Cada mosaico UV se mueve al rango UV [0-1] para poder pintar.  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r3-column-c1_image" src="../assets/uvtiles-legacy.jpg" width="500px"/></div> |
+| **Usar flujo de trabajo de Mosaico de UV** | Si se marca, la malla importada se procesará de forma diferente para permitir pintar fuera del rango UV normal (0-1). Los proyectos que utilicen UDIM deben habilitar esta configuración. El procesamiento de la malla puede variar dependiendo de la configuración.   Para obtener más información, consulte la [documentación del Mosaico de UV](../features/uv-tiles/uv-tiles.md). |
+| <b>Conservar el diseño del Mosaico de UV por materiales y habilitar la pintura en mosaicos</b> | Los Mosaicos de UV (UDIM) se importan y agrupan por asignación de material en la malla. Esto significa que un único conjunto de texturas puede contener varios mosaicos UV visibles en paralelo en la vista 2D. Los mosaicos UV que se encuentran dentro del mismo conjunto de texturas se pueden pintar a lo largo sin problemas.  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r2-column-c1_image_copy" src="../assets/uvtiles-paintacross.jpg" width="500px"/></div> |
+| <b>Convertir Mosaicos de UV en conjuntos de Texturas individuales (heredados)</b> | Los mosaicos UV (UDIM) se separan en conjuntos de texturas individuales y se les cambia el nombre, ignorando cualquier asignación de material. Cada mosaico UV se mueve al rango UV [0-1] para poder pintar.  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r3-column-c1_image" src="../assets/uvtiles-legacy.jpg" width="500px"/></div> |
 
 ### Configuración de importación
 
 | ***Parámetro*** | ***Descripción*** |
 | --- | --- |
 | **Importar cámaras** | Si hay cámaras en el archivo de malla, se importarán al proyecto y se podrá acceder a ellas como ajustes preestablecidos para su visualización.  **Nota:** Substance 3D Painter no admite algunas cámaras en determinadas condiciones:<ul data-preserve-html="true"><li data-preserve-html="true">Cámaras físicas de 3DS Max.</li><li data-preserve-html="true">Cámaras ortográficas almacenadas en archivos Alembic (&#42;.abc).</li></ul> |
-| **Desempaquetar automáticamente** | Si se habilita, se generarán las UV que faltan en la malla importada. El procesamiento puede cambiar en función de la configuración seleccionada mediante el botón **Opciones**.Para obtener más información, consulte la [documentación sobre el desajuste automático de UV](../features/automatic-uv-unwrapping.md). |
+| **Desenvolvimiento automático** | Si se habilita, se generarán las UV que faltan en la malla importada. El procesamiento puede cambiar en función de la configuración seleccionada mediante el botón **Opciones**.Para obtener más información, consulte la [documentación sobre el desajuste automático de UV](../features/automatic-uv-unwrapping.md). |
 
 ### Importar mapas con bake
 
-Usa el botón <b>Agregar</b> para cargar archivos de textura como mapas de malla y asignarlos automáticamente en la configuración de [Conjunto de texturas](../interface/texture-set/texture-set-settings.md). Se debe seguir una convención de nomenclatura específica para que los mapas de malla se asignen automáticamente a sus conjuntos de texturas. Los mapas de malla también se pueden hornear directamente dentro de la aplicación; consulte la documentación de Horneado.
+Usa el botón <b>Agregar</b> para cargar archivos de textura como mapas de malla y asignarlos automáticamente en la configuración de [Conjunto de texturas](../interface/texture-set/texture-set-settings.md). Se debe seguir una convención de nomenclatura específica para que los mapas de malla se asignen automáticamente a sus conjuntos de texturas. Los mapas de malla también se pueden hacer un bake directamente dentro de la aplicación; consulte la documentación de Haga un bake.
 
 Convención de nomenclatura:<b> TextureSetName\_MeshMapName</b>
 

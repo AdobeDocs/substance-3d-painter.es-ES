@@ -39,25 +39,25 @@ Para generar la salida de este componente alfa, cree un nodo de salida con la co
 >
 > La salida específica de &quot;**\_Alpha**&quot; por canal no funciona con **materiales** normales. Para ocultar un canal con una máscara, se debe crear una salida específica con la siguiente convención de nomenclatura :
 > 
-> * Identificador : **canales\_Alpha**
+> * IDENTIFICADOR : **canales\_Alpha**
 > * Uso : **canales\_Alpha**
 
-## Lista de usos e identificadores de entrada/salida
+## Lista de usos y identificadores de entrada/salida
 
 >[!NOTE]
 >
-> Es posible usar **usage** o **identifier** en un nodo de entrada (el uso tiene la prioridad).
+> Es posible usar **usage** o **identificador** en un nodo de entrada (el uso tiene la prioridad).
 
-| Nombre del canal | Uso | Alpha de identificador/identificador |
+| Nombre del canal | Uso | IDENTIFICADOR / ALPHA IDENTIFICADOR |
 | --- | --- | --- |
 | *Oclusión de ambiente* | **ambientOcclusion** | **ambientOcclusion / ambientOcclusion\_Alpha** |
-| *Ángulo de Anisotropía* | **anisotropiángulo** | **anisotropyAngle / anisotropyAngle\_Alpha** |
-| *Nivel de Anisotropía* | **anisotropylevel** | **anisotropyLevel / anisotropyLevel\_Alpha** |
+| *Ángulo de anisotropía* | **anisotropiángulo** | **anisotropyAngle / anisotropyAngle\_Alpha** |
+| *Nivel de anisotropía* | **anisotropylevel** | **anisotropyLevel / anisotropyLevel\_Alpha** |
 | *Color base* | **basecolor** | **baseColor / baseColor\_Alpha** |
 | *Máscara de fusión* | **fusionando máscara** | **blendingmask / blendingmask\_Alpha** |
 | *Difusión* | **difusa** | **difusa / difusa\_Alpha** |
 | *Desplazamiento* | **desplazamiento** | **desplazamiento / desplazamiento\_Alpha** |
-| *Emissive* | **emisor** | **emisor / emisor\_Alpha** |
+| *Emissive* | **emisivo** | **emisivo / emisivo\_Alpha** |
 | *Brillo* | **brillo** | **brillo / brillo\_Alpha** |
 | *Height* | **height** | **height / height\_Alpha** |
 | *IOR* | **ior** | **ior / ior\_Alpha** |
@@ -83,8 +83,8 @@ Para generar la salida de este componente alfa, cree un nodo de salida con la co
 
 ![](../../assets/single-channel.png){width="650px"}
 
-En este ejemplo, el canal alfa Color base se extrae mediante un nodo de escala de grises para sobrescribir el canal **Roughness**.
+En este ejemplo, el canal alfa del Color base se extrae mediante un nodo de escala de grises para sobrescribir el canal **Roughness**.
 
 ![](../../assets/mix-channel.png){width="650px"}
 
-En este ejemplo, el canal **Roughness** se multiplica por el **color base**.
+En este ejemplo, el canal **Roughness** se multiplica por el **Color base**.

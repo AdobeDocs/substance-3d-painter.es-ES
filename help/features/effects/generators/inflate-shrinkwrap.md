@@ -14,7 +14,7 @@ ht-degree: 3%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_inflate_shrinkwrap.webp" alt=""/><br><strong>En:</strong> envolver, inflar, generador, semilla aleatoria</td>
-    <td style="border: 0;" valign="top"><strong>Descripción</strong><br>El generador Inflate Shrinkwrap añade arrugas que imitan el efecto de un material delgado que se estira sobre la superficie de la malla.<br><br>El generador Inflate Shrinkwrap produce una textura monocromática (en blanco y negro). Por lo tanto, resulta útil para generar máscaras que creen el efecto de envolver con contracción. Sin embargo, también se puede colocar directamente sobre una capa de relleno para añadir arrugas al height y a los canales normales.<br><br>Se requiere un mapa de curvatura al horno como entrada de imagen. <a href="../../../baking/baking.md">Obtenga más información sobre el horneado aquí</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descripción</strong><br>El generador Inflate Shrinkwrap añade arrugas que imitan el efecto de un material delgado que se estira sobre la superficie de la malla.<br><br>El generador Inflate Shrinkwrap genera una textura monocromática (en blanco y negro). Por lo tanto, resulta útil para generar máscaras que creen el efecto de envolver con contracción. Sin embargo, también se puede colocar directamente sobre una capa de relleno para añadir arrugas al height y a los canales normales.<br><br>Se requiere un mapa de curvatura hecho un bake como entrada de imagen. <a href="../../../baking/baking.md">Obtenga más información sobre cómo hacer un bake aquí</a>.</td>
   </tr>
 </table>
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 | Nombre de entrada | Descripción |
 | --- | --- |
-| Escala de grises **Curvatura** | Utilice el mapa de curvatura horneado. |
+| Escala de grises **Curvatura** | Utilice el mapa de curvatura hecho un bake. |
 
 ## Parámetros
 

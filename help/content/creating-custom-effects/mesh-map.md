@@ -20,17 +20,17 @@ ht-degree: 3%
 
 # Mapa de malla
 
-Para conectar automáticamente mapas de malla (texturas horneadas) cuando se añade un efecto en una capa, debe seguirse una convención de nomenclatura específica.
+Para conectar automáticamente mapas de malla (texturas hechas un bake) cuando se agrega un efecto en una capa, se debe seguir una convención de nomenclatura específica.
 
 >[!NOTE]
 >
-> Es posible usar **usage** o **identifier** en un nodo de entrada (el uso tiene la prioridad).
+> Es posible usar **usage** o **identificador** en un nodo de entrada (el uso tiene la prioridad).
 
 Esta es la convención de nomenclatura para cada mapa de malla:
 
 | Mapa de malla | Uso | Identificador |
 | --- | --- | --- |
-| *oclusión de ambiente* | **ambientOcclusionBase** | **ambiente\_oclusión** |
+| *Oclusión ambiental* | **ambientOcclusionBase** | **ambiente\_oclusión** |
 | *ID* | **id** | **id** |
 | *Curvatura* | **curvatura** | **curvatura** |
 | *Normal* | **normalBase** | **normal\_base** |

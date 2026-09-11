@@ -20,19 +20,19 @@ ht-degree: 0%
 
 # Administración de capas
 
-Painter calcula la pila de capas desde la parte inferior a la superior. Por lo tanto, si realiza cambios en la capa superior de la pila, Painter solo tendrá que calcular los cambios de dicha capa. Sin embargo, si realiza un cambio en una capa situada en la parte inferior de la pila, Painter debe calcular todas las capas superiores a dicha capa para calcular el resultado final.
+Painter calcula la pila de capas de abajo arriba. Por lo tanto, si realiza cambios en la capa superior de la pila, Painter solo tendrá que calcular los cambios de dicha capa. Sin embargo, si realiza un cambio en una capa situada en la parte inferior de la pila, Painter debe calcular todas las capas superiores a dicha capa para calcular el resultado final.
 
 Existen varias opciones que puede utilizar para reducir el coste de rendimiento de realizar cambios en las capas inferiores de la pila:
 
 +++Uso de máscaras de geometría
-Las máscaras de geometría son tu mejor herramienta de optimización. Siempre que pueda aislar una parte de la malla en la que trabajar, hágalo enmascarando capas o carpetas. Las máscaras geométricas funcionan aislando bien por UDIM o por parte de malla, de modo que las áreas que no están en la máscara no se procesan, lo que mejora el rendimiento. Como ventaja, también puede aislar visualmente esas partes en la ventana gráfica para facilitar el texturizado.
+Las máscaras de geometría son tu mejor herramienta de optimización. Siempre que pueda aislar una parte de la malla en la que trabajar, hágalo enmascarando capas o carpetas. Las máscaras geométricas funcionan aislando bien por UDIM o por parte de malla, por lo que las áreas que no están en la máscara no se procesan, lo que mejora el rendimiento. Como ventaja, también puede aislar visualmente esas partes en la ventana gráfica para facilitar el texturizado.
 
 Puedes [obtener más información sobre las máscaras de geometría con este tutorial](https://www.youtube.com/watch?v=TGASuIGSUns) o haciendo referencia a la documentación[&#128279;](../../interface/layer-stack/geometry-mask.md).
 
 +++
 
 +++Ocultar capas
-Para evitar ralentizaciones al realizar cambios en un nivel inferior de la pila de capas, puede ocultar capas sobre la capa editada hasta que haya terminado de realizar los ajustes. Painter no procesa las capas ocultas, por lo que si todas las capas superiores están ocultas, es como si estuviera editando la capa superior de la pila. De esta manera, las capas superiores solo se calcularán una vez, cuando las muestre, en lugar de después de cada cambio que realice.
+Para evitar ralentizaciones al realizar cambios en un nivel inferior de la pila de capas, puede ocultar las capas situadas sobre la capa editada hasta que haya terminado de realizar los ajustes. Painter no procesa las capas ocultas, por lo que si todas las capas superiores están ocultas, es como si estuviera editando la capa superior de la pila. De esta manera, las capas superiores solo se calcularán una vez, cuando las muestre, en lugar de después de cada cambio que realice.
 
 +++
 
@@ -52,7 +52,7 @@ Los filtros pueden ser costosos. Si es necesario utilizar un filtro cerca de la 
 +++
 
 +++Limitar el uso del modo de fusión de paso a través
-El paso a través se utiliza con frecuencia con filtros o capas de trazo de pincel. Es un modo de fusión costoso porque mira todas las capas inferiores y transforma su resultado, en lugar de reemplazar el resultado como el modo de fusión normal. Siempre que utilice el paso a través, intente combinarlo con carpetas y máscaras de geometría para minimizar el impacto en el rendimiento.
+El paso a través se utiliza con frecuencia con filtros o capas de trazo de pincel. Es un modo de fusión costoso porque mira todas las capas inferiores y transforma su resultado, en lugar de anular el resultado como el modo de fusión normal. Siempre que utilice el paso a través, intente combinarlo con carpetas y máscaras de geometría para minimizar el impacto en el rendimiento.
 
 +++
 
@@ -68,12 +68,12 @@ Los pinceles y las herramientas con una etiqueta naranja tienen un parámetro di
 
 +++
 
-+++Trabajar con una resolución de textura más baja
++++Trabajar con una resolución de textura inferior
 Disminuir la resolución de los documentos es la forma más rápida de mejorar el rendimiento. Duplicar la resolución supone un mapa 4 veces más grande, por lo que pasar de 1k a 2k supone hasta 4 veces más de coste de rendimiento. Como resultado, a menudo es útil trabajar con una resolución más baja durante el mayor tiempo posible.
 
 +++
 
-+++Definir pegatinas en modo de proyección plana
-El modo de pegatina predeterminado es Deformar, pero a menos que realmente esté deformando la pegatina moviendo sus puntos, cambiarla al modo Planar es mucho menos costoso.
++++Definir pegatinas en modo de proyección Plana
+El modo de pegatina predeterminado es Deformar, pero a menos que realmente esté deformando la pegatina moviendo sus puntos, cambiarla al modo Plano es mucho menos costoso.
 
 +++

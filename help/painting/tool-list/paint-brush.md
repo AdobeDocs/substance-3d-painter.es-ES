@@ -7,7 +7,7 @@ helpx_description: Painter > Painting > Tool list > Paint brush
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Pincel
+title: pincel de pintura
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: c20714f4cef21ccca0cdcd45dcdfd5ca6f4b96f2
@@ -18,11 +18,11 @@ ht-degree: 1%
 ---
 
 
-# Pincel
+# pincel de pintura
 
 La herramienta Pintura es la herramienta predeterminada de Substance 3D Painter para aplicar colores y propiedades de material en una malla 3D. Tiene parámetros específicos que se pueden editar a través de [Propiedades](../../interface/properties.md) .
 
-La herramienta Pintura simula trazos de pincel mediante distintos comportamientos y ajustes para dar la sensación de pintar en la malla 3D.
+La herramienta Pintura simula trazos de pincel mediante distintos ajustes y comportamientos para dar la sensación de pintar en la malla 3D.
 
 ## Barra de herramientas
 
@@ -71,12 +71,12 @@ Los parámetros de Pincel son los que definen el aspecto y la sensación del tra
 | **Opacidad del trazo** | Opacidad global máxima de una pincelada. A diferencia del parámetro Flujo, la opacidad del trazo no se puede controlar mediante la presión de la pluma, ya que se aplica al final del proceso de dibujo del trazo.Diferencia entre el flujo y la opacidad del trazo :<ul data-preserve-html="true"><li data-preserve-html="true"><strong> dejó </strong> : Flujo al 50 %, Opacidad del trazo al 100 %</li><li data-preserve-html="true"><strong> Derecha </strong> : Flujo al 100 %, Opacidad del trazo al 50 %</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-combined.gif" width="500px"/></div> **Nota:** Es posible continuar un trazo anterior como en la animación anterior presionando el método abreviado &quot;A&quot;. |
 | **Espaciado** | Distancia entre los sellos individuales de una pincelada. Los valores pequeños permiten crear líneas continuas, pero son más amplios de calcular, ya que dibujan mucho más sellos en total. Los valores altos permiten crear un espacio entre el sello que puede ser más adecuado para patrones específicos (como Uñas en madera). |
 | **Ángulo** | Orientación de los sellos dentro de la pincelada. Resulta útil girar el Alpha si no está bien alineado. Se puede combinar con Seguir trazado. |
-| **Seguir ruta** | Orienta los sellos dentro del trazo del pincel para seguir la dirección de pintura. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r6-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/follow-path-demo.png" width="400px"/></div> **Nota:** Para calcular la dirección del trazo, Substance 3D Painter compara el sello anterior con el actual, por lo que si se habilita Seguir trazado con un solo clic para pintar no se obtendrán resultados. Se requiere un mínimo de dos sellos para pintar un trazo de pincel con esta función activada. |
+| **Seguir ruta** | Orienta los sellos dentro del trazo del pincel para seguir la dirección de pintura. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r6-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/follow-path-demo.png" width="400px"/></div> **Nota:** Para calcular la dirección del trazo, Substance 3D Painter compara el sello anterior con el actual, por lo que si se habilita Seguir trazado con un solo clic en la pintura no se obtendrán resultados. Se requiere un mínimo de dos sellos para realizar una pintura de trazo de pincel con esta función activada. |
 | Variación de tamaño **1&rbrace;** | Aplique un valor de tamaño aleatorio por sello dentro del trazo del pincel. Un valor de 0 significa que no hay aleatoriedad; un valor de 1 significa total aleatoriedad. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r7-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-size-3.png"/></div> |
 | **Variación del flujo** | Aplique un valor de flujo aleatorio por sello dentro del trazo de pincel. Un valor de 0 significa que no hay aleatoriedad; un valor de 1 significa total aleatoriedad. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r8-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-flow.png"/></div> |
 | **Variación del ángulo** | Aplique un ángulo de rotación adicional aleatorio por sello dentro del trazo del pincel. Un valor de 0 significa que no hay aleatoriedad; un valor de 1 significa total aleatoriedad. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r9-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-rotation.png"/></div> |
 | **Variación de posición** | Aplique un desplazamiento de posición aleatorio por sello dentro del trazo del pincel. Un valor de 0 significa que no hay aleatoriedad; un valor de 1 significa total aleatoriedad. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r10-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-position.png"/></div> |
-| **Alineación** | Determina cómo se proyectarán/orientarán los sellos dentro del trazo del pincel en la superficie de la malla 3D. Están disponibles los siguientes valores:<ul data-preserve-html="true"><li data-preserve-html="true"><strong> Cámara </strong> : Orientar el sello hacia el punto de vista de la ventana gráfica</li><li data-preserve-html="true"><strong> Tangente `\|` Ajustar (predeterminado) </strong> : Oriente el sello para alinearlo con la superficie de la malla 3D. El sello también se deformará para ajustarse a la superficie.</li><li data-preserve-html="true"><strong> Tangente `\|` Planar </strong> :  Oriente el sello para alinearlo con la superficie de la malla 3D. El sello se desvanecerá si su borde está demasiado lejos de la superficie de la malla 3D. </li><li data-preserve-html="true"><strong> UV </strong> : Oriente el sello en función de las UV de la malla 3D.</li></ul> |
+| **Alineación** | Determina cómo se proyectarán/orientarán los sellos dentro del trazo del pincel en la superficie de la malla 3D. Están disponibles los siguientes valores:<ul data-preserve-html="true"><li data-preserve-html="true"><strong> Cámara </strong> : Orientar el sello hacia el punto de vista de la ventana gráfica</li><li data-preserve-html="true"><strong> Tangente `\|` Ajustar (predeterminado) </strong> : Oriente el sello para alinearlo con la superficie de la malla 3D. El sello también se deformará para ajustarse a la superficie.</li><li data-preserve-html="true"><strong> Tangente `\|` Plana </strong> :  Oriente el sello para alinearlo con la superficie de la malla 3D. El sello se desvanecerá si su borde está demasiado lejos de la superficie de la malla 3D. </li><li data-preserve-html="true"><strong> UV </strong> : Oriente el sello en función de las UV de la malla 3D.</li></ul> |
 | **Sacrificio de cara posterior** | Permite ignorar las superficies de la malla 3D que no estén alineadas con el sello. Para calcular qué partes de la malla 3D deben ignorarse, el motor de pintura observa la normal en la superficie de la malla 3D y compara su ángulo con el valor definido. |
 | **Espacio de tamaño** | Controla en qué espacio relativo se calcula el tamaño del pincel. Los valores posibles son:<ul data-preserve-html="true"><li data-preserve-html="true">Objeto <strong> (predeterminado) </strong> : El tamaño del pincel se sincroniza con el tamaño de malla 3D. Si mueve la cámara en la ventana gráfica, el tamaño se verá afectado para mantenerlo en relación con la malla 3D.</li><li data-preserve-html="true">Ventana gráfica </strong> de <strong> : El tamaño del pincel está vinculado a la ventana gráfica. Cambiar el tamaño de la interfaz afectará al tamaño del pincel. Mover la cámara no tendrá ningún efecto.</li><li data-preserve-html="true"><strong> Textura </strong> : El tamaño del pincel está vinculado al nivel de zoom de la ventana gráfica 2D.</li></ul> |
 
@@ -88,7 +88,7 @@ El Alpha es la máscara de escala de grises que se aplica sobre cada sello dentr
 
 >[!NOTE]
 >
-> Si un gráfico de Substance tiene expuesto un parámetro &quot;hardness&quot; (identificador), se puede controlar con la dureza [Shortcuts](../../interface/settings/shortcuts.md).
+> Si un gráfico de Substance tiene expuesto un parámetro &quot;dureza&quot; (identificador), se puede controlar con la dureza [Atajos](../../interface/settings/shortcuts.md).
 
 ## Física
 
@@ -122,7 +122,7 @@ La galería de símbolos es una máscara adicional de escala de grises para el t
 
 El ajuste del modo de mosaico controla cómo se repite la máscara de galería de símbolos en la ventana gráfica (este ajuste también afecta a las texturas):
 
-| *Modo de segmentación* | *Descripción* |
+| *Modo de mosaico* | *Descripción* |
 | --- | --- |
 | **Sin segmentación (predeterminado)** | La máscara de plantilla no se repite. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table3_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-viewport-notiling.png" width="350px"/></div> |
 | **Mosaico horizontal** | Repita la máscara de galería de símbolos solo en el eje horizontal. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table3_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-viewport-horizontal.png" width="350px"/></div> |

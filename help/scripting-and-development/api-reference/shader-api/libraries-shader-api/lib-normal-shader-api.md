@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-normal-shader-api.html"
 breadcrumb-title: ''
-description: Acceda a la referencia de API del sombreador Lib Normal de Substance 3D Painter para trabajar con mapas normales y normales de superficie en sombreadores personalizados.
+description: Acceda a la referencia de API del sombreador Normal de labios de Substance 3D Painter para trabajar con mapas de normales y normales de superficie en sombreados personalizados.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Normal - Shader API
 helpx_experience_level: ""
@@ -54,7 +54,7 @@ uniform int normal_blending_mode;
 ```
 
 
-Se utiliza para invertir el eje Y del mapa normal
+Se utiliza para invertir el eje Y del mapa de normales
 
 ```
 //: param auto normal_y_coeff 
@@ -70,7 +70,7 @@ const float HEIGHT_FACTOR = 400.0;
 ```
 
 
-Realizar la fusión entre 2 mapas normales
+Realizar la fusión entre 2 mapas de normales
 
 Esto se basa en la fusión de Whiteout http://blog.selfshadow.com/publications/blending-in-detail/
 
@@ -89,7 +89,7 @@ vec3 normalBlend(vec3 baseNormal, vec3 overNormal)
 ```
 
 
-Realizar una fusión orientada a detalles entre 2 mapas normales
+Realizar una fusión orientada a los detalles entre 2 mapas de normales
 
 Esto se basa en la fusión orientada a los detalles http://blog.selfshadow.com/publications/blending-in-detail/
 

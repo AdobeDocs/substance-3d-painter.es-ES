@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-with-low-virtual-memory.html"
 breadcrumb-title: ''
-description: Obtenga información sobre cómo solucionar los bloqueos de Substance 3D Painter causados por una memoria virtual baja para garantizar un rendimiento estable de la aplicación.
+description: Aprenda a corregir los bloqueos de Substance 3D Painter causados por una memoria virtual baja para garantizar un rendimiento de aplicación estable.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Crash with low virtual memory
 helpx_experience_level: ""

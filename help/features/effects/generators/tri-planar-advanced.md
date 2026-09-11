@@ -1,6 +1,6 @@
 ---
-title: Tri-Planar avanzado
-description: Aprenda a utilizar el generador Tri-Planar Advanced de Substance 3D Painter.
+title: Tri-Plano avanzado
+description: Aprenda a utilizar el generador Tri-Plano Advanced de Substance 3D Painter.
 source-git-commit: b7770a9497f0db047433aec32c31b57f8dc13ae7
 workflow-type: tm+mt
 source-wordcount: '372'
@@ -9,12 +9,12 @@ ht-degree: 2%
 ---
 
 
-# Tri-Planar avanzado
+# Tri-Plano avanzado
 
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_tri_planar_advanced.png" alt=""/><br><strong>En:</strong> máscara, generador</td>
-    <td style="border: 0;" valign="top"><strong>Descripción</strong><br>El generador Tri-Planar Advanced es una versión independiente del modo de fusión triplanar con controles manuales para la proyección completa, incluido el control sobre todos los valores de rotación y desplazamiento para cada eje independiente. En comparación con la proyección de relleno nativa, el generador Tri-Planar Advanced utiliza normales de espacio de mundo para fusionar los tres ejes de proyección, mientras que la implementación nativa solo se basa en geometría de baja polimerización. Esto se traduce en un mayor control y resultados más precisos.<br><br>El generador Tri-Planar Advanced genera una textura monocromática (blanco y negro). Por lo tanto, resulta útil para generar una fusión triplanar de una máscara personalizada o un punto de ancla que se vaya a utilizar como máscara.Se requieren mapas normales de posición de horneado y espacio de entorno como entradas de imagen. <br><br><a href="../../../baking/baking.md">Obtenga más información sobre el horneado aquí</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descripción</strong><br>El generador Tri-Plano Advanced es una versión independiente del modo de fusión triplanar con controles manuales para la proyección completa, incluido el control sobre todos los valores de rotación y desplazamiento para cada eje independiente. En comparación con la proyección de relleno nativa, el generador Tri-Plana Advanced utiliza normales de espacio de mundo para fusionar los tres ejes de proyección, mientras que la implementación nativa solo se basa en geometría de baja polimerización. Esto se traduce en un mayor control y resultados más precisos.<br><br>El generador Tri-Plano Advanced genera una textura monocromática (en blanco y negro). Como resultado, resulta útil para generar una fusión tri-plana de una máscara personalizada o un punto de ancla para utilizarlo como máscara.Se requieren mapas normales de posición Hecha un bake y espacio mundial como entradas de imagen. <br><br><a href="../../../baking/baking.md">Obtenga más información sobre cómo hacer un bake aquí</a>.</td>
   </tr>
 </table>
 
@@ -22,8 +22,8 @@ ht-degree: 2%
 
 | Nombre de entrada | Descripción |
 | --- | --- |
-| **Espacio normal del mundo** Color | Utilice el mapa de normas espaciales mundiales horneadas. |
-| Color de **Posición** | Utilice el mapa de posición horneado. |
+| **Espacio normal del mundo** Color | Utilice el mapa hecho un bake de las normas espaciales mundiales. |
+| Color de **Posición** | Utilice el mapa de posición hecha un bake. |
 | **máscara** en escala de grises | Utilice una textura personalizada o un punto de ancla. |
 
 ## Parámetros
@@ -56,7 +56,7 @@ ht-degree: 2%
 | Nombre del parámetro | Descripción |
 | --- | --- |
 | **Rotación X** | Gire la proyección de textura del eje X. |
-| **Desplazamiento X X** | Mueva la proyección de textura del eje X hacia la izquierda o hacia la derecha. |
+| **Desplazamiento X X** | Mueva la proyección de textura del eje X hacia la izquierda o la derecha. |
 | **Desplazamiento X Y** | Mueva la proyección de textura del eje X hacia arriba o hacia abajo. |
 
 ### Eje Y

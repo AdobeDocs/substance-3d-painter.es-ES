@@ -18,7 +18,7 @@ A partir de ZBrush 2026.2.0 (actualización de Maxon One de abril de 2026) y Sub
 
 ![Imagen promocional que muestra un recurso representado mientras está superpuesto por el mismo recurso en Zbrush y en Painter.](../../assets/zbrush_promotional.png)
 
-Con el plugin Substance Bridge, no es necesario pasar por el largo proceso de exportar archivos independientes de baja y alta densidad, importarlos a Painter y configurar y ejecutar pasteles.
+Con el plugin Substance Bridge, no es necesario pasar por el largo proceso de exportar archivos independientes de baja y alta poli, importarlos en Painter y configurar y ejecutar hagas un bake.
 
 Para empezar a utilizar el puente de Zbrush a Painter:
 
@@ -39,14 +39,14 @@ Puede configurar las siguientes opciones para la creación automática de proyec
 | Todo | Envía todas las subherramientas independientemente de la visibilidad. Ya sea que el globo ocular esté encendido o apagado, todo se envía. |
 | Visible | Envía sólo las subherramientas con el icono de ojo activado en la lista de subherramientas. |
 | Activo | Envía únicamente la SubTool seleccionada actualmente |
-| Enviar PolyPaint | Convierte PolyPaint en un mapa de textura y lo aplica como capa de relleno en Substance, donde puede pintar sobre él y fusionarse con él. |
+| Enviar PolyPaint | Convierte PolyPaint en un mapa de textura y lo aplica como capa de relleno en Substance, donde puede realizar pinturas sobre él y fusionarlo con él. |
 | Suavizar normales | Suaviza las normales tangentes al exportar, de modo que las mallas faceteadas aparecen suaves en Substance, al igual que la forma en que las procesan los motores de juegos. Desactive esta opción para ver las facetas reales de la geometría. |
-| Mapas de horneado automático | Ejecuta automáticamente los algoritmos bancarios de Substance cuando llega el modelo, generando mapas normales, oclusión de ambiente, curvatura y otros mapas de detalle a partir de la comparación de malla alta/baja. |
-| Forzar desajuste automático de UV | Activa el algoritmo de desajuste UV de Substance en cada subherramienta que llega. Si el modelo ya dispone de UV adecuados, deje esta opción desactivada, ya que los sobrescribe. |
-| Nivel de subdivisión | Controla los niveles de subdivisión que se envían. Actual sólo envía el nivel mostrado. Bajo y alto envía los niveles más bajo y más alto para el procesamiento y es la opción recomendada para la mayoría de los flujos de trabajo. |
+| Hacer un bake mapas automáticamente | Ejecuta automáticamente los algoritmos de hace un bake de Substance cuando llega el modelo, generando mapas de normales, oclusión ambiental, curvatura y otros mapas de detalle a partir de la comparación de malla alta/baja. |
+| Forzar Desenvolvimiento automático UV | Activa el algoritmo de desajuste UV de Substance en cada subherramienta que llega. Si el modelo ya dispone de UV adecuados, deje esta opción desactivada, ya que los sobrescribe. |
+| Nivel de subdivisión | Controla los niveles de subdivisión que se envían. Actual sólo envía el nivel mostrado. Bajo y alto envía los niveles más bajo y más alto para hacer un bake y es la opción recomendada para la mayoría de los flujos de trabajo. |
 | Conjuntos de texturas | Controla cómo se divide el espacio UV en Substance: Por SubTool (un conjunto de texturas por SubTool) o Por PolyGroup (un conjunto de texturas por PolyGroup dentro de cada SubTool). |
 
-Cuando Painter reciba el modelo, si la opción Auto-bake está activada, se iniciará el procesamiento. La subdivisión más baja del modelo es la malla importada como la malla de bajo contenido de poli, y la subdivisión más alta se utiliza como la subdivisión de alto contenido de poli para hornear detalles. ZBrush puede manejar un número mucho mayor de polígonos que Painter, así que asegúrese de que la malla de poli bajo tiene un tamaño de trabajo óptimo (esto dependerá de la máquina, pero menos de 1 millón es mejor).
+Cuando Painter reciba el modelo, si la opción hacer un bake automáticamente está activada, se iniciará haciendo un bake. La subdivisión más baja del modelo es la malla importada como la malla de baja densidad, y la subdivisión más alta se utiliza como la de alta densidad para hacer un bake los detalles. ZBrush puede manejar un número mucho mayor de polígonos que Painter, así que asegúrese de que la malla de poli bajo tiene un tamaño de trabajo óptimo (esto dependerá de la máquina, pero menos de 1 millón es mejor).
 
 Los conjuntos de texturas de Painter representan asignaciones de materiales. Un conjunto de texturas es igual a un espacio UV.
 

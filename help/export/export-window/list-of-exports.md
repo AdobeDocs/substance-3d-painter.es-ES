@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/getting-started/export/export-window/list-of-exports.html"
 breadcrumb-title: ''
-description: Aprenda a administrar la lista de exportaciones en la ventana de exportación de Substance 3D Painter para organizar las exportaciones de texturas.
+description: Obtenga más información sobre cómo gestionar la lista de exportaciones en la ventana de exportación de Substance 3D Painter para organizar las exportaciones de textura.
 helpx_creative_field: ""
 helpx_description: Painter > Getting Started > Export > Export window > List of exports
 helpx_experience_level: ""
@@ -22,4 +22,4 @@ ht-degree: 0%
 
 ![](../../assets/list-of-export.png){width="550px"}
 
-La <b>Lista de la pestaña de exportación </b>de la <b>ventana de exportación </b>muestra las texturas exportadas de cada conjunto de texturas, con una consola que indica el estado de la exportación, incluidos los mensajes de error.
+La <b>Lista de la ficha de exportación </b>de la <b>ventana de exportación </b>muestra las texturas exportadas de cada conjunto de texturas, con una consola que indica el estado de la exportación, incluidos los mensajes de error.

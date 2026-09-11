@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-during-export.html"
 breadcrumb-title: ''
-description: Obtenga información sobre cómo solucionar los bloqueos de Substance 3D Painter durante las operaciones de exportación para obtener flujos de trabajo de exportación de texturas fiables.
+description: Aprenda a corregir bloqueos de Substance 3D Painter durante las operaciones de exportación para obtener flujos de trabajo de exportación de textura fiables.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Crash during export
 helpx_experience_level: ""
@@ -26,17 +26,17 @@ Algunos casos específicos pueden hacer que Substance 3D Painter se bloquee dura
 
 La detección y recuperación de tiempo de espera (TDR) es un mecanismo de seguridad de Microsoft Windows que evita que una GPU bloquee el sistema con un cálculo interminable. Lamentablemente, este mecanismo es demasiado restrictivo para Substance 3D Painter de forma predeterminada.
 
-Para obtener más información, consulte: [Los controladores de la GPU se bloquean con cálculos largos (bloqueo de TDR)](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/gpu-drivers-crash-with-long-computations-128745489.html).
+Para obtener más información, consulte: [bloqueo de controladores de GPU con cálculos largos (bloqueo TDR)](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/gpu-drivers-crash-with-long-computations-128745489.html).
 
 ## Poca memoria virtual
 
-La exportación puede consumir una gran cantidad de RAM (memoria del equipo), en cuyo caso el sistema intentará recuperar la memoria virtual si el sistema se queda sin RAM. La memoria virtual suele ser memoria adicional almacenada en unidades de disco duro. Si el tamaño de la memoria virtual es demasiado pequeño, Substance 3D Painter se bloqueará porque se quedó sin memoria total.
+La exportación puede consumir una gran cantidad de RAM (memoria del equipo), en cuyo caso el sistema intentará recuperar la memoria virtual si el sistema se queda sin RAM. La memoria virtual suele ser memoria adicional almacenada en unidades de disco duro. Si el tamaño de la memoria virtual es demasiado pequeño, Substance 3D Painter generará un bloqueo porque se quedó sin memoria total.
 
 Para obtener más información, consulte: [Bloqueo con poca memoria virtual](crash-with-low-virtual-memory.md).
 
 ## Falta de espacio en disco
 
-Desde la introducción de Sparse Virtual Textures (SVT), Substance 3D Painter puede transmitir en el disco parte de la memoria caché para equilibrar el rendimiento. Si no hay suficiente espacio libre en el disco, puede producirse un bloqueo porque la aplicación no pudo transferir y escribir en la caché.
+Desde la introducción de Sparse Virtual Textures (SVT), Substance 3D Painter puede transmitir en el disco parte de la memoria caché para equilibrar el rendimiento. Si no hay suficiente espacio libre en el disco, puede que se produzca un bloqueo porque la aplicación no pudo transferir y escribir en él.
 
 La ubicación de la caché se puede mover desde la carpeta predeterminada de archivos temporales del sistema. Para obtener más información, consulte: [Texturas virtuales dispersas](../../../features/sparse-virtual-textures.md).
 

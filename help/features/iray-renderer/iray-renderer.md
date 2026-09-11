@@ -58,7 +58,7 @@ Iray utiliza un conjunto específico de parámetros, pero también propiedades c
 
 ## Configuración de pantalla
 
-La configuración de visualización le permite controlar la configuración de la cámara y de los efectos posteriores.\
+Los ajustes de Pantalla le permiten controlar la configuración de la cámara y de los efectos de posprocesamiento.\
 Son idénticos al procesamiento normal de la ventana gráfica, por lo que permiten estar sincronizados y evitar diferencias de iluminación no deseadas.
 
 Para obtener más información, consulte la página dedicada: [Configuración de pantalla](../../interface/display-settings/display-settings.md)

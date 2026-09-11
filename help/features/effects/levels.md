@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/effects/levels.html"
 breadcrumb-title: ''
-description: Aprenda a utilizar el efecto Niveles en Substance 3D Painter para ajustar el brillo, el contraste y la gama tonal de las texturas.
+description: Aprenda a utilizar el efecto Niveles en Substance 3D Painter para ajustar el brillo, el contraste y la gama de tonos de las texturas.
 helpx_creative_field: ""
 helpx_description: Painter > Features > Effects > Levels
 helpx_experience_level: ""
@@ -38,6 +38,6 @@ Para ajustar la gama de colores de la imagen, hay dos conjuntos de controles dis
 > El efecto de niveles solo se puede aplicar a un canal a la vez, como se selecciona en la opción *Canal afectado*. Si desea aplicar un nivel en varios canales, tendrá que crear varios efectos de niveles.
 
 * El cuadro desplegable Colores de la parte superior derecha le permite cambiar los niveles en la imagen rgb completa o solo en uno de los canales rojo, verde y azul.
-* La opción Abrazadera de la parte inferior derecha le permite fijar los valores de los niveles entre 0 y 1 (0-255). Esta opción siempre debe marcarse al trabajar con canales que no sean HDR (como **Color base**).
+* La opción Ajustar de la parte inferior derecha le permite fijar los valores de los niveles entre 0 y 1 (0-255). Esta opción siempre debe marcarse al trabajar con canales que no sean HDR (como el **Color base**).
 
 [Para entender mejor los niveles, debería ver nuestro curso sobre la Academia de Substance dedicado al tema.](https://academy.substance3d.com/courses/Mastering-Levels-Histogram)

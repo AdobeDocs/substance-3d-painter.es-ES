@@ -14,7 +14,7 @@ ht-degree: 3%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_light.webp" alt=""/><br><strong>En:</strong> máscara, generador</td>
-    <td style="border: 0;" valign="top"><strong>Descripción</strong><br>El generador de luz finge una luz direccional que brilla en tu malla, basándose en los mapas de Posición y Normal del Espacio Mundial.<br><br>El generador de luz se puede usar en una capa de relleno o como para crear una máscara. Cuando se utiliza en una capa de relleno, el generador emite canales de color, metal, rugosidad del specular, normales y de height que se pueden utilizar en diversas combinaciones para crear diferentes efectos. Se recomienda recorrer las vistas de los canales en el área de visualización para comprender cómo el generador de luz afecta a cada canal.Se requieren mapas normales de posición de horneado y espacio de entorno como entradas de imagen. <br><br><a href="../../../baking/baking.md">Obtenga más información sobre el horneado aquí</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descripción</strong><br>El generador de luz finge una luz direccional que brilla en tu malla, basándose en los mapas de Posición y Normal del Espacio Mundial.<br><br>El generador de luz se puede usar en una capa de relleno o como para crear una máscara. Cuando se utiliza en una capa de relleno, el generador emite canales de color, metal, rugosidad del specular, normales y de height que se pueden utilizar en diversas combinaciones para crear diferentes efectos. Se recomienda recorrer las vistas de los canales en el área de visualización para comprender cómo el generador de luz afecta a cada canal.Se requieren mapas normales de posición Hecha un bake y espacio mundial como entradas de imagen. <br><br><a href="../../../baking/baking.md">Obtenga más información sobre cómo hacer un bake aquí</a>.</td>
   </tr>
 </table>
 
@@ -22,8 +22,8 @@ ht-degree: 3%
 
 | Nombre de entrada | Descripción |
 | --- | --- |
-| **Espacio normal del mundo** Color | Utilice el mapa de normas espaciales mundiales horneadas. |
-| Color de **Posición** | Utilice el mapa de posición horneado. |
+| **Espacio normal del mundo** Color | Utilice el mapa hecho un bake de las normas espaciales mundiales. |
+| Color de **Posición** | Utilice el mapa de posición hecha un bake. |
 
 ## Parámetros
 
@@ -32,6 +32,6 @@ ht-degree: 3%
 | **Invertir** | Invierte el mapa de color de salida. |
 | **Ángulo horizontal** | Define el ángulo horizontal de la luz falsa. |
 | **Ángulo vertical** | Define el ángulo vertical de la luz falsa. |
-| **Resaltar brillo** | Ajuste el pliego de difuminado del área resaltada. |
+| **Resaltar Brillo** | Ajuste el pliego de difuminado del área resaltada. |
 | **Nivel de resaltado** | Ajusta el contraste del resaltado. |
 | **Atenuación de luz** | Ajusta la difuminación de la luz. |

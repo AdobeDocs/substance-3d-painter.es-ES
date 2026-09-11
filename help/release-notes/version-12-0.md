@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Versión 12.0
 
-<b>Substance 3D Painter 12.0</b> ofrece acoplamiento de texturas directamente en la pila de capas, un nuevo modo automático para la proyección de deformación, un conjunto renovado de efectos de procesamiento posterior y un flujo de trabajo mejorado de creación y configuración de proyectos.
+<b>Substance 3D Painter 12.0</b> ofrece acoplamiento de textura directamente en la pila de capas, un nuevo modo automático para la proyección de deformación, un conjunto renovado de efectos de procesamiento posterior y un flujo de trabajo mejorado de creación y configuración de proyectos.
 
 Fecha de publicación: <b>9 de marzo de 2026</b>
 
@@ -29,14 +29,14 @@ Fecha de publicación: <b>9 de marzo de 2026</b>
 
 Ahora hay disponible una nueva acción <b>Acoplar</b> en el menú contextual del botón derecho de la pila de capas. Se pueden combinar varias capas rápidamente agrupándolas (<b>Ctrl/Cmd + G</b>) y creando una copia acoplada (<b>Ctrl/Cmd + M</b>). El grupo de origen se deshabilita automáticamente, lo que deja la opción de eliminarlo o, alternativamente, guardarlo como <b>Material inteligente</b> para su posterior edición.
 
-Los elementos acoplados de la pila de capas también se pueden exportar directamente al disco para iteraciones rápidas en otras aplicaciones. Los grupos, las capas o las máscaras se pueden exportar de forma individual o por lotes mediante el menú contextual de la pila de capas.
+Los elementos acoplados de la pila de capas también se pueden exportar directamente al disco para realizar iteraciones rápidas en otras aplicaciones. Los grupos, las capas o las máscaras se pueden exportar de forma individual o por lotes mediante el menú contextual de la pila de capas.
 
 * <b>Acoplar texturas directamente en la pila de capas</b>\
   Cualquier grupo se puede acoplar pulsando <b>Ctrl/Cmd + M</b> o seleccionando la entrada <b>Acoplar grupo</b> en el menú contextual del botón derecho. Esto genera una copia combinada del contenido seleccionado mientras se deshabilita automáticamente el grupo de origen, manteniendo las capas originales intactas hasta que se tome la decisión de eliminarlas o restaurarlas.
 
   ![](../assets/v12_flatten_menu.jpg)
 * <b>Acoplar y exportar texturas al disco</b>\
-  Una acción de exportación dedicada en el menú que se muestra al hacer clic con el botón derecho copia el resultado acoplado de una capa, máscara o grupo y lo guarda directamente en el disco. Esto resulta útil para transferir contenido horneado a otras aplicaciones sin tener que pasar por la canalización de exportación de texturas completa.
+  Una acción de exportación específica en el menú contextual hace un bake el resultado acoplado de una capa, máscara o grupo y lo guarda directamente en el disco. Esto resulta útil para transferir contenido horneado a otras aplicaciones sin tener que pasar por la canalización de exportación de texturas completa.
 * <b>Operaciones por lotes</b>\
   Es posible seleccionar varias capas, grupos o máscaras a la vez y acoplarlas o exportarlas individualmente en una sola operación, lo que hace más eficiente procesar grandes porciones de una pila de capas en un solo paso.
 
@@ -69,7 +69,7 @@ Las pegatinas ahora se pueden adaptar automáticamente a superficies complejas, 
 >
 > Para obtener más información sobre la proyección de deformación, consulte la [página de documentación dedicada](../painting/fill-projections/warp-projection.md).
 
-### Nuevos efectos de publicación
+### Nuevos Efectos de posprocesamiento
 
 ![](../assets/v12_banner_post_effects2.jpg)
 
@@ -90,10 +90,10 @@ A continuación se muestra un ejemplo de lo que puede lograr con los nuevos efec
   * <b>Destello</b>: Crea rayas de luz alrededor de las fuentes de luz.
   * <b>Destello de lente</b>: Simula los reflejos ópticos del objetivo cuando una luz brillante brilla en la cámara.
   * <b>Aberración lateral</b>: Simula el halo cromático en los bordes de la imagen causado por las imperfecciones de la lente.
-  * <b>Viñeta</b>: Oscurece las esquinas y los bordes del fotograma para enfocar hacia el centro.
+  * <b>Viñeta</b>: Oscurece las esquinas y los bordes del marco para enfocar hacia el centro.
   * <b>Perfilar</b>: Aumenta el contraste de los bordes para que la imagen procesada parezca más nítida.
-  * <b>Película granulada</b>: Superpone ruido sutil para replicar la textura de la película analógica.
-  * <b>Asignación de tonos</b>: Reasigna los valores de luminancia HDR a un rango visible para obtener un aspecto más cinematográfico.
+  * <b>Película granulada</b>: Superpone un ruido sutil para replicar la textura de la película analógica.
+  * <b>Asignación de tonos</b>: Reasigna los valores de luminancia HDR en un rango visible para obtener un aspecto más cinematográfico.
   * <b>Corrección de color</b>: Ajusta el contraste, la saturación, el brillo y la temperatura para ajustar el equilibrio de color general.
 
 >[!NOTE]

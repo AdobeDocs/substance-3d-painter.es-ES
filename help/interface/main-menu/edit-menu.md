@@ -29,4 +29,4 @@ El menú de edición permite acceder rápidamente a las acciones de deshacer/reh
 | **Rehacer** | Dé un paso adelante en la pila de [Historial](../history.md). |
 | **Configuración del proyecto** | Abra la ventana [configuración del proyecto](../project-configuration.md) del proyecto actual. |
 | **Configuración** | Abra la ventana general [configuración de la aplicación](../settings/settings.md). |
-| **Mapas de malla de cocción** | Abra la ventana [Horneado](../../baking/baking.md). |
+| **Hacer un bake mapas de malla** | Abra la ventana [Haciendo un bake](../../baking/baking.md). |

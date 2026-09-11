@@ -22,7 +22,7 @@ ht-degree: 2%
 
 ![Imagen del banner](../assets/sendto_banner.jpg)
 
-<b>Enviar a</b> son acciones para exportar e importar fácilmente recursos de un proyecto a otra aplicación, evitando la necesidad de hacerlo manualmente. Enviar a se puede utilizar para exportar el modelo 3D y sus texturas a otra aplicación de procesamiento o para recibir materiales de Substance desde Substance 3D Designer.
+<b>Enviar a</b> son acciones para exportar e importar fácilmente recursos de un proyecto a otra aplicación, evitando la necesidad de hacerlo manualmente. Enviar a se puede utilizar para exportar el modelo 3D y sus texturas a otra aplicación de procesamiento o para recibir materiales de Substance de Substance 3D Designer.
 
 Las acciones Enviar a están disponibles a través del menú <b>Archivo > Enviar</b> a.
 

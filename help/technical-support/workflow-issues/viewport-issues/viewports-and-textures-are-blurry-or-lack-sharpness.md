@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/workflow-issues/viewport-issues/viewports-and-textures-are-blurry-or-lack-sharpness.html"
 breadcrumb-title: ''
-description: Aprenda a corregir texturas y puntos de visión borrosos en Substance 3D Painter para garantizar una calidad visual nítida y clara.
+description: Aprenda a corregir puntos de visión y texturas borrosos en Substance 3D Painter para garantizar una calidad visual nítida y clara.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Workflow Issues > Viewport Issues > Viewports and textures are blurry or lack sharpness
 helpx_experience_level: ""
@@ -30,6 +30,6 @@ Este comportamiento se puede cambiar en la [configuración principal](https://he
 
 ## Filtrado de textura
 
-Las ventanas gráficas usan mipmaps y filtros de texturas para poder transmitir y enviar [Texturas virtuales dispersas](../../../features/sparse-virtual-textures.md) para mejorar el rendimiento. Esto puede dar lugar a texturas borrosas en algunos casos.
+Las ventanas gráficas usan mipmaps y filtrado de texturas para poder transmitir por streaming [Texturas virtuales dispersas](../../../features/sparse-virtual-textures.md) y mejorar el rendimiento. Esto puede dar lugar a texturas borrosas en algunos casos.
 
 El filtrado de texturas se puede ajustar a través de la ventana Configuración de visualización en los parámetros [Configuración de la ventana gráfica](../../../interface/display-settings/viewport-settings.md).

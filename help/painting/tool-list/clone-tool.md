@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Herramienta Clonar
 
-Introducida en Substance 3D Painter 2, la herramienta Clonar comparte el mismo tipo de parámetros que la [herramienta de pintura](https://support.allegorithmic.com/documentation/display/SPDOC/Paint+brush) . Como su nombre indica, la herramienta Clonar le permite duplicar el contenido de una capa específica o la pila de capas completa de un punto a otro.
+Introducida en Substance 3D Painter 2, la herramienta Clonar comparte el mismo tipo de parámetros que la [herramienta pintura](https://support.allegorithmic.com/documentation/display/SPDOC/Paint+brush) . Como su nombre indica, la herramienta Clonar le permite duplicar el contenido de una capa específica o la pila de capas completa de un punto a otro.
 
 ![](../../assets/clone-01.gif)
 
@@ -37,8 +37,8 @@ Es posible actualizar el origen en cualquier momento presionando &quot;**V**&quo
 
 ![](../../assets/2018-06-12-18-11-59.png)
 
-De forma predeterminada, al pintar con la herramienta Clonar, la ubicación de origen se actualiza cuando se libera el pincel. Al deshabilitar el botón utilizado para el &quot;**comportamiento de origen de clonación**&quot;, el origen volverá a su estado definido al pulsar &quot;**V**&quot;. Esto puede resultar útil al pintar varias veces con la misma área de origen.
+De forma predeterminada, al pintar con la herramienta Clonar, la ubicación de origen se actualiza cuando se libera el pincel. Al deshabilitar el botón usado para el &quot;**comportamiento de origen del Clonar**&quot;, el origen volverá a donde se definió al pulsar &quot;**V**&quot;. Esto puede resultar útil al pintar varias veces con la misma área de origen.
 
-Una forma más inteligente de usar la herramienta Clonar es crear una capa de pintura y configurar el modo de fusión de todos los canales como &quot;Pass through&quot;. Esto permitirá duplicar cualquier información de una manera no destructiva de todas las capas ubicadas debajo de la &quot;Capa de clonación&quot;. Las capas siguientes permanecen intactas y la capa Clonar tendrá en cuenta las modificaciones que se apliquen posteriormente:
+Una forma más inteligente de usar la herramienta Clonar es crear una capa de pintura y configurar el modo de fusión de todos los canales como &quot;Pass through&quot;. Esto permitirá duplicar cualquier información de una manera no destructiva de todas las capas ubicadas debajo de la &quot;capa Clonar&quot;. Las capas siguientes permanecen intactas y cualquier modificación que se aplique posteriormente la tendrá en cuenta la capa Clonar:
 
 ![](../../assets/clone-02.gif)

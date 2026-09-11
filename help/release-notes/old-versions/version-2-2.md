@@ -30,7 +30,7 @@ Fecha de publicación : *21 de julio de 2016*
 
 ![](../../assets/dynamic-material-blending-materials-preview.jpg)
 
-Con esta nueva versión, agregamos un nuevo **flujo de trabajo** denominado **Material Layering**. Los flujos de trabajo de texturas tradicionales se basan en la creación de texturas con **alta resolución** para **conservar los detalles**, pero esto no es **conveniente** para el caso de uso. Un enfoque más interesante es **crear material de labranza pequeño** y **repetirlo dentro de un sombreador**. Permite conservar una cierta calidad y la capacidad de **acercar de verdad** el objeto mediante este sombreador **sin perder detalles**. El único problema es que para obtener una vista previa del resultado final era obligatorio ir al motor/procesador del juego que muestra el sombreador final. Eso ya no es cierto, ya que en esta nueva versión ahora es posible usar un sombreador similar dentro de Substance Painter, que te permite **visualizar el resultado final y pintar al mismo tiempo**.
+Con esta nueva versión, agregamos un nuevo **flujo de trabajo** denominado **Material Layering**. Los flujos de trabajo de texturas tradicionales se basan en la creación de texturas con **alta resolución** para **conservar los detalles**, pero esto no es **conveniente** para el caso de uso. Un enfoque más interesante es **crear material de labranza pequeño** y **repetirlo dentro de un sombreador**. Permite conservar una cierta calidad y la capacidad de **acercar de verdad** el objeto con este sombreador **sin perder detalles**. El único problema es que para previsualizar el resultado final era obligatorio ir al motor/procesador del juego que muestra el sombreador final. Eso ya no es cierto, ya que en esta nueva versión ahora es posible usar un sombreador similar dentro de Substance Painter, que te permite **visualizar el resultado final y la pintura al mismo tiempo**.
 
 Se ha agregado un **nuevo proyecto de muestra** denominado &quot;**FireHydrant**&quot; para mostrar el nuevo flujo de trabajo.
 
@@ -38,10 +38,10 @@ Se ha agregado un **nuevo proyecto de muestra** denominado &quot;**FireHydrant**
 
 Este nuevo flujo de trabajo abre dos formas de trabajar:
 
-* Los materiales se definen en el sombreado, solo puede pintar máscaras para fusionarlos
+* Los materiales se definen en el sombreador, solo puede usar máscaras de pintura para fusionarlos
 * Los materiales y las máscaras se pueden pintar juntos
 
-En cualquier caso, es posible definir una nueva pila de capas cada vez, lo que proporciona más libertad al crear las máscaras y los materiales. La gestión de capas es mucho más fácil de esta manera y cada pila puede tener su propio conjunto de canales específicos que se pueden fusionar en el sombreado final.\
+En cualquier caso, es posible definir una nueva pila de capas cada vez que da más libertad a la hora de crear las máscaras y materiales. La gestión de las capas es mucho más fácil de esta manera y cada pila puede tener su propio conjunto de canales específicos que se pueden fusionar en el sombreador final.\
 También tenemos un sombreador especial para Unity 5 y Unreal Engine 4 disponible en Share :
 
 * [Unity 5](https://share.allegorithmic.com/libraries/2126)

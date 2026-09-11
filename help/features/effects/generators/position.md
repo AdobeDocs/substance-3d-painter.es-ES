@@ -14,7 +14,7 @@ ht-degree: 3%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_position.webp" alt=""/><br><strong>En:</strong> malla, uv, distancia</td>
-    <td style="border: 0;" valign="top"><strong>Descripción</strong><br>El generador Posición utiliza los mapas normales de posición horneada y espacio de entorno para crear una máscara de degradado basada en la posición del material en el espacio 3D (como de arriba a abajo o de lado a lado).<br><br>El generador Posición genera una textura monocromática (en blanco y negro). Por lo tanto, resulta útil para generar máscaras de degradado basadas en la posición en el espacio de entorno.Se requieren mapas normales de posición de horneado y espacio de entorno como entradas de imagen. <br><br><a href="../../../baking/baking.md">Obtenga más información sobre el horneado aquí</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descripción</strong><br>El generador Posición utiliza los mapas normales de posición y espacio de mundo hechos un bake para crear una máscara de degradado basada en la posición del material en el espacio 3D (como de arriba a abajo o de lado a lado).<br><br>El generador Posición genera una textura monocromática (en blanco y negro). Por lo tanto, resulta útil para generar máscaras de degradado basadas en la posición en el espacio de entorno.Se requieren mapas normales de posición Hecha un bake y espacio mundial como entradas de imagen. <br><br><a href="../../../baking/baking.md">Obtenga más información sobre cómo hacer un bake aquí</a>.</td>
   </tr>
 </table>
 
@@ -22,9 +22,9 @@ ht-degree: 3%
 
 | Nombre de entrada | Descripción |
 | --- | --- |
-| Color de **textura** | Utilice una textura personalizada o un punto de ancla. |
-| **Degradado de posición** Color | Utilice el mapa de posición horneado. |
-| **Normales del espacio mundial** Color | Utilice el mapa de normas espaciales mundiales horneadas. |
+| Color de **Textura** | Utilice una textura personalizada o un punto de ancla. |
+| **Degradado de posición** Color | Utilice el mapa de posición hecha un bake. |
+| **Normales del espacio mundial** Color | Utilice el mapa hecho un bake de las normas espaciales mundiales. |
 
 ## Parámetros
 
@@ -34,7 +34,7 @@ ht-degree: 3%
 | **Desenfoque global** | Desenfoca la máscara final uniformemente después de combinar todos los degradados. |
 | **Equilibrio global** | Ajuste el equilibrio de la máscara final después de que todos los degradados se combinen entre blanco o negro, como un ajuste de brillo. |
 | **Contraste global** | Ajuste el contraste de la máscara final después de combinar todos los degradados. |
-| **Usar textura** | Activar o desactivar el uso de un mapa de textura personalizado. |
+| **Usar Textura** | Activar o desactivar el uso de un mapa de textura personalizado. |
 
 ### Degradado de posición
 
@@ -86,7 +86,7 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Conversión de escala de grises</strong></td>
-    <td>Establezca el método utilizado para convertir de color completo a escala de grises. El generador de <a href="grayscale-conversion.md">conversión de escala de grises tiene más información sobre cómo funciona cada método</a>.</td>
+    <td>Establezca el método utilizado para convertir de color completo a escala de grises. El generador de Conversiones de escala de grises <a href="grayscale-conversion.md">tiene más información sobre cómo funciona cada método</a>.</td>
   </tr>
   <tr>
     <td><strong>Modo de fusión</strong></td>
@@ -98,7 +98,7 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Contraste</strong></td>
-    <td>Ajuste el contraste y el difuminado de la textura personalizada.</td>
+    <td>Ajuste el contraste/difuminado de la textura personalizada.</td>
   </tr>
   <tr>
     <td><strong>Brillo</strong></td>

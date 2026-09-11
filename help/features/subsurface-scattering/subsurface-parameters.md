@@ -25,15 +25,15 @@ La implementación actual se basa en el método &quot;Perfiles de reflejo aproxi
 
 Para ver ejemplos de materiales basados en estos parámetros, consulte: [Tipo De Material Subsuperficial](subsurface-material-type.md).
 
-## Parámetros de sombreador/MDL
+## Parámetros sombreador/MDL
 
 ![](../../assets/shader-parameters.png)
 
-Disponible en la ventana [Configuración de sombreador](../../interface/shader-settings/shader-settings.md).
+Disponible en la ventana [Configuración de Sombreador](../../interface/shader-settings/shader-settings.md).
 
 | *Configuración* | *Descripción* |
 | --- | --- |
-| **Habilitar** | Activar o desactivar el efecto Dispersión subsuperficial en esta instancia de sombreado/mdl.  Se puede utilizar para desactivar el efecto de SSS en el material que no lo necesita. |
+| **Habilitar** | Activar o desactivar el efecto Dispersión subsuperficial en esta instancia de sombreador/mdl.  Se puede utilizar para desactivar el efecto de SSS en el material que no lo necesita. |
 | **Tipo de dispersión** | Define el comportamiento de la absorción de luz en el material:<ul data-preserve-html="true"><li data-preserve-html="true"><strong> translúcido</strong>: adecuado para materiales genéricos como el jade o el mármol, donde la luz puede penetrar profundamente en un objeto.</li><li data-preserve-html="true"><strong> Aspecto</strong>: adecuado para la piel orgánica, donde la luz se absorbe rápidamente y solo la dispersión cerca de la superficie.</li><li data-preserve-html="true"><strong>Red Shift/Rayleigh</strong>: más preciso que el ajuste de la piel para simular la piel superficial humana o de la criatura.</li></ul> |
 | **Escala** | Controla el radio/profundidad de la absorción de luz en el material. Este comportamiento del parámetro cambia en función del tamaño de la malla en la escena.Comparación entre una escala de 0,0, 0,2 y 1,0 en una cabeza de tamaño humano:   <div><img data-preserve-html="true" src="../../assets/scale-sss.jpg" width="650"/></div> |
 | **Color** | Color de la luz cuando el material lo absorbe.Comparación entre tres colores:   <div><img data-preserve-html="true" src="../../assets/color-sss.jpg" width="650"/></div> |

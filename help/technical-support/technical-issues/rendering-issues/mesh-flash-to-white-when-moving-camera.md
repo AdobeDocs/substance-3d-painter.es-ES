@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![](../../../assets/white-flash-svt-optim.gif){width="300px"}
 
-Con los proyectos antiguos que se mueven por la cámara en la ventana gráfica, es posible que se muestren brevemente destellos blancos creados por texturas blancas o vacías. Esto se debe a que el sistema [Texturas virtuales dispersas](https://substance3d.adobe.com/display/DRAFTPAINTER/Sparse+Virtual+Textures) (SVT) se basa en configuraciones de sombreado específicas que los sombreadores más antiguos no utilizan.
+Con los proyectos antiguos que se mueven por la cámara en la ventana gráfica, es posible que se muestren brevemente destellos blancos creados por texturas blancas o vacías. Esto se debe a que el sistema [Texturas virtuales dispersas](https://substance3d.adobe.com/display/DRAFTPAINTER/Sparse+Virtual+Textures) (SVT) se basa en configuraciones de sombreador específicas que los sombreadores más antiguos no utilizan.
 
 Para deshacerse del flash blanco, simplemente **actualiza** el **sombreador del proyecto**:
 

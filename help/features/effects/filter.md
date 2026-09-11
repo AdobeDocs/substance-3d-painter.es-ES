@@ -61,7 +61,7 @@ Selecciona el filtro que quieres usar en la estantería. Arrástralo y suéltalo
 
 ![](../../assets/filter-dragdrop.gif)
 
-Observe cómo en el ejemplo anterior el filtro eliminado ya tiene un modo Fusión de paso a través. Esto se aplica a todos los canales del documento.
+Observe cómo en el ejemplo anterior el filtro soltado ya tiene un modo Fusión de Acceso directo. Esto se aplica a todos los canales del documento.
 
 ## Adición de nuevos tipos de filtros
 

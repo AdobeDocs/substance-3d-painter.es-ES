@@ -25,7 +25,7 @@ ht-degree: 4%
 Los efectos son un conjunto de varias **acciones** que se pueden aplicar en **el contenido** o **la máscara** de una **capa** en la pila de capas de Substance 3D Painter.\
 Permiten una serie infinita de cambios, desde simples variaciones de color hasta complejas creaciones de máscaras. De forma predeterminada, Substance 3D Painter incluye varios efectos, pero también puede crear los suyos propios en Substance 3D Designer.
 
-Se pueden añadir efectos a la pila haciendo **clic con el botón derecho** en cualquier capa o máscara, o haciendo clic en el botón **dedicado en la parte superior** de la ventana de la pila de capas.\
+Se pueden añadir efectos a la pila haciendo **clic con el botón derecho** en cualquier capa o máscara, o haciendo clic en el botón **dedicado en la parte superior** de la ventana de pila de capas.\
 La mayoría de los efectos tienen un modo de fusión y opacidad, como las capas normales, y se pueden reordenar, lo que le permite crear una pila completa de efectos para crear una máscara compleja, por ejemplo.
 
 >[!NOTE]

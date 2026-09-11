@@ -73,18 +73,18 @@ Con el nuevo flujo de trabajo de actualización automática, ahora es posible ma
 
 ![](../assets/banner_filled_path.jpg)
 
-La herramienta de trazado relleno es un nuevo tipo de herramienta de trazado que permite crear formas en la superficie del modelo 3D rellenadas con un color uniforme. Permite la creación de patrones complejos.
+La herramienta Trazado relleno es un nuevo tipo de herramienta Trazado que permite crear formas en la superficie del modelo 3D rellenas con un color uniforme. Permite la creación de patrones complejos.
 
 * <b>Nueva herramienta para crear una ruta con un color relleno</b>\
   Hay disponible una nueva herramienta llamada <b>Ruta rellena</b> en el menú Ruta. Esta herramienta puede rellenar el área interior de un trazado cuando se cierra. El relleno se realiza con un color uniforme para cada canal del conjunto de texturas.
 
   ![](../assets/filled_path_menu.png)
 * <b>Adaptarse a la superficie automáticamente</b>\
-  La herramienta Trazado relleno puede adaptarse a cualquier tipo de superficie; no se limita a las áreas planas. Puede cruzar brechas y límites de objetos.
+  La herramienta Trazado relleno puede adaptarse a cualquier tipo de superficie, no se limita a las áreas planas. Puede cruzar brechas y límites de objetos.
 
   ![](../assets/filled_path_across_gaps.png)
-* <b>Compatible con simetría reflejada y radial</b>\
-  Esta nueva herramienta también admite las propiedades de simetría, lo que abre posibilidades para crear formas complejas.
+* <b>Compatible con espejo y simetría radial</b>\
+  Esta nueva herramienta también admite las propiedades de simetría, lo que abre la posibilidad de crear formas complejas.
 
   ![](../assets/filled_path_symmetry.png)
 * <b>Cambio sencillo entre herramientas de ruta</b>\
@@ -99,7 +99,7 @@ La herramienta de trazado relleno es un nuevo tipo de herramienta de trazado que
 En esta nueva versión se han añadido muchas mejoras de comportamiento y calidad de vida para facilitar el uso de las herramientas de trazado:
 
 * <b>Vista previa de la ruta (alternar con Mayús+P)</b>\
-  Al editar un trazado, aparecerá una nueva línea de puntos para indicar cómo reaccionará el trazado al añadir un nuevo punto al final de la curva. Esto hace que los cambios sean más predecibles. Esta vista previa se puede deshabilitar a través del menú de configuración dedicado o usando el método abreviado de teclado <b>Mayús+P</b>.
+  Al editar un trazado, aparecerá una nueva línea de puntos para indicar cómo reaccionará el trazado al añadir un nuevo punto al final de la curva. Esto hace que los cambios sean más predecibles. Esta vista previa se puede deshabilitar a través del menú de configuración dedicado o usando el método abreviado <b>Shift+P</b>.
 
   ![](../assets/path_preview.gif)
 * <b>Ajuste recto de línea y ángulo</b>\
@@ -129,7 +129,7 @@ En esta nueva versión se han añadido muchas mejoras de comportamiento y calida
 
   ![](../assets/paste_vertices.png)
 * <b>Se ha mejorado el comportamiento de visualización de la IU de mostrar/ocultar</b>\
-  Si presiona los métodos abreviados de teclado de los manipuladores de la ventanilla (<b>W</b>, <b>S</b> o <b>D</b>), ahora los alternará sobre la marcha. También se pueden activar o desactivar desde los botones específicos de la barra de herramientas contextual. Este cambio permite mostrarlos u ocultarlos rápidamente sin ocultar también los demás elementos visuales de la ventana gráfica (como la curva de trazado y los puntos).
+  Al pulsar los métodos abreviados de teclado de los manipuladores de la ventanilla (<b>W</b>, <b>S</b> o <b>D</b>), ahora se cambiarán sobre la marcha. También se pueden activar o desactivar desde los botones específicos de la barra de herramientas contextual. Este cambio permite mostrarlos u ocultarlos rápidamente sin ocultar también los demás elementos visuales de la ventana gráfica (como la curva de trazado y los puntos).
 
   ![](../assets/manipulator_toggle.png)
 * <b>Ahora se puede acceder a Rotar y Escalar en los vértices de la ruta</b>\
@@ -151,13 +151,13 @@ En esta nueva versión se han añadido muchas mejoras de comportamiento y calida
 * <b>Centrarse en la ruta seleccionada actualmente </b>\
   Al presionar el método abreviado de teclado <b>F</b>, ahora se centrará en una ruta en lugar de en todo el modelo 3D al editar una ruta.
 * <b>Eliminar ruta de acceso con retroceso </b>\
-  Ahora se pueden eliminar rutas presionando el método abreviado de teclado <b>Retroceso </b>.
+  Ahora se pueden eliminar las rutas presionando el método abreviado <b>Retroceso </b>keyboard.
 
-### Nuevos filtros de Substance y generadores de texturas
+### Nuevos filtros de Substance y generadores de textura
 
 ![](../assets/banner_filters.jpg)
 
-La nueva versión introduce algunos filtros nuevos, así como algunos patrones de procedimiento.
+La nueva versión presenta algunos filtros nuevos y algunos patrones procedimientos.
 
 <b>Filtros:</b>
 
@@ -174,7 +174,7 @@ La nueva versión introduce algunos filtros nuevos, así como algunos patrones d
 
   ![](../assets/filter_kuwahara.jpg)
 * <b>Distancia direccional</b>\
-  Se trata de un filtro sencillo para estirar los píxeles en una dirección determinada en el espacio 2D. Se puede utilizar para difuminar trazos de pincel o crear fácilmente fugas.
+  Se trata de un filtro sencillo para estirar píxeles en una dirección determinada en un espacio 2D. Se puede utilizar para difuminar trazos de pincel o crear fácilmente fugas.
 
   ![](../assets/filter_directional_distance.jpg)
 * <b>Suavizado de bisel</b>\
@@ -184,14 +184,14 @@ La nueva versión introduce algunos filtros nuevos, así como algunos patrones d
 * <b>Conversión en escala de grises </b>\
   Este nuevo filtro se puede utilizar para convertir cómodamente imágenes o canales a escala de grises, lo que proporciona control sobre los canales Rojo, Verde y Azul si es necesario.
 
-<b>Generadores de texturas y ruidos</b>:
+<b>Generadores de Textura y ruidos</b>:
 
 * <b>Generador de Scratches </b>\
   Generador de arañazos mejorado que simula hilos finos con varios controles de aleatoriedad.
 * <b>Triangle Grid </b>\
   Ruido creado a partir de las conexiones de los triángulos, con controles de aleatoriedad y smoothness.
 * <b>Mosaico aleatorio </b>\
-  Un generador de texturas adaptado a los patrones de azulejos de construcción.
+  Un generador de textura adaptado a los patrones de azulejos de construcción.
 * <b>Ruidos fractales de Voronoi y Voronoi </b>\
   Ya disponibles como ruidos 3D, estas nuevas versiones 2D se pueden utilizar para trabajar y embaldosar en espacios 2D o UV.
 * <b>Ruidos actualizados a la última versión de Designer </b>\
@@ -199,13 +199,13 @@ La nueva versión introduce algunos filtros nuevos, así como algunos patrones d
 
 ![](../assets/noises.jpg)
 
-### Nueva jaula automática para hornear (experimental)
+### Nueva jaula automática para hacer un bake (experimental)
 
 ![](../assets/banner_bake_cage.jpg)
 
-Al hornear una malla de alta densidad sobre mallas de baja densidad, ahora puedes seleccionar una nueva opción <b>Automático </b> al especificar el modo de jaula. Este nuevo método intenta calcular una malla de jaula automática que se ajuste mejor a las mallas de alto contenido de poli para evitar artefactos.
+Al hacer un bake una malla de alta densidad en una malla de baja densidad, ahora puedes seleccionar una nueva opción <b>Automatic </b> al especificar el modo de jaula. Este nuevo método intenta calcular una malla de jaula automática que se ajuste mejor a las mallas de alto contenido de poli para evitar artefactos.
 
-* <b>Nueva configuración en los parámetros comunes de procesamiento </b>\
+* <b>Nueva configuración en los parámetros comunes de hacer un bake </b>\
   Dentro del parámetro común de horneado, el parámetro de jaula se ha sustituido por una selección entre tres opciones:\
   <b>Basado en distancia</b>: los ajustes de distancia frontal/trasera por defecto.\
   <b>Automático (experimental)</b>: la nueva jaula automática.\
@@ -235,14 +235,14 @@ En esta versión se han realizado cambios específicos relacionados con la plata
 En esta versión también se han añadido otras funciones:
 
 * <b>Habilitar solo el canal de color base en la nueva capa o efecto de relleno</b>\
-  Ahora, de forma predeterminada, al crear una nueva capa de relleno o un efecto, solo se habilitará el canal Color base. (Este cambio no se aplica al arrastrar y soltar un recurso que se crearía a sí mismo una capa o un efecto de relleno).\
+  Ahora, de forma predeterminada, al crear una nueva capa de relleno o un efecto, solo se habilitará el canal de Color base. (Este cambio no se aplica al arrastrar y soltar un recurso que se crearía a sí mismo una capa o un efecto de relleno).\
   Basándonos en los comentarios de la comunidad, hemos realizado este cambio para mejorar el rendimiento evitando activar el cálculo de canales que se desactivan posteriormente. Esto debería ayudar a la capacidad de respuesta cuando se trabaja en alta resolución o con azulejos UV.\
-  Ten en cuenta que puedes volver a habilitar rápidamente todos los canales haciendo clic en el botón Color base mientras mantienes el método abreviado de teclado <b>ALT </b>.
+  Ten en cuenta que puedes volver a habilitar rápidamente todos los canales haciendo clic en el botón del Color base mientras mantienes el método abreviado <b>ALT </b>keyboard.
 
   ![](../assets/base_color_single_channel.png)
-* <b>Cambiar el nombre de los mosaicos UV para exportar texturas</b>\
-  En la ventana de lista Conjunto de texturas no es posible añadir un nombre personalizado a los Mosaicos UV. A diferencia de la descripción, el nombre personalizado se puede recuperar en los ajustes preestablecidos de exportación mediante la etiqueta dedicada <b>$uvTileName</b>.\
-  Esta nueva funcionalidad permite sustituir números UDIM por nombres específicos durante la exportación.
+* <b>Cambiar el nombre de los Mosaicos de UV para exportar texturas</b>\
+  En la ventana de lista Conjunto de texturas no es posible añadir un nombre personalizado en los Mosaicos de UV. A diferencia de la descripción, el nombre personalizado se puede recuperar en los ajustes preestablecidos de exportación mediante la etiqueta dedicada <b>$uvTileName</b>.\
+  Esta nueva funcionalidad permite reemplazar los números de UDIM en nombres específicos durante la exportación.
 
   ![](../assets/uv_tile_rename.png)
 * <b>Nuevo botón de exportación disponible en la barra de herramientas de Dock</b>\
@@ -322,12 +322,12 @@ Resumen: <b>Versión principal, nueva función de actualización automática, he
 <b>Corregido</b>:
 
 * [Nvidia] [Horneado] Los resultados del panadero de oclusión ambiental tienen defectos
-* [Bloqueo] Al hacer clic Alt para cambiar la visibilidad del conjunto de texturas deshabilitado, se produce un bloqueo
+* [Bloqueo] Al pulsar la tecla Alt, se cambia la visibilidad del conjunto de texturas desactivado y se abre un bloqueo
 * [Horneado] La jaula se tiene en cuenta con un bajo nivel de poli como un alto parámetro de poli
-* [Horneado] El color del material para el panadero de mapas de ID no funciona con el formato de archivo USD
+* [Haciendo un bake] El color del material para el baker del mapa de ID no funciona con USD formato de archivo
 * [Rendimiento] Procesamiento lento en la ventana gráfica con mallas y muchos objetos superpuestos
 * [Qt] El selector de color personalizado no tiene ajustes de Administración de color
-* [Viewport] Los manipuladores 3D parpadean cuando se activa el suavizado
+* [Ventana gráfica] Los Manipuladores 3D parpadean cuando se activa el suavizado
 * Ranura de escala de grises del borrador en el estado del pincel de bloques de máscara
 * [Log] No se notifican mensajes de error muy largos al importar mallas
 * [Contenido] Error tipográfico en la lista de nombres de ajustes preestablecidos dentro del ajuste preestablecido de la herramienta Puntadas

@@ -30,7 +30,7 @@ Utilice la [ventana Propiedades](../../interface/properties.md) para ajustar los
 
 ![](../../assets/save-preset-1.png)
 
-Los ajustes preestablecidos se pueden crear haciendo clic con el botón derecho en la ventana Propiedades cuando las propiedades de la herramienta están disponibles (capa de pintura o efecto de pintura).
+Los ajustes preestablecidos se pueden crear haciendo clic con el botón derecho del ratón en la ventana Propiedades cuando las propiedades de la herramienta están disponibles (efecto capa de pintura o pintura).
 
 Haga clic con el botón derecho del ratón en la ventana Propiedades para abrir un menú contextual con las siguientes opciones:
 

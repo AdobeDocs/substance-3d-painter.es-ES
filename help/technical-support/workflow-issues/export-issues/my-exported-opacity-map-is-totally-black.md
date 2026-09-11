@@ -20,6 +20,6 @@ ht-degree: 0%
 
 # Mi mapa de opacidad exportado es totalmente negro
 
-Cuando se crea un proyecto nuevo, el color predeterminado procede del sombreado y no de las texturas. Por lo tanto, cuando exporte todas las partes que no haya pintado, se mostrarán negras con un valor alfa establecido en 0 (porque no hay datos en estas partes).
+Cuando se crea un proyecto nuevo, el color predeterminado procede del sombreador y no de las texturas. Por lo tanto, cuando exporte todas las piezas que no haya pintura, se mostrarán negras con un valor alfa establecido en 0 (porque no hay datos en estas piezas).
 
-La forma más sencilla de solucionar este problema es colocar una capa de relleno en la parte inferior de la pila de capas : rellenará todas las coordenadas UV con un color predeterminado, que es idéntico al color predeterminado del sombreado.
+La forma más sencilla de solucionar este problema es colocar una capa de relleno en la parte inferior de la pila de capas : rellenará todos los UV con un color predeterminado, que es idéntico al color predeterminado del sombreador.

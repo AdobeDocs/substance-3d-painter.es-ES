@@ -24,7 +24,7 @@ ht-degree: 1%
 
 Las texturas se exportan como una colección de mapas de bits. Painter ofrece mucha flexibilidad al exportar texturas gracias a las Plantillas de salida. Las plantillas de salida le permiten controlar aspectos como el nombre de los archivos exportados, cómo se empaquetan las texturas en los canales y el formato y la profundidad de bits de los archivos exportados. Si esto suena intimidante, no se preocupe, Painter incluye docenas de Plantillas de salida predeterminadas que se configuran para aplicaciones y casos de uso 3D de uso común.
 
-Abre la <b>ventana de exportación</b> y comienza a exportar texturas con <b>Archivo > Exportar texturas</b>, o usa el método abreviado de teclado <b>CTRL + MAYÚS + E</b>. Utilice los siguientes vínculos para obtener más información sobre la exportación de texturas:
+Abre la <b>ventana de exportación</b> y comienza a exportar texturas con <b>Archivo > Exportar Texturas</b>, o usa el método abreviado <b>CTRL + MAYÚS + E</b>. Utilice los siguientes vínculos para obtener más información sobre la exportación de texturas:
 
 * [Ventana de exportación](../export/export-window/export-window.md)
 * [Plantillas de salida](../export/export-presets/export-presets.md)

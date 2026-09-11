@@ -54,7 +54,7 @@ Para obtener más información sobre este tema, consulte:  [Usar la herramienta 
 
 ### Falta de espacio en disco
 
-Desde la introducción de [Texturas virtuales dispersas](../../../features/sparse-virtual-textures.md) en Substance 3D Painter, la aplicación ahora usa el disco para almacenar texturas en caché mientras trabaja. Si el sistema se queda sin espacio, esto puede llevar a inestabilidad.
+Desde la introducción de [Texturas virtuales dispersas](../../../features/sparse-virtual-textures.md) en Substance 3D Painter, la aplicación ahora usa el disco para almacenar texturas en la memoria caché mientras trabaja. Si el sistema se queda sin espacio, esto puede llevar a inestabilidad.
 
 Hay dos soluciones fáciles para este problema:
 

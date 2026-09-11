@@ -32,7 +32,7 @@ Fecha de publicación : *23 de abril de 2019*
 
 Con esta versión, nuestro motor de pinceles ahora es compatible con lo que llamamos Trazos dinámicos. Este tipo de trazos crean variaciones y nuevos efectos gracias a la generación de nuevas versiones de Substance sobre la marcha. Ahora es posible tener un nuevo material de Substance o alfa para cada nuevo trazo de pincel pintado en el recurso.
 
-Cuando se carga un recurso compatible con Trazo dinámico en la herramienta de pintura (Pintar, Borrador, Difuminar o Clonar), aparece un nuevo grupo de parámetros:
+Cuando se carga un recurso compatible Trazo dinámico en la herramienta de Pintura (Pintura, Borrador, Dedo o Clonar), aparece un nuevo grupo de parámetros:
 
 ![](../../assets/dynamic-stroke-ui.png)
 
@@ -65,7 +65,7 @@ También hemos añadido varios **ajustes preestablecidos de herramientas** nuevo
 
 ![](../../assets/displacement-demo.gif)
 
-Substance Painter ahora admite **Desplazamiento** y **teselación de malla** en su puerto de visualización en tiempo real y en Irak. Ambos se pueden controlar en la ventana **Shader Settings** debajo de los parámetros del sombreado.
+Substance Painter ahora admite **Desplazamiento** y **teselación de malla** en su puerto de visualización en tiempo real y en Irak. Ambos se pueden controlar en la ventana **Configuración de Sombreador** debajo de los parámetros de sombreador.
 
 ![](../../assets/disp-settings-1.png)
 
@@ -84,15 +84,15 @@ Cargue el proyecto de muestra &quot;**Tiling Material**&quot; (mediante **Archiv
 
 >[!NOTE]
 >
-> Se ha agregado un nuevo filtro denominado &quot;**Height a normal**&quot; en la bandeja y se puede usar para obtener la asignación normal final (en caso de que la conversión nativa por parte del Substance Painter no sea lo suficientemente fuerte).
+> Se ha agregado un nuevo filtro denominado &quot;**Height a normal**&quot; en el estante y se puede usar para obtener el mapa de normales final (en caso de que la conversión nativa por parte del Substance Painter no sea lo suficientemente fuerte).
 
-### Comparar efecto de máscara
+### Efecto Máscara de comparación
 
 ![](../../assets/compare-mask.png)
 
-Crear y mezclar materiales puede ser un poco difícil a veces, por eso creamos un nuevo efecto llamado &quot;**Comparar máscara**&quot;. Este efecto permite comparar de forma rápida y sencilla dos canales y, como resultado, producir una máscara.
+Crear y mezclar materiales puede ser un poco difícil a veces, por lo que creamos un nuevo efecto llamado &quot;**Máscara de comparación**&quot;. Este efecto permite comparar de forma rápida y sencilla dos canales y, como resultado, producir una máscara.
 
-El efecto Comparar máscara tiene las siguientes propiedades:
+El efecto Máscara de comparación tiene las siguientes propiedades:
 
 * **Canal**: El canal que se va a comparar entre el origen y el destino desde el que se va a crear una máscara.
 * **Comparar**: Hay tres parámetros disponibles aquí para elegir cómo se debe calcular la máscara. El menú desplegable del centro define la operación de comparación (menor que, dentro de la tolerancia, mayor que).
@@ -102,7 +102,7 @@ El efecto Comparar máscara tiene las siguientes propiedades:
 
 ![](../../assets/compare-mode.png)
 
-Para facilitar aún más la configuración, puedes hacer clic con el botón derecho en una capa y elegir el método abreviado &quot;**Añadir máscara con combinación de heightes**&quot; para añadir rápidamente esta nueva máscara a tu capa. Este método abreviado también cambiará el modo de fusión de canal de Height a &quot;Normal&quot; en lugar de &quot;Sobreexposición lineal (añadir)&quot; predeterminado.\
+Para facilitar aún más la configuración, puedes hacer clic con el botón derecho en una capa y elegir el método abreviado &quot;**Añadir máscara con combinación de height**&quot; para añadir rápidamente esta nueva máscara a tu capa. Este método abreviado también cambiará el modo de fusión de canales de Height a &quot;Normal&quot; en lugar de &quot;Sobreexposición lineal (Agregar)&quot; predeterminado.\
 ![](../../assets/compare-shortcut.png)
 
 ### Simetría radial
@@ -117,7 +117,7 @@ Están disponibles los siguientes ajustes:
 * **Recuento** : Número de puntos duplicados.
 * **Ángulo** : La ubicación de los puntos duplicados del original. Este ajuste se puede utilizar para hacer un círculo completo o un cuarto de él, etc.
 
-También hemos añadido una pequeña vista previa para que sea más fácil ajustar la configuración antes de empezar a pintar :
+También hemos añadido una pequeña vista previa para que sea más fácil ajustar la configuración antes de comenzar a usar la pintura :
 
 ![](../../assets/radial-settings.png)
 
@@ -125,14 +125,14 @@ También hemos añadido una pequeña vista previa para que sea más fácil ajust
 
 ![](../../assets/fill-proj.jpg)
 
-Se han añadido dos nuevos modos de proyección con capas de relleno y efectos de relleno : **Planar** y **Esférica**. También hemos añadido muchos parámetros nuevos para controlar aún más los comportamientos de las proyecciones 3D.
+Se han añadido dos nuevos modos de proyección con capas de relleno y efectos de relleno : **Plano** y **esférico**. También hemos añadido muchos parámetros nuevos para controlar aún más los comportamientos de las proyecciones 3D.
 
-* **Nuevo modo de proyección plana**\
+* **Nuevo modo de proyección Plana**\
   Ahora es posible proyectar un plano con este nuevo modo. Puede ser útil para crear franjas en los vehículos o colocar pegatinas en un lugar específico.
 
   ![](../../assets/planar-proj.png)
-* **Herramienta Superficie para proyección plana**\
-  Para facilitar la manipulación de la proyección plana, también hemos añadido un nuevo control para el manipulador 3D, que llamamos **Surface Tool**, al que se puede acceder con el método abreviado &quot;**Shift+W**&quot;. También se puede acceder desde la barra de herramientas contextual. Tenga en cuenta que este nuevo modo solo está disponible con la proyección plana.
+* **Herramienta Superficie para proyección Plana**\
+  Para que la proyección plana sea fácil de manipular, también agregamos un nuevo control para el Manipulador 3D que llamamos **Surface Tool**, al que se puede acceder con el método abreviado &quot;**Shift+W**&quot;. También se puede acceder desde la barra de herramientas contextual. Tenga en cuenta que este nuevo modo solo está disponible con la proyección plana.
 
   ![](../../assets/surface-tool-toolbar.png)
 
@@ -157,7 +157,7 @@ Se han añadido dos nuevos modos de proyección con capas de relleno y efectos d
   ![](../../assets/repeat-mode.png)
 
   ![](../../assets/uv-transform.png)
-* **Modo mejorado de todo el eje del manipulador de rotación** En lugar de dibujar una esfera explícita, ahora está oculta para evitar ocultar las texturas que aparecen debajo. Al hacer clic entre los ejes, se seleccionará la esfera que permite rotar todos los ejes a la vez.\
+* **Modo mejorado de Manipulador de rotación en todos los ejes** En lugar de dibujar una esfera explícita, ahora está oculta para evitar ocultar las texturas que aparecen debajo. Al hacer clic entre los ejes, se seleccionará la esfera que permite rotar todos los ejes a la vez.\
   ![](../../assets/manip-rotation-optim.gif)
 
 ### Varias mejoras
@@ -169,7 +169,7 @@ Se han añadido dos nuevos modos de proyección con capas de relleno y efectos d
   En el modo de selección múltiple sigue existiendo la noción de un conjunto de texturas &quot;principal&quot;, por lo que se seleccionan elementos adicionales en gris. Si necesita cambiar a otro conjunto de texturas manteniendo la selección actual, puede utilizar el botón central del ratón para hacerlo.
 * **Mostrar u ocultar rápidamente en la lista de conjuntos de texturas**\
   Ahora puede hacer clic y arrastrar (como en la pila de capas) para ocultar o mostrar conjuntos de texturas.
-* **Interfaz de usuario mejorada para la pila de capas**\
+* **Interfaz de usuario mejorada para la Pila de capas**\
   Hemos cambiado el icono para que el estado oculto/visible de una capa sea más coherente y fácil de entender. También hemos cambiado la forma en que se muestran las capas seleccionadas para que sean más fáciles de comparar con la selección de sus efectos y otras capas.\
   ![](../../assets/layer-stack-selection-ui.gif)
 * **Nueva posición del efecto basada en la selección actual** Ahora cualquier efecto nuevo agregado en una capa se colocará justo encima del seleccionado actualmente.\
@@ -231,12 +231,12 @@ En esta versión también hemos añadido mucho contenido nuevo : desde ajustes p
   * **Height a Normal** : Este filtro convierte el canal de Height en Normal y lo alimenta con el canal Normal. Tiene diferentes controles de intensidad dependiendo de las necesidades.
   * **Esquema de máscara** : Este filtro crea un borde blanco sobre negro alrededor de una entrada de escala de grises. Esto resulta muy útil en Máscara para crear bordes alrededor de las formas.
   * **Validación PBR**: Hemos añadido este filtro para comprobar que los colores del material PBR se encuentran en los rangos correctos. Para obtener más información, consulte la [Guía de PBR](https://www.allegorithmic.com/pbr-guide) !
-  * **Pintura descascarillada MatFX** : Simula que la pintura antigua empieza a despegarse. Este filtro emite alfa, lo que facilita la mezcla con materiales por debajo de él.
+  * **Pintura de peeling MatFX** : Simula que la pintura antigua comienza a despegarse. Este filtro emite alfa, lo que facilita la mezcla con materiales por debajo de él.
   * **Gotas de agua MatFx** : Simula gotas de agua en la superficie de un objeto. Como agua en un auto después de la lluvia.
 * **7 nuevos generadores**\
   Con esta versión hemos añadido algunos generadores nuevos:
 
-  * **Oclusión de ambiente**: Generador de máscaras que ofrece controles sobre el mapa de malla de Oclusión ambiental. Basado en el Editor de máscaras.
+  * **Oclusión ambiental**: Generador de máscaras que ofrece controles sobre el mapa de malla de la Oclusión ambiental. Basado en el Editor de máscaras.
   * **Normales espaciales mundiales**: Generador de máscaras que ofrece controles sobre el mapa de malla de World Space Normals. Basado en el Editor de máscaras.
   * **Posición** : Generador de máscaras que ofrece controles sobre el mapa de malla de posición. Basado en el Editor de máscaras.
   * **Curvatura**: Generador de máscaras que ofrece controles sobre el mapa de malla de curvatura. Basado en el Editor de máscaras.
@@ -303,17 +303,17 @@ Resumen : **Corrección urgente**
 **Corregido:**
 
 * [Substance] Visible Si no se tiene en cuenta para las imágenes de entrada
-* [SVT] [Motor] El cambio de la resolución del conjunto de texturas provoca bloqueos en algunos casos
+* [SVT]&#x200B;[Motor] El cambio de la resolución del conjunto de texturas provoca un bloqueo en algunos casos
 * [Motor] En algunos casos aparecen texturas negras aleatorias
 * [Pila de capas] [IU] Al alternar una máscara con MAYÚS, se pueden seleccionar varias capas al mismo tiempo
 * [Pila de capas] La opacidad no afecta al efecto Pintura con el modo de fusión PassThrough
-* [Pila de capas] La entrada de Height a filtro normal no se actualiza correctamente con el trazo del pincel del borrador
-* [LayersStack] Bloqueo al deshacer el soltar una máscara inteligente
+* [Pila de capas] La entrada de Height a filtro normal no se actualiza correctamente con el trazo del pincel borrador
+* [LayersStack] Bloqueo al deshacer la caída de una máscara inteligente
 * Malla metálica parpadeando con sombras y anti-aliasing temporal activado
 * [Desplazamiento] Retraso en AMD con algunas mallas pesadas
 * [Windows] Bloqueo al abrir algunos proyectos mediante el explorador de archivos
-* [Histograma] Bloqueo al eliminar la máscara con el punto de anclaje en algunos casos
-* Bloqueo en la generación de vistas previas en algunos casos excepcionales
+* [Histograma] Bloqueo al quitar la máscara con punto de anclaje en algunos casos
+* Bloqueo en la generación de vistas previas en algunos casos raros
 * [Bloqueo] No se puede volver a abrir un proyecto con demasiadas herramientas de clonación y difuminado
 * No se muestra ninguna malla en el modo de material después de guardarla en algunos casos
 * [Scripting] alg.mapexport.documentStructure() devuelve valores incorrectos para las carpetas
@@ -325,7 +325,7 @@ Resumen : **Corrección urgente**
 ### 2019.1
 
 *(Publicado El 23 De Abril De 2019)*\
-Resumen : **Trazo dinámico con contenido nuevo dedicado, Desplazamiento y teselación en tiempo real e Iray, efecto Máscara de comparación, simetría radial, Plano y Proyección esférica**
+Resumen : **Trazo dinámico con contenido nuevo, Desplazamiento y teselación en tiempo real e Iray, efecto Máscara de comparación, simetría radial, Plano y Proyección esférica**
 
 **Agregado:**
 
@@ -337,26 +337,26 @@ Resumen : **Trazo dinámico con contenido nuevo dedicado, Desplazamiento y tesel
 * [Trazo dinámico] [Estante] Ayuda para buscar un recurso de trazo dinámico con un icono nuevo dedicado
 * Desplazamiento y teselación en la ventana gráfica en tiempo real
 * Desplazamiento y teselado en Iray
-* [Configuración de sombreado]&#x200B;[IU] Nueva ficha para controlar el desplazamiento y la teselación
+* [Configuración de Sombreador]&#x200B;[UI] Nueva pestaña para controlar el desplazamiento y la teselación
 * [Pila de capas] Nuevo efecto CompararMáscara: generar una máscara comparando dos canales
-* [Pila de capas]&#x200B;[IU] Nueva entrada en el menú contextual &quot;Añadir máscara con combinación de heightes&quot; para insertar un efecto Comparar máscara
+* [Pila de capas] [IU] Nueva entrada en el menú contextual &quot;Añadir máscara con combinación de height&quot; para insertar un efecto Comparar máscara
 * [Simetría] Nuevo modo de simetría: pintura radial
-* [Configuración de simetría] Expanda las secciones &quot;Configuración&quot; y &quot;Pantalla&quot;
-* [Ajustes de simetría] [IU] Vista previa para pintura radial
-* Exponga dos nuevos modos de proyección: planar y esférico
+* [Configuración de Simetría] Expanda las secciones &quot;Configuración&quot; y &quot;Pantalla&quot;
+* [Ajustes de Simetría] [IU] Vista previa para pintura radial
+* Exponga dos nuevos modos de proyección: plano y esférico
 * [Proj] Nuevo modo de recorte de forma para todas las proyecciones
-* [Proj] Modo plano con nuevo manipulador: Herramienta Superficie
-* [Proj]&#x200B;[Acceso directo] Método abreviado MAYÚS+W para la herramienta Superficie
-* [Proj] Enmascaramiento de proyección plana con selección de profundidad y sacrificio de la cara posterior
+* [Proj] Modo Plano con nuevo manipulador: Herramienta Superficie
+* Herramienta [Proj] [Método abreviado] Método abreviado MAYÚS+W para superficie
+* [Proj] Enmascaramiento de proyección Plana con selección de profundidad y sacrificio de la cara posterior
 * [Manipulador] Mejora del manipulador de rotación en los tres ejes para triplanar
 * [Herramienta] [Experiencia de usuario] Al pulsar Alt y hacer clic en un canal, se selecciona ese canal (lo activa o desactiva todos los demás).
 * [Motor] Actualizar a la versión más reciente de Substance Engine
 * [Conjunto de texturas] Selección múltiple y resolución de cambios
 * [Conjunto de texturas] Activación y desactivación rápidas de los conjuntos de texturas
 * [Conjunto de texturas] Combina solo y todas las opciones en un nuevo menú
-* [Conjunto de texturas] [Pila de capas] Nuevo icono para activación y desactivación
-* [Pila de capas]&#x200B;[UX] Inserta efectos por encima de los que ya están seleccionados
-* [Pila de capas]&#x200B;[IU] Reprocesamiento de la vista de la pila de capas
+* [Conjunto de texturas]&#x200B;[Pila de capas] Nuevo icono para activación y desactivación
+* [Pila de capas] [UX] Inserta efectos por encima de los que ya están seleccionados
+* [Pila de capas] [IU] Reprocesar pila de capas ver estilo de selección
 * [Pila de capas] El modo de fusión para capas con instancias ahora está en modo Pass Through de forma predeterminada
 * [Exportar] Opción para activar y desactivar el tramado
 * [Plugin] Compatibilidad con el modificador de precisión para reguladores (MAYÚS)

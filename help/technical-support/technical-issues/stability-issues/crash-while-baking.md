@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-while-baking.html"
 breadcrumb-title: ''
-description: Obtenga información sobre cómo solucionar los bloqueos de Substance 3D Painter durante las operaciones de pandeo para obtener flujos de trabajo fiables de panificación de texturas.
+description: Obtenga información sobre cómo corregir bloqueos de Substance 3D Painter durante las operaciones de hace un bake para obtener flujos de trabajo fiables de hace un bake de texturas.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Crash while baking
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Bloqueo al hornear
+title: Bloqueo al hacer un bake
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,13 +18,13 @@ ht-degree: 0%
 ---
 
 
-# Bloqueo al hornear
+# Bloqueo al hacer un bake
 
-Substance 3D Painter puede bloquearse durante el proceso de procesamiento en algunas configuraciones. Esta página reagrupa una lista de problemas conocidos y cómo mitigarlos.
+Substance 3D Painter puede producir bloqueos durante el proceso de hace un bake en algunas configuraciones. Esta página reagrupa una lista de problemas conocidos y cómo mitigarlos.
 
-## Bloqueo en la previsualización de horneado
+## Bloqueo con Hacer un bake vista previa
 
-De forma predeterminada, Substance 3D Painter muestra en la ventana gráfica el estado en curso del procesamiento de una textura. En algunos equipos, esta característica puede provocar inestabilidad.
+De forma predeterminada, Substance 3D Painter muestra en la ventana gráfica el estado en curso de hacer un bake una textura. En algunos equipos, esta característica puede provocar inestabilidad.
 
 Para desactivarla:
 
@@ -44,10 +44,10 @@ Para desactivarla:
 
 ## Bloqueo con CPU Ryzen
 
-La aplicación puede bloquearse durante el proceso de procesamiento en alguna configuración del equipo que se ejecuta con una CPU Ryzen. Una actualización del BIOS suele solucionar el problema.
+La aplicación puede entrar en bloqueo durante el proceso de hacer un bake en alguna configuración del equipo que se ejecuta con una CPU Ryzen. Una actualización del BIOS suele solucionar el problema.
 
 Esto se relaciona con los cálculos multiproceso. Muchos constructores de placas madre han publicado nuevas actualizaciones de BIOS para solucionar este problema, por lo que recomendamos aplicar la actualización. Para obtener más información, consulte el manual de la placa base y el sitio web del constructor.
 
 ## Archivos Assbin incompatibles
 
-De forma predeterminada, al realizar el procesamiento, las mallas de alta densidad se preprocesan en archivos **\*.assbin** para acelerar el reprocesamiento posterior. En algunos casos excepcionales, estos archivos pueden bloquear la aplicación si se han generado con una versión diferente. Simplemente eliminarlos debería resolver el problema, ya que se regenerarán.
+De forma predeterminada, al hacer un bake, las mallas de alta densidad se preprocesan en archivos **\*.assbin** para acelerar la reconfiguración más adelante. En algunos casos excepcionales, estos archivos pueden producir bloqueos en la aplicación si se han generado con una versión diferente. Simplemente eliminarlos debería resolver el problema, ya que se regenerarán.

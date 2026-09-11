@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Versión 7.2
 
-**Substance 3D Painter 7.2** ofrece nuevas funciones de representación con el flujo de trabajo de Adobe Standard Material, nuevas formas de compartir contenido entre [aplicaciones de Substance 3D](https://www.adobe.com/es/products/substance3d/3d-augmented-reality.html) y una ventana de activos revisada.
+**Substance 3D Painter 7.2** ofrece nuevas funciones de representación con el flujo de trabajo de Adobe Standard Material, nuevas formas de compartir contenido entre [aplicaciones de Substance 3D](https://www.adobe.com/es/products/substance3d/3d-augmented-reality.html) y una ventana de Recursos revisada.
 
 Fecha de publicación: *23 de junio de 2021*
 
@@ -68,10 +68,10 @@ Se ha mejorado la antigua ventana de estante y se le ha cambiado el nombre a la 
 
 ![](../../assets/banner-asm.jpg)
 
-Se ha añadido un nuevo sombreado, denominado **Adobe Standard Material** (ASM), que admite varias funciones a la vez, lo que permite crear materiales más complejos y precisos dentro de un único conjunto de texturas. Con este nuevo sombreador también aprovechamos la oportunidad de añadir nuevos canales para facilitar también la creación de materiales.
+Se ha agregado un nuevo sombreador, denominado **Adobe Standard Material** (ASM), que admite varias funciones a la vez, lo que permite crear materiales más complejos y precisos dentro de un único conjunto de texturas. Con este nuevo sombreador también aprovechamos la oportunidad de añadir nuevos canales para facilitar también la creación de materiales.
 
 * **Nuevo sombreador de Adobe Standard Material**\
-  El nuevo sombreador de ASM es un sombreador que reagrupa varias funcionalidades, así como una evolución de nuestro procesamiento de PBR. Soporta al mismo tiempo:
+  El nuevo sombreador de ASM es un sombreador que reagrupa varias funcionalidades, así como una evolución de nuestro renderizado de PBR. Soporta al mismo tiempo:
   * **Anisotropía**
   * **Capa transparente**
   * **Sheen**
@@ -80,7 +80,7 @@ Se ha añadido un nuevo sombreado, denominado **Adobe Standard Material** (ASM),
   * Y por supuesto las otras características existentes como la Oclusión Parralax, Desplazamiento, etc.
 
 * **Canales nuevos y canales de usuario**\
-  Para admitir el nuevo sombreador de ASM, se han agregado nuevos canales. También hemos duplicado el número de canales de usuarios para ampliar las posibilidades de la información personalizada y los sombreadores personalizados.
+  Para dar soporte al nuevo sombreador de ASM, se han añadido nuevos canales. También hemos duplicado el número de canales de usuarios para ampliar las posibilidades de la información personalizada y los sombreadores personalizados.
   * Color de capa
   * Rugosidad de capa
   * Capa normal
@@ -101,7 +101,7 @@ Se ha añadido un nuevo sombreado, denominado **Adobe Standard Material** (ASM),
 * **Nuevas características de API del sombreador con if y recompilación visibles**\
   Con el desarrollo del sombreador de ASM se han realizado algunos cambios en la API con dos características notables:
   * **Visible Si**: Los parámetros de sombreado se pueden mostrar u ocultar según la condición para que la IU de sombreado sea más fácil de leer.
-  * **Recompilación**: al declarar parámetros de una manera específica, ahora es posible deshabilitar parte de un sombreado y volver a compilarlo para optimizarlo cuando cambie el parámetro. Esto permite descartar las funcionalidades no utilizadas.
+  * **Recompilación**: al declarar los parámetros de una manera específica, ahora es posible desactivar parte de un sombreador y volver a compilarlo para optimizarlo cuando cambie el parámetro. Esto permite descartar las funcionalidades no utilizadas.
 
 ### Nuevo intercambio de ecosistemas de Substance 3D
 
@@ -117,7 +117,7 @@ El envío de recursos y recursos entre aplicaciones de Substance 3D es ahora muc
   Exporta desde Painter a Stager con el ajuste preestablecido de exportación actualizado o usa la acción **Enviar a Substance 3D Stager** para exportar e importar automáticamente el proyecto actual a Stager. No se necesita ninguna configuración manual.
 
 * **Stager a Painter**\
-  Recibe modelos de Stager a texture con una acción similar de un solo clic directamente de Stager.
+  Recibe modelos de Stager a textura con una acción similar de un solo clic directamente de Stager.
 
 * **Designer o Sampler a Painter**\
   Recibe materiales de Substance, filtros y mucho más de Designer o Sampler directamente en la ventana de activos con un solo clic.
@@ -136,11 +136,11 @@ Se ha añadido contenido nuevo en esta versión:
 
 * **Nuevas plantillas de proyecto para material de soporte de Adobe (ASM)**\
   Para facilitar el uso del nuevo sombreador de ASM, se han creado nuevas plantillas de proyecto para acelerar la creación de proyectos:
-  * ASM: rugosidad metálica PBR
-  * ASM - PBR Ángulo de Anisotropía de rugosidad metálica
-  * ASM - PBR Recubierto de Rugosidad Metálica
-  * ASM - PBR Rugosidad metálica SSS
-  * ASM - Brillo de rugosidad metálica PBR
+  * ASM: Rugosidad metálica de PBR
+  * ASM: Ángulo de anisotropía de Rugosidad metálica de PBR
+  * ASM: Rugosidad metálica PBR recubierta
+  * ASM: SSS de Rugosidad metálica PBR
+  * ASM: Brillo de Rugosidad metálica de PBR
 
 * **Nuevos mapas de entorno**\
   Se han añadido varios mapas de entorno nuevos para iluminar sus proyectos, incluido el Studio 06 utilizado para procesar las nuevas miniaturas de Assets:
@@ -157,16 +157,16 @@ Se ha añadido contenido nuevo en esta versión:
 
 ![](../../assets/banner-uv.jpg)
 
-Se ha añadido una nueva actualización del desempaquetado automático de UV que aporta el soporte de los azulejos UV y un control adicional sobre la generación de UV:
+Se ha añadido una nueva actualización del desempaquetado automático de UV que aporta el soporte de Mosaicos de UV y un control adicional sobre la generación de UV:
 
-* **Cantidad de mosaico UV**\
-  Al generar UV, ahora es posible especificar el número máximo de mosaicos UV que se desea crear. Esto también permite utilizar la generación UV con el flujo de trabajo de azulejo UV.
+* **Importe de Mosaico de UV**\
+  Al generar UV, ahora es posible especificar el número máximo de Mosaicos de UV que se desea crear. Esto también permite utilizar la generación UV con el flujo de trabajo de Mosaico de UV.
 
 * **Orientación de la Isla de UV**\
-  Se ha añadido un nuevo parámetro para añadir una restricción en la orientación de la Isla de UV cuando se empaqueta. Esto permite hacer Islas de UV un poco más alineadas permitiendo texturizar algunos objetos con mayor facilidad (ej: una puerta de madera para alinear el patrón de madera).
+  Se ha añadido un nuevo parámetro para añadir una restricción en la orientación de la Isla de UV cuando se empaqueta. Esto permite hacer Islas de UV un poco más alineadas permitiendo textura de algunos objetos más fácilmente (ej: una puerta de madera para alinear el patrón de madera).
 
 * **Rendimiento mejorado del empaquetado**\
-  La función de empaquetado también se ha mejorado para ofrecer un buen rendimiento con el nuevo soporte de azulejo UV.
+  La función de empaquetado también se ha mejorado para ofrecer un buen rendimiento con la nueva compatibilidad con Mosaicos de UV.
 
 ### Mejoras generales
 
@@ -181,10 +181,10 @@ Esta nueva versión añade varias mejoras en la calidad de vida:
   Pintar en capa con muchos trazos de pincel existentes ahora debería ser mucho más rápido y no provocar más desaceleración.
 
 * **Pintura más rápida después de abrir un proyecto**\
-  Ahora, pintar en una capa en la parte superior de la pila de capas justo después de abrir un proyecto es inmediato. El cálculo de la caché del motor se ha pospuesto para más adelante, lo que hace que la reedición de proyectos antiguos sea un poco más rápida en este contexto.
+  Pintar en una capa en la parte superior de la pila de capas justo después de abrir un proyecto ahora es inmediato. El cálculo de la caché del motor se ha pospuesto para más adelante, lo que hace que la reedición de proyectos antiguos sea un poco más rápida en este contexto.
 
 * **Método normal de enfoque**\
-  Hay un nuevo parámetro de método Height a Normal en los ajustes de Conjunto de texturas que permite controlar cómo se convierte el canal de Height en un mapa normal. Este nuevo parámetro es útil para mejorar la calidad de superficies con muchos detalles variables, como los materiales de tela.
+  Hay un nuevo parámetro de método Height a normal en la configuración del conjunto de texturas que permite controlar cómo se convierte el canal de Height en un mapa de normales. Este nuevo parámetro es útil para mejorar la calidad de superficies con muchos detalles variables, como los materiales de tela.
 
   ![](../../assets/normal-mode.jpg){width="450px"}
 
@@ -202,7 +202,7 @@ Esta nueva versión añade varias mejoras en la calidad de vida:
 ### 7.2.0
 
 *(Publicado El 23 De Junio De 2021)*\
-Resumen : **Versión principal: proporciona una actualización del panel de recursos, un nuevo sombreado con acceso a nuevos canales y parámetros, una actualización general de la interfaz de usuario, algunas mejoras de rendimiento muy solicitadas, compatibilidad de idioma ampliada y mucho más.**
+Resumen : **Versión principal: proporciona una actualización del panel de recursos, un nuevo sombreador con acceso a nuevos canales y parámetros, una actualización general de la interfaz de usuario, algunas mejoras de rendimiento muy solicitadas, compatibilidad con más idiomas y mucho más.**
 
 **Agregado:**
 
@@ -218,11 +218,11 @@ Resumen : **Versión principal: proporciona una actualización del panel de recu
 * [Bibliotecas]&#x200B;[IU] Permitir ocultar carpetas vacías
 * [Bibliotecas]&#x200B;[UI] La biblioteca de usuario predeterminada debe estar visible aunque esté vacía.
 * [Bibliotecas]&#x200B;[IU] Nuevo método de filtrado mediante iconos de tipos de activos
-* [Bibliotecas] Método abreviado de teclado &quot;CTRL&quot; para seleccionar varios tipos de recursos
+* [Bibliotecas] Método abreviado &quot;CTRL&quot; para seleccionar varios tipos de recursos
 * [Bibliotecas] Nueva variable de entorno para controlar el presupuesto de memoria de previsualización de activos
 * [Bibliotecas]&#x200B;[Contenido] Nuevos mapas de entorno
 * [Bibliotecas]&#x200B;[Contenido]&#x200B;[IU] desplazamiento de procesamiento en los materiales predeterminados
-* [Bibliotecas]&#x200B;[Contenido] Establezca el sombreado de Adobe Standard Material (ASM) como predeterminado para la generación de vistas previas
+* [Bibliotecas]&#x200B;[Contenido] Establezca sombreador de Adobe Standard Material (ASM) como predeterminado para la generación de vistas previas
 * [Bibliotecas]&#x200B;[Contenido]&#x200B;[ASM] Nuevas plantillas de proyecto para el nuevo sombreador de ASM
 * [Bibliotecas]&#x200B;[Miniatura] Usar nuevo mapa de entorno de Studio 6
 * [Bibliotecas]&#x200B;[Miniatura] Lea la miniatura del recurso en lugar de generarla
@@ -231,7 +231,7 @@ Resumen : **Versión principal: proporciona una actualización del panel de recu
 * [Ajustes del conjunto de texturas]&#x200B;[IU] Exponer el nuevo height al método de conversión normal
 * [Ajustes del conjunto de texturas] [IU] Reorganización de la IU de los canales
 * [Ajustes del conjunto de texturas] El límite de canales de usuario se eleva a 16 canales
-* [Ajustes del conjunto de texturas] [IU] Indica qué canales son compatibles con el sombreado seleccionado actualmente
+* [Ajustes del conjunto de texturas]&#x200B;[IU] Indica qué canales son compatibles con el sombreador seleccionado actualmente
 * [Shader]&#x200B;[ASM] Nuevo sombreador de Adobe Standard Material
 * [Shader] [ASM] Se ha agregado compatibilidad con Anisotropía, capa transparente, dispersión subsuperficial, Specular edge color y brillo
 * [Shader]&#x200B;[ASM] Cambiar los valores de color de los canales predeterminados
@@ -288,24 +288,24 @@ Resumen : **Versión principal: proporciona una actualización del panel de recu
 
 * [Tablet] Bajo rendimiento al pintar con presión
 * [Tablet] Problema en tabletas con controles deslizantes
-* [Bloqueo] El nombre no coincide entre la lista de conjuntos de texturas y el exportador
+* [Bloqueo] El nombre no coincide entre la lista de conjuntos de texturas y el Exportador
 * [Bloqueo] [Bibliotecas] Haga doble clic en una subbiblioteca
 * [Bibliotecas] Problema al rastrear directorios de bibliotecas
 * [Bibliotecas] La línea de comandos de generación de vista previa forzada no funciona del modo esperado
-* [Bibliotecas]&#x200B;[Contenido] El filtro Entorno de luz horneada está en negro de forma predeterminada
+* [Bibliotecas]&#x200B;[Contenido] El filtro de Entorno de luz Hecho un bake es negro de forma predeterminada
 * [Linux]&#x200B;[MacOS]&#x200B;[Export Mesh] No se puede importar glTF creado en Linux/MacOS
-* [Linux] Arrastrar y soltar un archivo en el panel Activos puede provocar un bloqueo
-* [Auto-Unwrap] Auto-Unwrap está disponible incluso si no se ha seleccionado una malla para recargar
+* [Linux] Arrastrar y soltar un archivo en el panel Recursos puede provocar un bloqueo
+* [Desenvolvimiento automático] El Desenvolvimiento automático está disponible incluso si no se ha seleccionado una malla para la recarga
 * Comportamiento incorrecto de las partículas con la gravedad
 * [Pila de capas] El histograma de niveles solo puede utilizar Luminancia con algunos canales
 * [Máscara de geometría] El menú contextual de una carpeta al editar la máscara de geometría no funciona
 * [Proyección] Costura con proyección esférica y filtrado bilineal
-* [UV Tiles] Exportar máscara a archivo solo exporta el mosaico 0, 0
-* [Exportar malla] La exportación de malla FBX está vacía
-* [Iray] El mapa normal no se tiene en cuenta en los nuevos proyectos al procesar
+* [Mosaicos de UV] Exportar máscara a archivo solo exporta el icono 0, 0
+* [Exportar malla] FBX exportación de malla está vacía
+* [Iray] El Mapa de normales no se tiene en cuenta en los nuevos proyectos al procesar
 * [Guardar] Guardar problemas en unidades compartidas
-* [Horneado] Al volver a hornear una malla con parámetros modificados, se muestra una advertencia
-* [Horneado] [Regresión] Resultado incorrecto cuando el cuadro delimitador global de mallas de poli altas no incluye el origen de la escena
+* [Hacer un bake] Al volver a hornear una malla con parámetros modificados, se muestra una advertencia
+* [Haciendo un bake] [Regresión] Resultado incorrecto cuando el cuadro delimitador global de mallas de poli altas no incluye el origen de la escena
 * [Python] Las bibliotecas de usuarios personalizados no se tienen en cuenta
 
 **Problemas conocidos:**
