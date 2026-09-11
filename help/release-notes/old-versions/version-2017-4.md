@@ -97,7 +97,7 @@ Las nuevas funciones se detallan en nuestros vídeos más recientes :
 * [Scripting] Agregar funciones de devolución de llamada Antes y Después al exportar texturas
 * [Israel] Actualización a SDK 2017.1 (compatibilidad con las GPU Volta)
 
-****Corregido:****
+**&#x200B;**&#x200B;Corregido:**&#x200B;**
 
 * Bloqueo al salir de la aplicación antes de mostrar la ventana principal
 * [MAC] Bloqueo al cargar mapas en escala de grises con IRA

@@ -24,4 +24,4 @@ En [**modo de Hacer un bake**](../../baking/baking.md), el **panel de configurac
 > 1. Cambie la configuración común **Tamaño de salida**.
 > 1. **Hacer un bake** el Mapa de normales.
 
-Hay disponible una lista completa de los ajustes de mapa de malla disponibles en **Ajustes comunes** y los [**paneles de ajustes de mapa de malla**](mesh-map-settings.md) en la sección hacer un bake de la documentación](../../baking/mesh-map-settings.md).[
+Hay disponible una lista completa de los ajustes de mapa de malla disponibles en **Ajustes comunes** y los [**paneles de ajustes de mapa de malla**](mesh-map-settings.md) en la sección hacer un bake de la documentación[&#128279;](../../baking/mesh-map-settings.md).

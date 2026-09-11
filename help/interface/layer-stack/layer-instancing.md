@@ -95,7 +95,7 @@ El uso de la lista **árbol de instancias** es la mejor manera de **pasar rápid
 
 ## Ciclos de instancias (y cómo resolverlos)
 
-Los ciclos son instancias que se utilizan en la propia capa de origen, ya sea directa o indirectamente. El motor de Substance 3D Painter no puede calcular los ciclos **** y, por lo tanto, debe **deshabilitarlos** hasta que se corrijan o quiten.
+Los ciclos son instancias que se utilizan en la propia capa de origen, ya sea directa o indirectamente. El motor de Substance 3D Painter no puede calcular los ciclos **&#x200B;**&#x200B;y, por lo tanto, debe **deshabilitarlos** hasta que se corrijan o quiten.
 
 Ejemplo:\
 ![](../../assets/instance-cycle-optim.gif)

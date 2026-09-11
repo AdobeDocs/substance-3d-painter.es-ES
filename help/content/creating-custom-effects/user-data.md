@@ -96,7 +96,7 @@ Sintaxis de ejemplo:
 
 De forma predeterminada, las entradas de imagen de una gráfica de Substance no tienen relleno, ya que el área fuera de la Isla de UV se suele rellenar con un color uniforme por motivos de rendimiento. El ajuste de relleno se puede usar para solicitar una dilatación infinita, que se puede usar para filtros para evitar crear costuras, por ejemplo.
 
-Sintaxis de ejemplo: **p****adding=extend**
+Sintaxis de ejemplo: **p**&#x200B;**adding=extend**
 
 ## Deshabilitar una salida de forma predeterminada
 

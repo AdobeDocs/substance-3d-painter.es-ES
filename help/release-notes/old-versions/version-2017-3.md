@@ -55,7 +55,7 @@ Si se crea una copia de seguridad pero el proyecto no se ha guardado (también c
 
 ![](../../assets/gradient-rust.jpg)
 
-El **filtro de degradado** se ha renovado por completo. Actuando de una manera mucho más similar al nodo **gradient map** disponible en **Substance Designer**. Ahora admite hasta **10 colores diferentes**, con la posibilidad de especificar **dónde se ubica el color dentro de** el degradado ****, lo que abre muchas puertas nuevas. Esto permite crear más **patrones de color avanzados**, pero también **reasignar mapas de altura**y crear **nuevas formas**.
+El **filtro de degradado** se ha renovado por completo. Actuando de una manera mucho más similar al nodo **gradient map** disponible en **Substance Designer**. Ahora admite hasta **10 colores diferentes**, con la posibilidad de especificar **dónde se ubica el color dentro de** el degradado **&#x200B;**, lo que abre muchas puertas nuevas. Esto permite crear más **patrones de color avanzados**, pero también **reasignar mapas de altura**&#x200B;y crear **nuevas formas**.
 
 El regulador principal (cantidad de color) define el número de colores totales utilizados para crear el degradado. El botón situado justo debajo define el modo de fusión de color (sRGB o Lineal). Esto es importante si desea tener una fusión adecuada entre colores. Por ejemplo, mezclar un rojo puro y un verde puro debería dar un amarillo bonito en medio. Este no será el caso si el botón está desactivado (se dará un marrón oscuro en su lugar). Al reasignar el height o cualquier otro canal de escala de grises, este botón debe desactivarse para evitar la conversión de gamma.
 

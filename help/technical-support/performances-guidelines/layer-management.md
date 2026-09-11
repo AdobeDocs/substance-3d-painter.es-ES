@@ -27,7 +27,7 @@ Existen varias opciones que puede utilizar para reducir el coste de rendimiento 
 +++Uso de máscaras de geometría
 Las máscaras de geometría son tu mejor herramienta de optimización. Siempre que pueda aislar una parte de la malla en la que trabajar, hágalo enmascarando capas o carpetas. Las máscaras geométricas funcionan aislando bien por UDIM o por parte de malla, por lo que las áreas que no están en la máscara no se procesan, lo que mejora el rendimiento. Como ventaja, también puede aislar visualmente esas partes en la ventana gráfica para facilitar el texturizado.
 
-Puedes [obtener más información sobre las máscaras de geometría con este tutorial](https://www.youtube.com/watch?v=TGASuIGSUns) o haciendo referencia a la documentación](../../interface/layer-stack/geometry-mask.md).[
+Puedes [obtener más información sobre las máscaras de geometría con este tutorial](https://www.youtube.com/watch?v=TGASuIGSUns) o haciendo referencia a la documentación[&#128279;](../../interface/layer-stack/geometry-mask.md).
 
 +++
 

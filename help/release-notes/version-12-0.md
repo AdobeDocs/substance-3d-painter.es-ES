@@ -130,7 +130,7 @@ Resumen: <b>Esta es una versión principal. Esta versión contiene las funciones
 * [Efectos posteriores] Reemplace los efectos posteriores por la adición de otros nuevos
 * [Post-effects] Actualizar el asignador de tonos
 * [Post-effects] Añadir nuevo uso para recursos Post-effects
-* [Contenido][Efectos posteriores] Integrar activos de efectos posteriores predeterminados en la biblioteca
+* [Contenido]&#x200B;[Efectos posteriores] Integrar activos de efectos posteriores predeterminados en la biblioteca
 * [Nuevo proyecto] Mejora de la interfaz de usuario para la creación de proyectos
 * [Nuevo proyecto] Cambios en la función de reimportación de mallas
 * [Nuevo proyecto] Permitir la apertura de archivos \*.geo.usd

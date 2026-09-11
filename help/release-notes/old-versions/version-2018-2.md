@@ -190,7 +190,7 @@ Para encontrar el proyecto, use **Archivo** > **Abrir ejemplo...Entrada de menú
 
 (Publicado el 25 de septiembre de 2018)
 
-****Corregido:****
+**&#x200B;**&#x200B;Corregido:**&#x200B;**
 
 * [vista 2D] La vista 2D se rompe con algunas mallas al crear un nuevo proyecto
 * [Bloqueo] El cambio de la Proyección de UV a la proyección triplanar produce un bloqueo
@@ -210,7 +210,7 @@ Para encontrar el proyecto, use **Archivo** > **Abrir ejemplo...Entrada de menú
 **Agregado:**
 
 * Resumen: Revisión con actualización de contenido, nuevas funcionalidades de scripts y poder deshabilitar la actualización automática
-* [Contenido][Estante] Añadir un ajuste preestablecido de Estante de piel
+* [Contenido]&#x200B;[Estante] Añadir un ajuste preestablecido de Estante de piel
 * [Contenido] [estante] Conversión de 19 normales de piel en materiales para dispersión subsuperficial
 * [Scripting] Crear una plantilla de proyecto a partir de un proyecto abierto
 * [Scripts] Obtener o establecer la configuración de exportación de un proyecto abierto
@@ -227,7 +227,7 @@ Para encontrar el proyecto, use **Archivo** > **Abrir ejemplo...Entrada de menú
 * Algunos proyectos no se pueden abrir en 2018.2 y el mensaje de error no puede guardar un paquete de substance nulo
 * [Máscara] El color de la herramienta de pintura se puede bloquear en algunos casos al trabajar en una máscara
 * [Material] Mapas que no aparecen en situaciones específicas
-* [Proj][Tools] Manipulador activo con un generador
+* [Proj]&#x200B;[Tools] Manipulador activo con un generador
 * [Substance] Faltan grupos de parámetros de Substance
 * [Scripting] Nombre de software incorrecto en la documentación
 * [UDIMs] No hay información en el registro acerca de los proyectiles de UVs en múltiples mosaicos de UVs
@@ -257,23 +257,23 @@ Para encontrar el proyecto, use **Archivo** > **Abrir ejemplo...Entrada de menú
 **Agregado:**
 
 * Resumen: Versión de verano, compatibilidad con dispersión subsuperficial, mejoras de proyección y relleno, importación y selección de cámara, compatibilidad con Alembic/glTF, arrastrar y soltar en mapa de ID, compatibilidad de formato de Substance mejorada y nuevo contenido
-* [SSS][Viewport][Iray] Dispersión subsuperficial genérica
+* [SSS]&#x200B;[Viewport]&#x200B;[Iray] Dispersión subsuperficial genérica
 * [SSS] Sincronización de MDL y parámetros de dispersión subsuperficial
 * [SSS] Se ha añadido un nuevo canal de escala de grises denominado &quot;Dispersión&quot;.
-* [SSS][Configuración del sombreador] Parámetro de tipo de dispersión para dispersión subsuperficial (piel o translúcido)
-* [SSS][Configuración de sombreado] Parámetro de escala de dispersión para dispersión subsuperficial
-* [SSS][Configuración de sombreado] Parámetro de color de dispersión para dispersión subsuperficial
-* [SSS][Configuración de pantalla] Dispersión Recuento de muestras para dispersión subsuperficial
+* [SSS]&#x200B;[Configuración del sombreador] Parámetro de tipo de dispersión para dispersión subsuperficial (piel o translúcido)
+* [SSS]&#x200B;[Configuración de sombreado] Parámetro de escala de dispersión para dispersión subsuperficial
+* [SSS]&#x200B;[Configuración de sombreado] Parámetro de color de dispersión para dispersión subsuperficial
+* [SSS]&#x200B;[Configuración de pantalla] Dispersión Recuento de muestras para dispersión subsuperficial
 * [Shader] [Iray] Integrar MDL de dispersión subsuperficial para Iray
 * [Shader] Actualización del sombreado mediante el actualizador de recursos
 * [Shader] Actualizar la API y la documentación del registro de cambios
-* [Tool Properties][Proj] Nuevos parámetros para la proyección triplanar
-* [Ventana gráfica][Proyecto] Controle las propiedades de la capa de relleno en la vista 3D directamente con los manipuladores (proyección triplanar)
-* [Atajos][Proj] Nuevos atajos Q, W, E, R, T para manipuladores de proyección triplanar
-* [Viewport][Proj] Controle las propiedades de la capa de relleno en la vista 2D directamente con los manipuladores (Proyección de UV)
-* [Atajos][Proj] Nuevo atajo Q para manipuladores de Proyección de UV
-* [Barra de herramientas contextual][Proj] Controlar manipuladores de proyección triplanar
-* [Barra De Herramientas Contextual][Proj] Controlar Manipuladores De Proyección de UV
+* [Tool Properties]&#x200B;[Proj] Nuevos parámetros para la proyección triplanar
+* [Ventana gráfica]&#x200B;[Proyecto] Controle las propiedades de la capa de relleno en la vista 3D directamente con los manipuladores (proyección triplanar)
+* [Atajos]&#x200B;[Proj] Nuevos atajos Q, W, E, R, T para manipuladores de proyección triplanar
+* [Viewport]&#x200B;[Proj] Controle las propiedades de la capa de relleno en la vista 2D directamente con los manipuladores (Proyección de UV)
+* [Atajos]&#x200B;[Proj] Nuevo atajo Q para manipuladores de Proyección de UV
+* [Barra de herramientas contextual]&#x200B;[Proj] Controlar manipuladores de proyección triplanar
+* [Barra De Herramientas Contextual]&#x200B;[Proj] Controlar Manipuladores De Proyección de UV
 * [Propiedades de la herramienta] Desactivar el mosaico de texturas con las herramientas Proyección y Galería de símbolos
 * [Galería de símbolos] Usar imágenes no cuadradas con la herramienta o galería de símbolos Proyección
 * [Stencil] Permitir el control del modo de mosaico en la ventana Propiedades
@@ -281,26 +281,26 @@ Para encontrar el proyecto, use **Archivo** > **Abrir ejemplo...Entrada de menú
 * [Cámaras] Importar cámaras de Maya, Max, Blender, Modo, DAE
 * [Cámaras] [Ventana gráfica] Seleccione y controle las cámaras importadas en la ventana gráfica
 * [Cámaras] [Israel] Seleccione y controle las cámaras importadas en Irán
-* [Cámaras][IU][Nuevo proyecto][Configuración del proyecto] La opción &quot;Importar cámaras&quot; está activada de forma predeterminada
+* [Cámaras]&#x200B;[IU]&#x200B;[Nuevo proyecto]&#x200B;[Configuración del proyecto] La opción &quot;Importar cámaras&quot; está activada de forma predeterminada
 * [Cámaras] [Accesos directos] Añada los métodos abreviados &quot;&lt;&quot; y &quot;>&quot; para cambiar de una cámara a otra
-* [Cámaras][Ventana gráfica] Añadir fotograma en la ventana gráfica
+* [Cámaras]&#x200B;[Ventana gráfica] Añadir fotograma en la ventana gráfica
 * [Cámaras] [Configuración de la ventana gráfica] Control de la opacidad de los fotogramas
-* [Cámaras][Configuración de la cámara] distancia focal máxima de 500 mm
-* [Cámaras][Configuración de la cámara] Relación de exposición
-* [Cámaras][Configuración de la cámara] Añadir una opción de bloqueo
-* [Cámaras][Configuración de la cámara] Añadir una opción de restauración
-* [Cámaras][Configuración de la cámara] Añadir el atributo de distancia de enfoque
+* [Cámaras]&#x200B;[Configuración de la cámara] distancia focal máxima de 500 mm
+* [Cámaras]&#x200B;[Configuración de la cámara] Relación de exposición
+* [Cámaras]&#x200B;[Configuración de la cámara] Añadir una opción de bloqueo
+* [Cámaras]&#x200B;[Configuración de la cámara] Añadir una opción de restauración
+* [Cámaras]&#x200B;[Configuración de la cámara] Añadir el atributo de distancia de enfoque
 * [glTF] Importación de un archivo glTF
 * [glTF] Importar mapa de oclusión ambiental
 * [Alembic] Importar Alembic 1 fotograma con geometría estática
 * [Estante] Arrastre y suelte materiales directamente en la malla mediante mapas de ID con un modificador (CTRL/Comando)
 * [Pila de capas] Creación automática de máscaras de ID con arrastrar y soltar materiales en la malla con mapas de ID
 * [Pila de capas] Desplazamiento automático de capas con arrastrar y soltar por la pila de capas
-* [UI][Propiedades de la herramienta] Exponer el ajuste preestablecido de Substance
-* [UI][menú Ayuda] Mejora del menú Ayuda
-* [UI][Nuevo proyecto][Configuración del proyecto] Reorganización de la ventana
-* [UI][Nuevo proyecto][Configuración del proyecto] Reemplazar &quot;Malla&quot; por &quot;Archivo&quot;
-* [UI][Substance] Visualización de atributos de Substance en IU
+* [UI]&#x200B;[Propiedades de la herramienta] Exponer el ajuste preestablecido de Substance
+* [UI]&#x200B;[menú Ayuda] Mejora del menú Ayuda
+* [UI]&#x200B;[Nuevo proyecto]&#x200B;[Configuración del proyecto] Reorganización de la ventana
+* [UI]&#x200B;[Nuevo proyecto]&#x200B;[Configuración del proyecto] Reemplazar &quot;Malla&quot; por &quot;Archivo&quot;
+* [UI]&#x200B;[Substance] Visualización de atributos de Substance en IU
 * [Métodos abreviados] &quot;F4&quot; cambia entre la vista 2D y 3D
 * [Accesos directos] Nuevos accesos directos para la galería de símbolos de alternancia &quot;N&quot; y la máscara rápida &quot;U&quot;
 * [Substance integration] Tenga en cuenta las sentencias &#39;visible if&#39; en los parámetros del Substance
@@ -309,10 +309,10 @@ Para encontrar el proyecto, use **Archivo** > **Abrir ejemplo...Entrada de menú
 * [Contenido] Añadir una muestra con la dispersión subsuperficial activada - JadeToad
 * [Contenido] Añade una nueva plantilla de proyecto PBR con la dispersión subsuperficial activada
 * [Contenido] Se han actualizado los ajustes preestablecidos de exportación para añadir un nuevo canal de dispersión
-* [Content][Shelf] Se ha añadido compatibilidad de dispersión subsuperficial para: pbr-metal-rough, pbr-metal-rough-alpha-test, recubierto de pbr, pbr-spec-gloss
+* [Content]&#x200B;[Shelf] Se ha añadido compatibilidad de dispersión subsuperficial para: pbr-metal-rough, pbr-metal-rough-alpha-test, recubierto de pbr, pbr-spec-gloss
 * [Contenido] [Estante] Se ha añadido el canal de dispersión a 5 materiales inteligentes (mármoles y pieles)
-* [Contenido][Estante] 1 nuevo material de jade
-* [Contenido][Estante] 1 nuevo material de cera
+* [Contenido]&#x200B;[Estante] 1 nuevo material de jade
+* [Contenido]&#x200B;[Estante] 1 nuevo material de cera
 
 **Corregido:**
 

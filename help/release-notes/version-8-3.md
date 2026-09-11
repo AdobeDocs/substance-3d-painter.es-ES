@@ -208,10 +208,10 @@ Resumen: **Versión principal con nuevo modo de hacer un bake, nueva importació
 * [USD] Importar mallas de piel USD en un marco específico
 
   Al crear un nuevo proyecto con un archivo de malla USD que contiene animación, es posible seleccionar el fotograma mediante un regulador que refleje la secuencia de cronología incrustada. El marco se puede modificar mediante la configuración del proyecto.
-* [USD][Exportar] Añadir una opción para exportar archivos USD
+* [USD]&#x200B;[Exportar] Añadir una opción para exportar archivos USD
 
   Se ha añadido la nueva casilla de verificación Exportar USD a la ventana Exportar texturas. Cuando está activada, permite exportar archivos USD, así como mapas de textura, utilizando cualquier plantilla.
-* [USD][Exportar] Añadir el formato de archivo USD a la malla de exportación
+* [USD]&#x200B;[Exportar] Añadir el formato de archivo USD a la malla de exportación
 * [USD] Cambie el nombre del ajuste preestablecido de exportación existente &quot;Rugosidad del metal PBR en USD&quot; para que sea más explícito
 
   Se puede acceder a la plantilla de exportación en USD denominada anteriormente &quot;Rugosidad del metal PBR en USD&quot; a través de Exportar texturas > Plantilla de salida > USDz (Apple AR).
@@ -249,7 +249,7 @@ Resumen: **Versión principal con nuevo modo de hacer un bake, nueva importació
 **Corregido:**
 
 * [Bloqueo] Cambio de canales en el filtro con una pila específica
-* [Mac][M1] Bloqueo al crear una capa de relleno y salir de la pila de capas
+* [Mac]&#x200B;[M1] Bloqueo al crear una capa de relleno y salir de la pila de capas
 
   Este problema se puede solucionar actualizando a Mac OS 13 (Ventura).
 * [Scripting] [Python] Bloqueo al utilizar ui.add\_dock\_widget() con un tipo incorrecto

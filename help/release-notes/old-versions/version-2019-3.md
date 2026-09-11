@@ -380,28 +380,28 @@ Resumen : **Versión principal con mejora de la experiencia del usuario al pinta
 * [Desempaquetado de UV] Desempaquetado automático de UV en el Substance Painter cuando no hay UV o UV parciales
 * [Desempaquetado UV] Una configuración global para activarla y desactivarla
 * [Desempaquetado UV] Versión registrada en el archivo de registro
-* [Desempaquetado UV][IU] Indicar el progreso del desempaquetado UV
+* [Desempaquetado UV]&#x200B;[IU] Indicar el progreso del desempaquetado UV
 * [UI] Nuevos ajustes en la barra de herramientas contextual para seleccionar la vista previa del pincel: Vista previa completa, contorno de pincel y forma de cruz
 * [Herramienta] Nuevo modo de fusión avanzado en la sección alfa: Aclarar (máximo) además de Normal
 * [Pila de capas] Opción de corrección de gamma por capa para alfa o máscara (menú del botón derecho)
-* [Pila de capas][IU] Se añade el icono &quot;i&quot; cuando se corrige la gamma de una capa alfa
+* [Pila de capas]&#x200B;[IU] Se añade el icono &quot;i&quot; cuando se corrige la gamma de una capa alfa
 * [Tablet] [Herramienta] Exponer presión mínima para tamaño y flujo
-* [Tablet][UI] Nueva configuración en la barra de herramientas contextual para seleccionar la presión de curva: lineal, fácil de entrar, fácil de salir
-* [Tablet][UX] Pulse Ctrl+Alt y haga clic para desplazarse
+* [Tablet]&#x200B;[UI] Nueva configuración en la barra de herramientas contextual para seleccionar la presión de curva: lineal, fácil de entrar, fácil de salir
+* [Tablet]&#x200B;[UX] Pulse Ctrl+Alt y haga clic para desplazarse
 * Importar ajustes preestablecidos de pincel de Photoshop (formato ABR)
 * [ABR] Compatibilidad con parámetros de forma
 * [ABR] Compatibilidad con parámetros de dinámica de forma
 * [ABR] Parámetros de transferencia de soporte
 * [ABR] Compatibilidad con parámetros de dispersión
-* [ABR][Trazos dinámicos] Compatibilidad con redondez y volteo
-* [ABR][Estante] Se muestra la estructura de carpetas del pincel en el Editor de filtros.
-* [ABR][Estante] Añadir icono de Photoshop en miniaturas
-* [ABR][Shelf] Añadir una lista de parámetros no admitidos en la miniatura detallada de ABR
-* [Herramienta][Trazos dinámicos] Nuevo ajuste de trazo dinámico para controlar cuántas semillas aleatorias se van a generar
-* [Herramienta][IU] Añadir nuevos ajustes de distribución y eje para la variación de dispersión
+* [ABR]&#x200B;[Trazos dinámicos] Compatibilidad con redondez y volteo
+* [ABR]&#x200B;[Estante] Se muestra la estructura de carpetas del pincel en el Editor de filtros.
+* [ABR]&#x200B;[Estante] Añadir icono de Photoshop en miniaturas
+* [ABR]&#x200B;[Shelf] Añadir una lista de parámetros no admitidos en la miniatura detallada de ABR
+* [Herramienta]&#x200B;[Trazos dinámicos] Nuevo ajuste de trazo dinámico para controlar cuántas semillas aleatorias se van a generar
+* [Herramienta]&#x200B;[IU] Añadir nuevos ajustes de distribución y eje para la variación de dispersión
 * [Método abreviado] Pulse Ctrl+Mayús+B para abrir la ventana que Hace un bake
-* [UI][Menu] Añadir entrada en el menú &quot;Editar&quot; para abrir la ventana Hornear
-* [UI][Configuración] Mejora de la alineación de la lista de métodos abreviados
+* [UI]&#x200B;[Menu] Añadir entrada en el menú &quot;Editar&quot; para abrir la ventana Hornear
+* [UI]&#x200B;[Configuración] Mejora de la alineación de la lista de métodos abreviados
 * [UI] Reemplazar los controles de presión (tamaño y flujo) por botones de activación/desactivación
 * [Ventana gráfica] Permite enfocar la ventana gráfica 2D y 3D por separado
 * Actualización a QT 5.12.5
@@ -432,7 +432,7 @@ Resumen : **Versión principal con mejora de la experiencia del usuario al pinta
 * [Tablet] Los métodos abreviados para modificar pinceles con lápiz suelen dar lugar a un rendimiento bajo en casos excepcionales
 * [Tablet] Retraso al pintar en una capa específica
 * En raras ocasiones, pueden producirse texturas borrosas al cambiar la ventana gráfica
-* [UI][Substance] No siempre se muestran las entradas de imagen
+* [UI]&#x200B;[Substance] No siempre se muestran las entradas de imagen
 * Limpiar no elimina los ajustes preestablecidos del estante que se hayan importado en un proyecto
 * [Herramienta] [Trazo dinámico] Problema de rendimiento al ajustar el recuento cíclico de sello
 * Problemas de actualización al pintar en modo de ventanilla 3D/2D en casos excepcionales

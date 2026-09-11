@@ -170,10 +170,10 @@ Resumen: <b>Versión principal, nuevo contenido: Filtro de color/máscara de ár
 <b>Corregido</b>:
 
 * [Illustrator] Bloqueo al exportar un azulejo UV con un gráfico .ai en casos específicos
-* [Trazos dinámicos][Trazado] La opción aleatoria por trazo no funciona en un trazado
-* [UI][Propiedades] El bloqueo está activado cuando el mosaico no es uniforme
+* [Trazos dinámicos]&#x200B;[Trazado] La opción aleatoria por trazo no funciona en un trazado
+* [UI]&#x200B;[Propiedades] El bloqueo está activado cuando el mosaico no es uniforme
 * &#x200B; archivo Debug TXT se crea al hacer doble clic en el proyecto de Painter
-* [USD][Exportar] Es posible que falten algunas texturas
+* [USD]&#x200B;[Exportar] Es posible que falten algunas texturas
 * [ASM] El canal de color de dispersión ignora el metal
 * [Contenido] El filtro de desenfoque no funciona en espacios de color &quot;operativos&quot;
 * [Contenido] Height Ajustar filtro también modifica el alfa de la capa
@@ -182,7 +182,7 @@ Resumen: <b>Versión principal, nuevo contenido: Filtro de color/máscara de ár
 
 * [Gestión de color] Las conversiones de espacio de color HDR con ACE en Linux producen colores con sujeción
 * [Win] [Bloqueo] [ACE] No se utiliza el espacio de color sRGB ICE para la transformación de la pantalla
-* [Regresión][IU] El menú contextual es demasiado pequeño en pantallas HD
+* [Regresión]&#x200B;[IU] El menú contextual es demasiado pequeño en pantallas HD
 * [Bloqueo] [Python] Exportación de USD desencadenada por TextureStateEvent
 * [MacOS Intel] Bloqueo al importar algunos ajustes preestablecidos
 * [Bloqueo] Reubicar recurso y guardar proyecto

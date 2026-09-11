@@ -205,7 +205,7 @@ Resumen : **Corrección de error**
 
 **Corregido:**
 
-* [Mac][USD] Los archivos USDZ exportados de MacOS no se pueden abrir
+* [Mac]&#x200B;[USD] Los archivos USDZ exportados de MacOS no se pueden abrir
 * [Conjunto de texturas] No es posible aislar un conjunto de texturas con el modificador ALT
 * [Shelf] Los ajustes preestablecidos, Materiales inteligentes y Máscaras inteligentes siempre se modifican al salir de la aplicación
 * [Pila de capas] No se puede seleccionar el efecto después de eliminar otro efecto
@@ -229,13 +229,13 @@ Resumen : **Versión principal con actualizaciones de los bakeres en términos d
 
 * [Bakeres] Se ha agregado compatibilidad para Trazado de rayos de GPU con DXR y OptiX (Oclusión ambiental, Thickness)
 * [Baker] Optimizaciones y aceleraciones para el Trazado de rayos de la CPU
-* [Bakeres][Modo Vis][IU] Nuevo modo de visualización de hace un bake en la ventana gráfica
-* [Bakeres][Preferencias][IU] Nueva opción de hacer un bake para activar y desactivar el Trazado de rayos de GPU
-* [Bakeres][IU] Repaso del cuadro de diálogo de la barra de progreso
+* [Bakeres]&#x200B;[Modo Vis]&#x200B;[IU] Nuevo modo de visualización de hace un bake en la ventana gráfica
+* [Bakeres]&#x200B;[Preferencias]&#x200B;[IU] Nueva opción de hacer un bake para activar y desactivar el Trazado de rayos de GPU
+* [Bakeres]&#x200B;[IU] Repaso del cuadro de diálogo de la barra de progreso
 * [Bakeres] Mejora de los mensajes de advertencia y error
 * [Bakeres] Permitir una cancelación más receptiva del proceso de hacer un bake
 * [Baker] Vuelva a abrir la ventana hacer un bake después de hacer clic en Cancelar
-* [Proj][UX] Mejora de la usabilidad del manipulador de rotación
+* [Proj]&#x200B;[UX] Mejora de la usabilidad del manipulador de rotación
 * [Configuración] Opción para mejorar el rendimiento reduciendo la resolución de la ventana gráfica para las pantallas HDPI
 * [Scripting] Cambiar la resolución del conjunto de texturas
 * [Scripting] Obtener conjunto de texturas seleccionado

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Generadores
 
-Los generadores son substancias que generan una o varias texturas basadas en la topología de malla [ utilizando mapas de utilidades hechas un bake como Posición, Curvatura y World Space Normal](../../baking/baking.md).
+Los generadores son substancias que generan una o varias texturas basadas en la topología de malla [&#x200B; utilizando mapas de utilidades hechas un bake como Posición, Curvatura y World Space Normal](../../baking/baking.md).
 
 >[!NOTE]
 >

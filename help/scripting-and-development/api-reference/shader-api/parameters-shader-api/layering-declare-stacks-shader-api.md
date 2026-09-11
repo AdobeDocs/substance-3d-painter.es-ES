@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## Capas de materiales: declarar pilas editables
 
-Una pila editable se define mediante un identificador único y una lista de canales de documento. Los posibles ID de canal son: *ambientocclusion* *anisotropyangle* *anisotropylevel* *basecolor* *blendingmask* *diffuse* *desplazamiento* *emisivo* *brillo* *height* *submarino* *metálico* ** opacidad ** reflexión ** rugosidad ** dispersión ** specular ** nivel especular ** transmisivo ** usuario0 ** usuario1 ** usuario2 ** usuario3} 7} *usuario4* *usuario5* *usuario6* *usuario7***
+Una pila editable se define mediante un identificador único y una lista de canales de documento. Los posibles ID de canal son: *ambientocclusion* *anisotropyangle* *anisotropylevel* *basecolor* *blendingmask* *diffuse* *desplazamiento* *emisivo* *brillo* *height* *submarino* *metálico* **&#x200B; opacidad &#x200B;** reflexión **&#x200B; rugosidad &#x200B;** dispersión **&#x200B; specular &#x200B;** nivel especular **&#x200B; transmisivo &#x200B;** usuario0 **&#x200B; usuario1 &#x200B;** usuario2 **&#x200B; usuario3&rbrace; 7&rbrace; *usuario4* *usuario5* *usuario6* *usuario7***
 
 Ejemplo:
 

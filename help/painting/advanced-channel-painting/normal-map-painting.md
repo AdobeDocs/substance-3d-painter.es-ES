@@ -40,7 +40,7 @@ Los mapas de normales tienen sus propios modos de fusión en la pila de capas:
 
 * **Detalle del Mapa de normales** (predeterminado)
 * **Detalle inverso del Mapa de normales**
-* Combinación de Mapas de normales **1}**
+* Combinación de Mapas de normales **1&rbrace;**
 
 Para obtener más información, consulte la página [Modos de fusión](../../interface/layer-stack/blending-modes.md).
 

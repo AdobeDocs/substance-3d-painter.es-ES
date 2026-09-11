@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Al iniciar la aplicación, puede aparecer el siguiente mensaje de error:
 
->> 
+&#x200B;>> 
 
 Esta aplicación no se pudo iniciar porque no se pudo inicializar ningún complemento de la plataforma Qt. Si reinstala la aplicación, es posible que se solucione el problema.
 

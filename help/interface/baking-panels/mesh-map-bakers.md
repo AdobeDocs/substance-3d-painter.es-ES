@@ -72,7 +72,7 @@ Como alternativa, si desea copiar los ajustes de un único mapa de malla en conj
 
 ![](../../assets/baking/copy-ao-settings.gif)
 
-*En el ejemplo anterior, cada conjunto de texturas comienza con configuraciones diferentes para AO. Sin configurar el mapa de malla AO para que se sincronice, usamos **Aplicar configuración de oclusión ambiental a más conjuntos de texturas...**para que podamos empezar a modificar la configuración de AO para el nuevo conjunto de texturas a partir de la misma línea de base.*
+*En el ejemplo anterior, cada conjunto de texturas comienza con configuraciones diferentes para AO. Sin configurar el mapa de malla AO para que se sincronice, usamos **Aplicar configuración de oclusión ambiental a más conjuntos de texturas...**&#x200B;para que podamos empezar a modificar la configuración de AO para el nuevo conjunto de texturas a partir de la misma línea de base.*
 
 ### Administrar la comprobación de estado para mapas de malla
 
@@ -90,10 +90,10 @@ Comprobar estado determina si se incluye un mapa determinado al hacer un bake ma
 
 ![](../../assets/baking/invert-checked.gif)
 
-*En el ejemplo anterior, usamos **Invertir mapas de malla comprobada**para cambiar rápidamente la selección y, a continuación, hacer un bake mapas de malla que aún no se han hecho un bake.*
+*En el ejemplo anterior, usamos **Invertir mapas de malla comprobada**&#x200B;para cambiar rápidamente la selección y, a continuación, hacer un bake mapas de malla que aún no se han hecho un bake.*
 
 Al trabajar con varios conjuntos de texturas, también puede copiar el estado marcado de los mapas a otros conjuntos de texturas seleccionando **Aplicar activado a más conjuntos de texturas...**, o copiar el estado marcado a todos los conjuntos de texturas con **Aplicar activado a todos los conjuntos de texturas**.
 
 ![](../../assets/baking/copy-checked-status.gif)
 
-*En el ejemplo anterior, aún no hemos hecho un bake el Height, las normales dobladas o la opacidad en el conjunto de texturas **Material.001**. Ya tenemos estos mapas de malla seleccionados en el conjunto de texturas **Material**, por lo que usamos **Aplicar activado a más conjuntos de texturas...**y seleccionamos **Material.001**para copiar el estado marcado. A continuación, hacemos un bake los mapas. Observe que la visualización recorre los mapas de malla dos veces a medida que se hacen un bake los mapas. Esto se debe a que se están haciendo un bake para ambos conjuntos de texturas.*
+*En el ejemplo anterior, aún no hemos hecho un bake el Height, las normales dobladas o la opacidad en el conjunto de texturas **Material.001**. Ya tenemos estos mapas de malla seleccionados en el conjunto de texturas **Material**, por lo que usamos **Aplicar activado a más conjuntos de texturas...**&#x200B;y seleccionamos **Material.001**&#x200B;para copiar el estado marcado. A continuación, hacemos un bake los mapas. Observe que la visualización recorre los mapas de malla dos veces a medida que se hacen un bake los mapas. Esto se debe a que se están haciendo un bake para ambos conjuntos de texturas.*

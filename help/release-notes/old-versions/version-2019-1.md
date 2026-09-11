@@ -280,7 +280,7 @@ Resumen : **Corrección de error con 2 nuevas características**
 * [TextureSet] Bloqueo al hacer clic entre máscaras
 * [SVT] El Desplazamiento no se muestra correctamente y parpadea en algunos casos
 * [Alembic] Bloqueo con la malla utilizando normales de punto en lugar de normales de vértice
-* [Alembic][Log] Informar de un error en Log si no se admite el archivo Alembic durante la importación
+* [Alembic]&#x200B;[Log] Informar de un error en Log si no se admite el archivo Alembic durante la importación
 
 ### 2019.1.2
 
@@ -303,7 +303,7 @@ Resumen : **Corrección urgente**
 **Corregido:**
 
 * [Substance] Visible Si no se tiene en cuenta para las imágenes de entrada
-* [SVT][Motor] El cambio de la resolución del conjunto de texturas provoca un bloqueo en algunos casos
+* [SVT]&#x200B;[Motor] El cambio de la resolución del conjunto de texturas provoca un bloqueo en algunos casos
 * [Motor] En algunos casos aparecen texturas negras aleatorias
 * [Pila de capas] [IU] Al alternar una máscara con MAYÚS, se pueden seleccionar varias capas al mismo tiempo
 * [Pila de capas] La opacidad no afecta al efecto Pintura con el modo de fusión PassThrough
@@ -337,7 +337,7 @@ Resumen : **Trazo dinámico con contenido nuevo, Desplazamiento y teselación en
 * [Trazo dinámico] [Estante] Ayuda para buscar un recurso de trazo dinámico con un icono nuevo dedicado
 * Desplazamiento y teselación en la ventana gráfica en tiempo real
 * Desplazamiento y teselado en Iray
-* [Configuración de Sombreador][UI] Nueva pestaña para controlar el desplazamiento y la teselación
+* [Configuración de Sombreador]&#x200B;[UI] Nueva pestaña para controlar el desplazamiento y la teselación
 * [Pila de capas] Nuevo efecto CompararMáscara: generar una máscara comparando dos canales
 * [Pila de capas] [IU] Nueva entrada en el menú contextual &quot;Añadir máscara con combinación de height&quot; para insertar un efecto Comparar máscara
 * [Simetría] Nuevo modo de simetría: pintura radial
@@ -354,18 +354,18 @@ Resumen : **Trazo dinámico con contenido nuevo, Desplazamiento y teselación en
 * [Conjunto de texturas] Selección múltiple y resolución de cambios
 * [Conjunto de texturas] Activación y desactivación rápidas de los conjuntos de texturas
 * [Conjunto de texturas] Combina solo y todas las opciones en un nuevo menú
-* [Conjunto de texturas][Pila de capas] Nuevo icono para activación y desactivación
+* [Conjunto de texturas]&#x200B;[Pila de capas] Nuevo icono para activación y desactivación
 * [Pila de capas] [UX] Inserta efectos por encima de los que ya están seleccionados
 * [Pila de capas] [IU] Reprocesar pila de capas ver estilo de selección
 * [Pila de capas] El modo de fusión para capas con instancias ahora está en modo Pass Through de forma predeterminada
 * [Exportar] Opción para activar y desactivar el tramado
 * [Plugin] Compatibilidad con el modificador de precisión para reguladores (MAYÚS)
-* [Plugin][UI] Nuevo icono para autoguardar
+* [Plugin]&#x200B;[UI] Nuevo icono para autoguardar
 * [Scripting] Enumera el contenido de una carpeta
 * [Scripting] Permitir la eliminación de archivos
 * [Scripting] Lea toda la información de la pila, incluidos los recursos utilizados
-* [Contenido][Trazo dinámico] Nuevas herramientas y ajustes preestablecidos de pincel
-* [Content][Dynamic stroke] Dos nuevos degradados de procedimiento: Tono de degradado y Generador de degradado
+* [Contenido]&#x200B;[Trazo dinámico] Nuevas herramientas y ajustes preestablecidos de pincel
+* [Content]&#x200B;[Dynamic stroke] Dos nuevos degradados de procedimiento: Tono de degradado y Generador de degradado
 * [Contenido] 11 nuevos filtros: Pintura descascarillada MatFx, gotas de agua MatFx y más
 * [Contenido] 7 nuevos generadores: Stitcher automático, UV Random Color, UV Texel Density y más
 * [Contenido] 93 alfas nuevas: nuevos textos, flechas y otras formas

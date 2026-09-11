@@ -197,7 +197,7 @@ Ahora las mallas se cortan en Islas de UV separadas usando un método se acerca 
 * [Gestión de color] Permite especificar el perfil de color utilizado para seleccionar el color fuera de la interfaz de usuario
 * [Gestión de color] Recordar el último valor de visualización elegido en la ventana gráfica
 * [Gestión de color] [Substance] Hacer que los generadores/filtros funcionen correctamente con la gestión de color
-* [Gestión de color][Substance] Añadir nuevas palabras clave de anulación de espacio de color $working y $standardsrgb
+* [Gestión de color]&#x200B;[Substance] Añadir nuevas palabras clave de anulación de espacio de color $working y $standardsrgb
 * [Tamaño físico] [Motor] Extraer información de tamaño físico de la malla
 * [Tamaño físico] [Motor] Cálculo del Tamaño físico
 * [Tamaño físico] Opciones de exposición para utilizar tamaño físico en la interfaz de usuario
@@ -235,7 +235,7 @@ Ahora las mallas se cortan en Islas de UV separadas usando un método se acerca 
 
 * [glTF] No se puede abrir glTF con un carácter especial
 * [Motor] Artefactos con anisotropía y SVT desactivados
-* [MacOS][M1] Los Materiales inteligentes no se muestran correctamente
+* [MacOS]&#x200B;[M1] Los Materiales inteligentes no se muestran correctamente
 * [Procesamiento de malla] No se pueden importar mallas desde Modeler
 * [UI] Barra de desplazamiento horizontal en la ventana de nuevo proyecto con la gestión de color habilitada
 * [Gestión de color] Falta el valor del espacio de trabajo en el selector de color con algunas configuraciones de OCIO

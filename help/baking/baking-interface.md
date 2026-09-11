@@ -13,7 +13,7 @@ ht-degree: 3%
 
 **Modo de Hacer un bake** proporciona acceso a todas las herramientas y parámetros que necesitas para crear hagas un bake de gran calidad.
 
-Para acceder al **modo de Hacer un bake**, haga clic en el botón (hecho un bake) Croissant en la parte superior derecha de la ventana gráfica. También puede usar [método abreviado de teclado ](../interface/settings/shortcuts.md)**F8** o seleccionar **Modo > Hacer un bake mapas de malla**
+Para acceder al **modo de Hacer un bake**, haga clic en el botón (hecho un bake) Croissant en la parte superior derecha de la ventana gráfica. También puede usar [método abreviado de teclado &#x200B;](../interface/settings/shortcuts.md)**F8** o seleccionar **Modo > Hacer un bake mapas de malla**
 
 ![](../assets/baking/mode_select_buttons.png)
 

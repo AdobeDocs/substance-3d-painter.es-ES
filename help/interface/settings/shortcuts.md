@@ -74,8 +74,8 @@ Para restablecer un método abreviado a su valor predeterminado, simplemente hag
 | **Seleccionar herramienta Clonar (origen relativo)** | 6 | 6 |  |
 | **Herramienta Seleccionar Clonar (origen absoluto)** | Ctrl + 6 | ⌘+6 |  |
 | **Hacer un bake mapas de malla** | Ctrl+Mayús+B | ⌘+Mayús+B | Abra la ventana de configuración de Haga un bake. |
-| **Aumentar tamaño de herramienta** | **&amp;rbrack;** | **&amp;rbrack;** | Aumente el tamaño del pincel para la herramienta de pintura. |
-| **Reducir tamaño de herramienta** | **&amp;lbrack;** | **&amp;lbrack;** | Reduzca el tamaño del pincel para la herramienta de pintura. |
+| **Aumentar tamaño de herramienta** | **&rbrack;** | **&rbrack;** | Aumente el tamaño del pincel para la herramienta de pintura. |
+| **Reducir tamaño de herramienta** | **&lbrack;** | **&lbrack;** | Reduzca el tamaño del pincel para la herramienta de pintura. |
 | **Herramienta Invertir escala de grises** | X | X | Invierte el valor actual de la escala de grises si la herramienta de pintura está en una máscara. |
 | **Elegir material de trazo** | P | P | Active la herramienta Selector de material. |
 | **Ratón perezoso** | D | D | Active el comportamiento de ratón perezoso en la herramienta actual. |

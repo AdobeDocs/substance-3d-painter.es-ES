@@ -61,7 +61,7 @@ No todos los parámetros de pincel de Photoshop son compatibles. Consulte la ley
 | **Dureza** | ■ | Se gestiona mediante el archivo de Substance &quot;Brush Maker Photoshop&quot;. |  |
 | **Espaciado** | ■ | Coincidencia con el parámetro Espaciado de la herramienta de pintura. |  |
 |  |  |  |  |
-| Dinámica de forma | Variación de tamaño **1}** | ■ | Coincidencia con el parámetro Variación del tamaño de la herramienta de pintura. |
+| Dinámica de forma | Variación de tamaño **1&rbrace;** | ■ | Coincidencia con el parámetro Variación del tamaño de la herramienta de pintura. |
 | **Control (de tamaño)** | ■ | Se ha emparejado con la herramienta de Pintura. Ajuste de presión del parámetro Tamaño . |  |
 | **Diámetro mínimo** | ■ | Coincidencia con el parámetro Tamaño mínimo de la herramienta Pintura. |  |
 | **Escala de inclinación** | ✖ |  |  |

@@ -303,7 +303,7 @@ Resumen: **Versión principal con nuevos paneles de incorporación (nuevo panel 
 * Bloqueo al utilizar 16k exr
 * [Bloqueo] Ctrl Z Después de eliminar una instancia de sombreado
 * [Iray] El valor de IoR está bloqueado en 1 para algunos sombreadores
-* [Win][Haciendo un bake] No se puede cargar un poli alto
+* [Win]&#x200B;[Haciendo un bake] No se puede cargar un poli alto
 * [Gestión de color] Nombre de espacio de color incorrecto en la IU con filtros
 * [Python] Los objetos de recursos devueltos por la función de importación no tienen un tipo
 

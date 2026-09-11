@@ -207,42 +207,42 @@ Resumen : **Versión principal: proporciona una actualización del panel de recu
 **Agregado:**
 
 * [Bibliotecas] Nuevo panel Activos para sustituir el estante
-* [Bibliotecas][IU] Nuevo diseño del panel Activos
-* [Bibliotecas][IU] Cambiar la orientación y la interfaz de usuario predeterminadas del panel Activos
-* [Bibliotecas][IU] Introducir una opción de vista de lista en la biblioteca
+* [Bibliotecas]&#x200B;[IU] Nuevo diseño del panel Activos
+* [Bibliotecas]&#x200B;[IU] Cambiar la orientación y la interfaz de usuario predeterminadas del panel Activos
+* [Bibliotecas]&#x200B;[IU] Introducir una opción de vista de lista en la biblioteca
 * [Bibliotecas] [IU] Nueva navegación de rutas de navegación en el panel Activos
-* [Bibliotecas][UI] Seleccione &quot;Todas las bibliotecas&quot; al seleccionar una búsqueda guardada
+* [Bibliotecas]&#x200B;[UI] Seleccione &quot;Todas las bibliotecas&quot; al seleccionar una búsqueda guardada
 * [Bibliotecas] [IU] Seleccione &quot;Todas las bibliotecas&quot; cuando se anule la selección de todas las carpetas
-* [Bibliotecas][IU] Nueva etiqueta para pinceles de partículas
+* [Bibliotecas]&#x200B;[IU] Nueva etiqueta para pinceles de partículas
 * [Bibliotecas] [IU] Se ha sustituido &quot;estantería&quot; por &quot;Todas las bibliotecas&quot; en la aplicación.
-* [Bibliotecas][IU] Permitir ocultar carpetas vacías
-* [Bibliotecas][UI] La biblioteca de usuario predeterminada debe estar visible aunque esté vacía.
-* [Bibliotecas][IU] Nuevo método de filtrado mediante iconos de tipos de activos
+* [Bibliotecas]&#x200B;[IU] Permitir ocultar carpetas vacías
+* [Bibliotecas]&#x200B;[UI] La biblioteca de usuario predeterminada debe estar visible aunque esté vacía.
+* [Bibliotecas]&#x200B;[IU] Nuevo método de filtrado mediante iconos de tipos de activos
 * [Bibliotecas] Método abreviado &quot;CTRL&quot; para seleccionar varios tipos de recursos
 * [Bibliotecas] Nueva variable de entorno para controlar el presupuesto de memoria de previsualización de activos
-* [Bibliotecas][Contenido] Nuevos mapas de entorno
-* [Bibliotecas][Contenido][IU] desplazamiento de procesamiento en los materiales predeterminados
-* [Bibliotecas][Contenido] Establezca sombreador de Adobe Standard Material (ASM) como predeterminado para la generación de vistas previas
-* [Bibliotecas][Contenido][ASM] Nuevas plantillas de proyecto para el nuevo sombreador de ASM
-* [Bibliotecas][Miniatura] Usar nuevo mapa de entorno de Studio 6
-* [Bibliotecas][Miniatura] Lea la miniatura del recurso en lugar de generarla
-* [Bibliotecas][Miniatura] Añadir desplazamiento a la generación de miniaturas
+* [Bibliotecas]&#x200B;[Contenido] Nuevos mapas de entorno
+* [Bibliotecas]&#x200B;[Contenido]&#x200B;[IU] desplazamiento de procesamiento en los materiales predeterminados
+* [Bibliotecas]&#x200B;[Contenido] Establezca sombreador de Adobe Standard Material (ASM) como predeterminado para la generación de vistas previas
+* [Bibliotecas]&#x200B;[Contenido]&#x200B;[ASM] Nuevas plantillas de proyecto para el nuevo sombreador de ASM
+* [Bibliotecas]&#x200B;[Miniatura] Usar nuevo mapa de entorno de Studio 6
+* [Bibliotecas]&#x200B;[Miniatura] Lea la miniatura del recurso en lugar de generarla
+* [Bibliotecas]&#x200B;[Miniatura] Añadir desplazamiento a la generación de miniaturas
 * [Ajustes del conjunto de texturas]
-* [Ajustes del conjunto de texturas][IU] Exponer el nuevo height al método de conversión normal
+* [Ajustes del conjunto de texturas]&#x200B;[IU] Exponer el nuevo height al método de conversión normal
 * [Ajustes del conjunto de texturas] [IU] Reorganización de la IU de los canales
 * [Ajustes del conjunto de texturas] El límite de canales de usuario se eleva a 16 canales
-* [Ajustes del conjunto de texturas][IU] Indica qué canales son compatibles con el sombreador seleccionado actualmente
-* [Shader][ASM] Nuevo sombreador de Adobe Standard Material
+* [Ajustes del conjunto de texturas]&#x200B;[IU] Indica qué canales son compatibles con el sombreador seleccionado actualmente
+* [Shader]&#x200B;[ASM] Nuevo sombreador de Adobe Standard Material
 * [Shader] [ASM] Se ha agregado compatibilidad con Anisotropía, capa transparente, dispersión subsuperficial, Specular edge color y brillo
-* [Shader][ASM] Cambiar los valores de color de los canales predeterminados
-* [Shader][ASM][Export] Plantilla de exportación actualizada de Adobe Dimension a Adobe Substance 3D Stager
+* [Shader]&#x200B;[ASM] Cambiar los valores de color de los canales predeterminados
+* [Shader]&#x200B;[ASM]&#x200B;[Export] Plantilla de exportación actualizada de Adobe Dimension a Adobe Substance 3D Stager
 * [Shader] [ASM] Se han añadido etiquetas y sugerencias de herramientas para los parámetros de sombreado y MDL
-* [Shader][ASM] Haga visible el color de la Dispersión en la vista 2D aunque no se admita SSS
-* [Shader][ASM][Iray] Se admite el sombreado de ASM en Iray con el nuevo MDL.
-* [Shader][ASM][Iray] Dispersión subsuperficial actualizada en brillo y revestimiento de especificaciones PBR heredadas
-* [Shader][ASM][Content] Se ha cambiado el tipo de SSS predeterminado para las muestras.
-* [Shader][ASM] Se ha añadido documentación para la API de ASM
-* [Shader][ASM] Optimizar sombreadores para ignorar los canales no utilizados
+* [Shader]&#x200B;[ASM] Haga visible el color de la Dispersión en la vista 2D aunque no se admita SSS
+* [Shader]&#x200B;[ASM]&#x200B;[Iray] Se admite el sombreado de ASM en Iray con el nuevo MDL.
+* [Shader]&#x200B;[ASM]&#x200B;[Iray] Dispersión subsuperficial actualizada en brillo y revestimiento de especificaciones PBR heredadas
+* [Shader]&#x200B;[ASM]&#x200B;[Content] Se ha cambiado el tipo de SSS predeterminado para las muestras.
+* [Shader]&#x200B;[ASM] Se ha añadido documentación para la API de ASM
+* [Shader]&#x200B;[ASM] Optimizar sombreadores para ignorar los canales no utilizados
 * [Shader] Exponer nuevos canales de conjunto de texturas
 * [Shader] Dispersión subsuperficial mejorada
 * [Shader] Se han ocultado nuevos parámetros de sombreado para algunos sombreadores.
@@ -259,30 +259,30 @@ Resumen : **Versión principal: proporciona una actualización del panel de recu
 * [UI] Actualización general de la IU
 * [UI] Repaso del menú Ayuda
 * [UI] Reemplazar el icono de inversión
-* [UI][Complemento] Icono Reemplazar para el vínculo de dcc del complemento
-* [UI][AMD] Mensaje emergente y versión mínima requerida de actualización
+* [UI]&#x200B;[Complemento] Icono Reemplazar para el vínculo de dcc del complemento
+* [UI]&#x200B;[AMD] Mensaje emergente y versión mínima requerida de actualización
 * [Pila de capas] Crear una nueva capa dentro de la carpeta vacía seleccionada
 * Actualizar documentación de Python
 * [Marca]
-* [Branding][UI] Se ha actualizado el nombre de la aplicación a Adobe Substance 3D Painter.
-* [Marca][IU] Se ha actualizado la versión independiente a &#39;Edición de Substance&#39;
-* [Marca][IU] Se ha actualizado el nombre del ejecutable de la aplicación, la ruta de instalación, el paquete y los iconos
-* [Branding][UI] Se ha cambiado el nombre de la biblioteca y la ruta predeterminadas
-* [Branding][UI] Acerca de la ventana
-* [Branding][UI] Pantalla de bienvenida actualizada
-* [Marca][IU] Se ha eliminado el número de versión anual
+* [Branding]&#x200B;[UI] Se ha actualizado el nombre de la aplicación a Adobe Substance 3D Painter.
+* [Marca]&#x200B;[IU] Se ha actualizado la versión independiente a &#39;Edición de Substance&#39;
+* [Marca]&#x200B;[IU] Se ha actualizado el nombre del ejecutable de la aplicación, la ruta de instalación, el paquete y los iconos
+* [Branding]&#x200B;[UI] Se ha cambiado el nombre de la biblioteca y la ruta predeterminadas
+* [Branding]&#x200B;[UI] Acerca de la ventana
+* [Branding]&#x200B;[UI] Pantalla de bienvenida actualizada
+* [Marca]&#x200B;[IU] Se ha eliminado el número de versión anual
 * [Localización] Nuevas traducciones en alemán, francés y chino simplificado
 * [Interoperabilidad] No disponible para las ediciones Steam y Substance
 * Interoperabilidad con el ecosistema de Adobe: Designer, Sampler, Stager y Bridge
 * [Interoperabilidad] [IU] Recibir y actualizar recursos de Designer
 * [Interoperabilidad] [IU] Recibir recursos de Sampler
-* [Interoperabilidad][IU] Enviar el recurso a Stager
-* [Interoperabilidad][IU] Mostrar en Adobe Bridge
-* [Interoperabilidad][IU] Permitir el acceso rápido a Adobe 3D Assets
+* [Interoperabilidad]&#x200B;[IU] Enviar el recurso a Stager
+* [Interoperabilidad]&#x200B;[IU] Mostrar en Adobe Bridge
+* [Interoperabilidad]&#x200B;[IU] Permitir el acceso rápido a Adobe 3D Assets
 * [Interoperabilidad] Nuevas etiquetas de uso de sbsar
 * [Interoperabilidad] Gestionar tipos de activos recibidos
 * [Interoperabilidad] Los recursos recibidos de Adobe Substance 3D Designer o Adobe Substance 3D Sampler se almacenan en la biblioteca predeterminada elegida por el usuario
-* [Interoperabilidad][UI] Nuevo icono en la barra de herramientas de la izquierda para enviar a Stager o Photoshop
+* [Interoperabilidad]&#x200B;[UI] Nuevo icono en la barra de herramientas de la izquierda para enviar a Stager o Photoshop
 
 **Corregido:**
 
@@ -292,8 +292,8 @@ Resumen : **Versión principal: proporciona una actualización del panel de recu
 * [Bloqueo] [Bibliotecas] Haga doble clic en una subbiblioteca
 * [Bibliotecas] Problema al rastrear directorios de bibliotecas
 * [Bibliotecas] La línea de comandos de generación de vista previa forzada no funciona del modo esperado
-* [Bibliotecas][Contenido] El filtro de Entorno de luz Hecho un bake es negro de forma predeterminada
-* [Linux][MacOS][Export Mesh] No se puede importar glTF creado en Linux/MacOS
+* [Bibliotecas]&#x200B;[Contenido] El filtro de Entorno de luz Hecho un bake es negro de forma predeterminada
+* [Linux]&#x200B;[MacOS]&#x200B;[Export Mesh] No se puede importar glTF creado en Linux/MacOS
 * [Linux] Arrastrar y soltar un archivo en el panel Recursos puede provocar un bloqueo
 * [Desenvolvimiento automático] El Desenvolvimiento automático está disponible incluso si no se ha seleccionado una malla para la recarga
 * Comportamiento incorrecto de las partículas con la gravedad
