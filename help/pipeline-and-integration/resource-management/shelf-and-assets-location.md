@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/shelf-and-assets-location.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/pipeline-and-integration/resource-management/shelf-and-assets-location.html"
 breadcrumb-title: ''
 description: Aprenda a configurar la ubicación de los activos y las estanterías en Substance 3D Painter para organizar la biblioteca de recursos y acceder a ella.
 helpx_creative_field: ""

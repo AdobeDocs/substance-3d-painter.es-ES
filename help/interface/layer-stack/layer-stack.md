@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/layer-stack.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar la pila de capas de Substance 3D Painter para organizar y administrar varias capas de textura.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/eraser.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/tool-list/eraser.html"
 breadcrumb-title: ''
 description: Usa la herramienta Borrador de Substance 3D Painter para eliminar la pintura y las texturas de tus modelos en 3D con un control de precisión.
 helpx_creative_field: ""

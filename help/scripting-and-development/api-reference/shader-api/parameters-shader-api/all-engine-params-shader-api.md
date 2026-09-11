@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-engine-params-shader-api.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-engine-params-shader-api.html"
 breadcrumb-title: ''
 description: Acceda a la referencia de API del sombreador Todos los Parámetros del Motor de Substance 3D Painter para controlar los parámetros de sombreador a nivel del motor.
 helpx_creative_field: ""

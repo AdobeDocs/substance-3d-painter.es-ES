@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/uv-tiles.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/uv-tiles.html"
 breadcrumb-title: ''
 description: Aprenda a usar azulejos UV en Substance 3D Painter para trabajar con diseños UV en mosaico y múltiples conjuntos de texturas.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/depth-of-field.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/post-processing/depth-of-field.html"
 breadcrumb-title: ''
 description: Aprende a usar la profundidad de campo tras el procesamiento en Substance 3D Painter para crear efectos realistas de desenfoque de enfoque de cámara.
 helpx_creative_field: ""

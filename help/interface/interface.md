@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface.html"
 breadcrumb-title: ''
 description: Obtenga más información sobre la interfaz de Substance 3D Painter para comprender los paneles, menús y herramientas para los flujos de trabajo eficientes de textura.
 helpx_creative_field: ""

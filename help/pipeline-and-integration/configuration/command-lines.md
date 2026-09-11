@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/configuration/command-lines.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/pipeline-and-integration/configuration/command-lines.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar argumentos de línea de comandos con Substance 3D Painter para la integración de automatización, secuencias de comandos y canalización.
 helpx_creative_field: ""

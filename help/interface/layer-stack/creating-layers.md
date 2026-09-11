@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/creating-layers.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/layer-stack/creating-layers.html"
 breadcrumb-title: ''
 description: Aprenda a crear nuevas capas en Substance 3D Painter para crear texturas complejas con varias capas de pintura.
 helpx_creative_field: ""

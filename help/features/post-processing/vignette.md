@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/vignette.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/post-processing/vignette.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar el efecto de postprocesamiento de viñetas en Substance 3D Painter para añadir sombreado alrededor de los bordes de la ventana gráfica.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/tone-mapping.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/post-processing/tone-mapping.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar el posprocesamiento de asignación de tonos en Substance 3D Painter para ajustar la exposición y la gradación de color en la ventana gráfica.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/main-menu.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar el menú principal de Substance 3D Painter para acceder a las operaciones con archivos, las herramientas de edición y la configuración de la aplicación.
 helpx_creative_field: ""
@@ -28,6 +28,6 @@ Situado encima de la barra de herramientas, en el menú Principal, puede acceder
 * [Menú Edición](edit-menu.md)
 * [Menú Modo](mode-menu.md)
 * [Menú Ventana](window-menu.md)
-* [Menú Ventana](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/viewport-170460351.html)
+* [Menú Ventana](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/viewport-170460351.html)
 * [Menú Complementos](plugins-menu.md)
 * [Menú Ayuda](help-menu.md)

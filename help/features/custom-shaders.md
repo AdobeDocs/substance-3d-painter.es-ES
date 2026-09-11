@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/custom-shaders.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/custom-shaders.html"
 breadcrumb-title: ''
 description: Aprenda a crear y utilizar sombreadores personalizados en Substance 3D Painter para ampliar las capacidades de representación de materiales.
 helpx_creative_field: ""
@@ -36,4 +36,4 @@ No se puede procesar {children}. Página no encontrada: Sombreadores predetermin
 
 Crear nuevos sombreadores personalizados es posible simplemente creando nuevos archivos **.glsl**.
 
-Hay disponible un [API del sombreador](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html) detallado que proporciona funciones auxiliares para crear nuevos efectos e integrarlos en el flujo de trabajo existente.
+Hay disponible un [API del sombreador](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html) detallado que proporciona funciones auxiliares para crear nuevos efectos e integrarlos en el flujo de trabajo existente.

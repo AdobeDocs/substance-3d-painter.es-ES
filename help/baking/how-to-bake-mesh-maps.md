@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/baking/how-to-bake-mesh-maps.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/baking/how-to-bake-mesh-maps.html"
 breadcrumb-title: ''
 description: Aprenda a hacer un bake mapas de malla en Substance 3D Painter para generar oclusión ambiental, curvatura y otras texturas basadas en geometría.
 helpx_creative_field: ""

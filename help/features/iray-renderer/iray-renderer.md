@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/iray-renderer.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/iray-renderer.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar el procesador de Iray en Substance 3D Painter para crear previsualizaciones y procesamientos de materiales fotorrealistas.
 helpx_creative_field: ""

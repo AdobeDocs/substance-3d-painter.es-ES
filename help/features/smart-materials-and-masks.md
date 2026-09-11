@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/smart-materials-and-masks.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/smart-materials-and-masks.html"
 breadcrumb-title: ''
 description: Aprende a usar materiales inteligentes y máscaras en Substance 3D Painter para crear texturas procedimientas que se adapten a la geometría.
 helpx_creative_field: ""

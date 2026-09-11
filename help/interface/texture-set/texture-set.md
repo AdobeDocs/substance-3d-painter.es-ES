@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/texture-set.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/texture-set.html"
 breadcrumb-title: ''
 description: Aprenda a trabajar con conjuntos de texturas en Substance 3D Painter para organizar texturas y administrar diferentes asignaciones de materiales.
 helpx_creative_field: ""

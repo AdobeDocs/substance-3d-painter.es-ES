@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.html"
 breadcrumb-title: ''
 description: Obtenga información sobre cómo corregir los bloqueos del controlador de la GPU durante cálculos largos en Substance 3D Painter para evitar errores de tiempo de espera de TDR.
 helpx_creative_field: ""

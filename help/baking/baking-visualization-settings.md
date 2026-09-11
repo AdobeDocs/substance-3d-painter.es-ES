@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/baking/baking-visualization-settings.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/baking/baking-visualization-settings.html"
 breadcrumb-title: ''
 description: Obtenga información sobre cómo hacer un bake la configuración de visualización en Substance 3D Painter para previsualizar y depurar los resultados de hace un bake del mapa de malla.
 helpx_creative_field: ""

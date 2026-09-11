@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-window/output-templates.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/getting-started/export/export-window/output-templates.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar las plantillas de salida en la ventana de exportación de Substance 3D Painter para configurar los formatos y los nombres de exportación de las texturas.
 helpx_creative_field: ""

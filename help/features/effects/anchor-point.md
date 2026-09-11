@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/anchor-point.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/effects/anchor-point.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar los efectos de punto de anclaje en Substance 3D Painter para hacer referencia a texturas de otras capas para una composición avanzada.
 helpx_creative_field: ""

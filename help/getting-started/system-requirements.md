@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/system-requirements.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/getting-started/system-requirements.html"
 breadcrumb-title: ''
 description: Revise los requisitos del sistema de Substance 3D Painter para asegurarse de que su equipo cumple las especificaciones de hardware y software.
 helpx_creative_field: ""
@@ -111,7 +111,7 @@ Para habilitar el Trazado de rayos de GPU a través de Optix o DXR se deben inst
 
 <b>DXR</b> también requiere la siguiente configuración mínima:
 
-* <b>Windows 10</b> versión 1809, consulte [esta página](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) para obtener más información
+* <b>Windows 10</b> versión 1809, consulte [esta página](https://experienceleague.adobe.com/es/docs/substance-3d/bakers/features/gpu-raytracing) para obtener más información
 * GPU <b> con arquitectura Pascal</b> (NVIDIA GeForce 10XX)
 
 >[!TIP]

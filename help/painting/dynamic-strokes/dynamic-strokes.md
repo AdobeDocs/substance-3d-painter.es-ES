@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/dynamic-strokes.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/dynamic-strokes.html"
 breadcrumb-title: ''
 description: Aprenda a usar trazos dinámicos en Substance 3D Painter para crear trazos de pincel adaptativos que se adapten a la velocidad y presión de la pintura.
 helpx_creative_field: ""

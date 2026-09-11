@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/auto-update.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/auto-update.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar la actualización automática de recursos en Substance 3D Painter para mantener sus bibliotecas de recursos sincronizadas y actualizadas.
 helpx_creative_field: ""

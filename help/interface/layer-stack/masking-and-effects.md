@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/masking-and-effects.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/layer-stack/masking-and-effects.html"
 breadcrumb-title: ''
 description: Aprenda a usar máscaras y efectos en Substance 3D Painter pila de capas para controlar la visibilidad de las capas y aplicar efectos de capa.
 helpx_creative_field: ""

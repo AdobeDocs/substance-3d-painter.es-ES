@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/layer-instancing.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/layer-stack/layer-instancing.html"
 breadcrumb-title: ''
 description: Aprende a usar la creación de instancias de capas en Substance 3D Painter para reutilizar capas en varios conjuntos de texturas de forma eficaz.
 helpx_creative_field: ""

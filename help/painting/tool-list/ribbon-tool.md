@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/ribbon-tool.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/tool-list/ribbon-tool.html"
 breadcrumb-title: ''
 description: Utilice la herramienta Cinta de Substance 3D Painter para crear trazos de pintura similares a una cinta a lo largo de trazados para pintar texturas decorativas.
 helpx_creative_field: ""

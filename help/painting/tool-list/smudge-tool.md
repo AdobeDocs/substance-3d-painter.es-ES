@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/smudge-tool.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/tool-list/smudge-tool.html"
 breadcrumb-title: ''
 description: Utilice la herramienta de difuminado de Substance 3D Painter para fusionar y difuminar trazos de pintura y así crear transiciones de textura suaves.
 helpx_creative_field: ""

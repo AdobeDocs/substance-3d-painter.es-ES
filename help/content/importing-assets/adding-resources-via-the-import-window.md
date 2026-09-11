@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/importing-assets/adding-resources-via-the-import-window.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/content/importing-assets/adding-resources-via-the-import-window.html"
 breadcrumb-title: ''
 description: Aprenda a añadir recursos a través de la ventana de importación en Substance 3D Painter para expandir su biblioteca de recursos con archivos externos.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/configuring-pens-and-tablets.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/configuring-pens-and-tablets.html"
 breadcrumb-title: ''
 description: Aprenda a configurar los punteros y las tabletas en Substance 3D Painter para obtener una sensibilidad de presión y una experiencia de dibujo óptimas.
 helpx_creative_field: ""

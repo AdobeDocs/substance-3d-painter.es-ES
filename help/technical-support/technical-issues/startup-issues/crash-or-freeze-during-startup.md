@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/startup-issues/crash-or-freeze-during-startup.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/technical-issues/startup-issues/crash-or-freeze-during-startup.html"
 breadcrumb-title: ''
 description: Obtenga información sobre cómo solucionar bloqueos y bloqueos al iniciar Substance 3D Painter para iniciar una aplicación estable.
 helpx_creative_field: ""
@@ -41,7 +41,7 @@ Si la aplicación se bloquea al iniciarse en Windows (lo que lleva a una pantall
 * Una aplicación externa está creando un conflicto. Consulte [Conflictos de software](software-conflicts.md) para saber cuáles.
 * Algunas ventanas de la aplicación se abrieron en otro monitor. Restaurar la interfaz a su diseño predeterminado permite iniciar la aplicación normalmente:
   1. Abra el editor del Registro (**regedit** en el menú Inicio)
-  1. Vaya a las preferencias de la aplicación (consulte: [Preferencias y ubicación de datos de la aplicación](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html))
+  1. Vaya a las preferencias de la aplicación (consulte: [Preferencias y ubicación de datos de la aplicación](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html))
   1. Expanda la clave **Adobe Substance 3D Painter**
   1. Seleccione la clave **Main Window 2018** y elimínela
   1. Reinicie la aplicación

@@ -19,6 +19,6 @@ El **panel de registro de Hace un bake** muestra los resultados técnicos relaci
 
 >[!TIP]
 >
-> La información sobre cómo hacer coincidir los recursos por nombre está disponible en [la documentación de Bakeres](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/matching-by-name).
+> La información sobre cómo hacer coincidir los recursos por nombre está disponible en [la documentación de Bakeres](https://experienceleague.adobe.com/es/docs/substance-3d/bakers/features/matching-by-name).
 
 ![](../../assets/baking/baking-log-panel.png)

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/shader-settings/updating-a-shader.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/shader-settings/updating-a-shader.html"
 breadcrumb-title: ''
 description: Aprenda a actualizar sombreadores personalizados en Substance 3D Painter para aplicar cambios de sombreador y volver a cargar archivos de sombreador.
 helpx_creative_field: ""

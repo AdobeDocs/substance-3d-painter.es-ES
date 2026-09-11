@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/fill-projections.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar proyecciones de relleno en Substance 3D Painter para aplicar texturas mediante diversos métodos de proyección para pintar de forma eficaz.
 helpx_creative_field: ""
