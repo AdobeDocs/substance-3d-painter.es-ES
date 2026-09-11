@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/workflow-issues/project-issues/loading-files-from-a-network.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/project-issues/loading-files-from-a-network.html"
 breadcrumb-title: ''
 description: Aprenda a cargar archivos desde unidades de red en Substance 3D Painter para acceder a recursos y proyectos compartidos.
 helpx_creative_field: ""

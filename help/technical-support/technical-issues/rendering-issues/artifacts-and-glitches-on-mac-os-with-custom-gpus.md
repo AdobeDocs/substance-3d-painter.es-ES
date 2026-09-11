@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/technical-issues/rendering-issues/artifacts-and-glitches-on-mac-os-with-custom-gpus.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/rendering-issues/artifacts-and-glitches-on-mac-os-with-custom-gpus.html"
 breadcrumb-title: ''
 description: Aprenda a corregir defectos de representación y problemas en macOS con GPU personalizadas en Substance 3D Painter para un rendimiento estable.
 helpx_creative_field: ""
@@ -24,6 +24,6 @@ ht-degree: 0%
 >
 > Las configuraciones no oficiales de Apple no son compatibles oficialmente, lo que significa que cualquier parte (por ejemplo, la GPU) que no se haya vendido originalmente en Apple puede no funcionar correctamente con el software.
 
-En caso de que aparezcan problemas, bloqueos o incluso defectos en el sistema operativo Mac al ejecutar una GPU personalizada con controladores personalizados, una solución alternativa puede ser eliminar los archivos **list** correctamente relacionados con la aplicación.
+En caso de que aparezcan problemas, bloqueos o incluso defectos en el sistema operativo Mac al ejecutar una GPU personalizada con controladores personalizados, una solución alternativa podría ser eliminar los archivos **listado correctamente** relacionados con la aplicación.
 
-Para saber qué archivo desea quitar, consulte: [Preferencias y ubicación de datos de la aplicación](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html).
+Para saber qué archivo desea quitar, consulte: [Preferencias y ubicación de datos de la aplicación](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html).

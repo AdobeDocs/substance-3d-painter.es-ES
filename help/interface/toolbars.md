@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/toolbars.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/toolbars.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar y personalizar las barras de herramientas en Substance 3D Painter para acceder a las herramientas y funciones de forma eficaz.
 helpx_creative_field: ""
@@ -28,7 +28,7 @@ A continuación se muestra una lista de todas las barras de herramientas disponi
 
 ![](../assets/tool-toolbar.png){width="450px"}
 
-La **barra de herramientas de herramientas** está disponible de forma predeterminada en la parte superior izquierda de la interfaz principal. Se enumeran todas las [herramientas de pintura](../painting/painting.md) que se pueden usar para aplicar texturas a la malla 3D del proyecto abierto actualmente. Estas herramientas solo son accesibles cuando se selecciona una capa de pintura.
+La **barra de herramientas de herramientas** está disponible de forma predeterminada en la parte superior izquierda de la interfaz principal. Se enumeran todas las [herramientas de textura](../painting/painting.md) que se pueden usar para pintar la malla 3D del proyecto abierto actualmente. Estas herramientas solo son accesibles cuando se selecciona una capa de pintura.
 
 Algunas herramientas tienen un segundo modo llamado &quot;Físico&quot; que permite pintar objetos. También se puede acceder a la pintura de objetos haciendo clic en Ajustes preestablecidos de pinceles de objetos en la ventana [Activos](assets/assets.md).
 

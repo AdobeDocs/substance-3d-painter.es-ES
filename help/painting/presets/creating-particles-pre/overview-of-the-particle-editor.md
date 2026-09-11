@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/presets/creating-particles-presets/overview-of-the-particle-editor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/creating-particles-presets/overview-of-the-particle-editor.html"
 breadcrumb-title: ''
 description: Obtenga más información sobre el editor de partículas de Substance 3D Painter para crear ajustes preestablecidos de pincel de partículas personalizados para la pintura de texturas.
 helpx_creative_field: ""
@@ -32,7 +32,7 @@ Ahora, en su sistema de partículas, vaya a &quot;Backdrop&quot; en la vista de 
 
 En Substance 3D Painter, la malla se escala para que esté dentro de un cuadro de tamaño [-1;1] en cada eje. Para obtener la escala correcta con Substance 3D Painter en el Editor, debe importar una malla que ya se haya escalado para que encaje en ese cuadro (de forma sencilla), o jugar con Escalas en el Editor.
 
-Nota: solo se admite el formato de malla FBX.
+Nota: solo se admite FBX formato de malla.
 
 #### Cómo mostrar la cuadrícula
 
@@ -120,7 +120,7 @@ No es utilizado por Substance 3D Painter, pero es indispensable para hacer la pr
 
 Añada un Evolver de proyección en el &quot;Estado\_0&quot; del receptor.
 
-Cada fotograma, el Evolver de proyección, proyectará partículas en la superficie más cercana de un Sampler de formas.
+Cada marco, el Evolver de proyección, proyectará partículas en la superficie más cercana de un Sampler de formas.
 
 El Evolver de proyección puede rellenar la coordenada paramétrica de la proyección en el campo de partículas especificado por &quot;OutputParametricCoordsField&quot; (consulte &quot;pCoords&quot;, campo de partículas).
 
@@ -176,15 +176,15 @@ El orden de la evolución puede ser muy importante.
 
 Por ejemplo, usted podría desear tener siempre sus 2 últimos evolucionadores para ser el Evolver de Proyección y luego el Evolver de Script que muestra el UV y Normal con los pCoords generados por el Evolver de Proyección.
 
-Tenga en cuenta que el orden de los evolucionadores es literalmente el orden de ejecución dentro de un fotograma, y que Substance 3D Painter recopilará los valores de los campos de partículas y el final de cada fotograma.
+Tenga en cuenta que el orden de los evolucionadores es literalmente el orden de ejecución dentro de un marco, y que Substance 3D Painter recopilará los valores de los campos de partículas y el final de cada marco.
 
-#### Cómo muestrear el mapa normal de la malla
+#### Cómo probar el mapa de normales de la malla
 
-Substance 3D Painter reemplazará todos los Muestreadores de textura llamados &quot;NormalMap&quot; por el mapa normal de la malla (si se importan).
+Substance 3D Painter reemplazará todos los muestreadores de Textura llamados &quot;NormalMap&quot; por el mapa de normales de la malla (si se importan).
 
-Esa es la única textura que puedes tener por ahora, el resto de texturas no serán accesibles desde Substance 3D Painter.
+Esa es la única textura que puede tener por ahora, todas las demás texturas no serán accesibles por Substance 3D Painter.
 
-Una vez que haya añadido el Sampler de textura llamado &quot;NormalMap&quot;, puede probarlo en un script :
+Una vez que haya agregado su Sampler de Textura llamado &quot;NormalMap&quot;, puede probarlo en un script :
 
 <http://www.popcornfx.com/wiki/index.php/CParticleSamplerTexture>
 
@@ -255,7 +255,7 @@ VelocityField = Turb.sample(Position \* TurbScale) \* TurbPower;
 
 #### Cómo utilizar correctamente dt, el tiempo delta
 
-El tiempo delta es el tiempo de simulación en segundos entre cada actualización de fotograma. En el Editor, el tiempo delta se actualiza con el tiempo real transcurrido. En Substance 3D Painter se corrige el tiempo delta y cada actualización se inicia en cuanto termina la última.
+El tiempo delta es el tiempo de simulación en segundos entre cada actualización de marco. En el Editor, el tiempo delta se actualiza con el tiempo real transcurrido. En Substance 3D Painter se corrige el tiempo delta y cada actualización se inicia en cuanto termina la última.
 
 Un juego que corre a 60 FPS tendrá un tiempo delta de 1/60= 0.016 segundos, así que intenta que tus pinceles corran alrededor de 0.016s de tiempo delta.
 
@@ -270,7 +270,7 @@ PopcornFX es una especie de gran sistema de discretización, por lo que más gra
 
 * Estafas de estafa
 
-Si el tiempo delta es grande, el movimiento de partículas entre los fotogramas también lo es. Por lo tanto, en Substance 3D Painter pueden aparecer pequeñas manchas en lugar de líneas rectas.
+Si el tiempo delta es grande, el movimiento de partículas entre marcos también es grande. Por lo tanto, en Substance 3D Painter pueden aparecer pequeñas manchas en lugar de líneas rectas.
 
 Esto se debe a que Substance 3D Painter dibujará un punto de trazo para cada partícula al final de cada fotograma y no dibujará líneas para cada partícula entre el último fotograma y el actual.
 
@@ -305,7 +305,7 @@ En el directorio de instalación de Substance 3D Painter, debería encontrar un 
 
 #### Cómo inicializar correctamente los campos de objetos
 
-Para obtener los valores válidos de UV y Normal de pCoords desde el primer fotograma, añada esto a su Script Spawner:
+Para obtener los valores válidos de UV y Normal de pCoords desde el primer marco, añada esto a su Script Spawner:
 
 <b>  
 </b>

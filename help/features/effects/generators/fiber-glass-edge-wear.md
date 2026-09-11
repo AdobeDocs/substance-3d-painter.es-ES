@@ -14,7 +14,7 @@ ht-degree: 1%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_fiber_glass_edge_wear.webp" alt=""/><br><strong>En:</strong> máscara, generador</td>
-    <td style="border: 0;" valign="top"><strong>Descripción</strong><br>El generador del Edge Wear de fibra de vidrio agrega un desgaste realista de los bordes de fibra de vidrio y detalles de deshilachado basados en los mapas horneados de curvatura y Oclusión ambiental. Si lo desea, también puede utilizar los mapas Micro Height y Micro Normal para obtener más información.<br><br>El generador del Edge Wear de fibra de vidrio produce una textura monocromática (en blanco y negro). Como resultado, resulta útil para generar máscaras y añadir detalles de desgaste de los bordes de fibra de vidrio a una capa.Se requieren mapas normales de posición, curvatura, oclusión ambiente y espacio mundial de <br><br>al horno como entradas de imagen. <a href="../../../baking/baking.md">Obtenga más información sobre el horneado aquí</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descripción</strong><br>El generador del Edge Wear de fibra de vidrio agrega un desgaste realista de los bordes de fibra de vidrio y detalles de deshilachado basados en los mapas de curvatura y Oclusión ambiental hechos un bake. Si lo desea, también puede utilizar los Mapas de normales Micro Height y Micro para obtener más información.<br><br>El generador del Edge Wear de fibra de vidrio emite una textura monocromática (blanco y negro). Como resultado, resulta útil para generar máscaras y añadir detalles de desgaste de los bordes de fibra de vidrio a una capa.Se requieren mapas normales de posición, curvatura, oclusión ambiental y espacio mundial Hechos un bake como entradas de imagen. <br><br><a href="../../../baking/baking.md">Obtenga más información sobre cómo hacer un bake aquí</a>.</td>
   </tr>
 </table>
 
@@ -23,10 +23,10 @@ ht-degree: 1%
 | Nombre de entrada | Descripción |
 | --- | --- |
 | **suciedad personalizada** Escala de grises | Utilice una textura personalizada o un punto de ancla. |
-| Escala de grises **Curvatura** | Utilice el mapa de curvatura horneado. |
-| **Oclusión ambiental** en escala de grises | Utilice el mapa de Oclusión ambiente al horno. |
-| **Espacio normal del mundo** Color | Utilice el mapa de normas espaciales mundiales horneadas. |
-| Color de **Posición** | Utilice el mapa de posición horneado. |
+| Escala de grises **Curvatura** | Utilice el mapa de curvatura hecho un bake. |
+| **Oclusión ambiental** en escala de grises | Utilice el mapa de Oclusión ambiental hecho un bake. |
+| **Espacio normal del mundo** Color | Utilice el mapa hecho un bake de las normas espaciales mundiales. |
+| Color de **Posición** | Utilice el mapa de posición hecha un bake. |
 | **Micro Normal** Color | Utilice una textura normal personalizada o un punto de ancla. |
 | **Micro Height** Color | Utilice una textura personalizada o un punto de ancla. |
 
@@ -55,7 +55,7 @@ ht-degree: 1%
   </tr>
   <tr>
     <td><strong>Usar triplanar</strong></td>
-    <td>Cuando <strong>Usar triplanar </strong> está habilitado, la textura se proyecta desde tres direcciones (ejes X, Y, Z) en lugar de depender solo de UV. <br><ul><li>Sin la opción triplanar activada, la textura sigue el diseño UV.</li><li>Con triplanar activado, la textura se proyecta desde múltiples ángulos y se mezcla.</li></ul></td>
+    <td>Cuando <strong>Usar triplanar </strong> está habilitado, la textura se proyecta desde tres direcciones (ejes X, Y, Z) en lugar de depender solo de UV. <br><ul><li>Sin triplanar activado, la textura sigue el diseño UV.</li><li>Con triplanar activado, la textura se proyecta desde múltiples ángulos y se mezcla.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Contraste de fusión triplanar</strong></td>
@@ -74,8 +74,8 @@ ht-degree: 1%
     <td>Ajuste la suavidad del efecto de desgaste de los bordes.</td>
   </tr>
   <tr>
-    <td><strong>Enmascaramiento de Oclusión ambiental</strong></td>
-    <td>Ajuste en qué medida el mapa de oclusión de ambiente afecta al resultado.</td>
+    <td><strong>Máscara de oclusión ambiental</strong></td>
+    <td>Ajuste en qué medida el mapa de oclusión ambiental afecta al resultado.</td>
   </tr>
   <tr>
     <td><strong>Grosor de curvatura</strong></td>
@@ -92,11 +92,11 @@ ht-degree: 1%
   </tr>
   <tr>
     <td><strong>Micro Height</strong></td>
-    <td>Activar o desactivar el uso de un mapa de Height Micro personalizado.</td>
+    <td>Activar o desactivar el uso de un mapa de altura micro personalizado.</td>
   </tr>
   <tr>
     <td><strong>Micro Normal</strong></td>
-    <td>Activar o desactivar el uso de un mapa Micro Normal personalizado.</td>
+    <td>Activar o desactivar el uso de un Mapa de normales Micro personalizado.</td>
   </tr>
   <tr>
     <td><strong>Tipo de curvatura</strong></td>
@@ -116,6 +116,6 @@ ht-degree: 1%
   </tr>
   <tr>
     <td><strong>PROFUNDIDAD AO</strong></td>
-    <td>Ajuste la profundidad (intensidad) de la Oclusión ambiente con detalles micro.</td>
+    <td>Ajuste la profundidad (intensidad) de la Oclusión ambiental con detalles micro.</td>
   </tr>
 </table>

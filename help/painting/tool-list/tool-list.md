@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/tool-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list.html"
 breadcrumb-title: ''
-description: Explora la lista completa de herramientas de Substance 3D Painter para descubrir todas las herramientas de pintura y creación de texturas disponibles.
+description: Explora la lista completa de herramientas de Substance 3D Painter para descubrir todas las herramientas de textura disponibles.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Tool list
 helpx_experience_level: ""
@@ -24,8 +24,8 @@ Esta página detalla todas las herramientas de pintura disponibles y cómo utili
 
 | *Herramienta* | *Descripción* |
 | --- | --- |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/icon-paint.png" width="100px"/></div> | La [herramienta de pintura](paint-brush.md) te permite aplicar trazos de pincel con un material específico sobre la malla. |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/icon-eraser.png" width="100px"/></div> | El [Borrador](eraser.md) te permite eliminar cualquier información de pintura existente. |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/icon-paint.png" width="100px"/></div> | La [herramienta de Pintura](paint-brush.md) te permite aplicar trazos de pincel con un material específico sobre la malla. |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/icon-eraser.png" width="100px"/></div> | El [Borrador](eraser.md) le permite quitar cualquier información de pintura existente. |
 |  | [La herramienta Trazado](path.md) te permite definir una curva a lo largo de la superficie de tu modelo que puede crear varios efectos diferentes. Añade un trazo de pincel, borra la pintura, desenfoca o incluso añade detalles completos a lo largo del trazado, como cremalleras o grietas. |
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/icon-projection.png" width="100px"/></div> | [Proyección](projection.md) le permite aplicar un material o textura alineado con el punto de vista actual. |
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r4-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/icon-polygonfill.png" width="100px"/></div> | [Relleno de polígono](polygon-fill.md) le permite seleccionar polígonos en la malla 3D para crear máscaras basadas en la geometría. |

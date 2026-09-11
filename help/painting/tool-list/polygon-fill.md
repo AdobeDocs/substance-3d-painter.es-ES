@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/tool-list/polygon-fill.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/polygon-fill.html"
 breadcrumb-title: ''
-description: Utilice la herramienta Relleno de polígono de Substance 3D Painter para rellenar los polígonos seleccionados con pintura para pintar las texturas de forma eficaz.
+description: Utilice la herramienta Relleno de polígono de Substance 3D Painter para rellenar los polígonos seleccionados con pintura para pintar texturas de forma eficaz.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Tool list > Polygon fill
 helpx_experience_level: ""
@@ -20,9 +20,9 @@ ht-degree: 1%
 
 # Relleno poligonal
 
-La herramienta **Relleno de polígono** (![](../../assets/image2018-6-12-18-15-12.png)) le permite dibujar máscaras rápidamente convirtiendo los polígonos seleccionados en una máscara de píxeles. Puede parecer una herramienta de selección 3D de otras aplicaciones de 3D CC, pero en realidad es una herramienta de relleno de pintura que genera datos de píxeles. Eso significa seleccionar y anular la selección de las obras usándolas para pintar blanco o negro.
+La herramienta **Relleno de polígono** (![](../../assets/image2018-6-12-18-15-12.png)) le permite dibujar máscaras rápidamente convirtiendo los polígonos seleccionados en una máscara de píxeles. Puede parecer una herramienta de selección 3D de otras aplicaciones de 3D CC, pero en realidad es una herramienta de relleno de pintura que genera datos de píxeles. Eso significa seleccionar y anular la selección de las obras mediante su uso para la pintura de blanco o negro.
 
-La herramienta Relleno poligonal funciona en [Capas de pintura](../../interface/layer-stack/layer-stack.md), pero se limita a un solo color base y no está diseñada para este fin. [Utilícelo solo para máscaras](../../interface/layer-stack/masking-and-effects.md).
+La herramienta Relleno poligonal funciona en [Capas de pintura](../../interface/layer-stack/layer-stack.md), pero está limitada a solo color base y no está diseñada para este fin. [Utilícelo solo para máscaras](../../interface/layer-stack/masking-and-effects.md).
 
 Dispone de 4 modos de selección:
 

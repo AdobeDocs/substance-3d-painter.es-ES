@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/sparse-virtual-textures.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/sparse-virtual-textures.html"
 breadcrumb-title: ''
-description: Aprende a usar texturas virtuales dispersas en Substance 3D Painter para trabajar con texturas de ultra alta resolución de manera eficiente.
+description: Aprenda a utilizar texturas virtuales dispersas en Substance 3D Painter para trabajar con texturas de resolución ultra alta de manera eficiente.
 helpx_creative_field: ""
 helpx_description: Painter > Features > Sparse Virtual Textures
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![](../assets/svt-header.jpg)
 
-A partir de la versión **2018.3**, Substance 3D Painter usa **Texturas virtuales dispersas** ( **SVT** ) en su ventana gráfica en tiempo real para administrar una gran cantidad de texturas. Esta tecnología permite transmitir texturas que solo son necesarias desde un punto de vista determinado para mantener un espacio específico en la memoria de la GPU. Mejora el rendimiento en proyectos con una gran cantidad de conjuntos de texturas (o UDIM).
+A partir de la versión **2018.3**, Substance 3D Painter usa **Texturas virtuales dispersas** ( **SVT** ) en su ventana gráfica en tiempo real para administrar una gran cantidad de texturas. Esta tecnología permite transmitir texturas de entrada y salida que solo son necesarias desde un punto de vista determinado para mantener un espacio específico en la memoria de la GPU. Mejora el rendimiento en proyectos con una gran cantidad de conjuntos de texturas (o UDIM).
 
 ## Plataformas compatibles
 
@@ -45,13 +45,13 @@ Esta es la configuración que admite las texturas virtuales dispersas aceleradas
 
 ## ¿Por qué Substance 3D Painter utiliza texturas virtuales dispersas?
 
-Substance 3D Painter utiliza su motor principal para calcular las texturas que se muestran en las ventanas gráficas. Esto significa que el motor y la ventanilla tienen que compartir la memoria de la GPU (VRam) para calcular y mostrar estas texturas. Cuantos más **conjuntos de texturas** (o mosaicos UV) contenga un proyecto, más memoria se necesitará para la ventana gráfica. Si la ventana gráfica ocupa demasiada memoria en la GPU, el motor principal no tiene suficiente espacio para calcular texturas y tendrá que expulsar texturas a la memoria del sistema (Ram). Esto dará como resultado un rendimiento deficiente y cálculos lentos.
+Substance 3D Painter utiliza su motor principal para calcular las texturas que se muestran en las ventanas gráficas. Esto significa que el motor y la ventanilla tienen que compartir la memoria de la GPU (VRam) para calcular y mostrar estas texturas. Cuantos más **conjuntos de texturas** (o Mosaicos de UV) contenga un proyecto, más memoria se necesitará para la ventana gráfica. Si la ventana gráfica ocupa demasiada memoria en la GPU, el motor principal no tiene suficiente espacio para calcular las texturas y tendrá que expulsar las texturas en la memoria del sistema (Ram). Esto dará como resultado un rendimiento deficiente y cálculos lentos.
 
 El objetivo del SVT es calcular cuánto puede utilizar la ventanilla en la memoria de la GPU, lo que deja el máximo margen posible para que el motor principal realice los cálculos. La ventaja del sistema es que también desbloquea la capacidad de cargar proyectos mucho más grandes en Substance 3D Painter sin dejar de funcionar de la forma habitual.
 
 ## ¿Cómo funciona Texturas dispersas?
 
-Las texturas virtuales dispersas son un tipo de texturas que no están completas. Esto significa que la aplicación solo carga partes de texturas en la memoria. Sólo se carga lo necesario y el resto se coloca en la memoria del sistema o en el disco (caché). Cuando es necesario de nuevo, las texturas se recuperan de la caché y se colocan de nuevo en la ventana gráfica. Para realizar transferencias lo suficientemente rápidas, el sistema se basa en **mipmaps** y salta rápidamente entre diferentes resoluciones de textura. Por esta razón, al entrar rápidamente en la ventana gráfica, es posible que aparezcan texturas desenfocadas en un primer momento, que luego aumentan de calidad al cabo de unos segundos.
+Las texturas virtuales dispersas son un tipo de texturas que no se han completado. Esto significa que la aplicación solo carga partes de texturas en la memoria. Sólo se carga lo necesario y el resto se coloca en la memoria del sistema o en el disco (caché). Cuando es necesario de nuevo, las texturas se recuperan de la memoria caché y se colocan de nuevo en la ventana gráfica. Para realizar transferencias lo suficientemente rápidas, el sistema se basa en **mipmaps** y salta rápidamente entre diferentes resoluciones de textura. Por esta razón, al entrar rápidamente en la ventana gráfica, es posible que al principio aparezcan texturas borrosas que, a continuación, aumentan de calidad al cabo de unos segundos.
 
 Para obtener más información técnica, consulte :  [Texturas virtuales dispersas](https://silverspaceship.com/src/svt/) .
 
@@ -60,16 +60,16 @@ Para obtener más información técnica, consulte :  [Texturas virtuales dispers
 ![](../assets/settings-temp.png)
 
 Cuando no hay suficiente memoria del sistema (Ram) disponible para almacenar la caché de SVT, Substance 3D Painter cambiará al disco duro del equipo en lugar de almacenar la caché.\
-La ubicación de esta caché se establece de forma predeterminada en la carpeta Archivos temporales del sistema operativo. Esta ubicación se puede cambiar entrando en la configuración principal de la aplicación, consulte [Preferencias generales](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/general-71008262.html) .
+La ubicación de esta caché se establece de forma predeterminada en la carpeta Archivos temporales del sistema operativo. Esta ubicación se puede cambiar entrando en la configuración principal de la aplicación, consulte [Preferencias generales](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) .
 
-## Compatibilidad con sombreadores
+## Compatibilidad del sombreador
 
-Para aprovechar al máximo el SVT, los sombreadores tienen que solicitar y leer texturas del sistema Sparse. Por lo tanto, las funciones anteriores basadas en las coordenadas de textura **vec2** y los **muestreadores** han quedado obsoletas. Ahora se proporcionan funciones auxiliares en lugar de utilizar las texturas dispersas.
+Para aprovechar al máximo el SVT, los Shaders tienen que solicitar y leer texturas del sistema Sparse. Por lo tanto, las funciones anteriores basadas en las coordenadas de textura **vec2** y **samplers** han quedado obsoletas. Ahora se proporcionan funciones auxiliares en lugar de utilizar las texturas dispersas.
 
 Para actualizar los sombreadores :
 
-* Para **sombreador de Substance 3D Painter predeterminado** : Siga el procedimiento paso a paso de la página [Actualizando un sombreado](../interface/shader-settings/updating-a-shader.md).
-* Para **sombreador personalizado** : echa un vistazo a los mensajes de error del registro, así como a la página [API del sombreador](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).
+* Para **sombreador Substance 3D Painter predeterminado** : Siga el procedimiento paso a paso de la página [Actualizando un sombreador](../interface/shader-settings/updating-a-shader.md).
+* Para **sombreador personalizado**: echa un vistazo a los mensajes de error del registro, así como a la página [API del sombreador](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).
 
 >[!WARNING]
 >

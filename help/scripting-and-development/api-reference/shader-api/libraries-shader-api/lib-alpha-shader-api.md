@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-alpha-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-alpha-shader-api.html"
 breadcrumb-title: ''
 description: Acceda a la referencia del API del sombreador del Alpha Lib de Substance 3D Painter para trabajar con canales alfa y transparencia en sombreadores personalizados.
 helpx_creative_field: ""
@@ -78,7 +78,7 @@ uniform bool alpha_dither;
 ```
 
 
-Emular prueba alfa : descarte el fragmento actual si su opacidad está por debajo de un umbral definido por el usuario. Se debe llamar después de las llamadas de muestreo de textura: puede romper los derivados
+Emular prueba alfa : descarte el fragmento actual si su opacidad está por debajo de un umbral definido por el usuario. Se debe llamar DESPUÉS de las llamadas de muestreo de textura: puede romper los derivados
 
 ```
 void alphaKill(float alpha) 

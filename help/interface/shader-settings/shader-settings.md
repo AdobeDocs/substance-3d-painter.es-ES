@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/shader-settings.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/shader-settings.html"
 breadcrumb-title: ''
-description: Aprenda a configurar los ajustes del sombreado en Substance 3D Painter para personalizar la representación del material y el aspecto visual.
+description: Aprenda a configurar los ajustes de sombreador en Substance 3D Painter para personalizar la representación del material y el aspecto visual.
 helpx_creative_field: ""
 helpx_description: Painter > Interface > Shader settings
 helpx_experience_level: ""
@@ -22,40 +22,40 @@ ht-degree: 5%
 
 ![](../../assets/shader-settings.png)
 
-La ventana **Shaders Settings** permite controlar los parámetros del sombreado (y del molde Iray) y los parámetros de desplazamiento de geometría.
+La ventana **Shaders Settings** permite controlar los parámetros sombreador (y Iray mdl) y los parámetros de desplazamiento de geometría.
 
 Un sombreado es una función que define el aspecto que debe tener un objeto al interactuar con luces y sombras en las ventanas gráficas. En esta aplicación, los sombreadores se utilizan para saber cómo leer los canales del conjunto de texturas y procesar la malla 3D en las ventanas gráficas.
 
-## Deshacer archivo de sombreado y pila
+## Deshacer archivo de pila y sombreador
 
 ![](../../assets/shader-undo.png)
 
-Esta sección de la ventana Ajustes del sombreado controla los parámetros principales al manipular los sombreadores.\
-La pila Deshacer/Rehacer del sombreado es independiente del [Historial](https://substance3d.adobe.com/display/DRAFTPAINTER/History) principal para no crear conflictos al pintar.
+Esta sección de la ventana Ajustes de Sombreador controla los parámetros principales al manipular los sombreadores.\
+La pila Deshacer/Rehacer del sombreador es independiente del [Historial](https://substance3d.adobe.com/display/DRAFTPAINTER/History) principal para no crear conflictos al pintar.
 
-Si el archivo de sombreado está marcado como &quot;Desactualizado&quot;, se recomienda actualizarlo cuando sea posible. Consulte :  [Actualizando un sombreador](https://substance3d.adobe.com/display/DRAFTPAINTER/Updating+a+Shader)
+Si el archivo de sombreador está marcado como &quot;Desactualizado&quot;, se recomienda actualizarlo cuando sea posible. Consulte :  [Actualizando un Sombreador](https://substance3d.adobe.com/display/DRAFTPAINTER/Updating+a+Shader)
 
 | *Configuración* | *Descripción* |
 | --- | --- |
-| **Deshacer** | Revertir/Cancelar un cambio de archivo de sombreado o cualquier modificación de parámetros de sombreado |
+| **Deshacer** | Revertir/Cancelar un cambio de archivo de sombreador o cualquier modificación de parámetros de sombreador |
 | **Rehacer** | Aplique de nuevo un cambio cancelado mediante la herramienta Deshacer. |
-| **Archivo de sombreado** | Botón que muestra el archivo de sombreado actual utilizado. Haga clic en el botón para abrir una mini-estantería y elegir un sombreador diferente. |
+| **Archivo de Sombreador** | Botón que muestra el archivo de sombreador utilizado actualmente. Haga clic en el botón para abrir un mini-estante y elegir un sombreador diferente. |
 | **Nombre de instancia** | Nombre de la instancia del sombreador. |
-| **Restaurar valores predeterminados** | Restaure todos los parámetros del sombreado a sus valores predeterminados (tal como están en el archivo del sombreado). |
+| **Restaurar valores predeterminados** | Restaure todos los parámetros de sombreador a sus valores predeterminados (tal como aparecen en el archivo sombreador). |
 
 ### Instancia de sombreado
 
-Una instancia de sombreado es un sombreado basado en un archivo de sombreado original pero con parámetros personalizados. Una instancia de sombreado se puede compartir entre conjuntos de texturas y un conjunto de texturas puede tener una instancia de sombreado única.
+Una Instancia del sombreador es un sombreador basado en un archivo de sombreador original pero con parámetros personalizados. Una Instancia del sombreador se puede compartir entre conjuntos de texturas y un conjunto de texturas puede tener una Instancia del sombreador única.
 
 **Por ejemplo:** un proyecto puede usar un sombreador base, mientras que un conjunto de texturas usa un sombreador personalizado para admitir la opacidad.
 
-Para crear y administrar instancias de sombreado, consulte la ventana [Lista de conjuntos de texturas](../texture-set/texture-set-list.md).
+Para crear y administrar Instancias del sombreador, consulte la ventana [Lista de conjuntos de texturas](../texture-set/texture-set-list.md).
 
-## Parámetros de sombreado
+## parámetros de sombreador
 
 ![](../../assets/shader-parameters-1.png)
 
-Los parámetros de sombreado dependen del archivo de sombreado cargado actualmente.
+Los parámetros de sombreador dependen del archivo de sombreador cargado actualmente.
 
 ## Desplazamiento y teselación
 
@@ -66,7 +66,7 @@ Desplazamiento y Mosaico son dos funcionalidades que se pueden utilizar para mod
 * **Desplazamiento**: Empuje o desvíe la geometría en función de un canal de entrada.
 * **Mosaico**: Subdivide la geometría para densificarla. Más densidad significa que el espaciado entre polígonos es más corto, lo que proporciona detalles más precisos.
 
-En la bandeja hay disponible un filtro denominado &quot;**Height a normal**&quot; que se puede usar para obtener el mapa normal final (en caso de que la conversión nativa no sea lo suficientemente sólida).
+Hay un filtro denominado &quot;**Height a normal**&quot; disponible en la bandeja y que se puede usar para obtener el mapa de normales final (en caso de que la conversión nativa no sea lo suficientemente sólida).
 
 ### Desplazamiento
 

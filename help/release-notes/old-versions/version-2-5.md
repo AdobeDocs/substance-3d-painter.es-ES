@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/old-versions/version-2-5.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2-5.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 2.5 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Versión 2.5
 
-**Substance Painter 2.5** presenta muchas características nuevas: desde el soporte de la opacidad en la configuración del pincel (además del flujo) a la capacidad de hornear mapa adicional en 8K y mucho más.
+**Substance Painter 2.5** presenta muchas características nuevas: desde el soporte de la opacidad en la configuración del pincel (además del flujo) a la capacidad de hacer un bake mapa adicional en 8K y mucho más.
 
 Fecha de publicación : *21 de febrero de 2017*
 
@@ -31,31 +31,31 @@ Fecha de publicación : *21 de febrero de 2017*
 ![](../../assets/brush-combined.gif){width="650px"}
 
 Ahora hay una nueva configuración en los **parámetros de pincel** al pintar en Substance Painter que es la **opacidad**.\
-La **opacidad** controla la **intensidad general de un trazo de pincel**, a diferencia de la configuración de **flujo**, que controla la intensidad de **cada sello individual** dentro de un trazo de pincel. Esto significa que ahora es posible pintar y repintar un mismo área **sin crear valores superpuestos**. Para ello, establezca el flujo en 100 y el valor de opacidad en la intensidad que prefiera. Debido a cómo funciona la opacidad, no es posible vincularla a la presión del lápiz. Para ese tipo de control el flujo sigue siendo la mejor opción.
+La **opacidad** controla la **intensidad general de un trazo de pincel**, a diferencia de la configuración de **flujo**, que controla la intensidad de **cada sello individual** dentro de un trazo de pincel. Esto significa que ahora es posible pintura y repintar un mismo área **sin crear valores superpuestos**. Para ello, establezca el flujo en 100 y el valor de opacidad en la intensidad que prefiera. Debido a cómo funciona la opacidad, no es posible vincularla a la presión del lápiz. Para ese tipo de control el flujo sigue siendo la mejor opción.
 
 También hemos agregado un **nuevo modificador** junto a este nuevo parámetro que está en la clave **&quot;A&quot;** de forma predeterminada. Si pulsa esta tecla, **podrá continuar con el trazo de pincel anterior** en lugar de crear uno nuevo. Esto significa que puede pintar un color uniforme con la opacidad que desee, manteniendo la posibilidad de mover la cámara, por ejemplo. Otro ejemplo sería continuar la copia que estaba haciendo con la herramienta de clonación.
 
 ![](../../assets/stroke-opacity-parameter.png)
 
-### Nuevo procesamiento en resoluciones de 8K y no cuadradas
+### Nuevo hacer un bake en resoluciones de 8K y no cuadradas
 
 ![](../../assets/baking-250-8k.png)
 
-El panadero se ha mejorado para admitir resoluciones de hasta **8192x8192** (8K más suavizado), lo que significa que ahora puede exportar a 8K con una proporción de 1:1 con los mapas adicionales.\
-También hemos agregado compatibilidad para resoluciones **no cuadradas**. Ahora es posible hornear una textura de **4096x2048**, por ejemplo. Para ello, solo tiene que hacer clic en el icono &quot;**lock**&quot; situado junto al menú desplegable para seleccionar la resolución.
+El baker se ha mejorado para admitir resoluciones de hasta **8192x8192** (8K más suavizado), lo que significa que ahora puede exportar a 8K con una proporción de 1:1 con los mapas adicionales.\
+También hemos agregado compatibilidad para resoluciones **no cuadradas**. Ahora es posible hacer un bake una textura de **4096x2048**, por ejemplo. Para ello, solo tiene que hacer clic en el icono &quot;**lock**&quot; situado junto al menú desplegable para seleccionar la resolución.
 
 ### Nueva compatibilidad con el perfil de color en la ventana gráfica
 
 ![](../../assets/lut-example.jpg)
 
-Se ha agregado la compatibilidad de **LUT** (texturas) para controlar la representación del **punto de visión** en Substance Painter. Para aplicar un perfil, solo tiene que habilitar la opción &quot;**Perfil de color**&quot; en la ventana &quot;**Configuración de pantalla**&quot; y cargar la LUT en la ranura dedicada. Funciona tanto con la ventana gráfica **OpenGL** como con el procesador **IRay**. De forma predeterminada, hay disponibles algunos ejemplos, desde **ajustes preestablecidos de cámara** habituales hasta más **efectos artísticos**. Para obtener más información, consulte la página dedicada de la documentación : [Perfil de color](../../features/post-processing/color-profile.md)
+Se ha agregado la compatibilidad de **LUT** (texturas) para controlar la representación del **puerto de visualización** en Substance Painter. Para aplicar un perfil, solo tiene que habilitar la opción &quot;**Perfil de color**&quot; en la ventana &quot;**Configuración de pantalla**&quot; y cargar la LUT en la ranura dedicada. Funciona tanto con la ventana gráfica **OpenGL** como con el procesador **IRay**. De forma predeterminada, hay disponibles algunos ejemplos, desde **ajustes preestablecidos de cámara** habituales hasta más **efectos artísticos**. Para obtener más información, consulte la página dedicada de la documentación : [Perfil de color](../../features/post-processing/color-profile.md)
 
 ### Nuevo motor Substance compatible con Substance Designer 6
 
 ![](../../assets/font-shelf.png)
 
 Hemos agregado la compatibilidad con **Substance Designer 6**, lo que significa que los recursos creados con **SD6** se pueden abrir y usar en **Substance Painter 2.5** !\
-Un buen ejemplo es la capacidad de usar el **nuevo nodo de texto** del SD6 e integrarlo en una sustancia. De esta manera, es posible crear **texto dinámico** y pintarlo directamente sin necesidad de salir de la aplicación. **Incluimos 10 fuentes** cada una con un estilo diferente de forma predeterminada para cubrir el uso más común. Las encontrará en la sección &quot;**procedimental**&quot; del **estante**.
+Un buen ejemplo es la capacidad de usar el **nuevo nodo de texto** del SD6 e integrarlo en una sustancia. De esta manera, es posible crear **texto dinámico** y realizar la pintura directamente sin necesidad de salir de la aplicación. **Incluimos 10 fuentes** cada una con un estilo diferente de forma predeterminada para cubrir el uso más común. Las encontrará en la sección &quot;**procedimental**&quot; del **estante**.
 
 ![](../../assets/text-sp250-optim.gif){width="400px"}
 
@@ -65,11 +65,11 @@ Un buen ejemplo es la capacidad de usar el **nuevo nodo de texto** del SD6 e int
 
 Además de algunas correcciones y mejoras con el nuevo estante, también agregamos **nuevos filtros** para mejorar la pintura y la creación de texturas. También **mejoramos** el comportamiento de un filtro ya existente (como el &quot;**HSL**&quot;). También hemos agregado nuevas **plantillas** al crear **nuevos proyectos** (como **Unity 5** y **Unreal Engine 4**).
 
-### Nuevas mejoras en los scripts compatibles con la interfaz de usuario del sombreado personalizada
+### Nuevas mejoras en los scripts compatibles con la interfaz de usuario de sombreador personalizada
 
 ![](../../assets/ui-shader.jpg)
 
-Con esta versión, hemos añadido una forma de **script y control** de los **parámetros del sombreador**. También hemos agregado la compatibilidad para usar una **interfaz de usuario personalizada** en lugar de la predeterminada, lo que abre muchas posibilidades nuevas, como **sombreado animado**.\
+Con esta versión, hemos añadido una forma de **script y control** de los **parámetros de sombreador**. También hemos agregado la compatibilidad para usar una **interfaz de usuario personalizada** en lugar de la predeterminada, lo que abre muchas posibilidades nuevas, como **sombreador animado**.\
 Para obtener más información, consulte la documentación de secuencias de comandos disponible en el menú Ayuda de la aplicación.
 
 ## Tutorial
@@ -139,7 +139,7 @@ Las nuevas funciones principales se tratan en nuestro último flujo de Twitch :
 
 **Problema conocido:**
 
-* [Linux] La entrada de la tableta Wacom no funciona en las vistas 3D y 2D
+* [Linux] La entrada de tabletas Wacom no funciona en 3D ni en Vista 2D
 * [Mac] En algunos casos, las partículas pueden dañar las texturas
 * [Exportar] En casos muy raros, pueden aparecer rectángulos negros en las GPU AMD
 
@@ -171,17 +171,17 @@ Las nuevas funciones principales se tratan en nuestro último flujo de Twitch :
 * [Estante] Nuevo contenido : nuevos perfiles de LUT (clásicos y artísticos, como Film Noir, Vintage, etc.)
 * [Estante] Nuevo contenido : 10 nuevos Substance de fuentes para generar rápidamente textos personalizados
 * [Estante] Nuevas plantillas : Unity 5 y Unreal Engine 4
-* [Estante] Filtro HSL mejorado para facilitar la labor de los artistas
-* [Shader] Compatibilidad añadida para el canal de specular level en sombreadores PBR
+* [Estante] Se ha mejorado el filtro de HSL para que sea más fácil de usar por los artistas
+* [Sombreador] Se ha agregado la compatibilidad con el canal de specular level en sombreadores PBR
 * [Shader] Añadir compatibilidad con el tramado en el sombreador de prueba de Alpha
-* [Shader] Añadir compatibilidad para la asignación de oclusión de paralaje en sombreadores PBR
-* [Shader] Permite definir la interfaz de usuario personalizada para los parámetros del sombreado
+* [Sombreador] Añadir compatibilidad para la asignación de oclusión de paralaje en sombreadores PBR
+* [Sombreador] Permite definir una interfaz de usuario personalizada para los parámetros de sombreador.
 * [MatLayering] Creación de un nuevo canal de máscara para el flujo de trabajo de capas de materiales
 * [Scripting] Permita escribir metadatos en un proyecto de SP
 * [Scripting] Permitir la exportación con un ajuste preestablecido de exportación específico
 * [Scripting] Permite recuperar parámetros de sombreado como JSON
 * [Scripting] Agregar compatibilidad para conexiones WebSocket
-* [Scripting] Añadir la posibilidad de cargar instancias de sombreado
+* [Scripting] Añadir la posibilidad de cargar instancias del sombreador
 * [Scripting] Añadir la posibilidad de crear un nuevo proyecto
 * [Scripting] Permite recuperar la URL de la malla importada en un proyecto
 * [Scripting] Permitir el horneado no cuadrado
@@ -213,13 +213,13 @@ Las nuevas funciones principales se tratan en nuestro último flujo de Twitch :
 * [Exportar] Al editar un ajuste preestablecido de exportación en una estantería personalizada, se genera un error de registro
 * [Shelf] El filtrado de vista de árbol no coincide exactamente con el nombre de la carpeta
 * [Estante] Es difícil cambiar el nombre de un ajuste preestablecido de estante
-* [Shelf] El recurso de sombreado importado en la estantería no se conserva después de reiniciar
+* [Estante] El recurso de Sombreador importado en la Estantería no se conserva después de reiniciar
 * [Estante] Contenido : Falta el ajuste preestablecido de la herramienta Soldadura
 * [Estante] Contenido : El Tile Generator no funciona correctamente
 * [Estante] Contenido : Se ha corregido una máscara incorrecta en el material inteligente sucio del neumático de goma
 * [Estante] Contenido : Se ha corregido un nombre de grupo incorrecto en el material de la bolsa de cuero
 * [Iray] La mitad de las mallas están desaparecidas en Irak
-* [Linux] Bloqueo al arrastrar un recurso sobre la vista 3D
+* [Linux] Bloqueo al arrastrar un recurso sobre la Vista 3D
 * [Mac] Las preferencias se restablecen en cada inicio en Sierra
 
 **Problema conocido:**

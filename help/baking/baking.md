@@ -1,7 +1,7 @@
 ---
-helpx_url: 'https://helpx.adobe.com/es/substance-3d-painter/baking.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/baking.html'
 breadcrumb-title: ''
-description: Aprenda a hornear mapas de malla en Substance 3D Painter para generar texturas basadas en la oclusión ambiente, la curvatura y otras texturas basadas en geometría.
+description: Aprenda a hacer un bake mapas de malla en Substance 3D Painter para generar oclusión ambiental, curvatura y otras texturas basadas en geometría.
 helpx_creative_field: ''
 helpx_description: Painter > Baking
 helpx_experience_level: ''
@@ -22,19 +22,19 @@ ht-degree: 2%
 
 ![](../assets/banner-baking.jpg)
 
-El horneado se refiere a la acción de **transferir información basada en malla en texturas**. Los sombreadores o los filtros de Substance leen esta información para crear efectos avanzados. Por ejemplo, los materiales y máscaras inteligentes se basan en la curvatura horneada y los mapas normales, junto con otra información horneada.
+Hacer un bake se refiere a la acción de **transferir información basada en malla a las texturas**. Los sombreadores o los filtros de Substance leen esta información para crear efectos avanzados. Por ejemplo, los Materiales inteligentes y las Máscaras inteligentes se basan en la curvatura y los mapas de normales hechos un bake, junto con otra información hecha un bake.
 
-En Painter, el procesamiento se realiza mediante el modo de procesamiento dedicado. Se puede acceder a este modo a través del icono dedicado (pequeño croissant en la barra de herramientas contextual), usando el [menú de modo](../interface/main-menu/mode-menu.md) o con el [método abreviado de teclado](../interface/settings/shortcuts.md).
+En Painter, el hago un bake se realiza mediante el modo de Hace un bake dedicado. Se puede acceder a este modo a través del icono dedicado (pequeño croissant en la barra de herramientas contextual), usando el [menú de modo](../interface/main-menu/mode-menu.md) o con el [método abreviado de teclado](../interface/settings/shortcuts.md).
 
-Para obtener más información sobre el proceso de cocción en Painter, consulte las páginas siguientes:
+Para obtener más información sobre el proceso de hacer un bake en Painter, consulte las siguientes páginas:
 
-* [Interfaz del modo de cocción](baking-interface.md)
-* [Cómo hornear mapas de malla](how-to-bake-mesh-maps.md)
-* [Configuración de visualización de horneado](baking-visualization-settings.md)
+* [interfaz de modo de hacer un bake](baking-interface.md)
+* [Cómo hacer un bake mapas de malla](how-to-bake-mesh-maps.md)
+* [Hacer un bake la configuración de visualización](baking-visualization-settings.md)
 * [Corrección de sesgo](skew-correction.md)
 
-Para obtener una visión general rápida del modo de cocción, echa un vistazo a nuestro tutorial de vídeo:
+Para obtener una visión general rápida del modo de Hacer un bake, echa un vistazo a nuestro tutorial de vídeo:
 
 >[!NOTE]
 >
-> Para obtener más información sobre la panadería en general, consulta la [Documentación de panadería](https://experienceleague.adobe.com/es/docs/substance-3d/bakers/home).
+> Para obtener más información sobre cómo hacer un bake en general, consulta la [Documentación de Haga un bake](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).

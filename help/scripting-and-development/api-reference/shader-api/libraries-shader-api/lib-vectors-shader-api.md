@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-vectors-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-vectors-shader-api.html"
 breadcrumb-title: ''
 description: Acceda a la referencia de API del sombreador Vectores de labios de Substance 3D Painter para trabajar con operaciones vectoriales en sombreados personalizados.
 helpx_creative_field: ""
@@ -139,7 +139,7 @@ struct LocalVectors {
 ```
 
 
-Calcular el fotograma local a partir de la normal del espacio del mundo personalizado y el ángulo de anisotropía
+Calcular el marco local a partir del espacio del mundo personalizado normal y ángulo de anisotropía
 
 ```
 LocalVectors computeLocalFrame(V2F inputs, vec3 normal, float anisoAngle) { 
@@ -222,7 +222,7 @@ LocalVectors computeLocalFrame(V2F inputs, vec3 normal, float anisoAngle) {
 ```
 
 
-Calcular el marco local a partir de mallas y height de documentos y normales
+Calcular el marco local a partir de la malla y el height de documentos y normales
 
 ```
 LocalVectors computeLocalFrame(V2F inputs) { 

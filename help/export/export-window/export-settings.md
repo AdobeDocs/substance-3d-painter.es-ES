@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/getting-started/export/export-window/export-settings.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-window/export-settings.html"
 breadcrumb-title: ''
 description: Aprenda a configurar los ajustes de exportación en Substance 3D Painter para controlar la resolución de textura, el formato y las opciones de salida.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ![](../../assets/image2023-1-30-13-22-30.png){width="500px"}
 
-La <b>pestaña Configuración de exportación</b> de la <b>ventana Exportar texturas</b> te permite configurar la composición, el tamaño y la ubicación de las texturas exportadas.
+La <b>pestaña Configuración de exportación</b> de la <b>ventana texturas de exportación</b> le permite configurar la composición, el tamaño y la ubicación de las texturas exportadas.
 
 ## Configuración General y Conjuntos de texturas
 
@@ -38,15 +38,15 @@ El menú desplegable es útil con proyectos que tienen un gran número de conjun
 
 ![](../../assets/image2023-1-30-13-23-7.png)
 
-Esta sección contiene la configuración compartida para cada textura que se generará:
+Esta sección contiene la configuración compartida de cada textura que se generará:
 
 | Configuración | Descripción |
 | --- | --- |
-| <b>Directorio de salida</b> | Guardar ubicación para texturas exportadas. |
+| <b>Directorio de salida</b> | Guardar ubicación para las texturas exportadas. |
 | <b>Plantilla de salida</b> | Seleccione la plantilla de salida utilizada para nombrar y componer los canales en archivos de textura. Para obtener más información sobre las plantillas, consulte la lista [Plantillas de salida](../export-presets/export-presets.md). |
-| <b>Tipo de archivo </b> | El formato de archivo y su profundidad de bits. Si se selecciona la opción <b>Basado en plantilla de salida</b>, el formato de archivo se hereda del ajuste preestablecido de exportación (que permite determinar el formato y la profundidad de bits por textura en lugar de globalmente). La profundidad de bits disponible depende del tipo de archivo; consulte la siguiente tabla para obtener más información. |
+| <b>Tipo de archivo </b> | El formato de archivo y su profundidad de bits. Si se selecciona la opción <b>Basado en la plantilla de salida</b>, el formato de archivo se hereda del ajuste preestablecido de exportación (que permite determinar el formato y la profundidad de bits por textura en lugar de globalmente). La profundidad de bits disponible depende del tipo de archivo; consulte la siguiente tabla para obtener más información. |
 | <b>Tamaño </b> | Resolución del archivo de textura exportado. Valores posibles:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Según el tamaño de cada conjunto de texturas</b></li> <li data-preserve-html="true"><b>128</b></li> <li data-preserve-html="true"><b>256</b></li> <li data-preserve-html="true"><b>512</b></li> <li data-preserve-html="true"><b>1024</b></li> <li data-preserve-html="true"><b>2048</b></li> <li data-preserve-html="true"><b>4096</b></li> <li data-preserve-html="true"><b>8192</b> (solo disponible con GPU que tengan más de 1,5 GB de Vram)</li> </ul> |
-| <b>Relleno </b> | Cómo se rellena el área exterior de las Islas de UV dentro de la textura. Los valores posibles son:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Sin relleno (paso a través)</b>: utilice el estado actual de la textura tal cual.</li> <li data-preserve-html="true"><b>Dilación infinita</b>: estire los bordes de Isla de UV hasta que lleguen a los bordes contiguos o al final de la textura.</li> <li data-preserve-html="true"><b>Dilación + transparente</b>: estirar los bordes de Isla de UV a la distancia dada en píxeles, el resto es transparente.</li> <li data-preserve-html="true"><b>Dilación + color de fondo predeterminado</b>: para estirar los bordes de Isla de UV hasta la distancia dada en píxeles, el resto se rellena con el color predeterminado del canal del conjunto de texturas.</li> <li data-preserve-html="true"><b>Dilación + color de fondo predeterminado</b>: para estirar los bordes de Isla de UV hasta la distancia dada en píxeles, el resto se rellena con el color predeterminado del canal del conjunto de texturas.</li> <li data-preserve-html="true"><b>Dilación + difusión</b>: para estirar los bordes de la Isla de UV hasta la distancia dada en píxeles, el resto se rellena con una versión borrosa de la Isla de UV (basada en mapas mip).</li> </ul> |
+| <b>Relleno </b> | Cómo se rellena el área exterior de las Islas de UV dentro de la textura. Los valores posibles son:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Sin relleno (paso a través)</b>: utilice el estado actual de la textura tal cual.</li> <li data-preserve-html="true"><b>Dilación infinita</b>: estire los bordes de las Islas de UV hasta que lleguen a los bordes vecinos o hasta el final de la textura.</li> <li data-preserve-html="true"><b>Dilación + transparente</b>: estirar bordes de Isla de UV a la distancia dada en píxeles, el resto es transparente.</li> <li data-preserve-html="true"><b>Dilación + color de fondo predeterminado</b>: estirar bordes de Isla de UV a la distancia dada en píxeles, el resto se rellena con el color predeterminado del canal del conjunto de texturas.</li> <li data-preserve-html="true"><b>Dilación + color de fondo predeterminado</b>: estirar bordes de Isla de UV a la distancia dada en píxeles, el resto se rellena con el color predeterminado del canal del conjunto de texturas.</li> <li data-preserve-html="true"><b>Dilación + difusión</b>: estire los bordes de la Isla de UV a la distancia dada en píxeles, el resto se rellena con una versión borrosa de la Isla de UV (basada en mapas mip).</li> </ul> |
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ A continuación se muestra una lista de todos los formatos de archivo de exporta
 | **Mapa de bits** | bmp | 8, 8 + tramado |
 | **OpenEXR** | exr | 16 (flotante), 32 (flotante) |
 | **Formato Graphics Interchange** | gif | 8, 8 + tramado |
-| **Radiance HDR** | hdr | 32 (flotante) |
+| **Radiance HDR.** | hdr | 32 (flotante) |
 | **Icono** | ico | 8, 8 + tramado |
 | **Jpeg 2000** | j2k | 8, 8 + tramado, 16 |
 | **Gráficos De Red Jpeg** | jng | 8, 8 + tramado, 16 |
@@ -77,7 +77,7 @@ A continuación se muestra una lista de todos los formatos de archivo de exporta
 | **Jpeg** | jpeg | 8, 8 + tramado |
 | **Intervalo extendido del JPEG** | jpeg-xr | 8, 8 + tramado, 16, 32 (flotante) |
 | **Mapa de bits portátil** | pbm | 8, 8 + tramado, 16 |
-| **Mapa de flotador portátil** | pfm | 32 (flotante) |
+| **Mapa de Flotante portátiles** | pfm | 32 (flotante) |
 | **Mapa gris portátil** | pgm | 8, 8 + tramado, 16 |
 | **Gráficos de red portátiles** | png | 8, 8 + tramado, 16 |
 | **Mapa de píxeles portátil** | ppm | 8, 8 + tramado, 16 |
@@ -102,9 +102,9 @@ Esta sección le permite deshabilitar la exportación de archivos específicos o
 
 ## Exportar activo de USD
 
-Al marcar esta casilla, podrá exportar en formato USD. A diferencia del ajuste preestablecido USDz (Apple AR) disponible en <b>Plantillas de salida</b>, esta exportación tendrá en cuenta cualquier plantilla o parámetro que haya configurado para la exportación. Los siguientes archivos se exportan cuando se marca la casilla de activos en USD:
+Al marcar esta casilla, podrá exportar en USD formato. A diferencia del ajuste preestablecido USDz (Apple AR) disponible en <b>Plantillas de salida</b>, esta exportación tendrá en cuenta cualquier plantilla o parámetro que haya configurado para la exportación. Los siguientes archivos se exportan cuando se marca la casilla USD activo:
 
 * Una carpeta con mapas de textura
-* Un *.usda* que señala a la carpeta de mapas de textura.
+* *.usda* que señala a la carpeta de asignaciones de textura.
 * Un .usd opcional que ensambla materiales con el archivo de malla original. Se puede utilizar directamente en Omniverse para mostrar tu malla con materiales aplicados automáticamente.
 * Un archivo .usd opcional, que incluye la malla utilizada en el proyecto. Solo se exporta si el archivo de malla original no es un USD o si se utilizó la función de desajuste automático de Painter para generar UV.

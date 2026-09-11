@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/send-to.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/send-to.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar la función Enviar a de Substance 3D Painter para transferir proyectos y recursos a otras aplicaciones de Substance 3D.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 ![Imagen del banner](../assets/sendto_banner.jpg)
 
-<b>Enviar a</b> son acciones para exportar e importar fácilmente recursos de un proyecto a otra aplicación, evitando la necesidad de hacerlo manualmente. Enviar a se puede utilizar para exportar el modelo 3D y sus texturas a otra aplicación de procesamiento o para recibir materiales de Substance desde Substance 3D Designer.
+<b>Enviar a</b> son acciones para exportar e importar fácilmente recursos de un proyecto a otra aplicación, evitando la necesidad de hacerlo manualmente. Enviar a se puede utilizar para exportar el modelo 3D y sus texturas a otra aplicación de procesamiento o para recibir materiales de Substance de Substance 3D Designer.
 
 Las acciones Enviar a están disponibles a través del menú <b>Archivo > Enviar</b> a.
 

@@ -2,7 +2,7 @@
 title: Acoplar capas
 description: ''
 helpx_description: "Substance 3D Painter"
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/layer-stack/flatten-layers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/flatten-layers.html"
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
 workflow-type: tm+mt
 source-wordcount: '883'
@@ -17,11 +17,11 @@ ht-degree: 1%
 
 ## Acoplar capas
 
-El acoplado de capas permite condensar los datos de textura visibles de un grupo seleccionado en una sola capa. Esto puede ayudar a simplificar la pila de capas, mejorando el rendimiento y facilitando la administración de los proyectos.
+El acoplado de capas permite condensar los datos de textura visibles de un grupo seleccionado en una sola capa. Esto puede ayudar a simplificar la pila de capas, mejorar el rendimiento y facilitar la gestión de los proyectos.
 
 >[!NOTE]
 >
-> Al utilizar la función Acoplar, se crea una nueva capa, pero no se elimina el grupo original de capas. En su lugar, el grupo de origen está desactivado, lo que deja la opción de eliminarlo o, alternativamente, guardarlo como un material inteligente para su edición posterior.
+> Al utilizar la función Acoplar, se crea una nueva capa, pero no se elimina el grupo original de capas. En su lugar, el grupo de origen está desactivado, lo que deja la opción de eliminarlo o, alternativamente, guardarlo como un Material inteligente para su posterior edición.
 
 ## Cómo acoplar capas
 
@@ -40,8 +40,8 @@ Cuando se acoplan capas, se crea una nueva capa de relleno con texturas acoplada
 ## Acoplar canales específicos
 
 * En una capa de relleno, utilice el panel Propiedades para desactivar los canales que no desee acoplar. La información no se pierde cuando los canales están deshabilitados. Una vez que haya acoplado la capa, puede volver a activar los canales y los datos seguirán ahí
-* En el caso de los grupos o las capas de pintura, puede utilizar los modos de fusión para desactivar canales:
-  * En la parte superior de la pila de capas, seleccione el canal que desea desactivar.
+* En el caso de grupos o capas de pintura, puede utilizar los modos de fusión para desactivar canales:
+  * En la parte superior de la Pila de capas, seleccione el canal que desea desactivar.
   * Cambie el modo de fusión de la capa deseada a Desactivado.
   * Puede aplicar el mismo modo de fusión a todos los canales de una capa haciendo clic con el botón derecho en el modo de fusión y seleccionando &quot;Aplicar a todos los canales&quot;.
 
@@ -82,7 +82,7 @@ Las siguientes propiedades están codificadas y no se pueden cambiar:
 
 La función acoplar crea un mapa de bits por canal activado dentro de una nueva capa de relleno. La resolución se basa en la resolución del conjunto de texturas y la profundidad de bits viene determinada por los ajustes del conjunto de texturas.
 
-El acoplado funciona cuando hay datos de textura dentro de un canal determinado. El acoplado no funcionará en una capa de pintura vacía y publicará un mensaje de error en el registro si no hay datos en la selección.
+El acoplado funciona cuando hay datos de textura dentro de un canal determinado. Acoplar no funcionará en una capa de pintura vacía y publicará un mensaje de error en el registro si no hay datos en la selección.
 
 Solo se pueden acoplar las capas y los efectos visibles. Si algunas capas del grupo están desactivadas cuando el grupo se acopla, los efectos de estas capas no se incluirán en el resultado acoplado.
 

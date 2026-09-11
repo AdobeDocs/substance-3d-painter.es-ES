@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/technical-issues/gpu-issues/forcing-the-external-gpu-on-mac-os.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/forcing-the-external-gpu-on-mac-os.html"
 breadcrumb-title: ''
 description: Obtenga más información sobre cómo obligar a Substance 3D Painter a utilizar una GPU externa en macOS para mejorar el rendimiento de procesamiento.
 helpx_creative_field: ""
@@ -27,7 +27,7 @@ Para obtener más información, consulte la [documentación de Apple](https://su
 Para activarla:
 
 1. Cierre Substance 3D Painter si está en ejecución.
-1. Seleccione Substance 3D Painter en el Finder; se encuentra en la carpeta **Aplicaciones**&#x200B;**.**
+1. Seleccione Substance 3D Painter en el Finder; se encuentra en la carpeta **Aplicaciones****.**
 1. Pulse **Comando-I** o haga clic con el botón derecho en la aplicación **Substance 3D Painter** y elija **Obtener información**.
 1. En la nueva ventana, habilite la configuración **Preferir GPU externa**.
 1. Reinicie Substance 3D Painter.

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/content/creating-custom-effects/user-data.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/user-data.html"
 breadcrumb-title: ''
-description: Aprenda a utilizar los datos de usuario en efectos personalizados para Substance 3D Painter para pasar información personalizada a los efectos de sombreado.
+description: Aprenda a utilizar los datos de usuario en efectos personalizados para Substance 3D Painter para pasar información personalizada a los efectos de sombreador.
 helpx_creative_field: ""
 helpx_description: Painter > Content > Creating custom effects > User data
 helpx_experience_level: ""
@@ -28,7 +28,7 @@ La configuración de los datos de usuario se suele aplicar a los nodos de entrad
 
 ## Espacio de color
 
-La configuración de **espacio de color** se puede usar para solicitar entradas de gráficos del Substance con un espacio de color específico o para definir una salida configurada de una determinada manera. Por ejemplo, se especifica el formato de la salida normal del mapa.
+La configuración de **espacio de color** se puede usar para solicitar entradas de gráficos del Substance con un espacio de color específico o para definir una salida configurada de una determinada manera. Por ejemplo, especificando el formato de la salida de mapa de normales.
 
 Sintaxis de ejemplo: **colorspace=$working**
 
@@ -45,7 +45,7 @@ Introducción a Contextos:
 > * En la tabla siguiente se enumeran primero los ajustes de espacio de color compatibles anteriores a la versión 8.1. La segunda sección es exclusiva para la versión 8.1 y posteriores.
 > * En cuanto a los contextos en los que se puede utilizar la configuración de espacio de color, sólo desde la versión 8.1 puede el botón de color definir un espacio de color. En versiones anteriores se suponía que estaban en el espacio de visualización (sRGB).
 > 
-> Las transformaciones y el espacio de color **snorm** y **unorm** no deben mezclarse con formatos de textura de GPU, su propósito es diferente.
+> Las transformaciones y el espacio de color **snorm** y **unorm** no se deben mezclar con formatos de textura de GPU, su propósito es diferente.
 
 | ColorSpace | Disponibilidad de contexto | Descripción |
 | --- | --- | --- |
@@ -75,7 +75,7 @@ Sintaxis de ejemplo: **alfa=premultiplicado**
 | --- | --- |
 | recto | Solicite o defina el alfa como recto. |
 | premultiplicado | Solicite o defina el alfa como premultiplicado. |
-| ninguno | Passthrough, utilice el alfa dado tal cual. |
+| ninguno | Acceso directo, utilice el alfa dado tal cual. |
 
 >[!NOTE]
 >
@@ -94,9 +94,9 @@ Sintaxis de ejemplo:
 
 ## Relleno de entrada de imagen
 
-De forma predeterminada, las entradas de imagen de una gráfica de Substance no tienen relleno, ya que el área fuera de la Isla de UV suele rellenarse con un color uniforme por motivos de rendimiento. El ajuste de relleno se puede usar para solicitar una dilatación infinita, que se puede usar para filtros para evitar crear costuras, por ejemplo.
+De forma predeterminada, las entradas de imagen de una gráfica de Substance no tienen relleno, ya que el área fuera de la Isla de UV se suele rellenar con un color uniforme por motivos de rendimiento. El ajuste de relleno se puede usar para solicitar una dilatación infinita, que se puede usar para filtros para evitar crear costuras, por ejemplo.
 
-Sintaxis de ejemplo: **p**&#x200B;**adding=extend**
+Sintaxis de ejemplo: **p****adding=extend**
 
 ## Deshabilitar una salida de forma predeterminada
 
@@ -105,7 +105,7 @@ Al añadir una sustancia a una ranura (como la ranura de material de la herramie
 * En un nodo de salida específico (como un material):  **disable=(true)**
 * En un nodo de salida genérico (como un filtro):  **disable=(height,diffuse,specular)**
 
-Al cargar la sustancia, este canal no se activará en la interfaz de usuario y, por lo tanto, no tendrá ningún efecto en la pila de capas. El usuario aún puede volver a activar el canal.
+Al cargar la substancia, este canal no se activará en la interfaz de usuario y, por lo tanto, no tendrá ningún efecto en la pila de capas. El usuario aún puede volver a activar el canal.
 
 ## Designación de una salida como máscara/alfa común
 
@@ -129,7 +129,7 @@ Pueden aplicarse algunas condiciones:
 
 ## Definir modo de fusión predeterminado para salidas de material
 
-Es posible definir cuál debe ser el modo de fusión de una salida específica en una gráfica de Substance al arrastrar y soltar materiales de la estantería en la ventana gráfica o la pila de capas.
+Es posible definir cuál debe ser el modo de fusión de una salida específica en una gráfica de Substance al arrastrar y soltar materiales desde la estantería en la ventana gráfica o la pila de capas.
 
 * En un nodo de salida específico:  **blendingmode=normal**
 

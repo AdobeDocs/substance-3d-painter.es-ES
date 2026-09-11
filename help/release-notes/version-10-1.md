@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/version-10-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-10-1.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 10.1 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Versión 10.1
 
-<b>Substance 3D Painter 10.1</b> agrega nuevos y potentes filtros, funcionalidades de USD mejoradas y compatibilidad actualizada con VFX Platform y Linux.
+<b>Substance 3D Painter 10.1</b> añade nuevos y potentes filtros, funciones de USD mejoradas y compatibilidad actualizada con VFX Platform y Linux.
 
 Fecha de publicación: *17 de septiembre de 2024*
 
@@ -49,7 +49,7 @@ En esta versión se han añadido varios filtros nuevos para ampliar en gran medi
 
   ![](../assets/v101_filter_fxaa.gif)
 * <b>Nuevo filtro de paso elevado</b>\
-  Con este filtro genérico, puedes generar una textura de escala de grises para usarla con efectos más avanzados (como suavizar, desenfocar o enfocar los detalles).
+  Con este filtro genérico, puedes crear una textura de escala de grises para usarla con efectos más avanzados (como suavizar, desenfocar o enfocar los detalles).
 
   ![](../assets/v101_filter_highpass.jpg)
 * <b>Nuevo filtro de pixelado</b>\
@@ -68,8 +68,8 @@ En esta versión se han añadido varios filtros nuevos para ampliar en gran medi
   El filtro paso a paso suave es otra forma de crear un nivel o contraste para perfeccionar la información de escala de grises. Este filtro también aplica una curva exponencial al resultado, lo que permite convertir degradados lineales en curvas suaves.
 
   ![](../assets/v101_filter_smoothstep.jpg)
-* <b>Filtros mejorados de transformación y reflejo</b>\
-  El filtro de transformación se ha actualizado para admitir la escala no uniforme, la inversión horizontal o vertical y parámetros más sencillos de usar. El filtro de espejo también se ha actualizado con parámetros más sencillos.
+* <b>Filtros Transformados y reflejados mejorados</b>\
+  El filtro transformar se ha actualizado para admitir la escala no uniforme, la inversión horizontal o vertical y la utilización de parámetros más sencillos. El filtro de espejo también se ha actualizado con parámetros más sencillos.
 
   ![](../assets/v101_filter_transform.jpg)
 * <b>Iconos mejorados</b>\
@@ -89,11 +89,11 @@ En esta versión se han añadido varios filtros nuevos para ampliar en gran medi
 En esta versión de Painter, se han mejorado y actualizado muchos componentes de terceros:
 
 * <b>Exportar texturas con Adobe Standard Material en USD\
-  </b>Al exportar texturas de Painter a un archivo en USD, ahora obtendrás las propiedades de Adobe Standard Material con ellas. Esto hace que estos archivos USD estén listos para usarse en aplicaciones que también admiten esas propiedades.
+  </b>Al exportar texturas de Painter a un archivo USD, ahora obtendrás las propiedades de Adobe Standard Material con ellas. Esto hace que estos archivos USD estén listos para usarse en aplicaciones que también admiten esas propiedades.
 * <b>Importar texturas de archivos USD</b>\
-  La importación de un archivo USD ahora también importará su textura en el proyecto que cree, lo que facilita las idas y venidas entre aplicaciones. Si el archivo USD utiliza Adobe Standard Material, esto también configurará la configuración del sombreado, haciendo que el resultado en la ventana gráfica coincida con la otra aplicación de origen.
+  La importación de un archivo USD ahora también importará su textura en el proyecto que cree, lo que facilita las idas y venidas entre aplicaciones. Si el archivo USD utiliza el Adobe Standard Material, también se configurará la configuración de sombreador, haciendo que el resultado en la ventana gráfica coincida con el de la otra aplicación de origen.
 * <b>Cambios en Gltf\
-  </b>Después de la actualización de USD, se requirió algún cambio de comportamiento para el formato GLTF para garantizar la paridad. Al importar un archivo gltf, Painter supondrá que el mapa normal estará en formato OpenGL.\
+  </b>Después de la USD actualización, se requirió algún cambio de comportamiento para el formato GLTF para garantizar la paridad. Al importar un archivo gltf, Painter supondrá que el mapa normal estará en formato OpenGL.\
   Algunos archivos gltf pueden usar el formato DirectX en su lugar. Por lo tanto, se ha añadido una nueva configuración en la nueva ventana de proyecto para tenerla en cuenta (tenga en cuenta que el formato normal también se puede reemplazar desde la pila de capas).
 
   ![](../assets/v101_import_gltf.png)
@@ -119,10 +119,10 @@ Algunas áreas de la aplicación han recibido algunas mejoras de rendimiento:
   </b>El proyecto que utilizaba muchos trazos de pincel ahora debería abrirse más rápido en Painter. El ahorro de tiempo de estos proyectos también debería mejorarse ligeramente.\
   En algunos de nuestros proyectos de prueba observamos una reducción de 50 a solo 6 segundos de tiempo de carga al abrir un proyecto. También se ha mejorado el consumo de memoria al abrir proyectos antiguos y convertirlos a la última versión.
 * <b>Rendimiento mejorado de teselación\
-  </b>Ahora empleamos una optimización automática cuando la teselación está activada en la configuración del sombreador. Los triángulos que sean más pequeños que un píxel en pantalla ya no se teselarán, lo que reduce la cantidad de triángulos que se dibujarán y, por lo tanto, acelera los tiempos de procesamiento.\
+  </b>Ahora empleamos una optimización automática cuando la teselación está activada en la configuración del Sombreador. Los triángulos que sean más pequeños que un píxel en pantalla ya no se teselarán, lo que reduce la cantidad de triángulos que se dibujarán y, por lo tanto, acelera los tiempos de procesamiento.\
   Este cambio no produce diferencias visuales y no afecta al proceso de exportación de la malla.
 * <b>Las miniaturas simplificadas ahora son las predeterminadas</b>\
-  En la versión 6.2 presentamos las miniaturas simplificadas para proyectos de UV Tiles para mejorar el rendimiento, pero los proyectos normales aún podían utilizar la antigua forma de calcular miniaturas de capas. Este comportamiento se controlaba mediante una configuración de la aplicación.\
+  En la versión 6.2 presentamos las miniaturas simplificadas para proyectos de Mosaicos de UV con el fin de mejorar el rendimiento, pero los proyectos normales aún podían utilizar la antigua forma de calcular las miniaturas de capas. Este comportamiento se controlaba mediante una configuración de la aplicación.\
   Esta configuración ahora se establece de forma predeterminada en las miniaturas optimizadas para mejorar el rendimiento de cualquier proyecto. Si lo desea, puede revertirse en las preferencias principales.
 
   ![](../assets/v101_perf_icons.png)
@@ -141,7 +141,7 @@ Algunas áreas de la aplicación han recibido algunas mejoras de rendimiento:
 
 Fecha de publicación: <b>17/09/2024</b>
 
-Resumen: <b>Versión principal, nuevo contenido: Filtro de color/máscara de área de relleno, filtro de pegatinas de bordado y seis filtros de Substance genéricos, importación de USD con propiedades de materiales y sombreadores, mejora del rendimiento, compatibilidad con VFX Platform 2024 y migración a Linux RedHat</b>
+Resumen: <b>Versión principal, nuevo contenido: Filtro de color/máscara de área de relleno, filtro de pegatinas de bordado y seis filtros de Substance genéricos, USD de importación con propiedades de material y sombreador, mejora del rendimiento, compatibilidad con VFX Platform 2024 y migración a Linux RedHat</b>
 
 <b>Agregado</b>:
 
@@ -170,10 +170,10 @@ Resumen: <b>Versión principal, nuevo contenido: Filtro de color/máscara de ár
 <b>Corregido</b>:
 
 * [Illustrator] Bloqueo al exportar un azulejo UV con un gráfico .ai en casos específicos
-* [Trazos dinámicos]&#x200B;[Trazado] La opción aleatoria por trazo no funciona en un trazado
-* [UI]&#x200B;[Propiedades] El bloqueo está activado cuando el mosaico no es uniforme
+* [Trazos dinámicos][Trazado] La opción aleatoria por trazo no funciona en un trazado
+* [UI][Propiedades] El bloqueo está activado cuando el mosaico no es uniforme
 * &#x200B; archivo Debug TXT se crea al hacer doble clic en el proyecto de Painter
-* [USD]&#x200B;[Exportar] Es posible que falten algunas texturas
+* [USD][Exportar] Es posible que falten algunas texturas
 * [ASM] El canal de color de dispersión ignora el metal
 * [Contenido] El filtro de desenfoque no funciona en espacios de color &quot;operativos&quot;
 * [Contenido] Height Ajustar filtro también modifica el alfa de la capa
@@ -182,7 +182,7 @@ Resumen: <b>Versión principal, nuevo contenido: Filtro de color/máscara de ár
 
 * [Gestión de color] Las conversiones de espacio de color HDR con ACE en Linux producen colores con sujeción
 * [Win] [Bloqueo] [ACE] No se utiliza el espacio de color sRGB ICE para la transformación de la pantalla
-* [Regresión]&#x200B;[IU] El menú contextual es demasiado pequeño en pantallas HD
+* [Regresión][IU] El menú contextual es demasiado pequeño en pantallas HD
 * [Bloqueo] [Python] Exportación de USD desencadenada por TextureStateEvent
 * [MacOS Intel] Bloqueo al importar algunos ajustes preestablecidos
 * [Bloqueo] Reubicar recurso y guardar proyecto

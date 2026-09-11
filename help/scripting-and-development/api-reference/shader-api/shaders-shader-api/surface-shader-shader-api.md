@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api.html"
 breadcrumb-title: ''
-description: Acceda a la referencia de API del sombreador de superficie de Substance 3D Painter para crear efectos y materiales de sombreado de superficie personalizados.
+description: Acceda a la referencia de API del sombreador de superficie de Substance 3D Painter para crear efectos y materiales de sombreador de superficie personalizados.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > Surface Shader - Shader API
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Sombreado de superficie - API del sombreador
+title: Sombreadores de superficie - API del sombreador
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,11 +18,11 @@ ht-degree: 0%
 ---
 
 
-# Sombreado de superficie - API del sombreador
+# Sombreadores de superficie - API del sombreador
 
-## surface-shader.glsl
+## surface-sombreador.glsl
 
-Para crear un recurso de sombreado que se pueda utilizar en Substance Painter, cree un archivo glsl que contenga una sola función denominada *shade* con el siguiente perfil:
+Para crear un recurso de sombreador que se pueda usar en Substance Painter, basta con crear un archivo glsl que contenga una única función denominada *shade* con el siguiente perfil:
 
 ```
 void shade(V2F inputs);
@@ -56,7 +56,7 @@ struct V2F {
 
 Nota: Para obtener un SparseCoord para uv1-uv7, debe llamar explícitamente a *getSparseCoord(vec2)* definido en [lib-sparse.glsl](../libraries-shader-api/lib-sparse-shader-api.md)
 
-## Salidas del sombreador de superficie:
+## Salidas de sombreador de superficie:
 
 Se puede llamar a las siguientes funciones desde la función *shade* para describir las propiedades del fragmento:
 

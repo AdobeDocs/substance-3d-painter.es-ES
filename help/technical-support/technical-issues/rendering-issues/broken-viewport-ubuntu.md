@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/technical-issues/rendering-issues/broken-viewport-ubuntu.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/rendering-issues/broken-viewport-ubuntu.html"
 breadcrumb-title: ''
 description: Obtenga información sobre cómo solucionar problemas de la ventana gráfica rota o que no responde en Ubuntu en Substance 3D Painter para una representación 3D adecuada.
 helpx_creative_field: ""
@@ -27,6 +27,6 @@ Esto está relacionado con el hecho de que Painter no se inicie con la GPU corre
 Existen algunas soluciones:
 
 1. Ejecutar Steam desde un terminal. Esto forzará un contexto diferente y debería hacer que Steam y Painter se ejecuten en la GPU correcta.
-1. Edite el acceso directo de Steam para deshabilitar la configuración <b>Ejecutar usando tarjeta gráfica dedicada</b>. A continuación, ejecute Steam normalmente.
+1. Edite el método abreviado de Steam para deshabilitar la configuración <b>Ejecutar usando tarjeta gráfica exclusiva</b>. A continuación, ejecute Steam normalmente.
 
 Para obtener más información, consulte [este problema de github](https://github.com/ValveSoftware/steam-for-linux/issues/9940).

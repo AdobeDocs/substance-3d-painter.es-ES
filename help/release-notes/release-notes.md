@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes.html"
 breadcrumb-title: ''
 description: Accede a las notas de la versión de Substance 3D Painter para estar al día de las nuevas funciones, mejoras y correcciones de errores en todas las versiones.
 helpx_creative_field: ""

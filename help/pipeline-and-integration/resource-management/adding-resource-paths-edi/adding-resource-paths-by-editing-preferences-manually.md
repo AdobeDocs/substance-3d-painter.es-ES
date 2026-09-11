@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually.html"
 breadcrumb-title: ''
 description: Aprenda a añadir rutas de recursos manualmente en Substance 3D Painter editando las preferencias para expandir su biblioteca de recursos de estantería.
 helpx_creative_field: ""

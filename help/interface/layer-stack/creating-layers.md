@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/layer-stack/creating-layers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/creating-layers.html"
 breadcrumb-title: ''
 description: Aprenda a crear nuevas capas en Substance 3D Painter para crear texturas complejas con varias capas de pintura.
 helpx_creative_field: ""
@@ -38,6 +38,6 @@ Arrastrar y soltar recursos desde la estantería también puede ser una forma de
 
 | *Acción* | *Demostración* |
 | --- | --- |
-| Arrastra y suelta un **material** de [Assets](../assets/assets.md) en la pila de capas | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/dragdrop-material.gif"/></div> |
-| Arrastra y suelta un **material inteligente** de [Assets](../assets/assets.md) en la pila de capas | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/dragdrop-smartmaterial.gif"/></div> |
-| Arrastra y suelta un **efecto** de [activos](../assets/assets.md) en la pila de capas | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/dragdrop-filter.gif"/></div> |
+| Arrastra y suelta un **material** de [Assets](../assets/assets.md) en la Pila de capas | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/dragdrop-material.gif"/></div> |
+| Arrastra y suelta un **Material inteligente** de [Assets](../assets/assets.md) en la Pila de capas | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/dragdrop-smartmaterial.gif"/></div> |
+| Arrastra y suelta un **efecto** de [Recursos](../assets/assets.md) en la Pila de capas | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/dragdrop-filter.gif"/></div> |

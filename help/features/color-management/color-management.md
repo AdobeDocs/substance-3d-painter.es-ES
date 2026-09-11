@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/color-management.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/color-management.html"
 breadcrumb-title: ''
 description: Aprenda a configurar la gestión de color en Substance 3D Painter para garantizar una precisión de color uniforme en todo el flujo de trabajo.
 helpx_creative_field: ""
@@ -45,10 +45,10 @@ Puede resultar útil conocer algunos términos técnicos relacionados con la ges
 | --- | --- |
 | **Espacio de color** | Sistema de coordenadas en el que se definen los colores. |
 | **Espacio de trabajo** | Espacio de color utilizado dentro de la aplicación para fusionar texturas, pintura, etc. |
-| **Mostrar transformación** | La transformación de visualización convierte los colores lineales del espacio de trabajo al espacio de color del monitor para mostrar los colores de forma perceptual (para que los vean los ojos humanos). Las transformaciones de visualización a menudo incluyen una pasada de asignación de tonos para comprimir colores para que se ajusten al rango limitado de valores permitido por una pantalla. |
+| **Mostrar transformación** | Transformar visualización convierte los colores lineales del espacio de trabajo al espacio de color del monitor para mostrar los colores de forma perceptual (para que los vean los ojos humanos). Las transformes de visualización a menudo incluyen una pasada de asignación de tonos para comprimir colores para que se ajusten al rango limitado de valores permitido por una pantalla. |
 | **Configuración** | Un archivo de configuración de OCIO. Define qué es el espacio de trabajo, una lista de espacios de color y una lista de transformaciones de visualización. |
-| **ACES** | ACES significa Academy Color Encoding System y es el estándar en muchas aplicaciones para intercambiar archivos de imagen digital. Dos versiones de este estándar se incluyen dentro de la aplicación de forma predeterminada. |
-| **Asignación de tonos** | Es el proceso de asignar valores de color de HDR (alto rango dinámico) a LDR (rango dinámico bajo). Este proceso ayuda a mostrar aproximadamente la visualización de una amplia gama de colores. |
+| **ACE** | ACE significa Academy Color Encoding System y es el estándar en muchas aplicaciones para intercambiar archivos de imagen digital. Dos versiones de este estándar se incluyen dentro de la aplicación de forma predeterminada. |
+| **Asignación de tonos** | Es el proceso de asignar valores de color de HDR. (alto rango dinámico) a LDR (rango dinámico bajo). Este proceso ayuda a mostrar aproximadamente la visualización de una amplia gama de colores. |
 
 ## Lista de canales con gestión de color
 
@@ -56,17 +56,17 @@ Dentro de la aplicación, los canales que tienen o no gestión de color (datos/p
 
 | Canal | Se gestiona el color |
 | --- | --- |
-| **oclusión de ambiente** | No |
+| **Oclusión ambiental** | No |
 | **Ángulo de anistotropía** | No |
-| **Nivel de Anisotropía** | No |
+| **Nivel de anisotropía** | No |
 | **Color base** | **Sí** |
 | **Máscara de fusión** | No |
-| **Color de la capa** | **Sí** |
-| **Abrigo normal** | No |
-| **Opacidad de la capa** | No |
-| **Rugosidad del abrigo** | No |
-| **specular level de abrigo** | No |
-| **Difusión** | **Sí** |
+| **Color de capa** | **Sí** |
+| **Normal de capa** | No |
+| **Opacidad de capa** | No |
+| **Rugosidad de capa** | No |
+| **Nivel especular de capa** | No |
+| **Difuso** | **Sí** |
 | **Desplazamiento** | No |
 | **Brillo** | No |
 | **Height** | No |
@@ -84,7 +84,7 @@ Dentro de la aplicación, los canales que tienen o no gestión de color (datos/p
 | **Specular** | **Sí** |
 | **Specular edge color** | **Sí** |
 | **Specular level** | No |
-| **Transparencia** | No |
+| **Translucidez** | No |
 | **Transmisivo** | **Sí** |
 | **Usuario X (0-15)** | Depende de la configuración de [Conjunto de texturas](../../interface/texture-set/texture-set-settings.md). De forma predeterminada, los canales de usuario no tienen gestión de color. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r31-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/user-demo.png"/></div> |
 
@@ -99,12 +99,12 @@ Para obtener más información, consulte la [página de documentación](../../in
 
 ## Controles de ventana
 
-Las vistas 2D y 3D tienen gestión de color y disponen de una configuración dedicada en la parte superior de la ventana gráfica para controlar qué transformación de visualización se debe utilizar:
+Las vistas 2D y 3D tienen gestión de color y disponen de una configuración específica en la parte superior de la ventana gráfica para controlar qué visualización transforma a usar:
 
 ![](../../assets/viewport-cm.png)
 
-* **Botón izquierdo**: Active o desactive la transformación de visualización de la ventana gráfica. Si está desactivada, la ventana gráfica mostrará los colores como RAW/passthrough. Este botón está activado de forma predeterminada.
-* **Menú desplegable derecho**: Especifique qué transformación de visualización se utilizará para convertir los colores y mostrarlos en pantalla. El valor predeterminado se basa en la configuración de OCIO. Esta configuración no se guarda con el proyecto, ya que puede depender del monitor.
+* **Botón izquierdo**: Active o desactive el transformo de visualización de la ventana gráfica. Si está desactivada, la ventana gráfica mostrará los colores como RAW/passthrough. Este botón está activado de forma predeterminada.
+* **Menú desplegable derecho**: Especifique el transforme de visualización que se utilizará para convertir los colores y mostrarlos en la pantalla. El valor predeterminado se basa en la configuración de OCIO. Esta configuración no se guarda con el proyecto, ya que puede depender del monitor.
 
 >[!NOTE]
 >

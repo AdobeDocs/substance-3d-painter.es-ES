@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/history.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/history.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar el panel Historial en Substance 3D Painter para ver y navegar por el historial de edición.
 helpx_creative_field: ""
@@ -27,4 +27,4 @@ La ventana Historial muestra todas las acciones y modificaciones que se han real
 * Crear una nueva acción cuando no se encuentra en el último elemento de la lista borrará las acciones futuras existentes y las reemplazará por una nueva.
 * Las acciones son globales para el proyecto, por lo que crear una capa en dos conjuntos de texturas diferentes aparecerá en la misma lista.
 
-Aunque toda la información se guarda en un proyecto (para poder volver a pintar o texturizar todo), no se podrá acceder a la lista Historial si el proyecto se cierra y se vuelve a abrir. La lista de historial solo está disponible durante la sesión actual.
+Aunque toda la información se guarda en un proyecto (para poder volver a realizar la pintura o la textura de todo), no se podrá acceder a la lista Historial si el proyecto se cierra y se vuelve a abrir. La lista de historial solo está disponible durante la sesión actual.

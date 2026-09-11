@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-emissive-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-emissive-shader-api.html"
 breadcrumb-title: ''
-description: Acceda a la referencia de API del sombreador Emisora de labios de Substance 3D Painter para crear materiales emisores y efectos brillantes.
+description: Acceda a la referencia de API del sombreador de Emisivos Lib de Substance 3D Painter para crear materiales de emisivo y efectos brillantes.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Emissive - Shader API
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Emisor Lib - API del sombreador
+title: Emisivos Lib - API del sombreador
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,9 +18,9 @@ ht-degree: 0%
 ---
 
 
-# Emisor Lib - API del sombreador
+# Emisivos Lib - API del sombreador
 
-## lib-emissive.glsl
+## lib-emisivo.glsl
 
 **Funciones públicas:** *pbrComputeEmissive*
 
@@ -40,7 +40,7 @@ uniform SamplerSparse emissive_tex;
 ```
 
 
-Valor utilizado para ajustar la intensidad de las emisiones.
+Valor utilizado para ajustar la intensidad del emisivo.
 
 ```
 //: param custom { 

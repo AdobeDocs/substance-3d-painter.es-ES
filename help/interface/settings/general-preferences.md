@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/settings/general-preferences.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/settings/general-preferences.html"
 breadcrumb-title: ''
 description: Aprenda a configurar las preferencias generales en Substance 3D Painter para personalizar el comportamiento de la aplicación y la experiencia del usuario.
 helpx_creative_field: ""
@@ -44,7 +44,7 @@ Esta página explica la configuración principal de la aplicación.
 | Configuración | Descripción |
 | --- | --- |
 | **Escala de UV predeterminada para materiales** | Define el valor predeterminado de segmentación/repetición para las capas de relleno y el efecto de relleno en la pila de capas al aplicar materiales. |
-| **Usar miniaturas simplificadas** | Si está activada, la pila de capas solo mostrará iconos en lugar de calcular miniaturas. El uso de iconos mejora el rendimiento. Esta configuración no se aplica a los proyectos que utilizan el flujo de trabajo de mosaico UV, ya que siempre mostrarán iconos. |
+| **Usar miniaturas simplificadas** | Si está activada, la pila de capas solo mostrará iconos en lugar de calcular miniaturas. El uso de iconos mejora el rendimiento. Esta configuración no se aplica a los proyectos que utilizan el flujo de trabajo de Mosaico de UV, ya que siempre mostrarán iconos. |
 
 ## Opciones de cámara
 
@@ -56,15 +56,15 @@ Esta página explica la configuración principal de la aplicación.
 | **Velocidad de zoom** | Multiplicador de la velocidad de zoom predeterminada de la cámara en los puntos de visión.La dirección inversa permite invertir la dirección del zoom en función del movimiento del ratón. |
 | **Velocidad de la rueda** | Multiplicador de la velocidad de zoom de la rueda del ratón.La dirección inversa permite invertir la dirección del zoom en función del movimiento de la rueda. |
 
-## Opciones de horneado
+## Hacer un bake opciones
 
 ![](../../assets/settings-baking.png)
 
 | Configuración | Descripción |
 | --- | --- |
-| **Guardar archivos de escena preprocesados** | Si se activa, las mallas de alto contenido de polietileno preprocesadas utilizadas por los panaderos se guardarán en disco para su reutilización en el futuro. Esta configuración permite volver a hornear más rápido. |
-| **Habilitar proceso de procesamiento de vista previa dinámica** | Si se activa, la ventana gráfica 3D y 2D mostrará la textura de panadero que se esté calculando en la malla. |
-| **Habilitar Trazado de rayos de GPU** | Si está activado, los Panaderos intentarán utilizar la GPU para realizar el trazado de rayos en lugar de la CPU. La función permite a los panaderos actuar más rápido en general.Solo se puede activar en hardware compatible. Consulte [Requisitos del sistema](../../getting-started/system-requirements.md) para obtener más información. |
+| **Guardar archivos de escena preprocesados** | Si se activa, las mallas de alta densidad preprocesadas utilizadas por los bakeres se guardarán en el disco para su reutilización en el futuro. Esta configuración permite volver a hacer un bake más rápidamente. |
+| **Habilitar proceso de hace un bake de la vista previa dinámica** | Si se habilita, la ventana gráfica 3D y 2D mostrará la textura de baker actual que se está calculando en la malla. |
+| **Habilitar Trazado de rayos de GPU** | Si está activado, los Bakeres intentarán utilizar la GPU para realizar tareas de trazado de rayos en lugar de la CPU. Esta función permite a los bakeres obtener un rendimiento más rápido en general.Solo se puede activar en hardware compatible. Consulte [Requisitos del sistema](../../getting-started/system-requirements.md) para obtener más información. |
 
 ## Opciones de previsualización
 
@@ -74,7 +74,7 @@ Esta página explica la configuración principal de la aplicación.
 | --- | --- |
 | **Directorio de caché local** | Defina la ubicación secundaria en la que se encuentran las miniaturas de recursos cuando se generan.Esta configuración es útil para calcular y almacenar miniaturas de recursos cuando una ruta de acceso de recursos es de sólo lectura (como en una ruta de red con acceso de sólo lectura). De este modo, se evitan volver a calcular las miniaturas en cada inicio, ya que de lo contrario no se guardarían en el disco. |
 | **Presupuesto de caché local (en MB)** | Defina el tamaño máximo de la caché para la caché local. |
-| **Sombreador de previsualización de material** | Defina un sombreado para utilizarlo para generar miniaturas de materiales en los estantes. Esto resulta útil si los recursos utilizan un flujo de trabajo diferente del sombreado predeterminado. Esta configuración requiere reiniciar la aplicación para que surta efecto. |
+| **Sombreador de previsualización de material** | Defina un sombreador que se utilizará para generar miniaturas de materiales en los estantes. Esto resulta útil si los recursos utilizan un flujo de trabajo diferente del sombreador predeterminado. Esta configuración requiere reiniciar la aplicación para que surta efecto. |
 
 ## Archivos temporales
 

@@ -64,8 +64,8 @@ ht-degree: 14%
     + [Mét. abreviados](/help/interface/settings/shortcuts.md)
     + [Configuración de bibliotecas](/help/interface/settings/libraries-configuration.md)
   + Configuración del sombreador{#shader-settings}
-    + [Introducción a la configuración del sombreador](/help/interface/shader-settings/shader-settings.md)
-    + [Actualización de un sombreado](/help/interface/shader-settings/updating-a-shader.md)
+    + [Introducción a la configuración de sombreador](/help/interface/shader-settings/shader-settings.md)
+    + [Actualización de un sombreador](/help/interface/shader-settings/updating-a-shader.md)
   + Conjunto de texturas{#texture-set}
     + [Introducción al conjunto de texturas](/help/interface/texture-set/texture-set.md)
     + [Lista Conjunto de texturas](/help/interface/texture-set/texture-set-list.md)
@@ -85,12 +85,12 @@ ht-degree: 14%
     + [Generadores de mapas de malla](/help/interface/baking-panels/mesh-map-bakers.md)
     + [Ajustes comunes](/help/interface/baking-panels/common-mesh-map-settings.md)
     + [Panel de ajustes del mapa de malla](/help/interface/baking-panels/mesh-map-settings.md)
-    + [Registro de hornear](/help/interface/baking-panels/baking-log.md)
+    + [Haciendo un bake registro](/help/interface/baking-panels/baking-log.md)
 + Pintura{#painting}
   + [Introducción a la pintura](/help/painting/painting.md)
   + Herramientas de pintura{#paint-tools}
-    + [Información general de la herramienta Pintura](/help/painting/tool-list/tool-list.md)
-    + [Pincel](/help/painting/tool-list/paint-brush.md)
+    + [Introducción a la herramienta pintura](/help/painting/tool-list/tool-list.md)
+    + [pincel de pintura](/help/painting/tool-list/paint-brush.md)
     + [Borrador](/help/painting/tool-list/eraser.md)
     + [Proyección](/help/painting/tool-list/projection.md)
     + [Relleno poligonal](/help/painting/tool-list/polygon-fill.md)
@@ -109,7 +109,7 @@ ht-degree: 14%
     + [Simetría radial](/help/painting/symmetry/radial-symmetry.md)
   + Rellenar proyecciones{#fill-projections}
     + [Información general sobre rellenar proyecciones](/help/painting/fill-projections/fill-projections.md)
-    + [Relleno - coincidencia por azulejo UV](/help/painting/fill-projections/fill-match-per-uv-tile.md)
+    + [Relleno: coincidencia por Mosaico de UV](/help/painting/fill-projections/fill-match-per-uv-tile.md)
     + [Proyección de UV](/help/painting/fill-projections/uv-projection.md)
     + [Proyección de plano triple](/help/painting/fill-projections/tri-planar-projection.md)
     + [Proyección de plano](/help/painting/fill-projections/planar-projection.md)
@@ -138,7 +138,7 @@ ht-degree: 14%
     + [Descripción general de pintura de canales](/help/painting/advanced-channel-painting/advanced-channel-painting.md)
     + [Oclusión ambiental](/help/painting/advanced-channel-painting/ambient-occlusion-painting.md)
     + [Mapa de flujo](/help/painting/advanced-channel-painting/flow-map-painting.md)
-    + [Mapa de height](/help/painting/advanced-channel-painting/height-map-painting.md)
+    + [Mapa de altura](/help/painting/advanced-channel-painting/height-map-painting.md)
     + [Mapa de normales](/help/painting/advanced-channel-painting/normal-map-painting.md)
   + [Gráfico vectorial: .svg .ai](/help/painting/vector-graphic-svg.md)
   + [Recurso de texto](/help/painting/text-resource.md)
@@ -160,7 +160,7 @@ ht-degree: 14%
     + [Editor de máscaras](/help/features/effects/generators/mask-editor.md)
     + [Edge Wear de metal](/help/features/effects/generators/metal-edge-wear.md)
     + [Posición](/help/features/effects/generators/position.md)
-    + [Tri-Planar avanzado](/help/features/effects/generators/tri-planar-advanced.md)
+    + [Tri-Plano avanzado](/help/features/effects/generators/tri-planar-advanced.md)
     + [Distancia de borde UV](/help/features/effects/generators/uv-border-distance.md)
     + [Verificador de UV](/help/features/effects/generators/uv-checker.md)
     + [Color aleatorio UV](/help/features/effects/generators/uv-random-color.md)
@@ -174,12 +174,12 @@ ht-degree: 14%
   + [Filtro](/help/features/effects/filter.md)
   + [Punto de anclaje](/help/features/effects/anchor-point.md)
 + Baking{#baking}
-  + [Introducción a la hornada](/help/baking/baking.md)
-  + [Interfaz de cocción](/help/baking/baking-interface.md)
-  + [Cómo hornear mapas de malla](/help/baking/how-to-bake-mesh-maps.md)
+  + [Hacer un bake información general](/help/baking/baking.md)
+  + [Hacer un bake interfaz](/help/baking/baking-interface.md)
+  + [Cómo hacer un bake mapas de malla](/help/baking/how-to-bake-mesh-maps.md)
   + [Corrección de sesgo](/help/baking/skew-correction.md)
   + [Configuración del mapa de malla](/help/baking/mesh-map-settings.md)
-  + [Configuración de visualización de horneado](/help/baking/baking-visualization-settings.md)
+  + [Hacer un bake la configuración de visualización](/help/baking/baking-visualization-settings.md)
 + Contenido{#content}
   + Creación de efectos personalizados{#creating-custom-effects}
     + [Introducción a la creación de efectos personalizados](/help/content/creating-custom-effects/creating-custom-effects.md)
@@ -198,7 +198,7 @@ ht-degree: 14%
   + [Actualización automática de recursos](/help/features/auto-update.md)
   + [Desempaquetado automático de UV](/help/features/automatic-uv-unwrapping.md)
   + [Tamaño físico](/help/features/physical-size.md)
-  + [Materiales y máscaras inteligentes](/help/features/smart-materials-and-masks.md)
+  + [Materiales inteligentes y máscaras](/help/features/smart-materials-and-masks.md)
   + Dispersión de subsuperficie{#subsurface-scattering}
     + [Introducción a la dispersión subsuperficial](/help/features/subsurface-scattering/subsurface-scattering.md)
     + [Activación de la subsuperficie en un proyecto](/help/features/subsurface-scattering/enabling-subsurface-in-a-project.md)
@@ -207,11 +207,11 @@ ht-degree: 14%
   + [Control dinámico de capas de materiales](/help/features/dynamic-material-layering.md)
   + [Reproyección UV](/help/features/uv-reprojection.md)
   + Mosaicos de UV{#uv-tiles}
-    + [Descripción general de azulejos UV](/help/features/uv-tiles/uv-tiles.md)
+    + [Introducción a Mosaicos de UV](/help/features/uv-tiles/uv-tiles.md)
     + [Secuencia de imágenes](/help/features/uv-tiles/image-sequence.md)
   + Gestión de colores{#color-management}
     + [Introducción a la gestión de color](/help/features/color-management/color-management.md)
-    + [Gestión de color con Adobe ACE - ICC](/help/features/color-management/color-management-with-adobe-ace-icc.md)
+    + [Gestión de color con ACE de Adobe - ICC](/help/features/color-management/color-management-with-adobe-ace-icc.md)
     + [Gestión de color con OpenColorIO](/help/features/color-management/color-management-with-opencolorio.md)
   + Posprocesamiento{#post-processing}
     + [Información general](/help/features/post-processing/post-processing.md)
@@ -238,7 +238,7 @@ ht-degree: 14%
   + [Texturas virtuales dispersas](/help/features/sparse-virtual-textures.md)
   + [Sombreadores personalizados](/help/features/custom-shaders.md)
   + [SpaceMouse® de 3Dconnection](/help/features/spacemouse-by-3dconnexion.md)
-  + [UNIVERSALES SCENE DESCRIPTION - USD](/help/features/universal-scene-description-usd.md)
+  + [UNIVERSAL SCENE DESCRIPTION - USD](/help/features/universal-scene-description-usd.md)
   + [Enviar a](/help/features/send-to.md)
 + Exportar{#export}
   + [Exportar información general](../export/export.md)
@@ -252,7 +252,7 @@ ht-degree: 14%
     + Plantillas de salida predeterminadas{#default-output-templates}
       + [Plantillas de salida predeterminadas](/help/export/export-presets/default-presets.md)
       + [Plantillas de salida predefinidas](/help/export/export-presets/predefined-presets/predefined-presets.md)
-      + [USD Ajuste preestablecido de rugosidad de metal PBR](/help/export/export-presets/predefined-presets/usd-pbr-metal-roughness-preset.md)
+      + [Ajuste preestablecido de rugosidad de metal USD PBR](/help/export/export-presets/predefined-presets/usd-pbr-metal-roughness-preset.md)
     + [Creación de Plantillas de salida](/help/export/creating-export-presets.md)
 + Asistencia técnica{#technical-support}
   + Directrices de rendimiento{#performance-guidelines}
@@ -270,7 +270,7 @@ ht-degree: 14%
       + [Bloqueo al trabajar con GPU sobreacelerada](/help/technical-support/technical-issues/gpu-issues/crash-when-working-with-overclocked-gpu.md)
       + [Forzar la GPU externa en el sistema operativo Mac](/help/technical-support/technical-issues/gpu-issues/forcing-the-external-gpu-on-mac-os.md)
       + [Compatibilidad de controladores de GPU](/help/technical-support/technical-issues/gpu-issues/gpu-drivers-compatibility.md)
-      + [Bloqueo de los controladores de la GPU con cálculos largos: bloqueo de TDR](/help/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.md)
+      + [BLOQUEO de controladores de GPU con cálculos largos: bloqueo TDR](/help/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.md)
       + [La GPU tiene controladores obsoletos](/help/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers.md)
       + [La GPU no se reconoce](/help/technical-support/technical-issues/gpu-issues/gpu-is-not-recognized.md)
       + [La GPU no se reconoce y se menciona como GDI Generic](/help/technical-support/technical-issues/gpu-issues/gpu-is-not-recognized-and-is-mentionned-as-gdi-generic.md)
@@ -280,7 +280,7 @@ ht-degree: 14%
       + [Painter no se inicia en la GPU correcta](/help/technical-support/technical-issues/gpu-issues/painter-doesn-t-start-on-the-right-gpu.md)
     + Problemas de inicio{#startup-issues}
       + [La aplicación no se pudo iniciar debido a Qt](/help/technical-support/technical-issues/startup-issues/application-failed-to-start-because-of-qt.md)
-      + [Bloqueo durante el inicio](/help/technical-support/technical-issues/startup-issues/crash-or-freeze-during-startup.md)
+      + [Bloqueo o congelación durante el inicio](/help/technical-support/technical-issues/startup-issues/crash-or-freeze-during-startup.md)
       + [Conflictos de software](/help/technical-support/technical-issues/startup-issues/software-conflicts.md)
     + Problemas de procesamiento{#rendering-issues}
       + [Artefactos y problemas en el sistema operativo Mac con GPU personalizadas](/help/technical-support/technical-issues/rendering-issues/artifacts-and-glitches-on-mac-os-with-custom-gpus.md)
@@ -292,7 +292,7 @@ ht-degree: 14%
     + Problemas de estabilidad{#stability-issues}
       + [Bloqueo durante la exportación](/help/technical-support/technical-issues/stability-issues/crash-during-export.md)
       + [Bloqueo al abrir o guardar un archivo](/help/technical-support/technical-issues/stability-issues/crash-when-opening-or-saving-a-file.md)
-      + [Bloqueo al hornear](/help/technical-support/technical-issues/stability-issues/crash-while-baking.md)
+      + [Bloqueo al hacer un bake](/help/technical-support/technical-issues/stability-issues/crash-while-baking.md)
       + [Bloqueo con poca memoria virtual](/help/technical-support/technical-issues/stability-issues/crash-with-low-virtual-memory.md)
       + [Windows Blue Screens](/help/technical-support/technical-issues/stability-issues/windows-blue-screens.md)
     + Problemas diversos{#miscellaneous-issues}
@@ -301,15 +301,15 @@ ht-degree: 14%
       + [Error: no hay ningún disco en la unidad](/help/technical-support/technical-issues/miscellaneous-issues/error-there-is-no-disk-in-the-drive.md)
       + [Error con la dll de api-ms-crt que falta](/help/technical-support/technical-issues/miscellaneous-issues/error-with-missing-api-ms-crt-dll.md)
       + [Imposible arrastrar y soltar archivos en la estantería](/help/technical-support/technical-issues/miscellaneous-issues/impossible-to-drag-and-drop-files-into-the-shelf.md)
-      + [Imposible utilizar el método abreviado de teclado ALT en Linux](/help/technical-support/technical-issues/miscellaneous-issues/impossible-to-use-the-alt-keyboard-shortcut-on-linux.md)
+      + [Imposible utilizar el método abreviado ALT en Linux](/help/technical-support/technical-issues/miscellaneous-issues/impossible-to-use-the-alt-keyboard-shortcut-on-linux.md)
       + [Los recursos o las vistas previas de las estanterías están vacías](/help/technical-support/technical-issues/miscellaneous-issues/assets-or-shelf-previews-are-empty.md)
   + Problemas de flujo de trabajo{#workflow-issues}
     + Problemas de exportación{#export-issues}
       + [Mi mapa de opacidad exportado es totalmente negro](/help/technical-support/workflow-issues/export-issues/my-exported-opacity-map-is-totally-black.md)
-      + [Dilatación o relleno de texturas](/help/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.md)
+      + [Dilatación de textura o relleno](/help/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.md)
     + Problemas de herramientas{#tools-issues}
-      + [El mapa normal parece incorrecto](/help/technical-support/workflow-issues/tools-issues/normal-map-looks-incorrect-when-loaded-in-layer-or-tool-properties.md)
-      + [La herramienta Pintura se desvanece en otras Islas de UV](/help/technical-support/workflow-issues/tools-issues/paint-tool-bleeds-on-other-uv-islands.md)
+      + [El mapa de normales parece incorrecto](/help/technical-support/workflow-issues/tools-issues/normal-map-looks-incorrect-when-loaded-in-layer-or-tool-properties.md)
+      + [La herramienta pintura se desvanece en otras Islas de UV](/help/technical-support/workflow-issues/tools-issues/paint-tool-bleeds-on-other-uv-islands.md)
     + Problemas del proyecto{#project-issues}
       + [Archivo de proyecto dañado](/help/technical-support/workflow-issues/project-issues/a-project-has-been-processed-as-a-text-file-and-is-now-corrupted.md)
       + [Cargar archivos desde una red](/help/technical-support/workflow-issues/project-issues/loading-files-from-a-network.md)
@@ -356,7 +356,7 @@ ht-degree: 14%
       + [Alpha Lib - API del sombreador](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-alpha-shader-api.md)
       + [Lib Bayer - API del sombreador](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-bayer-shader-api.md)
       + [Lib define - API del sombreador](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-defines-shader-api.md)
-      + [Emisor Lib - API del sombreador](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-emissive-shader-api.md)
+      + [Emisivos Lib - API del sombreador](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-emissive-shader-api.md)
       + [Sobre Lib - API del sombreador](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-env-shader-api.md)
       + [Lib Normal - API del sombreador](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-normal-shader-api.md)
       + [Lib PBR - API del sombreador](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pbr-shader-api.md)
@@ -378,7 +378,7 @@ ht-degree: 14%
       + [Capas de materiales PBR - API del sombreador](/help/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-material-layering-shader-api.md)
       + [PBR Metal Rough - API del sombreador](/help/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-metal-rough-shader-api.md)
       + [Pixelado - API del sombreador](/help/scripting-and-development/api-reference/shader-api/shaders-shader-api/pixelated-shader-api.md)
-      + [Sombreado de superficie - API del sombreador](/help/scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api.md)
+      + [Sombreadores de superficie - API del sombreador](/help/scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api.md)
       + [Toon - API del sombreador](/help/scripting-and-development/api-reference/shader-api/shaders-shader-api/toon-shader-api.md)
 + Notas de la versión{#release-notes}
   + [Introducción a las notas de la versión](/help/release-notes/release-notes.md)

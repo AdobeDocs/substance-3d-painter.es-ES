@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/technical-issues/startup-issues/crash-or-freeze-during-startup.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/startup-issues/crash-or-freeze-during-startup.html"
 breadcrumb-title: ''
-description: Obtenga información sobre cómo solucionar los bloqueos y bloqueos durante el inicio de Substance 3D Painter para el inicio estable de la aplicación.
+description: Obtenga información sobre cómo solucionar bloqueos y bloqueos al iniciar Substance 3D Painter para iniciar una aplicación estable.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > Startup Issues > Crash or freeze during startup
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Bloqueo durante el inicio
+title: Bloqueo o congelación durante el inicio
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Bloqueo durante el inicio
+# Bloqueo o congelación durante el inicio
 
 En esta página se enumeran los problemas conocidos y sus soluciones relacionados con la aplicación que no se inicia correctamente.
 
@@ -32,7 +32,7 @@ Si la aplicación no se inicia en la GPU correcta, podrían producirse problemas
 
 ## Controladores de GPU obsoletos
 
-El uso de controladores de GPU antiguos puede provocar bloqueos. Se recomienda utilizar los controladores de GPU más recientes cuando estén disponibles. Consulte: [La GPU tiene controladores obsoletos](../gpu-issues/gpu-has-outdated-drivers.md).
+El uso de controladores de GPU antiguos puede provocar bloqueos o bloqueos. Se recomienda utilizar los controladores de GPU más recientes cuando estén disponibles. Consulte: [La GPU tiene controladores obsoletos](../gpu-issues/gpu-has-outdated-drivers.md).
 
 ## Pantalla en blanco y sin respuesta
 
@@ -41,14 +41,14 @@ Si la aplicación se bloquea al iniciarse en Windows (lo que lleva a una pantall
 * Una aplicación externa está creando un conflicto. Consulte [Conflictos de software](software-conflicts.md) para saber cuáles.
 * Algunas ventanas de la aplicación se abrieron en otro monitor. Restaurar la interfaz a su diseño predeterminado permite iniciar la aplicación normalmente:
   1. Abra el editor del Registro (**regedit** en el menú Inicio)
-  1. Vaya a las preferencias de la aplicación (consulte: [Preferencias y ubicación de datos de la aplicación](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html))
+  1. Vaya a las preferencias de la aplicación (consulte: [Preferencias y ubicación de datos de la aplicación](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html))
   1. Expanda la clave **Adobe Substance 3D Painter**
   1. Seleccione la clave **Main Window 2018** y elimínela
   1. Reinicie la aplicación
 
-## Bloqueo debido a una ruta incorrecta del sistema o de Python
+## Bloqueo debido a una ruta incorrecta del sistema/ruta de Python
 
-La aplicación comprueba la ruta del sistema para cargar los módulos de Python y la configuración del entorno. Si el sistema tiene una configuración incorrecta, puede provocar un bloqueo durante el inicio.
+La aplicación comprueba la ruta del sistema para cargar los módulos de Python y la configuración del entorno. Si el sistema tiene una configuración incorrecta, puede provocar un bloqueo durante el arranque.
 
 En Windows:
 
@@ -58,7 +58,7 @@ En Windows:
 1. Haga clic en **Variables de entorno**
 1. En **Variables del sistema**, busque la variable **PATH**
 
-A continuación, puede editar la variable para verificar su contenido. Por ejemplo, si la variable contiene este tipo de caracteres, se producirá un bloqueo
+A continuación, puede editar la variable para verificar su contenido. Por ejemplo, si la variable contiene este tipo de caracteres, provocará un bloqueo
 
 ```
 ï–›éŒ à €è¸€ì‡ì‡ç¿¹
@@ -93,7 +93,7 @@ Para obtener más información sobre este tema, consulte:  [Use la herramienta C
 
 ## Bloqueo al iniciar en versiones anteriores
 
-En Windows, es posible que la versión 2018 (4.x) o una anterior no se inicie porque uno de los archivos dll proporcionados con la carpeta de instalación es demasiado antiguo para el sistema operativo. Este bloqueo se puede solucionar reemplazando manualmente el archivo por una versión más reciente.
+En Windows, es posible que la versión 2018 (4.x) o una anterior no se inicie porque uno de los archivos dll proporcionados con la carpeta de instalación es demasiado antiguo para el sistema operativo. Este bloqueo se puede corregir reemplazando manualmente el archivo por una versión más reciente.
 
 Para ello:
 

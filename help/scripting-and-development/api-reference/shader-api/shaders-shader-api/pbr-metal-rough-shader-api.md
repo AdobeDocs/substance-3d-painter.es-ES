@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-metal-rough-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-metal-rough-shader-api.html"
 breadcrumb-title: ''
 description: Accede a la referencia de API del sombreador de PBR Metal Rough para Substance 3D Painter para crear materiales basados en la física.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # PBR Metal Rough - API del sombreador
 
-## Sombreador de PBR Metal/Rugoso Allegorithmic
+## Sombreador supuestamente algorítmico de metal/PBR rudo
 
 Importar desde bibliotecas.
 
@@ -37,7 +37,7 @@ import lib-utils.glsl
 ```
 
 
-Declare el material iray mdl para utilizarlo con este sombreador.
+Declare el material iray mdl para usar con este sombreador.
 
 ```
 //: metadata { 
@@ -69,7 +69,7 @@ uniform SamplerSparse specularlevel_tex;
 ```
 
 
-Punto de entrada del sombreado.
+Punto de entrada del sombreador.
 
 ```
 void shade(V2F inputs) 

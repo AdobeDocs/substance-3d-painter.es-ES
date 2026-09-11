@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/workflow-issues/project-issues/projects-are-really-big.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/project-issues/projects-are-really-big.html"
 breadcrumb-title: ''
 description: Aprenda a reducir el tamaño de los archivos de proyecto de Substance 3D Painter para optimizar el rendimiento y los requisitos de almacenamiento.
 helpx_creative_field: ""
@@ -27,7 +27,7 @@ El proyecto de Substance 3D Painter puede ser muy grande y ocupar mucho espacio 
 Cada recurso o recurso utilizado durante la creación de texturas se almacena en el archivo de proyecto, entre los que se incluyen:
 
 * **Malla de origen** (no es el archivo original, sino uno procesado)
-* **Mapas de malla horneados**
+* **Mapas de malla Hechos un bake**
 * **Materiales** (como Materiales de Substance)
 * **Mapas de bits** u otros recursos utilizados por cualquier trazo de capa/ajuste preestablecido/pincel.
 
@@ -45,7 +45,7 @@ Hay algunas formas de reducir el tamaño de un proyecto:
 
 ### Limpiar recursos no utilizados
 
-Cuando utilice muchos recursos en un proyecto, Substance 3D Painter los copiará. Por ejemplo, si ha utilizado un alfa para pintar algo. Si más adelante elimina la capa cuando se pintó el alfa, Substance 3D Painter no elimina automáticamente el recurso.
+Cuando utilice muchos recursos en un proyecto, Substance 3D Painter los copiará. Por ejemplo, si ha utilizado un alfa para la pintura de algo. Si más adelante elimina la capa cuando se pintó el alfa, Substance 3D Painter no elimina automáticamente el recurso.
 
 Para quitar los recursos no utilizados, use la acción **Limpiar** del [menú Archivo](https://substance3d.adobe.com/display/DRAFTPAINTER/File+menu) . A continuación, guarde el proyecto (esto activará la eliminación real del recurso).
 
@@ -65,26 +65,26 @@ Use la función &quot;Guardar y compactar&quot; en el [menú Archivo](../../../i
 
 ### Reducir el tamaño de los mapas de malla horneados
 
-En general, el mayor culpable y la razón por la que un proyecto ocupa tanto espacio en el disco es porque los Mapas de malla horneados son muchos y grandes.
+En general, el mayor culpable y la razón por la que un proyecto ocupa tanto espacio en el disco es porque los Mapas de malla hechos un bake son muchos y grandes.
 
 Para reducir el tamaño de Mapas de malla, hay algunas cosas que se pueden hacer :
 
-* *Usar una resolución de cocción inferior.*\
-  Si bien el mapa Normal puede beneficiarse de ser horneado en 4K, este podría no ser el caso para el mapa de posición que generalmente es solo acerca de degradados de color. Hornea en dos pases con dos resoluciones diferentes para mezclar tamaños de archivo diferentes.
-* *Exporta las texturas y reduce manualmente su espacio.*\
+* *Usar una resolución de haga un bake inferior.*\
+  Si bien el mapa Normal puede beneficiarse de ser horneado en 4K, este podría no ser el caso para el mapa de posición que generalmente es solo acerca de degradados de color. Hace un bake en dos pases con dos resoluciones diferentes para mezclar tamaños de archivo diferentes.
+* *Exporte las texturas y reduzca manualmente su espacio.*\
   De forma predeterminada, Substance 3D Painter procesa todas las texturas como imágenes RGBA en 16 bits, incluidos los pasteles en escala de grises, como la Oclusión Ambiente.
 
-  Para reducir las texturas de cocción para impresión, utilice este paso a paso:
+  Para reducir las texturas de hace un bake para impresión, utilice este paso a paso:
   1. Deshabilite el ajuste &quot;Aplicar difusión&quot; en la ventana de Baker
   1. Establezca la &quot;Dilación con&quot; en un valor razonable (32 píxeles para una resolución de 2048, por ejemplo).
-  1. Hornea todas tus texturas con la misma resolución
-  1. Exporte las texturas al horno con el ajuste preestablecido de exportación &quot;Mapas de malla&quot; como PNG de 16 bits con el relleno definido en &quot;Sin relleno (paso a través)&quot;
+  1. Hacer un bake todas las Texturas con la misma resolución
+  1. Exporte las texturas hechas un bake con el ajuste preestablecido de exportación &quot;Mapas de malla&quot; como PNG de 16 bits con el relleno establecido en &quot;Sin relleno (passthrough)&quot;
   1. Abra cada mapa en un software de edición de fotos o Substance 3D Designer
-  1. Reduzca la resolución de las texturas para las que parece ajustado. Asegúrese de cambiar la Oclusión ambiente, la curvatura y el Thickness de color a escala de grises.
+  1. Reduzca la resolución de las texturas para las que parezca adecuado. Asegúrese de cambiar la Oclusión ambiente, la curvatura y el Thickness de color a escala de grises.
   1. Guarde las nuevas versiones de textura como PNG de 16 bits.
   1. Vuelva a importar las texturas y sustitúyalas sobre las texturas de cocción originales en los ajustes del Conjunto de texturas.
   1. Utilice la acción Limpiar del menú Archivo para eliminar los mapas de malla antiguos.
   1. Utilice la acción Guardar y compactar del menú Archivo para comprimir el archivo de proyecto.\
      Después de todos estos pasos, la huella del proyecto debería reducirse significativamente.
 
-Es importante que los mapas de malla permanezcan como mínimo texturas de 16 bits. Aunque las texturas de 8 bits pueden tener un tamaño menor, presentarán artefactos en los generadores de materiales y máscaras inteligentes. Recomendamos PNG porque es un formato de compresión sin pérdida, lo que significa que comprimirá las texturas sin introducir artefactos y también admite 16 bits.
+Es importante que los mapas de malla permanezcan como mínimo texturas de 16 bits. Si bien las texturas de 8 bits pueden tener un tamaño menor, presentan artefactos en Materiales inteligentes y Generadores de máscaras. Recomendamos PNG porque es un formato de compresión sin pérdida, lo que significa que comprimirá las texturas sin introducir artefactos y también admite 16 bits.

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/auto-update.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/auto-update.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar la actualización automática de recursos en Substance 3D Painter para mantener sus bibliotecas de recursos sincronizadas y actualizadas.
 helpx_creative_field: ""
@@ -44,8 +44,8 @@ La configuración de las actualizaciones automáticas controla la frecuencia con
 
 | Configuración | Descripción |
 | --- | --- |
-| <b>Panel de activos</b> | Si se habilita, la actualización automática buscará activos para actualizar en todas las bibliotecas cargadas actualmente. Esto incluye el proyecto actual. Sin embargo, no actualizará los recursos utilizados en la pila de capas, la configuración de visualización, la configuración de sombreado, etc. |
-| <b>Recursos utilizados en el proyecto</b> | Si está activada, la actualización automática buscará los activos que se van a actualizar y que el proyecto actual importa y utiliza actualmente. Esto se aplica a los recursos utilizados en la pila de capas, la configuración de visualización, la configuración de sombreado, etc. |
+| <b>Panel de activos</b> | Si se habilita, la actualización automática buscará activos para actualizar en todas las bibliotecas cargadas actualmente. Esto incluye el proyecto actual. Sin embargo, no actualizará los recursos utilizados en la pila de capas, la configuración de visualización, la configuración de sombreador, etc. |
+| <b>Recursos utilizados en el proyecto</b> | Si está activada, la actualización automática buscará los activos que se van a actualizar y que el proyecto actual importa y utiliza actualmente. Esto se aplica a los recursos utilizados en la pila de capas, la configuración de visualización, la configuración de sombreador, etc. |
 | <b>Actualizar cada x minutos</b> | Controlar la frecuencia con la que la aplicación busca una actualización de los recursos. Un retraso de 0 minutos activará una actualización cada pocos segundos. Tenga en cuenta que un retraso tan bajo puede crear problemas de rendimiento. |
 
 >[!NOTE]

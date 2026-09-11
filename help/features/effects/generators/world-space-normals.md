@@ -14,7 +14,7 @@ ht-degree: 4%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_world_space_normals.png" alt=""/><br><strong>En:</strong> máscara, generador, escala de grises, fusión</td>
-    <td style="border: 0;" valign="top"><strong>Descripción</strong><br>El generador World Space Normal usa el mapa normal de espacio de mundo horneado para colorear el modelo o aplicar efectos en función de la dirección en la que se encuentra cada superficie en el espacio 3D. Por ejemplo, de arriba abajo.<br><br>El generador de World Space Normals produce una textura monocromática (en blanco y negro). Como resultado, resulta útil para generar máscaras aplicar diversos efectos como dirt, dust, nieve o óxido en función de las direcciones de la cara.Se requieren mapas normales de posición de horneado y espacio de entorno como entradas de imagen. <br><br><a href="../../../baking/baking.md">Obtenga más información sobre el horneado aquí</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descripción</strong><br>El generador World Space Normal utiliza el mapa de normales hecho un bake del espacio mundial para colorear el modelo o aplicar efectos en función de la dirección en que se encuentre cada superficie en el espacio 3D. Por ejemplo, de arriba abajo.<br><br>El generador de World Space Normals emite una textura monocromática (en blanco y negro). Como resultado, resulta útil para generar máscaras aplicar diversos efectos como dirt, dust, nieve o óxido en función de las direcciones de la cara.Se requieren mapas normales de posición Hecha un bake y espacio mundial como entradas de imagen. <br><br><a href="../../../baking/baking.md">Obtenga más información sobre cómo hacer un bake aquí</a>.</td>
   </tr>
 </table>
 
@@ -22,9 +22,9 @@ ht-degree: 4%
 
 | Nombre de entrada | Descripción |
 | --- | --- |
-| Color de **textura** | Utilice una textura personalizada o un punto de ancla. |
-| **Normales del espacio mundial** Color | Utilice el mapa de normas espaciales mundiales horneadas. |
-| **Degradado de posición** Color | Utilice el mapa de posición horneado. |
+| Color de **Textura** | Utilice una textura personalizada o un punto de ancla. |
+| **Normales del espacio mundial** Color | Utilice el mapa hecho un bake de las normas espaciales mundiales. |
+| **Degradado de posición** Color | Utilice el mapa de posición hecha un bake. |
 
 ## Parámetros
 
@@ -34,7 +34,7 @@ ht-degree: 4%
 | **Desenfoque global** | Suaviza la máscara final uniformemente después de combinar todos los efectos. |
 | **Equilibrio global** | Cambia el equilibrio de la máscara final después de que todos los efectos se combinen entre blanco o negro, como un ajuste de brillo. |
 | **Contraste global** | Ajuste el contraste de la máscara final después de combinar todos los efectos. |
-| **Usar textura** | Activar o desactivar el uso de un mapa de textura personalizado. |
+| **Usar Textura** | Activar o desactivar el uso de un mapa de textura personalizado. |
 
 ### Normal de espacio de mundo
 
@@ -87,7 +87,7 @@ ht-degree: 4%
   </tr>
   <tr>
     <td><strong>Conversión de escala de grises</strong></td>
-    <td>Establezca el método utilizado para convertir de color completo a escala de grises. El generador de <a href="grayscale-conversion.md">conversión de escala de grises tiene más información sobre cómo funciona cada método</a>.</td>
+    <td>Establezca el método utilizado para convertir de color completo a escala de grises. El generador de Conversiones de escala de grises <a href="grayscale-conversion.md">tiene más información sobre cómo funciona cada método</a>.</td>
   </tr>
   <tr>
     <td><strong>Modo de fusión</strong></td>
@@ -99,7 +99,7 @@ ht-degree: 4%
   </tr>
   <tr>
     <td><strong>Contraste</strong></td>
-    <td>Ajuste el contraste y el difuminado de la textura personalizada.</td>
+    <td>Ajuste el contraste/difuminado de la textura personalizada.</td>
   </tr>
   <tr>
     <td><strong>Brillo</strong></td>

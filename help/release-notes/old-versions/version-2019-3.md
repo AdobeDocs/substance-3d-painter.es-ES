@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/old-versions/version-2019-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2019-3.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 2019.3 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
 helpx_creative_field: ""
@@ -34,7 +34,7 @@ Ahora puede usar sus pinceles de Photoshop en Substance Painter. Con solo export
 
 Si no tiene archivos ABR para importar, puede encontrar muchos de ellos en línea:
 
-* [Pinceles preestablecidos de Kyle en el Adobe](https://www.adobe.com/es/products/photoshop/brushes.html)
+* [Pinceles preestablecidos de Kyle en el Adobe](https://www.adobe.com/products/photoshop/brushes.html)
 * [Ajustes preestablecidos de pincel en ArtStation](https://www.artstation.com/marketplace?q=photoshop%20brush&sort_by=trending)
 * [Ajustes preestablecidos de pincel en DeviantArt](https://www.deviantart.com/search?q=photoshop%20brush)
 * [Ajustes preestablecidos de pincel en pincel de cubo](https://cubebrush.co/marketplace?categories=354,57)
@@ -49,7 +49,7 @@ Para que sean compatibles con los pinceles de Photoshop, se han añadido varias 
   ![](../../assets/position-jitter-settings.png)\
   ![](../../assets/gaussian-vs-uniform.png)
 * **Nuevo modo de fusión alfa**\
-  Photoshop no compone sus trazos de pincel del mismo modo que Substance Painter, por lo que hemos añadido un nuevo modo de fusión (aclarar) para que coincida mejor con el resultado de la pintura. Este modo de fusión no se acumula en exceso cuando los sellos se superponen, lo que puede mejorar la sensación de presión al pintar con un valor bajo de Flujo/Opacidad.\
+  Photoshop no compone sus trazos de pincel del mismo modo que Substance Painter, por lo que hemos añadido un nuevo modo de fusión (Aclarar) para que coincida mejor con el resultado de la pintura. Este modo de fusión no se acumula en exceso cuando los sellos se superponen, lo que puede mejorar la sensación de presión al pintar con un valor bajo de Flujo/Opacidad.\
   ![](../../assets/alpha-blend-mode.png)\
   ![](../../assets/lighten-vs-normal-demo.png)
 * **Compatibilidad con redondez y volteo**\
@@ -61,7 +61,7 @@ Para que sean compatibles con los pinceles de Photoshop, se han añadido varias 
   Para **activar esta configuración**, simplemente haz clic con el botón derecho en una capa y elige **Alfa/máscara corregida por gamma**. Aparecerá un nuevo icono junto a la capa para indicar cuándo está activada esta configuración.\
   ![](../../assets/layer-menu.png) ![](../../assets/layer-icon.png)\
   ![](../../assets/gamma-correction-demo.png)
-* **Aumento del valor máximo de Espaciado y Variación de posición**\
+* **Mayor valor máximo para Espaciado y Variación de posición**\
   Para que los parámetros de los ajustes preestablecidos de pincel de Photoshop coincidan correctamente, se ha aumentado el valor máximo de los siguientes parámetros:
 
   * **Espaciado**: el máximo ahora se puede establecer en 1000.
@@ -93,8 +93,8 @@ Además de la compatibilidad con los ajustes preestablecidos de pincel de Photos
   En la barra de herramientas contextual ahora es posible definir cómo debe interpretarse la presión del lápiz. Estos nuevos ajustes controlan la velocidad de la acumulación de presión, que permite diferentes estilos de pintura.
 
   * **Lineal**: Sin transformación, la presión que recuperó según lo indicado por el lápiz de la tableta gráfica. Utilice este ajuste si ya se ha definido una curva de presión del lápiz en la configuración de controladores de tableta.
-  * **Entrada lenta** (predeterminado): Ralentiza el comienzo de la presión, lo que facilita pintar trazos finos o tenues.
-  * **Entrada lenta**: Ralentiza el comienzo de la presión y acelera su final, lo que facilita pintar trazos suaves o fuertes.
+  * **Entrada lenta** (predeterminado): Ralentiza el comienzo de la presión, lo que facilita la pintura de trazos finos o débiles.
+  * **Entrada lenta**: Ralentiza el comienzo de la presión y acelera su finalización, lo que facilita la pintura de trazos suaves o fuertes.
 
   ![](../../assets/pressure-curve.png)
 * **El botón de presión ya no es un menú desplegable**\
@@ -112,10 +112,10 @@ Además de la compatibilidad con los ajustes preestablecidos de pincel de Photos
 
 ![](../../assets/banner-uv-unwrap.jpg)
 
-Substance Painter ahora desenvolverá automáticamente las mallas que tengan coordenadas UV que falten. Esto permite importar cualquier tipo de geometría y comenzar inmediatamente a pintar. Nuestro sistema de desempaquetado UV generará una Isla de UV por submalla mientras sigue la asignación de materiales para crear conjuntos de texturas. Esta función se encuentra actualmente en fase beta y evolucionará en futuras versiones. El desajuste automático solo se aplicará a proyectos que **no utilicen el flujo de trabajo UDIM**.
+Substance Painter ahora desenvolverá automáticamente las mallas que tengan coordenadas UV que falten. Esto permite importar cualquier tipo de geometría y comenzar inmediatamente a la pintura. Nuestro sistema de desempaquetado UV generará una Isla de UV por submalla mientras sigue la asignación de materiales para crear conjuntos de texturas. Esta función se encuentra actualmente en fase beta y evolucionará en futuras versiones. El desajuste automático solo se aplicará a proyectos que **no utilicen el flujo de trabajo de UDIM**.
 
 * **Desempaquetado automático de UV**\
-  De forma predeterminada, el Substance Painter generará automáticamente las coordenadas UV de las mallas a las que les faltan. Esto se aplica tanto a la creación de proyectos como a la reimportación de mallas. Sin embargo, es posible deshabilitar este comportamiento entrando en la [configuración principal](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/general-71008262.html) y deshabilitando **Habilitar desajuste automático de UV** en **Opciones de importación**.
+  De forma predeterminada, el Substance Painter generará automáticamente las coordenadas UV de las mallas a las que les faltan. Esto se aplica tanto a la creación de proyectos como a la reimportación de mallas. Sin embargo, es posible deshabilitar este comportamiento entrando en la [configuración principal](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) y deshabilitando **Habilitar desajuste automático de UV** en **Opciones de importación**.
 
   ![](../../assets/uv-unwrap-setting.png)
 * **Barra de progreso de desempaquetado de UV**\
@@ -123,7 +123,7 @@ Substance Painter ahora desenvolverá automáticamente las mallas que tengan coo
 
   ![](../../assets/uv-unwrapping-progress.png)
 * **Problemas conocidos**\
-  Dado que esta nueva función se encuentra actualmente en versión beta, se esperan algunos problemas. Consulte las notas de la versión que aparecen a continuación para obtener una lista de los problemas conocidos actualmente. Si la aplicación se bloquea y produce resultados incorrectos, le sugerimos que nos envíe un informe de bloqueo o error a través de la aplicación para ayudarnos a investigar el problema y mejorar el proceso.
+  Dado que esta nueva función se encuentra actualmente en versión beta, se esperan algunos problemas. Consulte las notas de la versión que aparecen a continuación para obtener una lista de los problemas conocidos actualmente. Si el bloqueo de la aplicación produce resultados incorrectos, le sugerimos que nos envíe un informe de bloqueo o error a través de la aplicación para ayudarnos a investigar el problema y mejorar el proceso.
 
 >[!NOTE]
 >
@@ -142,7 +142,7 @@ Seguimos mejorando la integración del formato de Substance al admitir algunas f
 * **Compatibilidad con el paso definido en parámetros**\
   Los gráficos de Substance que tienen parámetros con un paso definido ahora se tendrán en cuenta al ajustar el regulador.
 * **Mayor precisión de dígitos para los reguladores de flotación**\
-  El regulador de flotador ahora puede tener valores de entrada que bajan a 6 decimales. Sin embargo, esto se ve limitado por la precisión de punto flotante, lo que significa que el valor introducido puede redondearse en algunos casos.
+  El regulador Flotante ahora puede tener valores de entrada que se reducen a 6 decimales. Sin embargo, esto se ve limitado por la precisión de punto flotante, lo que significa que el valor introducido puede redondearse en algunos casos.
 * **Nuevo control Raíz aleatoria con Trazos dinámicos**\
   Ahora es posible solicitar varios valores de inicialización aleatorios con un rango definido. Esto permite crear variaciones de Substance únicas y aleatorias, al tiempo que se obtienen buenos resultados al beneficiarse del reciclaje de la memoria caché.\
   En el grupo de trazos dinámicos, cambie el parámetro **Random Seed Type** por **Random Per Stroke** o **Random Per Stamp** para obtener acceso al nuevo parámetro. La **Cantidad de muestra aleatoria** define cuántas variaciones de Substance se generarán en total. Se seleccionarán variaciones aleatorias dentro del conjunto una vez que se haya generado la cantidad seleccionada.
@@ -160,22 +160,22 @@ Seguimos mejorando la integración del formato de Substance al admitir algunas f
 Se han realizado varias mejoras en el resto de la aplicación que deberían ayudar para el trabajo diario dentro de Substance Painter.
 
 * **Enfoque de ventanas gráficas independientes**\
-  El enfoque 2D y 3D (método abreviado F) se ha modificado con el siguiente comportamiento:
+  El enfoque 2D y 3D (F método abreviado) se ha modificado de la siguiente manera:
 
-  * **Pase el ratón por la vista 2D**: al pulsar F, solo se centrará la vista 2D.
+  * **Pase el ratón sobre el Vista 2D**: si presiona F, solo se centrará el Vista 2D.
   * **Pase el ratón sobre la vista 3D**: al pulsar F, solo se centrará la vista 3D.
   * **Ratón fuera de los puntos de visión**: al pulsar F, se centrará la vista 2D y 3D.
 
   ![](../../assets/viewport-focus.gif){width="400px"}
-* **Método abreviado de teclado y menú de la ventana de cocción**\
-  La ventana para hornear se puede abrir de dos nuevas formas diferentes:
+* **Haciendo un bake método abreviado de menú y teclado de Windows**\
+  La ventana de hacer un bake se puede abrir de dos formas diferentes:
 
   * Pulsando **Ctrl+Mayús+B**.
-  * Entra en el menú Editar y haz clic en **Mapas de malla de cocción**.
+  * En el menú Editar, haz clic en **Hacer un bake mapas de malla**.
 
   ![](../../assets/bake-mesh-maps-menu.png)
-* **Desplazar Docks y Windows con Ctrl+Alt+Clic en el botón izquierdo**\
-  Se ha añadido un nuevo método abreviado que permite desplazarse por las ventanas y los muelles sin necesidad de utilizar la rueda del ratón. El método abreviado que ahora se puede desplazar con el lápiz de la tableta gráfica.
+* **Desplazarse por Docks y Windows con Ctrl+Alt+Clic izquierdo en método abreviado**\
+  Se ha añadido un nuevo método abreviado que permite desplazarse por las ventanas y los muelles sin necesidad de utilizar la rueda del ratón. Que este método abreviado ahora es posible desplazarse con la pluma de la tableta gráfica.
 
   ![](../../assets/scroll-shortcut.gif)
 * **Mejoras de rendimiento**\
@@ -195,15 +195,15 @@ En esta versión se ha añadido mucho contenido nuevo:
   Se han añadido tres nuevos filtros para facilitar el contenido estilizado:
 
   * **Libro de historietas de MatFx**\
-    Este filtro simula las líneas de rayado y de borde en función de la entrada proporcionada (desde el color base/difuso hasta la curvatura).
+    Este filtro simula las líneas de rayado y de arista en función de la entrada proporcionada (desde el color base/difuso hasta la curvatura).
 
     ![](../../assets/icon-matfx-comic-book.png)
   * **Color diluido MatFx**\
     Este filtro simula la acuarela con sangrado de color y absorción de papel leyendo el color de entrada.
 
     ![](../../assets/icon-matfx-watercolor.png)
-  * **Pintura al óleo MatFx**\
-    Inspirado por el trabajo de [Emrecan Cubukcu](https://www.artstation.com/emrecancubukcu), este filtro lee la información de color de la entrada y la traduce en trazos de pincel basados en diversos parámetros. Hay varios ajustes preestablecidos disponibles para probar fácilmente las variaciones. Se recomienda combinarlo con el filtro **Entorno de iluminación generado** o hornear o pintar manualmente las sombras en las texturas para maximizar su efecto.
+  * **Pintura de aceite MatFx**\
+    Inspirado por el trabajo de [Emrecan Cubukcu](https://www.artstation.com/emrecancubukcu), este filtro lee la información de color de la entrada y la traduce en trazos de pincel basados en diversos parámetros. Hay varios ajustes preestablecidos disponibles para probar fácilmente las variaciones. Se recomienda combinarlo con el filtro **Entorno de iluminación generado** o hacer un bake manualmente o pintura las sombras en las texturas para maximizar su efecto.
 
     ![](../../assets/icon-matfx-oil-paint.png)
 
@@ -215,7 +215,7 @@ En esta versión se ha añadido mucho contenido nuevo:
 * **Nuevos ajustes preestablecidos de pincel**
 
   * **102 pinceles preestablecidos de Photoshop**\
-    Con la introducción de la compatibilidad con el pincel de Photoshop, se ha incluido un nuevo conjunto de ajustes preestablecidos para mostrarlo. Estos ajustes preestablecidos se han seleccionado entre los paquetes de Kyle T. Webster disponibles en el [sitio web de Adobe](https://www.adobe.com/es/products/photoshop/brushes.html).
+    Con la introducción de la compatibilidad con el pincel de Photoshop, se ha incluido un nuevo conjunto de ajustes preestablecidos para mostrarlo. Estos ajustes preestablecidos se han seleccionado entre los paquetes de Kyle T. Webster disponibles en el [sitio web de Adobe](https://www.adobe.com/products/photoshop/brushes.html).
 
     ![](../../assets/shelf-abr-demo.jpg){width="500px"}
   * **18 nuevos ajustes preestablecidos de pincel**\
@@ -237,12 +237,12 @@ En esta versión se ha añadido mucho contenido nuevo:
     * Grapas de rodillos de pintura
     * Pintar puntos de rodillo
     * Stripe de rodillos de pintura
-    * Pintura de vena de rodillo largo estrecho
-    * Texto de advertencia del rodillo de pintura
+    * Pintura de la vena del rodillo larga Estrecha
+    * Texto de advertencia de rodillo de pintura
 
     ![](../../assets/shelf-presets-demo.jpg){width="500px"}
 * **Nuevos ajustes preestablecidos de herramientas**\
-  Se han añadido 2 nuevos ajustes preestablecidos de herramientas que simulan la pintura gouache.
+  Se han añadido 2 nuevos ajustes preestablecidos de herramientas que simulan la pintura de gouache.
 
   * Denso Gouache.
   * Gouache Descolorido.
@@ -255,8 +255,8 @@ En esta versión se ha añadido mucho contenido nuevo:
     Este nuevo gráfico de Substance replica algunos parámetros de pincel específicos disponibles en Photoshop mediante la función Trazo dinámico. Con él es posible controlar la redondez y el Voltear o una imagen de entrada. Algunos parámetros de variación también están disponibles para crear más variaciones. Este gráfico del Substance se inserta automáticamente en la sección del Alpha al hacer clic en un ajuste preestablecido de pincel de Photoshop procedente de un archivo ABR.
 
     ![](../../assets/icon-brush-maker-photoshop.png)
-  * **Rodillo de pintura del fabricante de pinceles**\
-    Esta nueva gráfica de Substance simula un rodillo de pintura (o una simple herramienta de cinta de opciones) para pintar patrones continuos con giros sin romperse. Para facilitar la configuración, eche un vistazo a los ajustes preestablecidos existentes o consulte la descripción del gráfico. Se recomienda habilitar el [ratón perezoso](../../painting/lazy-mouse.md) para que el pincel de desplazamiento se dibuje correctamente sin crear interrupciones.
+  * **Rodillo de Pintura del fabricante de pinceles**\
+    Esta nueva gráfica de Substance simula un rodillo de Pintura (o una simple herramienta de cinta de opciones) para realizar pinturas de patrones continuos con giros sin romperse. Para facilitar la configuración, eche un vistazo a los ajustes preestablecidos existentes o consulte la descripción del gráfico. Se recomienda habilitar el [Ratón perezoso](../../painting/lazy-mouse.md) para que el pincel de desplazamiento se dibuje correctamente sin crear desintegraciones.
 
     ![](../../assets/icon-brush-maker-paint-roller.png)
 
@@ -380,28 +380,28 @@ Resumen : **Versión principal con mejora de la experiencia del usuario al pinta
 * [Desempaquetado de UV] Desempaquetado automático de UV en el Substance Painter cuando no hay UV o UV parciales
 * [Desempaquetado UV] Una configuración global para activarla y desactivarla
 * [Desempaquetado UV] Versión registrada en el archivo de registro
-* [Desempaquetado UV]&#x200B;[IU] Indicar el progreso del desempaquetado UV
+* [Desempaquetado UV][IU] Indicar el progreso del desempaquetado UV
 * [UI] Nuevos ajustes en la barra de herramientas contextual para seleccionar la vista previa del pincel: Vista previa completa, contorno de pincel y forma de cruz
 * [Herramienta] Nuevo modo de fusión avanzado en la sección alfa: Aclarar (máximo) además de Normal
 * [Pila de capas] Opción de corrección de gamma por capa para alfa o máscara (menú del botón derecho)
-* [Pila de capas]&#x200B;[IU] Se añade el icono &quot;i&quot; cuando se corrige la gamma de una capa alfa
+* [Pila de capas][IU] Se añade el icono &quot;i&quot; cuando se corrige la gamma de una capa alfa
 * [Tablet] [Herramienta] Exponer presión mínima para tamaño y flujo
-* [Tablet]&#x200B;[UI] Nueva configuración en la barra de herramientas contextual para seleccionar la presión de curva: lineal, fácil de entrar, fácil de salir
-* [Tablet]&#x200B;[UX] Pulse Ctrl+Alt y haga clic para desplazarse
+* [Tablet][UI] Nueva configuración en la barra de herramientas contextual para seleccionar la presión de curva: lineal, fácil de entrar, fácil de salir
+* [Tablet][UX] Pulse Ctrl+Alt y haga clic para desplazarse
 * Importar ajustes preestablecidos de pincel de Photoshop (formato ABR)
 * [ABR] Compatibilidad con parámetros de forma
 * [ABR] Compatibilidad con parámetros de dinámica de forma
 * [ABR] Parámetros de transferencia de soporte
 * [ABR] Compatibilidad con parámetros de dispersión
-* [ABR]&#x200B;[Trazos dinámicos] Compatibilidad con redondez y volteo
-* [ABR]&#x200B;[Estante] Se muestra la estructura de carpetas del pincel en el Editor de filtros.
-* [ABR]&#x200B;[Estante] Añadir icono de Photoshop en miniaturas
-* [ABR]&#x200B;[Shelf] Añadir una lista de parámetros no admitidos en la miniatura detallada de ABR
-* [Herramienta]&#x200B;[Trazos dinámicos] Nuevo ajuste de trazo dinámico para controlar cuántas semillas aleatorias se van a generar
-* [Herramienta]&#x200B;[IU] Añadir nuevos ajustes de distribución y eje para la variación de dispersión
-* [Acceso directo] Añada Ctrl+Mayús+B para abrir la ventana Hornear
-* [UI]&#x200B;[Menu] Añadir entrada en el menú &quot;Editar&quot; para abrir la ventana Hornear
-* [UI]&#x200B;[Configuración] Mejora de la alineación de la lista de métodos abreviados
+* [ABR][Trazos dinámicos] Compatibilidad con redondez y volteo
+* [ABR][Estante] Se muestra la estructura de carpetas del pincel en el Editor de filtros.
+* [ABR][Estante] Añadir icono de Photoshop en miniaturas
+* [ABR][Shelf] Añadir una lista de parámetros no admitidos en la miniatura detallada de ABR
+* [Herramienta][Trazos dinámicos] Nuevo ajuste de trazo dinámico para controlar cuántas semillas aleatorias se van a generar
+* [Herramienta][IU] Añadir nuevos ajustes de distribución y eje para la variación de dispersión
+* [Método abreviado] Pulse Ctrl+Mayús+B para abrir la ventana que Hace un bake
+* [UI][Menu] Añadir entrada en el menú &quot;Editar&quot; para abrir la ventana Hornear
+* [UI][Configuración] Mejora de la alineación de la lista de métodos abreviados
 * [UI] Reemplazar los controles de presión (tamaño y flujo) por botones de activación/desactivación
 * [Ventana gráfica] Permite enfocar la ventana gráfica 2D y 3D por separado
 * Actualización a QT 5.12.5
@@ -415,7 +415,7 @@ Resumen : **Versión principal con mejora de la experiencia del usuario al pinta
 * [Content] Integra 3 filtros nuevos (MatFx): Cómic, Acuarela, Pintura al óleo (inspirado en el trabajo de Cubukcu emrecano)
 * [Contenido] Integrar 102 ajustes preestablecidos de pinceles de Photoshop de los paquetes de Kyle T. Webster
 * [Contenido] Integrar 18 nuevos ajustes preestablecidos de pincel: Flecha de rodillo de pintura, texto de advertencia de rodillo de pintura, carboncillo fino y más
-* [Contenido] Integrar 9 nuevos alfa: Rodillo de pintura del creador de pinceles, Photoshop del creador de pinceles, patrones de pinceles y más
+* [Contenido] Integrar 9 nuevos alfa: Rodillo de Pintura del creador de pinceles, Photoshop del creador de pinceles, patrones de pinceles y mucho más
 * [Contenido] Integra 2 nuevos ajustes preestablecidos de herramientas: Gouache denso y Gouache descolorido
 * [Content] Integrar 1 nuevo generador: Comprobador UV (Islas de UV de realce y costuras)
 * [Contenido] Integrar 2 nuevos ajustes preestablecidos de exportación: Keyshot 9+ y Spark AR Studio
@@ -432,7 +432,7 @@ Resumen : **Versión principal con mejora de la experiencia del usuario al pinta
 * [Tablet] Los métodos abreviados para modificar pinceles con lápiz suelen dar lugar a un rendimiento bajo en casos excepcionales
 * [Tablet] Retraso al pintar en una capa específica
 * En raras ocasiones, pueden producirse texturas borrosas al cambiar la ventana gráfica
-* [UI]&#x200B;[Substance] No siempre se muestran las entradas de imagen
+* [UI][Substance] No siempre se muestran las entradas de imagen
 * Limpiar no elimina los ajustes preestablecidos del estante que se hayan importado en un proyecto
 * [Herramienta] [Trazo dinámico] Problema de rendimiento al ajustar el recuento cíclico de sello
 * Problemas de actualización al pintar en modo de ventanilla 3D/2D en casos excepcionales
@@ -444,7 +444,7 @@ Resumen : **Versión principal con mejora de la experiencia del usuario al pinta
 * Pulsar Alt+clic en un canal para aislar no funciona para el filtro y el generador
 * [Exportar] El proyecto específico se bloquea durante la exportación
 * [Substance] Valor predeterminado incorrecto en el menú desplegable si el parámetro está oculto por Visible If
-* [Shader] Los canales definidos mediante capas de material no se ordenan del mismo modo en la interfaz de usuario
+* [Sombreador] Los canales definidos mediante Material Layering no se ordenan de la misma forma en la interfaz de usuario
 * [Shelf] Los metadatos de ajustes preestablecidos no se guardan en el disco
 
 **Problemas conocidos:**

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/importing-photoshop-brush-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/importing-photoshop-brush-presets.html"
 breadcrumb-title: ''
 description: Aprenda a importar ajustes preestablecidos de pincel de Photoshop (archivos ABR) en Substance 3D Painter para expandir su biblioteca de pinceles.
 helpx_creative_field: ""

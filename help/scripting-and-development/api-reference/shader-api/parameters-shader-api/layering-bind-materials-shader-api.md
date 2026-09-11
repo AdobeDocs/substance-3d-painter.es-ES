@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-bind-materials-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-bind-materials-shader-api.html"
 breadcrumb-title: ''
 description: Acceda a la referencia de API del sombreador de materiales de enlace de capas de Substance 3D Painter para enlazar materiales en flujos de trabajo de capas.
 helpx_creative_field: ""
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 # Materiales de enlace de capas - API del sombreador
 
-## Capas de materiales: enlazar materiales como parámetros de sombreado
+## Capas de materiales: enlazar materiales como parámetros de sombreador
 
-Un material se define mediante un identificador único &quot;id&quot;. Parámetros adicionales:
+Un material se define mediante un &#39;id&#39; de identificador único. Parámetros adicionales:
 
 * &#39;predeterminado&#39;: nombre de recurso material por defecto que se va a utilizar.
 * &#39;tamaño&#39;: el tamaño de textura de los mapas de material.

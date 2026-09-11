@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/pipeline-and-integration/configuration/firewall-configuration.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/configuration/firewall-configuration.html"
 breadcrumb-title: ''
 description: Obtenga información acerca de cómo configurar el firewall para que Substance 3D Painter habilite las funciones de red y el acceso remoto.
 helpx_creative_field: ""

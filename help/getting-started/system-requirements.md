@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/getting-started/system-requirements.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/system-requirements.html"
 breadcrumb-title: ''
 description: Revise los requisitos del sistema de Substance 3D Painter para asegurarse de que su equipo cumple las especificaciones de hardware y software.
 helpx_creative_field: ""
@@ -51,7 +51,7 @@ A continuación se muestra una lista de hardware y sistemas compatibles con la a
 
 ## Recomendaciones generales
 
-Para obtener un buen rendimiento al utilizar el flujo de trabajo de azulejo UV, recomendamos utilizar:
+Para obtener un buen rendimiento al utilizar el flujo de trabajo de Mosaico de UV, recomendamos utilizar:
 
 * 32 GB de RAM
 * GPU con 8 GB de VRAM
@@ -64,7 +64,7 @@ Varios:
 * La exportación a <b>8K</b> (8192\*8192 píxeles) requiere una GPU con <b>más de</b> 2 GB de VRam.
 * Solo se han notarizado las versiones 2019.x y superiores para poder ejecutarse en MacOS 10.15 (Catalina).
 * Para usar el software mediante RDP (Escritorio remoto), consulte la [página de documentación](../pipeline-and-integration/configuration/remote-desktop.md) dedicada.
-* Bloqueo en la CPU Ryzen durante el procesamiento, se puede solucionar mediante la actualización del BIOS.
+* El bloqueo de la CPU Ryzen al hacer un bake se puede corregir actualizando el BIOS.
 
 ## Configuraciones no compatibles
 
@@ -105,18 +105,18 @@ Para descargar nuevos controladores, consulte: [La GPU tiene controladores obsol
 
 Para obtener una lista detallada de los problemas de controladores de GPU por constructor, consulte la [página de documentación dedicada](../technical-support/technical-issues/gpu-issues/gpu-drivers-compatibility.md).
 
-## Trazado de rayos de GPU para hornear
+## Trazado de rayos de GPU para hacer un bake
 
-Para habilitar el Trazado de rayos de GPU a través de Optix o DXR, deben instalarse los controladores mínimos recomendados anteriormente.
+Para habilitar el Trazado de rayos de GPU a través de Optix o DXR se deben instalar los controladores mínimos recomendados anteriormente.
 
 <b>DXR</b> también requiere la siguiente configuración mínima:
 
-* <b>Windows 10</b> versión 1809, consulte [esta página](https://experienceleague.adobe.com/es/docs/substance-3d/bakers/features/gpu-raytracing) para obtener más información
+* <b>Windows 10</b> versión 1809, consulte [esta página](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) para obtener más información
 * GPU <b> con arquitectura Pascal</b> (NVIDIA GeForce 10XX)
 
 >[!TIP]
 >
-> Trazado de rayos de GPU funciona de forma óptima con hardware de trazado de rayos como las GPU NVIDIA GeForce RTX o NVIDIA Quadro RTX.
+> El trazado de rayos de GPU se ejecuta de forma óptima en hardware de trazado de rayos dedicado, como las GPU NVIDIA GeForce RTX o NVIDIA Quadro RTX.
 
 ## Tabletas gráficas compatibles
 

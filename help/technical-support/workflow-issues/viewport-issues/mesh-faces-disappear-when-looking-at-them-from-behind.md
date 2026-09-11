@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/workflow-issues/viewport-issues/mesh-faces-disappear-when-looking-at-them-from-behind.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/viewport-issues/mesh-faces-disappear-when-looking-at-them-from-behind.html"
 breadcrumb-title: ''
 description: Obtenga más información sobre cómo corregir la desaparición de caras de malla cuando se visualizan desde detrás en la ventana gráfica de Substance 3D Painter para obtener una visibilidad de malla adecuada.
 helpx_creative_field: ""
@@ -20,6 +20,6 @@ ht-degree: 0%
 
 # Las caras de malla desaparecen al mirarlas desde atrás
 
-De forma predeterminada, las mallas de la ventana gráfica pueden no mostrar la parte posterior de los polígonos de malla (cara posterior). Esto se debe a que el sombreador actual los selecciona.
+De forma predeterminada, las mallas de la ventana gráfica pueden no mostrar la parte posterior de los polígonos de malla (cara posterior). Esto se debe a que son sacrificados por el sombreador actual.
 
-Para mostrar la parte posterior de las caras, simplemente cambie el sombreador actual a **pbr-metal-rough-alpha-test** en la [configuración del sombreador](../../../interface/shader-settings/shader-settings.md).
+Para mostrar la parte posterior de las caras, simplemente cambie el sombreador actual a **pbr-metal-rough-alpha-test** en la [configuración del Sombreador](../../../interface/shader-settings/shader-settings.md).

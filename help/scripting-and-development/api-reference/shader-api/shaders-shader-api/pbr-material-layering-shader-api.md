@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-material-layering-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-material-layering-shader-api.html"
 breadcrumb-title: ''
 description: Accede a la referencia de API del sombreador de capas de materiales de PBR para Substance 3D Painter para crear efectos de materiales en capas.
 helpx_creative_field: ""

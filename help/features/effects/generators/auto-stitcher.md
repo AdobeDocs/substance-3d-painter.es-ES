@@ -14,7 +14,7 @@ ht-degree: 1%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_auto_stitcher.png" alt=""/><br><strong>En:</strong> punto, puntos</td>
-    <td style="border: 0;" valign="top"><strong>Descripción</strong><br>El generador de elementos de unión automática crea automáticamente un efecto de unión a lo largo de las rutas generadas por el procedimiento. Estos trazados se pueden generar en función de las costuras UV, la curvatura o un mapa de entrada personalizado.<br><br>El generador de puntos de unión automáticos genera una textura monocromática (en blanco y negro). Como resultado, resulta útil para generar máscaras y aplicar efectos de costura.<br><br>Para usar el modo Máscara de curvatura, se requiere un mapa de curvatura horneado. <a href="../../../baking/baking.md">Obtenga más información sobre el horneado aquí</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descripción</strong><br>El generador de elementos de unión automática crea automáticamente un efecto de unión a lo largo de las rutas generadas por el procedimiento. Estos trazados se pueden generar en función de las costuras UV, la curvatura o un mapa de entrada personalizado.<br><br>El generador Auto Stitcher emite una textura monocromática (en blanco y negro). Como resultado, resulta útil para generar máscaras y aplicar efectos de costura.<br><br>Para usar el modo Máscara de curvatura, se requiere un mapa de curvatura horneado. <a href="../../../baking/baking.md">Obtenga más información sobre cómo hacer un bake aquí</a>.</td>
   </tr>
 </table>
 

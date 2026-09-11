@@ -14,7 +14,7 @@ ht-degree: 4%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_curvature.webp" alt=""/><br><strong>En:</strong> máscara, generador, escala de grises, fusión</td>
-    <td style="border: 0;" valign="top"><strong>Descripción</strong><br>El generador de curvatura crea una máscara basada en el mapa de curvatura horneado con la opción de fusionar una textura o microdetalles en la máscara.<br><br>El generador de curvatura emite una textura monocroma (blanco y negro). Como resultado, es útil para generar máscaras en lugar de aplicarlas directamente a una capa.<br><br>Como entrada, se requiere un mapa de posición predefinido. <a href="../../../baking/baking.md">Obtenga más información sobre el horneado aquí</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Descripción</strong><br>El generador de curvatura crea una máscara basada en el mapa de curvatura hecho un bake con la opción de fusionar una textura o microdetalles en la máscara.<br><br>El generador de curvatura emite una textura monocromática (blanco y negro). Como resultado, es útil para generar máscaras en lugar de aplicarlas directamente a una capa.<br><br>Se requiere un mapa de posición hecho un bake como entrada. <a href="../../../baking/baking.md">Obtenga más información sobre cómo hacer un bake aquí</a>.</td>
   </tr>
 </table>
 
@@ -22,12 +22,12 @@ ht-degree: 4%
 
 | Nombre de entrada | Descripción |
 | --- | --- |
-| Color de **textura** | Utilice una textura personalizada o un punto de ancla. |
+| Color de **Textura** | Utilice una textura personalizada o un punto de ancla. |
 | **Micro Normal** Color | Utilice una textura normal personalizada o un punto de ancla. |
 | **Micro Height** Color | Utilice una textura personalizada o un punto de ancla. |
-| Escala de grises **Curvatura** | Utilice el mapa de curvatura horneado. |
-| **Normales del espacio mundial** Color | Utilice el mapa de normas espaciales mundiales horneadas. |
-| **Degradado de posición** Color | Utilice el mapa de posición horneado. |
+| Escala de grises **Curvatura** | Utilice el mapa de curvatura hecho un bake. |
+| **Normales del espacio mundial** Color | Utilice el mapa hecho un bake de las normas espaciales mundiales. |
+| **Degradado de posición** Color | Utilice el mapa de posición hecha un bake. |
 
 ## Parámetros
 
@@ -37,7 +37,7 @@ ht-degree: 4%
 | **Desenfoque global** | Suaviza la máscara final uniformemente después de combinar todos los efectos. |
 | **Equilibrio global** | Desplaza el equilibrio de la máscara final después de que todos los efectos se combinen entre blanco o negro, como un ajuste de brillo. |
 | **Contraste global** | Ajusta el contraste de la máscara final después de combinar todos los efectos. |
-| **Usar textura** | Activar o desactivar el uso de un mapa de textura personalizado. |
+| **Usar Textura** | Activar o desactivar el uso de un mapa de textura personalizado. |
 | **Usar detalles micro** | Activa o desactiva el uso del mapa de detalles de la micro personalizada. |
 
 ### Curvatura
@@ -102,7 +102,7 @@ ht-degree: 4%
   </tr>
   <tr>
     <td><strong>Opacidad de textura</strong></td>
-    <td>Controle la visibilidad de la textura personalizada.</td>
+    <td>Controlar la visibilidad de la textura personalizada.</td>
   </tr>
   <tr>
     <td><strong>Invertir</strong></td>
@@ -126,7 +126,7 @@ ht-degree: 4%
   </tr>
   <tr>
     <td><strong>Brillo</strong></td>
-    <td>Establezca la luminosidad de la textura personalizada.</td>
+    <td>Ajuste la luminosidad de la textura personalizada.</td>
   </tr>
   <tr>
     <td><strong>Triplanar</strong></td>
@@ -147,11 +147,11 @@ ht-degree: 4%
   </tr>
   <tr>
     <td><strong>Micro Height</strong></td>
-    <td>Activar o desactivar el uso de un mapa de Height Micro personalizado.</td>
+    <td>Activar o desactivar el uso de un mapa de altura micro personalizado.</td>
   </tr>
   <tr>
     <td><strong>Micro Normal</strong></td>
-    <td>Activar o desactivar el uso de un mapa Micro Normal personalizado.</td>
+    <td>Activar o desactivar el uso de un Mapa de normales Micro personalizado.</td>
   </tr>
   <tr>
     <td><strong>Tipo de curvatura</strong></td>

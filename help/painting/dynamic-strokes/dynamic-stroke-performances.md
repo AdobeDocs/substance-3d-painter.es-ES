@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/dynamic-strokes/dynamic-stroke-performances.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/dynamic-strokes/dynamic-stroke-performances.html"
 breadcrumb-title: ''
 description: Obtenga más información sobre las consideraciones de rendimiento de los trazos dinámicos en Substance 3D Painter para optimizar la representación y la capacidad de respuesta de los trazos de pincel.
 helpx_creative_field: ""
@@ -79,4 +79,4 @@ IsRandomSeedActive=input.roundness_jitter>0 || input.flip_x_jitter || input.flip
 ```
 
 
-En este caso, la velocidad aleatoria solo se cambiará si el parámetro de gráfico (identificador) **roundness\_jitter** es mayor que 0 o si están habilitadas las opciones booleanas **flip\_x\_jitter** o **flip\_y\_jitter**. Si no se cumple la condición, el gráfico no se regenerará. Los parámetros de gráfico deben ir precedidos de &quot;**entrada.**  &quot; para ser reconocido.
+En este caso, la velocidad aleatoria solo se cambiará si el parámetro de gráfico (identificador) **redondez\_jitter** es mayor que 0 o si están habilitadas las opciones booleanas **flip\_x\_jitter** o **flip\_y\_jitter**. Si no se cumple la condición, el gráfico no se regenerará. Los parámetros de gráfico deben ir precedidos de &quot;**entrada.**  &quot; para ser reconocido.

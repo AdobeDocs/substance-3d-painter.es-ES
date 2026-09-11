@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.html"
 breadcrumb-title: ''
-description: Obtenga información sobre cómo solucionar los bloqueos del controlador de la GPU durante cálculos largos en Substance 3D Painter para evitar errores de tiempo de espera de TDR.
+description: Obtenga información sobre cómo corregir los bloqueos del controlador de la GPU durante cálculos largos en Substance 3D Painter para evitar errores de tiempo de espera de TDR.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > GPU Issues > GPU drivers crash with long computations (TDR crash)
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Los controladores de la GPU se bloquean si se realizan cálculos largos (bloqueo de TDR)
+title: BLOQUEO de controladores de GPU con cálculos largos (bloqueo TDR)
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Los controladores de la GPU se bloquean si se realizan cálculos largos (bloqueo de TDR)
+# BLOQUEO de controladores de GPU con cálculos largos (bloqueo TDR)
 
 ![Advertencia de TDR en Substance 3D Painter](../../../assets/tdr-window-v2.png "Advertencia de TDR en Substance 3D Painter"){zoomable="yes"}
 
@@ -28,7 +28,7 @@ En Windows, esta ventana aparecerá si Substance 3D Painter detecta que el valor
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-## ¿Por qué se bloquea el controlador de la GPU?
+## ¿Por qué se bloqueo el controlador de la GPU?
 
 </td>
 <td style="border: 0;" valign="top">
@@ -44,9 +44,9 @@ En Windows, esta ventana aparecerá si Substance 3D Painter detecta que el valor
 </tr>
 </table>
 
-## ¿Por qué se bloquea el controlador de la GPU?
+## ¿Por qué se bloqueo el controlador de la GPU?
 
-Para evitar que el procesamiento o el cálculo de la GPU **bloqueen el sistema**, el sistema operativo Windows **elimina el controlador de la GPU** cada vez que el procesamiento tarda más de unos segundos. Cuando se mata al controlador, la aplicación que lo utiliza se bloquea automáticamente. No es posible saber cuánto tiempo puede tardar una tarea de procesamiento o un cálculo (depende de la GPU, los controladores, el sistema operativo, el tamaño de la malla, el tamaño de la textura, etc.), por lo tanto no es posible poner un límite a cuánto debe procesar el equipo y evitar el bloqueo desde el nivel de aplicación.
+Para evitar que el procesamiento o el cálculo de la GPU **bloqueen el sistema**, el sistema operativo Windows **elimina el controlador de la GPU** cada vez que el procesamiento tarda más de unos segundos. Cuando se mata al conductor, la aplicación que lo utiliza bloqueo automáticamente. No es posible saber cuánto tiempo puede tardar una tarea de procesamiento o un cálculo (depende de la GPU, los controladores, el sistema operativo, el tamaño de la malla, el tamaño de la textura, etc.), por lo tanto no es posible poner un límite a cuánto debe procesar el equipo y evitar el bloqueo desde el nivel de aplicación.
 
 En Windows, hay una **clave** del **registro** que especifica cuánto tiempo debe esperar el sistema operativo antes de matar el controlador de la GPU. Las aplicaciones no están autorizadas a modificar esta configuración directamente, este procedimiento debe realizarse manualmente (véase a continuación).
 
@@ -143,7 +143,7 @@ El panel derecho ahora debería tener el siguiente aspecto:
 
 El TdrValue sólo se observa cuando se inicia el equipo, por lo que para forzar una actualización es necesario reiniciar.
 
-Si la aplicación sigue bloqueándose al realizar un cálculo largo, pruebe a aumentar el retraso (en segundos) de 60 a 120, por ejemplo.
+Si la aplicación sigue teniendo bloqueos al realizar un cálculo largo, pruebe a aumentar el retraso (en segundos) de 60 a 120, por ejemplo.
 
 ## Revertir valores TDR a valores predeterminados
 

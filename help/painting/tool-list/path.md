@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/es/substance-3d-painter/painting/tool-list/path.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/painting/tool-list/path.html'
 breadcrumb-title: ''
 description: Utilice la herramienta Trazado de Substance 3D Painter para crear y editar trazados con el fin de obtener una textura y una colocación de trazos precisas.
 helpx_creative_field: ''

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/technical-issues/stability-issues/windows-blue-screens.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/stability-issues/windows-blue-screens.html"
 breadcrumb-title: ''
 description: Obtenga información sobre cómo evitar errores de pantalla azul de Windows al utilizar Substance 3D Painter para un funcionamiento estable del sistema.
 helpx_creative_field: ""
@@ -54,12 +54,12 @@ Para obtener más información sobre este tema, consulte:  [Usar la herramienta 
 
 ### Falta de espacio en disco
 
-Desde la introducción de [Texturas virtuales dispersas](../../../features/sparse-virtual-textures.md) en Substance 3D Painter, la aplicación ahora usa el disco para almacenar texturas en caché mientras trabaja. Si el sistema se queda sin espacio, esto puede llevar a inestabilidad.
+Desde la introducción de [Texturas virtuales dispersas](../../../features/sparse-virtual-textures.md) en Substance 3D Painter, la aplicación ahora usa el disco para almacenar texturas en la memoria caché mientras trabaja. Si el sistema se queda sin espacio, esto puede llevar a inestabilidad.
 
 Hay dos soluciones fáciles para este problema:
 
 * Libere espacio en el disco para dejar más espacio en el sistema de caché.
-* Mueva el directorio de caché a otra unidad con más espacio. Esta ubicación se puede cambiar entrando en la configuración principal de la aplicación, consulte la configuración [&#x200B; &quot;Archivos temporales&quot;](https://docs.substance3d.com/display/SPDOC/General) .
+* Mueva el directorio de caché a otra unidad con más espacio. Esta ubicación se puede cambiar entrando en la configuración principal de la aplicación, consulte la configuración [ &quot;Archivos temporales&quot;](https://docs.substance3d.com/display/SPDOC/General) .
 
 ### Disco defectuoso (HDD o SSD)
 

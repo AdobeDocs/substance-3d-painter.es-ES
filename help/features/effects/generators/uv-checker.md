@@ -43,7 +43,7 @@ ht-degree: 3%
   </tr>
   <tr>
     <td><strong>Opacidad de cuadrícula del comprobador</strong></td>
-    <td>Ajuste la opacidad de la cuadrícula. Con 0 de opacidad, solo es visible una textura de corrector, sin cuadrícula.</td>
+    <td>Ajuste la opacidad de la cuadrícula. Con 0 de opacidad, solo es visible una textura del comprobador, sin cuadrícula.</td>
   </tr>
   <tr>
     <td><strong>Color de bordes UV</strong></td>

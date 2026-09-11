@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/corrupted-texture-error-message.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/corrupted-texture-error-message.html"
 breadcrumb-title: ''
 description: Obtenga información sobre cómo corregir los mensajes de error de textura dañados en Substance 3D Painter para restaurar la funcionalidad de textura.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Mensaje de error de textura dañada
 
-Las texturas dañadas en un proyecto provocarán errores durante el proceso de guardado y pueden provocar que los proyectos se corrompan por completo y no se puedan recuperar. Sin embargo, esto se puede corregir manualmente.\
+Las texturas dañadas en un proyecto provocarán errores durante el proceso de guardado y pueden provocar que los proyectos estén totalmente dañados y no se puedan recuperar. Sin embargo, esto se puede corregir manualmente.\
 Un recurso dañado se manifiesta en el registro al abrir un proyecto con un mensaje de error similar al que aparece en la ventana de registro :
 
 ![](../../../assets/corrupt1.png)
@@ -30,7 +30,7 @@ Un recurso dañado se manifiesta en el registro al abrir un proyecto con un mens
 ### 1 - Encontrar el recurso
 
 El primer paso cuando aparece un error consiste en buscar e identificar el recurso problemático.\
-En la mayoría de los casos, el culpable es de **Mapas de malla** (texturas horneadas). Una forma rápida de verificarlo es mirar los generadores de máscaras en la pila de capas.
+En la mayoría de los casos, el culpable es de **Mapas de malla** (texturas hechas un bake). Una forma rápida de comprobarlo es examinar los generadores de máscaras de la pila de capas.
 
 Los recursos dañados tendrán este aspecto:
 
@@ -48,8 +48,8 @@ Sin embargo, si el proyecto abarca varios conjuntos de texturas o muchas capas, 
 
 >[!NOTE]
 >
-> * En el caso de las texturas horneadas, no olvide borrar también las ranuras de Mesh Maps en la ventana [Configuración del conjunto de texturas](../../../interface/texture-set/texture-set-settings.md).
-> * Los pasteles que solo se utilizan en la configuración del conjunto de texturas, como el mapa normal, también podrían dañarse. Intente eliminarlas también si persisten los errores.
+> * En el caso de las texturas hechas un bake, no olvide borrar también las ranuras de Mesh Maps en la ventana [Configuración del conjunto de texturas](../../../interface/texture-set/texture-set-settings.md).
+> * Hace un bake que solo se utilizan en la configuración del conjunto de texturas, como si el mapa de normales también se pudiera dañar. Intente eliminarlas también si persisten los errores.
 
 ### 3 - Limpieza
 

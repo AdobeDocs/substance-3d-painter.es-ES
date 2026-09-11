@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-declare-stacks-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-declare-stacks-shader-api.html"
 breadcrumb-title: ''
 description: Acceda a la referencia de API del sombreador Declarar pilas de capas para Substance 3D Painter para crear pilas de capas de material personalizadas.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## Capas de materiales: declarar pilas editables
 
-Una pila editable se define mediante un identificador único y una lista de canales de documento. Los posibles ID de canal son: *ambientocclusion* *anisotropyangle* *anisotropylevel* *basecolor* *blendingmask* *diffuse* *desplazamiento* *emissive* *brillo* *height* *ior* *metálico* *4&rbrace;opacidad* *normal* *reflejo* *rugosidad* *dispersión* *specular* *nivel especular* *transmisivo* *usuario* *usuario1* *usuario* *usuario3&rbrace; 47&rbrace;* usuario4 **&#x200B; usuario5 &#x200B;** usuario6 **&#x200B; usuario7 &#x200B;**
+Una pila editable se define mediante un identificador único y una lista de canales de documento. Los posibles ID de canal son: *ambientocclusion* *anisotropyangle* *anisotropylevel* *basecolor* *blendingmask* *diffuse* *desplazamiento* *emisivo* *brillo* *height* *submarino* *metálico* ** opacidad ** reflexión ** rugosidad ** dispersión ** specular ** nivel especular ** transmisivo ** usuario0 ** usuario1 ** usuario2 ** usuario3} 7} *usuario4* *usuario5* *usuario6* *usuario7***
 
 Ejemplo:
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/post-processing.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar los efectos de procesamiento posterior en Substance 3D Painter para mejorar la representación de la ventana gráfica con la gradación de color y los efectos visuales.
 helpx_creative_field: ""
@@ -28,7 +28,7 @@ Los efectos posteriores se pueden activar en cualquier proyecto a través de la 
 
 >[!NOTE]
 >
-> Estos efectos de publicación no se aplican a la vista 2D por comodidad. Solo la vista 3D muestra el resultado de la imagen con los efectos.
+> Estos efectos de posprocesamiento no se aplican al Vista 2D por comodidad. Solo la vista 3D muestra el resultado de la imagen con los efectos.
 
 En las siguientes páginas se describen los distintos efectos de postproceso admitidos actualmente:
 
@@ -43,4 +43,4 @@ En las siguientes páginas se describen los distintos efectos de postproceso adm
 * [Asignación de tonos](tone-mapping.md)
 * [Corrección de color](color-correction.md)
 
-La tabla de texturas de búsqueda también se puede utilizar para ajustar el resultado final de la imagen. Para obtener más información, consulte la documentación de [Perfil de color](color-profile.md).
+La tabla de textura de búsqueda también se puede utilizar para ajustar el resultado final de la imagen. Para obtener más información, consulte la documentación de [Perfil de color](color-profile.md).

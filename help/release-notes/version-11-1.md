@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/version-11-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-11-1.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 11.1 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
 helpx_creative_field: ""
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 # Versión 11.1
 
-<b>Substance 3D Painter 11.1 </b>trae la nueva herramienta de Ruta de lazo con contenido dedicado, simetría en capas de relleno y efectos, tamaño de física para desplazamiento y el soporte de la API gráfica Vulkan.
+<b>Substance 3D Painter 11.1 </b>ofrece la nueva herramienta de Ruta de lazo con contenido exclusivo, simetría de capas y efectos de relleno, tamaño de física para desplazamiento y el soporte de la API gráfica Vulkan.
 
 Fecha de publicación: <b>18 de noviembre de 2025</b>
 
 >[!NOTE]
 >
-> Esta versión de Painter cambia la API gráfica de OpenGL a Vulkan. Este cambio puede afectar a las GPU compatibles con la aplicación, especialmente para el procesamiento con trazado de rayos basado en GPU.
+> Esta versión de Painter cambia la API gráfica de OpenGL a Vulkan. Este cambio puede afectar a las GPU compatibles con la aplicación, especialmente para hacer un bake con trazado de rayos basado en GPU.
 > 
 > Para obtener más información, consulta nuestra [página de requisitos del sistema](../getting-started/system-requirements.md).
 
@@ -63,7 +63,7 @@ En resumen, la cinta de opciones es una herramienta más limpia para dibujar con
   Al romper las tangentes para crear esquinas, hay varias formas disponibles en función de las necesidades, desde la rotura clásica hasta el torneado suave.
 
   ![](../assets/ribbon_corners_small.jpg)
-* <b>Controles de estiramiento y mosaico</b>\
+* <b>Estirar y segmentar controles</b>\
   Las imágenes se pueden repetir o estirar fácilmente a lo largo de una Ruta de lazo, ya sea automática o manualmente.
 
   ![](../assets/ribbon_tiling_mode.gif)
@@ -133,10 +133,10 @@ Esta versión incluye 75 nuevos ajustes preestablecidos de herramientas que apro
   * <b>Suciedad</b>: 3 tipos de grietas para simular daños en varios tipos de superficies.
   * <b>Superficie dura</b>: Patrones de agarre, detalles de paneles y obturaciones, cintas y soldaduras para objetos mecánicos o de uso.
   * <b>Orgánico</b>: Vendas, tanto limpias como sucias, para envolver la piel y otras superficies.
-  * <b>Pintar</b>: ajustes preestablecidos de gouaches y degradados basados en pinceles.
-  * <b>Texto</b>: Ajustes preestablecidos rápidos para configurar texto en un trazado con la cinta de opciones con diferentes modos de alineación y estiramiento.
+  * <b>Pintura</b>: ajustes preestablecidos de gouaches y degradados basados en pinceles.
+  * <b>Texto</b>: Ajustes preestablecidos rápidos para configurar texto en un trazado con la cinta de opciones con diferentes modos de alineación y estiro.
 * <b>Nueva palabra clave de herramienta para buscar en la ventana Activos</b>\
-  Ahora es posible escribir &quot;ribbon&quot;, &quot;paint&quot;, &quot;path&quot; o incluso &quot;smudge&quot; en la ventana de <b>Assets</b>; esto puede ayudar a encontrar ajustes preestablecidos que coincidan con la herramienta correspondiente.
+  Ahora es posible escribir &quot;cinta&quot;, &quot;pintura&quot;, &quot;ruta&quot; o incluso &quot;difuminar&quot; en la ventana <b>Assets</b>; esto puede ayudar a encontrar ajustes preestablecidos que coincidan con la herramienta correspondiente.
 
   ![](../assets/ribbon_assets_search.png)
 
@@ -144,24 +144,24 @@ Esta versión incluye 75 nuevos ajustes preestablecidos de herramientas que apro
 
 ![](../assets/banner_symmetry.jpg)
 
-Las capas de relleno y los efectos ahora admiten la simetría con sus modos de proyección 3D. Se puede habilitar a través del menú de simetría de la barra de herramientas contextual o a través de la sección de simetría recién agregada en la ventana <b>Propiedades</b>.
+Las capas de relleno y los efectos ahora admiten la simetría con sus modos de proyección 3D. Se puede habilitar a través del menú simetría en la barra de herramientas contextual o a través de la sección simetría recién agregada en la ventana <b>Propiedades</b>.
 
 * <b>Simetría en las capas de relleno </b>\
-  Ahora se puede activar la simetría al utilizar modos de proyección basados en 3D en efectos de relleno y capas. Tanto la simetría especular como la radial están disponibles.
+  Ahora, al utilizar modos de proyección basados en 3D en efectos de relleno y capas, se puede activar la simetría. Están disponibles tanto la simetría especular como la radial.
 
   ![](../assets/symmetry_fill.jpg)
 * <b>Habilitar la simetría mediante la barra de herramientas contextual o la ventana Propiedades</b>\
-  La simetría se puede activar a través del menú de la <b>barra de herramientas contextual</b>, similar a las herramientas de pintura, o a través de la ventana <b>Propiedades</b> con la nueva sección dedicada.
+  La simetría se puede activar a través del menú <b>barra de herramientas contextual</b>, similar a las herramientas de pintura, o a través de la ventana <b>Propiedades</b> con la nueva sección dedicada.
 
   ![](../assets/symmetry_contextual.png)
 
   ![](../assets/symmetry_properties.png)
 * <b>Voltear recurso de entrada para textos y logotipos</b>\
-  La simetría de efectos y capas de relleno también se beneficia de nuevas opciones que permiten voltear las imágenes de entrada o los ejes X/Y. Esto permite reflejar un texto, por ejemplo, pero hacerlo legible en ambos lados.
+  La simetría de relleno y efectos también se benefician de las nuevas opciones que permiten voltear las imágenes de entrada o los ejes X/Y. Esto permite reflejar un texto, por ejemplo, pero hacerlo legible en ambos lados.
 
   ![](../assets/mirror_symmetry_flip.gif)
 * <b>Interfaz de configuración de simetría mejorada</b>\
-  Se ha modificado la interfaz de los ajustes de simetría para que sea más fácil de leer y más rápida de usar. Los reguladores de los ejes tienen cada uno su propia línea, por ejemplo, lo que ayuda a ser más preciso. También se ha reducido el tamaño de la pantalla radial para ocupar menos espacio.
+  Se ha modificado la interfaz de la configuración de simetría para que sea más fácil de leer y más rápida de usar. Los reguladores de los ejes tienen cada uno su propia línea, por ejemplo, lo que ayuda a ser más preciso. También se ha reducido el tamaño de la pantalla radial para ocupar menos espacio.
 
   ![](../assets/symmetry_radial.png)
 
@@ -174,7 +174,7 @@ Para obtener más información sobre la <b>simetría</b>, consulte la [página d
 Ahora se puede definir el desplazamiento con una unidad específica. Este cambio facilita la alineación y coincidencia de la geometría desplazada en otras aplicaciones.
 
 * <b>Nueva opción de unidad de escala en la configuración del desplazamiento</b>\
-  En la ventana <b>Configuración de sombreador</b>, al ajustar la intensidad del desplazamiento, hay una nueva configuración de unidad de escala disponible. Esta configuración ofrece las siguientes opciones:
+  En la ventana <b>Configuración de Sombreador</b>, al ajustar la intensidad del desplazamiento, hay una nueva configuración de unidad de escala disponible. Esta configuración ofrece las siguientes opciones:
 
   * <b>Normalizado</b>: predeterminado, coincide con el comportamiento anterior de Painter. Este tamaño se basa en el cuadro delimitador de malla dentro del proyecto actual.
   * <b>Escena</b>: utiliza las unidades almacenadas dentro del fichero de malla como punto de referencia.
@@ -190,9 +190,9 @@ Como continuación del trabajo iniciado en nuestra versión anterior, que cambi�
 
 * <b>Ahora se usa la API gráfica Vulkan en lugar de OpenGL en Windows y Linux</b>\
   Painter ahora utiliza la API gráfica de Vulkan para procesar en la ventana gráfica y calcular texturas. Este modificador debería mejorar el rendimiento general de la aplicación. También facilitará la integración de nuevas funcionalidades en el futuro.
-* <b>Trazado de rayos de GPU para hornear vía Vulkan</b>\
+* <b>Trazado de rayos de GPU para hacer un bake vía Vulkan</b>\
   El trazado de rayos de DirectX (DRX) y Optix han sido reemplazados a favor del trazado de rayos a través de la API gráfica Vulkan en nuestros panaderos. Este cambio significa que el trazado de rayos basado en GPU ahora está disponible en las GPU AMD, así como en el sistema operativo Linux.\
-  El cambio a Vulkan también mejora los tiempos de procesamiento de horneado, especialmente en resoluciones altas.
+  El cambio a Vulkan también mejora el hago un bake de los tiempos de procesamiento, especialmente en resoluciones altas.
 
 ### Miscelánea
 
@@ -212,7 +212,7 @@ Se han añadido funciones y mejoras adicionales en esta versión:
 
   ![](../assets/resolution.png)
 * <b>Mejoras de rendimiento en un solo triángulo grande</b>\
-  Hasta ahora, Painter luchaba en mallas de polietileno muy bajas o mallas con triángulos muy grandes y/o largos. Este ya no es el caso. Trabajar con mallas cuádruples simples, por ejemplo para crear texturas de mosaicos, ya no debería ser un problema.
+  Hasta ahora, Painter luchaba en mallas de polietileno muy bajas o mallas con triángulos muy grandes y/o largos. Este ya no es el caso. Trabajar con mallas cuádruples simples, por ejemplo para crear texturas de mosaico, ya no debería ser un problema.
 * <b>Forma de pincel predeterminada mejorada</b>\
   La forma de pincel predeterminada se ha actualizado con nuevos ajustes para controlar su tamaño y redondez, teniendo en cuenta el comportamiento de la dureza.
 
@@ -227,7 +227,7 @@ Este es el último tutorial que trata sobre nuestra nueva función:
 ### 11.1.0
 
 Fecha de publicación: <b>18/11/2025</b>\
-Sumario: <b>Esta actualización es una versión importante, contiene la nueva herramienta de la cinta de opciones con contenido nuevo dedicado, soporte de simetría para capas de relleno, parámetro de tamaño físico para desplazamiento, rendimiento mejorado a través de los panaderos actualizados, soporte completo de Vulkan para Windows y Linux y otras mejoras.</b>
+Sumario: <b>Esta actualización es una versión importante, contiene la nueva herramienta de la cinta de opciones con contenido nuevo dedicado, soporte de simetría para capas de relleno, parámetro de tamaño físico para desplazamiento, rendimiento mejorado a través de los bakeres actualizados, soporte completo de Vulkan para Windows y Linux y otras mejoras.</b>
 
 <b>Agregado</b>:
 
@@ -248,28 +248,28 @@ Sumario: <b>Esta actualización es una versión importante, contiene la nueva he
 * [Desplazamiento] Utilice tamaño físico como unidad de desplazamiento
 * Mejora del rendimiento
 * [Rendimiento] Mejora el procesamiento de trazos de pincel pequeños en triángulos grandes
-* [Performance] Mejora el tiempo de compilación del sombreado
+* [Rendimiento] Mejorar el tiempo de compilación del Sombreador
 * [Rendimiento] Compatibilidad total con Vulkan para Windows y Linux
-* [Rendimiento] Panaderos actualizados con procesamiento de GPU más rápido y compatibilidad con trazado de rayos AMD
+* [Rendimiento] bakeres actualizados con procesamiento de GPU más rápido y compatibilidad con trazados de rayos AMD
 * [UI] Reorganizar las propiedades de las herramientas en grupos y contraer algunas de forma predeterminada
 * [Motor] Actualice Substance Engine a la versión 9.2.5.
 * [Substance] Anulación de resolución de exposición para recursos de Substance en Herramientas y rellenos
 * [Exportar] Actualizar el ajuste preestablecido de exportación de Mapas de malla para exportar texturas en escala de grises
 * Python
-* [Horneando] [Python] Indicar en el registro de cambios los cambios de ruptura después de la actualización de los panaderos
-* [Python] Exposición de los ajustes de simetría de relleno en Python
+* [Haciendo un bake] [Python] Indicar en el registro de cambios los cambios después de la actualización de bakeres
+* [Python] Exposición de la configuración de simetría de relleno en Python
 * Contenido y nuevo contenido
 * [Contenido] Añadir 75 nuevos ajustes preestablecidos de herramientas para la herramienta Cinta de opciones
 * [Contenido] Actualizar el recurso del generador de degradados para que sea compatible con la cinta de opciones
 
 <b>Corregido</b>:
 
-* [Bloqueo] La carga de otro proyecto mientras el ajuste de ruta está activado puede bloquearse
-* [Bloqueo] El clic derecho en el panel Trazado con información de otra sesión del portapapeles puede bloquearse
+* [Bloqueo] La carga de otro proyecto mientras el ajuste de ruta está activado puede generar bloqueos
+* [Bloqueo] Al hacer clic con el botón derecho en el panel Trazado con información de otra sesión del portapapeles, se puede crear un bloqueo
 * [UI] La interfaz se desplaza hacia arriba en las propiedades de la herramienta al crear un trazado
 * [UI] El cursor del ratón desaparece cuando la visualización de la ventanilla de trazado está oculta
 * [Path] Copiar/pegar diferentes propiedades de herramienta en el panel Trazado genera propiedades inestables
-* [Herramienta] Los ajustes preestablecidos de las herramientas Borrador y Difuminado no siempre actualizan la selección de canales
+* Los ajustes preestablecidos de las herramientas Borrador y Difuminado no siempre actualizan la selección de canales
 * [Herramienta] El valor pintado es gris, pero la interfaz de usuario se muestra blanca después de cargar el ajuste preestablecido de herramienta de color en la máscara
 * [Herramienta] El ajuste preestablecido creado a partir de la máscara conserva los valores de canales cargados de otro ajuste preestablecido
 * [Substance] No se tiene en cuenta la anulación del espacio de color normal definido en el gráfico
@@ -278,15 +278,15 @@ Sumario: <b>Esta actualización es una versión importante, contiene la nueva he
 <b>Problemas conocidos</b>:
 
 * El historial de instancias del sombreador no se rastrea correctamente
-* [Ribbon] Problema de rendimiento con mosaicos UV
+* [Cinta] Problema de rendimiento con Mosaicos de UV
 * [Cinta] En algunos casos, la ruta puede superponerse inesperadamente después de una esquina
 * [Cinta] Las tangentes crean bucles no deseados cuando el punto se mueve de cerca a los extremos del trazado
-* [Bloqueo] [Cinta] La creación de textos muy largos en la cinta de opciones puede bloquearse
+* [Bloqueo] [Cinta de opciones] La creación de textos muy largos en la cinta de opciones puede generar bloqueos
 * [Herramienta] La previsualización de material no funciona cuando se utiliza la proyección en una máscara
-* [Horneado] El ajuste de AO &quot;Oclusión automática&quot; se ignora con varios conjuntos de texturas y &quot;coincidencia por nombre&quot; activado
-* [Horneando] El AO con normal tiene defectos en los bordes debido a la falta de relleno
-* [Gestión de color] Las conversiones de espacio de color HDR con ACE en Linux producen colores con sujeción
-* [Regresión]&#x200B;[IU] El menú contextual es demasiado pequeño en pantallas HD
-* [Bloqueo] [Python] Exportación de USD desencadenada por TextureStateEvent
-* [Motor] Pintar con la herramienta Clonar en colores de cambio de canal normales incorrectamente
+* [Haciendo un bake] El ajuste de AO &quot;Oclusión automática&quot; se ignora con varios conjuntos de texturas y &quot;coincidencia por nombre&quot; activado
+* [Haciendo un bake] El AO con normal tiene defectos en los bordes debido a la falta de relleno
+* [Gestión de color] HDR. las conversiones de espacio de color con ACE en Linux producen colores con sujeción
+* [Regresión][IU] El menú contextual es demasiado pequeño en pantallas HD
+* [Bloqueo] [Python] USD exportación desencadenada por TextureStateEvent
+* [Motor] Pintura con la herramienta Clonar en colores de cambio de canal normales incorrectamente
 * [Python] El widget fantasma aparece eliminado por la secuencia de comandos y sigue funcionando

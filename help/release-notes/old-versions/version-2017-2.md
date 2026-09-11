@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/old-versions/version-2017-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2017-2.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 2017.2 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
 helpx_creative_field: ""
@@ -40,7 +40,7 @@ Para obtener más detalles técnicos y ejemplos, consulte la página dedicada : 
 
 Junto con el nuevo efecto Punto de anclaje, también trabajamos en :
 
-* La capacidad de cambiar el nombre de algunos efectos, como Rellenar y Pintar
+* La capacidad de cambiar el nombre de algunos efectos, como Relleno y Pintura
 * Nuevas funciones de secuencias de comandos, que permiten crear un vínculo interactivo con otras aplicaciones como Unity
 
 ## Tutorial
@@ -56,7 +56,7 @@ Las nuevas funciones se detallan en nuestros vídeos más recientes :
 **Agregado :**
 
 * [Efecto] Nuevo punto de anclaje que permite hacer referencia a capas y máscaras
-* [Capas] Capacidad para cambiar el nombre de los efectos de relleno y pintura
+* [Layers] Capacidad de renombrar efectos de relleno y Pintura
 * [Plugin] Complemento de Substance Source actualizado
 * [Scripting] Permitir consultar la resolución del conjunto de texturas
 * [Scripting] Permite obtener el estado del motor de pintura

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/getting-started/export/export-presets/predefined-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-presets/predefined-presets.html"
 breadcrumb-title: ''
 description: Obtenga más información sobre las plantillas de salida predefinidas en Substance 3D Painter para utilizar configuraciones de exportación listas para usar en flujos de trabajo comunes.
 helpx_creative_field: ""

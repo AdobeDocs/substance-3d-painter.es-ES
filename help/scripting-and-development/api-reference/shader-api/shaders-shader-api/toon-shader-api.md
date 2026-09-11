@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/toon-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/toon-shader-api.html"
 breadcrumb-title: ''
 description: Acceda a la referencia de API del sombreador de caricatura de Substance 3D Painter para crear efectos de representación personalizados al estilo de caricatura.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Toon - API del sombreador
 
-## Sombreador de tonos básico
+## Sombreador de cartón básico
 
 Importar desde bibliotecas.
 
@@ -116,7 +116,7 @@ uniform bool use_curvature;
 ```
 
 
-Punto de entrada del sombreado.
+Punto de entrada del sombreador.
 
 ```
 void shade(V2F inputs) 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/assets/sub-library-tab.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/sub-library-tab.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar la ficha de subbiblioteca en Substance 3D Painter para organizar y acceder a bibliotecas de recursos anidados.
 helpx_creative_field: ""

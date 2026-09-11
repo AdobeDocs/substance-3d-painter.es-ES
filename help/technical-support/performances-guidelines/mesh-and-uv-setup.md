@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/performances-guidelines/mesh-and-uv-setup.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/performances-guidelines/mesh-and-uv-setup.html"
 breadcrumb-title: ''
 description: Conozca las prácticas recomendadas sobre la configuración de mallas y UV en Substance 3D Painter para optimizar el rendimiento y la calidad de la textura.
 helpx_creative_field: ""
@@ -23,7 +23,7 @@ ht-degree: 0%
 Tomar unos minutos para preparar tu malla para Painter puede hacer que el proceso de texturizado sea más rápido y fácil.
 
 +++Modelos de alto polirecuento
-No hay ningún parámetro específico de policarbonato que Painter pueda controlar, ya que depende en gran medida de las especificaciones de la máquina, la asignación del conjunto de texturas y las propiedades de la pila de capas, pero menos de 10 millones de polivalentes se deben controlar correctamente si se tienen en cuenta las optimizaciones de la pila de capas.
+No hay un benchmark específico para el policarbonato que Painter pueda manejar, ya que depende en gran medida de las especificaciones de la máquina, la asignación de conjuntos de texturas y las propiedades de pila de capas, pero menos de 10 millones de polietilenos deberían manejarse bien si se tienen en cuenta las optimizaciones de pila de capas.
 
 +++
 
@@ -35,14 +35,14 @@ Por ejemplo, si se aplica texturizado a un solo plano cuádruple, es mejor subdi
 +++
 
 +++Dividir texturas en varios conjuntos de texturas
-Lo mejor es dividir mallas más grandes con asignaciones de materiales más complejas en varios conjuntos de texturas. Los conjuntos de texturas le permiten asignar diferentes configuraciones a cada conjunto de texturas, como las propiedades de resolución y sombreado. Por ejemplo, si solo una parte de la malla utiliza translucidez o SSS, es mejor asignar otro conjunto de texturas y una instancia de sombreado diferente a esa parte. De este modo, estas propiedades más complejas no tienen que calcularse cuando no se utilizan.
+Lo mejor es dividir mallas más grandes con asignaciones de materiales más complejas en varios conjuntos de texturas. Los conjuntos de texturas le permiten asignar diferentes configuraciones a cada conjunto de texturas, como las propiedades de resolución y sombreado. Por ejemplo, si solo una parte de la malla utiliza translucidez o SSS, es mejor asignar otro conjunto de texturas y una instancia del sombreador diferente a esa parte. De este modo, estas propiedades más complejas no tienen que calcularse cuando no se utilizan.
 
 +++
 
 +++Mantén las Islas de UV unidas
-Intenta mantener las Islas de UV vecinas en el espacio 3D unidas. Esto se aplica tanto al diseño UDIM como al diseño de espacio UV clásico. Si tienen trazos de pintura o texturas compartidos, es más fácil calcularlos cuando están agrupados en la misma área del espacio UV, en lugar de si están en extremos opuestos.
+Intenta mantener las Islas de UV vecinas en el espacio 3D unidas. Esto se aplica tanto al diseño del UDIM como al diseño del espacio UV clásico. Si tienen trazos de pintura o texturas compartidos, es más fácil calcularlos cuando están agrupados en la misma área del espacio UV, en lugar de si están en extremos opuestos.
 
-El motor de texturas funciona dividiendo una textura en fragmentos más pequeños para acelerar el cálculo. Esto significa que cada trazo solo actualiza los fragmentos que deben cambiarse, en lugar de actualizar toda la textura con cada trazo. Al mantener las Islas de UV vecinas cercanas entre sí, se minimiza el número de fragmentos que se verán afectados por un solo trazo.
+El motor de textura funciona dividiendo una textura en fragmentos más pequeños para acelerar el cálculo. Esto significa que cada trazo solo actualiza los fragmentos que deben cambiarse, en lugar de actualizar toda la textura con cada trazo. Al mantener las Islas de UV vecinas cercanas entre sí, se minimiza el número de fragmentos que se verán afectados por un solo trazo.
 
 +++
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/iray-renderer.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/iray-renderer.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar el procesador de Iray en Substance 3D Painter para crear previsualizaciones y procesamientos de materiales fotorrealistas.
 helpx_creative_field: ""
@@ -58,7 +58,7 @@ Iray utiliza un conjunto específico de parámetros, pero también propiedades c
 
 ## Configuración de pantalla
 
-La configuración de visualización le permite controlar la configuración de la cámara y de los efectos posteriores.\
+Los ajustes de Pantalla le permiten controlar la configuración de la cámara y de los efectos de posprocesamiento.\
 Son idénticos al procesamiento normal de la ventana gráfica, por lo que permiten estar sincronizados y evitar diferencias de iluminación no deseadas.
 
 Para obtener más información, consulte la página dedicada: [Configuración de pantalla](../../interface/display-settings/display-settings.md)

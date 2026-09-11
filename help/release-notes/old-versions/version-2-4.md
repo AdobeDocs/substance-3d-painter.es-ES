@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/old-versions/version-2-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2-4.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 2.4 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
 helpx_creative_field: ""
@@ -40,7 +40,7 @@ Para crear consultas avanzadas, consulte la parte dedicada de la documentación 
 
 Con el retrabajo de la estantería también **mejoramos la ventana de importación de recursos**. La ventana ahora es más coherente y se puede **llamar de tres formas diferentes**: a través del menú archivo, a través del botón de la ventana de la estantería o, como antes, arrastrando y soltando un recurso en la ventana de la estantería. La nueva ventana permite **establecer rápidamente el uso** de **varios recursos** a la vez, lo que significa que ya no tienes que arrastrar y soltar recursos en la ubicación correcta primero. También hemos agregado la posibilidad de **especificar una ruta de acceso personalizada** para crear subcarpetas con el fin de aprovechar la nueva vista de árbol.
 
-Para obtener más información, consulte la parte dedicada de la documentación : [Agregando recursos mediante la ventana de importación](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)
+Para obtener más información, consulte la parte dedicada de la documentación : [Agregando recursos mediante la ventana de importación](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)
 
 ### Nuevos ajustes preestablecidos de partículas
 

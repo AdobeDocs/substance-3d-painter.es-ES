@@ -2,7 +2,7 @@
 title: Destello de lente
 description: ''
 helpx_description: "Substance 3D Painter"
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/post-processing/lens-flare.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/lens-flare.html"
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
 workflow-type: tm+mt
 source-wordcount: '262'
@@ -30,4 +30,4 @@ Simula los defectos ópticos producidos cuando las fuentes de luz brillante inte
 | <b>smoothness de Oclusión</b> | Controla el grado de atenuación del destello de lente. Los valores más altos crean transiciones más suaves. |
 | <b>Fantasmas únicos</b> | Define la variación de las formas de destello. Los valores más altos pueden afectar significativamente al rendimiento. |
 | <b>Escala de posición de fantasma</b> | Controla la extensión y el tamaño de los reflejos fantasma de los destellos. |
-| <b>Textura de apertura</b> | Define la forma de la apertura de la lente utilizada para generar el patrón de destello. La textura controla la difracción y las formas fantasma. |
+| <b>textura de apertura</b> | Define la forma de la apertura de la lente utilizada para generar el patrón de destello. La textura controla la difracción y las formas fantasma. |

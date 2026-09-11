@@ -14,7 +14,7 @@ ht-degree: 1%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_3d_distance.webp" alt=""/><br><strong>En:</strong> máscara, generador</td>
-    <td style="border: 0;" valign="top"><strong>Descripción</strong><br>El generador de distancia 3D define un punto en el espacio 3D (punto de origen) y muestra la distancia desde ese punto con un degradado monocromo. Las áreas de la superficie de la malla más cercanas al punto son más oscuras y las más alejadas son más claras (de forma predeterminada).<br><br>Se requiere un mapa de posición al horno como entrada de imagen. <a href="../../../baking/baking.md">Obtén más información sobre el horneado aquí</a>.<br><br>La distancia 3D produce una textura monocromática (en blanco y negro). Por lo tanto, resulta útil para generar máscaras que creen un degradado lejos de una posición determinada.<br><br></td>
+    <td style="border: 0;" valign="top"><strong>Descripción</strong><br>El generador de distancia 3D define un punto en el espacio 3D (punto de origen) y muestra la distancia desde ese punto con un degradado monocromo. Las áreas de la superficie de la malla más cercanas al punto son más oscuras y las más alejadas son más claras (de forma predeterminada).<br><br>Se requiere un mapa de posición hecho un bake como entrada de imagen. <a href="../../../baking/baking.md">Obtenga más información sobre cómo hacer un bake aquí</a>.<br><br>La distancia 3D genera una textura monocromática (en blanco y negro). Por lo tanto, resulta útil para generar máscaras que creen un degradado lejos de una posición determinada.<br><br></td>
   </tr>
 </table>
 
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 | Nombre de entrada | Descripción |
 | --- | --- |
-| **Posición** | Utilice el mapa de posición al horno para calcular la distancia. |
+| **Posición** | Utilice el mapa de posición hecha un bake para calcular la distancia. |
 
 ## Parámetros
 

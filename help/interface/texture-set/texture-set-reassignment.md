@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/texture-set/texture-set-reassignment.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/texture-set/texture-set-reassignment.html"
 breadcrumb-title: ''
 description: Aprenda a reasignar conjuntos de texturas en Substance 3D Painter para reorganizar las asignaciones de mallas y la asignación de texturas.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![](../../assets/txtset-reassignment-window.png)
 
-La ventana Reasignación de conjunto de texturas permite cambiar la asignación de la pila de capas a una parte diferente de la malla de la escena. Esto resulta útil, por ejemplo, después de importar una nueva malla a un proyecto existente en el que algunos conjuntos de texturas se desactivan. Esto sucede porque la pila de capas se ha asignado a un material que ya no existe. Con la ventana de reasignación es posible recuperar esa pila de capas (consulte &quot;Restauración de conjuntos de texturas desactivados&quot; a continuación).
+La ventana Reasignación de conjunto de texturas permite cambiar la asignación de pila de capas a una parte diferente de la malla de la escena. Esto resulta útil, por ejemplo, después de importar una nueva malla a un proyecto existente en el que algunos conjuntos de texturas se desactivan. Esto sucede porque la pila de capas se asignó a un material que ya no existe. Con la ventana de reasignación es posible recuperar esa pila de capas (consulte &quot;Restauración de conjuntos de texturas desactivados&quot; a continuación).
 
 Para acceder a la ventana Reasignación de conjuntos de texturas, ve a la ventana [Lista de conjuntos de texturas](texture-set-list.md) y elige **Configuración > Reasignar conjuntos de texturas**.
 

@@ -30,4 +30,4 @@ Cuanto mejor sea el objetivo de la cámara, menos se producirán estos fenómeno
 | **Potencia** | Controla la velocidad con la que se aplica la distorsión desde los bordes de la pantalla. |
 | **FOV** | Controla la cantidad de distorsión de la lente (campo de visión simulado). |
 | **Redondez de borde** | Controla la forma redonda en los bordes o en la ventana gráfica. |
-| **Smoothness Edge** | Controla la dureza o el smoothness de los bordes negros de la ventana gráfica. |
+| **Suavizado de bordes** | Controla la dureza o el smoothness de los bordes negros de la ventana gráfica. |

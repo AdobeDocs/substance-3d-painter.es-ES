@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/version-9-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-9-0.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 9.0 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Versión 9.0
 
-<b>Substance 3D Painter 9.0</b> presenta una nueva forma de pintar trazos con una ruta reeditable en la ventana gráfica 3D, así como contenido predeterminado actualizado.
+<b>Substance 3D Painter 9.0</b> presenta una nueva forma de pintura de trazos con una ruta reeditable en la ventana gráfica 3D, así como contenido predeterminado actualizado.
 
 Fecha de publicación: *20 de junio de 2023*
 
@@ -30,9 +30,9 @@ Fecha de publicación: *20 de junio de 2023*
 
 ![Primer plano de un zapato de cuero con una ruta dibujada en la parte superior con su IU auxiliar](../assets/v90_banner_path.jpg)
 
-La herramienta <b>Pintar a lo largo del trazado</b> es una nueva forma de pintar trazos en la ventana gráfica 3D. De forma similar a otras aplicaciones, puede crear curvas basadas en Bézier gobernadas por puntos en la superficie del objeto 3D para dibujar patrones. Combinada con materiales Substance, esta nueva herramienta puede abrir muchas posibilidades nuevas.
+La herramienta <b>Pintura a lo largo de la ruta</b> es una nueva forma de pintura de trazos en la ventana gráfica 3D. De forma similar a otras aplicaciones, puede crear curvas basadas en Bézier gobernadas por puntos en la superficie del objeto 3D para dibujar patrones. Combinada con materiales Substance, esta nueva herramienta puede abrir muchas posibilidades nuevas.
 
-* <b>Nueva herramienta para crear trazos de pintura guiados por un trazado con puntos</b>\
+* <b>Nueva herramienta para crear trazos de pintura gobernados por una ruta con puntos</b>\
   En la barra de herramientas de la herramienta hay un nuevo icono dedicado a la herramienta Trazado. Esta nueva herramienta permite dibujar curvas en la superficie del modelo 3D para crear trazos de pintura. Estos trazos siempre se pueden volver a editar. Cuando la herramienta esté activa, simplemente haga clic en la superficie de la malla para añadir un punto. Haga clic en un punto existente y pulse Supr para quitarlo.
 
   ![Captura de pantalla de la interfaz de la barra de herramientas que muestra los 3 tipos de herramientas de ruta.](../assets/v90_path_toolbar.png)
@@ -49,19 +49,19 @@ La herramienta <b>Pintar a lo largo del trazado</b> es una nueva forma de pintar
 
   ![Gif muestra una ruta cerrada para dibujar remaches en una superficie mecánica](../assets/v90_path_closed_loop_demo.gif)
 * <b>Volver a editar rutas (y sus propiedades) con el panel Ruta</b>\
-  Cuando se selecciona la herramienta Trazado, el trazado realizado dentro de la capa de pintura actual se muestra en el panel Trazado dedicado en la parte superior de la ventana gráfica 3D. Este panel permite seleccionar, eliminar o cambiar el nombre de un trazado a
+  Cuando se selecciona la herramienta Trazado, el trazado realizado en la capa de pintura actual se muestra en el panel Trazado dedicado en la parte superior de la ventana gráfica 3D. Este panel permite seleccionar, eliminar o cambiar el nombre de un trazado a
 
   ![Gif que muestra el panel de ruta en acción](../assets/v90_path_panel_demo.gif)
 
   ![Cuadrícula que muestra las propiedades de la ruta que se modifican](../assets/v90_path_edit_properties.gif)
-* <b>Compatible con otras funciones de pintura como simetría, máscara de geometría, trazos dinámicos, etc.</b>\
-  Con la herramienta Trazado se pueden utilizar muchos ajustes de los trazos de pintura normales:
+* <b>Compatible con otras características de pintura como simetría, máscara de geometría, trazos dinámicos, etc.</b>\
+  Con la herramienta de trazado se pueden utilizar muchos ajustes de trazos de pintura normales:
 
-  * La activación de la simetría permite dibujar un trazado varias veces mientras se administra uno solo.
-  * Los trazados que se encuentran en una capa con una máscara de geometría activada pueden pintar bajo geometría oculta
+  * La activación de la simetría permite dibujar un trazado varias veces mientras se gestiona solo uno.
+  * Los trazados que se encuentran en una capa con una máscara de geometría activada pueden realizar una pintura en geometría oculta
 
   ![Gif muestra una ruta que se ahoga dos veces con la ayuda de la propiedad de simetría](../assets/v90_path_symmetry.gif)
-* <b>Pinta con otras herramientas como Borrador o Difuminado</b>\
+* <b>Pintura con otras herramientas como Borrador o difuminado</b>\
   La herramienta Trazado también es compatible con las herramientas Borrador y Difuminado, lo que permite descubrir formas más avanzadas de pintar y combinar trazos con la forma fácil y reeditable de manipular los puntos de trazado.
 
   ![Cuadrícula que muestra un punto de ruta que se está moviendo y que actualiza el efecto de difuminado](../assets/v90_path_smudge.gif)
@@ -73,11 +73,11 @@ La herramienta <b>Pintar a lo largo del trazado</b> es una nueva forma de pintar
 >
 > Para obtener más información, consulte la [documentación dedicada](../painting/tool-list/path.md).
 
-### Nuevo contenido para utilizar con la función de pintura en trazado
+### Nuevo contenido para usar con la función pintura a lo largo del trazado
 
 ![Imagen que muestra una sudadera con capucha con diferentes tipos de pinceladas de puntada utilizadas en ella.](../assets/v90_banner_content_path.jpg)
 
-En esta versión se han incluido algunos ajustes preestablecidos de herramientas nuevas para aprovechar la nueva función de pintar a lo largo del trazado:
+En esta versión se han incluido algunos ajustes preestablecidos de herramientas nuevas para aprovechar la nueva función de pintura a lo largo del trazado:
 
 * Pipe Rack Sci-Fi
 * Vómito
@@ -90,7 +90,7 @@ En esta versión se han incluido algunos ajustes preestablecidos de herramientas
 
 ![Imagen que muestra un ejemplo del nuevo ajuste preestablecido de soldadura](../assets/v90_path_welding_demo.jpg)
 
-### Trazos dinámicos mejorados para la función de pintura a lo largo del trazado
+### Trazos dinámicos mejorados para la pintura a lo largo de la función de trazado
 
 ![Imagen que muestra un trazo de ruta que parece una flecha con una forma redonda como inicio y la punta de flecha como final.](../assets/v90_banner_dyn_strokes.jpg)
 
@@ -129,7 +129,7 @@ Para descubrir y aprender sobre la nueva herramienta de trazado, echa un vistazo
 ### 9.0.0
 
 Fecha de publicación: <b>2023/06/20</b>\
-Resumen: <b>Versión principal con Paint along path que permite curvas 3D, nuevos materiales base y la limpieza de materiales heredados y nuevos ajustes preestablecidos para curvas 3D</b>
+Resumen: <b>Versión principal con Pintura a lo largo de la ruta que permite curvas 3D, nuevos materiales base y la limpieza de materiales heredados y nuevos ajustes preestablecidos para curvas 3D</b>
 
 <b>Agregado:</b>
 
@@ -167,9 +167,9 @@ Resumen: <b>Versión principal con Paint along path que permite curvas 3D, nuevo
 * [Trazos dinámicos] Agregar propiedad de distancia para trazos dinámicos
 * [Trazos dinámicos] Añadir propiedades de tamaño y espaciado a los trazos dinámicos
 * [Trazos dinámicos] Agregar propiedad de inicio/centro/fin para trazos dinámicos
-* [Python]&#x200B;[USD] Exponer los parámetros de configuración del proyecto para el formato USD
-* [Python]&#x200B;[USD] Exponer parámetros de creación de proyectos para el formato USD
-* [Export]&#x200B;[USD] Añadir información de la ruta del proyecto dentro del archivo USD exportado
+* [Python][USD] Exponer los parámetros de configuración del proyecto para el formato USD
+* [Python][USD] Exponer parámetros de creación de proyectos para el formato USD
+* [Export][USD] Añadir información de la ruta del proyecto dentro del archivo USD exportado
 * [GLTF] Actualización de texturas en la biblioteca al volver a cargar un archivo GLTF
 * [Sombreado] Reducir los defectos de costura de las Islas de UV con diferentes orientaciones
 * [Motor] Actualice a la versión 9.0 del motor de Substance

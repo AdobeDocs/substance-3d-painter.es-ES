@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/error-there-is-no-disk-in-the-drive.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/error-there-is-no-disk-in-the-drive.html"
 breadcrumb-title: ''
 description: Obtenga información sobre cómo solucionar el error "No hay ningún disco en la unidad" en Substance 3D Painter para el acceso a archivos y la carga de proyectos adecuados.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/old-versions/version-7-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-7-4.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 7.4 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
 helpx_creative_field: ""
@@ -43,7 +43,7 @@ Este nuevo flujo de trabajo permite gestionar y calibrar los colores desde la im
 * **Configuración de visualización del área de visualización**\
   En la parte superior de las vistas 2D y 3D hay dos controles para la gestión de color:\
   **Botón Color**: active o desactive la transformación de color de la ventana gráfica.\
-  **Menú desplegable de transformación de visualización**: seleccione qué transformación de visualización desea utilizar para convertir los colores.
+  **Mostrar lista desplegable transformar**: seleccione qué pantalla transformar para utilizar para convertir los colores.
 
   ![](../../assets/cm-viewport.jpg){width="500px"}
 
@@ -76,7 +76,7 @@ Este nuevo flujo de trabajo permite gestionar y calibrar los colores desde la im
 
 ![](../../assets/banner-undock.jpg)
 
-Las vistas 2D y 3D ahora se pueden desacoplar para moverlas a otro lugar. Por ejemplo, teniendo la vista 3D en una pantalla principal mientras la vista 2D se encuentra en otra pantalla.
+Las vistas 2D y 3D ahora se pueden desacoplar para moverlas a otro lugar. Por ejemplo, teniendo la vista 3D en una pantalla principal mientras el Vista 2D está en otra pantalla.
 
 Trabajar con una vista desacoplada es más fácil para organizar el diseño de la aplicación y estar al tanto de las cosas sin perder demasiada área de pintura.
 
@@ -91,7 +91,7 @@ Trabajar con una vista desacoplada es más fácil para organizar el diseño de l
   ![](../../assets/swap-undock.gif){width="500px"}
 
 * **Compatible con la administración de color**\
-  La vista desacoplada tiene su propia transformación de visualización de gestión de color, lo que facilita su administración en diferentes monitores.
+  La vista no acoplada tiene su propio transforme de visualización de gestión de color, lo que facilita la gestión en diferentes monitores.
 
   ![](../../assets/false-colors-undock.jpg){width="500px"}
 
@@ -131,9 +131,9 @@ Se ha añadido un nuevo conjunto de activos al contenido predeterminado disponib
     * Inflar Encoger/Envolver
 
 * Nuevos mapas de bits de suciedades (de **Emiel Sleegers**):
-  * Suciedad Yeso de pintura
+  * Suciedad Pintura de yeso
   * Yeso de suciedad descolorido
-  * Pintura suciedad pelada
+  * Pintura de suciedad pelada
   * Humedad de la suciedad
   * Pelusa de suciedad
   * Suciedad Cobweb
@@ -161,7 +161,7 @@ A continuación se muestra un ejemplo de esta nueva configuración sin usarla fr
 
 La API de Python tiene un nuevo método que permite llamar a la API de Javascript.
 
-Este nuevo método facilita la migración de complementos antiguos a la nueva API de Python. También desbloquea algunas características como la administración de **Baking** y **Shader** que aún no se han expuesto en Python.
+Este nuevo método facilita la migración de complementos antiguos a la nueva API de Python. También desbloquea algunas características como la administración de **Hacer un bake** y **Sombreador** que aún no se han expuesto en Python.
 
 Para ejecutar un comando Javascript desde Python, use la función **evaluation()** del nuevo submódulo **js**. Puede encontrar más información en la documentación de la API (disponible a través del menú Ayuda de la aplicación).
 
@@ -193,7 +193,7 @@ Para ejecutar un comando Javascript desde Python, use la función **evaluation()
 * [Gestión de color] Desactivar el menú desplegable de visualización del selector de color para canales de datos
 * [Optimización] La cuadrícula de deformación vuelve a calcular únicamente los mosaicos UV cubiertos
 * [Exportar] Permite exportar proyectos de azulejo UV para Sketchfab, USD y glTF
-* [Scripting]&#x200B;[Python] Permitir el cambio de la función de asignación de tonos
+* [Scripting][Python] Permitir el cambio de la función de asignación de tonos
 
 **Corregido:**
 
@@ -210,7 +210,7 @@ Para ejecutar un comando Javascript desde Python, use la función **evaluation()
 * [Gestión de color] El asignador de tonos ACES se aplica a los canales en modo solo
 * [Gestión de color] La previsualización de la iluminación de la esfera de la herramienta no está gestionada por color
 * [Administración de color] [Exportar] Los mapas convertidos aplican una conversión incorrecta
-* [Scripting]&#x200B;[Python]&#x200B;[Gestión de color] Los proyectos creados con plantillas y variables de entorno OCIO están en modo heredado
+* [Scripting][Python][Gestión de color] Los proyectos creados con plantillas y variables de entorno OCIO están en modo heredado
 * [Scripting] [Python] No se puede utilizar la función de evaluación de JavaScript al inicio
 * [Oferta de Adobe 3D] No se puede iniciar Painter si se utiliza la configuración regional con idiomas no admitidos de forma predeterminada
 
@@ -232,7 +232,7 @@ Para ejecutar un comando Javascript desde Python, use la función **evaluation()
 * [Gestión de color] Expanda la sección Gestión de color de forma predeterminada cuando OCIO está seleccionado en las nuevas ventanas de configuración de proyecto y proyecto
 * [Gestión de color] Añadir ACES a un asignador en modo heredado
 * [Gestión de color] Ajustar los valores de configuración predeterminados
-* [Gestión de color]&#x200B;[Exportar] Rellenar $colorSpace en nombres de archivo para canales de datos
+* [Gestión de color][Exportar] Rellenar $colorSpace en nombres de archivo para canales de datos
 * [Exportar] Exportar proyecto de azulejo UV a Stager
 * [Interoperabilidad] No disponible para las ediciones Steam y Substance
 * [Interoperabilidad] Permitir el envío de un proyecto de mosaico UV a Stager
@@ -272,7 +272,7 @@ Para ejecutar un comando Javascript desde Python, use la función **evaluation()
 * [Gestión de color] Extraer nombre de espacio de color del nombre de archivo de mapa de bits importado
 * [Gestión de color] Permita anular el espacio de color con un espacio de color desde la configuración de la ventana Propiedades
 * [Gestión de color] Añadir opciones de gestión de color en Configuración del conjunto de texturas
-* [Gestión de color]&#x200B;[Ventana] Permitir la gestión de color de vistas 2D y 3D por separado
+* [Gestión de color][Ventana] Permitir la gestión de color de vistas 2D y 3D por separado
 * [Gestión de color] Cargar y convertir mapa de entorno en el espacio de color de trabajo
 * [Gestión de color] Ajuste el selector de color y el editor con el espacio de color actual
 * [Gestión de color] Permite seleccionar el espacio de color de transformación de visualización en la ventana gráfica con un nuevo menú desplegable.
@@ -283,7 +283,7 @@ Para ejecutar un comando Javascript desde Python, use la función **evaluation()
 * [Auto Unwrap] Nueva opción para evitar islas alargadas
 * [Scripting Python] Llamar a funciones de JavaScript desde la API de Python
 * [Nueva ventana de proyecto] Hacer que la sección de mapas importados sea contraíble
-* [Proyección]&#x200B;[Deformar] Permite ocultar las normales como una opción en los ajustes de Deformación
+* [Proyección][Deformar] Permite ocultar las normales como una opción en los ajustes de Deformación
 * [Contenido] 11 nuevos mapas de suciedades
 * [Contenido] 8 nuevos ajustes preestablecidos de herramientas (cremallera, cordón de apriete, brillo)
 * [Contenido] 8 materiales nuevos (cicatriz, bolsillo, ...)

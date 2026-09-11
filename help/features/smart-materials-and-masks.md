@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/smart-materials-and-masks.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/smart-materials-and-masks.html"
 breadcrumb-title: ''
-description: Aprende a usar materiales y máscaras inteligentes en Substance 3D Painter para crear texturas de procedimiento que se adapten a la geometría.
+description: Aprende a usar materiales inteligentes y máscaras en Substance 3D Painter para crear texturas procedimientas que se adapten a la geometría.
 helpx_creative_field: ""
 helpx_description: Painter > Features > Smart Materials and Masks
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Materiales y máscaras inteligentes
+title: Materiales inteligentes y máscaras
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,44 +18,44 @@ ht-degree: 0%
 ---
 
 
-# Materiales y máscaras inteligentes
+# Materiales inteligentes y máscaras
 
 Substance 3D Painter admite el uso de **ajustes preestablecidos de capa** avanzados. Estos ajustes preestablecidos se pueden usar para **compartir rápidamente entre** conjuntos de texturas o proyectos, un **proceso de texturizado similar** mientras se mantienen los resultados diferentes, **adaptados a la topología de malla** .
 
 >[!NOTE]
 >
-> Tenga en cuenta que, una vez añadido en la pila de capas, no hay forma de recuperar qué material inteligente se utilizó. En caso de que sea necesario actualizar un material inteligente, el proceso deberá realizarse manualmente.\
+> Tenga en cuenta que una vez añadido en la pila de capas, no hay forma de recuperar qué material inteligente se utilizó. En caso de que sea necesario actualizar un material inteligente, el proceso deberá realizarse manualmente.\
 > Sin embargo, los recursos individuales se pueden actualizar con [Resources Updater](plugins/resources-updater.md) .
 
-## ¿Cómo se usan los materiales/máscaras inteligentes?
+## ¿Cómo se usan Materiales inteligentes/máscaras?
 
-Los materiales inteligentes se pueden usar en cualquier parte de la pila de capas, mientras que las máscaras inteligentes solo se pueden usar en la pila de efectos.\
+Los materiales inteligentes se pueden utilizar en cualquier lugar de la pila de capas, mientras que las máscaras inteligentes solo se pueden utilizar en la pila de efectos.\
 Para obtener más información sobre las diferencias, consulte : [Pila de capas](../interface/layer-stack/layer-stack.md) y [Efectos](effects/effects.md)
 
-### Adición de un material inteligente
+### Añadir un Material inteligente
 
-Los materiales inteligentes se pueden añadir de dos formas diferentes:
+Los materiales inteligentes se pueden agregar de dos formas diferentes:
 
-* Arrastrando y soltando materiales inteligentes del estante en la pila de capas :\
+* Arrastrando y soltando un material inteligente del estante en la pila de capas :\
   ![](../assets/sm-drop.gif)
-* Al hacer clic en el botón Smart Material para abrir una miniestantería :\
+* Haciendo clic en el botón del Material inteligente para abrir una mini-estantería :\
   ![](../assets/sm-button.gif)
 
-### Adición de una máscara inteligente
+### Añadir una Máscara inteligente
 
-Dado que las máscaras inteligentes son ajustes preestablecidos de efectos, solo se pueden añadir a pilas de efectos (para máscaras específicas).
+Dado que las Máscaras inteligentes son ajustes preestablecidos de efectos, solo se pueden añadir a pilas de efectos (para máscara específicamente).
 
-* Para añadir máscaras inteligentes, solo **arrastra y suelta** una desde la estantería a la capa **target** :\
+* Para añadir una Máscara inteligente, solo tienes que **arrastrar y soltar** una desde el estante a la capa **target** :\
   ![](../assets/smm-drop.gif)
-* Si arrastras y sueltas **varias** máscaras inteligentes, se acumularán :\
+* Si arrastras y sueltas **varias** Máscaras inteligentes, se acumularán :\
   ![](../assets/smm-drop-accum.gif)
 * Sin embargo, es posible **reemplazar** toda la pila de efectos presionando **CTRL** durante el arrastrar y soltar :\
   ![](../assets/smm-drop-replace.gif)
 
-### ¿Cómo se crean materiales/máscaras inteligentes?
+### ¿Cómo se crean Materiales inteligentes/máscaras?
 
-Para crear materiales inteligentes, se requiere una **carpeta**.\
-El contenido de los materiales inteligentes se incluirá en la carpeta. A continuación, solo tienes que hacer clic con el botón derecho en la carpeta y seleccionar &quot;**Crear material inteligente**&quot;. A continuación, el material inteligente se añadirá al estante actual y se le asignará un nombre según la carpeta seleccionada.
+Para crear Materiales inteligentes, se requiere una **carpeta**.\
+El contenido de los Materiales inteligentes se incluirá en la carpeta. A continuación, solo tiene que hacer clic con el botón derecho en la carpeta y seleccionar &quot;**Crear material inteligente**&quot;. El Material inteligente se añadirá al estante actual y se le asignará un nombre según el que se haya seleccionado.
 
 ![](../assets/create-sm.png)
 
@@ -63,7 +63,7 @@ Para crear una máscara inteligente, simplemente haz clic con el botón derecho 
 
 ![](../assets/create-smm.png)
 
-## ¿Cómo compartir/recuperar un material/máscara inteligente?
+## ¿Cómo compartir/recuperar un material inteligente/máscara?
 
 Los ajustes preestablecidos se guardan **en el disco** y se pueden recuperar de su carpeta dedicada.\
 Para encontrar la **ubicación del estante**, consulte : [Agregando contenido al disco duro](../content/importing-assets/adding-content-on-the-hard-drive.md) .

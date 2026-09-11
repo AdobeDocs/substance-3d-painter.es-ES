@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/version-10-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-10-0.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 10.0 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ Fecha de publicación: *16 de mayo de 2024*
 
 ![](../assets/v10_banner_text-1.jpg)
 
-Esta nueva versión presenta el <b>recurso de texto</b>, que es una forma de cargar archivos de fuentes para escribir texto en diferentes contextos (pincel, proyección de relleno, entradas de imágenes de Substance, etc.) para embellecer tus texturas.
+Esta nueva versión presenta el <b>recurso de texto</b>, que es una forma de cargar archivos de fuentes para escribir texto en diferentes contextos (pincel, proyección de relleno, entradas de imágenes de Substance, etc.) para embellecer sus texturas.
 
 * <b>Examine las fuentes en la ventana Activos</b>\
   Las fuentes ahora se muestran en la ventana Activos bajo su propio filtro. Se recopilan desde diferentes ubicaciones del sistema operativo (y también desde las bibliotecas).
@@ -112,7 +112,7 @@ Hay disponible una nueva ventana que incrusta el sitio web de Substance 3D Asset
 
 ![](../assets/v10_banner_python-1.jpg)
 
-En esta versión, se añade el nuevo módulo de pila de capas a nuestra API de Python. Esta API permite controlar la pila de capas de un proyecto, lo que abre la puerta a la creación de complementos de pila de capas avanzados y herramientas personalizadas.
+En esta versión, se añade el nuevo módulo de pila de capas a nuestra API de Python. Esta API permite controlar la pila de capas de un proyecto, lo que abre la puerta a la creación de plugins de pila de capas avanzada y herramientas personalizadas.
 
 * <b>Nueva API de pila de capas</b>\
   El nuevo módulo <b>layerstack</b> permite controlar la pila de capas de un proyecto de muchas maneras. Puede:
@@ -123,9 +123,9 @@ En esta versión, se añade el nuevo módulo de pila de capas a nuestra API de P
   * Obtenga y establezca parámetros de capas y efectos, y cargue recursos en ellos.
   * Obtenga y establezca los parámetros del Substance.
 * <b>Modificaciones de ámbito y pausa del motor</b>\
-  La manipulación de la pila de capas podría llevar a cálculos largos, por lo que también exponemos la posibilidad de pausar y anular la pausa del motor desde la API (como en la interfaz de usuario). También hemos hecho posible agrupar las modificaciones, tanto por motivos de rendimiento como para deshacer varias operaciones una sola vez.
+  La manipulación de la pila de capas podría llevar a cálculos largos, por lo que también exponemos la posibilidad de pausar y detener la pausa del motor desde la API (como en la IU). También hemos hecho posible agrupar las modificaciones, tanto por motivos de rendimiento como para deshacer varias operaciones una sola vez.
 * <b>Administración de color básica</b>\
-  Con la exposición de la pila de capas, necesitábamos introducir la noción de gestión de color en nuestra API. Se ha agregado un nuevo módulo <b>colormanagement</b> para crear, ajustar colores y elegir el espacio de color de los mapas de bits. (Esta parte de la API aún no está completa y se ampliará en futuras versiones).
+  Con la exposición de la pila de capas que necesitábamos para introducir la noción de gestión de color en nuestra API. Se ha agregado un nuevo módulo <b>colormanagement</b> para crear, ajustar colores y elegir el espacio de color de los mapas de bits. (Esta parte de la API aún no está completa y se ampliará en futuras versiones).
 * <b>Consultar información de ajuste preestablecido de exportación</b>\
   Los ajustes preestablecidos de exportación ahora se muestran en nuestra API, lo que permite consultar la lista de ajustes preestablecidos (predefinidos y personalizados). Su contenido también se puede recuperar en un formato similar a nuestra API de texturas de exportación existente.
 * <b>Nuevas posibilidades por delante!\
@@ -141,11 +141,11 @@ En esta versión, se añade el nuevo módulo de pila de capas a nuestra API de P
 >
 > En nuestra [documentación en línea](https://adobedocs.github.io/painter-python-api/) encontrará ejemplos de complementos de pila de capas.
 
-### Pintura normal de mapas mejorada
+### Pintura de mapa de normales mejorada
 
 ![](../assets/v10_banner_flow-1.jpg)
 
-En esta versión, hemos vuelto a trabajar con el flujo de trabajo normal de pintura de mapas. Hemos cambiado significativamente la forma en que acumulamos y mezclamos los sellos de pincel normales. Estos cambios se realizaron para solucionar problemas relacionados con la pintura de mapas de flujo.
+En esta versión, hemos modificado el flujo de trabajo de mapa de normales. Hemos cambiado significativamente la forma en que acumulamos y mezclamos los sellos de pincel normales. Estos cambios se realizaron para solucionar problemas relacionados con la pintura de mapas de flujo.
 
 * <b>Problema de acumulación corregido</b>\
   Pintar una y otra vez un área en el canal normal ya no saturará ni se agarrará y creará agujeros o artefactos. Ya no es necesario cambiar el canal normal al RGB 32F.
@@ -164,14 +164,14 @@ En esta versión, hemos vuelto a trabajar con el flujo de trabajo normal de pint
 >
 > Para obtener más información sobre cómo pintar el mapa de flujo, consulte la [página de documentación](../painting/advanced-channel-painting/flow-map-painting.md).
 
-### Manipuladores de transformación mejorados
+### Manipuladores transformados mejorados
 
 ![](../assets/v10_banner_transform_v2-1.jpg)
 
-Se han realizado varias mejoras para mejorar el uso de los manipuladores de transformación.
+Se han realizado varias mejoras para mejorar el uso de los manipuladores de transformo.
 
 * <b>Modo de precisión con CTRL</b>\
-  Al pulsar el control mientras se arrastra un manipulador, se entra ahora en un nuevo modo de precisión que permite operaciones más meticulosas. Este cambio se aplica a los manipuladores de translación, rotación y escala.\
+  Al presionar el control mientras se arrastra en un manipulador, ahora se entra en un nuevo modo de precisión que permite operaciones más meticulosas. Este cambio se aplica a los manipuladores de translación, rotación y escala.\
   A continuación se muestra un ejemplo antes y después de presionar CTRL mientras se arrastra:
 
   ![](../assets/v10_ctrl_precise_mode.gif)
@@ -180,8 +180,8 @@ Se han realizado varias mejoras para mejorar el uso de los manipuladores de tran
   Otro cambio es reducir la escala hasta que 0 ya no entre en valores negativos. Esto evita el problema de querer reducir la escala de una proyección y darle la vuelta por accidente.
 
   ![](../assets/v10_translate_new.gif)
-* <b>Rotación mejorada del manipulador de superficies</b>\
-  El manipulador de calcomanías de superficie ahora es mucho más estable al arrastrar alrededor de una superficie. No aumenta su rotación cuando se realizan traducciones de ida y vuelta.\
+* <b>Rotación mejorada del manipulador de superficie</b>\
+  El manipulador de pegatinas de superficie ahora es mucho más estable al arrastrar alrededor de una superficie. No aumenta su rotación cuando se realizan traducciones de ida y vuelta.\
   Este es el <b>comportamiento antiguo</b> comparado con el <b>nuevo</b>:
 
   ![](../assets/v10_decal_old.gif)
@@ -201,7 +201,7 @@ Se han añadido otras mejoras, en particular:
 * <b>Se han corregido problemas de bandas/calidad en algunos filtros</b>\
   Se bloquearon varios filtros con una precisión de 8 bits en lugar de 16 bits, lo que provoca bandas o defectos al usarlos (como el análisis de histograma o el desenfoque direccional). Esto se ha solucionado.
 * <b>Espacio de color en la salida SBSAR</b>\
-  Cuando se habilita el flujo de trabajo de administración de color heredado u OCIO, la exportación SBSAR ahora hará referencia a los nombres de espacio de color utilizados en el proyecto en los resultados respectivos.
+  Cuando se habilita el flujo de trabajo de administración de color heredado o OCIO, la exportación SBSAR ahora hará referencia a los nombres de espacio de color utilizados en el proyecto en los resultados respectivos.
 * <b>Descubrimiento de recursos más rápido</b>\
   Con la introducción del <b>recurso de texto</b>, hemos añadido una nueva caché para agilizar el rastreo de recursos en el disco en el siguiente inicio. Esto es bastante notable cuando los recursos se instalan en un disco duro o cuando una biblioteca tiene gigabytes de recursos. Esta nueva caché se puede deshabilitar con una línea de comandos. Consulte la [página de documentación](../pipeline-and-integration/configuration/command-lines.md) dedicada para obtener más información.
 
@@ -228,20 +228,20 @@ Resumen: <b>Versión principal, edición de la pila de capas con la API de Pytho
 * [Illustrator] Uso de archivos de Illustrator con mesas de trabajo en Painter
 * [Illustrator] [SVG] Añadir vistas previas en la selección de ámbito
 * [Substance 3D Assets] Busque, seleccione y descargue contenidos 3D directamente en Painter
-* [Substance 3D Assets]&#x200B;[UI] Nuevo panel
+* [Substance 3D Assets][UI] Nuevo panel
 * [Substance 3D Assets] Mapas y materiales del entorno de apoyo
 * [Substance 3D Assets] Permite volver a cargar, navegar y abrir la carpeta de ubicación en el nuevo panel Substance 3D Assets.
 * [Substance 3D Assets] Adición de un gestor de descargas
 * [Recurso de texto] Permitir el uso de fuentes incrustables
 * [Recurso de texto] Permitir procesar una fuente/texto en una malla
 * [Recurso de texto] Visualización de fuentes del usuario y otras rutas compartidas en el panel Activos con una nueva categoría
-* [Recurso de texto]&#x200B;[Propiedades] Añadir compatibilidad con propiedades de fuentes avanzadas
+* [Recurso de texto][Propiedades] Añadir compatibilidad con propiedades de fuentes avanzadas
 * [Recurso de texto] Permitir buscar/ver fuentes en miniestantes
 * [Recurso de texto] Añadir mensaje/cuadro de diálogo de error al importar una fuente incompatible
 * Miscelánea
-* [Proyección de relleno] Mejora el comportamiento del manipulador Escala al utilizar valores pequeños
-* [Manipuladores] Añadir nuevo modo preciso al pulsar el método abreviado de CTRL
-* [Manipuladores] Mejorar la estabilidad del manipulador de superficies al traducir
+* [Proyección de relleno] Mejora el comportamiento del manipulador de escala al utilizar valores pequeños
+* [Manipuladores] Añadir nuevo modo preciso al pulsar el método abreviado CTRL
+* [Manipuladores] Mejora la estabilidad del manipulador de superficie al trasladar
 * [Exportar] Añadir nombre de espacio de color en salidas SBSAR
 * [Rendimiento] Mejora el tiempo de detección de activos en la biblioteca en el disco
 * [Substance] Actualización al motor de Substance versión 9.1.2
@@ -251,8 +251,8 @@ Resumen: <b>Versión principal, edición de la pila de capas con la API de Pytho
 * [Python] Permitir obtener/definir modos de fusión de capas
 * [Python] Permitir obtener o establecer la configuración de proyección de la capa de relleno
 * [Python] Permitir consultar el color de material de Substance desde una capa de relleno
-* [Python] Permite consultar y establecer colores y recursos uniformes en capas y efectos
-* [Python] Permita crear y editar recursos de texto en la pila de capas
+* [Python] Permite consultar y establecer colores uniformes y recursos en capas y efectos
+* [Python] Permita crear y editar recursos de texto en pila de capas
 * [Python] Permite editar canales activos en capas y efectos
 * [Python] Permitir que las acciones por lotes tengan una sola acción de deshacer/rehacer
 * [Python] Permita cargar o editar parámetros de origen vectoriales
@@ -298,8 +298,8 @@ Resumen: <b>Versión principal, edición de la pila de capas con la API de Pytho
 <b>Problemas conocidos</b>:
 
 * [Gestión de color] Las conversiones de espacio de color HDR con ACE en Linux producen colores con sujeción
-* [Crash]&#x200B;[Linux]&#x200B;[AMD] Arrastre y colocación de recursos en la pila de capas del sistema operativo Wayland
-* [Regresión]&#x200B;[UI] El menú contextual es demasiado pequeño en pantallas HD
+* [Crash][Linux][AMD] Arrastre y colocación de recursos en la pila de capas del sistema operativo Wayland
+* [Regresión][UI] El menú contextual es demasiado pequeño en pantallas HD
 * [Bloqueo] [Python] Exportación de USD desencadenada por TextureStateEvent
 * [Guardar] El archivo de proyecto de Spp se pierde cuando falla &quot;guardar como&quot;
 * [MacOS Intel] Bloqueo al importar algunos ajustes preestablecidos

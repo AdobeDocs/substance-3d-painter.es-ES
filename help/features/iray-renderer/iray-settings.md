@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/iray-renderer/iray-settings.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/iray-renderer/iray-settings.html"
 breadcrumb-title: ''
 description: Aprenda a configurar los ajustes del procesador de Iray en Substance 3D Painter para controlar la calidad y el rendimiento del procesamiento.
 helpx_creative_field: ""
@@ -39,7 +39,7 @@ En la parte superior de la ventana se muestra el estado de Israel junto con otra
 >[!NOTE]
 >
 > El número de iteraciones definirá la calidad final del procesamiento : más iteraciones = mejor calidad.\
-> Sin embargo, las iteraciones pueden tomar algún tiempo, por eso es posible definir un tiempo máximo. Una iteración se define por el número de muestras.
+> Sin embargo las iteraciones pueden tomar algún tiempo, por eso es posible definir un tiempo máximo. Una iteración se define por el número de muestras.
 
 ## Configuración
 

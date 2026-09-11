@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/miscellaneous/sliders.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/miscellaneous/sliders.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar los reguladores en Substance 3D Painter para ajustar valores numéricos y parámetros con un control de precisión.
 helpx_creative_field: ""

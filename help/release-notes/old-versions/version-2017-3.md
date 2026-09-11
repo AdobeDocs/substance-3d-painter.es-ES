@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 2017.3 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ Fecha de publicación : *28 de septiembre de 2017*
 
 ![](../../assets/adobe-dimension-meetmat.jpg)
 
-Uno de los nuevos exportadores que incluimos en esta versión es el soporte de Adobe Standard Material, que se utilizará con Adobe Dimension (anteriormente Adobe Project Felix). Le permitimos exportar la malla de la escena y sus texturas para importarlas en el proyecto Felix con un solo clic. Para acceder a él, simplemente elige &quot;**Adobe Standard Material**&quot; en la ventana de texturas de exportación. Para obtener más información, consulte: [http://www.adobe.com/es/products/dimension.html](https://www.adobe.com/es/products/dimension.html)
+Uno de los nuevos exportadoras que incluimos en esta versión es el soporte del Adobe Standard Material, que se utilizará con Adobe Dimension (anteriormente, Adobe Project Felix). Le permitimos exportar la malla de escenas y sus texturas para importarlas en el proyecto Felix con un solo clic. Para acceder a él, solo tiene que elegir &quot;**Adobe Standard Material**&quot; en la ventana de texturas de exportación. Para obtener más información, consulte: [http://www.adobe.com/products/dimension.html](https://www.adobe.com/products/dimension.html)
 
 También puedes consultar nuestra entrada de blog sobre ello : <https://www.allegorithmic.com/blog/new-dimension-substance-ecosystem>
 
@@ -38,7 +38,7 @@ También puedes consultar nuestra entrada de blog sobre ello : <https://www.alle
 
 ![](../../assets/gltf-export.jpg)
 
-También hemos agregado compatibilidad con el formato de archivo **glTF**, con la exportación de la **malla de escena** y las **texturas PBR** (metálicas/rugosas). Para acceder a él, solo tiene que elegir &quot;**glTF PBR Metal Roughness**&quot; en la ventana de texturas de exportación. **glTF** es un formato de archivo de código abierto dirigido por el grupo Khronos. Puedes ver tu archivo glTF desde **Windows 10** o simplemente usar un visor de WebGL como [**Babylon**](http://sandbox.babylonjs.com/).
+También hemos agregado compatibilidad con el formato de archivo **glTF**, con la exportación de la **malla de escena** y las **texturas PBR** (metálicas/rugosas). Para acceder a él, solo tiene que elegir &quot;**glTF PBR Metal Roughness**&quot; en la ventana texturas de exportación. **glTF** es un formato de archivo de código abierto dirigido por el grupo Khronos. Puedes ver tu archivo glTF desde **Windows 10** o simplemente usar un visor de WebGL como [**Babylon**](http://sandbox.babylonjs.com/).
 
 Para obtener más información, consulte: <https://github.com/KhronosGroup/glTF>
 
@@ -55,11 +55,11 @@ Si se crea una copia de seguridad pero el proyecto no se ha guardado (también c
 
 ![](../../assets/gradient-rust.jpg)
 
-El **filtro de degradado** se ha renovado por completo. Actuando de una manera mucho más similar al nodo **gradient map** disponible en **Substance Designer**. Ahora admite hasta **10 colores diferentes**, con la posibilidad de especificar **dónde se ubica el color dentro de** el degradado **&#x200B;**, lo que abre muchas puertas nuevas. Esto permite crear más **patrones de color avanzados**, pero también **reasignar mapas de altura**&#x200B;y crear **nuevas formas**.
+El **filtro de degradado** se ha renovado por completo. Actuando de una manera mucho más similar al nodo **gradient map** disponible en **Substance Designer**. Ahora admite hasta **10 colores diferentes**, con la posibilidad de especificar **dónde se ubica el color dentro de** el degradado ****, lo que abre muchas puertas nuevas. Esto permite crear más **patrones de color avanzados**, pero también **reasignar mapas de altura**y crear **nuevas formas**.
 
 El regulador principal (cantidad de color) define el número de colores totales utilizados para crear el degradado. El botón situado justo debajo define el modo de fusión de color (sRGB o Lineal). Esto es importante si desea tener una fusión adecuada entre colores. Por ejemplo, mezclar un rojo puro y un verde puro debería dar un amarillo bonito en medio. Este no será el caso si el botón está desactivado (se dará un marrón oscuro en su lugar). Al reasignar el height o cualquier otro canal de escala de grises, este botón debe desactivarse para evitar la conversión de gamma.
 
-El botón de la parte superior permite reemplazar el resultado del filtro con el degradado en sí, para visualizar el degradado en la vista 2D.
+El botón de arriba permite reemplazar el resultado del filtro con el degradado en sí, para visualizar el degradado en el Vista 2D.
 
 ![](../../assets/gradient-height-demo.jpg)
 
@@ -127,16 +127,16 @@ Esta versión de Substance Painter también incluye una nueva y sólida mejora d
 
 **Solucionado :**
 
-* Bloqueo al eliminar varios subestantes
+* Bloqueo al borrar varios subestantes
 * Bloqueo al cambiar de un nivel a otro durante un cálculo del motor
-* [Mac] Bloqueo en la GPU Intel durante los cálculos del motor
+* bloqueo [Mac] en la GPU Intel durante los cálculos del motor
 * [Mac] [Ventana gráfica] Se producen errores de rendimiento cuando el tramado está activado
 * [Mac] MacOS 10.13 se reconoce como &quot;Versión desconocida&quot; en el archivo de registro.
-* [Baker] Hornear con una jaula ya no funciona
-* [Capas] El método abreviado de teclado Ctrl+C (acción de copiar) ya no funciona
+* [Baker] Hacer un bake con una jaula ya no funciona
+* [Layers] Ctrl+C método abreviado (copia) no funciona más
 * [Capas] Al pegar capas, no se actualiza la interfaz de usuario con las referencias del anclaje
 * [Anclaje] Duplicar o Copiar/Pegar capa con referencias rompe vínculos
-* [Exportar] La exportación en 8K puede bloquearse o interbloquear la aplicación en algunos casos
+* [Export] En algunos casos, la exportación en 8K puede provocar bloqueos o interbloqueos en las aplicaciones
 * [Exportar] Varios problemas en el formato de archivo glTF generado
 * [Importar] Volver a importar una malla con el mismo nombre de archivo ya no funciona
 * [Plugin] La ventana de guardado automático siempre aparece encima de todo
@@ -151,22 +151,22 @@ Esta versión de Substance Painter también incluye una nueva y sólida mejora d
 
 * [Exportar] Permitir la exportación de mallas y texturas para el proyecto de Adobe Felix
 * [Export] Permitir la exportación al formato de archivo glTF
-* [Motor] Optimizar el tamaño de las texturas en VRAM mediante la compresión de bloques
+* [Motor] Optimice el tamaño de las texturas en VRAM mediante la compresión de bloques
 * [Ventana gráfica] Puede arrastrar y soltar una malla o un proyecto en la ventana gráfica
 * [UI] Mejora el mensaje de advertencia sobre TDR
 * [UI] El registro solo se debe mostrar si se solicita
 * [UI] Permitir borrar el contenido de la ventana de registro
 * [UI] Mostrar advertencias y errores en la barra de estado
 * [UI] Mostrar pestañas en la parte superior como en los navegadores web
-* [UI] Mejorar el contexto y los mensajes &quot;no pintables&quot;
+* [UI] Mejorar el contexto y los mensajes &quot;no puede pintarse&quot;
 * [IU] Añada una acción &quot;guardar como copia&quot; en el menú Archivo
 * [Capa] Establecer el ajuste de mosaico predeterminado en 1 de forma predeterminada
 * [Shelf] Filtro de degradado mejorado para admitir 10 colores dinámicos
 * [Estante] Agregue un espacio en la consulta predeterminada de la miniestantería
 * [Estante] Agregue una acción Abrir en el explorador para los recursos locales del estante
-* [Estante] Añadir plantilla y sombreador para Adobe Material Standard (Proyecto Felix)
+* [Estante] Añadir plantilla y sombreador para Adobe Material Estándar (Proyecto Félix)
 * [Estante] Aumentar el mosaico máximo a 128 en sombreadores de capas de material
-* [Estante] Se ha añadido curvatura sobel para microdetalles de generadores de máscara
+* [Estante] Se ha añadido curvatura sobel para microdetalles de Generadores de máscaras
 * [Plugin] Añadir complemento de guardado automático con intervalo de tiempo personalizable
 * [Scripting] Añadir una función &quot;Guardar como copia&quot;
 
@@ -174,8 +174,8 @@ Esta versión de Substance Painter también incluye una nueva y sólida mejora d
 
 * [UI] El diseño se interrumpe al iniciarse por primera vez
 * El PSD [Export] generado en la exportación tiene errores de formato
-* [Exportar] EXR siempre exporta el mapa de height de 8 bits
-* [Export] Bloqueo al exportar mapas adicionales dañados
+* [Exportar] EXR siempre exporta el mapa de altura de 8 bits
+* [Exportar] Bloqueo al exportar mapas adicionales dañados
 * [Importar] En algunos casos, los bordes duros no se conservan en mallas de polietileno bajas
 * [Importar] Mensajes de error mejorados al importar mallas con problemas
 * [Bakers] Error de procesamiento de asignación de ID con la opción Coincidir por nombre activada

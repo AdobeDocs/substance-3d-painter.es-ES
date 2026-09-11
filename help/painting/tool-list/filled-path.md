@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/tool-list/filled-path.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/filled-path.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar la herramienta Trazado relleno en Substance 3D Painter para crear formas rellenas y trazados para pintar texturas.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 9%
 
 ![](../../assets/banner_filled_path.jpg)
 
-La herramienta de trazado relleno es un tipo de herramienta de trazado que permite crear formas en la superficie del modelo 3D rellenadas con un color uniforme.
+La herramienta Trazado relleno es un tipo de herramienta de trazado que permite crear formas en la superficie del modelo 3D rellenadas con un color uniforme.
 
 ![](../../assets/filled_path_across_gaps.png)
 

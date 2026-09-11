@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-engine-params-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-engine-params-shader-api.html"
 breadcrumb-title: ''
-description: Acceda a la referencia de la API del sombreador Todos los parámetros del motor de Substance 3D Painter para controlar los parámetros del sombreador en el nivel del motor.
+description: Acceda a la referencia de API del sombreador Todos los Parámetros del Motor de Substance 3D Painter para controlar los parámetros de sombreador a nivel del motor.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > All Engine Params - Shader API
 helpx_experience_level: ""
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 ## Parámetros de textura
 
-Substance Painter utiliza un sistema de texturas virtuales dispersas (SVT) para mostrar texturas en la ventana gráfica.
+Substance Painter utiliza un sistema de textura virtual dispersa (SVT) para mostrar texturas en la ventana gráfica.
 
 Para obtener más información sobre este sistema, consulta la [documentación en línea](../../../../features/sparse-virtual-textures.md).
 
-Este sistema tiene repercusiones en cómo escribir código de sombreado. Proporcionamos ayudantes para simplificar su uso con la estructura *SamplerSparse* y las funciones de búsqueda de texturas (consulte [lib-sparse.glsl](../libraries-shader-api/lib-sparse-shader-api.md)).
+Este sistema tiene repercusiones en la forma de escribir código de sombreador. Proporcionamos ayudantes para simplificar su uso con la estructura *SamplerSparse* y las funciones de búsqueda de texturas (consulte [lib-sparse.glsl](../libraries-shader-api/lib-sparse-shader-api.md)).
 
 Uso básico:
 
@@ -54,7 +54,7 @@ uniform SamplerSparse uniform_tex; // if TEXTURE_TAG_1 exists then TEXTURE_TAG_1
 ```
 
 
-Donde *TEXTURE\_TAG* es una de las etiquetas descritas a continuación.
+Donde *TEXTURA\_TAG* es una de las etiquetas descritas a continuación.
 
 ### Etiquetas de canales del documento
 
@@ -62,7 +62,7 @@ Todas estas texturas están **premultiplicadas** y **dilatadas** para evitar pro
 
 **Canales del conjunto de texturas**
 
-*channel\_ambientocclusion* *channel\_anisotropyangle* *channel\_anisotropylevel* *channel\_basecolor* *channel\_blendingmask* *channel\_diffuse* *channel\_desplazamiento* *channel\_emissive* *channel\_glossiness* *channel\_height* canal\_ior **&#x200B; canal\_metálico &#x200B;** canal\_normal **&#x200B; canal\_opacidad &#x200B;** canal\_reflexión **&#x200B; canal\_rugosidad &#x200B;** canal\_dispersión **&#x200B; canal\_specular &#x200B;** canal\_nivel especular **&#x200B; canal\_transmisivo &#x200B;**
+*channel\_ambientocclusion* *channel\_anisotropyangle* *channel\_anisotropylevel* *channel\_basecolor* *channel\_blendingmask* *channel\_diffuse* *channel\_desplazamiento* *channel\_emisivo* *channel\_brillo* *channel\_height 9}* canal\_ior ** canal\_metálico ** canal\_normal ** canal\_opacidad ** canal\_reflexión ** canal\_rugosidad ** canal\_dispersión ** canal\_specular ** canal\_nivel especular *38}canal\_transmisivo***
 
 **Canales de usuario**
 
@@ -73,8 +73,8 @@ Todas estas texturas están **premultiplicadas** y **dilatadas** para evitar pro
 *texture\_ambientocclusion* : Mapa de Oclusión ambiental\
 *texture\_curvature* : Mapa de curvatura\
 *texture\_id* : Mapa de ID\
-*texture\_normal* : Mapa normal de espacio tangente\
-*texture\_normal\_ws* : Mapa normal del espacio mundial\
+*textura\_normal* : Mapa normal de espacio tangente\
+*textura\_normal\_ws* : Mapa normal del espacio mundial\
 *texture\_position* : Mapa de posición espacial mundial\
 *textura\_thickness* : mapa de thickness
 
@@ -110,10 +110,10 @@ uniform vec4 uniform_tex_size; // if TEX_TAG_1 exists then TEX_TAG_1_size else T
 ```
 
 
-Donde *TEXTURE\_TAG* es una de las etiquetas descritas a continuación.
+Donde *TEXTURA\_TAG* es una de las etiquetas descritas a continuación.
 
-*texture\_blue\_noise* : Una textura de ruido azul\
-*texture\_environment* : Mapa del entorno, **mip-mapped**, use [lib-env.glsl](../libraries-shader-api/lib-env-shader-api.md) para usar este
+*textura\_azul\_noise* : Una textura de ruido azul\
+*textura\_entorno* : Mapa del entorno, **mip-mapped**, use [lib-env.glsl](../libraries-shader-api/lib-env-shader-api.md) para usar este
 
 ## Otros parámetros
 
@@ -200,7 +200,7 @@ uniform float uniform_fovy;
 ```
 
 
-*is\_2d\_view* : un *bool* que indica si la representación se realiza para la vista 2D o no
+*is\_2d\_view* : un *bool* que indica si la representación se realiza para el Vista 2D o no
 
 ```
 //: param auto is_2d_view 
@@ -209,7 +209,7 @@ uniform bool uniform_2d_view;
 ```
 
 
-*is\_perspective\_projection* : un *bool* que indica si la proyección es ortográfica o en perspectiva
+*is\_Perspectiva\_proyección* : un *bool* que indica si la proyección es ortográfica o de Perspectiva
 
 ```
 //: param auto is_perspective_projection 

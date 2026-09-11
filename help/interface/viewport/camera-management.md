@@ -1,7 +1,7 @@
 ---
-helpx_url: 'https://helpx.adobe.com/es/substance-3d-painter/interface/viewport/camera-management.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/viewport/camera-management.html'
 breadcrumb-title: ''
-description: Aprenda a administrar las vistas de cámara en la ventana gráfica de Substance 3D Painter para navegar y encuadrar sus modelos 3D de manera efectiva.
+description: Aprenda a administrar las vistas de cámara en la ventana gráfica de Substance 3D Painter para navegar y usar el marco en sus modelos 3D de manera eficaz.
 helpx_creative_field: ''
 helpx_description: Painter > Interface > Viewport > Camera management
 helpx_experience_level: ''
@@ -24,13 +24,13 @@ Las cámaras creadas en Maya, Max, Blender, Modo y DAE se pueden importar en Sub
 
 >[!NOTE]
 >
-> Las cámaras ortográficas y las proporciones de visualización no se admiten correctamente en el formato ABC (Alembic).
+> Las cámaras ortográficas y las proporciones de visualización no son compatibles correctamente con el formato ABC (Alembic).
 
 ## Importación de cámaras en Substance 3D Painter
 
-Las cámaras deben incluirse en el archivo de malla, ya sea en formato FBX o ABC (Alembic).
+Las cámaras deben incluirse en el archivo de malla, ya sea en FBX o en formato ABC (Alembic).
 
-Se importan el nombre, los parámetros de transformación, el campo de visión y la proporción de aspecto (si existe).
+Se importan el nombre, los parámetros de transforma, el campo de visión y la proporción de aspecto (si existe).
 
 En la ventana Nuevo proyecto, seleccione el archivo de malla que incluye las cámaras y verifique que la casilla **Importar cámaras** esté marcada. Si activa **Reimportar malla** en la ventana **Editar > Configuración del proyecto**, también puede activar **Importar cámaras** si no las vio en la creación inicial del proyecto.
 
@@ -47,7 +47,7 @@ A continuación, haz clic en **Aceptar**:
 
 Cuando hayas importado cámaras en tu proyecto actual, puedes seleccionar qué cámara está activa en el **menú desplegable** del **Ventana gráfica 3D**.
 
-De forma predeterminada, se selecciona la cámara de Painter denominada &quot;Cámara predeterminada&quot; y está en modo de perspectiva.
+De forma predeterminada, se selecciona la cámara de Painter denominada &quot;Cámara predeterminada&quot; y está en modo de Perspectiva.
 
 ![](../../assets/camera-select.png)
 
@@ -79,7 +79,7 @@ El campo de visión o FOV se expresa en grados.
 
 La Distancia focal se expresa en mm.
 
-En el modo Ventana gráfica (OpenGL), se desactivan la distancia de enfoque y la apertura. Para activarlos, deben activarse Post Effects y DOF.
+En el modo Ventana gráfica (OpenGL), se desactivan la distancia de enfoque y la apertura. Para activarlas, deben activarse Efectos de posprocesamiento y DOF.
 
 ### Relación de visualización
 
@@ -97,7 +97,7 @@ El marco de la cámara se puede alternar en **Configuración de la pantalla > Co
 
 ![](../../assets/image2018-7-26-15-54-58.png)
 
-También puede ajustar la opacidad del área que se encuentra fuera del marco con la opacidad de la **máscara de puerta**.
+También puede ajustar la opacidad del área exterior del marco con la opacidad de la **máscara de puerta**.
 
 <table>
   <tr style="border: 0;">

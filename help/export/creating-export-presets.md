@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/getting-started/export/creating-export-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/creating-export-presets.html"
 breadcrumb-title: ''
 description: Aprenda a crear plantillas de salida personalizadas en Substance 3D Painter para definir sus propias configuraciones de exportación de texturas.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ La ficha de configuración de la ventana de exportación se divide en tres parte
 
 * <b>Lista de ajustes preestablecidos:</b> (izquierda) permite elegir qué plantilla editar o duplicar y cambiar el nombre de las plantillas existentes.
 * <b>Lista de texturas de salida</b>: (centro) muestra el contenido de un ajuste preestablecido seleccionado y muestra la convención de nomenclatura y las opciones de empaquetado de canal.
-* <b>Lista de canales</b> y <b>Texturas convertidas</b>: (derecha) lista de canales y texturas que se utilizarán para componer el contenido de una textura exportada.
+* <b>Lista de canales</b> y <b>texturas convertidas</b>: (derecha) lista de canales y texturas que se pueden utilizar para componer el contenido de una textura exportada.
 
 ![](../assets/image2018-4-25-13-36-44.png){width="800px"}
 
@@ -38,7 +38,7 @@ La ficha de configuración de la ventana de exportación se divide en tres parte
 >[!NOTE]
 >
 > Cuando se utiliza una plantilla para exportar texturas, el archivo de plantilla se incluye automáticamente en el archivo de proyecto en guardados posteriores.\
-> Esto permite compartir y/o mover un proyecto a otro equipo mientras se mantienen las plantillas para exportar las texturas.\
+> Esto permite compartir o mover un proyecto a otro equipo mientras se mantienen las plantillas para exportar las texturas.\
 > Solo se guarda en el proyecto el último ajuste preestablecido utilizado. Sin embargo, si Substance 3D Painter detecta un ajuste preestablecido con el mismo nombre, el ajuste preestablecido dentro del proyecto se marcará como &quot;Desactualizado&quot; en la lista.
 
 ## Creación de una plantilla
@@ -113,14 +113,14 @@ Es posible dejar algunos canales (del mapa de salida) totalmente vacíos. En est
 Hay diferentes tipos de mapas:
 
 * <b>Mapas de entrada</b>: canales directos que se pueden añadir en un conjunto de texturas. Mediante el panel de configuración TextureSet.
-* <b> Mapas de malla</b>: Texturas presentes en las ranuras de mapa adicionales de un conjunto de texturas (texturas horneadas).
+* <b> Mapas de malla</b>: Texturas presentes en las ranuras de mapa adicionales de un conjunto de texturas (texturas hechas un bake).
 * <b> Mapas convertidos:</b> texturas virtuales, estas se generan durante la exportación en función de los canales presentes en el documento.
-  * <b>OpenGL/DirectX normal</b>: Produce una normal en el espacio dedicado combinando la normal de los mapas adicionales, el height y el canal normal.
-  * <b>OA mixta</b>: Combine el mapa adicional de Oclusión ambiental con el canal de Oclusión ambiental.
-  * <b>Difusión</b>: Color difuso generado a partir de los canales BaseColor y Metálico (las partes metálicas se sustituirán por un color negro).
+  * <b>OpenGL de normal/DirectX</b>: Produce una normal en el espacio dedicado combinando la normal de los mapas adicionales, el height y el canal normal.
+  * <b>OA mixta</b>: Combine el mapa de Oclusión ambiental adicional con el canal de Oclusión ambiental.
+  * <b>Difuso</b>: Color de Difuso generado a partir de los canales BaseColor y Metálico (las partes metálicas se sustituirán por un color negro).
   * <b>Specular</b>: Color de specular generado a partir de los canales BaseColor y Metallic.
   * <b>Brillo</b>: Inverso del canal de rugosidad.
-  * <b>Unity4 Diffuse</b>: Color de difusión generado desde BaseColor para que coincida con los sombreadores Unity4.
+  * <b>Unity4 Difuso</b>: Color de Difuso generado desde BaseColor para que coincida con los sombreadores Unity4.
   * <b>Brillo Unity4</b>: Brillo generado a partir del canal Rugosidad y Metálico para que coincida con los sombreadores Unity4.
   * <b>Reflejo</b>: Exportar un mapa donde el blanco indique un material dieléctrico y otros colores para materiales metálicos
   * <b>1/o</b>: 1 dividido por el valor ior, ior se genera a partir del mapa metálico : 1,4 para dieléctricos, 100 para metales (color negro)

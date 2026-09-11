@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/old-versions/version-2017-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2017-1.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 2017.1 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
 helpx_creative_field: ""
@@ -48,7 +48,7 @@ Esta es la lista del nuevo contenido:
 * **230 Alpha nuevos** (combinación de patrones e imágenes digitalizadas)
 * **50 Nuevos Procedimientos** (Patrón de tela principalmente para ropa medieval y contemporánea)
 * **2 Nuevos mapas del ambiente** (Mondarrain y Villa Nova Street)
-* **9 filtros nuevos** (Edge Wear de detalles MatFX, abrazadera, HBAO, etc.)
+* **9 filtros nuevos** (Edge Wear de detalles MatFX, Ajustar, HBAO, etc.)
 
 ![](../../assets/alpha-content.jpg)![](../../assets/alpha-demo-image.jpg)
 
@@ -73,7 +73,7 @@ El nuevo contenido se describe en nuestro último tutorial de vídeo :
 * [Estante] 230 nuevos Alpha (Mezcla de patrones, pinceles y digitalizaciones de huellas digitales)
 * [Estante] 50 Nuevos Procedurales (Patrones de tela de ropa medieval y contemporánea)
 * [Estantería] 2 Nuevos mapas ambientales (Mondarrain y Villa Nova Street)
-* [Estante] 9 filtros nuevos (Edge Wear de detalle MatFx, abrazadera, HBAO, etc.)
+* [Estante] 9 filtros nuevos (Edge Wear de detalle MatFx, Ajustar, HBAO, etc.)
 * [Estante] Se ha mejorado el mapa de entorno de panorama predeterminado
 * [Shelf] Nuevos ajustes preestablecidos de exportación de Arnold 5
 * [Scripting] Permite importar recursos en la estantería

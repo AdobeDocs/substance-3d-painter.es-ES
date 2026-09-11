@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/content/importing-assets/import-drag-and-drop.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/importing-assets/import-drag-and-drop.html"
 breadcrumb-title: ''
 description: Aprenda a añadir recursos mediante la función de arrastrar y soltar en Substance 3D Painter para importar rápidamente recursos a su proyecto.
 helpx_creative_field: ""
