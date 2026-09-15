@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/know-issues.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/know-issues.html"
 breadcrumb-title: ""
 description: Revise los problemas conocidos de Substance 3D Painter para estar informado de las limitaciones actuales y las soluciones alternativas en la última versión.
 helpx_creative_field: ""
