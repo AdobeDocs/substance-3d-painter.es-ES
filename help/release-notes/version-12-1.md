@@ -2,13 +2,11 @@
 title: Versión 12.1
 description: Notas de la versión 12.1
 helpx_description: Substance 3D Painter
-source-git-commit: 50df3a58ec4719d302999421774a1c67ce3e0ef1
+source-git-commit: a652271a4b12d9c27513ebc4d5974fa87da29580
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1790'
 ht-degree: 0%
-
 ---
-
 
 # Versión 12.1
 
@@ -150,6 +148,29 @@ Echa un vistazo a nuestro último tutorial en Youtube:
 
 ## Notas de la versión
 
+### 12.1.5
+
+Fecha de publicación: **2026/09/15**
+
+Resumen: **Versión secundaria**
+
+**Corregido:**
+
+* La exportación de imágenes de un estante a una red ya no funciona
+* [Generator] Al establecer &quot;usar textura&quot; en false, no se deshabilita el uso de la entrada de textura
+* Bloqueo de la ventana gráfica al guardar mientras se edita la proyección 3d
+* La resolución de capas de material es demasiado baja
+
+### 12.1.4
+
+Fecha de publicación: **2026/09/04**
+
+Resumen: **Versión secundaria**
+
+**Corregido:**
+
+* bloqueo [Bloqueo] al importar o exportar archivos cuyo nombre de archivo contiene caracteres que no son ASCII
+
 ### 12.1.3
 
 Fecha de publicación: **2026/08/25**
@@ -177,11 +198,11 @@ Resumen: **Versión secundaria**
 **Corregido:**
 
 * \[Bloqueo\] Algunos Substance pueden producir un bloqueo al procesarse
-* \[Bloqueo\] Volver a importar la malla mientras está en modo de hacer un bake
+* \[Bloqueo\] Volver a importar la malla en el modo de procesamiento
 * \[Bloqueo\] Si no se inicializa la visualización de gráficos, se puede producir un bloqueo
-* \[Bloqueo\] La exportación de texturas puede producir bloqueos en algunos casos al actualizar el registro
-* \[Bloqueo\] Bloqueo en modo de hace un bake en algunos casos al cargar o actualizar el mapa de entorno
-* \[Hacer un bake\] Si se vuelve a iniciar hacer un bake después de modificar el archivo de alta poly, se puede producir un bloqueo
+* \[Bloqueo\] La exportación de texturas puede bloquearse en algunos casos al actualizar el registro
+* \[Crash\] Bloqueo en el modo de procesamiento en algunos casos al cargar o actualizar el mapa de entorno
+* \[Horneado\] Si se vuelve a iniciar el horneado después de modificar el archivo de alta densidad, se puede producir un bloqueo
 * \[Enviar a Photoshop\] No se puede exportar la máscara de capa
 * \[Motor\] El resultado del punto de ancla no se procesa entre una máscara y un canal de color
 
@@ -193,19 +214,19 @@ Resumen: Versión secundaria
 
 Añadido:
 
-* [Sesgar Haciendo un bake] Exponer el modo normal de base de sesgo: malla o por triángulo
+* [Horneado de sesgo] Exponer modo normal de base de sesgo: malla o por triángulo
 * [Propiedades] Hacer que los colores uniformes siempre se restablezcan al valor predeterminado de su canal
-* [OpenPBR] reagrupa los canales por categorías en la ventana Exportar Texturas para crear plantillas de salida
+* [OpenPBR] reagrupa los canales por categorías en la ventana Exportar texturas para crear plantillas de salida
 * Actualizar el motor de Substance a la versión 9.4.5
 
 Corregido:
 
 * [Proyecto] Abrir y guardar algunos proyectos puede tardar más de lo habitual
 * [Bloqueo] La recarga de varias mallas puede provocar un bloqueo
-* [Bloqueo] Si se elimina un canal mientras se está en el modo de vista de máscara, se produce un bloqueo
-* [Bloqueo] Algunos Substance pueden provocar un bloqueo cuando se procesan
-* [Sesgo de Pintura] La herramienta seleccionada en el sesgo de pintura permanece seleccionada después de cambiar al modo de pintura
-* [Haciendo un bake configuración común] La configuración de la distancia de la jaula no actualiza la visualización de la malla metálica de la jaula y del sombreador
+* [Bloqueo] Al eliminar un canal en el modo de vista de máscara, se produce un bloqueo
+* [Bloqueo] Algunos Substance pueden producir un bloqueo al procesarse
+* [Sesgar pintura] La herramienta seleccionada en el sesgo de pintura permanece seleccionada después de cambiar al modo de pintura
+* [Configuración común de horneado] La configuración de la distancia de la jaula no actualiza la visualización de la malla metálica de la jaula y del sombreador
 * El modo &quot;Vecino del espacio 3D&quot; del relleno UV [Engine] no funciona bien en triángulos finos
 * El resultado del punto de anclaje [Engine] no se procesa entre una máscara y un canal de color
 
@@ -213,7 +234,7 @@ Corregido:
 
 Fecha de publicación: <b>2026/06/23</b>
 
-Resumen: <b>Esta actualización es una versión importante, contiene mejoras de bakeres con el nuevo estado de IU predeterminado de hace un bake, mapa de sesgo de pintura, reprocesamiento automático, nueva opción para el desajuste UV automático para mallas de superficie dura y OpenPBRs. Para obtener más detalles, vea las notas de la versión completas.</b>
+Resumen: <b>Esta actualización es una versión importante, contiene mejoras en los panaderos con el nuevo estado predeterminado de la interfaz de usuario para panificación, mapa de sesgo de pintura, reprocesamiento automático, nueva opción para el desempaquetado UV automático para mallas de superficie dura y OpenPBRs. Para obtener más detalles, vea las notas de la versión completas.</b>
 
 <b>Agregado</b>:
 
@@ -268,7 +289,7 @@ Resumen: <b>Esta actualización es una versión importante, contiene mejoras de 
 * [Sombreado] La Oclusión ambiental se aplica dos veces con conjuntos de texturas mediante diferentes métodos de mezcla
 * [Motor] Las texturas normales con un canal azul vacío (negro) pueden producir resultados de mezclas incorrectos
 * [Importación GLTF] La fusión alfa está activada en todos los conjuntos de texturas
-* [GLTF Export] La fusión alfa siempre está activada en la exportación
+* [GLTF Export] La fusión de Alpha siempre está activada al exportar
 * [Exportar] La geometría de doble cara siempre está desactivada al importar un archivo GLTF
 * [Javascript] La modificación de la configuración de los sombreadores no contribuye al historial de deshacer
 * [Muestras] La dispersión subsuperficial no está activada en Configuración de visualización para Meet Mat
