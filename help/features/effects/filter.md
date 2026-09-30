@@ -1,71 +1,141 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/effects/filter.html"
-breadcrumb-title: ''
-description: Aprenda a utilizar efectos de filtro en Substance 3D Painter para aplicar filtros de procesamiento de imágenes y ajustes de textura.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Effects > Filter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Filtro
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+description: Aprenda a utilizar efectos de filtro en Substance 3D Painter para aplicar filtros de procesamiento de imágenes y ajustes de textura.
+source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 0%
-
+source-wordcount: '584'
+ht-degree: 3%
 ---
-
 
 # Filtro
 
-Los efectos de filtro son sustancias que transforman el contenido de una capa o máscara.
+Los efectos de filtro son sustancias que transforman el contenido de una capa o máscara. Con el modo de fusión de Acceso directo, una capa puede modificar los resultados de la pila de capas; el uso de un filtro en una capa con el modo de fusión Acceso directo permite utilizar filtros para modificar la pila de capas en su conjunto.
 
-## ¿Cómo se aplica un filtro?
+## ¿Cómo puedo aplicar un filtro?
 
-Según el tipo de filtro, se debe crear un efecto de filtro en el contenido o la máscara de una capa.\
-Hay dos formas de aplicar un filtro, la cual se utiliza depende de cómo se vaya a utilizar el filtro.
+Según el tipo de filtro, se debe crear un efecto de filtro en el contenido o la máscara de una capa. Hay dos formas de aplicar un filtro:
 
-## Aplicar manualmente un filtro.
+* El enfoque manual requiere varios pasos para configurar el filtro, pero proporciona un control directo sobre cada paso del proceso.
+* El método de arrastrar y soltar le permite añadir un filtro de forma rápida y define automáticamente el modo de fusión para que pase por todos los canales.
+
+### Aplicar un filtro manualmente
 
 En el siguiente ejemplo, se aplica un filtro de desenfoque al contenido de una capa, pero se utiliza más comúnmente para aplicar filtros a máscaras :
 
-### 1 - Añadir un efecto de filtro
+**1. Agregar un efecto de filtro**
 
-Para empezar, seleccione el contenido de una capa (miniatura izquierda) y, a continuación, haga clic en el botón del efecto (o haga clic con el botón derecho para abrir el menú contextual).\
-Seleccione la opción &quot;**agregar filtro**&quot; en la lista.
+Para empezar, selecciona el contenido de una capa o la máscara de capa y haz clic en el **botón Efecto** (o haz clic con el botón derecho para abrir el menú contextual). Seleccione la opción &quot;**Agregar filtro**&quot; en la lista.
 
-![](../../assets/add-filter.gif)
+![](../../assets/filters/filter-add-manually.gif)
 
-### 2 - Seleccione el filtro en la ventana de propiedades
+**2. Seleccione el filtro en la ventana de propiedades**
 
-En la ventana de propiedades, los parámetros o el filtro están actualmente vacíos. Solo está disponible el botón de selección.\
-Haga clic en el botón para abrir el mini-estante y seleccionar el filtro deseado, aquí elegimos el filtro de desenfoque.
+En el **panel Propiedades**, todavía no se ha seleccionado ningún filtro. Haz clic en el botón de selección Filtro para abrir el estante pequeño y selecciona el filtro deseado. Aquí elegimos el **filtro Desenfocar**.
+![](../../assets/filters/filter-select.gif)
 
-![](../../assets/filter-select-shelf.gif)
+>[!NOTE]
+>
+> Al aplicar un filtro manualmente, recuerde que puede necesitar utilizar el modo de fusión de paso a través si desea que el filtro afecte al contenido de las capas que se encuentran debajo.
 
 ## Arrastrar y soltar un filtro desde el estante
 
 Este método solo está diseñado para filtros que deben aplicarse a toda la pila de capas. Establecerá automáticamente todos los [modos de fusión](../../interface/layer-stack/blending-modes.md) del canal. No funciona para aplicar filtros a una máscara.
 
-### 1 - Abra el área Filtros de la estantería
+**1. Abra el área Filtros del estante**
 
 En la estantería, haz clic en la sección &quot;Filtros&quot; de la izquierda.
 
 ![](../../assets/shelf-filters.gif)
 
-## 2 - Arrastre y suelte el filtro
+**2. Arrastre y suelte el filtro**
 
 Selecciona el filtro que quieres usar en la estantería. Arrástralo y suéltalo en tu pila de capas, asegurándote de que se coloca en la ubicación correcta (evita soltarlo en grupos no deseados, por ejemplo).
 
 ![](../../assets/filter-dragdrop.gif)
 
-Observe cómo en el ejemplo anterior el filtro soltado ya tiene un modo Fusión de Acceso directo. Esto se aplica a todos los canales del documento.
+Tenga en cuenta, en el ejemplo anterior, que el filtro soltado ya tiene un modo de fusión de Accesos directos. Esto se aplica a todos los canales del documento.
 
-## Adición de nuevos tipos de filtros
+## Añadir nuevos filtros
 
-Todos los filtros son Substance, que se pueden crear con Substance 3D Designer.\
-Como inicio rápido, Substance 3D Designer proporciona plantillas listas para usar en Substance 3D Painter.
+Todos los filtros son Substance, que se pueden crear con Substance 3D Designer. Como inicio rápido, Substance 3D Designer proporciona plantillas listas para usar en Substance 3D Painter.
 
 Para obtener más información, consulte esta página : [Creando efectos personalizados](../../content/creating-custom-effects/creating-custom-effects.md)
+
+## Filtros disponibles
+
+### Estándar
+
+* [Desenfoque](filters/standard/blur.md)
+* [Dirección de desenfoque](filters/standard/blur-directional.md)
+* [Pendiente de desenfoque](filters/standard/blur-slope.md)
+* [Ajustar](filters/standard/clamp.md)
+* [Equilibrio de color](filters/standard/color-balance.md)
+* [Corrección de color](filters/standard/color-correct.md)
+* [Luminosidad de contraste](filters/standard/contrast-luminosity.md)
+* [Sombra paralela](filters/standard/drop-shadow.md)
+* [Color del área de relleno](filters/standard/fill-area-color.md)
+* [Máscara de área de relleno](filters/standard/fill-area-mask.md)
+* [FXAA (Suavizado)](filters/standard/fxaa-anti-aliasing.md)
+* [Resplandor](filters/standard/glow.md)
+* [Degradado](filters/standard/gradient.md)
+* [Dinámica de degradado](filters/standard/gradient-dynamic.md)
+* [Conversión de escala de grises](filters/standard/grayscale-conversion.md)
+* [Paso alto](filters/standard/highpass.md)
+* [Escaneo de histograma](filters/standard/histogram-scan.md)
+* [Desplazamiento del histograma](filters/standard/histogram-shift.md)
+* [HSL Perceptiva](filters/standard/hsl-perceptive.md)
+* [Invertir](filters/standard/invert.md)
+* [Reflejar](filters/standard/mirror.md)
+* [Pixelar](filters/standard/pixelate.md)
+* [Posterización](filters/standard/posterize.md)
+* [Enfocar](filters/standard/sharpen.md)
+* [Smoothstep](filters/standard/smoothstep.md)
+* [Umbral](filters/standard/threshold.md)
+* [Transformar](filters/standard/transform.md)
+* [Deformar](filters/standard/warp.md)
+
+### Acabados
+
+* [Acabado mate lineal cepillado](filters/finishes/matfinish-brushed-linear.md)
+* [Acabado mate galvanizado](filters/finishes/matfinish-galvanized.md)
+* [MatFinish Grainy](filters/finishes/matfinish-grainy.md)
+* [Acabado mate pulido](filters/finishes/matfinish-grinded.md)
+* [Acabado mate martillado](filters/finishes/matfinish-hammered.md)
+* [Círculos perforados de acabado mate](filters/finishes/matfinish-perforated-circles.md)
+* [MatFinish recubierto en polvo](filters/finishes/matfinish-powder-coated.md)
+* [MatFinish Raw](filters/finishes/matfinish-raw.md)
+* [MatFinish Rough](filters/finishes/matfinish-rough.md)
+
+### MatFX
+
+* [Cómic de MatFX](filters/matfx/matfx-comic-book.md)
+* [Edge Wear de detalles MatFX](filters/matfx/matfx-detail-edge-wear.md)
+* [Daños en el borde MatFX](filters/matfx/matfx-edge-damages.md)
+* [MatFX HBAO](filters/matfx/matfx-hbao.md)
+* [Pintura al óleo MatFX](filters/matfx/matfx-oil-paint.md)
+* [MatFX Peeling Pintura](filters/matfx/matfx-peeling-paint.md)
+* [Meteorización del Óxido MatFX](filters/matfx/matfx-rust-weathering.md)
+* [Línea de cierre MatFX](filters/matfx/matfx-shut-line.md)
+* [MatFX Watercolor](filters/matfx/matfx-watercolor.md)
+* [Gotas de agua MatFX](filters/matfx/matfx-water-drops.md)
+
+### Iluminación
+
+* [Entorno de iluminación generado](filters/lighting/baked-lighting-environment.md)
+* [Iluminación hecha un bake Estilizada](filters/lighting/baked-lighting-stylized.md)
+
+### Avanzadas
+
+* [Kuwahara anisotrópico](filters/advanced/anisotropic-kuwahara.md)
+* [Bisel](filters/advanced/bevel.md)
+* [Suavizado de bisel](filters/advanced/bevel-smooth.md)
+* [Coincidencia de color](filters/advanced/color-match.md)
+* [Distancia direccional](filters/advanced/directional-distance.md)
+* [Curva de degradado](filters/advanced/gradient-curve.md)
+* [Ajuste de height](filters/advanced/height-adjustments.md)
+* [Height a normal](filters/advanced/height-to-normal.md)
+* [Contorno de máscara](filters/advanced/mask-outline.md)
+* [Validación PBR](filters/advanced/pbr-validate.md)
+* [Cuantificar](filters/advanced/quantize.md)
+* [Estilización](filters/advanced/stylization.md)
+* [Tri-Plano avanzado](filters/advanced/tri-planar-advanced-filter.md)
