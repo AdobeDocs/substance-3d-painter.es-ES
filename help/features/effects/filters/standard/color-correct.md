@@ -1,10 +1,10 @@
 ---
 title: Corrección de color
 description: Aprenda a utilizar el filtro Corrección de color de Substance 3D Painter.
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+source-git-commit: 5078774d081555f586a50965b91d85f7c340ef13
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 3%
+source-wordcount: '125'
+ht-degree: 5%
 ---
 
 # Corrección de color
@@ -36,52 +36,24 @@ Se utiliza en una capa de relleno para realizar ajustes sutiles de contraste, lu
 
 ### Sombras
 
-<table>
-<tr>
-<td><b>Contraste:</b></td>
-<td>Ajusta el contraste de las sombras.</td>
-</tr>
-<tr>
-<td><b>Luminosidad:</b></td>
-<td>Ajusta el brillo de las sombras.</td>
-</tr>
-<tr>
-<td><b>Saturación:</b></td>
-<td>Ajuste la saturación de las sombras.</td>
-</tr>
-</table>
+| Nombre del parámetro | Descripción |
+| --- | --- |
+| **Contraste:** | Ajusta el contraste de las sombras. |
+| **Luminosidad:** | Ajusta el brillo de las sombras. |
+| **Saturación:** | Ajuste la saturación de las sombras. |
 
 ### Medios tonos
 
-<table>
-<tr>
-<td><b>Contraste:</b></td>
-<td>Ajusta el contraste de los medios tonos.</td>
-</tr>
-<tr>
-<td><b>Luminosidad:</b></td>
-<td>Ajuste el brillo de los medios tonos.</td>
-</tr>
-<tr>
-<td><b>Saturación:</b></td>
-<td>Ajuste la saturación de los medios tonos.</td>
-</tr>
-</table>
+| Nombre del parámetro | Descripción |
+| --- | --- |
+| **Contraste:** | Ajusta el contraste de los medios tonos. |
+| **Luminosidad:** | Ajuste el brillo de los medios tonos. |
+| **Saturación:** | Ajuste la saturación de los medios tonos. |
 
 ### Iluminaciones
 
-<table>
-<tr>
-<td><b>Contraste:</b></td>
-<td>Ajusta el contraste de las iluminaciones.</td>
-</tr>
-<tr>
-<td><b>Luminosidad:</b></td>
-<td>Ajuste el brillo de las iluminaciones.</td>
-</tr>
-<tr>
-<td><b>Saturación:</b></td>
-<td>Ajuste la saturación de las iluminaciones.</td>
-</tr>
-</table>
-
+| Nombre del parámetro | Descripción |
+| --- | --- |
+| **Contraste:** | Ajusta el contraste de las iluminaciones. |
+| **Luminosidad:** | Ajuste el brillo de las iluminaciones. |
+| **Saturación:** | Ajuste la saturación de las iluminaciones. |

@@ -1,9 +1,9 @@
 ---
 title: Degradado
 description: Aprenda a utilizar el filtro Degradado de Substance 3D Painter.
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+source-git-commit: 5078774d081555f586a50965b91d85f7c340ef13
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '201'
 ht-degree: 2%
 ---
 
@@ -48,25 +48,10 @@ Se puede utilizar para ajustar los valores de una imagen de escala de grises o p
 
 ### Transformación de entrada
 
-<table>
-<tr>
-<td><b>Modo de escala de grises:</b></td>
-<td>Seleccione el modo de transformación de escala de grises. Puede elegir entre Desaturación, Luminancia, Promedio, Máx y Mín.</td>
-</tr>
-<tr>
-<td><b>Intensidad de desenfoque:</b></td>
-<td>Ajuste el grado de desenfoque de la entrada.</td>
-</tr>
-<tr>
-<td><b>Saldo:</b></td>
-<td>Ajuste el equilibrio de la entrada desplazando el punto medio hacia blanco o negro, de forma similar a un control de brillo.</td>
-</tr>
-<tr>
-<td><b>Contraste:</b></td>
-<td>Ajuste el contraste de la entrada.</td>
-</tr>
-<tr>
-<td><b>Invertir:</b></td>
-<td>Alternar la inversión de los colores de entrada.</td>
-</tr>
-</table>
+| Nombre del parámetro | Descripción |
+| --- | --- |
+| **Modo de escala de grises:** | Seleccione el modo de transformación de escala de grises. Puede elegir entre Desaturación, Luminancia, Promedio, Máx y Mín. |
+| **Intensidad de desenfoque:** | Ajuste el grado de desenfoque de la entrada. |
+| **Saldo:** | Ajuste el equilibrio de la entrada desplazando el punto medio hacia blanco o negro, de forma similar a un control de brillo. |
+| **Contraste:** | Ajuste el contraste de la entrada. |
+| **Invertir:** | Alternar la inversión de los colores de entrada. |

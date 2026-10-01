@@ -1,10 +1,10 @@
 ---
 title: Equilibrio de color
 description: Aprenda a utilizar el filtro Equilibrio de color de Substance 3D Painter.
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+source-git-commit: 5078774d081555f586a50965b91d85f7c340ef13
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 3%
+source-wordcount: '140'
+ht-degree: 5%
 ---
 
 # Equilibrio de color
@@ -36,52 +36,24 @@ Se utiliza en una capa de relleno para realizar ajustes de color sutiles.
 
 ### Iluminaciones
 
-<table>
-<tr>
-<td><b>cian &lt;-&gt; rojo:</b></td>
-<td>Cambie el color hacia el cian o el rojo.</td>
-</tr>
-<tr>
-<td><b>Magenta &lt;-&gt; Verde:</b></td>
-<td>Cambie el color hacia magenta o verde.</td>
-</tr>
-<tr>
-<td><b>Amarillo &lt;-&gt; Azul:</b></td>
-<td>Cambie el color hacia el amarillo o el azul.</td>
-</tr>
-</table>
+| Nombre del parámetro | Descripción |
+| --- | --- |
+| **Cian &lt;-> Rojo:** | Cambie el color hacia el cian o el rojo. |
+| **Magenta &lt;-> Verde:** | Cambie el color hacia magenta o verde. |
+| **Amarillo &lt;-> Azul:** | Cambie el color hacia el amarillo o el azul. |
 
 ### Medios tonos
 
-<table>
-<tr>
-<td><b>cian &lt;-&gt; rojo:</b></td>
-<td>Cambie el color hacia el cian o el rojo.</td>
-</tr>
-<tr>
-<td><b>Magenta &lt;-&gt; Verde:</b></td>
-<td>Cambie el color hacia magenta o verde.</td>
-</tr>
-<tr>
-<td><b>Amarillo &lt;-&gt; Azul:</b></td>
-<td>Cambie el color hacia el amarillo o el azul.</td>
-</tr>
-</table>
+| Nombre del parámetro | Descripción |
+| --- | --- |
+| **Cian &lt;-> Rojo:** | Cambie el color hacia el cian o el rojo. |
+| **Magenta &lt;-> Verde:** | Cambie el color hacia magenta o verde. |
+| **Amarillo &lt;-> Azul:** | Cambie el color hacia el amarillo o el azul. |
 
 ### Sombras
 
-<table>
-<tr>
-<td><b>cian &lt;-&gt; rojo:</b></td>
-<td>Cambie el color hacia el cian o el rojo.</td>
-</tr>
-<tr>
-<td><b>Magenta &lt;-&gt; Verde:</b></td>
-<td>Cambie el color hacia magenta o verde.</td>
-</tr>
-<tr>
-<td><b>Amarillo &lt;-&gt; Azul:</b></td>
-<td>Cambie el color hacia el amarillo o el azul.</td>
-</tr>
-</table>
-
+| Nombre del parámetro | Descripción |
+| --- | --- |
+| **Cian &lt;-> Rojo:** | Cambie el color hacia el cian o el rojo. |
+| **Magenta &lt;-> Verde:** | Cambie el color hacia magenta o verde. |
+| **Amarillo &lt;-> Azul:** | Cambie el color hacia el amarillo o el azul. |

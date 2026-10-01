@@ -1,10 +1,10 @@
 ---
 title: Tri-Plano avanzado
 description: Aprenda a utilizar el filtro Tri-Plano avanzado de Substance 3D Painter.
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+source-git-commit: 5078774d081555f586a50965b91d85f7c340ef13
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 0%
+source-wordcount: '553'
+ht-degree: 1%
 ---
 
 # Tri-Plano avanzado
@@ -56,20 +56,11 @@ Se utiliza en una capa de textura o dentro de una máscara para añadir una fusi
 
 ### Eje X
 
-<table>
-<tr>
-<td><b>Rotación X:</b></td>
-<td>Ajuste la rotación de la proyección de textura del eje X.</td>
-</tr>
-<tr>
-<td><b>Desplazamiento X X:</b></td>
-<td>Ajuste el desplazamiento de proyección del eje X a lo largo del eje X.</td>
-</tr>
-<tr>
-<td><b>Desplazamiento X Y:</b></td>
-<td>Ajuste el desplazamiento de proyección del eje X a lo largo del eje Y.</td>
-</tr>
-</table>
+| Nombre del parámetro | Descripción |
+| --- | --- |
+| **Rotación X:** | Ajuste la rotación de la proyección de textura del eje X. |
+| **Desplazamiento X X:** | Ajuste el desplazamiento de proyección del eje X a lo largo del eje X. |
+| **Desplazamiento X Y:** | Ajuste el desplazamiento de proyección del eje X a lo largo del eje Y. |
 
 >[!NOTE]
 >
@@ -79,20 +70,11 @@ Se utiliza en una capa de textura o dentro de una máscara para añadir una fusi
 
 ### Eje Y
 
-<table>
-<tr>
-<td><b>Rotación X:</b></td>
-<td>Ajuste la rotación de la proyección de textura del eje Y.</td>
-</tr>
-<tr>
-<td><b>Desplazamiento Y X:</b></td>
-<td>Ajuste el desplazamiento de proyección del eje Y a lo largo del eje X.</td>
-</tr>
-<tr>
-<td><b>Desplazamiento Y Y:</b></td>
-<td>Ajuste el desplazamiento de proyección del eje Y a lo largo del eje Y.</td>
-</tr>
-</table>
+| Nombre del parámetro | Descripción |
+| --- | --- |
+| **Rotación X:** | Ajuste la rotación de la proyección de textura del eje Y. |
+| **Desplazamiento Y X:** | Ajuste el desplazamiento de proyección del eje Y a lo largo del eje X. |
+| **Desplazamiento Y:** | Ajuste el desplazamiento de proyección del eje Y a lo largo del eje Y. |
 
 >[!NOTE]
 >
@@ -102,20 +84,11 @@ Se utiliza en una capa de textura o dentro de una máscara para añadir una fusi
 
 ### Eje Z
 
-<table>
-<tr>
-<td><b>Rotación X:</b></td>
-<td>Ajuste la rotación de la proyección de textura del eje Z.</td>
-</tr>
-<tr>
-<td><b>Desplazamiento Z X:</b></td>
-<td>Ajuste el desplazamiento de proyección del eje Z a lo largo del eje X.</td>
-</tr>
-<tr>
-<td><b>Desplazamiento Z Y:</b></td>
-<td>Ajuste el desplazamiento de proyección del eje Z a lo largo del eje Y.</td>
-</tr>
-</table>
+| Nombre del parámetro | Descripción |
+| --- | --- |
+| **Rotación X:** | Ajuste la rotación de la proyección de textura del eje Z. |
+| **Desplazamiento Z X:** | Ajuste el desplazamiento de proyección del eje Z a lo largo del eje X. |
+| **Desplazamiento Z Y:** | Ajuste el desplazamiento de proyección del eje Z a lo largo del eje Y. |
 
 >[!NOTE]
 >
