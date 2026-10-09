@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/old-versions/version-2018-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte las notas de la versión 2018.1 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2018.1
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versión 2018.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2400'
 ht-degree: 0%
-
 ---
-
 
 # Versión 2018.1
 
@@ -144,7 +136,7 @@ También hemos añadido contenido nuevo en esta versión:
   La dirección se puede definir con dos posiciones 3D, que se pueden seleccionar directamente en el mapa de posición.\
   Ejemplo :
 
-1. &#x200B;
+1. 
    1. Cree el generador de máscaras **3D linear gradient** en una de sus capas
    1. Cambie la visualización de la ventana gráfica a &quot;**Posición**&quot; (mediante el menú desplegable de la ventana gráfica o usando la clave &quot;**B**&quot;)
    1. Haga clic en el parámetro &quot;**Inicio de posición 3D**&quot; para abrir el elemento emergente **Selector de color**
@@ -186,8 +178,8 @@ Se ha añadido un nuevo curso tutorial a Substance Academy para que abarque nues
 **Corregido:**
 
 * [Plugin] El Substance Source de búsqueda no funciona
-* [Smart Materials] La importación de materiales inteligentes provoca bloqueos en algunos casos
-* [Materiales inteligentes] Al eliminar materiales inteligentes, en algunos casos se produce un bloqueo
+* [Materiales inteligentes] La importación de Materiales inteligentes provoca un bloqueo en algunos casos
+* [Materiales inteligentes] Al eliminar Materiales inteligentes, en algunos casos se produce un bloqueo
 * [Guardar] Guardar conduce a un bloqueo en algunos casos raros
 * [Estante] Invertir no funciona en las Celdas 2 y 3
 * [Estante] Error tipográfico en algunos Alpha
@@ -204,7 +196,7 @@ Se ha añadido un nuevo curso tutorial a Substance Academy para que abarque nues
 **Agregado:**
 
 * Resumen: Velocidad de Haga un bake mejorada, Sistema de guardado mejorado, Reguladores actualizados, Plugin API actualizado, Traducción al chino, Relleno mejorado ahora Opcional
-* [Bakers] Mejora del rendimiento con la nueva versión de baker
+* [Bakeres] Mejora del rendimiento con la nueva versión de baker
 * Cuadro de diálogo Forzar visualización con GPU no compatible
 * [Guardar] Exponer nueva funcionalidad de proyecto compacto (modo de guardado completo/compacto)
 * [Guardar] Informar al usuario en caso de error de guardado
@@ -224,14 +216,14 @@ Se ha añadido un nuevo curso tutorial a Substance Academy para que abarque nues
 
 * [Herramienta] La ranura de canal se transforma en una ranura de material en rellenos de un solo canal
 * Bloqueo al cargar una malla (FBX) con algunas caras no asignadas por un material
-* Bloqueo en Irán con NVIDIA GRID 5.2 en una máquina virtual
+* Bloqueo en Irán con NVIDIA GRID 5.2 en máquina virtual
 * Bloqueo al deshacer la eliminación de un ajuste preestablecido de material
 * Bloqueo al cargar algunos proyectos
-* [Línea de comandos] Nueva línea de comandos para las mallas UDIM divididas por udim
+* [Línea de comandos] Nueva línea de comandos para mallas de UDIM divididas por audio
 * [Barra de herramientas] Reducción de la barra de herramientas
 * [Instanciación] No se pueden crear instancias de mapas de bits en varios conjuntos de texturas
 * [Ventana gráfica] La actualización no se completa al pintar en malla con UV en mosaico
-* [Iray] El mapa normal se aplica dos veces para los dieléctricos
+* [Iray] El Mapa de normales se aplica dos veces a los dieléctricos
 * [Shelf] Errores tipográficos en algunos parámetros del Substance (alfas, procedimientos y matfx)
 * [Shelf] Error tipográfico para el mapa de bits &quot;Solo personal autorizado&quot;
 * [Script] La función alg.shaders.materials() ya no funciona
@@ -247,13 +239,13 @@ Se ha añadido un nuevo curso tutorial a Substance Academy para que abarque nues
 **Corregido:**
 
 * [Tablet] Problema al cambiar las opciones de interacción predeterminadas
-* [Bakers] Bloqueo con la biblioteca de Assimp
-* [Bakers] Regresión en el rendimiento con mapa A.O.
-* [Iray] La Distorsión de lente no se aplica al canal del Alpha
+* [Baker] Bloqueo con la biblioteca Assimp
+* [Bakeres] Regresión en el rendimiento con el mapa A.O
+* [Iray] La Distorsión de lente no se aplica al canal Alfa
 * [Controladores] Actualización de los requisitos mínimos de controladores
-* [3Dview] Las normales no se generan correctamente en mallas UDIM sin información de normales
+* [3Dview] Las normales no se generan correctamente en las mallas del UDIM sin información de normales
 * [Intel] Bloqueo con Substance Painter 2018.1.0
-* [Intel]&#x200B;[Viewport] Problema con relleno (defectos negros)
+* [Intel][Viewport] Problema con relleno (defectos negros)
 
 **Problemas conocidos:**
 
@@ -269,7 +261,7 @@ Se ha añadido un nuevo curso tutorial a Substance Academy para que abarque nues
 * Nuevo diseño predeterminado
 * [Tablet] Mejora de la experiencia del usuario al pintar
 * [Menú principal] Ordenar primero los elementos nativos de las vistas y barras de herramientas
-* [Menú principal] Sección Mover acciones rápidas de máscara en la ventana gráfica
+* [Menú principal] Sección Mover acciones de máscara rápida en la ventana gráfica
 * [Menú principal] Sección Mover las acciones del botón derecho al área de visualización
 * [Menú principal] Cambiar el nombre del menú &quot;Ver&quot; por &quot;Ventana&quot;
 * [Menú rápido] Nuevas propiedades de la herramienta haciendo clic con el botón derecho en la ventana gráfica
@@ -283,7 +275,7 @@ Se ha añadido un nuevo curso tutorial a Substance Academy para que abarque nues
 * [Herramientas propiedades] Organización en fichas (rellenar y herramientas)
 * [Herramienta] El resultado de la pintura coincide con la galería de símbolos
 * [Ventana gráfica] Nuevo cursor para la capa de relleno
-* [Ventana gráfica] Navegación y pintura más fluidas (velocidad de fotogramas más alta)
+* [Ventana gráfica] Navegación y pintura más fluidas (velocidad de marco más alta)
 * [Ventana gráfica] Cuadro combinado de selección de material/canal/mapa en la ventana gráfica
 * [Ventana gráfica] Reducción del parpadeo durante la rotación (sombra activada)
 * [Shelf] Mostrar materiales de forma predeterminada al abrir Painter
@@ -291,15 +283,15 @@ Se ha añadido un nuevo curso tutorial a Substance Academy para que abarque nues
 * [Estante] Reorganizar las carpetas de materiales para que se ajusten a la estructura del Substance Source
 * [Estante] Arrastre y suelte los materiales directamente en la malla en la ventana gráfica
 * [Shelf] Nuevos ruidos 3D (Perlin, Perlin Fractal, Simplex y Worley)
-* [Shelf] Nuevo generador de máscara de 3D linear gradient usando posición de malla
+* [Estante] Nuevo generador de máscaras de 3D linear gradient usando la posición de malla
 * [Estante] Ruidos básicos actualizados para admitir la expansión no cuadrada
 * [Estante] Se ha añadido una nueva plantilla y un ajuste preestablecido de exportación para Lens Studio (aplicación Snap)
-* [Estante] Se han actualizado los materiales y las máscaras inteligentes para utilizar la última versión del editor de máscaras (microdetalles).
+* [Estante] Materiales inteligentes y Máscaras inteligentes actualizados para utilizar la última versión del Editor de máscaras (detalles micro)
 * [Estante] Nuevo proyecto de muestra &quot;TilingMaterial&quot; para crear materiales de mosaico sin costuras
 * [Estante] Nuevos ajustes preestablecidos de pincel (caligrafía, mojado, sombreado, etc.)
 * [Reguladores] Nuevos reguladores y estilo y comportamiento de las barras de escala de grises y de color
-* [Bakers] Permite el uso del cuadro delimitador de escena completo para calcular el mapa de posición
-* [Shader] Se elimina el parámetro de fuerza de height de los parámetros de sombreado predeterminados.
+* [Bakeres] Permite el uso del cuadro delimitador de escena completo para calcular el mapa de posición
+* [Sombreador] Quitar el parámetro de fuerza de height de los parámetros de sombreador predeterminados
 * [Motor] Motor del Substance actualizado
 * [Motor] No hay o menos discontinuidades en los trozos UV (nuevo relleno de costura)
 * [Complementos] Importa materiales descargados de Substance Source con mayor rapidez
