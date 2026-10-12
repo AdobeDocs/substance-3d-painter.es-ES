@@ -200,10 +200,10 @@ Resumen: **Versión principal con nuevo modo de hacer un bake, nueva importació
 * [USD] Importación USD mallas desolladas en marcos específicos
 
   Al crear un nuevo proyecto con un archivo de malla de USD que contiene animación, es posible seleccionar el marco mediante un regulador que refleje la secuencia de cronología incrustada. El marco se puede modificar mediante la configuración del proyecto.
-* [USD][Exportar] Añadir una opción para exportar archivos USD
+* [USD]&#x200B;[Exportar] Añadir una opción para exportar archivos USD
 
   Nueva casilla de verificación Exportar USD añadida a la ventana Exportar texturas. Cuando está activada, permite exportar archivos USD, así como mapas de textura, utilizando cualquier plantilla.
-* [USD][Exportar] Agregar USD formato de archivo a la exportación de malla
+* [USD]&#x200B;[Exportar] Agregar USD formato de archivo a la exportación de malla
 * [USD] Cambie el nombre del ajuste preestablecido de exportación existente &quot;USD PBR Metal Roughness&quot; para que sea más explícito
 
   Se puede acceder a la plantilla de exportación de USD conocida anteriormente como &quot;Rugosidad del metal de USD PBR&quot; a través de texturas de exportación > Plantilla de salida > USDz (Apple AR).

@@ -265,7 +265,7 @@ Resumen: <b>Versión principal, nueva función de actualización automática, he
 * [Actualización automática] Añadir variable de entorno para desactivar la función de actualización automática
 * [Actualización automática] [SBSAR] Convertir la actualización en opcional si los parámetros del recurso no coinciden
 * Trazado relleno
-* [Trazado][Rellenar] Añadir una nueva herramienta para crear trazados rellenos
+* [Trazado]&#x200B;[Rellenar] Añadir una nueva herramienta para crear trazados rellenos
 * Mejoras de ruta
 * [Path] Crear un trazado que se ajusta a polígonos
 * [Path] Permitir cambiar entre tipos de ruta
@@ -275,7 +275,7 @@ Resumen: <b>Versión principal, nueva función de actualización automática, he
 * [Path] Cierre la forma con un solo clic
 * [Path] Visualización de la información de ruta
 * [Path] Permita escalar y rotar los vértices del trazado
-* [Path][UX] Facilita el acceso a las herramientas de transformación
+* [Path]&#x200B;[UX] Facilita el acceso a las herramientas de transformación
 * [Path] Añadir vista previa de ruta
 * [Trazado] Desactivar la previsualización de trazado con Mayús + P
 * [Path] Mejora de la edición de tangentes desde la vista lateral
@@ -283,7 +283,7 @@ Resumen: <b>Versión principal, nueva función de actualización automática, he
 * [Path] Los vértices deben conservar el estado de selección al activar o desactivar la IU de nuevo
 * [Ruta] Permitir eliminar la ruta con la barra espaciadora
 * [Path] Mantenga abierta la lista de rutas si el usuario la expande
-* [Ruta][Pila de capas] Cambiar correctamente el nombre de los duplicados al copiar y pegar
+* [Ruta]&#x200B;[Pila de capas] Cambiar correctamente el nombre de los duplicados al copiar y pegar
 * [Path] Mejoras en la interfaz de usuario y la información sobre herramientas
 * Rendimiento
 * [Rendimiento] Mejore el rendimiento de la ventanilla al utilizar un nivel de teselación alto
@@ -313,7 +313,7 @@ Resumen: <b>Versión principal, nueva función de actualización automática, he
 
 <b>Corregido</b>:
 
-* [Nvidia][Haciendo un bake] Los resultados del baker de Oclusión ambiental tienen defectos
+* [Nvidia]&#x200B;[Haciendo un bake] Los resultados del baker de Oclusión ambiental tienen defectos
 * [Bloqueo] Al pulsar la tecla Alt, se cambia la visibilidad del conjunto de texturas desactivado y se abre un bloqueo
 * [Haciendo un bake] La jaula se tiene en cuenta con un bajo nivel de poli como un alto parámetro de poli
 * [Haciendo un bake] El color del material para el baker del mapa de ID no funciona con USD formato de archivo
@@ -330,7 +330,7 @@ Resumen: <b>Versión principal, nueva función de actualización automática, he
 <b>Problemas conocidos</b>:
 
 * [Gestión de color] HDR. las conversiones de espacio de color con ACE en Linux producen colores con sujeción
-* [Regresión][IU] El menú contextual es demasiado pequeño en pantallas HD
+* [Regresión]&#x200B;[IU] El menú contextual es demasiado pequeño en pantallas HD
 * [Bloqueo] [Python] USD exportación desencadenada por TextureStateEvent
 * [Motor] Pintura con la herramienta Clonar en colores de cambio de canal normales incorrectamente
 * [Python] El widget fantasma aparece eliminado por la secuencia de comandos y sigue funcionando

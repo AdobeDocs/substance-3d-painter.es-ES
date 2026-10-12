@@ -239,17 +239,17 @@ Resumen: <b>Versión principal con compatibilidad con SVG y transparencia, así 
 <b>Agregado:</b>
 
 * [SVG] Permitir la importación de archivos vectoriales (SVG)
-* [SVG][IU] Añadir compatibilidad con propiedades específicas del SVG
+* [SVG]&#x200B;[IU] Añadir compatibilidad con propiedades específicas del SVG
 * [SVG] Añada una opción para conservar fácilmente las proporciones originales de la imagen
 * [SVG] Permitir el uso automático de alfa de SVG con transparencia
 * [Interop] Permita el envío de una malla con textura a After Effects (Ae 24.1 beta).
 * [Interop] Añadir configuración para Enviar a After Effects
-* [QoL][Assets][UI] Activo de importación automática al arrastrar y soltar en la ranura de la IU
+* [QoL]&#x200B;[Assets]&#x200B;[UI] Activo de importación automática al arrastrar y soltar en la ranura de la IU
 * [QoL] Permite arrastrar y soltar recursos externos en la pila de capas
 * [QoL] [Pila de capas] Arrastre y suelte texturas del panel Recursos en la Pila de capas
 * [QoL] [Viewport] Permite arrastrar y soltar el generador, filtros en la malla
-* [QoL][Viewport] Permite soltar recursos externos en la malla
-* [QoL][Proyección] Añadir nuevo conjunto UV al modo de proyección Conjunto UV
+* [QoL]&#x200B;[Viewport] Permite soltar recursos externos en la malla
+* [QoL]&#x200B;[Proyección] Añadir nuevo conjunto UV al modo de proyección Conjunto UV
 * [QoL] Arrastrar y soltar Máscaras inteligentes como nuevas capas en la ventana gráfica y la Pila de capas
 * [QoL] Añadir selector para generadores con varias salidas cuando se utiliza en la máscara
 * [QoL] Permite arrastrar y soltar imágenes de un solo canal sobre un efecto de relleno
@@ -273,7 +273,7 @@ Resumen: <b>Versión principal con compatibilidad con SVG y transparencia, así 
 * [Rendimiento] Aplique compresión sin pérdida en imágenes de 16 bits para reducir el espacio del proyecto
 * [Python] Permite manipular la cámara predeterminada en Vista 3D
 * [Python] Exponer la capacidad de exportar mallas mediante scripts
-* [Contenido][Muestras] Añadir nuevo proyecto de muestra &quot;French Restaurant Table&quot;
+* [Contenido]&#x200B;[Muestras] Añadir nuevo proyecto de muestra &quot;French Restaurant Table&quot;
 * [Contenido] Actualizar el logotipo de Substance alfa a una nueva versión
 * [Contenido] Añade tres filtros de material enfocados en el SVG (pegatina personalizada, spray personalizado y gráfico en el material)
 
@@ -288,7 +288,7 @@ Resumen: <b>Versión principal con compatibilidad con SVG y transparencia, así 
 * [UI] La flecha de la barra de herramientas contextual no aparece en algunos casos
 * [Substance] No se admite el botón en paralelo para valores booleanos
 * [Nivel] Etiqueta de canal incorrecta cuando se utiliza en la máscara
-* [Export][glTF] Los archivos glTF/GLB exportados desde Painter no tienen una unidad de tamaño físico
+* [Export]&#x200B;[glTF] Los archivos glTF/GLB exportados desde Painter no tienen una unidad de tamaño físico
 * [Contenido] La intensidad del filtro de desenfoque se fija en 16
 * [Contenido] La entrada de imagen del filtro &quot;color de destino&quot; no está visible
 
@@ -300,6 +300,6 @@ Resumen: <b>Versión principal con compatibilidad con SVG y transparencia, así 
 * [Bloqueo] Exr utilizado como entrada de imagen
 * [Bloqueo] Uso del mapa de entorno de 16K
 * [Auto Unwrap] Problema de interfaz de usuario para el control de densidad de texto
-* [Regresión][UI] El menú contextual es demasiado pequeño en la pantalla HD
+* [Regresión]&#x200B;[UI] El menú contextual es demasiado pequeño en la pantalla HD
 * [Python] Exportación de Bloqueos USD activada por TextureStateEvent
 * [QoL] Arrastrar y soltar un recurso de Alpha en modo de pegatina crea Proyección de UV en la máscara

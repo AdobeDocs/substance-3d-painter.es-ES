@@ -185,7 +185,7 @@ Para ejecutar un comando Javascript desde Python, use la función **evaluation()
 * [Gestión de color] Desactivar el menú desplegable de visualización del selector de color para canales de datos
 * [Optimización] La cuadrícula de deformación vuelve a calcular únicamente los mosaicos UV cubiertos
 * [Exportar] Permitir la exportación de proyectos de Mosaico de UV para Sketchfab, USD y glTF
-* [Scripting][Python] Permitir el cambio de la función de asignación de tonos
+* [Scripting]&#x200B;[Python] Permitir el cambio de la función de asignación de tonos
 
 **Corregido:**
 
@@ -202,7 +202,7 @@ Para ejecutar un comando Javascript desde Python, use la función **evaluation()
 * [Gestión de color] ACE ajuste de tono se aplica a los canales en modo solo
 * [Gestión de color] La previsualización de la iluminación de la esfera de la herramienta no está gestionada por color
 * [Administración de color] [Exportar] Los mapas convertidos aplican una conversión incorrecta
-* [Scripting][Python][Gestión de color] Los proyectos creados con plantillas y OCIO variables de entorno están en modo heredado
+* [Scripting]&#x200B;[Python]&#x200B;[Gestión de color] Los proyectos creados con plantillas y OCIO variables de entorno están en modo heredado
 * [Scripting] [Python] No se puede utilizar la función de evaluación de JavaScript al inicio
 * [Oferta de Adobe 3D] No se puede iniciar Painter si se utiliza la configuración regional con idiomas no admitidos de forma predeterminada
 
@@ -224,7 +224,7 @@ Para ejecutar un comando Javascript desde Python, use la función **evaluation()
 * [Administración de color] Expanda la sección Administración de color de forma predeterminada cuando se selecciona OCIO en las nuevas ventanas de configuración de proyecto y proyecto
 * [Gestión de color] Añadir ACE asignador de tonos en modo heredado
 * [Gestión de color] Ajustar los valores de configuración predeterminados
-* [Gestión de color][Exportar] Rellenar $colorSpace en nombres de archivo para canales de datos
+* [Gestión de color]&#x200B;[Exportar] Rellenar $colorSpace en nombres de archivo para canales de datos
 * [Exportar] Exportar proyecto de Mosaico de UV a Stager
 * [Interoperabilidad] No disponible para las ediciones Steam y Substance
 * [Interoperabilidad] Permitir el envío de un proyecto de Mosaico de UV a Stager
@@ -264,7 +264,7 @@ Para ejecutar un comando Javascript desde Python, use la función **evaluation()
 * [Gestión de color] Extraer nombre de espacio de color del nombre de archivo de mapa de bits importado
 * [Gestión de color] Permita anular el espacio de color con un espacio de color desde la configuración de la ventana Propiedades
 * [Gestión de color] Añadir opciones de gestión de color en Configuración del conjunto de texturas
-* [Gestión de color][Ventana] Permitir la gestión de color de vistas 2D y 3D por separado
+* [Gestión de color]&#x200B;[Ventana] Permitir la gestión de color de vistas 2D y 3D por separado
 * [Gestión de color] Cargar y convertir mapa de entorno en el espacio de color de trabajo
 * [Gestión de color] Ajuste el selector de color y el editor con el espacio de color actual
 * [Gestión de color] Permite seleccionar la visualización transformar espacio de color en la ventana gráfica con un nuevo menú desplegable.
@@ -275,7 +275,7 @@ Para ejecutar un comando Javascript desde Python, use la función **evaluation()
 * [Auto Unwrap] Nueva opción para evitar islas alargadas
 * [Scripting Python] Llamar a funciones de JavaScript desde la API de Python
 * [Nueva ventana de proyecto] Hacer que la sección de mapas importados sea contraíble
-* [Proyección][Deformar] Permite ocultar las normales como una opción en los ajustes de Deformación
+* [Proyección]&#x200B;[Deformar] Permite ocultar las normales como una opción en los ajustes de Deformación
 * [Contenido] 11 nuevos mapas de suciedades
 * [Contenido] 8 nuevos ajustes preestablecidos de herramientas (cremallera, cordón de apriete, brillo)
 * [Contenido] 8 materiales nuevos (cicatriz, bolsillo, ...)

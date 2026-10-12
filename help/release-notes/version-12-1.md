@@ -277,12 +277,12 @@ Resumen: <b>Esta actualización es una versión importante, contiene mejoras de 
 
 * [Bloqueo] [Ajustes de Mapas de Malla] Aplicación de ajustes a otros conjuntos de texturas
 * [Bloqueo] Al hacer un bake la curvatura del mapa sin espacio mundial normal
-* [Bloqueo][Hacer un bake] Hacer un bake con la jaula personalizada activada, pero sin bloqueos de archivo seleccionados
+* [Bloqueo]&#x200B;[Hacer un bake] Hacer un bake con la jaula personalizada activada, pero sin bloqueos de archivo seleccionados
 * [Bloqueo] Cancelación de hace un bake de AO
 * [Auto-Cage] Carga infinita cuando la ruta del archivo de poli alto no es válida
 * [Linux] [Windows] En ocasiones, el selector de color puede ser completamente negro o no aparecer
 * [Herramienta Relleno poligonal] La herramienta no funciona con PBR
-* [[Pintura] Al eliminar el canal de color base no se elimina el color pintado anteriormente
+* &lbrack;[Pintura] Al eliminar el canal de color base no se elimina el color pintado anteriormente
 * [USD] No se detectan correctamente todas las Instancias del sombreador
 * [Substance] Solo se tiene en cuenta el primer uso de un nodo de entrada/salida
 * [Sombreador] La Oclusión ambiental se aplica dos veces con los conjuntos de texturas usando diferentes métodos de mezcla
