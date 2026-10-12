@@ -39,7 +39,7 @@ Para añadir un generador a una capa:
 ![](../../assets/generators/generator_spectrum.png)
 
 Cada generador tiene un conjunto de parámetros que le permiten ajustar la máscara resultante.\
-Para agregar generadores personalizados en el estante, consulte: [Agregando contenido al estante](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+Para agregar generadores personalizados en el estante, consulte: [Agregando contenido al estante](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 >[!NOTE]
 >

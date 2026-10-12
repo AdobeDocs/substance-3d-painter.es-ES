@@ -58,4 +58,4 @@ Ahora reinicie la aplicación, las búsquedas guardadas deben aparecer en la sec
 
 Se recomienda volver a ajustar manualmente la configuración de la aplicación desde la interfaz. Esta es la forma más segura de migrar la información sin introducir problemas de compatibilidad.
 
-De lo contrario, consulte la página siguiente para saber dónde se encuentran ahora las preferencias: [Preferencias y ubicación de datos de la aplicación](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html).
+De lo contrario, consulte la página siguiente para saber dónde se encuentran ahora las preferencias: [Preferencias y ubicación de datos de la aplicación](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html).

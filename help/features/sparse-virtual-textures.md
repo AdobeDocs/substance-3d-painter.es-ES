@@ -52,7 +52,7 @@ Para obtener más información técnica, consulte :  [Texturas virtuales dispers
 ![](../assets/settings-temp.png)
 
 Cuando no hay suficiente memoria del sistema (Ram) disponible para almacenar la caché de SVT, Substance 3D Painter cambiará al disco duro del equipo en lugar de almacenar la caché.\
-La ubicación de esta caché se establece de forma predeterminada en la carpeta Archivos temporales del sistema operativo. Esta ubicación se puede cambiar entrando en la configuración principal de la aplicación, consulte [Preferencias generales](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) .
+La ubicación de esta caché se establece de forma predeterminada en la carpeta Archivos temporales del sistema operativo. Esta ubicación se puede cambiar entrando en la configuración principal de la aplicación, consulte [Preferencias generales](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/general-71008262.html) .
 
 ## Compatibilidad del sombreador
 
@@ -61,7 +61,7 @@ Para aprovechar al máximo el SVT, los Shaders tienen que solicitar y leer textu
 Para actualizar los sombreadores :
 
 * Para **sombreador Substance 3D Painter predeterminado** : Siga el procedimiento paso a paso de la página [Actualizando un sombreador](../interface/shader-settings/updating-a-shader.md).
-* Para **sombreador personalizado**: echa un vistazo a los mensajes de error del registro, así como a la página [API del sombreador](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).
+* Para **sombreador personalizado**: echa un vistazo a los mensajes de error del registro, así como a la página [API del sombreador](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).
 
 >[!WARNING]
 >

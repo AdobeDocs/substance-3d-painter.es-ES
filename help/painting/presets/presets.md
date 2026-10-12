@@ -22,6 +22,6 @@ Los ajustes preestablecidos se guardan en el disco dentro de la carpeta [Assets]
 
 Para administrar los ajustes preestablecidos, consulte:
 
-* [Creación y almacenamiento de ajustes preestablecidos](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/creating-and-saving-a-preset-180191514.html)
+* [Creación y almacenamiento de ajustes preestablecidos](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/creating-and-saving-a-preset-180191514.html)
 * [Creación de ajustes preestablecidos de partículas](../../painting/presets/creating-particles-pre/creating-particles-presets.md)
 * [Ajustes preestablecidos de pincel (ABR) de Photoshop](../../painting/presets/photoshop-brush-presets/photoshop-brush-presets-abr.md)

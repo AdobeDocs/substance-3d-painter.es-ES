@@ -40,7 +40,7 @@ El **complemento** está disponible en GitHub, no dudes en ayudar si ves posible
 ![](../../assets/texture-set-rename-description.png)
 
 Ahora es posible cambiar el nombre de un conjunto de texturas directamente dentro de Substance Painter. El cambio de nombre de un conjunto de texturas afectará al nombre de las texturas que se exporten en el disco (en función del ajuste preestablecido de exportación utilizado).\
-Para cambiar el nombre de un conjunto de texturas, solo tiene que hacer doble clic en su nombre para modificarlo o hacer clic con el botón derecho del ratón para abrir el menú contextual. También es posible añadir descripciones personalizadas para proporcionar más información sobre lo que hacen los conjuntos de texturas. Esto puede resultar muy útil al trabajar en un [proyecto de UDIM](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/uv-tile-udim-legacy-144310352.html). Use el botón &quot;**settings**&quot; para configurar la forma en que se muestran las descripciones en la lista.
+Para cambiar el nombre de un conjunto de texturas, solo tiene que hacer doble clic en su nombre para modificarlo o hacer clic con el botón derecho del ratón para abrir el menú contextual. También es posible añadir descripciones personalizadas para proporcionar más información sobre lo que hacen los conjuntos de texturas. Esto puede resultar muy útil al trabajar en un [proyecto de UDIM](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/uv-tile-udim-legacy-144310352.html). Use el botón &quot;**settings**&quot; para configurar la forma en que se muestran las descripciones en la lista.
 
 ![](../../assets/reasign-texture-set.png)
 

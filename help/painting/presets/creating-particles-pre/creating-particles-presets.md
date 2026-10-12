@@ -18,6 +18,6 @@ Los pinceles de partículas se componen de dos partes: el **Emisor** y el **Rece
 
 Para obtener más información, consulte las páginas dedicadas :
 
-* [Instalación del editor de partículas](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/installation-of-the-editor-67403780.html)
-* [Descripción general del editor de partículas](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/overview-of-popcornfx-particle-editor-67796996.html)
+* [Instalación del editor de partículas](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/installation-of-the-editor-67403780.html)
+* [Descripción general del editor de partículas](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/overview-of-popcornfx-particle-editor-67796996.html)
 * [Creación De Un Nuevo Script De Partículas](creating-a-new-particle-script.md)

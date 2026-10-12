@@ -18,4 +18,4 @@ ht-degree: 0%
 
 En caso de que aparezcan problemas, bloqueos o incluso defectos en el sistema operativo Mac al ejecutar una GPU personalizada con controladores personalizados, una solución alternativa podría ser eliminar los archivos **listado correctamente** relacionados con la aplicación.
 
-Para saber qué archivo desea quitar, consulte: [Preferencias y ubicación de datos de la aplicación](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html).
+Para saber qué archivo desea quitar, consulte: [Preferencias y ubicación de datos de la aplicación](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html).

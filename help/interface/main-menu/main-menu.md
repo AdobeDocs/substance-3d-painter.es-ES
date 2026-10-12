@@ -20,6 +20,6 @@ Situado encima de la barra de herramientas, en el menú Principal, puede acceder
 * [Menú Edición](edit-menu.md)
 * [Menú Modo](mode-menu.md)
 * [Menú Ventana](window-menu.md)
-* [Menú Ventana](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/viewport-170460351.html)
+* [Menú Ventana](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/viewport-170460351.html)
 * [Menú Complementos](plugins-menu.md)
 * [Menú Ayuda](help-menu.md)

@@ -49,7 +49,7 @@ Puede importar diferentes tipos de archivos a la biblioteca de Substance 3D Pain
 
 >[!NOTE]
 >
-> A partir de la versión 7.2.0, las carpetas y categorías personalizadas se pueden utilizar en una biblioteca. Se podrá acceder a ellos en la ventana Activos a través de [Filtrar por ruta de acceso](../../interface/assets/filter-by-path.md) o [Rastros](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html).
+> A partir de la versión 7.2.0, las carpetas y categorías personalizadas se pueden utilizar en una biblioteca. Se podrá acceder a ellos en la ventana Activos a través de [Filtrar por ruta de acceso](../../interface/assets/filter-by-path.md) o [Rastros](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html).
 
 >[!WARNING]
 >

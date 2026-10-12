@@ -29,4 +29,4 @@ Para obtener una visión general rápida del modo de Hacer un bake, echa un vist
 
 >[!NOTE]
 >
-> Para obtener más información sobre cómo hacer un bake en general, consulta la [Documentación de Haga un bake](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).
+> Para obtener más información sobre cómo hacer un bake en general, consulta la [Documentación de Haga un bake](https://experienceleague.adobe.com/es/docs/substance-3d/bakers/home).

@@ -18,7 +18,7 @@ Algunos casos específicos pueden hacer que Substance 3D Painter se bloquee dura
 
 La detección y recuperación de tiempo de espera (TDR) es un mecanismo de seguridad de Microsoft Windows que evita que una GPU bloquee el sistema con un cálculo interminable. Lamentablemente, este mecanismo es demasiado restrictivo para Substance 3D Painter de forma predeterminada.
 
-Para obtener más información, consulte: [bloqueo de controladores de GPU con cálculos largos (bloqueo TDR)](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/gpu-drivers-crash-with-long-computations-128745489.html).
+Para obtener más información, consulte: [bloqueo de controladores de GPU con cálculos largos (bloqueo TDR)](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/gpu-drivers-crash-with-long-computations-128745489.html).
 
 ## Poca memoria virtual
 

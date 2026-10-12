@@ -18,7 +18,7 @@ Las ventanas gráficas pueden aparecer borrosas por diferentes razones.
 
 De forma predeterminada, Substance 3D Painter reduce la resolución de la ventana gráfica en la pantalla alta PPP/Retina para mejorar el rendimiento.
 
-Este comportamiento se puede cambiar en la [configuración principal](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) cambiando el parámetro **Escalado de ventana gráfica**.
+Este comportamiento se puede cambiar en la [configuración principal](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/general-71008262.html) cambiando el parámetro **Escalado de ventana gráfica**.
 
 ## Filtrado de textura
 

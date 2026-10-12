@@ -18,7 +18,7 @@ Esta página muestra todos los métodos abreviados de teclado y de ratón dispon
 
 ## Introducción a los métodos abreviados
 
-Para obtener una breve descripción de todos los accesos directos disponibles, consulta nuestro gráfico [disponible en nuestros tutoriales](https://helpx.adobe.com/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) .
+Para obtener una breve descripción de todos los accesos directos disponibles, consulta nuestro gráfico [disponible en nuestros tutoriales](https://helpx.adobe.com/es/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) .
 
 ## Cómo cambiar un método abreviado
 
