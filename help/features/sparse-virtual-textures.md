@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/sparse-virtual-textures.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a utilizar texturas virtuales dispersas en Substance 3D Painter para trabajar con texturas de resolución ultra alta de manera eficiente.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Sparse Virtual Textures
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Texturas virtuales dispersas
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 0%
-
 ---
-
 
 # Texturas virtuales dispersas
 
@@ -60,7 +52,7 @@ Para obtener más información técnica, consulte :  [Texturas virtuales dispers
 ![](../assets/settings-temp.png)
 
 Cuando no hay suficiente memoria del sistema (Ram) disponible para almacenar la caché de SVT, Substance 3D Painter cambiará al disco duro del equipo en lugar de almacenar la caché.\
-La ubicación de esta caché se establece de forma predeterminada en la carpeta Archivos temporales del sistema operativo. Esta ubicación se puede cambiar entrando en la configuración principal de la aplicación, consulte [Preferencias generales](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/general-71008262.html) .
+La ubicación de esta caché se establece de forma predeterminada en la carpeta Archivos temporales del sistema operativo. Esta ubicación se puede cambiar entrando en la configuración principal de la aplicación, consulte [Preferencias generales](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) .
 
 ## Compatibilidad del sombreador
 
@@ -69,7 +61,7 @@ Para aprovechar al máximo el SVT, los Shaders tienen que solicitar y leer textu
 Para actualizar los sombreadores :
 
 * Para **sombreador Substance 3D Painter predeterminado** : Siga el procedimiento paso a paso de la página [Actualizando un sombreador](../interface/shader-settings/updating-a-shader.md).
-* Para **sombreador personalizado**: echa un vistazo a los mensajes de error del registro, así como a la página [API del sombreador](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).
+* Para **sombreador personalizado**: echa un vistazo a los mensajes de error del registro, así como a la página [API del sombreador](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html).
 
 >[!WARNING]
 >

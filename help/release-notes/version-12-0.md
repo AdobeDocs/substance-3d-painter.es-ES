@@ -1,15 +1,11 @@
 ---
 title: Versión 12.0
-description: ''
-helpx_description: "Substance 3D Painter"
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/version-12-0.html"
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+description: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 0%
-
 ---
-
 
 # Versión 12.0
 
@@ -36,7 +32,7 @@ Los elementos acoplados de la pila de capas también se pueden exportar directam
 
   ![](../assets/v12_flatten_menu.jpg)
 * <b>Acoplar y exportar texturas al disco</b>\
-  Una acción de exportación específica en el menú contextual hace un bake el resultado acoplado de una capa, máscara o grupo y lo guarda directamente en el disco. Esto resulta útil para transferir contenido horneado a otras aplicaciones sin tener que pasar por la canalización de exportación de texturas completa.
+  Una acción de exportación específica en el menú contextual hace un bake el resultado acoplado de una capa, máscara o grupo y lo guarda directamente en el disco. Esto resulta útil para transferir contenido hecho un bake a otras aplicaciones sin tener que pasar por el proceso de exportación de toda la textura.
 * <b>Operaciones por lotes</b>\
   Es posible seleccionar varias capas, grupos o máscaras a la vez y acoplarlas o exportarlas individualmente en una sola operación, lo que hace más eficiente procesar grandes porciones de una pila de capas en un solo paso.
 
@@ -120,22 +116,22 @@ La nueva ventana del proyecto y el cuadro de diálogo de configuración del proy
 ### 12.0.0
 
 Fecha de publicación: <b>2026/03/09</b>\
-Resumen: <b>Esta es una versión principal. Esta versión contiene las funciones de acoplar capas, deformar en geometría, nuevos efectos posteriores, mejoras en la nueva ventana de proyecto y otras mejoras.</b>
+Resumen: <b>Esta es una versión principal. Esta versión contiene las funciones de acoplar capas, deformar en geometría, nuevos efectos de posprocesamiento, mejoras en la nueva ventana de proyecto y otras mejoras.</b>
 
 <b>Agregado</b>:
 
 * [Acoplar capas] Acoplar capas dentro de la pila de capas
 * [Acoplar capas] Exportar capas acopladas a un disco
 * [Deformar en geometría] Añadir nueva función de deformación automática a las proyecciones de deformación
-* [Efectos posteriores] Reemplace los efectos posteriores por la adición de otros nuevos
+* [Efectos posteriores] Sustituya los efectos de posprocesamiento por otros nuevos
 * [Post-effects] Actualizar el asignador de tonos
 * [Post-effects] Añadir nuevo uso para recursos Post-effects
-* [Contenido]&#x200B;[Efectos posteriores] Integrar activos de efectos posteriores predeterminados en la biblioteca
+* [Contenido][Efectos posteriores] Integrar activos de efectos posteriores predeterminados en la biblioteca
 * [Nuevo proyecto] Mejora de la interfaz de usuario para la creación de proyectos
 * [Nuevo proyecto] Cambios en la función de reimportación de mallas
 * [Nuevo proyecto] Permitir la apertura de archivos \*.geo.usd
 * [Configuración del proyecto] Mejorar la interfaz de usuario para la configuración del proyecto
-* Actualizar la biblioteca USD a la versión 25.05
+* Actualizar USD biblioteca a la versión 25.05
 * Actualizar Substance Engine a la versión 9.3.4
 * Aumentar controladores mínimos a 25.3.1/25.Q2 para las GPU AMD
 * Actualizar Qt a 6.8.6
@@ -144,9 +140,9 @@ Resumen: <b>Esta es una versión principal. Esta versión contiene las funciones
 
 <b>Corregido:</b>
 
-* [Bloqueo] Cambiar una salida de canal de material en una máscara puede bloquearse
-* [Importar] Las texturas EXR se fuerzan en sRGB en lugar de lineales al importar archivos USD
-* [UV Tiles] La secuencia de imágenes con una sola imagen también llena otros UV Tiles
-* [Banca] El AO es diferente entre la CPU y la GPU
+* [Bloqueo] El cambio de una salida de canal de material en una máscara puede generar un bloqueo
+* [Import] Las texturas de EXR se fuerzan en sRGB en lugar de lineales al importar archivos USD
+* [Mosaicos de UV] La secuencia de imágenes con una sola imagen también llena otros Mosaicos de UV
+* [Hacer un bake] El AO es diferente entre la CPU y la GPU al hacer un bake
 * [Gestión de color] [MacOS] Viewport BaseColor no coincide con el selector de color
-* [USD] En algunos casos, los valores uniformes no se importan
+* [USD] En algunos casos no se importan valores uniformes

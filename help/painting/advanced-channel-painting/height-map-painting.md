@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/advanced-channel-painting/height-map-painting.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a crear mapas de altura de pintura directamente en Substance 3D Painter para crear efectos de elevación de desplazamientos y superficies.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Advanced channel painting > Height Map Painting
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Pintura de mapa de altura
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
-
 ---
-
 
 # Pintura de mapa de altura
 
@@ -32,13 +24,13 @@ El proceso es el siguiente:
 
 Todo lo que tienes que preocuparte es pintar ese height, todo lo demás se hace automáticamente.
 
-### Formato HDR de height
+### HDR de height. Formato
 
 El canal de Height utiliza un formato de color **HDR.**, que permite pintura de valores positivos y negativos sin llegar nunca a un límite de brillo, a diferencia de los mapas de  tradicionales, que se saturarán entre 0 y 255.
 
 * Cuando se pinta con un mapa de bits o una sustancia en un height, ese origen se reasigna de su rango original [0,255] a un rango [-1,1].
 
-Un gris medio se reasignará a 0. Por lo tanto, los valores por debajo de 127 **restarán** del mapa de altura, mientras que los valores por encima de 127 **agregarán** al mismo cuando se utilice el modo de fusión predeterminado establecido para los mapas de height, **Sobreexposición lineal (agregar)**.
+Un gris medio se reasignará a 0. Por lo tanto, los valores por debajo de 127 **restarán** del mapa de altura, mientras que los valores por encima de 127 **agregarán** al mismo cuando se utilice el modo de fusión predeterminado establecido para los mapas de altura, **Sobreexposición lineal (agregar)**.
 
 * Cuando pinte con color liso, podrá seleccionar directamente valores entre -1 y 1.
 

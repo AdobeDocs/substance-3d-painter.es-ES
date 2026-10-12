@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/performances-guidelines/mesh-and-uv-setup.html"
-breadcrumb-title: ''
-description: Conozca las prácticas recomendadas sobre la configuración de mallas y UV en Substance 3D Painter para optimizar el rendimiento y la calidad de la textura.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Performances guidelines > Mesh and UV setup
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: Conozca las prácticas recomendadas para la configuración de mallas y UV en Substance 3D Painter para optimizar el rendimiento y la calidad de la textura.
 title: Configuración de malla y UV
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
-
 ---
-
 
 # Configuración de malla y UV
 
@@ -35,7 +27,7 @@ Por ejemplo, si se aplica texturizado a un solo plano cuádruple, es mejor subdi
 +++
 
 +++Dividir texturas en varios conjuntos de texturas
-Lo mejor es dividir mallas más grandes con asignaciones de materiales más complejas en varios conjuntos de texturas. Los conjuntos de texturas le permiten asignar diferentes configuraciones a cada conjunto de texturas, como las propiedades de resolución y sombreado. Por ejemplo, si solo una parte de la malla utiliza translucidez o SSS, es mejor asignar otro conjunto de texturas y una instancia del sombreador diferente a esa parte. De este modo, estas propiedades más complejas no tienen que calcularse cuando no se utilizan.
+Lo mejor es dividir mallas más grandes con asignaciones de materiales más complejas en varios conjuntos de texturas. Los conjuntos de texturas le permiten asignar diferentes configuraciones a cada conjunto de texturas, como las propiedades de resolución y sombreador. Por ejemplo, si solo una parte de la malla utiliza translucidez o SSS, es mejor asignar otro conjunto de texturas y una instancia del sombreador diferente a esa parte. De este modo, estas propiedades más complejas no tienen que calcularse cuando no se utilizan.
 
 +++
 

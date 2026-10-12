@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/content/importing-assets/adding-content-on-the-hard-drive.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a agregar contenido de su disco duro a Substance 3D Painter para expandir su biblioteca de recursos con archivos locales.
-helpx_creative_field: ""
-helpx_description: Painter > Content > Importing assets > Adding content on the hard drive
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Adición de contenido en el disco duro
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 2%
-
 ---
-
 
 # Adición de contenido en el disco duro
 
@@ -57,7 +49,7 @@ Puede importar diferentes tipos de archivos a la biblioteca de Substance 3D Pain
 
 >[!NOTE]
 >
-> A partir de la versión 7.2.0, las carpetas y categorías personalizadas se pueden utilizar en una biblioteca. Se podrá acceder a ellos en la ventana Activos a través de [Filtrar por ruta de acceso](../../interface/assets/filter-by-path.md) o [Rastros](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html).
+> A partir de la versión 7.2.0, las carpetas y categorías personalizadas se pueden utilizar en una biblioteca. Se podrá acceder a ellos en la ventana Activos a través de [Filtrar por ruta de acceso](../../interface/assets/filter-by-path.md) o [Rastros](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html).
 
 >[!WARNING]
 >

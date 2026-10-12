@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/es/substance-3d-painter/painting/tool-list/path.html'
 breadcrumb-title: ''
 description: Utilice la herramienta Trazado de Substance 3D Painter para crear y editar trazados con el fin de obtener una textura y una colocación de trazos precisas.
-helpx_creative_field: ''
-helpx_description: Painting > Path tools list > Path tool
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Introducción a la herramienta Trazado
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6fcf10add7086a0e2a070ee6046c0a261ef1ae34
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1666'
 ht-degree: 0%
-
 ---
-
 
 # Introducción a la herramienta Trazado
 
@@ -157,7 +149,7 @@ La **barra de herramientas contextual** cuando la herramienta **Path** está sel
 >
 > El panel se oculta cuando la herramienta actual no es la herramienta Trazado o si se selecciona una capa o carpeta de relleno.
 
-Dentro de la ventana gráfica se encuentra el panel **Trazados**, en el que se muestran todos los trazados de la capa o efecto de pintura actualmente seleccionado. Proporciona una forma sencilla de seleccionar y administrar trazados.
+Dentro del área de visualización se encuentra el panel **Trazados**, donde se muestran todos los trazados de la capa de pintura o efecto seleccionados actualmente. Proporciona una forma sencilla de seleccionar y administrar trazados.
 
 Con este panel, es posible:
 

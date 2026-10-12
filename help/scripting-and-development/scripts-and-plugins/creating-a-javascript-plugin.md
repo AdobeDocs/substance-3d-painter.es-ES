@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/scripting-and-development/scripts-and-plugins/creating-a-javascript-plugin.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a crear complementos de JavaScript para Substance 3D Painter para ampliar la funcionalidad y automatizar los flujos de trabajo personalizados.
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > Scripts and plugins > Creating a Javascript plugin
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Creación de un complemento de Javascript
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 1%
-
 ---
-
 
 # Creación de un complemento de Javascript
 

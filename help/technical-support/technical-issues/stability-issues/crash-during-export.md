@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-during-export.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a corregir bloqueos de Substance 3D Painter durante las operaciones de exportación para obtener flujos de trabajo de exportación de textura fiables.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Crash during export
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Bloqueo durante la exportación
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
-
 ---
-
 
 # Bloqueo durante la exportación
 
@@ -26,7 +18,7 @@ Algunos casos específicos pueden hacer que Substance 3D Painter se bloquee dura
 
 La detección y recuperación de tiempo de espera (TDR) es un mecanismo de seguridad de Microsoft Windows que evita que una GPU bloquee el sistema con un cálculo interminable. Lamentablemente, este mecanismo es demasiado restrictivo para Substance 3D Painter de forma predeterminada.
 
-Para obtener más información, consulte: [bloqueo de controladores de GPU con cálculos largos (bloqueo TDR)](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/gpu-drivers-crash-with-long-computations-128745489.html).
+Para obtener más información, consulte: [bloqueo de controladores de GPU con cálculos largos (bloqueo TDR)](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/gpu-drivers-crash-with-long-computations-128745489.html).
 
 ## Poca memoria virtual
 

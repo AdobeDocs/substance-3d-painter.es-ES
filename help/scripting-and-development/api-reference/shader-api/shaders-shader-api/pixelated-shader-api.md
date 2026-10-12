@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pixelated-shader-api.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Acceda a la referencia de API del sombreador pixeladas de Substance 3D Painter para crear efectos de representación pixelada personalizados.
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > Pixelated - Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Pixelado - API del sombreador
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
-
 ---
-
 
 # Pixelado - API del sombreador
 
@@ -131,7 +123,7 @@ Calculamos algunos valores útiles.
 ```
 
 
-Variación del tamaño de la máscara basada en la luminancia de color base
+Variación del tamaño de la máscara basada en la luminancia del color base
 
 ```
   float maskRadiusJitter = pow(dot(baseColor, vec3(0.3333)), 0.1);

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/old-versions/version-2019-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte las notas de la versión 2019.2 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2019.2
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versión 2019.2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1538'
 ht-degree: 1%
-
 ---
-
 
 # Versión 2019.2
 
@@ -32,14 +24,14 @@ Fecha de publicación : *25 de julio de 2019*
 
 El flujo de trabajo de hacer un bake se ha mejorado con esta versión con algunas funciones nuevas. Estas mejoras agilizarán y facilitarán el trabajo diario con Substance Painter.
 
-* **Visualización del proceso de cocción**\
-  De forma predeterminada, con esta nueva versión, cualquier proceso de hace un bake será visible en la ventana gráfica. Permite previsualizar el resultado de los panaderos en tiempo real e incluso cancelarlo si es necesario sin esperar hasta el final del proceso para ofrecer iteraciones más rápidas. Este comportamiento se puede deshabilitar entrando en la configuración principal y desmarcando la configuración &quot;**Habilitar proceso de horneado de vista previa en vivo**&quot; en la sección &quot;**Opciones de horneado**&quot;.
+* **Haciendo un bake la visualización del proceso**\
+  De forma predeterminada, con esta nueva versión, cualquier proceso de hace un bake será visible en la ventana gráfica. Permite previsualizar el resultado de los bakeres en tiempo real e incluso cancelarlo si es necesario sin esperar hasta el final del proceso para ofrecer iteraciones más rápidas. Este comportamiento se puede deshabilitar entrando en la configuración principal y desmarcando la configuración &quot;**Habilitar proceso de hace un bake de vista previa dinámica**&quot; en la sección &quot;**Opciones de Hace un bake**&quot;.
 
   ![](../../assets/baking-options-v2.png)
 
   ![](../../assets/bake-process.gif){width="500px"}
 * **Se ha mejorado el cuadro de diálogo hacer un bake**\
-  El cuadro de diálogo de horneado se ha rediseñado y ahora muestra un estado mejor del proceso de horneado actual. Ahora hay un contador para indicar cuántas texturas se calcularán, así como una lista explícita por panadero y conjunto de texturas de lo que se está calculando. En caso de error, se muestra una cruz roja junto al nombre del baker. Al final del proceso, un nuevo botón permite abrir rápidamente la ventana de registro para obtener más información sobre el problema.\
+  El cuadro de diálogo hacer un bake se ha rediseñado y ahora muestra un estado mejor del proceso de hacer un bake actual. Ahora hay un contador para indicar cuántas texturas se calcularán, así como una lista explícita por baker y conjunto de texturas de lo que se está calculando. En caso de error, se muestra una cruz roja junto al nombre del baker. Al final del proceso, un nuevo botón permite abrir rápidamente la ventana de registro para obtener más información sobre el problema.\
   ![](../../assets/baking-dialog.png)
 * **Cancelando hace un bake en curso** El proceso de hace un bake ya no bloquea la aplicación. Substance Painter ahora es más flexible, lo que significa que es posible cancelar un hago un bake que está en curso sin esperar a que finalice. Sin embargo, la cancelación no es inmediata y puede requerir unos segundos para que surta efecto. Esto se debe a que internamente el proceso de hacer un bake funciona en texturas en fragmentos y no se puede detener mientras se está calculando un fragmento. Al cancelar el proceso de hacer un bake, la ventana de Hacer un bake se vuelve a abrir automáticamente.\
   ![](../../assets/baking-cancel-optim.gif)
@@ -140,7 +132,7 @@ Se ha añadido un nuevo conjunto de Materiales inteligentes y Máscaras intelige
     * Acajou de madera
     * Casco de madera nórdico
     * Casco de barco de madera viejo
-* **20 nuevas máscaras inteligentes**
+* **20 Máscaras inteligentes nuevas**
 
   * Arrugas
   * Cavidades de dirt
@@ -205,7 +197,7 @@ Resumen : **Corrección de error**
 
 **Corregido:**
 
-* [Mac]&#x200B;[USD] Los archivos USDZ exportados de MacOS no se pueden abrir
+* [Mac][USD] Los archivos USDZ exportados de MacOS no se pueden abrir
 * [Conjunto de texturas] No es posible aislar un conjunto de texturas con el modificador ALT
 * [Shelf] Los ajustes preestablecidos, Materiales inteligentes y Máscaras inteligentes siempre se modifican al salir de la aplicación
 * [Pila de capas] No se puede seleccionar el efecto después de eliminar otro efecto
@@ -229,13 +221,13 @@ Resumen : **Versión principal con actualizaciones de los bakeres en términos d
 
 * [Bakeres] Se ha agregado compatibilidad para Trazado de rayos de GPU con DXR y OptiX (Oclusión ambiental, Thickness)
 * [Baker] Optimizaciones y aceleraciones para el Trazado de rayos de la CPU
-* [Bakeres]&#x200B;[Modo Vis]&#x200B;[IU] Nuevo modo de visualización de hace un bake en la ventana gráfica
-* [Bakeres]&#x200B;[Preferencias]&#x200B;[IU] Nueva opción de hacer un bake para activar y desactivar el Trazado de rayos de GPU
-* [Bakeres]&#x200B;[IU] Repaso del cuadro de diálogo de la barra de progreso
+* [Bakeres][Modo Vis][IU] Nuevo modo de visualización de hace un bake en la ventana gráfica
+* [Bakeres][Preferencias][IU] Nueva opción de hacer un bake para activar y desactivar el Trazado de rayos de GPU
+* [Bakeres][IU] Repaso del cuadro de diálogo de la barra de progreso
 * [Bakeres] Mejora de los mensajes de advertencia y error
 * [Bakeres] Permitir una cancelación más receptiva del proceso de hacer un bake
 * [Baker] Vuelva a abrir la ventana hacer un bake después de hacer clic en Cancelar
-* [Proj]&#x200B;[UX] Mejora de la usabilidad del manipulador de rotación
+* [Proj][UX] Mejora de la usabilidad del manipulador de rotación
 * [Configuración] Opción para mejorar el rendimiento reduciendo la resolución de la ventana gráfica para las pantallas HDPI
 * [Scripting] Cambiar la resolución del conjunto de texturas
 * [Scripting] Obtener conjunto de texturas seleccionado
@@ -250,17 +242,17 @@ Resumen : **Versión principal con actualizaciones de los bakeres en términos d
 * [Pila de capas] Agrupar muchas capas bloquea la interfaz de usuario más tiempo del habitual
 * [Pila de capas] En algunos casos, se pueden seleccionar simultáneamente una capa y un efecto
 * Los gráficos de Substance utilizados dentro de las herramientas de pintura no se generan con la resolución adecuada
-* [Baker] El botón &quot;Hornear todos los conjuntos de texturas&quot; no se desactiva si no se ha seleccionado ningún panadero
+* [Baker] El botón &quot;Hacer un bake todos los conjuntos de texturas&quot; no se desactiva si no se ha seleccionado ningún baker
 * [MacOS] Desactivar el mensaje de advertencia sobre la teselación
 * La herramienta Proyección no tiene previsualización cuando se utiliza con una máscara
-* Se bloquea y se dañan los proyectos al intentar guardar sin suficiente espacio en disco
+* Bloqueos y proyectos dañados al intentar ahorrar con espacio en disco insuficiente
 * [Shelf] Bloqueo al importar un recurso en el disco a través de la estantería con espacio insuficiente
 * [Shelf] Bloqueo al restaurar el ajuste preestablecido de sesión
-* [Estante] Importar un ajuste preestablecido con un nombre que termina en un espacio provoca un bloqueo
-* [Shelf] Importar un recurso con un prefijo que termina en un espacio vacío provoca un bloqueo
+* [Estante] Al importar un ajuste preestablecido con un nombre que termina en un espacio, se crea un bloqueo
+* [Shelf] Importar un recurso con un prefijo que termina con un espacio vacío conduce a un bloqueo
 
 **Problemas conocidos:**
 
 * No se pueden importar archivos Alembic con subdivisiones
-* Los bloqueos raros al importar algunos archivos Alembic
-* La interfaz de usuario no responde temporalmente al realizar el procesamiento con DXR en las GPU Pascal
+* Bloqueos raros al importar algunos archivos Alembic
+* La interfaz de usuario no responde temporalmente al hacer un bake con DXR en las GPU Pascal

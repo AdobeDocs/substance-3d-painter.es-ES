@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/tool-list/ribbon-tool.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilice la herramienta Cinta de Substance 3D Painter para crear trazos de pintura similares a una cinta a lo largo de trazados para pintar texturas decorativas.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Ruta de lazo
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1139'
 ht-degree: 2%
-
 ---
-
 
 # Ruta de lazo
 
@@ -88,7 +80,7 @@ La Ruta de lazo puede utilizar dos modos diferentes para controlar cómo se repi
 | <b>Modo de segmentación</b> | Define cómo se repite una imagen a lo largo del trazado. Los valores posibles son:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Ninguno</b>: la imagen no se repetirá. Se estirará a lo largo de todo el camino.</li> <li data-preserve-html="true"><b>Automático</b>: (predeterminado) la imagen se repite automáticamente un determinado número de veces en función de su tamaño y la anchura del trazo.</li> <li data-preserve-html="true"><b>Personalizado</b>: la imagen se repite el número de veces definido por el parámetro <b>Tiling amount</b>.</li> </ul> |
 | <b>Cantidad de segmentación</b> | Especifique cuántas veces se repite una imagen en el modo de mosaico <b>Personalizado</b>. |
 | <b>Reflejar cada 2º mosaico</b> | Voltee la imagen utilizada a lo largo de la longitud del trazado cada segunda repetición. |
-| <b>Factor de proporción de aspecto</b> | Estire o comprima la proporción de aspecto de la imagen actual. |
+| <b>Factor de proporción de aspecto</b> | Estira o comprime la proporción actual de la imagen. |
 
 #### Conservar relación de aspecto
 

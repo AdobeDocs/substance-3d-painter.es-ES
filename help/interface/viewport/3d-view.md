@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/viewport/3d-view.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a utilizar la vista 3D en Substance 3D Painter para visualizar e interactuar con sus modelos 3D durante la textura.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Viewport > 3D view
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Vista 3D
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 4%
-
 ---
-
 
 # Vista 3D
 
@@ -34,7 +26,7 @@ En la parte superior izquierda de la ventana gráfica puede aparecer un texto qu
 
 Si el archivo de modelo 3D utilizado para crear el proyecto o importar la malla tiene cámaras definidas, se pueden importar al proyecto y utilizar para cambiar la ubicación y la orientación de la cámara. Este menú desplegable permite cambiar entre la cámara disponible en el proyecto. Si no hay otra cámara que no sea la predeterminada, no se mostrará el menú desplegable.
 
-El cambio de cámara se puede hacer rápidamente con el [método abreviado de teclado](../settings/shortcuts.md) dedicado. Para obtener más información, consulte la página [Administración de cámaras](camera-management.md).
+El cambio de cámara se puede hacer rápidamente con el [método abreviado de teclado](../settings/shortcuts.md). Para obtener más información, consulte la página [Administración de cámaras](camera-management.md).
 
 ## Modo de visualización
 

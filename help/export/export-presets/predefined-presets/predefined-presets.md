@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/getting-started/export/export-presets/predefined-presets.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Obtenga más información sobre las plantillas de salida predefinidas en Substance 3D Painter para utilizar configuraciones de exportación listas para usar en flujos de trabajo comunes.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Export > Export presets > Predefined Output templates
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Plantillas de salida predefinidas
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 5%
-
 ---
-
 
 # Plantillas de salida predefinidas
 

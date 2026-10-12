@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/symmetry/radial-symmetry.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilice la simetría radial en Substance 3D Painter para realizar pinturas simétricas alrededor de un punto central para crear patrones circulares.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Simetría radial
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 1%
-
 ---
-
 
 # Simetría radial
 
@@ -38,7 +30,7 @@ Puede acceder a la configuración de visualización de Simetría desde el <b>bot
 | --- | --- |
 | <b>Eje</b> | Define qué eje de la escena se utiliza para realizar la simetría. |
 | <b>Voltear copia</b> | Voltear copias alternas en el eje U o V. Esto ayuda cuando se utiliza la simetría en contenido que tiene una dirección como el texto. |
-| Posición del eje <b>: X, Y, Z</b> | Define el desplazamiento del eje en el proyecto. Este valor se puede editar con los reguladores o con el manipulador (véase más arriba). |
+| Posición del eje <b>: X, Y, Z</b> | Define el desplazamiento del eje en el proyecto. Este valor se puede editar con los reguladores o con el Manipulador (ver arriba). |
 | <b>Mostrar eje</b> | Si se activa, se mostrará una línea transparente en la ventanilla que representa el eje de simetría. |
 | <b>Mostrar intersección</b> | Si se activa, se dibujará un punto en la malla de la ventana gráfica para mostrar dónde se cruza el eje de simetría con la malla. |
 | <b>Mostrar cursor (herramienta Pincel)</b> | Si se habilita, se mostrará un segundo cursor al otro lado de la simetría para indicar cuándo se realizará el dibujo. |

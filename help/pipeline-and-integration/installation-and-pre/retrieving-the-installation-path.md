@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/pipeline-and-integration/installation-and-preferences/retrieving-the-installation-path.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Obtenga información sobre cómo recuperar la ruta de instalación de Substance 3D Painter para la integración de secuencias de comandos y canalizaciones.
-helpx_creative_field: ""
-helpx_description: Painter > Pipeline and integration > Installation and preferences > Retrieving the installation path
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Recuperación de la ruta de instalación
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 22871eab2f25d09bd82f1292d8b3e5f8c4f1c2cf
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 5%
-
 ---
-
 
 # Recuperación de la ruta de instalación
 
@@ -27,7 +19,7 @@ Esta página reagrupa información sobre las formas de recuperar la ruta de inst
 ### Escritorio de Creative Cloud
 
 1. Abra el Editor del Registro de Windows (**regedit**).
-1. Vaya a la clave del registro: **&#x200B; HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Rutas\**
+1. Vaya a la clave del registro: ** HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Rutas\**
 1. Abra la subclave denominada **Adobe Substance 3D Painter.exe**
 1. El valor de la clave contiene la ruta de acceso al ejecutable de la aplicación donde está instalada
 

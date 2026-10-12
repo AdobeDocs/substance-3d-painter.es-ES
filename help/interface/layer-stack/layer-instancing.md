@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/layer-stack/layer-instancing.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprende a usar la creación de instancias de capas en Substance 3D Painter para reutilizar capas en varios conjuntos de texturas de forma eficaz.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Layer stack > Layer instancing
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Creación de instancias de capas
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 0%
-
 ---
-
 
 # Creación de instancias de capas
 
@@ -95,7 +87,7 @@ El uso de la lista **árbol de instancias** es la mejor manera de **pasar rápid
 
 ## Ciclos de instancias (y cómo resolverlos)
 
-Los ciclos son instancias que se utilizan en la propia capa de origen, ya sea directa o indirectamente. El motor de Substance 3D Painter no puede calcular los ciclos **&#x200B;**&#x200B;y, por lo tanto, debe **deshabilitarlos** hasta que se corrijan o quiten.
+Los ciclos son instancias que se utilizan en la propia capa de origen, ya sea directa o indirectamente. El motor de Substance 3D Painter no puede calcular los ciclos **** y, por lo tanto, debe **deshabilitarlos** hasta que se corrijan o quiten.
 
 Ejemplo:\
 ![](../../assets/instance-cycle-optim.gif)

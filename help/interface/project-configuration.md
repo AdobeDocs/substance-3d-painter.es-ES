@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/es/substance-3d-painter/interface/project-configuration.html'
 breadcrumb-title: ''
 description: Aprenda a configurar los ajustes del proyecto en Substance 3D Painter para configurar la resolución de textura, los canales y las propiedades del proyecto.
-helpx_creative_field: ''
-helpx_description: Painter > Interface > Project configuration
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Configuración del proyecto
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 3e4ef9bd5897f042b01d6c0819ec06cc21ba208a
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 3%
-
 ---
-
 
 # Configuración del proyecto
 
@@ -54,7 +46,7 @@ Esta sección controla varias configuraciones relacionadas con el proyecto:
   </tr>
   <tr>
     <td><strong>Formato de mapa de normales</strong></td>
-    <td>Define el formato del mapa normal utilizado para la malla en la ventana gráfica. Este parámetro solo afecta a los <a href="shader-settings/shader-settings.md">sombreadores</a> en la ventana gráfica y a los mapas de malla en los <a href="../baking/baking.md">bakeres</a>. La pila de capas es independiente. Valor recomendado para aplicaciones comunes:<br><br><ul><li><strong>Unidad</strong>: OpenGL</li><li><strong>Motor irreal</strong>: DirectX</li><li><strong>Maya</strong>: OpenGL</li><li><strong>3DS Max</strong>: DirectX</li><li><strong>Mezclador</strong>: OpenGL</li></ul></td>
+    <td>Define el formato del mapa de normales utilizado para la malla en la ventana gráfica. Este parámetro solo afecta a los <a href="shader-settings/shader-settings.md">sombreadores</a> en la ventana gráfica y a los mapas de malla en los <a href="../baking/baking.md">bakeres</a>. La pila de capas es independiente. Valor recomendado para aplicaciones comunes:<br><br><ul><li><strong>Unidad</strong>: OpenGL</li><li><strong>Motor irreal</strong>: DirectX</li><li><strong>Maya</strong>: OpenGL</li><li><strong>3DS Max</strong>: DirectX</li><li><strong>Mezclador</strong>: OpenGL</li></ul></td>
   </tr>
   <tr>
     <td><strong>Calcular espacio tangente por fragmento</strong></td>

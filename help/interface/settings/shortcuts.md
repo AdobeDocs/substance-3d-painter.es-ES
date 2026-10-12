@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/es/substance-3d-painter/interface/settings/shortcuts.html'
 breadcrumb-title: ''
 description: Aprenda a personalizar los métodos abreviados de teclado en Substance 3D Painter para optimizar el flujo de trabajo y mejorar la eficacia.
-helpx_creative_field: ''
-helpx_description: Painter > Interface > Settings > Shortcuts
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Mét. abreviados
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 7b5f6e6c9623cb51253b6e49c8dbcbb22856418c
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1369'
 ht-degree: 4%
-
 ---
-
 
 # Mét. abreviados
 
@@ -26,7 +18,7 @@ Esta página muestra todos los métodos abreviados de teclado y de ratón dispon
 
 ## Introducción a los métodos abreviados
 
-Para obtener una breve descripción de todos los accesos directos disponibles, consulta nuestro gráfico [disponible en nuestros tutoriales](https://helpx.adobe.com/es/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) .
+Para obtener una breve descripción de todos los accesos directos disponibles, consulta nuestro gráfico [disponible en nuestros tutoriales](https://helpx.adobe.com/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) .
 
 ## Cómo cambiar un método abreviado
 
@@ -41,7 +33,7 @@ Para restablecer un método abreviado a su valor predeterminado, simplemente hag
 | **Ocultar IU** | Pestaña | Pestaña | Oculte todos los puertos/ventanas de la interfaz para maximizar las ventanas gráficas. |
 | **Deshacer** | Ctrl + Z | ⌘+Z | Deshace la acción más reciente. |
 | **Rehacer** | Ctrl+Y | ⌘+Y | Rehacer una acción que se acaba de deshacer. |
-| **Horneado** | F8 | F8 | Cambiar a modo de Hacer un bake |
+| **Haciendo un bake** | F8 | F8 | Cambiar a modo de Hacer un bake |
 | **Pintando** | F9 | F9 | Cambiar a modo de pintura. |
 | **Procesamiento (Iray)** | F10 | F10 | Cambiar a modo de procesamiento. |
 | **Abrir proyecto** | Ctrl+O | ⌘+O | Desplácese hasta el proyecto de Substance Painter que desee abrir y selecciónelo. |
@@ -64,18 +56,18 @@ Para restablecer un método abreviado a su valor predeterminado, simplemente hag
 | **Pausar cálculo del motor** | Mayús+Escape | Mayús+Escape | Conmutar los cálculos del motor. |
 |  |  |  |  |
 | **Herramienta Seleccionar Pintura** | 1 | 1 |  |
-| **Seleccionar herramienta de pintura + Partículas** | Ctrl + 1 | ⌘+1 |  |
+| **Herramienta Seleccionar Pintura + Partículas** | Ctrl + 1 | ⌘+1 |  |
 | **Herramienta Seleccionar Borrador** | 2 | 2 |  |
 | **Herramienta Seleccionar Borrador + Partículas** | Ctrl+2 | ⌘+2 |  |
 | **Seleccionar herramienta de proyección** | 3 | 3 |  |
 | **Seleccionar herramienta de proyección + Partículas** | Ctrl + 3 | ⌘+3 |  |
 | **Seleccionar relleno poligonal** | 4 | 4 |  |
 | **Seleccionar herramienta de difuminado** | 5 | 5 |  |
-| **Seleccionar herramienta Clonar (origen relativo)** | 6 | 6 |  |
+| **Herramienta Seleccionar Clonar (origen relativo)** | 6 | 6 |  |
 | **Herramienta Seleccionar Clonar (origen absoluto)** | Ctrl + 6 | ⌘+6 |  |
 | **Hacer un bake mapas de malla** | Ctrl+Mayús+B | ⌘+Mayús+B | Abra la ventana de configuración de Haga un bake. |
-| **Aumentar tamaño de herramienta** | **&rbrack;** | **&rbrack;** | Aumente el tamaño del pincel para la herramienta de pintura. |
-| **Reducir tamaño de herramienta** | **&lbrack;** | **&lbrack;** | Reduzca el tamaño del pincel para la herramienta de pintura. |
+| **Aumentar tamaño de herramienta** | **&amp;rbrack;** | **&amp;rbrack;** | Aumente el tamaño del pincel para la herramienta de pintura. |
+| **Reducir tamaño de herramienta** | **&amp;lbrack;** | **&amp;lbrack;** | Reduzca el tamaño del pincel para la herramienta de pintura. |
 | **Herramienta Invertir escala de grises** | X | X | Invierte el valor actual de la escala de grises si la herramienta de pintura está en una máscara. |
 | **Elegir material de trazo** | P | P | Active la herramienta Selector de material. |
 | **Ratón perezoso** | D | D | Active el comportamiento de ratón perezoso en la herramienta actual. |
@@ -144,5 +136,5 @@ Ejemplo: **copiar** y **pegar** requiere que el mouse esté **sobre la pila de c
 |  |  |  |  |
 | **Arrastrar y soltar material** | CTRL+Arrastrar y soltar | ⌘+Arrastrar y soltar | Mantenga pulsada esta tecla mientras arrastra y suelta un material (o material inteligente) en la ventana gráfica para que solo afecte a una parte específica del modelo 3D. |
 |  |  |  |  |
-| **restricción/ajuste del Manipulador** | Mayús | Mayús | Ajustar transformación al ajustar el manipulador (traslación o rotación) en Vista 3D. Restringir la proporción al ajustar el manipulador en la vista 2D. |
+| **restricción/ajuste del Manipulador** | Mayús | Mayús | Ajustar transformación al ajustar el manipulador (traslación o rotación) en Vista 3D. Restringir la proporción al ajustar el manipulador en vista 2D. |
 | **Transformación de espejo de Manipulador** | Ctrl | ⌘ | El manipulador de espejo señala la transformación en torno a su punto de giro en vista 2D. |

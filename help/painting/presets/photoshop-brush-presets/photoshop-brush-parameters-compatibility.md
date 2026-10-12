@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/photoshop-brush-parameters-compatibility.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Obtenga más información sobre la compatibilidad de los parámetros de pincel de Photoshop en Substance 3D Painter al importar ajustes preestablecidos de pincel ABR.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Presets > Photoshop Brush Presets (ABR) > Photoshop Brush Parameters Compatibility
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Compatibilidad de parámetros de pincel de Photoshop
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 1%
-
 ---
-
 
 # Compatibilidad de parámetros de pincel de Photoshop
 
@@ -29,7 +21,7 @@ Al buscar dentro del archivo ABR, Substance 3D Painter solo recuperará los ajus
 | *Tipo de ajuste preestablecido* | *Asistencia técnica* | *Descripción* |
 | --- | --- | --- |
 | **Pincel (mapa de bits)** | Importado | Los ajustes preestablecidos de pincel se basan en mapas de bits, ya que se importarán sus alfa. |
-| **Pincel (procedimiento)** | Ignorado | Los ajustes preestablecidos de pincel basados en formas de procedimiento (como un círculo) no se importan. |
+| **Pincel (procedimiento)** | Ignorado | Los ajustes preestablecidos de pincel basados en formas procedimientas (como un círculo) no se importan. |
 | **Pincel (Aerógrafo)** | Ignorado | Los ajustes preestablecidos de pincel con ajustes de Aerógrafo no se importan. |
 | **Pincel (cerdas)** | Ignorado | Los ajustes preestablecidos de pincel con ajustes de cerdas no se importan. |
 | **Pincel (erosionable)** | Ignorado | Los ajustes preestablecidos de pincel con ajustes erosionables no se importan. |
@@ -40,7 +32,7 @@ Al buscar dentro del archivo ABR, Substance 3D Painter solo recuperará los ajus
 
 ## Parámetros
 
-Para obtener más información sobre lo que pueden hacer esos parámetros, consulta la [documentación oficial de Photoshop](https://helpx.adobe.com/es/photoshop/using/creating-modifying-brushes.html) .
+Para obtener más información sobre lo que pueden hacer esos parámetros, consulta la [documentación oficial de Photoshop](https://helpx.adobe.com/photoshop/using/creating-modifying-brushes.html) .
 
 No todos los parámetros de pincel de Photoshop son compatibles. Consulte la leyenda para conocer el estado de cada parámetro que se describe a continuación:
 
@@ -56,12 +48,12 @@ No todos los parámetros de pincel de Photoshop son compatibles. Consulte la ley
 | Forma de punta de pincel | **Tamaño** | ■ | Coincidencia con el parámetro Tamaño de la herramienta Pintura.  **Nota:** Photoshop define el tamaño en píxeles, mientras que el tamaño de Substance 3D Painter se basa en el cuadro delimitador del proyecto. Por lo tanto, no es posible una coincidencia exacta y solo será relativa. |
 | **Voltear X** | ■ | Se gestiona mediante el archivo de Substance &quot;Brush Maker Photoshop&quot;. |  |
 | **Voltear Y** | ■ | Se gestiona mediante el archivo de Substance &quot;Brush Maker Photoshop&quot;. |  |
-| **Ángulo** | ■ | Coincidencia con el parámetro Ángulo de la herramienta de pintura. |  |
+| **Ángulo** | ■ | Coincidencia con el parámetro Ángulo de la herramienta Pintura. |  |
 | **Redondez** | ■ | Se gestiona mediante el archivo de Substance &quot;Brush Maker Photoshop&quot;. |  |
 | **Dureza** | ■ | Se gestiona mediante el archivo de Substance &quot;Brush Maker Photoshop&quot;. |  |
-| **Espaciado** | ■ | Coincidencia con el parámetro Espaciado de la herramienta de pintura. |  |
+| **Espaciado** | ■ | Coincidencia con el parámetro Espaciado de la herramienta Pintura. |  |
 |  |  |  |  |
-| Dinámica de forma | Variación de tamaño **1&rbrace;** | ■ | Coincidencia con el parámetro Variación del tamaño de la herramienta de pintura. |
+| Dinámica de forma | Variación de tamaño **1}** | ■ | Coincidencia con el parámetro Variación del tamaño de la herramienta Pintura. |
 | **Control (de tamaño)** | ■ | Se ha emparejado con la herramienta de Pintura. Ajuste de presión del parámetro Tamaño . |  |
 | **Diámetro mínimo** | ■ | Coincidencia con el parámetro Tamaño mínimo de la herramienta Pintura. |  |
 | **Escala de inclinación** | ✖ |  |  |
@@ -74,13 +66,13 @@ No todos los parámetros de pincel de Photoshop son compatibles. Consulte la ley
 | **Proyección de pincel** | ✖ |  |  |
 |  |  |  |  |
 | Dispersión | **Dispersión** | ■ | Coincidencia con el parámetro de Variación de posición de la herramienta Pintura. |
-| **Ambos Ejes** | ■ | Coincidencia con el parámetro de eje de variación de posición de la herramienta de pintura. |  |
+| **Ambos Ejes** | ■ | Coincidencia con el parámetro del eje de Variación de posición de la herramienta Pintura. |  |
 | **Control (para Dispersión)** | ✖ |  |  |
 | **Recuento** | ■ | Compensado mediante el parámetro Espaciado de la herramienta Pintura. |  |
 | **Variación del recuento** | ✖ |  |  |
 | **Control (para Variación del recuento)** | ✖ |  |  |
 |  |  |  |  |
-| Textura | **Patrón de textura** | ✖ |  |
+| Textura | **Patrón de Textura** | ✖ |  |
 | **Invertir** | ✖ |  |  |
 | **Escala** | ✖ |  |  |
 | **Brillo** | ✖ |  |  |
@@ -110,7 +102,7 @@ No todos los parámetros de pincel de Photoshop son compatibles. Consulte la ley
 | Traslado | **Variación de opacidad** | ■ | A juego con la herramienta de Pintura de sellos de fusión parámetro establecido en &quot;Aclarar&quot;. |
 | **Control (para opacidad)** | ■ | Coincidencia con la configuración de presión de la herramienta Pintura para el parámetro Flujo. |  |
 | **Mínimo (para el control de opacidad)** | ■ | Coincidencia con el parámetro Flujo mínimo de la herramienta Pintura. |  |
-| **Variación del flujo** | ■ | Coincidencia con el parámetro Variación de flujo de la herramienta de pintura. |  |
+| **Variación del flujo** | ■ | Coincidencia con el parámetro Variación de flujo de la herramienta Pintura. |  |
 | **Control (para flujo)** | ■ | Coincidencia con la herramienta Pintura Ajuste de presión para el parámetro Flujo (si es inferior a Opacidad). |  |
 | **Mínimo (para el control de flujo)** | ■ | Coincidencia con el parámetro Flujo mínimo de la herramienta Pintura (si es inferior a Opacidad). |  |
 | **Variación de humedad** | ✖ |  |  |

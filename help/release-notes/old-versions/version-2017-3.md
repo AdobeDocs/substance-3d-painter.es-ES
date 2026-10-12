@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte las notas de la versión 2017.3 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2017.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versión 2017.3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1588'
 ht-degree: 0%
-
 ---
-
 
 # Versión 2017.3
 
@@ -30,7 +22,7 @@ Fecha de publicación : *28 de septiembre de 2017*
 
 ![](../../assets/adobe-dimension-meetmat.jpg)
 
-Uno de los nuevos exportadoras que incluimos en esta versión es el soporte del Adobe Standard Material, que se utilizará con Adobe Dimension (anteriormente, Adobe Project Felix). Le permitimos exportar la malla de escenas y sus texturas para importarlas en el proyecto Felix con un solo clic. Para acceder a él, solo tiene que elegir &quot;**Adobe Standard Material**&quot; en la ventana de texturas de exportación. Para obtener más información, consulte: [http://www.adobe.com/es/products/dimension.html](https://www.adobe.com/es/products/dimension.html)
+Uno de los nuevos exportadoras que incluimos en esta versión es el soporte del Adobe Standard Material, que se utilizará con Adobe Dimension (anteriormente, Adobe Project Felix). Le permitimos exportar la malla de escenas y sus texturas para importarlas en el proyecto Felix con un solo clic. Para acceder a él, solo tiene que elegir &quot;**Adobe Standard Material**&quot; en la ventana de texturas de exportación. Para obtener más información, consulte: [http://www.adobe.com/products/dimension.html](https://www.adobe.com/products/dimension.html)
 
 También puedes consultar nuestra entrada de blog sobre ello : <https://www.allegorithmic.com/blog/new-dimension-substance-ecosystem>
 
@@ -55,7 +47,7 @@ Si se crea una copia de seguridad pero el proyecto no se ha guardado (también c
 
 ![](../../assets/gradient-rust.jpg)
 
-El **filtro de degradado** se ha renovado por completo. Actuando de una manera mucho más similar al nodo **gradient map** disponible en **Substance Designer**. Ahora admite hasta **10 colores diferentes**, con la posibilidad de especificar **dónde se ubica el color dentro de** el degradado **&#x200B;**, lo que abre muchas puertas nuevas. Esto permite crear más **patrones de color avanzados**, pero también **reasignar mapas de altura**&#x200B;y crear **nuevas formas**.
+El **filtro de degradado** se ha renovado por completo. Actuando de una manera mucho más similar al nodo **gradient map** disponible en **Substance Designer**. Ahora admite hasta **10 colores diferentes**, con la posibilidad de especificar **dónde se ubica el color dentro de** el degradado ****, lo que abre muchas puertas nuevas. Esto permite crear más **patrones de color avanzados**, pero también **reasignar mapas de altura**y crear **nuevas formas**.
 
 El regulador principal (cantidad de color) define el número de colores totales utilizados para crear el degradado. El botón situado justo debajo define el modo de fusión de color (sRGB o Lineal). Esto es importante si desea tener una fusión adecuada entre colores. Por ejemplo, mezclar un rojo puro y un verde puro debería dar un amarillo bonito en medio. Este no será el caso si el botón está desactivado (se dará un marrón oscuro en su lugar). Al reasignar el height o cualquier otro canal de escala de grises, este botón debe desactivarse para evitar la conversión de gamma.
 
@@ -97,19 +89,19 @@ Esta versión de Substance Painter también incluye una nueva y sólida mejora d
 * [UI] Mejora el diálogo de la nueva versión y añade el registro de cambios
 * [IU] Indique si el mantenimiento ha caducado en el cuadro de diálogo Nueva versión
 * [Licencia] Actualizar el sistema de licencias para gestionar las fechas de mantenimiento
-* [Exportar] Cambiar el nombre de Adobe Standard Material a Adobe Dimension
+* [Exportar] Cambiar nombre de Adobe Standard Material a Adobe Dimension
 
 **Solucionado :**
 
-* [Mac] La pintura genera cuadrados negros y corrupciones de texturas
+* [Mac] La pintura conduce a cuadrados negros y a corrupciones de textura
 * [Motor] La caché puede desaparecer en ocasiones en la ventana gráfica
 * [Motor] Aparecen artefactos de bloqueo cuando se activa la compresión de memoria
-* [Horneado] Mensajes de error extraños al hornear mallas específicas
+* [Hacer un bake] Mensajes de error extraños al hacer un bake mallas específicas
 * [Export] PSD no se han escrito correctamente y Photoshop no los reconoce correctamente
 * [Capas] No debería ser posible copiar y pegar capas en varios proyectos
 * [Substance] El espacio de color UserData para la entrada Normal se invierte en algunos casos
 * [Estante] Micro-normal en generadores genera curvatura invertida
-* [Estante] El filtro HSL también afecta al canal alfa
+* [Estante] HSL filtro también afecta al canal alfa
 * [Linux] La instalación en Centos falla debido a la falta de dependencias
 * El instalador no elimina todos los recursos de la instalación anterior en ciertos casos
 
@@ -178,8 +170,8 @@ Esta versión de Substance Painter también incluye una nueva y sólida mejora d
 * [Exportar] Bloqueo al exportar mapas adicionales dañados
 * [Importar] En algunos casos, los bordes duros no se conservan en mallas de polietileno bajas
 * [Importar] Mensajes de error mejorados al importar mallas con problemas
-* [Bakers] Error de procesamiento de asignación de ID con la opción Coincidir por nombre activada
-* [Viewport] El espacio tangente no se sincroniza con los panaderos
+* [Baker] Error al Hacer un bake la asignación de ID. si la opción Coincidir por nombre está activada
+* [Ventana gráfica] El espacio tangente no se sincroniza con los bakeres
 * [Efecto] Al retroceder una capa no se restaura la referencia de un anclaje
 * [Efecto] Problema de actualización al crear un vínculo entre dos máscaras con anclajes
 * [Efecto] No se deben enumerar los anclajes de máscaras encima de la máscara
@@ -187,7 +179,7 @@ Esta versión de Substance Painter también incluye una nueva y sólida mejora d
 * [Motor] La máscara se invierte a sí misma tras el primer trazo del pincel
 * [Motor] Bloqueo al cambiar el conjunto de texturas en un proyecto específico
 * [Shelf] Bloqueo al eliminar un ajuste preestablecido de un proyecto
-* [Shelf] Error en el filtro avanzado Tri-Planar
+* [Shelf] Error en el filtro avanzado Tri-Plano
 * [Estante] La escala de ruido de MG Mask Builder AO no funciona correctamente
 * [Estante] MG Mask Builder tiene parámetros de curvatura invertidos
 * [Estante] Los alfa importados generan una previsualización de esfera de material en lugar de una plana

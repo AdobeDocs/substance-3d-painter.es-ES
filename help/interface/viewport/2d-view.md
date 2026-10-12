@@ -1,28 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/viewport/2d-view.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a utilizar el Vista 2D en Substance 3D Painter para ver y editar texturas en el espacio UV para pintar texturas con precisión.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Viewport > 2D view
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Vista 2D
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
-
 ---
-
 
 # Vista 2D
 
 ![](../../assets/2d-view.jpg){width="450px"}
 
-La vista 2D muestra las Islas de UV de malla del [conjunto de texturas](../texture-set/texture-set.md) seleccionado actualmente. Permite ver las texturas de la pila de capas, pero también pintar en las Islas de UV de malla.
+La vista 2D muestra las Islas de UV de malla del [conjunto de texturas](../texture-set/texture-set.md) seleccionado actualmente. Permite ver las texturas de la Pila de capas, pero también a la pintura en las Islas de UV de malla.
 
 ## Modo de visualización
 
@@ -49,4 +41,4 @@ En función del flujo de trabajo definido al crear un proyecto, el Vista 2D pued
 | *Flujo de trabajo del proyecto* | *Comportamientos* |
 | --- | --- |
 | **Proyecto normal** | Con un proyecto normal, solo se puede pintar el UV con el rango UV [0-1]. Cualquier cosa fuera de este rango será visible, pero no será interactiva.En este ejemplo, solo se pueden pintar las Islas de UV de la izquierda (con el fondo gris claro detrás). <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/2d-view-range-regular.jpg" width="500px"/></div> |
-| **Proyecto de mosaico UV** | Con el proyecto de Mosaico de UV, cada gama UV es un nuevo conjunto de texturas, que se pueden pintar en. El Vista 2D también muestra una cuadrícula para ver mejor cómo está organizado cada mosaico. Cada mosaico tendrá asignado un número de UDIM. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/2d-view-range-uvtiles.jpg" width="500px"/></div> |
+| **proyecto de Mosaico de UV** | Con el proyecto de Mosaico de UV, cada gama UV es un nuevo conjunto de texturas, que se pueden pintar en. El Vista 2D también muestra una cuadrícula para ver mejor cómo está organizado cada mosaico. Cada mosaico tendrá asignado un número de UDIM. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/2d-view-range-uvtiles.jpg" width="500px"/></div> |

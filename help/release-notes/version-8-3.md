@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/version-8-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte las notas de la versión 8.3 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Version 8.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versión 8.3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2607'
 ht-degree: 0%
-
 ---
-
 
 # Versión 8.3
 
@@ -30,10 +22,10 @@ Fecha de publicación: *10 de enero de 2023*
 
 ![](../assets/banner-baking_1.jpg)
 
-La antigua ventana para hornear se ha sustituido por un modo específico con varias funciones nuevas, en particular con visualización de ventanilla, como la visualización de la jaula y los errores de coincidencia.
+La antigua ventana de haga un bake se ha sustituido por un modo específico con varias funciones nuevas, en particular con visualización de ventanilla, como la visualización de la jaula y los errores de coincidencia.
 
 * **Acceso y cambio entre modos**\
-  El horneado es ahora un modo nuevo e independiente, además de los modos de pintura y representación ya existentes en la aplicación. Para llegar al modo de hacer un bake, solo tiene que usar el icono del pequeño croissant en la barra de herramientas contextual. El cambio entre los modos también se puede hacer de otra manera: mediante el menú modo o los métodos abreviados de teclado. Para volver a otro modo, solo tienes que usar el icono específico del modo (además, el botón **Hacer un bake mapas de malla** dentro de la [configuración del conjunto de texturas](../interface/texture-set/texture-set-settings.md) se puede seguir usando para entrar en el nuevo modo).
+  Hacer un bake es ahora un modo nuevo e independiente, además de los modos de pintar y procesar ya existentes en la aplicación. Para llegar al modo de hacer un bake, solo tiene que usar el icono del pequeño croissant en la barra de herramientas contextual. El cambio entre los modos también se puede hacer de otra manera: mediante el menú modo o los métodos abreviados de teclado. Para volver a otro modo, solo tienes que usar el icono específico del modo (además, el botón **Hacer un bake mapas de malla** dentro de la [configuración del conjunto de texturas](../interface/texture-set/texture-set-settings.md) se puede seguir usando para entrar en el nuevo modo).
 
   ![](../assets/baking-mode-switch-menu.png)
 
@@ -43,14 +35,14 @@ La antigua ventana para hornear se ha sustituido por un modo específico con var
   La ventana de haga un bake tradicional se ha transformado en un modo con muelles específicos, en particular:
 
   * **La lista de conjuntos de texturas** se puede usar para definir qué partes del proyecto se harán un bake.
-  * **Bakeres de mapa de malla** permite seleccionar entre la configuración común de hacer un bake y la configuración de baker. También es donde se puede especificar qué proceso de panadería se iniciará.
+  * **Bakeres de mapa de malla** permite seleccionar entre la configuración común de hacer un bake y la configuración de baker. También es donde puede especificar qué proceso de baker se iniciará.
   * **Configuración de mapa de malla** es donde se encuentran todos los ajustes comunes y de baker y se pueden modificar, dependiendo de lo que se haya seleccionado en las dos ventanas anteriores.
   * **Haciendo un bake registro** reagrupa información diferente sobre el proceso de hacer un bake, en particular mensajes de error.
   * **Haciendo un bake visualización**: este panel se encuentra en la ventana gráfica y controla varias opciones relacionadas con la visualización de las mallas de poli altas y bajas.
 
   ![](../assets/baking-mode-overview.jpg){width="500px"}
 
-* **Iniciar y cancelar el proceso de pandeo directamente desde la ventana gráfica**\
+* **Iniciar y cancelar el proceso de hacer un bake directamente desde la ventana gráfica**\
   El botón para iniciar o cancelar el proceso de hacer un bake ahora se encuentra en la parte inferior de la ventana gráfica. También se puede utilizar una pequeña flecha para especificar el modo de hacer un bake: en función de la selección de lista Conjunto de texturas o mediante el conjunto de texturas activo actualmente.
 
   ![](../assets/baking-button.png)
@@ -114,7 +106,7 @@ Esta nueva versión agrega la compatibilidad con el formato de archivo [Universa
   ![](../assets/usd-scope-variants.png){width="400px"}
 
 * **Exportar USD como un nuevo archivo o vinculado al USD original utilizado en el proyecto**\
-  Cuando el texturizado esté listo, puedes usar la ventana **Archivo > Exportar texturas** para exportar tu archivo USD junto con tus archivos de textura. Simplemente habilite la configuración **Exportar USD recurso** para hacerlo. Esto generará varios archivos USD que se pueden integrar fácilmente en una canalización posteriormente. Si se ha utilizado un fichero que no es USD o un fichero de USD sin UV, se exportará un nuevo fichero de geometría de USD además de los mapas de textura y USD fichero de material.\
+  Cuando el texturizado esté listo, puedes usar la ventana **Archivo > Exportar texturas** para exportar tu archivo de USD junto con tus archivos de textura. Simplemente habilite la configuración **Exportar USD recurso** para hacerlo. Esto generará varios archivos USD que se pueden integrar fácilmente en una canalización posteriormente. Si se ha utilizado un fichero que no es USD o un fichero de USD sin UV, se exportará un nuevo fichero de geometría de USD además de los mapas de textura y USD fichero de material.\
   Además, también es posible utilizar **Archivo > Exportar malla** para exportar la geometría del proyecto como un archivo USD.
 
   ![](../assets/usd-export-textures.png)
@@ -172,52 +164,52 @@ Resumen: **Versión principal con nuevo modo de hacer un bake, nueva importació
   En la ventana Bakeres de mapa de malla, cada baker (así como los ajustes comunes) se pueden sincronizar en los conjuntos de texturas haciendo clic en el icono de enlace junto a su nombre. Esta acción abrirá una ventana que permite seleccionar qué conjuntos de texturas compartirán los mismos parámetros.
 * [Modo de Hace un bake] Añadir acciones para copiar y pegar ajustes de baker
 
-  En la ventana Mesh Map Bakers hay disponibles acciones para copiar y pegar cada configuración de panadero en los conjuntos de texturas, ya sea a través del menú dedicado en la parte superior de la ventana o el menú contextual del botón derecho.
-* [Modo de cocción] Botón Añadir en el registro de cocción para saltar del error a la configuración correcta
+  En la ventana Bakeres de mapa de malla hay acciones disponibles para copiar y pegar cada configuración de baker en los conjuntos de texturas, ya sea a través del menú específico en la parte superior de la ventana o el menú contextual del botón derecho.
+* [Modo de Haga un bake] Botón Añadir en Hacer un bake registro para saltar del error a la configuración correcta
 
-  Cuando un panadero falla o una malla no se carga correctamente, aparece un mensaje de error en el registro de panadería. Un botón junto al mensaje permite cambiar los marcadores de mapa de malla y la ventana Ajustes de mapa de malla para mostrar los ajustes relacionados. Esto ayuda a aislar con mayor facilidad el origen de un problema para poder solucionarlo.
-* [Modo de cocción] Añadir menús para gestionar conjuntos de texturas y selecciones de panadero
+  Cuando un baker falla o una malla no se carga correctamente, aparece un mensaje de error en el registro de Hace un bake. Un botón junto al mensaje permite cambiar la ventana Bakeres de mapa de malla y ajustes de mapa de malla para mostrar los ajustes relacionados. Esto ayuda a aislar con mayor facilidad el origen de un problema para poder solucionarlo.
+* [Modo de Hace un bake] Añadir menús para gestionar conjuntos de texturas y selecciones de Bakeres
 
-  En las ventanas &quot;Texture Set list&quot; y &quot;Mesh Map Bakers&quot; se ha añadido un pequeño menú de acción para ayudar a copiar e invertir las selecciones.
-* [Modo de cocción] Dividir la lista de selección de panadero por conjunto de texturas
-* [Modo de cocción] Dividir ajustes comunes por conjunto de texturas
-* [Modo de cocción] Cargar mallas de alta polietileno y jaula sin congelar la interfaz
-* [Modo de cocción] Utilice la barra de progreso de la ventanilla para mostrar la carga de la malla
-* [Modo de cocción] Añadir estado de carga de malla en el registro de cocción
-* [Modo de cocción] Permitir girar la malla en la ventanilla durante la cocción
-* [Modo de cocción] Establecer el orden de cocción en función de la visibilidad actual de la ventana gráfica de la malla
-* [Modo de cocción] Visualización de la jaula de cocción implícita en la ventana gráfica
+  En las ventanas &quot;Lista de conjuntos de texturas&quot; y &quot;Bakeres de mapa de malla&quot; se ha añadido un pequeño menú de acciones para ayudar a copiar e invertir las selecciones.
+* [Modo de Hace un bake] Dividir la lista de selección de baker por conjunto de texturas
+* [Modo de Hace un bake] Dividir ajustes comunes por conjunto de texturas
+* [Modo de Haga un bake] Cargar mallas de alta poly y jaula sin congelar la interfaz
+* [Modo de Hace un bake] Utilice la barra de progreso de la ventanilla para mostrar la carga de malla
+* [Modo de Hace un bake] Añadir estado de carga de malla en Hacer un bake registro
+* [Modo de Haga un bake] Permitir girar la malla en la ventana gráfica durante la hace un bake
+* [Modo de Hace un bake] Establecer el orden de hace un bake en función de la visibilidad actual de la ventana gráfica de la malla
+* [Modo de Haga un bake] Visualización de la jaula de haga un bake implícita en la ventana gráfica
 
-  Si no se utiliza un fichero de malla de jaula personalizado, se generará una malla de jaula automática y se mostrará en la ventana gráfica. Su tamaño se basará en el parámetro Distancia frontal máxima de los ajustes comunes de horneado. La malla de la jaula se utiliza para indicar hasta dónde llegará la coincidencia entre el poli bajo y alto.
-* [Modo de cocción] Mostrar la lista de nombres de malla coincidentes por nombre en el registro de cocción
-* [Modo de cocción] Utilice material neutro para mostrar el modelo 3D en la ventana gráfica
-* [Modo de cocción] Desactivar el cálculo del motor en modo de cocción
-* [Modo de cocción] Mostrar una advertencia al salir de la aplicación mientras hay una cocción en curso
-* [Bakers] Actualizar etiquetas de configuración de suavizado
+  Si no se utiliza un fichero de malla de jaula personalizado, se generará una malla de jaula automática y se mostrará en la ventana gráfica. Su tamaño se basará en el parámetro Distancia frontal máxima de los ajustes comunes que se hacen un bake. La malla de la jaula se utiliza para indicar hasta dónde llegará la coincidencia entre el poli bajo y alto.
+* [Modo de Hace un bake] Mostrar la lista de nombres de malla coincidentes para Coincidencia por nombre en Registro de Hace un bake
+* [Modo de Haga un bake] Utilice material neutro para mostrar el modelo 3D en la ventana gráfica
+* [Modo de Hace un bake] Desactivar el cálculo del motor mientras se está en modo de hace un bake
+* [Modo de Haga un bake] Mostrar una advertencia al salir de la aplicación mientras hay un haga un bake en curso
+* [Bakeres] Actualizar etiquetas de configuración de suavizado
 
   Los valores del ajuste de suavizado se han cambiado de nombre a &quot;Supersampling&quot; (Supermuestreo) y con un número multiplicador explícito para aclarar su comportamiento.
 * [Baker] Actualice baker a la versión 2.5.7.
-* [USD] Archivos de Universales Scene Description de importación y exportación (USD)
-* [USD] Añada opciones de USD a la ventana Nuevo proyecto al seleccionar un archivo USD
-* [USD] Añadir nueva ventana de selección Ámbito y Variantes
+* [USD] Importar y exportar archivos de Universal Scene Description (USD)
+* [USD] Agregar USD opciones a la ventana Nuevo proyecto al seleccionar un archivo de USD
+* [USD] Ventana de selección Agregar nuevo ámbito y variantes
 
-  Al importar un fichero USD, pulsando en el botón de cambio de la ventana Nuevo Proyecto o Configuración del Proyecto podrá seleccionar qué parte y variantes de un fichero USD desea importar.
+  Al importar un fichero de USD, pulsar en el botón de cambio de la ventana Nuevo proyecto o Configuración del proyecto permite seleccionar qué parte y variantes de un fichero de USD se van a importar.
 * [USD] Opción Añadir niveles de subdivisión
 
-  Al crear un nuevo proyecto con un archivo de malla USD que contiene subdivisiones, es posible seleccionar el nivel de subdivisiones mediante un regulador. El proyecto se creará con la malla subdividida. El nivel se puede modificar mediante la configuración del proyecto.
-* [USD] Importar mallas de piel USD en un marco específico
+  Al crear un nuevo proyecto con un archivo de malla de USD que contiene subdivisiones, es posible seleccionar el nivel de subdivisiones mediante un regulador. El proyecto se creará con la malla subdividida. El nivel se puede modificar mediante la configuración del proyecto.
+* [USD] Importación USD mallas desolladas en marcos específicos
 
-  Al crear un nuevo proyecto con un archivo de malla USD que contiene animación, es posible seleccionar el fotograma mediante un regulador que refleje la secuencia de cronología incrustada. El marco se puede modificar mediante la configuración del proyecto.
-* [USD]&#x200B;[Exportar] Añadir una opción para exportar archivos USD
+  Al crear un nuevo proyecto con un archivo de malla de USD que contiene animación, es posible seleccionar el marco mediante un regulador que refleje la secuencia de cronología incrustada. El marco se puede modificar mediante la configuración del proyecto.
+* [USD][Exportar] Añadir una opción para exportar archivos USD
 
-  Se ha añadido la nueva casilla de verificación Exportar USD a la ventana Exportar texturas. Cuando está activada, permite exportar archivos USD, así como mapas de textura, utilizando cualquier plantilla.
-* [USD]&#x200B;[Exportar] Añadir el formato de archivo USD a la malla de exportación
-* [USD] Cambie el nombre del ajuste preestablecido de exportación existente &quot;Rugosidad del metal PBR en USD&quot; para que sea más explícito
+  Nueva casilla de verificación Exportar USD añadida a la ventana Exportar texturas. Cuando está activada, permite exportar archivos USD, así como mapas de textura, utilizando cualquier plantilla.
+* [USD][Exportar] Agregar USD formato de archivo a la exportación de malla
+* [USD] Cambie el nombre del ajuste preestablecido de exportación existente &quot;USD PBR Metal Roughness&quot; para que sea más explícito
 
-  Se puede acceder a la plantilla de exportación en USD denominada anteriormente &quot;Rugosidad del metal PBR en USD&quot; a través de Exportar texturas > Plantilla de salida > USDz (Apple AR).
+  Se puede acceder a la plantilla de exportación de USD conocida anteriormente como &quot;Rugosidad del metal de USD PBR&quot; a través de texturas de exportación > Plantilla de salida > USDz (Apple AR).
 * [Auto Unwrap] Añadir orientación de bloqueo para el empaquetado
 
-  Nueva opción para la configuración de desajuste automático que permite conservar la orientación de las Islas de UV existentes al utilizar la función de empaquetado. Se puede acceder a él desde Nuevo proyecto > Opciones de desajuste automático > Orientación de la Isla de UV.
+  Nueva opción para la configuración de desajuste automático que permite conservar la orientación de las Islas de UV existentes al utilizar la función de empaquetado. Se puede acceder a él desde Nuevo proyecto > Opciones de Desenvolvimiento automático > Orientación de la Isla de UV.
 * [Tamaño físico] Añada una configuración para utilizar automáticamente el Tamaño físico en el efecto de relleno/capa
 
   Se ha añadido una nueva opción para cambiar automáticamente a la escala de tamaño físico al utilizar un material con tamaño físico incorporado. Se puede activar por proyecto a través de Nuevo proyecto o a través de Editar > Configuración del proyecto > Tamaño físico > Cambiar la escala de la capa de relleno a Tamaño físico al asignar materiales.
@@ -225,12 +217,12 @@ Resumen: **Versión principal con nuevo modo de hacer un bake, nueva importació
 
   La escala de tamaño físico ahora está disponible para las Proyecciones de UV: permite el cambio de tamaño automático para un material en función del tamaño físico de una malla. Se puede seleccionar a través de Escala > Tamaño físico en la ventana Propiedades de la capa de relleno o del efecto.
 * [Scripting] [Python] Permitir consultar la versión de la aplicación
-* [Scripting] [JavaScript] Actualización de la API para que coincida con los nuevos parámetros de procesamiento
-* [Scripting] [Python] Módulo de horneado: editar parámetros de procesamiento
-* [Scripting] [Python] Módulo de horneado: iniciar/cancelar el procesamiento
-* [Scripting] [Python] Módulo de horneado: seleccionar método de curvatura
-* [Scripting] [Python] Módulo de horneado: selección de panaderos/baldosas ultravioletas
-* [Scripting] [Python] Módulo de horneado: sincronizar la configuración de panadero en todos los conjuntos de texturas
+* [Scripting] [JavaScript] Actualizar la API para que coincida con los nuevos parámetros de hace un bake
+* [Scripting] [Python] Haciendo un bake módulo: editar hacer un bake parámetros
+* [Scripting] [Python] Haciendo un bake módulo: iniciar/cancelar hacer un bake
+* [Scripting] [Python] Haciendo un bake módulo: seleccionar método de curvatura
+* [Scripting] [Python] Haciendo un bake módulo: selección de bakeres/mosaicos uv
+* [Scripting] [Python] Haciendo un bake módulo: sincronizar la configuración del baker en todos los conjuntos de texturas
 * [SVT] Habilitar la compatibilidad de hardware disperso en las GPU AMD
 
   La aceleración de hardware para el sistema de texturas virtuales dispersas ahora se puede activar con las GPU AMD. Este ajuste se activa automáticamente en las preferencias generales.
@@ -244,12 +236,12 @@ Resumen: **Versión principal con nuevo modo de hacer un bake, nueva importació
   Para un proyecto realizado antes de la versión 8.2, el valor devuelto será nulo.
 * [Importar] Mejora el tiempo de importación general de modelos 3D
 
-  Mejoramos el tiempo general de importación de mallas. Por ejemplo, reducir el tiempo de espera al cargar mallas de alto contenido de polietileno para hornear. Esta optimización se aplica en particular a la carga de archivos OBJ.
+  Mejoramos el tiempo general de importación de mallas. Por ejemplo, reducir el tiempo de espera al cargar mallas de alta densidad para hacer un bake. Esta optimización se aplica en particular a la carga de archivos OBJ.
 
 **Corregido:**
 
 * [Bloqueo] Cambio de canales en el filtro con una pila específica
-* [Mac]&#x200B;[M1] Bloqueo al crear una capa de relleno y salir de la pila de capas
+* bloqueo [Mac] [M1] al crear una capa de relleno y salir de la pila de capas
 
   Este problema se puede solucionar actualizando a Mac OS 13 (Ventura).
 * [Scripting] [Python] Bloqueo al utilizar ui.add\_dock\_widget() con un tipo incorrecto

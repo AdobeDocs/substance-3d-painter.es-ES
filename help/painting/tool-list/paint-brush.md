@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/tool-list/paint-brush.html"
-breadcrumb-title: ''
-description: Utilice la herramienta Pincel de Substance 3D Painter para pintar texturas directamente en modelos 3D con ajustes de pincel personalizables.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Tool list > Paint brush
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: Utilice la herramienta Pincel de Pintura de Substance 3D Painter para pintura texturas directamente en modelos 3D con ajustes de pincel personalizables.
 title: pincel de pintura
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: c20714f4cef21ccca0cdcd45dcdfd5ca6f4b96f2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 1%
-
 ---
-
 
 # pincel de pintura
 
@@ -49,7 +41,7 @@ En la parte superior de [Propiedades](../../interface/properties.md) se encuentr
 | *Nombre* | *Descripción* |
 | --- | --- |
 | **Vista previa del pincel** | La vista previa del pincel muestra el comportamiento del pincel en función de los parámetros del pincel. Es posible hacer clic en la previsualización para dibujar un trazo personalizado.   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-preview-param.gif"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell1_position-par_image" src="../../assets/brush-preview-draw.gif"/></div>  </td> </tr> </table>   **Nota:** La vista previa del pincel no admite la presión del lápiz. |
-| **Vista previa de material** | La vista previa del material muestra las propiedades del material que se está usando para pintar. Es posible hacer clic en la previsualización para girar la iluminación y ver mejor cómo se comportará el material antes de pintar.   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/material-preview-lighting.gif"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell1_position-par_image" src="../../assets/material-preview-properties-optim.gif"/></div>  </td> </tr> </table> |
+| **Vista previa de material** | La previsualización de material muestra las propiedades del material que se utiliza actualmente para la pintura. Es posible hacer clic en la previsualización para girar la iluminación y ver mejor cómo se comportará el material antes de pintar.   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/material-preview-lighting.gif"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell1_position-par_image" src="../../assets/material-preview-properties-optim.gif"/></div>  </td> </tr> </table> |
 
 ## Pincel
 
@@ -72,7 +64,7 @@ Los parámetros de Pincel son los que definen el aspecto y la sensación del tra
 | **Espaciado** | Distancia entre los sellos individuales de una pincelada. Los valores pequeños permiten crear líneas continuas, pero son más amplios de calcular, ya que dibujan mucho más sellos en total. Los valores altos permiten crear un espacio entre el sello que puede ser más adecuado para patrones específicos (como Uñas en madera). |
 | **Ángulo** | Orientación de los sellos dentro de la pincelada. Resulta útil girar el Alpha si no está bien alineado. Se puede combinar con Seguir trazado. |
 | **Seguir ruta** | Orienta los sellos dentro del trazo del pincel para seguir la dirección de pintura. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r6-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/follow-path-demo.png" width="400px"/></div> **Nota:** Para calcular la dirección del trazo, Substance 3D Painter compara el sello anterior con el actual, por lo que si se habilita Seguir trazado con un solo clic en la pintura no se obtendrán resultados. Se requiere un mínimo de dos sellos para realizar una pintura de trazo de pincel con esta función activada. |
-| Variación de tamaño **1&rbrace;** | Aplique un valor de tamaño aleatorio por sello dentro del trazo del pincel. Un valor de 0 significa que no hay aleatoriedad; un valor de 1 significa total aleatoriedad. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r7-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-size-3.png"/></div> |
+| Variación de tamaño **1}** | Aplique un valor de tamaño aleatorio por sello dentro del trazo del pincel. Un valor de 0 significa que no hay aleatoriedad; un valor de 1 significa total aleatoriedad. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r7-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-size-3.png"/></div> |
 | **Variación del flujo** | Aplique un valor de flujo aleatorio por sello dentro del trazo de pincel. Un valor de 0 significa que no hay aleatoriedad; un valor de 1 significa total aleatoriedad. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r8-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-flow.png"/></div> |
 | **Variación del ángulo** | Aplique un ángulo de rotación adicional aleatorio por sello dentro del trazo del pincel. Un valor de 0 significa que no hay aleatoriedad; un valor de 1 significa total aleatoriedad. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r9-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-rotation.png"/></div> |
 | **Variación de posición** | Aplique un desplazamiento de posición aleatorio por sello dentro del trazo del pincel. Un valor de 0 significa que no hay aleatoriedad; un valor de 1 significa total aleatoriedad. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r10-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-position.png"/></div> |
@@ -98,7 +90,7 @@ Las propiedades de Física permiten controlar las partículas que se proyectan a
 
 De forma predeterminada, las propiedades de Física no están disponibles, pero se pueden activar de dos formas:
 
-* Cambiando la herramienta a &quot;Física&quot; en [Barras de herramientas](../../interface/toolbars.md) (o mediante el método abreviado de teclado).
+* Cambiando la herramienta a &quot;Física&quot; en [Barras de herramientas](../../interface/toolbars.md) (o a través del método abreviado del teclado).
 * Haciendo clic en un ajuste preestablecido de pincel de objetos en la ventana [Activos](../../interface/assets/assets.md).
 
 ## Plantilla

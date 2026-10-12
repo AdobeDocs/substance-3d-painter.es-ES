@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/baking/how-to-bake-mesh-maps.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a hacer un bake mapas de malla en Substance 3D Painter para generar oclusión ambiental, curvatura y otras texturas basadas en geometría.
-helpx_creative_field: ""
-helpx_description: Painter > Baking > How to bake mesh maps
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Cómo hacer un bake mapas de malla
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
-
 ---
-
 
 # Cómo hacer un bake mapas de malla
 
@@ -24,7 +16,7 @@ El modo de hacer un bake dedicado de Substance 3D Painter facilita hacer un bake
 
 ## 1 - Cambiar a modo de hacer un bake
 
-De forma predeterminada, Painter se inicia en el modo de pintura al crear o abrir un proyecto. Para poder hornear mapas de malla, debe cambiar al modo de horneado. Utilice una de las siguientes opciones para cambiar al modo de Hacer un bake:
+De forma predeterminada, Painter se inicia en el modo de pintura al crear o abrir un proyecto. Para poder hacer un bake mapas de malla, debe cambiar al modo de Hacer un bake. Utilice una de las siguientes opciones para cambiar al modo de Hacer un bake:
 
 * Use el <b>botón de modo de Hacer un bake</b> (<b>icono de Croissant</b>) en la barra de herramientas contextual en la parte superior derecha de la ventana gráfica
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/technical-issues/gpu-issues/painter-doesn-t-start-on-the-right-gpu.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Obtenga información sobre cómo configurar Substance 3D Painter para que se inicie en la GPU correcta para obtener un rendimiento y una compatibilidad óptimos.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > GPU Issues > Painter doesnt start on the right GPU
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Painter no se inicia en la GPU derecha
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 0%
-
 ---
-
 
 # Painter no se inicia en la GPU correcta
 
@@ -75,7 +67,7 @@ Es posible que Windows haya establecido una configuración de GPU incorrecta par
 
 ### Desactive &quot;Prefiere GPU no predeterminada&quot;
 
-Al ejecutar Painter desde un acceso directo de escritorio o a través de Steam, asegúrese de que la configuración <b>PrefersNonDefaultGPU</b> dentro del archivo <b>\*.desktop</b> esté establecida en <b>false</b>.
+Al ejecutar Painter desde un método abreviado de escritorio o a través de Steam, asegúrese de que la configuración <b>PrefersNonDefaultGPU</b> dentro del archivo <b>\*.desktop</b> esté establecida en <b>false</b>.
 
 Esta configuración puede inducir a error y hacer que se utilice o se fuerce la GPU integrada en lugar de la discreta y más potente. Para obtener más información [vea esta discusión](https://github.com/ValveSoftware/steam-for-linux/issues/9940).
 

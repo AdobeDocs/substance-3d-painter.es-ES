@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/content/creating-custom-effects/channel-specific-filter.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a crear efectos de filtro específicos de canal para que Substance 3D Painter procese canales de textura individuales.
-helpx_creative_field: ""
-helpx_description: Painter > Content > Creating custom effects > Channel specific filter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Filtro específico del canal
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
-
 ---
-
 
 # Filtro específico del canal
 
@@ -50,14 +42,14 @@ Para generar la salida de este componente alfa, cree un nodo de salida con la co
 
 | Nombre del canal | Uso | IDENTIFICADOR / ALPHA IDENTIFICADOR |
 | --- | --- | --- |
-| *Oclusión de ambiente* | **ambientOcclusion** | **ambientOcclusion / ambientOcclusion\_Alpha** |
+| *Oclusión ambiental* | **ambientOcclusion** | **ambientOcclusion / ambientOcclusion\_Alpha** |
 | *Ángulo de anisotropía* | **anisotropiángulo** | **anisotropyAngle / anisotropyAngle\_Alpha** |
 | *Nivel de anisotropía* | **anisotropylevel** | **anisotropyLevel / anisotropyLevel\_Alpha** |
 | *Color base* | **basecolor** | **baseColor / baseColor\_Alpha** |
 | *Máscara de fusión* | **fusionando máscara** | **blendingmask / blendingmask\_Alpha** |
-| *Difusión* | **difusa** | **difusa / difusa\_Alpha** |
+| *Difuso* | **difusa** | **difusa / difusa\_Alpha** |
 | *Desplazamiento* | **desplazamiento** | **desplazamiento / desplazamiento\_Alpha** |
-| *Emissive* | **emisivo** | **emisivo / emisivo\_Alpha** |
+| *Emisivo* | **emisivo** | **emisivo / emisivo\_Alpha** |
 | *Brillo* | **brillo** | **brillo / brillo\_Alpha** |
 | *Height* | **height** | **height / height\_Alpha** |
 | *IOR* | **ior** | **ior / ior\_Alpha** |

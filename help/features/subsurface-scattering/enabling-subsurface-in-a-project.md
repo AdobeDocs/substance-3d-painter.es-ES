@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/subsurface-scattering/enabling-subsurface-in-a-project.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprende a activar la dispersión subsuperficial en proyectos de Substance 3D Painter para crear efectos de materiales translúcidos realistas.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Subsurface Scattering > Enabling Subsurface in a Project
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Activación de la subsuperficie en un proyecto
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
-
 ---
-
 
 # Activación de la subsuperficie en un proyecto
 

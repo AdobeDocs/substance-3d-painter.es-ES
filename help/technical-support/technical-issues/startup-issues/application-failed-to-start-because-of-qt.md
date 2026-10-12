@@ -1,28 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/technical-issues/startup-issues/application-failed-to-start-because-of-qt.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Obtenga información sobre cómo solucionar los errores de inicio de Substance 3D Painter causados por problemas del framework Qt para iniciar la aplicación correctamente.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Startup Issues > Application failed to start because of Qt
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: La aplicación no se pudo iniciar debido a Qt
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
-
 ---
-
 
 # La aplicación no se pudo iniciar debido a Qt
 
 Al iniciar la aplicación, puede aparecer el siguiente mensaje de error:
 
-&#x200B;>> 
+>> 
 
 Esta aplicación no se pudo iniciar porque no se pudo inicializar ningún complemento de la plataforma Qt. Si reinstala la aplicación, es posible que se solucione el problema.
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/version-8-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte las notas de la versión 8.2 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Version 8.2
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versión 8.2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2870'
 ht-degree: 0%
-
 ---
-
 
 # Versión 8.2
 
@@ -162,7 +154,7 @@ Se han añadido muchas pequeñas mejoras y funciones adicionales en esta nueva v
   ![](../assets/fill-tiling.gif)
 
 * **Nueva configuración de exportación de textura de EXR 16f y 32f**\
-  Anteriormente, EXR exportación de texturas se forzaba a 32 f bit en la interfaz, pero dentro del archivo real generaba datos de 16 f bit (flotante medio). Ahora se ha solucionado y existe la posibilidad explícita de elegir entre bits de 16f y 32f. Los proyectos antiguos y los ajustes preestablecidos de exportación que utilizan EXR como formato de archivo se establecerán de forma predeterminada en bits de 16f para respetar el antiguo comportamiento (principalmente para evitar que se generen archivos más pesados que antes).
+  Anteriormente, EXR exportación de texturas se forzaba a 32 f bit en la interfaz, pero dentro del archivo real generaba datos de 16 f bit (flotante medio). Ahora se ha solucionado y existe la posibilidad explícita de elegir entre bits de 16f y 32f. Los proyectos antiguos y los ajustes preestablecidos de exportación que utilicen EXR como formato de archivo tendrán un valor predeterminado de 16f bits para respetar el comportamiento anterior (principalmente para evitar que se generen archivos más pesados que antes).
 
   ![](../assets/exr-export.png)
 
@@ -198,7 +190,7 @@ Se han añadido varias funcionalidades nuevas a la API de Python. Para obtener m
   Se han añadido varias funciones para guardar y volver a cargar el diseño de la interfaz de usuario. Tenga en cuenta que el diseño también depende del modo de aplicación actual (Pintar o Procesar).
 
 * **substance\_painter.event**\
-  Se ha agregado un nuevo **TextureStateEvent** para ayudar a realizar el seguimiento de las modificaciones en la pila de capas de conjuntos de texturas, así como de otros cambios de parámetros. Este evento se activa al realizar trazos de pintura o al añadir o quitar canales.
+  Se ha agregado un nuevo **TextureStateEvent** para ayudar a realizar el seguimiento de las modificaciones en la pila de capas de conjuntos de texturas, así como de otros cambios de parámetros. Este evento se activa al añadir o eliminar canales o al realizar trazos de pintura.
 
 ## Notas de la versión
 
@@ -258,7 +250,7 @@ Resumen: **Versión principal con nuevos paneles de incorporación (nuevo panel 
 * [Selección de color] Añadir modos de fusión al efecto Selección de color
 * [Pila de capas] Añadir modo de fusión y opacidad en los filtros
 * [Pila de capas] Permitir valores de mosaico mayores que 128 para capas/efectos de relleno
-* [Pila de capas] Tapones de cilindro para proyección cilíndrica en capa de relleno/efecto
+* [Pila de capas] Tapones cilíndricos para proyección cilíndrica en capa de relleno/efecto
 
   La proyección cilíndrica en Propiedades de capa de relleno ahora tiene la opción de eliminar tapas de cilindro.
 * [Log] Mostrar un mensaje de error si los elementos de malla están en espacio negativo al intentar crear un proyecto de Mosaico de UV
@@ -273,7 +265,7 @@ Resumen: **Versión principal con nuevos paneles de incorporación (nuevo panel 
 * [Ventana gráfica] Ver R, G, B y Alpha en la ventana gráfica (modo de visualización individual)
 
   En Configuración de visualización > Configuración de ventana gráfica > Visualización de canal , hay un nuevo ajuste de Canales de color que solo permite mostrar el componente R, G, B o Alpha de un canal en el modo de visualización única.
-* [Shader] Permite definir canales de usuario como RGBA en sombreadores de capas de material
+* [Sombreador] Permite definir canales de usuario como RGBA en sombreadores de capas de material.
 
   Al definir la configuración del conjunto de texturas para canales dentro de un sombreador para la capa de material, ahora es posible especificar el formato del canal que se desviará del valor predeterminado. Esto permite en particular solicitar canales de usuario de color en lugar de solo en escala de grises.
 * [Exportar] Permitir exportar texturas como SBSAR
@@ -301,9 +293,9 @@ Resumen: **Versión principal con nuevos paneles de incorporación (nuevo panel 
 **Corregido:**
 
 * Bloqueo al utilizar 16k exr
-* [Bloqueo] Ctrl Z Después de eliminar una instancia de sombreado
+* [Bloqueo] Ctrl Z Después de eliminar una instancia del sombreador
 * [Iray] El valor de IoR está bloqueado en 1 para algunos sombreadores
-* [Win]&#x200B;[Haciendo un bake] No se puede cargar un poli alto
+* [Win][Haciendo un bake] No se puede cargar un poli alto
 * [Gestión de color] Nombre de espacio de color incorrecto en la IU con filtros
 * [Python] Los objetos de recursos devueltos por la función de importación no tienen un tipo
 
@@ -311,7 +303,7 @@ Resumen: **Versión principal con nuevos paneles de incorporación (nuevo panel 
 
 **Problemas conocidos:**
 
-* [Gestión de color] Las conversiones de espacio de color HDR con ACE en Linux producen colores con sujeción
+* [Gestión de color] HDR. las conversiones de espacio de color con ACE en Linux producen colores con sujeción
 * [Pila de capas] El origen de entrada no se guarda por capa
 * [Pintura] El suavizado temporal provoca defectos al pintar en algunos casos
 * [Exportar] 2DView exporta un mapa aleatoriamente uniforme

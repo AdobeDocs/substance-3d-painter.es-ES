@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/shader-settings.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a configurar los ajustes de sombreador en Substance 3D Painter para personalizar la representación del material y el aspecto visual.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Shader settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Configuración del sombreador
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 5%
-
 ---
-
 
 # Configuración del sombreador
 
@@ -24,7 +16,7 @@ ht-degree: 5%
 
 La ventana **Shaders Settings** permite controlar los parámetros sombreador (y Iray mdl) y los parámetros de desplazamiento de geometría.
 
-Un sombreado es una función que define el aspecto que debe tener un objeto al interactuar con luces y sombras en las ventanas gráficas. En esta aplicación, los sombreadores se utilizan para saber cómo leer los canales del conjunto de texturas y procesar la malla 3D en las ventanas gráficas.
+Un sombreador es una función que define el aspecto que debe tener un objeto al interactuar con luces y sombras en las ventanas gráficas. En esta aplicación, los sombreadores se utilizan para saber cómo leer los canales del conjunto de texturas y procesar la malla 3D en las ventanas gráficas.
 
 ## Deshacer archivo de pila y sombreador
 
@@ -43,7 +35,7 @@ Si el archivo de sombreador está marcado como &quot;Desactualizado&quot;, se re
 | **Nombre de instancia** | Nombre de la instancia del sombreador. |
 | **Restaurar valores predeterminados** | Restaure todos los parámetros de sombreador a sus valores predeterminados (tal como aparecen en el archivo sombreador). |
 
-### Instancia de sombreado
+### Instancia del sombreador
 
 Una Instancia del sombreador es un sombreador basado en un archivo de sombreador original pero con parámetros personalizados. Una Instancia del sombreador se puede compartir entre conjuntos de texturas y un conjunto de texturas puede tener una Instancia del sombreador única.
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/version-9-0.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte las notas de la versión 9.0 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versión 9.0
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 0%
-
 ---
-
 
 # Versión 9.0
 
@@ -133,10 +125,10 @@ Resumen: <b>Versión principal con Pintura a lo largo de la ruta que permite cur
 
 <b>Agregado:</b>
 
-* [Path] Herramienta Agregar nueva pintura a lo largo del trazado
+* [Path] Herramienta Agregar nueva Pintura a lo largo del trazado
 * [Path] Agregar un método abreviado vacío para la herramienta de trazado
 * [Path] Permite añadir nuevos puntos a un trazado existente
-* [Path] Añadir acceso directo para salir de la creación de la ruta actual
+* [Path] Agregar método abreviado para salir de la creación de la ruta actual
 * [Path] Permitir la edición de las propiedades de pincel de trazados
 * [Trazado] Ajuste automático de tangentes al colocar un punto
 * [Trazado] Calcular tangentes al mover un punto
@@ -153,7 +145,7 @@ Resumen: <b>Versión principal con Pintura a lo largo de la ruta que permite cur
 * [Ruta] Permitir cerrar ruta
 * [Path] Permite especificar el eje ascendente de la ruta en Propiedades
 * [Path] Agregar un menú de control de vértices a la barra de herramientas contextual
-* [Trazado] Introducción de los modos de pintar/borrar/difuminar en la herramienta Trazado
+* [Path] Introducción de los modos de pintura, borrado y difuminado en la herramienta de trazado
 * [Path] Creación de comentarios visuales para rutas en la ventana gráfica
 * [Ruta] Agregar un indicador visual de la dirección de la ruta
 * [Ruta] Agregar thickness de línea a la configuración de visualización de ruta
@@ -167,24 +159,24 @@ Resumen: <b>Versión principal con Pintura a lo largo de la ruta que permite cur
 * [Trazos dinámicos] Agregar propiedad de distancia para trazos dinámicos
 * [Trazos dinámicos] Añadir propiedades de tamaño y espaciado a los trazos dinámicos
 * [Trazos dinámicos] Agregar propiedad de inicio/centro/fin para trazos dinámicos
-* [Python]&#x200B;[USD] Exponer los parámetros de configuración del proyecto para el formato USD
-* [Python]&#x200B;[USD] Exponer parámetros de creación de proyectos para el formato USD
-* [Export]&#x200B;[USD] Añadir información de la ruta del proyecto dentro del archivo USD exportado
+* [Python][USD] Exponer los parámetros de configuración del proyecto para el formato USD
+* [Python][USD] Exponer parámetros de creación de proyectos para el formato USD
+* [Export][USD] Añadir información de la ruta del proyecto dentro del archivo de USD exportado
 * [GLTF] Actualización de texturas en la biblioteca al volver a cargar un archivo GLTF
-* [Sombreado] Reducir los defectos de costura de las Islas de UV con diferentes orientaciones
+* [Sombreador] Reducir los defectos de costura para Islas de UV con diferente orientación
 * [Motor] Actualice a la versión 9.0 del motor de Substance
 
 <b>Corregido:</b>
 
-* [Importar] Algunos GLB con texturas no obtienen texturas en Painter
+* [Import] Algunos GLB con texturas no reciben texturas en Painter
 * [AMD] Artefactos en los bordes para todos los rellenos de proyección 3D
-* [Motor] Las texturas se rompen al alternar la visibilidad de la capa
-* [Motor] Las texturas están vacías en algunos lugares al cambiar el modo de fusión
-* [Motor] La textura/proyección está en modo de deformación vacío en algunos casos
-* [Iray] La iteración se restablece en 0 al guardar el procesamiento
-* [Log] Mensaje de error de USD al hacer Archivo > Nuevo
+* [Motor] Las Texturas se rompen al alternar la visibilidad de las capas
+* [Motor] Las Texturas están vacías en algunos lugares al cambiar el modo de fusión
+* [Motor] La Textura/proyección está en modo de deformación vacío en algunos casos
+* [Iray] Iteración restablecida a 0 al guardar procesamiento
+* [Log] USD mensaje de error al hacer Archivo > Nuevo
 
 <b>Problemas conocidos:</b>
 
-* [Gestión de color] Las conversiones de espacio de color HDR con ACE en Linux producen colores con sujeción
+* [Gestión de color] HDR. las conversiones de espacio de color con ACE en Linux producen colores con sujeción
 * [Pila de capas] El origen de entrada no se guarda por capa

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/getting-started/export/export-presets.html"
-breadcrumb-title: ''
-description: Aprenda a utilizar plantillas de salida en Substance 3D Painter para configurar formatos de exportación de texturas y asignaciones de canales.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Export > Output templates
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: Aprenda a utilizar las plantillas de salida de Substance 3D Painter para configurar los formatos de exportación de texturas y las asignaciones de canales.
 title: Plantillas de salida
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
-
 ---
-
 
 # Plantillas de salida
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/old-versions/version-2019-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte las notas de la versión 2019.1 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2019.1
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versión 2019.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2954'
 ht-degree: 1%
-
 ---
-
 
 # Versión 2019.1
 
@@ -132,12 +124,12 @@ Se han añadido dos nuevos modos de proyección con capas de relleno y efectos d
 
   ![](../../assets/planar-proj.png)
 * **Herramienta Superficie para proyección Plana**\
-  Para que la proyección plana sea fácil de manipular, también agregamos un nuevo control para el Manipulador 3D que llamamos **Surface Tool**, al que se puede acceder con el método abreviado &quot;**Shift+W**&quot;. También se puede acceder desde la barra de herramientas contextual. Tenga en cuenta que este nuevo modo solo está disponible con la proyección plana.
+  Para que la proyección plana sea fácil de manipular, también agregamos un nuevo control para el Manipulador 3D que llamamos **Surface Tool**, al que se puede acceder con el método abreviado &quot;**Shift+W**&quot;. También se puede acceder desde la barra de herramientas contextual. Tenga en cuenta que este nuevo modo solo está disponible con la proyección Plana.
 
   ![](../../assets/surface-tool-toolbar.png)
 
   ![](../../assets/surface-tool-optim.gif)
-* **Eliminación/atenuación de proyección plana**\
+* **Eliminación/atenuación Plana de la proyección**\
   Hay varios ajustes disponibles para que la proyección plana sea continua o finita. Cuando se activa un ajuste de sacrificio, el cuadro de puntos alrededor del manipulador indica el cuadro delimitador de la proyección y la línea central es donde comienza la proyección. La escala de la proyección permite controlar hasta dónde llega y cuándo comienza a desvanecerse.
 
   ![](../../assets/planar-culling.gif){width="500px"}
@@ -277,10 +269,10 @@ Resumen : **Corrección de error con 2 nuevas características**
 * &quot;Seguir ruta&quot; no funciona todo el tiempo
 * La asignación de canales no funciona con SBSAR utilizado en ranuras de un solo canal
 * [Pila de capas] Bajo rendimiento al desplazarse con capas ocultas
-* [TextureSet] Bloqueo al hacer clic entre máscaras
+* bloqueo [TextureSet] al hacer clic entre máscaras
 * [SVT] El Desplazamiento no se muestra correctamente y parpadea en algunos casos
-* [Alembic] Bloqueo con la malla utilizando normales de punto en lugar de normales de vértice
-* [Alembic]&#x200B;[Log] Informar de un error en Log si no se admite el archivo Alembic durante la importación
+* [Alembic] Bloqueo con malla usando normales de punto en lugar de normales de vértice
+* [Alembic][Log] Informar de un error en Log si no se admite el archivo Alembic durante la importación
 
 ### 2019.1.2
 
@@ -303,7 +295,7 @@ Resumen : **Corrección urgente**
 **Corregido:**
 
 * [Substance] Visible Si no se tiene en cuenta para las imágenes de entrada
-* [SVT]&#x200B;[Motor] El cambio de la resolución del conjunto de texturas provoca un bloqueo en algunos casos
+* [SVT][Motor] El cambio de la resolución del conjunto de texturas provoca un bloqueo en algunos casos
 * [Motor] En algunos casos aparecen texturas negras aleatorias
 * [Pila de capas] [IU] Al alternar una máscara con MAYÚS, se pueden seleccionar varias capas al mismo tiempo
 * [Pila de capas] La opacidad no afecta al efecto Pintura con el modo de fusión PassThrough
@@ -337,7 +329,7 @@ Resumen : **Trazo dinámico con contenido nuevo, Desplazamiento y teselación en
 * [Trazo dinámico] [Estante] Ayuda para buscar un recurso de trazo dinámico con un icono nuevo dedicado
 * Desplazamiento y teselación en la ventana gráfica en tiempo real
 * Desplazamiento y teselado en Iray
-* [Configuración de Sombreador]&#x200B;[UI] Nueva pestaña para controlar el desplazamiento y la teselación
+* [Configuración de Sombreador][UI] Nueva pestaña para controlar el desplazamiento y la teselación
 * [Pila de capas] Nuevo efecto CompararMáscara: generar una máscara comparando dos canales
 * [Pila de capas] [IU] Nueva entrada en el menú contextual &quot;Añadir máscara con combinación de height&quot; para insertar un efecto Comparar máscara
 * [Simetría] Nuevo modo de simetría: pintura radial
@@ -354,19 +346,19 @@ Resumen : **Trazo dinámico con contenido nuevo, Desplazamiento y teselación en
 * [Conjunto de texturas] Selección múltiple y resolución de cambios
 * [Conjunto de texturas] Activación y desactivación rápidas de los conjuntos de texturas
 * [Conjunto de texturas] Combina solo y todas las opciones en un nuevo menú
-* [Conjunto de texturas]&#x200B;[Pila de capas] Nuevo icono para activación y desactivación
+* [Conjunto de texturas][Pila de capas] Nuevo icono para activación y desactivación
 * [Pila de capas] [UX] Inserta efectos por encima de los que ya están seleccionados
 * [Pila de capas] [IU] Reprocesar pila de capas ver estilo de selección
 * [Pila de capas] El modo de fusión para capas con instancias ahora está en modo Pass Through de forma predeterminada
 * [Exportar] Opción para activar y desactivar el tramado
 * [Plugin] Compatibilidad con el modificador de precisión para reguladores (MAYÚS)
-* [Plugin]&#x200B;[UI] Nuevo icono para autoguardar
+* [Plugin][UI] Nuevo icono para autoguardar
 * [Scripting] Enumera el contenido de una carpeta
 * [Scripting] Permitir la eliminación de archivos
 * [Scripting] Lea toda la información de la pila, incluidos los recursos utilizados
-* [Contenido]&#x200B;[Trazo dinámico] Nuevas herramientas y ajustes preestablecidos de pincel
-* [Content]&#x200B;[Dynamic stroke] Dos nuevos degradados de procedimiento: Tono de degradado y Generador de degradado
-* [Contenido] 11 nuevos filtros: Pintura descascarillada MatFx, gotas de agua MatFx y más
+* [Contenido][Trazo dinámico] Nuevas herramientas y ajustes preestablecidos de pincel
+* [Content][Dynamic stroke] Dos nuevos degradados procedimientos: Tono de degradado y Generador de degradado
+* [Contenido] 11 nuevos filtros: Pintura de pelado MatFx, gotas de agua MatFx y más
 * [Contenido] 7 nuevos generadores: Stitcher automático, UV Random Color, UV Texel Density y más
 * [Contenido] 93 alfas nuevas: nuevos textos, flechas y otras formas
 * [Contenido] 2 nuevos procedimientos: Tono de degradado, Generador de degradados y mucho más
@@ -377,9 +369,9 @@ Resumen : **Trazo dinámico con contenido nuevo, Desplazamiento y teselación en
 
 **Corregido:**
 
-* [Pila de capas] La pila de capas se sigue arrastrando para siempre
+* [Pila de capas] La Pila de capas se sigue arrastrando para siempre
 * [Mac] La opción &quot;Mostrar en Finder&quot; puede provocar la congelación
-* [Scripting] La configuración guardada mediante la interfaz de usuario personalizada se pierde si se mueve el archivo de sombreado
+* [Scripting] La configuración guardada mediante la interfaz de usuario personalizada se pierde si se mueve el archivo de sombreador
 * El número de versión de la API [Scripting] es incorrecto y no está actualizado
 * [Efecto] El contenido del histograma no se muestra correctamente
 * [Efecto] El efecto del histograma no se actualiza en algunos casos

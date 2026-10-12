@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/dynamic-strokes/dynamic-stroke-performances.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Obtenga más información sobre las consideraciones de rendimiento de los trazos dinámicos en Substance 3D Painter para optimizar la representación y la capacidad de respuesta de los trazos de pincel.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Dynamic strokes > Dynamic Stroke Performances
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Rendimiento de trazo dinámico
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
-
 ---
-
 
 # Rendimiento de trazo dinámico
 

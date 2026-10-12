@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/old-versions/version-2-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte las notas de la versión 2.2 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2.2
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versión 2.2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
-
 ---
-
 
 # Versión 2.2
 
@@ -69,26 +61,26 @@ Nuestro último tutorial en vídeo abarca las nuevas funciones :
 
 * [Estante] Mejorar el sistema de búsqueda y las consultas
 * [Estante] Añadir campo de búsqueda para miniestantes
-* [Sombreado] Permite definir la precisión de paso de los reguladores
-* [Shader] Añadir un botón Deshacer/Rehacer para parámetros de sombreado
-* [Shader] La recarga de un sombreado no debe restablecer sus parámetros
+* [Sombreador] Permite definir la precisión de paso de los reguladores
+* [Sombreador] Añadir un botón Deshacer/Rehacer para parámetros de sombreador
+* [Sombreador] La recarga de un sombreador no debe restablecer sus parámetros
 * [MatLayering] Añadir compatibilidad para Controles dinámicos de capas de materiales y subpilas
-* [MatLayering] Permita importar el archivo json para configurar los ajustes del sombreador
-* [MatLayering] Desbloquear límite de muestras de textura (cambiar a texturas sin enlace)
-* [Scripting] Permite establecer la configuración de los panaderos e iniciar su cálculo.
-* [Substance] Usar &quot;uso&quot; para conexiones de entrada/salida además de identificadores
+* [MatLayering] Permita importar el archivo json para configurar los ajustes de sombreador
+* [MatLayering] Desbloquear el límite de muestras de textura (cambiar a texturas sin enlace)
+* [Scripting] Permite establecer la configuración de bakeres e iniciar su cálculo
+* [Substance] Usar &quot;usage&quot; para conexiones de entradas/salidas además de identificadores
 * [Herramienta] Permite seleccionar el canal de previsualización en la ventana gráfica de la herramienta Proyección
 
 **Solucionado :**
 
 * Bloqueo durante el lanzamiento si las sustancias se encuentran en una carpeta incorrecta
 * El informe de bloqueo a veces no funciona debido a un archivo de registro incorrecto
-* [Iray] Los efectos posteriores no se actualizan cuando Iray está en pausa
+* [Iray] Los Efectos de posprocesamiento no se actualizan cuando Iray está en pausa
 * [Iray] El método abreviado de enfoque automático ya no funciona
 * [Iray] El comportamiento del regulador de apertura cambia en función del tamaño del activo
 * [Capas] El primer canal de materiales no está activado de forma predeterminada si todos están desactivados
-* [Shader] No se imprimen errores si un &quot;param auto&quot; es incorrecto
+* [Sombreador] No se imprimen errores si un &quot;param auto&quot; es incorrecto
 
 **Problema conocido:**
 
-* [Mac] El límite de muestras de textura está bloqueado en 16 (problema del controlador de la GPU)
+* [Mac] El límite de muestras de Textura está bloqueado en 16 (problema del controlador de la GPU)

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/workflow-issues/project-issues/a-project-has-been-processed-as-a-text-file-and-is-now-corrupted.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Obtenga información sobre cómo recuperar archivos de proyecto de Substance 3D Painter dañados que se han procesado como archivos de texto.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Workflow Issues > Project Issues > Corrupted project file
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Archivo de proyecto dañado
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
-
 ---
-
 
 # Un proyecto se ha procesado como archivo de texto y ahora está dañado
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/pipeline-and-integration/configuration/querying-current-software-version.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a consultar la versión actual del software de Substance 3D Painter mediante programación para la integración y automatización de la canalización.
-helpx_creative_field: ""
-helpx_description: Painter > Pipeline and integration > Configuration > Querying Current Software Version
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Consultar la versión actual del software
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%
-
 ---
-
 
 # Consultar la versión actual del software
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-emissive-shader-api.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Acceda a la referencia de API del sombreador de Emisivos Lib de Substance 3D Painter para crear materiales de emisivo y efectos brillantes.
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Emissive - Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Emisivos Lib - API del sombreador
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 0%
-
 ---
-
 
 # Emisivos Lib - API del sombreador
 
@@ -31,7 +23,7 @@ import lib-sparse.glsl
 ```
 
 
-La textura del canal de emisión.
+La textura del canal de emisivo.
 
 ```
 //: param auto channel_emissive 
@@ -61,7 +53,7 @@ uniform float emissive_intensity;
 ```
 
 
-Calcula el brillo emisor al ojo del espectador
+Calcula el brillo del emisivo al ojo del espectador
 
 ```
 vec3 pbrComputeEmissive(SamplerSparse emissive, SparseCoord coord) 

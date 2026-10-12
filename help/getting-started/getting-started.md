@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/getting-started.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Da tus primeros pasos con Substance 3D Painter aprendiendo los conceptos básicos de la creación de proyectos, la navegación de la interfaz y los flujos de trabajo de textura.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Procedimientos iniciales
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 10%
-
 ---
-
 
 # Procedimientos iniciales
 

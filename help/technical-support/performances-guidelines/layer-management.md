@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/performances-guidelines/layer-management.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Conozca las prácticas recomendadas de administración de capas en Substance 3D Painter para optimizar el rendimiento y mantener los proyectos organizados.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Performances guidelines > Layer management
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Administración de capas
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
-
 ---
-
 
 # Administración de capas
 
@@ -27,7 +19,7 @@ Existen varias opciones que puede utilizar para reducir el coste de rendimiento 
 +++Uso de máscaras de geometría
 Las máscaras de geometría son tu mejor herramienta de optimización. Siempre que pueda aislar una parte de la malla en la que trabajar, hágalo enmascarando capas o carpetas. Las máscaras geométricas funcionan aislando bien por UDIM o por parte de malla, por lo que las áreas que no están en la máscara no se procesan, lo que mejora el rendimiento. Como ventaja, también puede aislar visualmente esas partes en la ventana gráfica para facilitar el texturizado.
 
-Puedes [obtener más información sobre las máscaras de geometría con este tutorial](https://www.youtube.com/watch?v=TGASuIGSUns) o haciendo referencia a la documentación[&#128279;](../../interface/layer-stack/geometry-mask.md).
+Puedes [obtener más información sobre las máscaras de geometría con este tutorial](https://www.youtube.com/watch?v=TGASuIGSUns) o haciendo referencia a la documentación](../../interface/layer-stack/geometry-mask.md).[
 
 +++
 
@@ -52,7 +44,7 @@ Los filtros pueden ser costosos. Si es necesario utilizar un filtro cerca de la 
 +++
 
 +++Limitar el uso del modo de fusión de paso a través
-El paso a través se utiliza con frecuencia con filtros o capas de trazo de pincel. Es un modo de fusión costoso porque mira todas las capas inferiores y transforma su resultado, en lugar de anular el resultado como el modo de fusión normal. Siempre que utilice el paso a través, intente combinarlo con carpetas y máscaras de geometría para minimizar el impacto en el rendimiento.
+El Acceso directo se utiliza con frecuencia con filtros o capas de trazo de pincel. Es un modo de fusión costoso porque mira todas las capas inferiores y transforma su resultado, en lugar de anular el resultado como el modo de fusión normal. Siempre que utilice el paso a través, intente combinarlo con carpetas y máscaras de geometría para minimizar el impacto en el rendimiento.
 
 +++
 

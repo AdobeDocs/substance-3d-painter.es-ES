@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/advanced-channel-painting.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprende técnicas avanzadas de pintura de canales en Substance 3D Painter para pintar directamente en canales de textura específicos y obtener un control preciso.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Advanced channel painting
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Pintura avanzada de canales
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 0%
-
 ---
-
 
 # Pintura avanzada de canales
 

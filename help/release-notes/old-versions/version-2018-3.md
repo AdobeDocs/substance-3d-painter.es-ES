@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/old-versions/version-2018-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte las notas de la versión 2018.3 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2018.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versión 2018.3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2789'
 ht-degree: 0%
-
 ---
-
 
 # Versión 2018.3
 
@@ -135,11 +127,11 @@ Todos los nuevos elementos visuales se pueden modificar a través del nuevo men�
 
 * **Espejo X, Espejo Y, Espejo Z** : Definir qué dirección se utiliza para la simetría
 * **Desplazamiento** : Controla el valor de desplazamiento por eje. El icono de flecha cruzada permite restablecer todos los desplazamientos a 0.
-* **Plano de simetría** : Mostrar plano permite dibujar un plano que corta la malla. Mostrar intersección dibuja una línea en la malla donde el plano corta la malla.
+* **Plano de Simetría** : Mostrar plano permite dibujar un plano que corta la malla. Mostrar intersección dibuja una línea en la malla donde el plano corta la malla.
 * **Cursor de Simetría** El cursor :Show dibujará un cursor de pincel secundario donde se aplique la simetría. Ocultar al pintar solo mostrará el cursor cuando no se pinte.
-* **Manipulador** : Mostrar Manipulador mostrará un manipulador en la ventana gráfica para desplazar el plano de simetría. **Tamaño del manipulador** controla el tamaño del controlador en la ventana gráfica.
+* **Manipulador** : Mostrar Manipulador mostrará un manipulador en la ventana gráfica para desplazar el plano de simetría. **Tamaño de Manipulador** controla el tamaño del controlador en la ventana gráfica.
 
-Se pueden usar los mismos **métodos abreviados** que para el manipulador Tri-Planar y UV para ocultar o mostrar el manipulador de simetría :
+Se pueden usar los mismos **métodos abreviados** que para el manipulador Tri-Plana y UV para ocultar o mostrar el Manipulador de Simetría :
 
 * **P**: Mostrar/Ocultar Manipulador
 * **Mayús** : Traducción de ajuste (desplazamiento discreto)
@@ -238,7 +230,7 @@ En esta nueva versión incluimos nuevo contenido :
 * Nuevo **proyecto** **plantillas** :
 
   * PBR - Ángulo de anisotropía de Rugosidad metálica
-  * PBR - Revestimiento de rugosidad metálica
+  * PBR - Rugosidad metálica recubierta
 * Nuevo **material**:
 
   * Human Female 30s Face 06 (se puede encontrar rápidamente a través del ajuste preestablecido de la piel en el estante)\
@@ -259,22 +251,22 @@ También actualizamos parte del contenido existente para perfeccionarlo :
 
 **Agregado:**
 
-* [Contenido] Integrar nueva plantilla de proyecto: &quot;PBR - Mezcla Alpha de rugosidad metálica&quot;
+* [Contenido] Integrar nueva plantilla de proyecto: &quot;PBR - Rugosidad metálica Alpha-blend&quot;
 * El orden de búsqueda de la biblioteca dinámica de Linux ha cambiado para priorizar las bibliotecas en el directorio de instalación antes de lo que está instalado en el sistema
 
 **Corregido:**
 
 * La malla desaparece a veces de la ventana gráfica 3D (presione F para restablecer la cámara)
 * [glTF] Actualizar el cargador de Substance Painter Sketchfab con los nuevos tipos de licencia de Sketchfab
-* [Import]&#x200B;[glTF] Modulación incorrecta de la textura de entrada definida en los archivos glTF
-* [Import]&#x200B;[glTF] El plano de tierra se muestra incorrectamente con la importación de glTF en algunos casos
-* [Export]&#x200B;[USD] La opacidad no funciona en Arkit
-* [Export]&#x200B;[USD] La exportación de USDz se bloquea en algunos casos
-* [Export]&#x200B;[USD] Exportar a USD sin guardar provoca un bloqueo
-* [Export]&#x200B;[USD] Modo de mosaico incorrecto para texturas, modo de subdivisión para mallas y tipos de salida para sombreadores
-* [Export]&#x200B;[USD] Exportaciones dispersas de solo algunos conjuntos de texturas con toda la geometría
-* [Instancia] Bloqueo al intentar eliminar una capa de instancia rota
-* [Regresión]&#x200B;[Exportar] Algunos mapas no exportados en la profundidad de bits elegida
+* [Import][glTF] Modulación incorrecta de la textura de entrada definida en los archivos glTF
+* [Import][glTF] El plano de tierra se muestra incorrectamente con la importación de glTF en algunos casos
+* [Export][USD] La opacidad no funciona en Arkit
+* [Export][USD] bloqueos de exportación de USDz en algunos casos
+* [Exportar] [USD] Exportar a USD sin guardar conduce al bloqueo
+* [Exportar] [USD] Modo de mosaico incorrecto para texturas, modo de subdivisión para mallas y tipos de salida para sombreadores
+* [Exportar] [USD] Exportaciones dispersas de solo algunos conjuntos de texturas con toda la geometría
+* bloqueo [Instancia] al intentar eliminar una capa de instancia rota
+* [Regresión][Exportar] Algunos mapas no exportados en la profundidad de bits elegida
 * [Linux] Problema con library libtbb.so.2
 
 **Problemas conocidos:**
@@ -353,19 +345,19 @@ También actualizamos parte del contenido existente para perfeccionarlo :
 * [Pila de capas] Colores en capas y carpetas
 * [Pila de capas] Activación y desactivación rápidas de varias capas y efectos
 * [Pila de capas] Navegación más sencilla para los modos de fusión con las teclas de flecha arriba y desplazamiento del ratón
-* [Proj]&#x200B;[UI] manipulador de rotación adicional en los tres ejes para triplanar
-* [Proj]&#x200B;[Atajos] : y + para cambiar el tamaño del manipulador de Proyección de UV
+* [Proj][UI] manipulador de rotación adicional en los tres ejes para triplanar
+* [Proj][Atajos] : y + para cambiar el tamaño del manipulador de Proyección de UV
 * [Sombreador] Controlar los parámetros de las capas recubiertas con canales en el sombreador recubierto de PBR
 * [Substance] Expone nuevas entradas de textura basadas en malla para filtros y generadores
-* [Simetría]&#x200B;[Ventana gráfica]&#x200B;[IU] Control de desplazamiento de simetría con manipuladores
-* [Simetría]&#x200B;[Barra de herramientas contextual]&#x200B;[IU] Nuevo panel simetría con opciones
+* [Simetría][Ventana gráfica][IU] Control de desplazamiento de simetría con manipuladores
+* [Simetría][Barra de herramientas contextual][IU] Nuevo panel simetría con opciones
 * [Simetría] Nuevo modo de intersección de línea de simetría
 * [Simetría] Nuevo cursor de clonación de simetría
 * [Simetría] [Métodos abreviados] Q para ocultar y -, + para cambiar el tamaño y cambiar para ajustar
 * [Registro] Mejore los mensajes de error cuando no se pueden exportar texturas
 * [Scripting] Permite cambiar o actualizar los recursos en Configuración de visualización
 * [Scripting] Permite crear o quitar canales en conjuntos de texturas
-* [Contenido]&#x200B;[Shaders] Añadir compatibilidad para la anisotropía con un sombreador específico (pbr-metal-rough-anisotropía-angle)
+* [Contenido][Shaders] Añadir compatibilidad para la anisotropía con un sombreador específico (pbr-metal-rough-anisotropía-angle)
 * [Contenido] Actualización de la esfera de previsualización con anisotropía y ángulo modificado
 * [Contenido] Se ha actualizado el obturador de matFx
 * [Contenido] Nueva digitalización de caras sin problemas Texturing.XYZ
@@ -374,34 +366,34 @@ También actualizamos parte del contenido existente para perfeccionarlo :
 * [Contenido] Nuevo mapa de entorno: studio automotive neutral
 * [Contenido] Nueva plantilla de proyecto: PBR - Ángulo de anisotropía de rugosidad metálica (con canales de anisotropía)
 * [Contenido] Nueva plantilla de proyecto: PBR - rugosidad metálica recubierta
-* [SVT]&#x200B;[Motor] Texturas virtuales dispersas (SVT)
-* [SVT]&#x200B;[Preferencias]&#x200B;[IU] Opción de aceleración de compatibilidad de hardware SVT
-* [SVT]&#x200B;[Log] Información adicional para la función de texturas virtuales dispersas (p. ej., disco de tamaño)
-* [SVT]&#x200B;[UI] Ventana de mensaje al inicio si el tamaño del disco es demasiado bajo para la caché
-* [SVT]&#x200B;[Preferencias]&#x200B;[IU] Ubicación de caché global del Substance Painter
+* [SVT][Motor] Texturas virtuales dispersas (SVT)
+* [SVT][Preferencias][IU] Opción de aceleración de compatibilidad de hardware SVT
+* [SVT][Log] Información adicional para la función de texturas virtuales dispersas (p. ej., disco de tamaño)
+* [SVT][UI] Ventana de mensaje al inicio si el tamaño del disco es demasiado bajo para la caché
+* [SVT][Preferencias][IU] Ubicación de caché global del Substance Painter
 * [SVT] Nueva variable de entorno para especificar la ruta de acceso de la caché del Substance Painter
 * [SVT] Nueva variable de entorno para activar la aceleración de compatibilidad de hardware SVT
 * [SVT] Detectar compatibilidad dispersa por hardware
-* [SVT]&#x200B;[Hardware disperso] Aumentar la versión mínima del controlador para la GPU Nvidia
-* [SVT]&#x200B;[Shader]&#x200B;[Viewport]&#x200B;[UI] Advertencia al usuario si hay artefactos con texturas virtuales dispersas al abrir el proyecto
+* [SVT][Hardware disperso] Aumentar la versión mínima del controlador para la GPU Nvidia
+* [SVT][Sombreador][Viewport][UI] Advertencia al usuario si hay artefactos con texturas virtuales dispersas al abrir el proyecto
 
 <b><b>Corregido:</b>\
 </b>
 
 * [Selector de color] Cursor de pintura que aparece al intentar seleccionar un color
-* Bloqueo al seleccionar o anular la selección de capas en un orden específico puede producir un bloqueo
+* El bloqueo al seleccionar o anular la selección de capas en un orden específico puede provocar bloqueos
 * Bloqueo al pegar como instancia una capa con una máscara
-* [Canal de usuario]&#x200B;[Regresión] Bloqueo al cambiar el nombre del canal de usuario
+* [Canal de usuario][Regresión] Bloqueo al cambiar el nombre del canal de usuario
 * [Canal de usuario] Vista previa de pincel atenuado
 * [Alembic] Solo un conjunto de texturas de varios materiales tras la importación
 * [Motor] La textura exportada difiere de la ventana gráfica para los sellos de pincel
-* [Motor] La inversión con un efecto de nivel no afecta por completo a una textura
+* [Motor] La inversión con un efecto de nivel no afecta completamente a una textura
 * El selector de material está aplicando un trazo de pincel al seleccionar
-* Cambiar la resolución a 128x128px provoca un bloqueo
+* Cambiar la resolución a 128x128px conduce a un bloqueo
 * Los vínculos de mapa de malla no se actualizan correctamente al rehornear o crear instancias de capas
-* [Substance] UserData ColorSpace no funciona en Baked Mesh Normal solicitada como entrada
+* [Substance] UserData ColorSpace no funciona en la malla Hecha un bake Normal solicitada como entrada
 * No coincide la asociación MDL al utilizar varias instancias de sombreado
-* [Simetría] [Capa de relleno] Plano de simetría y su manipulador activos en Capa de relleno
+* [Simetría] [Capa de relleno] Plano de Simetría y su manipulador activo en Capa de relleno
 * [Ventana gráfica] El punto de tabla dinámica para la traducción no siempre se actualiza después de hacer clic
 * [UI] Se han corregido los iconos y la eliminación de marcadores de posición para los monitores HDPI
 

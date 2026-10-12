@@ -1,15 +1,11 @@
 ---
 title: Acoplar capas
-description: ''
-helpx_description: "Substance 3D Painter"
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/layer-stack/flatten-layers.html"
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+description: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 1%
-
 ---
-
 
 # Acoplar capas
 
@@ -61,7 +57,7 @@ Los nombres de los archivos exportados siguen el modelo del campo de nombre de a
 
 * <b>$textureSet\_$layerName\_$srcMap(.$udim)</b>
 
-Con este patrón, los mapas tendrán el nombre del conjunto de texturas, el nombre de la capa, el nombre del canal y, si se trata de un proyecto de mosaico UV, el número UDIM.
+Con este patrón, los mapas tendrán el nombre del conjunto de texturas, el nombre de la capa, el nombre del canal y, si se trata de un proyecto de mosaico UV, el número del UDIM.
 
 Si modifica el patrón, estará disponible de nuevo la próxima vez que se abra la ventana.
 
@@ -82,7 +78,7 @@ Las siguientes propiedades están codificadas y no se pueden cambiar:
 
 La función acoplar crea un mapa de bits por canal activado dentro de una nueva capa de relleno. La resolución se basa en la resolución del conjunto de texturas y la profundidad de bits viene determinada por los ajustes del conjunto de texturas.
 
-El acoplado funciona cuando hay datos de textura dentro de un canal determinado. Acoplar no funcionará en una capa de pintura vacía y publicará un mensaje de error en el registro si no hay datos en la selección.
+Acoplar funciona cuando hay datos de textura dentro de un canal determinado. Acoplar no funcionará en una capa de pintura vacía y publicará un mensaje de error en el registro si no hay datos en la selección.
 
 Solo se pueden acoplar las capas y los efectos visibles. Si algunas capas del grupo están desactivadas cuando el grupo se acopla, los efectos de estas capas no se incluirán en el resultado acoplado.
 
@@ -106,4 +102,4 @@ Las imágenes acopladas se etiquetan automáticamente como &quot;acopladas&quot;
 
 ### Limpiar imágenes no utilizadas
 
-La eliminación de imágenes no utilizadas del archivo de proyecto puede ayudar a reducir el tamaño del proyecto. En el panel Activos, puede eliminar imágenes desde el menú del botón derecho. O bien, para quitar todas las imágenes no utilizadas, usa <b>Archivo > Quitar recursos no utilizados</b>. Tenga en cuenta que esto no solo eliminará las imágenes acopladas, sino también cualquier recurso que no se esté utilizando en la pila de capas, las ranuras de mapas respaldados o en cualquier otro lugar de la interfaz de usuario.
+La eliminación de imágenes no utilizadas del archivo de proyecto puede ayudar a reducir el tamaño del proyecto. En el panel Activos, puede eliminar imágenes desde el menú del botón derecho. O bien, para quitar todas las imágenes no utilizadas, usa <b>Archivo > Quitar recursos no utilizados</b>. Tenga en cuenta que esto no solo eliminará las imágenes acopladas, sino también cualquier recurso que no se esté utilizando en la pila de capas, las ranuras de mapas de copia de seguridad o en cualquier otro lugar de la interfaz de usuario.

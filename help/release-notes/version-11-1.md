@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/version-11-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte las notas de la versión 11.1 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter > Release notes > Version 11.1
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versión 11.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2273'
 ht-degree: 0%
-
 ---
-
 
 # Versión 11.1
 
@@ -48,15 +40,15 @@ En resumen, la cinta de opciones es una herramienta más limpia para dibujar con
 
   ![](../assets/ribbon_path_type.png)
 * <b>La cinta de opciones es una ruta continua que funciona en todo tipo de superficies</b>\
-  La cinta de opciones es una herramienta que permite repetir o estirar una textura a lo largo de un trazado. Funciona en cualquier tipo de superficies y geometría, incluso cuando las piezas de malla no están conectadas.
+  ItThe Ribbon es una herramienta que permite repetir o estirar una textura a lo largo de un trazado. Funciona en cualquier tipo de superficies y geometría, incluso cuando las piezas de malla no están conectadas.
 
   ![](../assets/ribbon_robot_1.jpg)
 * <b>Creación de degradados y patrones repetidos</b>\
   Esta nueva herramienta puede repetir imágenes de varias maneras sin costuras ni cortes, lo que es adecuado para degradados y patrones limpios.
 
   ![](../assets/ribbon_repeat_demo.png)
-* <b>Ampliar imágenes con inicio y fin personalizados</b>\
-  El ajuste <b>estirar entre desplazamientos</b> permite aislar partes de una imagen para utilizarlas como secciones de inicio y fin en un trazado, mientras que la sección central se estira a lo largo del resto del trazado. Esto puede resultar útil para utilizar rápidamente mapas de bits sencillos y colocarlos a lo largo de un trazado sin distorsiones, como las flechas.
+* <b>Estirar imágenes con inicio y fin personalizados</b>\
+  El valor <b>estirar entre desplazamientos</b> permite aislar partes de una imagen para utilizarlas como secciones de inicio y fin en un trazado, mientras que la sección central se estira a lo largo del resto del trazado. Esto puede resultar útil para utilizar rápidamente mapas de bits sencillos y colocarlos a lo largo de un trazado sin distorsiones, como las flechas.
 
   ![](../assets/ribbon_stretch_guides_path.png)
 * <b>Hay diferentes tipos de esquinas disponibles</b>\
@@ -80,7 +72,7 @@ En resumen, la cinta de opciones es una herramienta más limpia para dibujar con
   También se proporcionan dos nuevos ajustes preestablecidos de herramientas denominados <b>Escala de grises de cinta personalizada</b> y <b>Material de cinta personalizado</b> para que esta funcionalidad sea fácilmente accesible.
 
   ![](../assets/ribbon_custom_preset.gif)
-* <b>Compatible con la simetría</b>\
+* <b>Compatible con simetría</b>\
   Al igual que otros tipos de herramientas, la Ruta de lazo también es compatible con la función de simetría.
 
   ![](../assets/ribbon_gradient_symmetry.jpg)
@@ -189,9 +181,9 @@ Ahora se puede definir el desplazamiento con una unidad específica. Este cambio
 Como continuación del trabajo iniciado en nuestra versión anterior, que cambió de OpenGL a Metal en el sistema operativo Mac, esta nueva versión ahora usa <b>Vulkan</b> en plataformas Windows y Linux.
 
 * <b>Ahora se usa la API gráfica Vulkan en lugar de OpenGL en Windows y Linux</b>\
-  Painter ahora utiliza la API gráfica de Vulkan para procesar en la ventana gráfica y calcular texturas. Este modificador debería mejorar el rendimiento general de la aplicación. También facilitará la integración de nuevas funcionalidades en el futuro.
+  Painter ahora utiliza la API gráfica de Vulkan para el procesamiento en la ventana gráfica y las texturas informáticas. Este modificador debería mejorar el rendimiento general de la aplicación. También facilitará la integración de nuevas funcionalidades en el futuro.
 * <b>Trazado de rayos de GPU para hacer un bake vía Vulkan</b>\
-  El trazado de rayos de DirectX (DRX) y Optix han sido reemplazados a favor del trazado de rayos a través de la API gráfica Vulkan en nuestros panaderos. Este cambio significa que el trazado de rayos basado en GPU ahora está disponible en las GPU AMD, así como en el sistema operativo Linux.\
+  El trazado de rayos de DirectX (DRX) y Optix han sido reemplazados a favor del trazado de rayos a través de la API gráfica Vulkan en nuestros bakeres. Este cambio significa que el trazado de rayos basado en GPU ahora está disponible en las GPU AMD, así como en el sistema operativo Linux.\
   El cambio a Vulkan también mejora el hago un bake de los tiempos de procesamiento, especialmente en resoluciones altas.
 
 ### Miscelánea
@@ -237,13 +229,13 @@ Sumario: <b>Esta actualización es una versión importante, contiene la nueva he
 * [Cinta] Permite cambiar la opacidad de la Cinta por vértice en la ruta
 * [Cinta de opciones] Permite cambiar el tamaño de la Cinta de opciones por vértice en la ruta
 * [Cinta de opciones] Quitar el inicio o el final definido en un Substance cuando las rutas están cerradas
-* [Cinta] Quitar vista previa de ruta/material en la ventana de propiedades de las herramientas Pintar/Borrador/Difuminar trazado
+* [Cinta] Quitar vista previa de ruta/material en la ventana de propiedades para las herramientas de Pintura/Borrador/Difuminado de trazado
 * [Cinta] Añadir modos de fusión para el canal alfa y algunos canales cuando se superponen automáticamente
-* Simetría de relleno
-* [Relleno] Compatibilidad añadida para la simetría en capas y efectos de relleno
-* [Relleno] [IU] Visualización de los ajustes de simetría en la ventana de propiedades para la capa de relleno y los efectos
-* [Fill] Interfaz de usuario de configuración de simetría de trabajo tanto en el menú Ventana como en la ventana de propiedades
-* [Rellenar] Reorienta correctamente las texturas normales al proyectar en modo de deformación
+* Rellenar simetría
+* [Rellenar] Compatibilidad añadida para la simetría en capas y efectos de relleno
+* [Relleno] [IU] Visualización de la configuración de simetría en la ventana de propiedades para la capa de relleno y los efectos
+* [Fill] Interfaz de usuario de configuración de reprocesamiento de simetría tanto en el menú de la ventana como en la ventana de propiedades
+* [Fill] Reorienta correctamente las texturas normales al proyectar en modo de deformación
 * desplazamiento tamaño físico
 * [Desplazamiento] Utilice tamaño físico como unidad de desplazamiento
 * Mejora del rendimiento
@@ -286,7 +278,7 @@ Sumario: <b>Esta actualización es una versión importante, contiene la nueva he
 * [Haciendo un bake] El ajuste de AO &quot;Oclusión automática&quot; se ignora con varios conjuntos de texturas y &quot;coincidencia por nombre&quot; activado
 * [Haciendo un bake] El AO con normal tiene defectos en los bordes debido a la falta de relleno
 * [Gestión de color] HDR. las conversiones de espacio de color con ACE en Linux producen colores con sujeción
-* [Regresión]&#x200B;[IU] El menú contextual es demasiado pequeño en pantallas HD
+* [Regresión][IU] El menú contextual es demasiado pequeño en pantallas HD
 * [Bloqueo] [Python] USD exportación desencadenada por TextureStateEvent
 * [Motor] Pintura con la herramienta Clonar en colores de cambio de canal normales incorrectamente
 * [Python] El widget fantasma aparece eliminado por la secuencia de comandos y sigue funcionando

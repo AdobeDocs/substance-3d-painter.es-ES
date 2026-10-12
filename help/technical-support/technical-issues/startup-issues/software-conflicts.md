@@ -1,26 +1,18 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/technical-issues/startup-issues/software-conflicts.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Obtenga información sobre cómo resolver conflictos de software que impiden que Substance 3D Painter se inicie correctamente en el sistema.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Startup Issues > Software conflicts
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Conflictos de software
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 22871eab2f25d09bd82f1292d8b3e5f8c4f1c2cf
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
-
 ---
-
 
 # Conflictos de software
 
-Esta página contiene una lista de problemas conocidos con otro software que pueden bloquearse o impedir que Substance 3D Painter se ejecute correctamente.
+Esta página contiene una lista de problemas conocidos con otro software que pueden provocar un bloqueo o impedir que Substance 3D Painter se ejecute correctamente.
 
 | *Posible origen del conflicto* | *Problema* |
 | --- | --- |
@@ -28,7 +20,7 @@ Esta página contiene una lista de problemas conocidos con otro software que pue
 | **AMD CrossFire y NVIDIA SLI** | Painter no admite varias configuraciones de GPU, lo que provoca bloqueos. Se recomienda desactivar esta función. |
 | <b> Asistente de Autodesk </b> | La aplicación Asistente de Autodesk puede crear conflictos y hacer que la aplicación se convierta en un bloqueo al inicio o al abrir un archivo de proyecto. Actualice la aplicación de Autodesk para resolver el problema. |
 | <b> ordenadores Alienware/Dell</b> | Consulte esta página para obtener más información: [Bloqueo al abrir o guardar un archivo](../stability-issues/crash-when-opening-or-saving-a-file.md). |
-| **APFS de Paragon Software** | Este software puede registrar una ubicación en la variable de entorno Windows Path que puede bloquear la aplicación al iniciarse. Es posible que la desinstalación del software no sea suficiente y que la variable de entorno deba eliminarse manualmente. Ejemplo de ubicación problemática:  `C:Program Files (x86)Paragon SoftwareAPFS for Windowsï–›éŒ à €è¸€ì‡ì‡ç¿¹` |
+| **APFS de Paragon Software** | Este software puede registrar una ubicación en la variable de entorno Windows Path que puede almacenar en bloqueo la aplicación al iniciarse. Es posible que la desinstalación del software no sea suficiente y que la variable de entorno deba eliminarse manualmente. Ejemplo de ubicación problemática:  `C:Program Files (x86)Paragon SoftwareAPFS for Windowsï–›éŒ à €è¸€ì‡ì‡ç¿¹` |
 | **Avecto** | La ejecución de una versión anterior de Avecto puede provocar ralentizaciones y bloqueos. Asegúrese de actualizarlo a la versión más reciente. |
 | **Ajuste de GPU de Asus** | Este software puede causar problemas durante la compilación de sombreadores en Substance 3D Painter o incluso impedir que se inicie la compilación de sombreadores. Si se produce este problema, recomendamos desinstalar el software para ver si se soluciona el problema. |
 | **Asus RAMCache** | Este software puede impedir que Substance 3D Painter se inicie correctamente o hacerlo inestable mientras se ejecuta. Recomendamos desactivar o instalar Asus RAMCache si tiene problemas de estabilidad. |

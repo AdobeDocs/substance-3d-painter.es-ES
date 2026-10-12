@@ -1,28 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/advanced-channel-painting/ambient-occlusion-painting.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprende a pintura mapas de oclusión ambiental directamente en Substance 3D Painter para añadir sombras y profundidad realistas a las texturas.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Advanced channel painting > Ambient Occlusion Painting
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Pintura oclusión ambiental
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
-
 ---
-
 
 # Pintura oclusión ambiental
 
 El canal de oclusión ambiental permite realizar la pintura de detalles en las sombras ambientales de un objeto. Se puede utilizar para añadir detalles del AO procedentes de materiales o simplemente para corregir errores de hace un bake manual cuando sea necesario.
 
-&#x200B;>> 
+>> 
 
 En los gráficos de ordenador, la oclusión ambiental es una técnica de sombreado y de procesamiento que se utiliza para calcular la exposición de cada punto de una escena a la luz ambiente. El interior de un tubo suele estar más ocluido (y, por lo tanto, más oscuro) que las superficies exteriores expuestas, y cuanto más profundo sea el interior del tubo, más ocluida (y más oscura) será la iluminación. La oclusión ambiental se puede ver como un valor de accesibilidad que se calcula para cada punto de superficie.\
 Fuente: &lt;https://en.wikipedia.org/wiki/Ambient_occlusion>

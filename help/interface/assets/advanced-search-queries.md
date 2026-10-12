@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/assets/advanced-search-queries.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a crear consultas de búsqueda avanzadas en Substance 3D Painter para encontrar recursos específicos mediante criterios de búsqueda complejos.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Assets > Advanced search queries
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Consultas de búsqueda avanzada
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
-
 ---
-
 
 # Consultas de búsqueda avanzada
 
@@ -53,7 +45,7 @@ Se pueden habilitar escribiendo las palabras clave correctas.
   * &quot; **s:** &quot; : estante/biblioteca (incluye &quot;sesión&quot; y &quot;proyecto&quot;)
   * &quot; **p:** &quot; : ruta
   * &quot; **u:** &quot; : uso
-* **Escapando** : es posible utilizar &quot; **\**&quot; antes del carácter del que se debe escapar o utilizar comillas, por ejemplo:
+* **Escapando** : es posible utilizar &quot;**\** &quot; antes del carácter del que se debe escapar o utilizar comillas en su lugar, ejemplo :
   * **a\ nombre\ con\ espacios**
   * **&quot;un nombre con espacios&quot;**
 * **Atributos (o grupo) específicos** : para buscar en atributos específicos, anteponga &#39;o grupo&#39; a un especificador de tipo. Ejemplo :
