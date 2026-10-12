@@ -1,0 +1,112 @@
+---
+title: Pintura en jaula
+description: Aprenda a evitar artefactos y personalizar la jaula durante el proceso de hacer un bake con la pintura de la jaula en Substance 3D Painter.
+hold: true
+source-git-commit: eb0b1c111b0c96a87283785cf702def7305f0aa9
+workflow-type: tm+mt
+source-wordcount: '1040'
+ht-degree: 0%
+---
+
+# Pintura en jaula
+
+**Pintar la jaula** te permite separar las áreas de pintura para alejar más la jaula que hace un bake o acercarla a la superficie de bajo contenido de poli. La pintura en jaula ayuda a evitar artefactos durante el haga un bake mientras sigue capturando todos los detalles de alto contenido polivinílico de la malla.
+
+## Configurar la pintura en jaula
+
+Para que **Cage painting** esté disponible, el proyecto debe tener al menos un archivo de escena High-Poly desde el que hacer un bake, y el tipo Cage debe establecerse en **Distance-based**.
+
+>[!NOTE]
+>
+> En una futura versión, se agregará compatibilidad con **Pintura de jaula** para el **Tipo de jaula automática**.
+
+El ajuste de los parámetros **Cage** después de pintar la jaula puede alterar las áreas pintadas, lo que puede requerir un retoque o incluso reiniciar el proceso de pintura de la jaula, por lo que es mejor ajustar estos parámetros primero.
+
+**Distancia frontal máxima** y **Distancia trasera máxima** controlan la distancia base entre la jaula y la superficie de malla de baja densidad. La pintura de la jaula utiliza estos valores como límites para determinar cuánto se debe modificar la jaula. Realizar grandes ajustes en estos valores después de pintar la jaula puede causar intersecciones inesperadas.
+
+**Relativo al cuadro delimitador** controla las unidades que se utilizan para definir el tamaño de la jaula. Si se cambia este parámetro, se puede cambiar drásticamente el tamaño de la jaula, por lo que es probable que haya que volver a pintar las áreas pintadas para corregir los nuevos valores.
+
+>[!TIP]
+>
+> Si desea volver a empezar a pintar la jaula desde cero, puede restablecer los parámetros de pintura de la jaula, los trazos de pintura de la jaula o todos los ajustes para hacer un bake.
+>
+> ![](../assets/baking/cage-painting/resetcage.png)
+
+## Inicio de la pintura en jaula
+
+Para iniciar la pintura en jaula:
+
+1. Cambiar a [**modo de Hacer un bake**](baking.md).
+1. Asegúrese de haber seleccionado al menos un archivo **High-poly scene** desde el que hacer un bake.
+1. En **Configuración común** **panel**, vaya a la **sección de la jaula**.
+1. Establezca el **Tipo de jaula** en **Basado en distancia**.
+1. Haga clic en **jaula de Pintura**.
+
+>[!NOTE]
+>
+> De forma predeterminada, **haga un bake rápido** está activado para el canal normal cuando se entra por primera vez en **Pintura de jaula**. Esto significa que el mapa de normales se volverá a hornear automáticamente cada vez que modifique la jaula. Si lo prefiere, puede desactivar **hace un bake rápida** en el [**panel bakeres de mapa de malla**](../interface/baking-panels/mesh-map-bakers.md).
+
+Una vez que entre en el modo de pintura en jaula, la visualización predeterminada en la **Ventana gráfica** muestra:
+
+* La jaula alrededor de la malla en color beige transparente.
+* Áreas donde el poli alto intersecta la jaula en rojo brillante.
+* Áreas pintadas en jaula en verde sobre la superficie de malla de bajo contenido de poli.
+
+En el modo de pintura en jaula, puedes usar el [**menú de visualización Hecha un bake**](baking-visualization-settings.md) en la **Ventana gráfica** para modificar el color y la opacidad de visualización de cada elemento, o bien activar o desactivar la visualización de elementos específicos.
+
+>[!NOTE]
+>
+> La visualización en rojo brillante de las intersecciones de alta polietileno con la jaula es una previsualización aproximada y no coincide exactamente con los resultados finales de hago un bake. En la mayoría de los casos, la visualización es bastante precisa, pero en el caso de las mallas de bajo contenido de poli con polígonos largos y delgados, puede ser imprecisa y es mejor ver el resultado hecho un bake.
+
+## Herramientas de pintura en jaula
+
+Al pintar la jaula, puedes usar muchas de las herramientas y métodos abreviados a los que estás acostumbrado en el **modo de pintura**, incluidas las herramientas **Pincel**, **Borrador** y **Relleno poligonal**.
+
+* Puedes cambiar entre **Pincel**, **Borrador** y **Relleno poligonal** en la barra de herramientas, o usar los [métodos abreviados de teclado](../interface/settings/shortcuts.md) estándar del modo de pintura.
+* Al usar las herramientas **Pincel** o **Borrador**, puede ajustar el tamaño, flujo, opacidad y espaciado de la herramienta mediante los parámetros situados en la parte superior de la **Ventana gráfica**. También puede usar los [métodos abreviados de teclado](../interface/settings/shortcuts.md) relevantes donde estén disponibles.
+
+### Pincel
+
+El uso del **Pincel** con **Intensidad**, **Flujo** y **Opacidad** tendrá un gran impacto en la superficie de la jaula. Se recomienda establecer un valor muy bajo de **Intensidad** y utilizar los parámetros Flujo y Opacidad para controlar la intensidad del pincel.
+
+TODO: Animación/vídeo que muestra la diferencia en el efecto intensidad
+
+>[!NOTE]
+>
+> De forma predeterminada, en la pintura en jaula, la herramienta Pincel usa el modo de fusión **Sobreexposición lineal (Agregar)**. Este modo de fusión hace que los trazos posteriores en la misma área aumenten de forma consistente la intensidad del efecto, de modo que se pueda esculpir la superficie de la jaula con resultados consistentes. Los modos de mezcla estándar **Máximo (aclarar)** y **Normal** siguen estando disponibles:
+>
+> 1. Haga clic con el botón derecho para abrir las propiedades del pincel.
+> 1. Desplácese hacia abajo hasta **Alpha > Fusión avanzada**.
+> 1. Seleccione el modo de fusión de **sellos**.
+
+### Borrador
+
+La herramienta Borrador le permite eliminar la pintura de la jaula, lo que revertirá de forma efectiva las áreas borradas al tamaño de jaula predeterminado.
+
+### Relleno poligonal
+
+En **Modo de pintura en jaula** **3}, la herramienta Relleno poligonal tiene una característica adicional.** Después de seleccionar polígonos, aparece un regulador **Intensidad** en la ventana gráfica que le permite ajustar la intensidad de los polígonos seleccionados. Esto puede facilitar el ajuste fino de la intensidad del efecto sin necesidad de volver a seleccionar constantemente los polígonos.
+
+>[!NOTE]
+>
+> Esta función funciona rehaciendo la última operación (aplicando el relleno de polígono) con un valor de intensidad diferente. Como resultado, realizar una operación diferente o cambiar las herramientas hará que el regulador desaparezca.
+
+A menudo, puede resultar útil aplicar el mismo valor de relleno de polígono a varias áreas de la malla. Para ello:
+
+1. Seleccione el primer conjunto de polígonos.
+1. Utilice el regulador **Intensidad de la jaula** para ajustar la intensidad del efecto.
+1. Copie el valor de **intensidad de la jaula** del regulador temporal en la **Ventana gráfica**.
+1. Pegue el valor en el regulador **Intensidad** situado en la parte superior de la **Ventana gráfica**.
+1. Seleccione los conjuntos de polígonos siguientes para que se aplique el mismo valor de intensidad a través de ellos.
+
+El vídeo siguiente muestra este flujo de trabajo en acción, usando la **herramienta** Relleno poligonal **con la opción** Relleno de malla **seleccionada.**
+
+TODO: VÍDEO
+
+### modos de Fusión
+
+De forma predeterminada, las herramientas Pincel y Relleno poligonal tienen el **modo de fusión (agregar)**, pero también puede usar los modos de fusión **Normal** y **Aclarar (máx.)**.
+
+* **Sobreexposición lineal (agregar)**: Cada trazo/sello añade o resta el valor de intensidad dado del valor existente. Este modo de fusión funciona de forma similar a las aplicaciones de esculpido 3D, donde cada trazo que se pintura se añade a la superficie de la malla.
+* **Normal**: Cada trazo o sello establece el valor en la intensidad especificada, sobrescribiendo el valor existente. Este modo de fusión se comporta como el pincel predeterminado en el modo de pintura, lo que le permite cubrir la superficie existente con un valor diferente.
+* **Aclarar (máx.)**: Cada trazo/sello selecciona el valor máximo entre la intensidad y el valor existente. Con este modo de fusión, los bordes del pincel tardan más en crearse a partir de trazos posteriores, lo que ayuda a crear una transición más gradual.
