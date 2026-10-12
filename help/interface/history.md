@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/history.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a utilizar el panel Historial en Substance 3D Painter para ver y navegar por el historial de edición.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > History
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Historial
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 1%
-
 ---
-
 
 # Historial
 

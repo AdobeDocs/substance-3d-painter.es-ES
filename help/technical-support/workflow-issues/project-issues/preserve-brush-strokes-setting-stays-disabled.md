@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/workflow-issues/project-issues/preserve-brush-strokes-setting-stays-disabled.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Obtenga información sobre cómo corregir la configuración de conservar trazos de pincel desactivada en Substance 3D Painter para conservar los trazos de pincel correctamente.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Workflow Issues > Project Issues > Preserve brush strokes setting stays disabled
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: La opción Conservar trazos de pincel permanece desactivada
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
-
 ---
-
 
 # La opción Conservar trazos de pincel permanece desactivada
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/old-versions/version-2-4.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte las notas de la versión 2.4 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2.4
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versión 2.4
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 0%
-
 ---
-
 
 # Versión 2.4
 
@@ -91,8 +83,8 @@ Las nuevas funciones y el uso de las estanterías se describen en nuestro últim
 * Bloqueo al asignar un recurso incorrecto con el estante mini
 * [Estante] Limpiar y guardar las etiquetas y los metadatos de eliminación de los recursos del proyecto
 * [Estante] al importar un ajuste preestablecido, sus recursos se mostrarán en el estante
-* [Exportar] El mapa normal generado a partir del canal de height tiene una intensidad baja
-* [Exportar] Normal desde malla no siempre está presente en el mapa normal final
+* [Exportar] El Mapa de normales generado a partir del canal de height tiene una intensidad baja
+* [Export] Normal from mesh no siempre está presente en el mapa de normales final
 * [Exportar] La dilación con transparencia puede resultar en ocasiones sin transparencia
 * [Scripting] &quot;alg.plugin\_root\_directory&quot; puede devolver una ruta de red truncada
 * El botón Bloquear [TextureSet] se activa al volver a abrir proyectos no cuadrados

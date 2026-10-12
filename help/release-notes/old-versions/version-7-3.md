@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/old-versions/version-7-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte las notas de la versión 7.3 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 7.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versión 7.3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1822'
 ht-degree: 0%
-
 ---
-
 
 # Versión 7.3
 
@@ -100,7 +92,7 @@ Para obtener más información, consulte la [página de documentación dedicada]
 ### Otras funciones y mejoras
 
 * **Mejoras al arrastrar y soltar activos**\
-  Con la introducción de la deformación, la función de pegatina en la que los activos se pueden arrastrar y soltar desde la biblioteca al puerto de visualización, mientras se mantiene la ALT, había sido objeto de algunas modificaciones. Ahora, cuando se crea una pegatina de esta forma, ya no se utiliza la proyección Planar, sino la proyección Deformar. La selección automática de la proyección de deformación debería mejorar la velocidad y la eficiencia de los ajustes de calcomanía en la malla.\
+  Con la introducción de la deformación, la función de pegatina en la que los activos se pueden arrastrar y soltar desde la biblioteca al puerto de visualización, mientras se mantiene la ALT, había sido objeto de algunas modificaciones. Ahora, cuando se crea una pegatina de esta manera, ya no se usa la proyección Plana, sino la proyección de deformación. La selección automática de la proyección de deformación debería mejorar la velocidad y la eficiencia de los ajustes de calcomanía en la malla.\
   Además, ahora es posible arrastrar y soltar no solo materiales, sino activos de tipo imagen en la ventana gráfica. Al seleccionar un alfa, una textura o un procedimiento, no es necesario utilizar el modificador ALT. Se puede soltar en la malla, lo que provocaría un menú con la opción de seleccionar si esta imagen se debe usar dentro de una máscara o en cualquiera de los canales de la capa.
 
   ![](../../assets/improved-decal.gif)
@@ -130,9 +122,9 @@ Resumen : **Versión principal. Contiene una nueva proyección de deformación 3
 **Agregado:**
 
 * [Proyección] [Deformar] Exponer deformación 3D como un nuevo modo de proyección
-* [Proyección] [Deformar] Permitir el modo de pegatina para Alpha, texturas y procedimientos con la función de arrastrar y soltar en la ventana gráfica
+* [Proyección] [Deformar] Permitir el modo de pegatina para Alpha, Texturas y procedimientos con la función de arrastrar y soltar en la ventana gráfica
 * [Proyección] [Deformar] Utilice la proyección de deformación con el método abreviado de pegatina (ALT)
-* [Proyección]&#x200B;[Deformar]&#x200B;[Barra de herramientas] Transformar deformación como completa o por vértices
+* [Proyección]&#x200B;[Deformar]&#x200B;[Barra de herramientas] Transformar la deformación como completa o por vértices
 * [Proyección]&#x200B;[Deformar]&#x200B;[Barra de herramientas] Añadir puntos de cuadrícula con opciones de deformación dividida en sentido cruzado, horizontal o vertical
 * [Proyección]&#x200B;[Deformar]&#x200B;[Barra de herramientas] Menú específico para acciones de restablecimiento
 * [Proyección]&#x200B;[Deformar]&#x200B;[Barra de herramientas] Opción para ajustar automáticamente las tangentes al mover puntos
@@ -140,7 +132,7 @@ Resumen : **Versión principal. Contiene una nueva proyección de deformación 3
 * [Proyección] [Deformar] Nuevo método abreviado de teclado para cambiar el modo de edición de deformación de vértices completos (MAYÚS+V)
 * [Proyección] [Deformar] Haga clic en + Ctrl para cambiar entre la herramienta Superficie y otras herramientas
 * [Proyección] [Cilíndrica] Exponer el modo de proyección cilíndrica
-* [Proyección]&#x200B;[Barra de herramientas] Configuración del manipulador de grupos (tamaño, pasos de cuadrícula, pasos de ángulo)
+* [Proyección]&#x200B;[Barra de herramientas] Ajustes del manipulador de grupo (tamaño, pasos de cuadrícula, pasos de ángulo)
 * [Selector de color] Nueva interfaz de usuario del selector de color
 * [Selector de color] Uso de valores sRGB en widgets de selector de color
 * [Selector de color] Permitir guardar y eliminar muestras de color
@@ -153,16 +145,16 @@ Resumen : **Versión principal. Contiene una nueva proyección de deformación 3
 * [Motor] Actualización a la nueva versión del motor de Substance (8.3.0)
 * [Scripting] [Python] Permite volver a cargar la malla del proyecto actual
 * [Scripting] [Python] Permitir la actualización de recursos en proyectos
-* [Scripting] [Python] Permite establecer y consultar la resolución de los mosaicos UV
+* [Scripting] [Python] Permite establecer y consultar la resolución de Mosaicos de UV
 * [Interoperabilidad] No disponible para las ediciones Steam y Substance
 * [Interoperabilidad] Recibir varios recursos de Bridge
 
 **Corregido:**
 
 * El selector de color no muestra el color correcto
-* [Horneado] La lista de conjuntos de texturas no está ordenada correctamente
-* [Importación FBX] No se tienen en cuenta las transformaciones de pivote de grupo 3ds Max
-* [Substance Engine] Bloqueo al importar SBSAR dañado
+* [Haciendo un bake] La lista de conjuntos de texturas no está ordenada correctamente
+* [FBX importación] No se tienen en cuenta las transformaciones de pivotación del grupo 3ds Max
+* [Substance Engine] Bloqueo con la importación de SBSAR dañado
 * [MacOS] La opción de configuración de proyecto en diferentes idiomas no está presente
 * El guardado automático puede congelar Painter durante procesos largos
 

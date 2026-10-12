@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/getting-started/export/export-window/output-templates.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a utilizar las plantillas de salida en la ventana de exportación de Substance 3D Painter para configurar los formatos y los nombres de exportación de las texturas.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Export > Export window > Output templates
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Plantillas de salida
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 2%
-
 ---
-
 
 # Plantillas de salida
 
@@ -111,12 +103,12 @@ Los mapas de malla son las texturas hechas un bake:
 | **Normal** | mapa de normales hecho un bake. |
 | **Espacio normal del mundo** | Espacio hecho un bake normal del mundo. |
 | **ID** | ID hecho un bake. |
-| **oclusión de ambiente** | oclusión ambiental hecha un bake |
+| **Oclusión ambiental** | oclusión ambiental hecha un bake |
 | **Curvatura** | Curvatura hecha un bake. |
 | **Posición** | Posición hecha un bake. |
 | **Thickness** | thickness hecho un bake. |
 | **Height** | height hecho un bake. |
-| **Normales dobladas** | Horneado doblado normales. |
+| **Normales dobladas** | normales dobladas hechas un bake. |
 
 ### Mapas convertidos
 
@@ -124,14 +116,14 @@ Los mapas convertidos son mapas generados por la aplicación desde otro origen:
 
 | Nombre | Descripción |
 | --- | --- |
-| **OpenGL de normal** | Mapa normal combinado en formato OpenGL de la normal horneada y el canal normal del conjunto de texturas. |
+| **OpenGL de normal** | Mapa de normales combinado en formato OpenGL de la normal hecha un bake y el canal normal del conjunto de texturas. |
 | **DirectX normal** | Mapa de normales combinado en formato DirectX de la normal hecha un bake y el canal normal del conjunto de texturas. |
-| **OA mixta** | Oclusión de ambiente combinada de la oclusión de ambiente horneada y el canal de oclusión de ambiente del conjunto de texturas. |
-| **Difusión** | textura de Difuso generada a partir del canal **Color base** y **Metálico** (las áreas metálicas se reemplazan por un color negro). |
+| **OA mixta** | Oclusión ambiental combinada de la oclusión ambiental hecha un bake y el canal de oclusión ambiental del conjunto de texturas. |
+| **Difuso** | textura de Difuso generada a partir del canal **Color base** y **Metálico** (las áreas metálicas se reemplazan por un color negro). |
 | **Specular** | textura de specular generada a partir del **Color base** y el canal **Metallic**. |
-| **Brillo** | Textura brillante generada a partir del inverso del canal de rugosidad. |
+| **Brillo** | textura de brillo generada a partir del inverso del canal de rugosidad. |
 | **Unity4 Difuso** | Obsoleto. textura de Difuso generada a partir del canal **Color base** para que coincida con los sombreadores de Unity 4. |
-| **Brillo Unity4** | Obsoleto. Textura brillante generada a partir del canal **Roughness** y **Metallic** para que coincida con los sombreadores Unity 4. |
+| **Brillo Unity4** | Obsoleto. textura de brillo generada a partir del canal **Roughness** y **Metallic** para que coincida con los sombreadores Unity 4. |
 | **Reflejo** | Texturas donde el blanco indica un material dieléctrico y otros colores como materiales metálicos. |
 | **1/o** | Textura que contiene 1 dividida por el valor **IOR**. **IOR** se genera a partir del mapa metálico: 1,4 para dieléctricos, 100 para metales (color negro). |
 | **Brillo<sup>2</sup>** | Versión cuadrada del canal **Brillo** (**Brillo** \* **Brillo**) |

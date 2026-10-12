@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/shader-settings/updating-a-shader.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a actualizar sombreadores personalizados en Substance 3D Painter para aplicar cambios de sombreador y volver a cargar archivos de sombreador.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Shader settings > Updating a shader
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Actualización de un sombreador
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
-
 ---
-
 
 # Actualización de un sombreador
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/tool-list/paint-brush.html"
-breadcrumb-title: ''
-description: Utilice la herramienta Pincel de Substance 3D Painter para pintar texturas directamente en modelos 3D con ajustes de pincel personalizables.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Tool list > Paint brush
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: Utilice la herramienta Pincel de Pintura de Substance 3D Painter para pintura texturas directamente en modelos 3D con ajustes de pincel personalizables.
 title: pincel de pintura
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: c20714f4cef21ccca0cdcd45dcdfd5ca6f4b96f2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 1%
-
 ---
-
 
 # pincel de pintura
 
@@ -49,7 +41,7 @@ En la parte superior de [Propiedades](../../interface/properties.md) se encuentr
 | *Nombre* | *Descripción* |
 | --- | --- |
 | **Vista previa del pincel** | La vista previa del pincel muestra el comportamiento del pincel en función de los parámetros del pincel. Es posible hacer clic en la previsualización para dibujar un trazo personalizado.   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-preview-param.gif"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell1_position-par_image" src="../../assets/brush-preview-draw.gif"/></div>  </td> </tr> </table>   **Nota:** La vista previa del pincel no admite la presión del lápiz. |
-| **Vista previa de material** | La vista previa del material muestra las propiedades del material que se está usando para pintar. Es posible hacer clic en la previsualización para girar la iluminación y ver mejor cómo se comportará el material antes de pintar.   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/material-preview-lighting.gif"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell1_position-par_image" src="../../assets/material-preview-properties-optim.gif"/></div>  </td> </tr> </table> |
+| **Vista previa de material** | La previsualización de material muestra las propiedades del material que se utiliza actualmente para la pintura. Es posible hacer clic en la previsualización para girar la iluminación y ver mejor cómo se comportará el material antes de pintar.   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/material-preview-lighting.gif"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell1_position-par_image" src="../../assets/material-preview-properties-optim.gif"/></div>  </td> </tr> </table> |
 
 ## Pincel
 
@@ -98,7 +90,7 @@ Las propiedades de Física permiten controlar las partículas que se proyectan a
 
 De forma predeterminada, las propiedades de Física no están disponibles, pero se pueden activar de dos formas:
 
-* Cambiando la herramienta a &quot;Física&quot; en [Barras de herramientas](../../interface/toolbars.md) (o mediante el método abreviado de teclado).
+* Cambiando la herramienta a &quot;Física&quot; en [Barras de herramientas](../../interface/toolbars.md) (o a través del método abreviado del teclado).
 * Haciendo clic en un ajuste preestablecido de pincel de objetos en la ventana [Activos](../../interface/assets/assets.md).
 
 ## Plantilla

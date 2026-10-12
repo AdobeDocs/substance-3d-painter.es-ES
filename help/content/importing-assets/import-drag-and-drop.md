@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/content/importing-assets/import-drag-and-drop.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a añadir recursos mediante la función de arrastrar y soltar en Substance 3D Painter para importar rápidamente recursos a su proyecto.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Adición de recursos mediante arrastrar y soltar
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
-
 ---
-
 
 # Adición de recursos mediante arrastrar y soltar
 

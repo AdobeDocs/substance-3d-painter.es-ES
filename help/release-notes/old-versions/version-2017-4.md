@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/old-versions/version-2017-4.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte las notas de la versión 2017.4 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2017.4
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versión 2017.4
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 0%
-
 ---
-
 
 # Versión 2017.4
 
@@ -60,7 +52,7 @@ Para conectar la aplicación con **Unreal Engine 4** (se requiere la versión **
 
 ![](../../assets/materials-1.jpg)
 
-Agregamos **20 nuevos materiales de procedimientos** y también **40 nuevos mapas de suciedades** (algunos de ellos son de procedimientos). Los nuevos materiales se pueden encontrar en la sección &quot;**Materiales**&quot; del **estante**, como los 6 metales nuevos, los 8 plásticos nuevos, algunas telas y 2 superficies de madera nuevas. Los nuevos mapas de suciedades se encuentran directamente en la sección &quot;**Suciedad**&quot; del **estante**.
+Agregamos **20 nuevos materiales procedimientos** y también **40 nuevos mapas de suciedades** (algunos de ellos procedimientos). Los nuevos materiales se pueden encontrar en la sección &quot;**Materiales**&quot; del **estante**, como los 6 metales nuevos, los 8 plásticos nuevos, algunas telas y 2 superficies de madera nuevas. Los nuevos mapas de suciedades se encuentran directamente en la sección &quot;**Suciedad**&quot; del **estante**.
 
 ![](../../assets/grunges-1.jpg)
 
@@ -74,7 +66,7 @@ Hemos actualizado nuestra exportación de Sketchfab y hemos añadido la capacida
 
 ### Mejoras de rendimiento
 
-Continuamos nuestro trabajo con respecto a las mejoras de las actuaciones. En esta nueva versión hemos rediseñado gran parte de nuestro renderizado OpenGL en las ventanas gráficas, lo que debería dar un buen impulso a la velocidad. También hemos mejorado la forma en que se calculan los trazos de pincel y deberían requerir cálculos de texturas mucho menos grandes en la memoria. En general, dará resultados mucho más rápidos y mejores sensaciones de pintura.
+Continuamos nuestro trabajo con respecto a las mejoras de las actuaciones. En esta nueva versión hemos rediseñado gran parte de nuestro renderizado OpenGL en las ventanas gráficas, lo que debería dar un buen impulso a la velocidad. También hemos mejorado la forma en que se calculan los trazos de pincel y deberían requerir cálculos de textura mucho menos grandes en la memoria. En general, dará resultados mucho más rápidos y mejores sensaciones de pintura.
 
 ## Tutorial
 
@@ -90,7 +82,7 @@ Las nuevas funciones se detallan en nuestros vídeos más recientes :
 
 * [Exportar] Obtenga el estado de una exportación con el progreso del paso
 * [Exportar] Permitir cancelar una exportación
-* [Exportar] Exporte texturas a Sketchfab sin perder la calidad normal del mapa
+* [Exportar] Exportar texturas a Sketchfab sin perder calidad de mapa de normales
 * [Export] Exportación en formato binario glTF (glb)
 * [Exportar] Permitir cambiar el tamaño de las columnas en la ficha de configuración de la ventana de exportación
 * [Sombreador] Agregar un registro de cambios para la API del sombreador
@@ -125,7 +117,7 @@ Las nuevas funciones se detallan en nuestros vídeos más recientes :
 
 * Bloqueo si la aplicación se cierra antes de que finalice el rastreo de recursos
 * Bloqueo al abrir proyectos con la herramienta Dedo/Clonar
-* Bloqueo al utilizar rehacer después de deshacer un cambio de sombreado en la configuración del visor
+* Bloqueo al utilizar rehacer después de deshacer un cambio de Sombreador en Configuración del visor
 * [Motor] Las texturas difieren entre Painter 2017.2 y 2017.4
 * [Ventana gráfica] Al seleccionar un mapa de ID de una instancia, se muestra un color incorrecto
 * bloqueo [Export] al exportar una textura normal o de oclusión no válida
@@ -138,7 +130,7 @@ Las nuevas funciones se detallan en nuestros vídeos más recientes :
 
 **Problemas conocidos:**
 
-* [AMD] Se bloquea al intentar pintar en una malla. Se puede solucionar con una actualización del controlador de la GPU.
+* [AMD] Bloqueos y bloqueos al intentar realizar la pintura en una malla. Se puede solucionar con una actualización del controlador de la GPU.
 
 ### 2017.4
 
@@ -149,7 +141,7 @@ Las nuevas funciones se detallan en nuestros vídeos más recientes :
 * [Instanciación] Permite crear instancias de parámetros en capas
 * [Instancing] Permite saltar entre una capa de origen y una instancia
 * [Instanciación] Añadir una acción &quot;Crear instancias en conjuntos de texturas&quot;
-* [Instanciación] Indicar en la pila de capas instancias de reentrada (ciclos)
+* [Instanciación] Indicar en la pila de capas las instancias de reentrada (ciclos)
 * [Instanciación] Elimina instancias cuando se elimina un origen
 * [Instanciación] No permitir referencias de delimitador desde fuera de una carpeta con instancias
 * [UI] Mueva la pila Deshacer a su propia ventana llamada &quot;Historial&quot;
@@ -158,18 +150,18 @@ Las nuevas funciones se detallan en nuestros vídeos más recientes :
 * [Exportar] Añadir opciones de borrador y reexportación al exportador de Sketchfab
 * [Shelf] Añadir control &quot;flip&quot; para las sustancias de fuentes
 * [Estante] Añadir 20 nuevos materiales de procedimientos
-* [Shelf] Añadir 40 nuevos mapas grunges (basados en mapa de bits y de procedimiento)
+* [Estante] Añadir 40 nuevos mapas grunges (basados en mapa de bits y procedimientos)
 * [Ventana gráfica] Activar colisiones de previsualización de pincel en otros conjuntos de texturas visibles
 * Requisitos mínimos de actualización de controladores de GPU AMD
 
 **Corregido:**
 
-* Bloqueo al calcular Substance con resoluciones demasiado grandes
+* Bloqueo Al calcular Substance con resoluciones demasiado grandes
 * Bloqueo al pintar con partículas
-* [Ventana gráfica] Reflejo de specular incorrecto en la vista 2D con mallas específicas
+* [Ventana gráfica] Reflejo de specular incorrecto en el Vista 2D con mallas específicas
 * [UI] Aparecen algunas acciones no deseadas en la ventana Historial
 
 **Problemas conocidos:**
 
 * [Capas] Algunas referencias de anclaje no se pueden restaurar si se rompen
-* Bloqueo al utilizar rehacer después de deshacer un cambio de sombreado en la configuración del visor
+* Bloqueo al utilizar rehacer después de deshacer un cambio de Sombreador en Configuración del visor

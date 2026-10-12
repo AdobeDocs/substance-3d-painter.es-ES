@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/version-9-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte las notas de la versión 9.1 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter 9.1 adds tangent control for the Path tool, support of the SVG file format, the ability to import and apply resources by drag and drop and support for translucency in the viewport.
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versión 9.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2899'
 ht-degree: 0%
-
 ---
-
 
 # Versión 9.1
 
@@ -63,7 +55,7 @@ En esta nueva versión continuamos el desarrollo de la herramienta Path (introdu
 
 ![ASM de banner](../assets/v91_banner_asm.jpg)
 
-El sombreador <b>Adobe Standard Material</b> (ASM), que es el valor predeterminado al crear un nuevo proyecto, se ha actualizado para admitir las propiedades <b>Translucency</b>, <b>Transparency</b> y <b>Absorción</b>. Esto significa que ahora es posible ver el resultado de esos comportamientos de procesamiento en el puerto de visualización en tiempo real (así como dentro del procesador de Iray).
+El sombreador <b>Adobe Standard Material</b> (ASM), que es el predeterminado al crear un nuevo proyecto, se ha actualizado para admitir las propiedades <b>Translucidez</b>, <b>Transparencia</b> y <b>Absorción</b>. Esto significa que ahora es posible ver el resultado de esos comportamientos de procesamiento en el puerto de visualización en tiempo real (así como dentro del procesador de Iray).
 
 Así que ahora es posible crear materiales como <b>vidrio</b>, <b>follaje</b> o <b>plástico</b> con una fina absorción de luz y se pueden ver directamente en el área de visualización. La exportación a otras aplicaciones de Substance 3D también dará como resultado un aspecto coincidente gracias a la definición de ASM.
 
@@ -72,9 +64,9 @@ Así que ahora es posible crear materiales como <b>vidrio</b>, <b>follaje</b> o 
   El sombreador de ASM se ha actualizado para admitir nuevas funcionalidades, que se pueden modificar a través de la ventana [configuración de Sombreador](../interface/shader-settings/shader-settings.md):
 
   * <b>Transparencia</b> (opacidad): ¿Ya no es necesario cambiar a otro sombreador para obtener superficies transparentes, como el follaje. En su lugar, habilite el parámetro <b>alpha test</b> o <b>alpha blending</b> en el grupo <b>Geometría > Opacidad</b>. También están disponibles los ajustes habituales, como el tramado.
-  * <b>Transparencia</b>: esta nueva propiedad permite crear superficies como el cristal, haciendo que las formas sean transparentes y manteniendo los reflejos del specular. Para usarlo, agregue un canal de Translucidez en su proyecto y habilite el parámetro <b>Translucidez</b> en el grupo <b>Interior</b>.
+  * <b>Translucidez</b>: esta nueva propiedad permite crear superficies como el cristal, haciendo que las formas sean transparentes y manteniendo los reflejos del specular. Para usarlo, agregue un canal de Translucidez en su proyecto y habilite el parámetro <b>Translucidez</b> en el grupo <b>Interior</b>.
   * <b>Absorción</b>: esta nueva propiedad permite simular la luz que pasa a través de un objeto y que se absorbe, lo que puede ser útil para simular plástico o líquidos de una mejor manera que utilizando la dispersión subsuperficial. Para usarlo, habilite la configuración de <b>Absorción</b> en el grupo <b>Interior</b>.
-* <b>Información sobre herramientas e interfaz de usuario de configuración de sombreado mejorada</b>
+* <b>Información sobre herramientas y configuración de sombreador mejorada</b>
 
   Con el retrabajo del sombreador aprovechamos la oportunidad para mejorar la interfaz de usuario de los parámetros, así como añadir muchas nuevas sugerencias de herramientas para descubrir más fácilmente cómo activarlos.
 
@@ -215,7 +207,7 @@ En esta versión también se han añadido varias funciones y mejoras menores.
   Esta compresión se aplica automáticamente al guardar cualquier proyecto (antiguo o nuevo) en recursos que aún no están comprimidos. Esto significa que, en el caso de los proyectos antiguos, guardar por primera vez en esta nueva versión podría llevar un poco más de tiempo de lo habitual. El ahorro de tiempo debería volver a la normalidad una vez hecho esto.
 * <b>Nuevo modo de proyección de relleno UV establecido en UV</b>
 
-  Se ha agregado un nuevo modo de proyección para capas/efectos de relleno denominado <b>Proyección de conjunto UV establecida en Proyección de conjunto UV</b>. Se puede utilizar para proyectar una textura en función de los diferentes UV disponibles en la malla dentro del proyecto. Se puede utilizar para realizar una transferencia de texturas más avanzada sin necesidad de recurrir a herramientas externas.
+  Se ha agregado un nuevo modo de proyección para capas/efectos de relleno denominado <b>Proyección de conjunto UV establecida en Proyección de conjunto UV</b>. Se puede utilizar para proyectar una textura en función de los diferentes UV disponibles en la malla dentro del proyecto. Puede utilizarse para realizar transferencias de textura más avanzadas sin necesidad de recurrir a herramientas externas.
 
   <b>UV set 0</b> es el UV predeterminado que usa Painter para pintar. Si hay más conjuntos UV disponibles, estarán disponibles en el menú desplegable de la configuración <b>Origen</b>:
 
@@ -253,33 +245,33 @@ Resumen: <b>Versión principal con compatibilidad con SVG y transparencia, así 
 * [Interop] Permita el envío de una malla con textura a After Effects (Ae 24.1 beta).
 * [Interop] Añadir configuración para Enviar a After Effects
 * [QoL]&#x200B;[Assets]&#x200B;[UI] Activo de importación automática al arrastrar y soltar en la ranura de la IU
-* [QoL] Permite arrastrar y soltar activos externos en la pila de capas
-* [QoL] [Pila de capas] Arrastra y suelta texturas desde el panel de Recursos en la pila de capas
+* [QoL] Permite arrastrar y soltar recursos externos en la pila de capas
+* [QoL] [Pila de capas] Arrastre y suelte texturas del panel Recursos en la Pila de capas
 * [QoL] [Viewport] Permite arrastrar y soltar el generador, filtros en la malla
 * [QoL]&#x200B;[Viewport] Permite soltar recursos externos en la malla
 * [QoL]&#x200B;[Proyección] Añadir nuevo conjunto UV al modo de proyección Conjunto UV
-* [QoL] Arrastrar y soltar máscaras inteligentes como nuevas capas en la ventana gráfica y la pila de capas
+* [QoL] Arrastrar y soltar Máscaras inteligentes como nuevas capas en la ventana gráfica y la Pila de capas
 * [QoL] Añadir selector para generadores con varias salidas cuando se utiliza en la máscara
 * [QoL] Permite arrastrar y soltar imágenes de un solo canal sobre un efecto de relleno
-* [QoL] [Pila de capas] Utilice los modificadores CTRL/ALT con arrastrar y soltar para especificar dónde y cómo crear efectos o capas
+* [QoL] [Pila de capas] Utilice los modificadores CTRL/ALT con la función de arrastrar y soltar para especificar dónde y cómo crear efectos o capas
 * [Path] Cambiar la visibilidad de los trazados individualmente en el panel de trazados
-* [Path] Permita el uso de manipuladores de transformación para puntos de trazado
+* [Path] Permite utilizar manipuladores de transformación para puntos de trazado
 * [Path] Permite controlar manualmente las tangentes por vértice
 * [Path] Copiar y pegar propiedades de ruta
-* [Path] Introducir un método abreviado vacío para el botón de tangente de rotura
-* [Shader] Añadir compatibilidad con Opacidad y translucidez en sombreador de ASM
-* [Shader] Añadir compatibilidad para canal de Color de absorción con sombreador de ASM
-* [Shader] Mejora de la información sobre herramientas de parámetros de sombreado de ASM
-* [Sombreado] Cambiar el color predeterminado del canal de translación a negro
+* [Ruta] Introduzca un método abreviado vacío para el botón de tangente de rotura
+* [Sombreador] Añadir compatibilidad con Opacidad y Translucidez en sombreador de ASM
+* [Sombreador] Añadir compatibilidad para canal de Color de absorción con sombreador de ASM
+* [Sombreador] Mejora de la información sobre parámetros de sombreador de ASM
+* [Sombreador] Cambiar el color predeterminado del canal de Translucidez a negro
 * [Configuración de pantalla] Habilitar Suavizado temporal de forma predeterminada
 * [Configuración de visualización] Activar configuración de dispersión subsuperficial de forma predeterminada
 * [Substance] Se ha añadido compatibilidad con la propiedad ColorSpace desde la entrada/salida del gráfico.
 * [Substance] Actualice el motor del Substance a la versión 9.0.3.
 * [UI] Hacer accesible el botón de la barra de herramientas contextual incluso si la ventana de la aplicación es pequeña
-* [Auto Unwrap] Control UV Azulejos número con Densidad de Texel
-* [Banking] Desactivar Trazado de rayos de GPU en GPU AMD de forma predeterminada
+* [Auto Unwrap] Controle el número de Mosaicos de UV con la densidad de texto
+* [Hacer un bake] Desactivar Trazado de rayos de GPU en GPU AMD de forma predeterminada
 * [Rendimiento] Aplique compresión sin pérdida en imágenes de 16 bits para reducir el espacio del proyecto
-* [Python] Permita manipular la cámara predeterminada en la vista 3D
+* [Python] Permite manipular la cámara predeterminada en Vista 3D
 * [Python] Exponer la capacidad de exportar mallas mediante scripts
 * [Contenido]&#x200B;[Muestras] Añadir nuevo proyecto de muestra &quot;French Restaurant Table&quot;
 * [Contenido] Actualizar el logotipo de Substance alfa a una nueva versión
@@ -287,8 +279,8 @@ Resumen: <b>Versión principal con compatibilidad con SVG y transparencia, así 
 
 <b>Corregido:</b>
 
-* [Bloqueo] Cambio del tamaño del manipulador cuando no se utiliza la herramienta de simetría
-* [Bloqueo] [Pila de capas] Creación de capas cuando no hay nada seleccionado
+* [Bloqueo] Cambio del tamaño del manipulador cuando no se utiliza la herramienta simetría
+* [Bloqueo] [Pila de capas] Crear capa cuando no hay nada seleccionado
 * [Proyecto] Las asignaciones de malla se pueden dañar después de eliminar los recursos no utilizados
 * [Proyecto] Daños en los recursos tras volver a importar o hacer un bake la imagen
 * [Assets] Al volver a cargar un activo, se elimina de Favoritos
@@ -302,12 +294,12 @@ Resumen: <b>Versión principal con compatibilidad con SVG y transparencia, así 
 
 <b>Problemas conocidos:</b>
 
-* [Gestión de color] Las conversiones de espacio de color HDR con ACE en Linux producen colores con sujeción
-* [Crash]&#x200B;[Linux] con Linux Wayland en AMD al arrastrar y soltar el recurso en la pila de capas
+* [Gestión de color] HDR. las conversiones de espacio de color con ACE en Linux producen colores con sujeción
+* [Bloqueo] [Linux] con Linux Wayland en AMD al arrastrar y soltar el recurso en la Pila de capas
 * [Bloqueo] [Mac] Cambio del valor de filtrado anisotrópico en el sistema operativo Monterey
 * [Bloqueo] Exr utilizado como entrada de imagen
 * [Bloqueo] Uso del mapa de entorno de 16K
 * [Auto Unwrap] Problema de interfaz de usuario para el control de densidad de texto
 * [Regresión]&#x200B;[UI] El menú contextual es demasiado pequeño en la pantalla HD
-* [Python] Bloqueo al exportar USD activado por TextureStateEvent
+* [Python] Exportación de Bloqueos USD activada por TextureStateEvent
 * [QoL] Arrastrar y soltar un recurso de Alpha en modo de pegatina crea Proyección de UV en la máscara

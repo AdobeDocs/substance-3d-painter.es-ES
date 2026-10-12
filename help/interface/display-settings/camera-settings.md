@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/display-settings/camera-settings.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a configurar los ajustes de la cámara en Substance 3D Painter para controlar el comportamiento y la proyección de la cámara de la ventanilla.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Display settings > Camera settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Configuración de la cámara
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 3%
-
 ---
-
 
 # Configuración de la cámara
 
@@ -45,7 +37,7 @@ Cuando se habilita, el **Suavizado temporal** (**TAA**) quitará los bordes dent
 
 | *Configuración* | *Descripción* |
 | --- | --- |
-| **Acumulaciones** | Define cuántos fotogramas se acumularán para reducir el suavizado.<ul data-preserve-html="true"> <li data-preserve-html="true">16: Valor recomendado para la mayoría de los casos</li> <li data-preserve-html="true">64: Útil para limpiar valores de alto contraste (como sombreador de pruebas de Alpha y tramado combinados)</li> </ul>  **Nota:** Esta configuración no tiene ningún impacto en el rendimiento; sin embargo, un valor alto puede tardar más en producir buenos resultados. |
+| **Acumulaciones** | Define cuántos marcos se acumularán para reducir el suavizado.<ul data-preserve-html="true"> <li data-preserve-html="true">16: Valor recomendado para la mayoría de los casos</li> <li data-preserve-html="true">64: Útil para limpiar valores de alto contraste (como sombreador de prueba Alpha y tramado combinados)</li> </ul>  **Nota:** Esta configuración no tiene ningún impacto en el rendimiento; sin embargo, un valor alto puede tardar más en producir buenos resultados. |
 
 ![](../../assets/temporal-anti-aliasing.gif){width="500px"}
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/layer-stack/blending-modes.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a utilizar los modos de fusión de Substance 3D Painter para combinar capas y crear diversos efectos de fusión de textura.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Layer stack > Blending modes
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Modos de fusión
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 2%
-
 ---
-
 
 # Modos de fusión
 
@@ -91,7 +83,7 @@ A continuación se muestra una lista de todos los modos de fusión disponibles e
 | Valor | Realiza la operación con el modelo HSV. Mantiene solo el valor de la capa superior y utiliza el tono y la saturación de la capa inferior. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r34-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-value.jpg"/></div> |
 |  |  |
 | Combinación de mapas de normales | Operación de mezcla de Whiteout. Conserva los detalles mientras te aseguras de que las normales planas siguen funcionando correctamente. Vea [Pintura de Mapa de normales](../../painting/advanced-channel-painting/normal-map-painting.md) para obtener más información. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r36-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-normal-combine.jpg"/></div> |
-| Detalle de mapa normal | Operación de Fusión Orientada al Detalle (Asignación Normal Reorientada), más precisa que la Combinación de mapas de normales. Preservar los mapas de normales planos y la intensidad de las dos fuentes. Para asegurarse de que el resultado de la normal de la capa superior se reorienta para que siga la superficie de la capa inferior. Vea [Pintura de Mapa de normales](../../painting/advanced-channel-painting/normal-map-painting.md) para obtener más información. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r37-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-normal-detail.jpg"/></div> |
+| Detalles de mapa de normales | Operación de Fusión Orientada al Detalle (Asignación Normal Reorientada), más precisa que la Combinación de mapas de normales. Preservar los mapas de normales planos y la intensidad de las dos fuentes. Para asegurarse de que el resultado de la normal de la capa superior se reorienta para que siga la superficie de la capa inferior. Vea [Pintura de Mapa de normales](../../painting/advanced-channel-painting/normal-map-painting.md) para obtener más información. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r37-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-normal-detail.jpg"/></div> |
 | Detalles inversos de mapa de normales | Igual que para la operación de fusión de Detalles de mapa de normales, sin embargo, es la capa inferior la que se transforma para ajustarse a la superficie de la capa superior. Vea [Pintura de Mapa de normales](../../painting/advanced-channel-painting/normal-map-painting.md) para obtener más información. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r38-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-normal-inverse-detail.jpg"/></div> |
 
 &#x200B;>>

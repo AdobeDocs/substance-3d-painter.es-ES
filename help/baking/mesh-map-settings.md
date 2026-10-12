@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/es/substance-3d-painter/baking/mesh-map-settings.html'
 breadcrumb-title: ''
 description: Aprenda a configurar los ajustes del mapa de malla en Substance 3D Painter para controlar los parámetros hechos un bake y la calidad de salida.
-helpx_creative_field: ''
-helpx_description: Substance 3D Painter
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Configuración del mapa de malla
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 7b5f6e6c9623cb51253b6e49c8dbcbb22856418c
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 10%
-
 ---
-
 
 # Configuración del mapa de malla
 
@@ -44,7 +36,7 @@ La página Configuración común contiene controles que afectan al modo en que s
 | Mallas de alta definición | Añada mallas de poli altas a su proyecto para crear desde una malla de poli alta hasta una malla de poli baja en su proyecto. Se pueden importar varias mallas. |
 | Jaula | Determine cómo se genera la jaula de haga un bake.<ul data-preserve-html="true"> <li data-preserve-html="true">Según la distancia: Inflar los vértices lejos de la malla a una distancia uniforme a través del modelo para crear una jaula.</li> <li data-preserve-html="true">Automático (experimental): Painter analizará su malla y generará una jaula automáticamente, tratando de mantener la jaula cerca de la superficie sin crear intersecciones para obtener los mejores resultados.</li> <li data-preserve-html="true">Archivo personalizado: Importe un archivo que haya creado para utilizarlo como jaula. Tenga en cuenta que los archivos importados deben tener el mismo número de vértices que la malla base para que funcione correctamente.</li> </ul> |
 | Ignorar cara posterior | Alterne si se omiten las caras posteriores al hacer un bake. Esto puede ayudar a reducir los artefactos, pero también puede causar errores en determinados casos límite. |
-| Coincidencia | Cambiar la forma en que el Baker determina si se deben incluir objetos al hornear:<ul data-preserve-html="true"> <li data-preserve-html="true">Siempre: Incluya todas las mallas de polietileno altas que se golpean dentro de la jaula mientras hace un bake.</li> <li data-preserve-html="true">Por nombre de malla: Para cada jaula, solo haga un bake mallas con el sufijo de malla correspondiente.</li> </ul> |
+| Coincidencia | Cambiar la forma en que el Baker determina si se deben incluir objetos al hacer un bake:<ul data-preserve-html="true"> <li data-preserve-html="true">Siempre: Incluya todas las mallas de polietileno altas que se golpean dentro de la jaula mientras hace un bake.</li> <li data-preserve-html="true">Por nombre de malla: Para cada jaula, solo haga un bake mallas con el sufijo de malla correspondiente.</li> </ul> |
 | Sufijo de malla de baja definición | Cuando utilice Coincidir por nombre de malla, utilice este sufijo para definir mallas de poli bajo. |
 | Sufijo de malla poligonal alta | Cuando utilice Coincidir por nombre de malla, utilice este sufijo para definir mallas de poli altas y hacer que coincidan con la malla de poli baja correspondiente. |
 | Suavizado | Ajuste la cantidad de suavizado en los mapas generados. |

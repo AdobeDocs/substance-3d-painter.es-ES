@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/old-versions/version-2019-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte las notas de la versión 2019.3 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2019.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versión 2019.3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '3861'
 ht-degree: 0%
-
 ---
-
 
 # Versión 2019.3
 
@@ -44,7 +36,7 @@ Para que sean compatibles con los pinceles de Photoshop, se han añadido varias 
 * **Nuevos parámetros Tamaño y Mínimo de flujo**\
   Ahora puede especificar el tamaño mínimo y el flujo mínimo de la herramienta cuando la presión de la pluma está activada. Este parámetro funciona como un porcentaje basado en el tamaño/flujo máximo actual definido. Estos ajustes se calibran automáticamente al utilizar un ajuste preestablecido de pincel de Photoshop.\
   ![](../../assets/size-minimum.png)
-* **Nuevos parámetros de variación de posición**\
+* **Nuevos parámetros de Variación de posición**\
   Para que coincida con el comportamiento de los pinceles de Photoshop, hemos añadido algunos ajustes nuevos. Ahora es posible definir a qué eje se aplica la variación y cómo se distribuyen las posiciones aleatorias (elige **Uniforme** para que coincida con Photoshop).\
   ![](../../assets/position-jitter-settings.png)\
   ![](../../assets/gaussian-vs-uniform.png)
@@ -57,7 +49,7 @@ Para que sean compatibles con los pinceles de Photoshop, se han añadido varias 
   ![](../../assets/brush-maker-photoshop.png)\
   ![](../../assets/brush-maker-photoshop-settings.png)
 * **Nueva corrección de gamma para el canal alfa de las capas**\
-  Photoshop no fusiona sus trazos de pincel en el espacio Gamma lineal, lo que significa que la fusión y la opacidad pueden verse mal al pintar con un ajuste preestablecido de pincel de Photoshop. Se puede activar un nuevo ajuste en las capas para que coincida con ese comportamiento y aplicar una corrección de gamma. Esto afectará al alfa utilizado para pintar trazos de pincel, así como al modo en que se utiliza la máscara de la capa para fusionarse con otras capas; sin embargo, los modos de fusión de la capa seguirán funcionando en el espacio de gamma lineal.\
+  Photoshop no fusiona sus trazos de pincel en el espacio Gamma lineal, lo que significa que la fusión y la opacidad pueden verse mal al pintar con un ajuste preestablecido de pincel de Photoshop. Se puede activar un nuevo ajuste en las capas para que coincida con ese comportamiento y aplicar una corrección de gamma. Esto afectará al alfa utilizado para la pintura de trazos de pincel, así como al modo en que se utiliza la máscara de la capa para fusionarse con otras capas; sin embargo, los modos de fusión de la capa seguirán funcionando en el espacio de gamma lineal.\
   Para **activar esta configuración**, simplemente haz clic con el botón derecho en una capa y elige **Alfa/máscara corregida por gamma**. Aparecerá un nuevo icono junto a la capa para indicar cuándo está activada esta configuración.\
   ![](../../assets/layer-menu.png) ![](../../assets/layer-icon.png)\
   ![](../../assets/gamma-correction-demo.png)
@@ -223,7 +215,7 @@ En esta versión se ha añadido mucho contenido nuevo:
 
     * Presión fuerte básica
     * Fina De Carboncillo
-    * Marco completo de carboncillo
+    * Carboncillo Marco completo
     * Luz de carboncillo
     * Carboncillo medio
     * Carboncillo Natural
@@ -235,7 +227,7 @@ En esta versión se ha añadido mucho contenido nuevo:
     * Flecha de rodillo de pintura
     * Grapas de rodillo de pintura ancho
     * Grapas de rodillos de pintura
-    * Pintar puntos de rodillo
+    * Puntos de rodillo de pintura
     * Stripe de rodillos de pintura
     * Pintura de la vena del rodillo larga Estrecha
     * Texto de advertencia de rodillo de pintura
@@ -288,24 +280,24 @@ Resumen : **Error con actualización a Iray 2019.3**
 **Agregado:**
 
 * Actualización a Irak 2019.3
-* [Log] Indicar bios obsoletos para la CPU Ryzen que conduce a un bloqueo durante el procesamiento
+* [Log] Indicar bios obsoletos para la CPU Ryzen que conducen al bloqueo durante el hago un bake
 * [ABR] Extraer alfa de ABR al estante
 
 **Corregido:**
 
-* [Baker] La cocción falla si la malla High-poly no tiene UV
+* [Baker] El Hago un bake falla si la malla High-poly no tiene UV
 * [Linux] Los métodos abreviados de ratón personalizados no se guardan
 * [Pincel] El contorno desaparece con algunas formas alfa
 * [Tablet] Detección incorrecta al mover los reguladores
-* [Accesos directos] No se puede configurar ningún acceso directo con &quot;Ctrl+Alt+Clic del ratón&quot;
+* [Atajos] No se puede configurar ningún método abreviado con &quot;Ctrl+Alt+MouseClick&quot;
 * [Estante] No se ve información sobre herramientas de recursos al utilizar una tableta con lápiz
-* [Vista 2D] [Exportar] El ajuste preestablecido de vista 2D no tiene en cuenta la información normal
+* El ajuste preestablecido [vista 2D] [Exportar] no tiene en cuenta la información normal
 * Bloqueo al pintar en alineación UV con determinados pinceles
 * Pintar bajo un filtro crea artefactos en el trazo en curso
 * [Ventana gráfica] Caché de textura incorrecta en la ventana gráfica después de volver a importar una malla
 * [Bloqueo] Error al guardar después de exportar a Photoshop
 * [Bloqueo] Escribir símbolos especiales en el prefijo al importar recursos
-* [Bloqueo] Haga clic en la referencia en Propiedades de punto de anclaje
+* [Bloqueo] Haga clic en la referencia en Propiedades del punto de anclaje
 * [Puntos de anclaje] El canal no se actualiza cuando hay un filtro entre el punto de anclaje y la referencia
 * El vínculo de la URL de Iray en el menú Ayuda no funciona
 
@@ -331,7 +323,7 @@ Resumen : **Corrección de error**
 
 **Problemas conocidos:**
 
-* [Bakers] Bloqueo relacionado con subprocesos múltiples en CPU Ryzen
+* [Baker] Bloqueo relacionado con el subprocesamiento múltiple en CPU Ryzen
 * [Desempaquetado de UV] El procesamiento de mallas de alto contenido de polietileno puede tardar mucho tiempo
 * [Desempaquetado UV] Se combinan vértices en las mismas coordenadas exactas
 * La generación de UV puede fallar en algunas partes de la malla en algunos casos raros
@@ -350,17 +342,17 @@ Resumen : **Revisión**
 * Bloqueo al trabajar en mallas con Proyecciones de UV específicas
 * [ABR] Bloqueo al cambiar entre ajustes preestablecidos de Photoshop
 * [Linux] No se puede iniciar Substance Painter en CentOS 7.4 debido a un problema de dependencia libGLX
-* [Bakers] Bloqueo al realizar el procesamiento después de utilizar Archivo > Limpiar
-* [Panaderos] El cuadro de diálogo Progreso de panificación se bloquea después de cancelar
-* [Panaderos] La cocción de mallas después de exportar texturas no funciona
-* [Panaderos] El uso de resultados de &quot;Coincidir por nombre&quot; con mapas de malla negros
-* [Panaderos] No se tiene en cuenta la jaula
+* [Baker] Bloqueo al hacer un bake después de utilizar Archivo > Limpiar
+* [Bakeres] Hacer un bake el diálogo de progreso se bloquea tras cancelar
+* [Bakeres] Hacer un bake malla después de exportar texturas no funciona
+* [Bakeres] El uso de &quot;Coincidir por nombre&quot; da como resultado mapas de malla negros
+* [Bakeres] No se tiene en cuenta la jaula
 * [Shelf] La importación de archivos de PSD genera imágenes rotas
 * [Muestra] El proyecto de muestra &quot;Mat&quot; tiene cámaras rotas y un ajuste preestablecido de exportación incorrecto
 
 **Problemas conocidos:**
 
-* [Bakers] Bloqueo relacionado con subprocesos múltiples en CPU Ryzen
+* [Baker] Bloqueo relacionado con el subprocesamiento múltiple en CPU Ryzen
 * [Desempaquetado de UV] El procesamiento de mallas de alto contenido de polietileno puede tardar mucho tiempo
 * [Desempaquetado UV] Se combinan vértices en las mismas coordenadas exactas
 * La generación de UV puede fallar en algunas partes de la malla en algunos casos raros
@@ -382,9 +374,9 @@ Resumen : **Versión principal con mejora de la experiencia del usuario al pinta
 * [Desempaquetado UV] Versión registrada en el archivo de registro
 * [Desempaquetado UV]&#x200B;[IU] Indicar el progreso del desempaquetado UV
 * [UI] Nuevos ajustes en la barra de herramientas contextual para seleccionar la vista previa del pincel: Vista previa completa, contorno de pincel y forma de cruz
-* [Herramienta] Nuevo modo de fusión avanzado en la sección alfa: Aclarar (máximo) además de Normal
+* [Herramienta] Nuevo modo de fusión avanzado en la sección alfa: Aclarar (máxima) además de Normal
 * [Pila de capas] Opción de corrección de gamma por capa para alfa o máscara (menú del botón derecho)
-* [Pila de capas]&#x200B;[IU] Se añade el icono &quot;i&quot; cuando se corrige la gamma de una capa alfa
+* [Pila de capas] [IU] Se añade el icono &quot;i&quot; cuando se corrige gamma en una capa alfa
 * [Tablet] [Herramienta] Exponer presión mínima para tamaño y flujo
 * [Tablet]&#x200B;[UI] Nueva configuración en la barra de herramientas contextual para seleccionar la presión de curva: lineal, fácil de entrar, fácil de salir
 * [Tablet]&#x200B;[UX] Pulse Ctrl+Alt y haga clic para desplazarse
@@ -400,7 +392,7 @@ Resumen : **Versión principal con mejora de la experiencia del usuario al pinta
 * [Herramienta]&#x200B;[Trazos dinámicos] Nuevo ajuste de trazo dinámico para controlar cuántas semillas aleatorias se van a generar
 * [Herramienta]&#x200B;[IU] Añadir nuevos ajustes de distribución y eje para la variación de dispersión
 * [Método abreviado] Pulse Ctrl+Mayús+B para abrir la ventana que Hace un bake
-* [UI]&#x200B;[Menu] Añadir entrada en el menú &quot;Editar&quot; para abrir la ventana Hornear
+* [UI]&#x200B;[Menu] Añadir entrada en el menú &quot;Editar&quot; para abrir la ventana de Haga un bake
 * [UI]&#x200B;[Configuración] Mejora de la alineación de la lista de métodos abreviados
 * [UI] Reemplazar los controles de presión (tamaño y flujo) por botones de activación/desactivación
 * [Ventana gráfica] Permite enfocar la ventana gráfica 2D y 3D por separado
@@ -412,9 +404,9 @@ Resumen : **Versión principal con mejora de la experiencia del usuario al pinta
 * [Substance] Optimizar la generación de trazos dinámicos con compatibilidad con condiciones en los datos de usuario
 * [Substance] Permite designar una salida de gráfico como una máscara para todos los canales a través de los datos de usuario.
 * [Contenido] Actualizar proyecto de muestra &quot;Mat&quot; con topología compatible con desplazamientos, nuevo mapa de ID y nuevas cámaras
-* [Content] Integra 3 filtros nuevos (MatFx): Cómic, Acuarela, Pintura al óleo (inspirado en el trabajo de Cubukcu emrecano)
+* [Content] Integra 3 filtros nuevos (MatFx): Comic Book, Acuarela, Pintura al óleo (inspirado en la obra de Emrecan Cubukcu)
 * [Contenido] Integrar 102 ajustes preestablecidos de pinceles de Photoshop de los paquetes de Kyle T. Webster
-* [Contenido] Integrar 18 nuevos ajustes preestablecidos de pincel: Flecha de rodillo de pintura, texto de advertencia de rodillo de pintura, carboncillo fino y más
+* [Contenido] Integrar 18 nuevos ajustes preestablecidos de pincel: Flecha de rodillo de pintura, texto de advertencia de rodillo de Pintura, carboncillo fino y más
 * [Contenido] Integrar 9 nuevos alfa: Rodillo de Pintura del creador de pinceles, Photoshop del creador de pinceles, patrones de pinceles y mucho más
 * [Contenido] Integra 2 nuevos ajustes preestablecidos de herramientas: Gouache denso y Gouache descolorido
 * [Content] Integrar 1 nuevo generador: Comprobador UV (Islas de UV de realce y costuras)
@@ -431,7 +423,7 @@ Resumen : **Versión principal con mejora de la experiencia del usuario al pinta
 * [Tablet] Desplazamiento entre la vista previa del pincel y el sello dibujado
 * [Tablet] Los métodos abreviados para modificar pinceles con lápiz suelen dar lugar a un rendimiento bajo en casos excepcionales
 * [Tablet] Retraso al pintar en una capa específica
-* En raras ocasiones, pueden producirse texturas borrosas al cambiar la ventana gráfica
+* En raras ocasiones, pueden producirse texturas borrosas al cambiar la ventanilla
 * [UI]&#x200B;[Substance] No siempre se muestran las entradas de imagen
 * Limpiar no elimina los ajustes preestablecidos del estante que se hayan importado en un proyecto
 * [Herramienta] [Trazo dinámico] Problema de rendimiento al ajustar el recuento cíclico de sello
@@ -442,7 +434,7 @@ Resumen : **Versión principal con mejora de la experiencia del usuario al pinta
 * Los valores del eje de simetría no se restablecen
 * La importación de texturas EXR con valores de coma flotante es totalmente negra
 * Pulsar Alt+clic en un canal para aislar no funciona para el filtro y el generador
-* [Exportar] El proyecto específico se bloquea durante la exportación
+* [Exportar] bloqueos específicos del proyecto en la exportación
 * [Substance] Valor predeterminado incorrecto en el menú desplegable si el parámetro está oculto por Visible If
 * [Sombreador] Los canales definidos mediante Material Layering no se ordenan de la misma forma en la interfaz de usuario
 * [Shelf] Los metadatos de ajustes preestablecidos no se guardan en el disco

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/smart-materials-and-masks.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprende a usar materiales inteligentes y máscaras en Substance 3D Painter para crear texturas procedimientas que se adapten a la geometría.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Smart Materials and Masks
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Materiales inteligentes y máscaras
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
-
 ---
-
 
 # Materiales inteligentes y máscaras
 
@@ -59,7 +51,7 @@ El contenido de los Materiales inteligentes se incluirá en la carpeta. A contin
 
 ![](../assets/create-sm.png)
 
-Para crear una máscara inteligente, simplemente haz clic con el botón derecho sobre una capa y elige &quot;**Crear máscara inteligente**&quot;.
+Para crear una Máscara inteligente, solo tienes que hacer clic con el botón derecho sobre ella y elegir &quot;**Crear máscara inteligente**&quot;.
 
 ![](../assets/create-smm.png)
 

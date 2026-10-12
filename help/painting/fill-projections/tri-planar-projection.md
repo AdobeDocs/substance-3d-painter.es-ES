@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/fill-projections/tri-planar-projection.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilice la proyección tri-plana en Substance 3D Painter para proyectar texturas desde tres planos ortogonales para una cobertura perfecta.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Fill projections > Tri-planar projection
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Proyección de plano triple
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 3%
-
 ---
-
 
 # Proyección de plano triple
 
@@ -28,7 +20,7 @@ La proyección Tri-plana del relleno es una proyección 3D que combina varias pr
 
 | *Configuración* | *Descripción* |
 | --- | --- |
-| **Filtrado** | Controla cómo se filtrará la textura o el material. Este ajuste puede afectar al aspecto de la textura cuando se repite varias veces. Si los valores de escala son altos y se utiliza un filtro diferente al predeterminado, el resultado puede ser más atractivo. Configuración actual disponible:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Bilineal - HQ</b> (predeterminado): Filtro bilineal avanzado que intenta mejorar la calidad de la textura cuando los valores de mosaico son altos.</li> <li data-preserve-html="true"><b>Bilineal - Agudo</b>: Filtro bilineal simple que suaviza ligeramente la textura pero intenta conservar los detalles.</li> <li data-preserve-html="true"><b>Más cercano</b>: Sin filtrado, útil si el filtrado bilineal proporciona un resultado borroso y rompe detalles precisos. Puede introducir suavizado en la textura.</li> </ul> |
+| **Filtrado** | Controla cómo se filtrará la textura o el material. Este ajuste puede afectar al aspecto de la textura cuando se repite varias veces. Si los valores de escala son altos y se utiliza un filtro diferente al predeterminado, el resultado puede ser más atractivo. Configuración actual disponible:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Bilineal - HQ</b> (predeterminado): Filtro bilineal avanzado que intenta mejorar la calidad de la textura cuando los valores de mosaico son altos.</li> <li data-preserve-html="true"><b>Bilineal - Agudo</b>: Filtro bilineal simple que suaviza ligeramente la textura pero intenta conservar los detalles.</li> <li data-preserve-html="true"><b>Más cercano</b>: Sin filtrado, útil si el filtrado bilineal proporciona un resultado borroso y rompe detalles precisos. Puede introducir el suavizado en la textura.</li> </ul> |
 | **Recorte de forma** | Defina si la textura proyectada debe ser visible fuera del área de proyección. Los valores posibles son:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Proyecto recortado a la forma</strong>: la proyección está confinada dentro del área de proyección.</li><li data-preserve-html="true"><strong>La proyección se extiende fuera de la forma</strong> (predeterminado): la proyección continúa más allá del área de proyección.</li></ul>   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/cropped.jpg" width="200px"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell1_position-par_image" src="../../assets/extend-1.jpg" width="200px"/></div>  </td> </tr> </table> |
 | **Dureza** | Controle la intensidad o suavidad de las transiciones entre los planos de la proyección. Un valor o 1.0 significa que habrá un corte claro entre cada plano. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/hardness-fill.gif"/></div> **Nota:** La transición de cada plano está definida por el vértice de malla normal (sin tener en cuenta el mapa de malla normal). Esto significa que las normales de vértices rotas o abruptas pueden producir resultados inesperados al fusionar planos. |
 

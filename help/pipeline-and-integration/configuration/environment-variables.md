@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/pipeline-and-integration/configuration/environment-variables.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a utilizar variables de entorno en Substance 3D Painter para configurar el comportamiento de la aplicación y la integración de canalización.
-helpx_creative_field: ""
-helpx_description: Painter > Pipeline and integration > Configuration > Environment variables
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Variables de entorno
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 3%
-
 ---
-
 
 # Variables de entorno
 
@@ -35,5 +27,5 @@ Esta página muestra variables de entorno que se pueden utilizar para anular el 
 | **OCIO** | Ruta de acceso a un archivo **config.ocio** que se usará para controlar la configuración de [administración de color](../../features/color-management/color-management.md) con OpenColorIO.  **Nota:** Esta variable de entorno tiene prioridad sobre la variable **PAINTER\_ACE\_CONFIG**. | <ol data-preserve-html="true"><li data-preserve-html="true">4</li></ol> |
 | **PAINTER\_ACE\_CONFIG** | Ruta de acceso a un archivo json que se usará para establecer la configuración de [administración de color](../../features/color-management/color-management.md) con ACE de Adobe. | <ol data-preserve-html="true"><li data-preserve-html="true">1</li></ol> |
 | **SUBSTANCE\_DISABLE\_SPECIFIC\_FEATURES** | Deshabilite varias funcionalidades dentro de las aplicaciones:<ul data-preserve-html="true"><li data-preserve-html="true">Vínculos a recursos externos (ayuda, páginas web, ejemplos, etc.)</li><li data-preserve-html="true">Desactivar comprobaciones de actualizaciones</li><li data-preserve-html="true">Deshabilitar el envío de estadísticas de uso</li><li data-preserve-html="true">Desactivar exportación a Substance share</li><li data-preserve-html="true">Desactivar los paneles Bienvenido y Novedades</li></ul> | <ol data-preserve-html="true"><li data-preserve-html="true">1</li></ol> |
-| **ALG\_PAINTER\_DEBUG\_FPS** | Mostrar dentro de la ventana gráfica un contador de cuántos fotogramas por segundo procesa la ventana gráfica. | <ol data-preserve-html="true"><li data-preserve-html="true">1</li></ol> |
+| **ALG\_PAINTER\_DEBUG\_FPS** | Mostrar dentro de la ventana gráfica un contador de cuántos marcos por segundo procesa la ventana gráfica. | <ol data-preserve-html="true"><li data-preserve-html="true">1</li></ol> |
 | **SUBSTANCE\_PAINTER\_VRAM\_BUDGET** | Especifique la cantidad de memoria de GPU que puede utilizar Painter. Esto define un presupuesto global en MB. Por ejemplo, para definir un límite de 4 GB, utilice el valor 4000. También se puede utilizar un argumento de línea de comandos para realizar la misma acción. Consulte [Líneas de comandos](command-lines.md). | <ol data-preserve-html="true"><li data-preserve-html="true">2.1</li></ol> |

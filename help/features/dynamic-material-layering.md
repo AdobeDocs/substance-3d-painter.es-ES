@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/dynamic-material-layering.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a usar control dinámico de capas de materiales en Substance 3D Painter para mezclar y combinar materiales con máscaras procedimientas.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Dynamic Material Layering
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Control dinámico de capas de materiales
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 0%
-
 ---
-
 
 # Control dinámico de capas de materiales
 
@@ -90,7 +82,7 @@ Si bien es posible configurar subpilas para definir materiales además de másca
 
 ![](../assets/materials.png) Este es el resultado cuando se han cargado algunos materiales (materiales de Substance o ajustes preestablecidos de materiales) :
 
-La resolución del material se puede definir con el parámetro &quot;size&quot;. También es posible cargar materiales de forma predeterminada cuando el sombreado se crea con el parámetro &quot;predeterminado&quot; (utilizando el nombre o la etiqueta del recurso que se debe cargar).
+La resolución del material se puede definir con el parámetro &quot;size&quot;. También es posible cargar materiales de forma predeterminada cuando el sombreador se crea con el parámetro &quot;predeterminado&quot; (utilizando el nombre o la etiqueta del recurso que se debe cargar).
 
 Para acceder a los materiales y a la máscara en el propio sombreador, simplemente conéctelos con la palabra clave &quot;param auto&quot; :
 

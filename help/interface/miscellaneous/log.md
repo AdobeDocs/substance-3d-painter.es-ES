@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/es/substance-3d-painter/interface/miscellaneous/log.html'
 breadcrumb-title: ''
 description: Obtenga información sobre cómo tener acceso a la ventana de registro de Substance 3D Painter y utilizarla para ver los mensajes de la aplicación y la información de depuración.
-helpx_creative_field: ''
-helpx_description: Painter > Interface > Miscellaneous > Log
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Registro
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 3e4ef9bd5897f042b01d6c0819ec06cc21ba208a
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 2%
-
 ---
-
 
 # Registro
 

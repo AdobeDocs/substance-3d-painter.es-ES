@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/texture-set/texture-set-list.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a utilizar la lista de conjuntos de texturas en Substance 3D Painter para administrar y organizar varios conjuntos de texturas en el proyecto.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Texture Set > Texture Set list
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Lista Conjunto de texturas
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 0%
-
 ---
-
 
 # Lista Conjunto de texturas
 
@@ -83,5 +75,5 @@ El botón de configuración abre un nuevo menú que muestra varias acciones :
 * **Ocultar descripciones vacías** (predeterminado) : Ocultar los campos de descripción si están vacíos
 * **Ocultar todas las descripciones** : Ocultar los campos de descripciones aunque no estén vacíos
 * **Mostrar todas las descripciones** : Mostrar los campos de descripciones aunque estén vacíos
-* **Importar parámetros de sombreado** : Permitir la importación de un archivo json para configurar los parámetros de sombreador de los conjuntos de texturas
+* **Importar parámetros de Sombreador** : Permitir la importación de un archivo json para configurar los parámetros de sombreador de los conjuntos de texturas
 * **Reasignar conjuntos de texturas** : Consulte la [reasignación de conjuntos de texturas](texture-set-reassignment.md) para obtener más información.

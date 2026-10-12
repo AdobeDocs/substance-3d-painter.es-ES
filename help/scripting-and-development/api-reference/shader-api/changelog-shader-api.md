@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/scripting-and-development/api-reference/shader-api/changelog-shader-api.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte el registro de cambios de Substance 3D Painter API del sombreador para realizar un seguimiento de las actualizaciones, las nuevas funciones y los cambios a lo largo del tiempo.
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Changelog - Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Changelog - API del sombreador
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 3%
-
 ---
-
 
 # Changelog - API del sombreador
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/version-10-0.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte las notas de la versión 10.0 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter 10.0 brings support of Fonts via Text resources, layer stack functionalities in the Python API, support of Illustrator (.ai) files and several quality of life improvements.
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versión 10.0
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2328'
 ht-degree: 0%
-
 ---
-
 
 # Versión 10.0
 
@@ -112,9 +104,9 @@ Hay disponible una nueva ventana que incrusta el sitio web de Substance 3D Asset
 
 ![](../assets/v10_banner_python-1.jpg)
 
-En esta versión, se añade el nuevo módulo de pila de capas a nuestra API de Python. Esta API permite controlar la pila de capas de un proyecto, lo que abre la puerta a la creación de plugins de pila de capas avanzada y herramientas personalizadas.
+Esta versión incluye la incorporación del nuevo módulo de pila de capas en nuestra API de Python. Esta API permite controlar la pila de capas de un proyecto, lo que abre la puerta a la creación de plugins de pila de capas avanzada y herramientas personalizadas.
 
-* <b>Nueva API de pila de capas</b>\
+* <b>Nueva API de Pila de capas</b>\
   El nuevo módulo <b>layerstack</b> permite controlar la pila de capas de un proyecto de muchas maneras. Puede:
 
   * Consultar y definir la selección de capas y efectos.
@@ -264,7 +256,7 @@ Resumen: <b>Versión principal, edición de la pila de capas con la API de Pytho
 * [Python] Permite navegar a nodos hermanos y principales
 * [Python] Permitir la creación de un efecto de filtro/generador
 * [Python] Permitir añadir un efecto de nivel
-* [Python] Permitir la adición de una máscara inteligente en una capa
+* [Python] Permitir añadir máscara inteligente en una capa
 * [Python] Permitir crear o editar puntos de ancla
 * [Python] Permitir obtener/Establecer máscara en capas
 * [Python] Permitir la creación del efecto de máscara de comparación
@@ -276,32 +268,32 @@ Resumen: <b>Versión principal, edición de la pila de capas con la API de Pytho
 
 <b>Corregido</b>:
 
-* [Bloqueo] Deshaciendo &quot;Quitar instancia de sombreado&quot; con Ctrl-Z
+* [Bloqueo] Deshacer &quot;Quitar instancia del sombreador&quot; con Ctrl-Z
 * [Bloqueo] Crear una capa en una pila vacía si la última selección fue un efecto
 * [SVG] Problema con el valor de área recortada personalizada
-* [Auto-Unwrap] Si se vuelve a calcular solo el empaquetado sin ningún cambio en la orientación UV, se produce un bloqueo
+* [Desenvolvimiento automático] Si se recalcula solo el empaquetado sin ningún cambio en la orientación UV, se produce un bloqueo
 * [Arrastrar y soltar] El retraso debido a los recursos externos se carga previamente varias veces
 * [UI] Arrastrar y soltar la miniatura de un recurso puede ocultar un mensaje de advertencia en la pila de capas
 * [Rendimiento] Los mosaicos UV enmascarados aún se calculan
-* [USD] Resaltado incorrecto para la selección del ámbito
+* [USD] Resaltado incorrecto para la selección de ámbito
 * [Recurso] La imagen de mapa de bits se daña después de pintar en el canal normal y guardar el proyecto
-* [USD] Admite la solicitud de mallas de vértices con la mano izquierda
+* [USD] Admite ordenación de mallas de vértices con la mano izquierda
 * [Substance] Restablecer los valores predeterminados volver siempre a cero para el widget de ángulo
 * [Motor] Pintar con un SVG en una galería de símbolos no funciona
-* [Motor] Los trazos normales del pincel de mapa se rompen después de deshacer una acción
-* [Contenido] El filtro Gráfico a material tiene una fusión alfa y un espacio de color incorrectos
+* [Motor] Los trazos de pincel de Mapa de normales se rompen después de deshacer una acción
+* [Contenido] El gráfico en Filtro de material tiene una fusión alfa y un espacio de color incorrectos
 * [Contenido] Los modos de fusión del Tile Generator no funcionan
 * [Contenido] El filtro de barrido de histograma produce bandas en algunos casos
-* [Contenido] La iluminación al horno estilizada no tiene en cuenta el height pintado
-* [Python] Error inesperado al recuperar información de capas instanciada después de cambiar el sombreador
+* [Contenido] La iluminación Hecha un bake estilizada no tiene en cuenta el height pintado
+* [Python] Error inesperado al recuperar información de capas instanciada después de un cambio de sombreador
 
 <b>Problemas conocidos</b>:
 
-* [Gestión de color] Las conversiones de espacio de color HDR con ACE en Linux producen colores con sujeción
-* [Crash]&#x200B;[Linux]&#x200B;[AMD] Arrastre y colocación de recursos en la pila de capas del sistema operativo Wayland
+* [Gestión de color] HDR. las conversiones de espacio de color con ACE en Linux producen colores con sujeción
+* [Bloqueo]&#x200B;[Linux]&#x200B;[AMD] Arrastre y eliminación de recursos en la pila de capas en el sistema operativo Wayland
 * [Regresión]&#x200B;[UI] El menú contextual es demasiado pequeño en pantallas HD
-* [Bloqueo] [Python] Exportación de USD desencadenada por TextureStateEvent
+* [Bloqueo] [Python] USD exportación desencadenada por TextureStateEvent
 * [Guardar] El archivo de proyecto de Spp se pierde cuando falla &quot;guardar como&quot;
-* [MacOS Intel] Bloqueo al importar algunos ajustes preestablecidos
-* [Illustrator] No es posible importar archivos de Ai tras un bloqueo del servidor sin reiniciar Painter
+* bloqueo [MacOS Intel] al importar algunos ajustes preestablecidos
+* [Illustrator] No es posible importar archivos de Ai después del bloqueo del servidor sin reiniciar Painter
 * [Importar] Los recursos con el mismo nombre pero extensiones diferentes se anulan

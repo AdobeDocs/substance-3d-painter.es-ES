@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/getting-started/project-creation.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a crear un nuevo proyecto en Substance 3D Painter para empezar a pintar texturas en sus modelos 3D.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Project Creation
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Creación de proyectos
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 1%
-
 ---
-
 
 # Creación de proyectos
 
@@ -37,7 +29,7 @@ A continuación, se explican todos los parámetros disponibles en la ventana Nue
 | *Parámetro* | *Descripción* |
 | --- | --- |
 | **Archivo** | Haga clic en el botón &quot;Seleccionar&quot; para especificar un archivo de modelo 3D para cargar. [Aquí hay disponible una lista de formatos de archivo compatibles.](https://experienceleague.adobe.com/es/docs/substance-3d/general-knowledge/ecosystem/import-and-export-formats) |
-| **Plantilla** | Especifique una plantilla que defina la configuración predeterminada del proyecto. Una plantilla contiene los siguientes parámetros:<ul data-preserve-html="true"> <li data-preserve-html="true">Ajustes del conjunto de texturas.</li> <li data-preserve-html="true">Ajustes de visualización.</li> <li data-preserve-html="true">Configuración de horneado.</li> <li data-preserve-html="true">Recursos de sombreador (incluidas las texturas adjuntas).</li> <li data-preserve-html="true">Archivo de mapa de entorno.</li> </ul>  **Nota:** Las plantillas son <b>\*.spt</b> archivos creados a partir de un proyecto existente a través del [menú Archivo](../interface/main-menu/file-menu.md) y guardados dentro de la carpeta Activos para compartirlos fácilmente con los integrantes del equipo. |
+| **Plantilla** | Especifique una plantilla que defina la configuración predeterminada del proyecto. Una plantilla contiene los siguientes parámetros:<ul data-preserve-html="true"> <li data-preserve-html="true">Ajustes del conjunto de texturas.</li> <li data-preserve-html="true">Ajustes de visualización.</li> <li data-preserve-html="true">Haciendo un bake configuración.</li> <li data-preserve-html="true">Recursos de sombreador (incluidas las texturas adjuntas).</li> <li data-preserve-html="true">Archivo de mapa de entorno.</li> </ul>  **Nota:** Las plantillas son <b>\*.spt</b> archivos creados a partir de un proyecto existente a través del [menú Archivo](../interface/main-menu/file-menu.md) y guardados dentro de la carpeta Activos para compartirlos fácilmente con los integrantes del equipo. |
 | <b>Resolución</b> | Defina la resolución de textura predeterminada del proyecto para cada conjunto de texturas. La resolución puede llegar a 4K (4096x4096 píxeles) cuando se trabaja dentro de la aplicación y a 8K (8192x8192 píxeles) cuando se exporta. La resolución se puede cambiar en cualquier momento más adelante mediante la [configuración del conjunto de texturas](../interface/texture-set/texture-set-settings.md).  **Nota:** La exportación de 8K requiere al menos 2,5 GB de VRam en la GPU para estar disponible. |
 
 ### Configuración específica de tipo de archivo
@@ -55,7 +47,7 @@ Cuando se selecciona un USD, están disponibles otras configuraciones específic
 | *Parámetro* | *Descripción* |
 | --- | --- |
 | **Formato de mapa de normales** | Define el Formato de mapa de normales del proyecto, puede ser<ul data-preserve-html="true"><li data-preserve-html="true"><strong>DirectX</strong> (X+, Y-, Z+)</li><li data-preserve-html="true"><strong>OpenGL</strong> (X+, Y+, Z+)</li></ul>  **Nota:** Como recordatorio:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Unreal Engine</b> usa DirectX de forma predeterminada.</li> <li data-preserve-html="true"><b>Unity</b> usa OpenGL de forma predeterminada.</li> </ul> |
-| **Calcular espacio tangente por fragmento** | Si se activa, los bitangents se calculan en el sombreador del fragmento (píxel) en lugar del sombreador del vértice. Este parámetro afecta a la forma en que el sombreador descodifica el mapa Normal en la ventana gráfica. Para cambiar esta configuración, será necesario volver a realizar el mapa Normal.  **Nota:** Como recordatorio:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>El motor irreal</b> necesita que esta configuración esté habilitada.</li> <li data-preserve-html="true"><b>Unity</b> necesita que esta configuración esté Deshabilitada (o habilitada si está utilizando el flujo de trabajo HDRP)</li> </ul> |
+| **Calcular Espacio de tangente por fragmento** | Si se activa, los bitangents se calculan en el sombreador del fragmento (píxel) en lugar del sombreador del vértice. Este parámetro afecta a la forma en que el Sombreador descodifica el Mapa de normales en la ventana gráfica. Para cambiar esta configuración, será necesario volver a realizar el Mapa de normales.  **Nota:** Como recordatorio:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>El motor irreal</b> necesita que esta configuración esté habilitada.</li> <li data-preserve-html="true"><b>Unity</b> necesita que esta configuración esté Deshabilitada (o habilitada si está utilizando el flujo de trabajo HDRP)</li> </ul> |
 
 ### Configuración de mosaico de UV (UDIM)
 
@@ -66,8 +58,8 @@ Cuando se selecciona un USD, están disponibles otras configuraciones específic
 | *Parámetro* | *Descripción* |
 | --- | --- |
 | **Usar flujo de trabajo de Mosaico de UV** | Si se marca, la malla importada se procesará de forma diferente para permitir pintar fuera del rango UV normal (0-1). Los proyectos que utilicen UDIM deben habilitar esta configuración. El procesamiento de la malla puede variar dependiendo de la configuración.   Para obtener más información, consulte la [documentación del Mosaico de UV](../features/uv-tiles/uv-tiles.md). |
-| <b>Conservar el diseño del Mosaico de UV por materiales y habilitar la pintura en mosaicos</b> | Los Mosaicos de UV (UDIM) se importan y agrupan por asignación de material en la malla. Esto significa que un único conjunto de texturas puede contener varios mosaicos UV visibles en paralelo en la vista 2D. Los mosaicos UV que se encuentran dentro del mismo conjunto de texturas se pueden pintar a lo largo sin problemas.  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r2-column-c1_image_copy" src="../assets/uvtiles-paintacross.jpg" width="500px"/></div> |
-| <b>Convertir Mosaicos de UV en conjuntos de Texturas individuales (heredados)</b> | Los mosaicos UV (UDIM) se separan en conjuntos de texturas individuales y se les cambia el nombre, ignorando cualquier asignación de material. Cada mosaico UV se mueve al rango UV [0-1] para poder pintar.  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r3-column-c1_image" src="../assets/uvtiles-legacy.jpg" width="500px"/></div> |
+| <b>Conservar el diseño del Mosaico de UV por materiales y habilitar la pintura en mosaicos</b> | Los Mosaicos de UV (UDIM) se importan y agrupan por asignación de material en la malla. Esto significa que un único conjunto de texturas puede contener varios Mosaicos de UV visibles en paralelo en la vista 2D. Los Mosaicos de UV que se encuentran dentro del mismo conjunto de texturas se pueden pintar a la perfección.  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r2-column-c1_image_copy" src="../assets/uvtiles-paintacross.jpg" width="500px"/></div> |
+| <b>Convertir Mosaicos de UV en conjuntos de Texturas individuales (heredados)</b> | Los Mosaicos de UV (UDIM) se separan en conjuntos de texturas individuales y se les cambia el nombre, ignorando cualquier asignación de material. Cada Mosaico de UV se mueve al rango UV [0-1] para que esté puede pintarse.  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r3-column-c1_image" src="../assets/uvtiles-legacy.jpg" width="500px"/></div> |
 
 ### Configuración de importación
 
@@ -88,7 +80,7 @@ Lista de mapas de malla compatibles y sus nombres:
 
 | *Mapa de malla* | *Convención de nombres de archivo* |
 | --- | --- |
-| **oclusión de ambiente** | ambiente\_oclusión |
+| **Oclusión ambiental** | ambiente\_oclusión |
 | **Curvatura** | curvatura |
 | **Normal** | normal\_base |
 | **Normal del Espacio Mundial** | world\_space\_normals |

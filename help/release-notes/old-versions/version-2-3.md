@@ -1,26 +1,18 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/old-versions/version-2-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte las notas de la versión 2.3 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versión 2.3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 0%
-
 ---
-
 
 # Versión 2.3
 
-**Substance Painter 2.3** mejoró la API de scripts para lanzar su primer plugin oficial : Exporte un archivo de Photoshop con toda la pila de capas disponible.
+**Substance Painter 2.3** mejoró la API de scripts para lanzar su primer plugin oficial : Exporte Photoshop con toda la pila de capas disponible.
 
 Fecha de lanzamiento : *15 de septiembre de 2016*
 
@@ -57,8 +49,8 @@ Nuestro último tutorial explica el proceso de exportación con el nuevo plugin 
 * [Exportar] El Alpha obtiene una conversión de gamma incorrecta en canales sRGB
 * [Exportar] Los documentos no cuadrados se exportan como cuadrados
 * [Exportar] No es posible exportar mapas adicionales si falta uno
-* [Iray] Algunos parámetros (como Intensidad de emisión) no tienen efecto
-* [NVIDIA] Bloqueo al iniciar con NVIDIA Quadro K2200/GTX 750/760
+* [Iray] Algunos parámetros (como la Intensidad del emisivo) no tienen efecto
+* bloqueo [NVIDIA] al inicio con NVIDIA Quadro K2200/GTX 750/760
 * [AMD] Conjunto incorrecto de colores para miniaturas y vistas previas
 * [AMD] Bloqueos y error del controlador al abrir archivos nuevos y abiertos
 * [Log] Falta &quot;software-version&quot; en el archivo de registro
@@ -72,18 +64,18 @@ Nuestro último tutorial explica el proceso de exportación con el nuevo plugin 
 * [Plugin] Nuevo plugin &quot;Exportar a Photoshop&quot; (exportar pila de capas completa)
 * [Exportar] Permite especificar la anchura del relleno (en píxeles o infinito)
 * [Exportar] Permite definir el tipo de fondo fuera de las UV
-* [Estante] Nuevo sombreador de capas de material para mezclar 10 materiales
-* [Estante] Nuevo sombreador de arcilla para ver los detalles con el height/canal normal
-* [Estante] Nuevo filtro de iluminación horneada con entrada de entorno
-* [Shelf] Se han actualizado algunos generadores de máscaras para añadir transformaciones no cuadradas
-* [Ventana gráfica] Añadir mapa normal compuesto (normal+height+hornear) al modo solo
+* [Estante] sombreador de capas de material nuevo para mezclar 10 materiales
+* [Estante] Nuevo sombreador de arcilla para ver los detalles con el height / canal normal
+* [Estante] Nuevo filtro de iluminación hecho un bake con entrada de entorno
+* [Estante] Se han actualizado algunos generadores de máscaras para añadir transformaciones que no son cuadradas
+* [Ventana gráfica] Añadir mapa de normales compuesto (normal+height+hacer un bake) al modo solo
 * [Scripting] Permitir la exportación de mapas adicionales
 * [Scripting] Permitir consultar mapas adicionales disponibles por conjunto de texturas
 * [Scripting] Permitir recuperar el formato de canal
-* [Scripting] Añadir ejemplos en la documentación bancaria
+* [Scripting] Añadir ejemplos en la documentación de haga un bake
 * [Scripting] Permite consultar la visibilidad de una capa
 * [Scripting] Permite consultar el modo de fusión y la opacidad de la capa
-* [Scripting] Permite exportar mapas convertidos (mapas normales finales, archivos AO mixtos, etc.)
+* [Scripting] Permite exportar mapas convertidos (mapas de normales finales, archivos AO mixtos, etc.)
 * [Substance] Lectura y conexión de usos personalizados
 * [Métodos abreviados] Añadir tecla modificadora (MAYÚS) para retroceder en el modo solo cíclico
 * [Exportar] Se ha actualizado el ajuste preestablecido de exportación predeterminado para desactivar alfa.
@@ -92,23 +84,23 @@ Nuestro último tutorial explica el proceso de exportación con el nuevo plugin 
 
 **Solucionado :**
 
-* Bloqueo en algunos proyectos antiguos al abrirlos
-* Bloqueo con la caché de canales de textura dañada
+* Bloqueo con algunos proyectos antiguos al abrirlos
+* Bloqueo con caché de canales de textura dañada
 * Bloqueo al mezclar más de 4 materiales con el flujo de trabajo de capas de material
 * [UI] Los métodos abreviados de herramientas no funcionan si la barra de herramientas está oculta
 * [UI] La barra de herramientas de Iray se etiqueta &quot;Sin título&quot; en el menú Ver
 * [UI] Las barras de herramientas de los complementos se denominan &quot;Sin inclinación&quot; en el menú Ver
-* [Baker] Al pulsar Intro al editar una configuración de horneado, se inicia el proceso de horneado.
+* [Baker] Al pulsar Intro mientras se edita un ajuste de hacer un bake, se inicia el proceso de hacer un bake
 * [Baker] Rangos incorrectos para algunos parámetros
-* [Importar] Imposible importar mallas OBJ debido a números muy grandes
+* [Importar] Imposible importar OBJ mallas debido a números muy grandes
 * [Importar] Algunos archivos OBJ se importan con demasiados subobjetos
 * [Exportar] el fondo del canal se rellena con negro en lugar del color predeterminado en la exportación
 * [Herramienta] Las partículas no funcionan correctamente si FOV es demasiado bajo
 * [Herramienta] El color de previsualización del pincel es incorrecto con las máscaras en las subpilas
-* [Ventana gráfica] Cuando el pincel se desplaza a áreas vacías en la vista 2D, se vuelve gigantesco
+* [Ventana gráfica] Cuando el pincel entra en áreas vacías de la Vista 2D se vuelve gigantesco
 * [Ventana gráfica] Vista previa del pincel en blanco al pintar texturas normales
 * [Scripting] Documentación incorrecta: &quot;ao&quot; en lugar de &quot;ambientocclusion&quot;
 * [Scripting] El proceso iniciado con subprocess() se cierra al cerrar Painter
-* [Estante] El filtro de iluminación al horno utiliza una entrada de AO incorrecta
+* [Estante] El filtro de iluminación Hecho un bake utiliza una entrada de AO incorrecta
 * [MacOS] Se ha eliminado el proyecto Fire Hydrant (incompatible).
 * El proyecto predeterminado se abre al cargar un archivo \*.spt (en lugar de \*.spp)

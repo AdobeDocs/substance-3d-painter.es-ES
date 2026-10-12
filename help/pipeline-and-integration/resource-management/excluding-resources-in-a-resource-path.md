@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/pipeline-and-integration/resource-management/excluding-resources-in-a-resource-path.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a excluir recursos específicos de las rutas de recursos en Substance 3D Painter para una mejor organización de la plataforma.
-helpx_creative_field: ""
-helpx_description: Painter > Pipeline and integration > Resource management > Excluding resources in a resource path
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Excluir recursos de una ruta de acceso de recurso
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 22871eab2f25d09bd82f1292d8b3e5f8c4f1c2cf
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 0%
-
 ---
-
 
 # Excluir recursos de una ruta de acceso de recurso
 

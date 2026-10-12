@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Obtenga información sobre cómo actualizar los controladores de la GPU para Substance 3D Painter con el fin de garantizar la compatibilidad y un rendimiento de procesamiento óptimo.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > GPU Issues > GPU has outdated drivers
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: La GPU tiene controladores obsoletos
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
-
 ---
-
 
 # La GPU tiene controladores obsoletos
 

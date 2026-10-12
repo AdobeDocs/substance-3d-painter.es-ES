@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/old-versions/version-7-4.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte las notas de la versión 7.4 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 7.4
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versión 7.4
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1910'
 ht-degree: 0%
-
 ---
-
 
 # Versión 7.4
 
@@ -36,7 +28,7 @@ Este nuevo flujo de trabajo permite gestionar y calibrar los colores desde la im
 
 * **Configuración del proyecto**\
   Al crear un nuevo proyecto, ahora es posible activar la gestión de color. El proyecto existente también puede activar la gestión de color a través de la configuración del proyecto.\
-  Para habilitar la administración de color, cambie de **Legacy** (predeterminado) a **OpenColorIO** y use una de las configuraciones predeterminadas o una personalizada.
+  Para habilitar la administración de color, cambie de **Heredado** (predeterminado) a **OpenColorIO** y use una de las configuraciones predeterminadas o una personalizada.
 
   ![](../../assets/cm-settings.png){width="400px"}
 
@@ -176,23 +168,23 @@ Para ejecutar un comando Javascript desde Python, use la función **evaluation()
 * [SpaceMouse] [Windows] Compatibilidad con la conexión 3D de SpaceMouse en el área de visualización 3D para la navegación
 * [SpaceMouse] [Windows] Métodos abreviados/teclas básicos para los modelos Pro y Enterprise SpaceMouse en la ventana gráfica 3D
 * [SpaceMouse] [Windows] Icono de centro de rotación dedicado en la ventana gráfica 3D
-* [Gestión de color] Utilice las funciones de la configuración de OCIO para cambiar la configuración predeterminada
+* [Administración de color] Utilice funciones de OCIO configuración para cambiar la configuración predeterminada
 * [Gestión de color] Gestión de color de la ventana de propiedades para widgets de color
 * [Gestión de color] Gestión de color de la ventana de propiedades para la previsualización de materiales
 * [Gestión de color] Gestión de color de muestras en el selector de color
 * [Gestión de color] Añadir un ajuste para definir el espacio de color sRGB estándar
-* [Gestión de color] Añadir el espacio de color sRGB estándar desde la configuración de OCIO en el selector de color Lista de selectores de visualización
+* [Gestión de color] Añadir el espacio de color sRGB estándar desde OCIO configuración en el selector de color Lista de selectores de visualización
 * [Gestión de color] Mejoras en el menú de anulación del espacio de color
 * [Gestión de color] Permita anular el espacio de color del mapa de entorno en Ajustes de visualización.
 * [Gestión de color] Dibujo de degradados del selector de color en función de la visualización actual
-* [Gestión de color] Fijar valores HDR de forma predeterminada en el editor de color
+* [Gestión de color] Ajustar valores HDR. de forma predeterminada en el editor de color
 * [Gestión de color] Usar passthrough (sin espacio de color) para filtros en modo heredado
 * [Gestión de color] Limitar la visualización de degradados en el editor de color para que coincidan con el rango [0-1]
 * [Gestión de color] Ocultar el selector de visualización en el selector de color en el modo Heredado
 * [Administración de color] Convertir el campo hexadecimal del selector de color siempre en espacio de color sRGB
 * [Gestión de color] Desactivar el menú desplegable de visualización del selector de color para canales de datos
 * [Optimización] La cuadrícula de deformación vuelve a calcular únicamente los mosaicos UV cubiertos
-* [Exportar] Permite exportar proyectos de azulejo UV para Sketchfab, USD y glTF
+* [Exportar] Permitir la exportación de proyectos de Mosaico de UV para Sketchfab, USD y glTF
 * [Scripting]&#x200B;[Python] Permitir el cambio de la función de asignación de tonos
 
 **Corregido:**
@@ -200,17 +192,17 @@ Para ejecutar un comando Javascript desde Python, use la función **evaluation()
 * [Sketchfab] Al actualizar el modelo existente, se crea un nuevo modelo
 * [Sketchfab] Bloqueo al buscar un modelo actualizado anteriormente
 * Bloqueo al exportar a USD
-* Bloqueo al crear una nueva instancia de sombreado en Máscara de geometría o cuando la geometría está oculta
+* Bloqueo al crear una nueva instancia del sombreador en Máscara de geometría o cuando la geometría está oculta
 * [Ventana Importar recurso] Bloqueo al cambiar el tipo de recursos importados
 * Los mapas de malla normales se invierten cuando se utilizan en la pila de capas
 * [Substance] No se tiene en cuenta el modo de fusión de datos de usuarios
-* [Gestión de color] Los mapas de bits con espacio de color en el nombre de archivo se importan como secuencias de mosaico UV
+* [Gestión de color] Los mapas de bits con espacio de color en el nombre de archivo se importan como secuencias de Mosaico de UV
 * [Gestión de color] Las salidas con gestión de color del gráfico del Substance están en un espacio de color incorrecto
 * [Gestión de color] La herramienta Relleno poligonal muestra un color incorrecto
-* [Gestión de color] El asignador de tonos ACES se aplica a los canales en modo solo
+* [Gestión de color] ACE ajuste de tono se aplica a los canales en modo solo
 * [Gestión de color] La previsualización de la iluminación de la esfera de la herramienta no está gestionada por color
 * [Administración de color] [Exportar] Los mapas convertidos aplican una conversión incorrecta
-* [Scripting]&#x200B;[Python]&#x200B;[Gestión de color] Los proyectos creados con plantillas y variables de entorno OCIO están en modo heredado
+* [Scripting]&#x200B;[Python]&#x200B;[Gestión de color] Los proyectos creados con plantillas y OCIO variables de entorno están en modo heredado
 * [Scripting] [Python] No se puede utilizar la función de evaluación de JavaScript al inicio
 * [Oferta de Adobe 3D] No se puede iniciar Painter si se utiliza la configuración regional con idiomas no admitidos de forma predeterminada
 
@@ -218,8 +210,8 @@ Para ejecutar un comando Javascript desde Python, use la función **evaluation()
 
 * Conexión 3D con SpaceMouse no compatible en MacOS
 * [UI] Barra de desplazamiento horizontal con administración de color que aparece en algunos casos en la ventana de nuevo proyecto
-* [Panaderos] El ajuste &quot;Normal promedio&quot; no tiene efecto en los proyectos de azulejo UV
-* [Mac M1] Los materiales inteligentes no se muestran correctamente
+* [Bakeres] El ajuste &quot;Normales medias&quot; no tiene efecto en los proyectos de Mosaico de UV
+* [Mac M1] Los Materiales inteligentes no se muestran correctamente
 * [Gestión de color] Los recursos utilizados en el modo de proyección no se administran por color en la superposición
 
 ### 7.4.1
@@ -229,18 +221,18 @@ Para ejecutar un comando Javascript desde Python, use la función **evaluation()
 **Agregado:**
 
 * [Gestión de color] Usar función de datos en nombres de archivo exportados
-* [Gestión de color] Expanda la sección Gestión de color de forma predeterminada cuando OCIO está seleccionado en las nuevas ventanas de configuración de proyecto y proyecto
-* [Gestión de color] Añadir ACES a un asignador en modo heredado
+* [Administración de color] Expanda la sección Administración de color de forma predeterminada cuando se selecciona OCIO en las nuevas ventanas de configuración de proyecto y proyecto
+* [Gestión de color] Añadir ACE asignador de tonos en modo heredado
 * [Gestión de color] Ajustar los valores de configuración predeterminados
 * [Gestión de color]&#x200B;[Exportar] Rellenar $colorSpace en nombres de archivo para canales de datos
-* [Exportar] Exportar proyecto de azulejo UV a Stager
+* [Exportar] Exportar proyecto de Mosaico de UV a Stager
 * [Interoperabilidad] No disponible para las ediciones Steam y Substance
-* [Interoperabilidad] Permitir el envío de un proyecto de mosaico UV a Stager
+* [Interoperabilidad] Permitir el envío de un proyecto de Mosaico de UV a Stager
 
 **Corregido:**
 
 * [MacOS] [Bloqueo] Painter no se inicia con Catalina
-* [Administración de color] [Bloqueo] Bloqueo aleatorio al reproducir con administración de color/tipo de datos en el canal de usuario
+* [Gestión de color] [Bloqueo] bloqueo aleatorio al reproducir con gestión de color/tipo de datos en el canal del usuario
 * [Gestión de color] Recursos utilizados como escala de grises en la máscara visualización del espacio de color nuevo menú
 * [Gestión de color] El canal del usuario es más oscuro en la ventana gráfica en el modo heredado + vista en solitario
 * [Gestión de color] El mapa Env siempre es lineal cuando se utiliza en iRay
@@ -255,7 +247,7 @@ Para ejecutar un comando Javascript desde Python, use la función **evaluation()
 
 **Problemas conocidos:**
 
-* [Mac M1] Los materiales inteligentes no se muestran correctamente
+* [Mac M1] Los Materiales inteligentes no se muestran correctamente
 
 ### 7.4.0
 
@@ -267,18 +259,18 @@ Para ejecutar un comando Javascript desde Python, use la función **evaluation()
 * [Gestión de color] Añadir ajustes de gestión de color a los ajustes del proyecto
 * [Gestión de color] Ventana de advertencia sobre los cambios de configuración de la gestión de color al abrir un proyecto
 * [Gestión de color] Mostrar un mensaje de error si se selecciona un archivo de configuración de OCIO no válido
-* [Gestión de color] Permite anular la configuración con la variable de entorno OCIO
-* [Gestión de color] Varias configuraciones OCIO integradas de forma predeterminada en la aplicación
+* [Gestión de color] Permite anular la configuración con OCIO variable de entorno
+* [Gestión de color] Varias configuraciones de OCIO integradas de forma predeterminada en la aplicación
 * [Gestión de color] Extraer nombre de espacio de color del nombre de archivo de mapa de bits importado
 * [Gestión de color] Permita anular el espacio de color con un espacio de color desde la configuración de la ventana Propiedades
 * [Gestión de color] Añadir opciones de gestión de color en Configuración del conjunto de texturas
 * [Gestión de color]&#x200B;[Ventana] Permitir la gestión de color de vistas 2D y 3D por separado
 * [Gestión de color] Cargar y convertir mapa de entorno en el espacio de color de trabajo
 * [Gestión de color] Ajuste el selector de color y el editor con el espacio de color actual
-* [Gestión de color] Permite seleccionar el espacio de color de transformación de visualización en la ventana gráfica con un nuevo menú desplegable.
-* [Gestión de color] Aplicación de la transformación de visualización con resultados de procesamiento de Iray
+* [Gestión de color] Permite seleccionar la visualización transformar espacio de color en la ventana gráfica con un nuevo menú desplegable.
+* [Gestión de color] Aplicación de visualización transformar con resultados de procesamiento de Iray
 * [Gestión de color] Exportar texturas con diferentes espacios de color
-* [Gestión de color] [Python] Aplicación de la configuración de gestión de color de la variable de entorno (OCIO) a proyectos nuevos
+* [Administración de color] [Python] Aplicación de la configuración de administración de color de la variable de entorno (OCIO) a proyectos nuevos
 * [Ventana gráfica] Permite desacoplar la ventana gráfica 2D o 3D
 * [Auto Unwrap] Nueva opción para evitar islas alargadas
 * [Scripting Python] Llamar a funciones de JavaScript desde la API de Python
@@ -291,8 +283,8 @@ Para ejecutar un comando Javascript desde Python, use la función **evaluation()
 
 **Problemas conocidos:**
 
-* [Mac M1] Los materiales inteligentes no se muestran correctamente
-* [Administración de color] [Bloqueo] Bloqueo aleatorio al reproducir con administración de color/tipo de datos en el canal de usuario
+* [Mac M1] Los Materiales inteligentes no se muestran correctamente
+* [Gestión de color] [Bloqueo] bloqueo aleatorio al reproducir con gestión de color/tipo de datos en el canal del usuario
 * [Gestión de color] El selector de color no selecciona el valor adecuado para el canal de datos en el modo heredado
 * [Gestión de color] [Iray] Guardar el renderizado en EXR o TIFF mientras la Gestión de color está activada en la ventana gráfica siempre se guarda en lineal
 * [Administración de color] Los recursos utilizados como escala de grises en la máscara muestran un menú de espacio de color incorrecto

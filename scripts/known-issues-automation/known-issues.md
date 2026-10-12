@@ -1,16 +1,10 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/know-issues.html"
 breadcrumb-title: ""
 description: Revise los problemas conocidos de Substance 3D Painter para estar informado de las limitaciones actuales y las soluciones alternativas en la última versión.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Problemas conocidos
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a652271a4b12d9c27513ebc4d5974fa87da29580
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
@@ -77,13 +71,13 @@ En esta página se enumeran todos los problemas conocidos activos presentes en l
 * `[UV Tiles]` No hay mensaje de error en espacios UV superpuestos con una malla específica
 * `[GLTF]` `[Crash]` La creación de un proyecto con un archivo gltf comprimido provoca un bloqueo
 * Los mapas de posición de `[UV Tile sequence]` no se importan correctamente
-* La máscara de combinación de Heightes `[UVTiles]` no se actualiza con la máscara de mosaico UV
+* La máscara de combinación de Heightes `[UVTiles]` no se actualiza con la máscara de Mosaico de UV
 * `[Import]` No se puede importar el archivo obj con valores &quot;nan&quot;
 * `[Export]` GLTF se exporta con un tamaño incorrecto
 * El nombre de `[Texture Set]` puede estar vacío
 * `[Layer stack]` Copiar en máscara cambia al modo de material
 * Error de `[UI]` en la configuración del fabricante de pinceles
-* `[Texture Set Settings]` Nombre de instancia de sombreador incorrecto después de cambiar el nombre
+* `[Texture Set Settings]` Nombre de instancia del sombreador incorrecto después de cambiar el nombre
 * `[Blending]` El modo de fusión de color y saturación también cambia el brillo
 * `[Librairies]` Ancho de las búsquedas guardadas y filtrar por ventanas de ruta no se guarda al cambiar
 * `[Geometry mask]` Problema al reimportar malla y capas con instancias
@@ -93,11 +87,11 @@ En esta página se enumeran todos los problemas conocidos activos presentes en l
 * `[Regression]` `[UI]` El menú contextual es demasiado pequeño en la pantalla HD
 * La actualización automática omite los mapas de malla importados de `[Resources]`
 * La vista previa del espacio de mezcla de color de `[User Channels]` es incorrecta
-* La selección de geometría `[Mask]` sigue activa después de cambiar al modo de cocción
+* La selección de geometría `[Mask]` sigue activa después de cambiar al modo hacer un bake
 * Los iconos de `[Sonoma]` no aparecen en los menús
 * `[Polygon Fill]` Al cambiar el espacio de color del color base no se actualiza el selector de color
-* `[UV Padding]` artefactos al aumentar la textura de 4k a 8k en la exportación
-* Uso de VRAM de cerdos de Painter `[Performances]`
+* `[UV Padding]` artefactos al aumentar la textura de 4k a 8k al exportar
+* `[Performances]` cerdos de Painter VRAM uso
 * Problemas de escala de `[FBX]`
 * Se pueden seleccionar `[Texture set list]` Mosaicos de UV al mismo tiempo que un conjunto de texturas
 * `[Viewport]` Desfase del cursor en la parte inferior de la ventana gráfica del modo de hacer un bake

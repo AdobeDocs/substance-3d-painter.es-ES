@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/es/substance-3d-painter/interface/viewport/camera-management.html'
 breadcrumb-title: ''
 description: Aprenda a administrar las vistas de cámara en la ventana gráfica de Substance 3D Painter para navegar y usar el marco en sus modelos 3D de manera eficaz.
-helpx_creative_field: ''
-helpx_description: Painter > Interface > Viewport > Camera management
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Gestión de cámaras
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e370ba212d3e90f71e09b75ff41be6123d37c5eb
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
-
 ---
-
 
 # Gestión de cámaras
 

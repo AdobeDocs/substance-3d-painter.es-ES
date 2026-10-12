@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/lazy-mouse.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a utilizar ratón perezoso en Substance 3D Painter para crear trazos de pincel suaves y fluidos con respuesta retardada del cursor.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Lazy mouse
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Ratón perezoso
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 2%
-
 ---
-
 
 # Ratón perezoso
 

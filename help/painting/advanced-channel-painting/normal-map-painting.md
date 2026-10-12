@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/advanced-channel-painting/normal-map-painting.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a pintura de mapas de normales directamente en Substance 3D Painter para añadir detalles de superficie y profundidad a sus texturas.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Advanced channel painting > Normal Map Painting
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Pintura de mapa de normales
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 0%
-
 ---
-
 
 # Pintura de mapa de normales
 
@@ -73,7 +65,7 @@ Cree una nueva capa de relleno y coloque la normal hecha un bake dentro de la ra
 
 ### 3 - Cambio del modo de fusión de la capa de relleno
 
-De forma predeterminada, el modo de fusión del canal normal en cualquier capa nueva se define en &quot;Detalles del Mapa de normales&quot;. Como es preferible usar la capa de relleno como base, elegimos el modo de fusión &quot;normal&quot; ya que el mapa de bits no tiene ningún alfa, reemplazará todo lo que hay debajo (incluido el color predeterminado del sombreado).
+De forma predeterminada, el modo de fusión del canal normal en cualquier capa nueva se define en &quot;Detalles del Mapa de normales&quot;. Como es preferible usar la capa de relleno como base, elegimos el modo de fusión &quot;normal&quot; ya que el mapa de bits no tiene ningún alfa, reemplazará todo lo que hay debajo (incluido el color predeterminado del sombreador).
 
 ![](../../assets/blending-mode.gif)
 

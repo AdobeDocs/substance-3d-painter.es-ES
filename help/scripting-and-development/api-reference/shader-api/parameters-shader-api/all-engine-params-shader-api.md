@@ -1,34 +1,26 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-engine-params-shader-api.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Acceda a la referencia de API del sombreador Todos los Parámetros del Motor de Substance 3D Painter para controlar los parámetros de sombreador a nivel del motor.
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > All Engine Params - Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Todos los parámetros del motor - API del sombreador
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%
-
 ---
-
 
 # Todos los parámetros del motor - API del sombreador
 
 ## Ejemplos de parámetros del motor
 
-## Parámetros de textura
+## parámetros de textura
 
 Substance Painter utiliza un sistema de textura virtual dispersa (SVT) para mostrar texturas en la ventana gráfica.
 
 Para obtener más información sobre este sistema, consulta la [documentación en línea](../../../../features/sparse-virtual-textures.md).
 
-Este sistema tiene repercusiones en la forma de escribir código de sombreador. Proporcionamos ayudantes para simplificar su uso con la estructura *SamplerSparse* y las funciones de búsqueda de texturas (consulte [lib-sparse.glsl](../libraries-shader-api/lib-sparse-shader-api.md)).
+Este sistema tiene repercusiones en la forma de escribir código de sombreador. Estamos proporcionando ayudantes para simplificar su uso con la estructura *SamplerSparse* y las funciones de búsqueda de texturas (consulte [lib-sparse.glsl](../libraries-shader-api/lib-sparse-shader-api.md)).
 
 Uso básico:
 
@@ -70,13 +62,13 @@ Todas estas texturas están **premultiplicadas** y **dilatadas** para evitar pro
 
 ### Mapas de malla
 
-*texture\_ambientocclusion* : Mapa de Oclusión ambiental\
-*texture\_curvature* : Mapa de curvatura\
-*texture\_id* : Mapa de ID\
+*textura\_ambientocclusion* : mapa de oclusión ambiental\
+*textura\_curvatura* : Mapa de curvatura\
+*textura\_id* : Mapa de ID\
 *textura\_normal* : Mapa normal de espacio tangente\
 *textura\_normal\_ws* : Mapa normal del espacio mundial\
-*texture\_position* : Mapa de posición espacial mundial\
-*textura\_thickness* : mapa de thickness
+*textura\_posición* : Mapa de posición espacial mundial\
+*textura\_thickness* : Mapa de espesor
 
 ## Parámetros de textura adicionales
 

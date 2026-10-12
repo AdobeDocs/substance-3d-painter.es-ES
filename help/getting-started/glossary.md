@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/getting-started/glossary.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Acceda al glosario de Substance 3D Painter para comprender los términos y conceptos clave utilizados en toda la documentación.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Glossary
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Glosario
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2131'
 ht-degree: 6%
-
 ---
-
 
 # Glosario
 
@@ -56,10 +48,10 @@ En esta página se enumeran las palabras clave más comunes utilizadas por la ap
 | **Malla de poli alta/baja** | Una malla de poli baja y una alta son malla 3D, una es con una baja densidad de polígonos, mientras que la otra es con una mayor cantidad de policonte (a menudo 100 veces más grande). Por lo general, la información de malla alta se hace un bake a la malla baja. |
 | **Material** | Un material define las propiedades para representar una materia específica. En una malla 3D, el material también se utiliza para definir grupos de caras de polígono. |
 | **Malla** | Una malla es un objeto 3D definido por información múltiple. En Substance 3D Painter, una malla se define por polígonos (normalmente triángulos). Se puede crear una malla en una aplicación de modelado 3D como **Blender** o **Autodesk Maya** . |
-| **Mapa de malla** | Un mapa de malla es un mapa creado a partir de una malla que contiene información relativa a la malla. Puede ser una información de posición o una información de oclusión, por ejemplo. |
+| **Mapa de malla** | Un mapa de malla es un mapa hecho un bake de una malla que contiene información relativa a la malla. Puede ser una información de posición o una información de oclusión, por ejemplo. |
 | **Mapa-Mp** | Un mapa mip es una textura precalculada, que normalmente se presenta como una secuencia de imágenes cada vez con una resolución inferior a la de la textura original. |
 | **Modo** | Un modo se refiere a la configuración de la interfaz que da acceso a un conjunto específico de herramientas y controles dependiendo del modo. |
-| **Ruido** | Un ruido es una imagen de procedimiento y aleatoria, que normalmente representa formas orgánicas y valores de color/escala de grises. |
+| **Ruido** | Un ruido es una imagen procedimienta y aleatoria, que normalmente representa formas orgánicas y valores de color/escala de grises. |
 | **Normal** | Una normal es una textura especial que deforma el comportamiento de una luz en la superficie de una malla 3D para simular detalles que no existen en la geometría. |
 | **OpenGL / DirectX** | OpenGL y DirectX son una interfaz de programación de aplicaciones (API) utilizada para procesar información 2D y 3D. También definen el formato de mapa de normales. |
 | **Ortográfico** | Una proyección Ortográfica es un medio para representar objetos tridimensionales en dos dimensiones en las que todas las líneas de proyección son ortogonales al plano de proyección. |
@@ -74,10 +66,10 @@ En esta página se enumeran las palabras clave más comunes utilizadas por la ap
 | **Proyección** | Una proyección es la acción de aplicar desde un punto de vista específico (como la cámara) una imagen/objeto a la superficie de la malla 3D. |
 | **Resolución (potencia de 2)** | La resolución define el tamaño de una textura en sus ejes X e Y (o la anchura y el height). A menudo en una potencia de 2 escala (2, 4, 8, 16... 512, 1024, 2048...) porque está optimizado para cálculos en una GPU. |
 | **Secuencias de comandos** | La creación de scripts es la acción o el uso de un comando específico a través de un formato de archivo basado en texto para ejecutar comportamientos específicos. |
-| **Shader** | Un sombreador define el comportamiento de un material cuando recibe información de iluminación. Algunos sombreadores pueden ser simples (como el sombreado de caricatura) o más avanzados (como el sombreado de piel que simula la absorción de la luz en una superficie). |
+| **Sombreador** | Un sombreador define el comportamiento de un material cuando recibe información de iluminación. Algunos sombreadores pueden ser simples (como el sombreado de caricatura) o más avanzados (como el sombreado de piel que simula la absorción de la luz en una superficie). |
 | **Plataforma** | Un estante es la ubicación en la aplicación donde se organizan los recursos de varios tipos. Puede pasar de imágenes sencillas a herramientas más complejas. |
 | **Máscara inteligente** | Las máscaras inteligentes se comportan como materiales inteligentes, pero en lugar de ser capas, son efectos definidos para generar máscaras basadas únicamente en la malla 3D actual. |
-| **Material inteligente** | Un material inteligente es un grupo de capas guardadas como un archivo. El material inteligente se puede adaptar a cada proyecto en Substance 3D Painter, lo que permite crear materiales que cambiarán en función de la malla 3D actual. |
+| **Material inteligente** | Un material inteligente es un grupo de capas guardadas como un archivo. Material inteligente se puede adaptar a cada proyecto en Substance 3D Painter, lo que permite crear materiales que cambiarán en función de la malla 3D actual. |
 | **Difuminado** | El difuminado es una herramienta para sangrar, esparcir o mezclar colores. Se suele utilizar para suavizar los píxeles. |
 | **Galería de símbolos** | Una galería de símbolos es una imagen alineada con la pantalla y utilizada con una proyección de cámara para realizar una pintura en la malla 3D. |
 | **Substance** | Un Substance es un formato de archivo que permite generar textura en función de un conjunto de parámetros (que implican cálculos procedimientos). Estos parámetros se pueden modificar para crear variaciones. |

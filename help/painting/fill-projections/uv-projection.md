@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/fill-projections/uv-projection.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilice Proyección de UV en Substance 3D Painter para proyectar texturas basadas en coordenadas UV para una colocación precisa de la textura.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Fill projections > UV projection
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Proyección de UV
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 2903c7fdf6a9fe0da149b61fa9064033bb88926a
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 4%
-
 ---
-
 
 # Proyección de UV
 
@@ -43,8 +35,8 @@ Hay varias configuraciones y herramientas disponibles en la [barra de herramient
 
 | Icono | Nombre | Descripción |
 | --- | --- | --- |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c0_image" src="../../assets/icon-manipulator-2d-hide.png" width="50px"/></div> | Mostrar/ocultar manipulador | Si está activado, el manipulador es visible y controlable en la ventana gráfica. |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r2-column-c0_image" src="../../assets/icon-manipulator-settings-2d.png" width="50px"/></div> | Tamaño de controles del manipulador | Este menú contiene tres ajustes que definen el tamaño de los controles de la transformación en la ventana gráfica:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Pequeño</strong></li><li data-preserve-html="true"><strong>Medio</strong></li><li data-preserve-html="true"><strong>Grande</strong></li></ul> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c0_image" src="../../assets/icon-manipulator-2d-hide.png" width="50px"/></div> | Mostrar/ocultar manipulador | Si se habilita, el manipulador es visible y controlable en la ventana gráfica. |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r2-column-c0_image" src="../../assets/icon-manipulator-settings-2d.png" width="50px"/></div> | Tamaño de controles del manipulador | Este menú contiene tres ajustes que definen el tamaño de los controles del transforme en la ventana gráfica:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Pequeño</strong></li><li data-preserve-html="true"><strong>Medio</strong></li><li data-preserve-html="true"><strong>Grande</strong></li></ul> |
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r3-column-c0_image" src="../../assets/icon-flip-x.png" width="50px"/></div> | Reflejar en X | Voltear la transformación en el eje X. |
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r4-column-c0_image" src="../../assets/icon-flip-y.png" width="50px"/></div> | Espejo en Y | Voltear la transformación en el eje Y. |
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r5-column-c0_image" src="../../assets/icon-pivot.png" width="50px"/></div> | Restablecer el punto de pivote | Restaure el punto de giro al centro de la transformación. |
@@ -52,12 +44,12 @@ Hay varias configuraciones y herramientas disponibles en la [barra de herramient
 
 ## Manipulador
 
-La Proyección de UV usa un manipulador que solo está disponible en la [vista 2D](../../interface/viewport/2d-view.md).
+La Proyección de UV usa un manipulador que solo está disponible en [Vista 2D](../../interface/viewport/2d-view.md).
 
 | Acción | Método abreviado | Descripción |
 | --- | --- | --- |
 | **Traducir** | Clic del ratón | Haga clic y arrastre cualquier área dentro de la transformación para moverla. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r1-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/uv-translate.gif"/></div> |
-| **Traducir restringido** | MAYÚS+Clic del ratón | Haga clic y arrastre cualquier área dentro de la transformación mientras presiona y mantiene el método abreviado para moverla a lo largo de un solo eje. El eje puede ser horizontal o vertical y estar alineado con la cámara, según la dirección del ratón. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r2-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/uv-translate-constrained.gif"/></div> |
+| **Traducir restringido** | MAYÚS+Clic del ratón | Haga clic y arrastre cualquier área dentro de la transformación mientras presiona y mantiene el método abreviado para moverlo solo a lo largo de un eje. El eje puede ser horizontal o vertical y estar alineado con la cámara, según la dirección del ratón. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r2-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/uv-translate-constrained.gif"/></div> |
 | **Rotación** | Clic del ratón | Hacer clic y arrastrar desde fuera de la transformación permite rotarla. Si se mueve el punto de giro, también se puede cambiar el punto de origen de rotación.   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r3-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/uv-rotation.gif"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r3-column-c2_dynamic_grid_items_grid-cell1_position-par_image" src="../../assets/uv-rotation-pivot.gif"/></div>  </td> </tr> </table> |
 | **Restricción de rotación** | MAYÚS+Clic del ratón | Hacer clic y arrastrar desde fuera de la transformación mientras se presiona y mantiene el método abreviado permite girarlo solo cada 45 grados. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r4-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/uv-rotation-constrained.gif"/></div> |
 | **Escala** | Clic del ratón | Hacer clic y arrastrar cualquier control del manipulador permite deformar la transformación.   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r5-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/uv-scale-free.gif"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r5-column-c2_dynamic_grid_items_grid-cell1_position-par_image" src="../../assets/uv-scale-middle.gif"/></div>  </td> </tr> </table> |

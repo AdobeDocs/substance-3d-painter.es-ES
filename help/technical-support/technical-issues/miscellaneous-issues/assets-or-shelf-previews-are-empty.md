@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/assets-or-shelf-previews-are-empty.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a corregir las previsualizaciones de recursos vacías y de estanterías en Substance 3D Painter para restaurar la funcionalidad de visualización de miniaturas.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Miscellaneous Issues > Assets (or shelf) previews are empty
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Las vistas previas de activos (o estantes) están vacías
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 0%
-
 ---
-
 
 # Las vistas previas de activos (o estantes) están vacías
 

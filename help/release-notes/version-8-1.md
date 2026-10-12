@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/version-8-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte las notas de la versión 8.1 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Version 8.1
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versión 8.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1701'
 ht-degree: 0%
-
 ---
-
 
 # Versión 8.1
 
@@ -88,7 +80,7 @@ El tamaño dentro de los materiales de Substance ahora se puede utilizar para au
 
 Estas tres nuevas incorporaciones acortan la distancia entre Designer y Painter para ampliar las posibilidades de texturizado y renderizado.
 
-Se han añadido a la lista de panaderos, pero están desactivados de forma predeterminada:
+Se han añadido a la lista de bakeres, pero están desactivados de forma predeterminada:
 
 ![](../assets/baker-list.png)
 
@@ -102,12 +94,12 @@ Los nuevos bakeres son:
 
   ![](../assets/bent-normal-car-compressed.gif){width="400px"}
 
-* **panadero de Heightes**\
+* **baker de Height**\
   El baker de Height permite hacer un bake la diferencia entre la malla baja y alta en polo como una textura en escala de grises que podría utilizarse para producir desplazamiento en mallas teseladas. Por ejemplo, al hacer un bake información de exploración en un plano.
 
   ![](../assets/disp-demo.jpg){width="400px"}
 
-* **Panadero de opacidad**\
+* **baker de opacidad**\
   El baker Opacidad produce un mapa en blanco y negro que muestra los agujeros de una malla de alta densidad. Por ejemplo, se puede utilizar para hacer un bake vallas o incluso agujeros dentro de una superficie de tela.
 
 ### Nuevo contenido
@@ -190,7 +182,7 @@ Ahora las mallas se cortan en Islas de UV separadas usando un método se acerca 
 
 **Agregado:**
 
-* [Gestión de color] Añadir compatibilidad con perfiles ICC mediante Adobe Color Engine (ACE)
+* [Gestión de color] Añadir compatibilidad para perfiles ICC con Adobe Color Engine (ACE)
 * [Gestión de color] Añada compatibilidad con &quot;RGB de Adobe 98&quot; como espacio de color de trabajo para ICC
 * [Gestión de color] Permitir la configuración de ACE/ICC mediante un archivo de configuración
 * [Gestión de color] Permitir la entrada de valores de color lineal en el Selector de color con el modo Heredado
@@ -202,16 +194,16 @@ Ahora las mallas se cortan en Islas de UV separadas usando un método se acerca 
 * [Tamaño físico] [Motor] Cálculo del Tamaño físico
 * [Tamaño físico] Opciones de exposición para utilizar tamaño físico en la interfaz de usuario
 * [Tamaño físico] Añadir ayudantes visuales en la ventana gráfica
-* [Horneando] Añadir panadero de Height
-* [Horneado] Añadir el panadero de normales dobladas
-* [Horneado] Añadir el panadero de opacidad
+* [Haciendo un bake] Añadir baker de Height
+* [Haciendo un bake] baker Agregar Normales dobladas
+* [Hacer un bake] Añadir baker de opacidad
 * [Cuentagotas] Nueva previsualización del selector de color
 * [Cuentagotas] El panel del selector de color vuelve a aparecer en su última posición cuando se vuelve a abrir
 * [Cuentagotas] Un nuevo icono para el Selector de material
 * [Cuentagotas] Color para administrar la vista previa del canal del selector de color
 * [Cuentagotas] Añada la funcionalidad de hacer clic para seleccionar al cuentagotas
 * [Cuentagotas] El selector de material ya no activa los canales no activos
-* [Cuentagotas] Permitir el uso del cuentagotas con un método abreviado
+* [Cuentagotas] Permitir el uso de cuentagotas con un método abreviado
 * [Cuentagotas] El cuentagotas selecciona el canal correspondiente, cuando corresponde
 * [Cuentagotas] Al entrar en el modo del selector de color se desactivan todos los métodos abreviados
 * [Cuentagotas] Eliminación de la selección automática del campo hexadecimal

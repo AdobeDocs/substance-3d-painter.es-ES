@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/assets/navigation.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a navegar por el panel Activos en Substance 3D Painter para navegar y acceder a su biblioteca de recursos de manera eficiente.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Assets > Navigation
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Navegación
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 1%
-
 ---
-
 
 # Navegación
 
@@ -54,5 +46,5 @@ La selección predeterminada es Materiales, pero al hacer clic en otros iconos d
 | Filtros <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r4-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/00-05-assettypes-3.png"/></div> | Contiene archivos .sbsar importados como *filter*.Los filtros son efectos que toman la textura que ya tienes y la transforman de alguna manera. Algunos filtros solo funcionan con información en blanco y negro, algunos solo con entradas de material, lo que significa que no todos los filtros se pueden usar en máscaras. |
 | Pinceles <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r5-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/00-05-assettypes-4.png"/></div> | Contiene pinceles, partículas y herramientas. Estos son todos los ajustes preestablecidos que se pueden [crear](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/managing-assets-217187091.html) en Painter.**Los pinceles** son ajustes preestablecidos básicos en blanco y negro que usan una alfa. Puede usar pinceles para realizar pinturas en cualquiera de los canales o en todos ellos, o en una máscara.**Las partículas** tienen las mismas características que los pinceles, pero también tienen un conjunto adicional de parámetros que simulan la interacción física con la malla. Pueden producir los efectos de derrames, goteos, lluvia o cualquier otro que requiera una simulación física.**Herramientas** puede contener el comportamiento Pincel o Partícula, pero además este ajuste preestablecido también se guarda con información de canales de material. |
 | Alfas <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r6-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/00-05-assettypes-5.png"/></div> | Contienen una variedad de alfa, así como varios fabricantes de pinceles que permiten [crear](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/spdoc/managing-assets-217187091.html) pinceles con efectos más elaborados (similares a Photoshop, trazos dinámicos, rodillo de pintura). Los Alpha son imágenes en escala de grises en las que las partes negras aparecen transparentes cuando se usan. |
-| Texturas <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r7-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/00-05-assettypes-6.png"/></div> | Contiene grunges, procedimientos, mapas con bake, normales de superficie dura y LUT.**Grunges** son imágenes en escala de grises con ruidos y texturas interesantes. Se pueden utilizar para añadir variación a la superficie de la malla, ya sea mediante máscara o conectándolos directamente en un canal.Los **procedimientos** también son texturas en escala de grises que comprenden ruidos o incluso patrones regulares. Sin embargo, a diferencia de algunos grunges estáticos, los procedimientos son mapas de bits dinámicos que se pueden escalar sin repetición y tienen variaciones infinitas (mediante semilla aleatoria).**Mapas con bake** representan la información de superficie y forma extraída de la malla. Para obtener más información sobre cómo hacer un bake, consulte aquí.**Las normales de superficie dura** son detalles que puede marcar directamente en su malla mediante el canal Normal.**LUT** (tablas de búsqueda) son texturas de perfil de color que se pueden usar en la configuración de visualización para simular un comportamiento de perfil de color en la ventana gráfica. Puede obtener más información sobre los perfiles de color [aquí](../../features/post-processing/color-profile.md). |
+| Texturas <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r7-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/00-05-assettypes-6.png"/></div> | Contiene grunges, procedimientos, mapas con bake, normales de superficie dura y LUT.**Grunges** son imágenes en escala de grises con ruidos y texturas interesantes. Se pueden utilizar para añadir variación a la superficie de la malla, ya sea mediante máscara o conectándolos directamente en un canal.Los **procedimientos** también son texturas en escala de grises que incluyen ruidos o incluso patrones regulares. Sin embargo, a diferencia de algunos grunges estáticos, los procedimientos son mapas de bits dinámicos que se pueden escalar sin repetición y tienen variaciones infinitas (mediante semilla aleatoria).**Mapas con bake** representan la información de superficie y forma extraída de la malla. Para obtener más información sobre cómo hacer un bake, consulte aquí.**Las normales de superficie dura** son detalles que puede marcar directamente en su malla mediante el canal Normal.**LUT** (tablas de búsqueda) son texturas de perfil de color que se pueden usar en la configuración de visualización para simular un comportamiento de perfil de color en la ventana gráfica. Puede obtener más información sobre los perfiles de color [aquí](../../features/post-processing/color-profile.md). |
 | Mapas de entorno <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r8-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/00-05-assettypes-1.jpg"/></div> | Contienen imágenes importadas como *entorno* (normalmente .hdr o .exr). Los mapas de entorno son imágenes de fondo que generan automáticamente una configuración de iluminación. Puede utilizar un mapa de entorno arrastrándolo directamente a la ventana gráfica o a través de la configuración de visualización. |

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/getting-started/export/export-window/export-settings.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a configurar los ajustes de exportación en Substance 3D Painter para controlar la resolución de textura, el formato y las opciones de salida.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Export > Export window > Export settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Ajustes de exportación
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 1%
-
 ---
-
 
 # Ajustes de exportación
 
@@ -54,7 +46,7 @@ Esta sección contiene la configuración compartida de cada textura que se gener
 
 ### Tramado
 
-La exportación de texturas de 8 bits puede provocar bandas en los degradados. Esto se nota especialmente en los mapas normales y de Height. Hay dos formas de resolver este problema: usando mayor precisión o compensando con tramado.
+La exportación de texturas de 8 bits puede provocar bandas en los degradados. Esto se nota especialmente en los mapas Normal y Altura. Hay dos formas de resolver este problema: usando mayor precisión o compensando con tramado.
 
 Una precisión más alta (16 o 32 bits) es ideal, pero esto puede no ser compatible con todas las aplicaciones. Lo más notable es que los motores de juego a menudo se comprimen a 8 bits. El tramado introduce ruido que ayuda a mitigar los problemas de bandas mientras se siguen utilizando 8 bits de información.
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/old-versions/version-2018-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte las notas de la versión 2018.2 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2018.2
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versión 2018.2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2346'
 ht-degree: 0%
-
 ---
-
 
 # Versión 2018.2
 
@@ -44,7 +36,7 @@ Para añadir la dispersión subsuperficial a un proyecto, siga estos pasos:
 
 1. Ve a la ventana **Configuración de visualización** y **activa** la configuración de **Dispersión subsuperficial**.
 1. Agregar un canal &quot;**Dispersión**&quot; en el conjunto de texturas actual
-1. Usa una capa de relleno o **pinta en blanco** en el nuevo canal para **mostrar** el efecto subsuperficial en la ventana gráfica.
+1. Usa una capa de relleno o **pintura en blanco** en el nuevo canal para **mostrar** el efecto de la subsuperficie en la ventana gráfica.
 
 Puede encontrar un procedimiento más detallado en la [documentación sobre dispersión subsuperficial](../../features/subsurface-scattering/subsurface-scattering.md).
 
@@ -63,7 +55,7 @@ Al usar la **Proyección de UV**, aparecerá un manipulador en la **vista 2D** :
 
 * Al hacer clic **fuera**, el manipulador lo **rotará**.
 * Al hacer clic en el **cuadrado** en los **bordes**, se **escalará/redimensionará**.
-* Al hacer clic en **dentro**, el manipulador lo **traducirá**.
+* Al hacer clic **dentro**, el manipulador lo **traducirá**.
 * Use **CTRL** para cambiar varias esquinas en **simetría**.
 * Use **SHIFT** para **restringir** una transformación (traducir, rotar o escalar).\
   ![](../../assets/manipulator-uv.gif)
@@ -71,10 +63,10 @@ Al usar la **Proyección de UV**, aparecerá un manipulador en la **vista 2D** :
 Al usar la **proyección Tri-Plana**, aparecerá un manipulador en la **Vista 3D** :
 
 * El cubo de puntos representa la proyección global
-* Usa el método abreviado de teclado **W**, **E** o **R** para cambiar entre el modo **Traducir**, **Rotar** y **Escalar**.
+* Use el método abreviado **W**, **E** o **R** para cambiar entre el modo **Traducir**, **Rotar** y **Escalar**.
 * Use el método abreviado **T** para cambiar entre la orientación Local y World para el manipulador.
 * Use **SHIFT** para **restringir** la transformación.
-* La proyección del cubo triplano también se puede modificar en las propiedades avanzadas de la capa de relleno :\
+* La proyección del cubo Plano de trío también se puede modificar en las propiedades avanzadas de la capa de relleno :\
   ![](../../assets/fill-properties-triplanar.png)\
   ![](../../assets/manipulator-3d-optim.gif)
 
@@ -129,19 +121,19 @@ Es posible **cambiar** entre cámaras; consulte sus propiedades **ratio** y **lo
 
 ![](../../assets/camera-properties-2.png)
 
-También se tiene en cuenta el marco de la cámara (y su puerta), lo que permite ver y pintar a través de un punto de vista muy específico. El marco y la puerta se muestran sobre la ventana gráfica 3D y su opacidad se puede controlar en **Configuración de la ventana** desde la ventana [Configuración de pantalla](../../interface/display-settings/camera-settings.md) :
+También se tiene en cuenta el marco de la cámara (y su puerta), lo que permite ver y pintura a través de un punto de vista muy específico. El marco y la puerta se muestran sobre la ventana gráfica 3D y su opacidad se puede controlar en **Configuración de la ventana** desde la ventana [Configuración de pantalla](../../interface/display-settings/camera-settings.md) :
 
 ![](../../assets/camera-gate.png)
 
 ### Mejoras en el comportamiento de pila de capas
 
-* **Arrastra y suelta materiales y materiales inteligentes en el mapa de ID:**\
+* **Arrastra y suelta materiales y Materiales inteligentes en el mapa de ID:**\
   Se ha mejorado la función de arrastrar y soltar contenido desde el estante al área de visualización. Al presionar **CTRL** mientras arrastras y sueltas un material, ahora es posible elegir el color de ID que se usará como máscara.\
   Se añadirá una máscara negra con un efecto de selección de color a la nueva capa creada en la pila de capas. Si se arrastra el mismo material y se coloca en otro color de ID, se actualizará la capa ya existente y se combinarán los colores de ID.\
   ![](../../assets/id-drop.gif)
 * **Desplazamiento al arrastrar y soltar Pilas de capas :**\
   Ahora, al arrastrar capas alrededor de la pila de capas, se abre una pequeña ventana.\
-  Cuando se arrastra un recurso o una capa cerca de los bordes de la ventana de la pila de capas, automáticamente comienza a desplazarse por su contenido.\
+  Cuando se arrastra un recurso o una capa cerca de los bordes de la ventana de pila de capas, automáticamente comienza a desplazarse por su contenido.\
   ![](../../assets/layer-drag.gif)
 
 ### importación de mallas glTF y Alembic
@@ -155,8 +147,8 @@ Ahora se admiten nuevos formatos de archivo para importar mallas y crear nuevos 
 
 >[!NOTE]
 >
-> Substance Painter no ofrece una forma de controlar qué fotograma de animación se debe importar en ese momento.\
-> Esto significa que, al exportar un archivo Alembic, el marco de referencia que se vaya a utilizar para pintar en el activo ya debe estar configurado.
+> Substance Painter no ofrece una forma de controlar qué marco de animación debe importarse en ese momento.\
+> Esto significa que, al exportar un archivo Alembic, el marco de referencia que se va a utilizar para pintar en el recurso ya debe estar definido.
 
 ### Mejoras en la integración de Substance
 
@@ -193,7 +185,7 @@ Para encontrar el proyecto, use **Archivo** > **Abrir ejemplo...Entrada de menú
 **&#x200B;**&#x200B;Corregido:**&#x200B;**
 
 * [vista 2D] La vista 2D se rompe con algunas mallas al crear un nuevo proyecto
-* [Bloqueo] El cambio de la Proyección de UV a la proyección triplanar produce un bloqueo
+* [Bloqueo] El cambio de la Proyección de UV a la proyección triplana conduce a un bloqueo
 * [RayCollider] Varios bloqueos debido a &quot;RayCollider&quot;
 * [Herramienta] Al cambiar las capas, se pierden las propiedades de pincel modificadas
 * La configuración del pincel se restablece al cambiar al borrador
@@ -219,18 +211,18 @@ Para encontrar el proyecto, use **Archivo** > **Abrir ejemplo...Entrada de menú
 
 **Corregido:**
 
-* [Cámara] Zoom incorrecto al cambiar de perspectiva ortográfica
+* [Cámara] Zoom incorrecto al cambiar de ortográfico a Perspectiva
 * [Display] Algunos mapas se muestran en línea en lugar de sRGB
 * [Ventanas] El enfoque de malla no se comporta correctamente
-* [Vista 2D] El proyecto con la cámara rota tiene UV que desaparecen Carcasas
+* [vista 2D] El proyecto con la cámara rota ha desaparecido UV
 * [SSS] [Información sobre herramienta] aparece información sobre herramientas de dispersión subsuperficial en el registro
 * Algunos proyectos no se pueden abrir en 2018.2 y el mensaje de error no puede guardar un paquete de substance nulo
-* [Máscara] El color de la herramienta de pintura se puede bloquear en algunos casos al trabajar en una máscara
+* [Máscara] El color de la herramienta de Pintura se puede bloquear en algunos casos al trabajar en una máscara
 * [Material] Mapas que no aparecen en situaciones específicas
 * [Proj]&#x200B;[Tools] Manipulador activo con un generador
 * [Substance] Faltan grupos de parámetros de Substance
 * [Scripting] Nombre de software incorrecto en la documentación
-* [UDIMs] No hay información en el registro acerca de los proyectiles de UVs en múltiples mosaicos de UVs
+* [UDIM] No hay información en el registro acerca de los proyectiles de UV en múltiples mosaicos de UV
 
 **Problemas conocidos:**
 
@@ -243,7 +235,7 @@ Para encontrar el proyecto, use **Archivo** > **Abrir ejemplo...Entrada de menú
 
 **Corregido:**
 
-* Faltan parámetros de sombreado de dispersión subsuperficial en los proyectos de actualización
+* Faltan parámetros de sombreador de dispersión subsuperficial en los proyectos de actualización
 
 **Problemas conocidos:**
 
@@ -260,21 +252,21 @@ Para encontrar el proyecto, use **Archivo** > **Abrir ejemplo...Entrada de menú
 * [SSS]&#x200B;[Viewport]&#x200B;[Iray] Dispersión subsuperficial genérica
 * [SSS] Sincronización de MDL y parámetros de dispersión subsuperficial
 * [SSS] Se ha añadido un nuevo canal de escala de grises denominado &quot;Dispersión&quot;.
-* [SSS]&#x200B;[Configuración del sombreador] Parámetro de tipo de dispersión para dispersión subsuperficial (piel o translúcido)
-* [SSS]&#x200B;[Configuración de sombreado] Parámetro de escala de dispersión para dispersión subsuperficial
-* [SSS]&#x200B;[Configuración de sombreado] Parámetro de color de dispersión para dispersión subsuperficial
+* [SSS]&#x200B;[Ajustes de Sombreador] Parámetro de tipo de dispersión para la dispersión subsuperficial (cutánea o translúcida)
+* [SSS]&#x200B;[Ajustes de Sombreador] Parámetro de escala de dispersión para dispersión subsuperficial
+* [SSS]&#x200B;[Ajustes de Sombreador] Parámetro de color de dispersión para dispersión subsuperficial
 * [SSS]&#x200B;[Configuración de pantalla] Dispersión Recuento de muestras para dispersión subsuperficial
-* [Shader] [Iray] Integrar MDL de dispersión subsuperficial para Iray
-* [Shader] Actualización del sombreado mediante el actualizador de recursos
-* [Shader] Actualizar la API y la documentación del registro de cambios
+* [Sombreador] [Iray] Integrar MDL de dispersión subsuperficial para Iray
+* [Sombreador] Actualización de Sombreador mediante el actualizador de recursos
+* [Sombreador] Actualizar la API y la documentación del registro de cambios
 * [Tool Properties]&#x200B;[Proj] Nuevos parámetros para la proyección triplanar
 * [Ventana gráfica]&#x200B;[Proyecto] Controle las propiedades de la capa de relleno en la vista 3D directamente con los manipuladores (proyección triplanar)
 * [Atajos]&#x200B;[Proj] Nuevos atajos Q, W, E, R, T para manipuladores de proyección triplanar
-* [Viewport]&#x200B;[Proj] Controle las propiedades de la capa de relleno en la vista 2D directamente con los manipuladores (Proyección de UV)
-* [Atajos]&#x200B;[Proj] Nuevo atajo Q para manipuladores de Proyección de UV
+* [Viewport]&#x200B;[Proj] Controlar las propiedades de la capa de relleno en Vista 2D directamente con los manipuladores (Proyección de UV)
+* [Atajos]&#x200B;[Proj] Nueva Q de método abreviado para manipuladores de Proyección de UV
 * [Barra de herramientas contextual]&#x200B;[Proj] Controlar manipuladores de proyección triplanar
-* [Barra De Herramientas Contextual]&#x200B;[Proj] Controlar Manipuladores De Proyección de UV
-* [Propiedades de la herramienta] Desactivar el mosaico de texturas con las herramientas Proyección y Galería de símbolos
+* [Barra De Herramientas Contextual]&#x200B;[Proj] Controlar manipuladores De Proyección de UV
+* [Propiedades de la herramienta] Desactivar el mosaico de textura con las herramientas Proyección y Galería de símbolos
 * [Galería de símbolos] Usar imágenes no cuadradas con la herramienta o galería de símbolos Proyección
 * [Stencil] Permitir el control del modo de mosaico en la ventana Propiedades
 * [Stencil] El zoom no está centrado en una galería de símbolos que no sea de mosaico
@@ -283,8 +275,8 @@ Para encontrar el proyecto, use **Archivo** > **Abrir ejemplo...Entrada de menú
 * [Cámaras] [Israel] Seleccione y controle las cámaras importadas en Irán
 * [Cámaras]&#x200B;[IU]&#x200B;[Nuevo proyecto]&#x200B;[Configuración del proyecto] La opción &quot;Importar cámaras&quot; está activada de forma predeterminada
 * [Cámaras] [Accesos directos] Añada los métodos abreviados &quot;&lt;&quot; y &quot;>&quot; para cambiar de una cámara a otra
-* [Cámaras]&#x200B;[Ventana gráfica] Añadir fotograma en la ventana gráfica
-* [Cámaras] [Configuración de la ventana gráfica] Control de la opacidad de los fotogramas
+* [Cámaras]&#x200B;[Ventana gráfica] Añadir marco en la ventana gráfica
+* [Cámaras] [Configuración de la ventana gráfica] Control de la opacidad del marco
 * [Cámaras]&#x200B;[Configuración de la cámara] distancia focal máxima de 500 mm
 * [Cámaras]&#x200B;[Configuración de la cámara] Relación de exposición
 * [Cámaras]&#x200B;[Configuración de la cámara] Añadir una opción de bloqueo
@@ -292,10 +284,10 @@ Para encontrar el proyecto, use **Archivo** > **Abrir ejemplo...Entrada de menú
 * [Cámaras]&#x200B;[Configuración de la cámara] Añadir el atributo de distancia de enfoque
 * [glTF] Importación de un archivo glTF
 * [glTF] Importar mapa de oclusión ambiental
-* [Alembic] Importar Alembic 1 fotograma con geometría estática
+* [Alembic] Importar marco Alembic 1 con geometría estática
 * [Estante] Arrastre y suelte materiales directamente en la malla mediante mapas de ID con un modificador (CTRL/Comando)
 * [Pila de capas] Creación automática de máscaras de ID con arrastrar y soltar materiales en la malla con mapas de ID
-* [Pila de capas] Desplazamiento automático de capas con arrastrar y soltar por la pila de capas
+* [Pila de capas] Desplazamiento automático de capas arrastrando y soltando por la pila de capas
 * [UI]&#x200B;[Propiedades de la herramienta] Exponer el ajuste preestablecido de Substance
 * [UI]&#x200B;[menú Ayuda] Mejora del menú Ayuda
 * [UI]&#x200B;[Nuevo proyecto]&#x200B;[Configuración del proyecto] Reorganización de la ventana
@@ -310,7 +302,7 @@ Para encontrar el proyecto, use **Archivo** > **Abrir ejemplo...Entrada de menú
 * [Contenido] Añade una nueva plantilla de proyecto PBR con la dispersión subsuperficial activada
 * [Contenido] Se han actualizado los ajustes preestablecidos de exportación para añadir un nuevo canal de dispersión
 * [Content]&#x200B;[Shelf] Se ha añadido compatibilidad de dispersión subsuperficial para: pbr-metal-rough, pbr-metal-rough-alpha-test, recubierto de pbr, pbr-spec-gloss
-* [Contenido] [Estante] Se ha añadido el canal de dispersión a 5 materiales inteligentes (mármoles y pieles)
+* [Contenido] [Estante] Se ha añadido un canal de dispersión a 5 materiales inteligentes (mármoles y máscaras)
 * [Contenido]&#x200B;[Estante] 1 nuevo material de jade
 * [Contenido]&#x200B;[Estante] 1 nuevo material de cera
 
@@ -318,17 +310,17 @@ Para encontrar el proyecto, use **Archivo** > **Abrir ejemplo...Entrada de menú
 
 * [CMD] Diferentes resultados usando la misma línea de comandos con diferentes versiones
 * [TDR] Si se configura TdrLevel, no hay errores en el registro
-* [Baker] El mapa de oclusión ambiental está volteado
+* [Baker] El mapa de Oclusión ambiental está volteado
 * [Mapa de ID] Bloqueo al seleccionar fuera del rango 0-1
-* [Iray] Bloqueo al cambiar de conjunto de texturas y volver al modo de pintura
+* [Iray] Bloqueo al cambiar conjuntos de texturas y volver al modo de Pintura
 * [Ventana gráfica] Sincronizar áreas de colocación entre ventanas gráficas para arrastrar y soltar
 * [Motor] Artefacto de moiré al aplicar mosaico a capas de relleno o pintar pinceles pequeños
 * [Licencia] Comprobación de versión de software errónea del servicio de licencias
 * [Licencia] Cambiar la forma de gestionar la autenticación
 * [API] Llame al evento de API de scripts de `onNewProjectCreated` incluso al crear con una plantilla
-* [Shader] El sombreado compilado no se carga desde la caché cuando el archivo de sombreado no se compila
-* [Estante] Al exportar un archivo HDR desde la estantería, se genera un archivo con valores de sujeción
-* [Export] Exr exporta los valores de color del RGB de las abrazaderas entre 0 y 1
+* [Sombreador] El sombreador compilado no se carga de la memoria caché cuando el archivo de sombreador no se compila
+* [Shelf] Al exportar el archivo HDR. de la estantería, se generará un archivo con valores de sujeción
+* [Exportar] EXR exportar abrazaderas RGB valores de color entre 0 y 1
 * [Contenido] El ruido Procedimiento &quot;Fractal de ruido de Perlin en 3D&quot; se pixelaba
 
 **Problemas conocidos:**

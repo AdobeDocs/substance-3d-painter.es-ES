@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/corrupted-texture-error-message.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Obtenga información sobre cómo corregir los mensajes de error de textura dañados en Substance 3D Painter para restaurar la funcionalidad de textura.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Miscellaneous Issues > Corrupted texture error message
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Mensaje de error de textura dañada
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 0%
-
 ---
-
 
 # Mensaje de error de textura dañada
 
@@ -39,7 +31,7 @@ Los recursos dañados tendrán este aspecto:
 >[!NOTE]
 >
 > Esto también podría significar que simplemente falta el recurso.\
-> Para asegurarse, trate de limpiar la ranura y volver a afectar manualmente el horno. Si la miniatura de la cruz roja sigue aquí, significa que el recurso está dañado.
+> Para asegurarse, intente borrar la ranura y volver a afectar manualmente el haga un bake. Si la miniatura de la cruz roja sigue aquí, significa que el recurso está dañado.
 
 ### 2 - Sustitución del recurso
 

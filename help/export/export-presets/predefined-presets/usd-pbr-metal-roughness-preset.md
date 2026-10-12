@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/getting-started/export/export-presets/predefined-presets/usd-pbr-metal-roughness-preset.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a utilizar el ajuste preestablecido Exportar USDz (Apple AR) en Substance 3D Painter para exportar texturas para flujos de trabajo de Apple AR.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Export > Export presets > Predefined Presets > USDz (Apple AR) Preset
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: USDz (Apple AR)
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
-
 ---
-
 
 # Plantilla predefinida USDz (Apple AR)
 
@@ -33,7 +25,7 @@ Para utilizar la plantilla USDz (Apple AR):
 
 ![Imagen de la ventana de exportación que muestra el menú desplegable de plantillas de salida abierto y los USDz (Apple AR) seleccionados.](../../../assets/export-usd.png){zoomable="yes"}
 
-Se crean y se guardan cinco archivos de textura (color base, metálico, normal, oclusión y rugosidad). Todos los archivos se guardan como JPG, excepto el mapa normal, que se guarda como PNG para evitar artefactos debido a la compresión con pérdida.
+Se crean y se guardan cinco archivos de textura (color base, metálico, normal, oclusión y rugosidad). Todos los archivos se guardan como JPG, excepto el mapa de normales, que se guarda como PNG para evitar artefactos debido a la compresión con pérdida.
 
 Además, se crean otros dos archivos con la extensión usdc y usdz:
 

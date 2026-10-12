@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/painting/presets/creating-particles-presets/overview-of-the-particle-editor.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Obtenga más información sobre el editor de partículas de Substance 3D Painter para crear ajustes preestablecidos de pincel de partículas personalizados para la pintura de texturas.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Presets > Creating particles presets > Overview of the particle editor
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Descripción general del editor de partículas
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1677'
 ht-degree: 0%
-
 ---
-
 
 # Descripción general del editor de partículas
 
@@ -272,7 +264,7 @@ PopcornFX es una especie de gran sistema de discretización, por lo que más gra
 
 Si el tiempo delta es grande, el movimiento de partículas entre marcos también es grande. Por lo tanto, en Substance 3D Painter pueden aparecer pequeñas manchas en lugar de líneas rectas.
 
-Esto se debe a que Substance 3D Painter dibujará un punto de trazo para cada partícula al final de cada fotograma y no dibujará líneas para cada partícula entre el último fotograma y el actual.
+Esto se debe a que Substance 3D Painter dibujará un punto de trazo para cada partícula al final de cada marco y no dibujará líneas para cada partícula entre el último marco y el actual.
 
 * Poco tiempo delta &lt; 0,016s
 * Precisión PRO

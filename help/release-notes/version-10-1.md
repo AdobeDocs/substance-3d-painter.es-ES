@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/version-10-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte las notas de la versión 10.1 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versión 10.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1436'
 ht-degree: 0%
-
 ---
-
 
 # Versión 10.1
 
@@ -93,7 +85,7 @@ En esta versión de Painter, se han mejorado y actualizado muchos componentes de
 * <b>Importar texturas de archivos USD</b>\
   La importación de un archivo USD ahora también importará su textura en el proyecto que cree, lo que facilita las idas y venidas entre aplicaciones. Si el archivo USD utiliza el Adobe Standard Material, también se configurará la configuración de sombreador, haciendo que el resultado en la ventana gráfica coincida con el de la otra aplicación de origen.
 * <b>Cambios en Gltf\
-  </b>Después de la USD actualización, se requirió algún cambio de comportamiento para el formato GLTF para garantizar la paridad. Al importar un archivo gltf, Painter supondrá que el mapa normal estará en formato OpenGL.\
+  </b>Después de la USD actualización, se requirió algún cambio de comportamiento para el formato GLTF para garantizar la paridad. Al importar un archivo gltf, Painter supondrá que el mapa de normales estará en formato OpenGL.\
   Algunos archivos gltf pueden usar el formato DirectX en su lugar. Por lo tanto, se ha añadido una nueva configuración en la nueva ventana de proyecto para tenerla en cuenta (tenga en cuenta que el formato normal también se puede reemplazar desde la pila de capas).
 
   ![](../assets/v101_import_gltf.png)
@@ -148,8 +140,8 @@ Resumen: <b>Versión principal, nuevo contenido: Filtro de color/máscara de ár
 * [Contenido] Añadir nuevo filtro de color/máscara de área de relleno
 * [Contenido] Añadir nuevo filtro de pegatinas de bordado
 * [Contenido] Añade 6 nuevos filtros de Substance genéricos (FXAA, pixelado, paso alto, posterizar, paso suave y umbral)
-* [USD] Exportar capa USD con un material de ASM definido
-* [USD] Importar USD con propiedades de materiales y sombreadores
+* [USD] Exportar USD capa con un material de ASM definido
+* [USD] Importación de USD con propiedades de materiales y sombreadores
 * [Rendimiento] Habilitar miniaturas de pila de capas optimizadas de forma predeterminada
 * [Rendimiento] Reducir el tiempo de apertura de archivos de proyecto y el consumo de memoria (descodificación de datos)
 * Compatible con la plataforma VFX 2024
@@ -159,7 +151,7 @@ Resumen: <b>Versión principal, nuevo contenido: Filtro de color/máscara de ár
 * [VFX Platform 2024] [Gestión de color] Actualización a OCIO 2.3.2
 * [Linux] Migración a Linux RedHat
 * [Linux] Actualice la versión principal del controlador Nvidia a 535.171.04
-* [Importar] Añada una opción para voltear la asignación normal al importar una malla GLTF
+* [Import] Añadir una opción para voltear el mapa de normales al importar una malla GLTF
 * [UI] Usar el valor predeterminado del sistema operativo para la distancia de detección de eventos de arrastre
 * [Substance Engine] Añada la función de tira de llamadas para eliminar los símbolos del ejecutable
 * [Pantalla de bienvenida] Actualización al nuevo formato de pantalla de bienvenida
@@ -169,7 +161,7 @@ Resumen: <b>Versión principal, nuevo contenido: Filtro de color/máscara de ár
 
 <b>Corregido</b>:
 
-* [Illustrator] Bloqueo al exportar un azulejo UV con un gráfico .ai en casos específicos
+* [Illustrator] Bloqueo al exportar un Mosaico de UV con un gráfico .ai en casos específicos
 * [Trazos dinámicos]&#x200B;[Trazado] La opción aleatoria por trazo no funciona en un trazado
 * [UI]&#x200B;[Propiedades] El bloqueo está activado cuando el mosaico no es uniforme
 * &#x200B; archivo Debug TXT se crea al hacer doble clic en el proyecto de Painter
@@ -180,12 +172,12 @@ Resumen: <b>Versión principal, nuevo contenido: Filtro de color/máscara de ár
 
 <b>Problemas conocidos</b>:
 
-* [Gestión de color] Las conversiones de espacio de color HDR con ACE en Linux producen colores con sujeción
-* [Win] [Bloqueo] [ACE] No se utiliza el espacio de color sRGB ICE para la transformación de la pantalla
+* [Gestión de color] HDR. las conversiones de espacio de color con ACE en Linux producen colores con sujeción
+* [Win] [Bloqueo] [ACE] No se utiliza el espacio de color sRGB ICE para transformar la visualización
 * [Regresión]&#x200B;[IU] El menú contextual es demasiado pequeño en pantallas HD
-* [Bloqueo] [Python] Exportación de USD desencadenada por TextureStateEvent
-* [MacOS Intel] Bloqueo al importar algunos ajustes preestablecidos
+* [Bloqueo] [Python] USD exportación desencadenada por TextureStateEvent
+* bloqueo [MacOS Intel] al importar algunos ajustes preestablecidos
 * [Bloqueo] Reubicar recurso y guardar proyecto
-* [Motor] Pintar con la herramienta Clonar en colores de cambio de canal normales incorrectamente
+* [Motor] Pintura con la herramienta Clonar en colores de cambio de canal normales incorrectamente
 * [Python] El widget fantasma aparece eliminado por la secuencia de comandos y sigue funcionando
 * [RedHat] Problemas con el selector de color

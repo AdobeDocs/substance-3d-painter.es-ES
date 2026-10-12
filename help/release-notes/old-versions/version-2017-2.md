@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/old-versions/version-2017-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte las notas de la versión 2017.2 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2017.2
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versión 2017.2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
-
 ---
-
 
 # Versión 2017.2
 
@@ -66,10 +58,10 @@ Las nuevas funciones se detallan en nuestros vídeos más recientes :
 
 * [Herramienta] Problemas de rendimiento al ajustar parámetros de material
 * [Motor] Trazos de pincel que desaparecen al cambiar la resolución (4K>2K)
-* [Vista 3D] El espacio tangente no se sincroniza con los panaderos
+* [Vista 3D] El espacio tangente no se sincroniza con los bakeres
 * [Estante] La ruta de los estantes en los documentos de usuario no se crea automáticamente
 * [Shelf] Hacer ajustes preestablecidos compatibles con versiones anteriores después de una actualización
-* [Shader] El sombreado que no sea PBR ya no funciona
-* [Bakers] Error de procesamiento de asignación de ID con la opción Coincidir por nombre activada
+* [Sombreador] El sombreador que no es PBR ya no funciona
+* [Baker] Error al Hacer un bake la asignación de ID. si la opción Coincidir por nombre está activada
 * [Ejemplo] Los nombres de los conjuntos de texturas del proyecto de muestra Meet Mat son incorrectos
 * Guardar un proyecto antes de crear una plantilla devuelve errores de permisos de escritura

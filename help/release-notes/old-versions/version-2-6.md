@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/old-versions/version-2-6.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte las notas de la versión 2.6 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2.6
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versión 2.6
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 0%
-
 ---
-
 
 # Versión 2.6
 
@@ -75,14 +67,14 @@ Las nuevas funciones principales se describen en nuestro último tutorial de ví
 **Solucionado :**
 
 * [Motor] Problema de desaparición de trazos al cambiar la resolución (4K>2K)
-* [Bakers] Error de procesamiento de asignación de ID con la opción Coincidir por nombre activada
-* [Bakers] Los mensajes de error no son lo suficientemente explícitos
-* [Vista 3D] El espacio tangente no se sincroniza con los panaderos
+* [Baker] Error al Hacer un bake la asignación de ID. si la opción Coincidir por nombre está activada
+* [Bakeres] Los mensajes de error no son lo suficientemente explícitos
+* [Vista 3D] El espacio tangente no se sincroniza con los bakeres
 * [Herramienta] Artefactos negros al utilizar la herramienta de difuminado
-* [Shader] El sombreado que no sea PBR ya no funciona
-* [Shader] &quot;pbr-coat&quot; está roto
-* [Shader] La rugosidad del revestimiento del sombreador &quot;recubierto de pbr&quot; ya no tiene impacto
-* [Shader] El sombreador de brillo de especificaciones no coincide con Iray y SD
+* [Sombreador] El sombreador que no es PBR ya no funciona
+* [Sombreador] &quot;recubierto de pbr&quot; está roto
+* [Sombreador] La rugosidad del revestimiento de sombreadores &quot;recubiertos de pbr&quot; ya no tiene impacto
+* [Sombreador] El sombreador de brillo de especificaciones no coincide con Iray y SD
 * [Shelf] Bloqueo al cargar dos archivos con el mismo nombre pero diferentes extensiones
 * [Estante] Ya no se pueden editar los ajustes preestablecidos en los estantes
 * [Estante] No se puede establecer una vista previa personalizada para los recursos importados en el estante
@@ -101,7 +93,7 @@ Las nuevas funciones principales se describen en nuestro último tutorial de ví
 
 **Solucionado :**
 
-* Bloqueo al cambiar TextureSet después de reemplazar mapa con bake
+* Bloqueo al cambiar de TextureSet después de reemplazar mapa con bake
 * Bloqueo al hacer &quot;Deshacer y Rehacer&quot; después de cambiar el modo de fusión de la capa
 * Bloqueo o congelación al utilizar el efecto &quot;selección de color&quot; con mapa de ID grande
 * [Exportar] Los conjuntos de texturas cuyo nombre se ha cambiado no se ordenan alfabéticamente en la ventana de exportación
@@ -141,13 +133,13 @@ Las nuevas funciones principales se describen en nuestro último tutorial de ví
 **Corregido**:
 
 * Bloqueo al actualizar una malla en proyectos específicos
-* [Ventana gráfica] El color interior del plano de simetría ya no es visible
+* [Ventana gráfica] El color interior del plano de Simetría ya no es visible
 * [Ventana gráfica] Algunos efectos posteriores al proceso se activan al utilizar la vista en solitario
 * [Shaders] La fusión &quot;over\_premult&quot; no funciona correctamente
 * [Shaders] Advertencia sobre la prueba alfa con el sombreador predeterminado
 * [Shelf] Análisis incorrecto de etiquetas de Substance
 * [Shelf] El intemperismo del Óxido MatFX no funciona correctamente
-* [Shelf] El filtro de HSL está activado de forma predeterminada en canales incorrectos
+* [Shelf] HSL filtro está activado de forma predeterminada en canales incorrectos
 * [Estante] El enfoque está activado de forma predeterminada en el canal Height/Normal
-* [Exportar] Los ajustes preestablecidos de exportación no utilizan un mapa normal de OpenGL
+* [Exportar] Los ajustes preestablecidos de exportación no utilizan un mapa de normales OpenGL
 * [Herramienta] Problemas de imprecisión al crear artefactos con la herramienta clonar/difuminar

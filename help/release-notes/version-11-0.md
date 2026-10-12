@@ -1,26 +1,18 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/version-11-0.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte las notas de la versión 11.0 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versión 11.0
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2707'
 ht-degree: 0%
-
 ---
-
 
 # Versión 11.0
 
-<b>Substance 3D Painter 11.0</b> agrega un nuevo flujo de trabajo de actualización automática de recursos, una herramienta de trazado rellenado, así como mejoras generales para los trazados, una jaula automática para hornear y varios filtros nuevos para crear texturas estilizadas.
+<b>Substance 3D Painter 11.0</b> agrega un nuevo flujo de trabajo de actualización automática de recursos, una herramienta de ruta rellena, así como mejoras generales para las rutas, una jaula automática para hacer un bake y varios filtros nuevos para crear texturas estilizadas.
 
 Fecha de publicación: <b>11 de marzo de 2025</b>
 
@@ -206,7 +198,7 @@ La nueva versión presenta algunos filtros nuevos y algunos patrones procedimien
 Al hacer un bake una malla de alta densidad en una malla de baja densidad, ahora puedes seleccionar una nueva opción <b>Automatic </b> al especificar el modo de jaula. Este nuevo método intenta calcular una malla de jaula automática que se ajuste mejor a las mallas de alto contenido de poli para evitar artefactos.
 
 * <b>Nueva configuración en los parámetros comunes de hacer un bake </b>\
-  Dentro del parámetro común de horneado, el parámetro de jaula se ha sustituido por una selección entre tres opciones:\
+  Dentro del parámetro de haga un bake común, el parámetro de jaula se ha sustituido por una selección entre tres opciones:\
   <b>Basado en distancia</b>: los ajustes de distancia frontal/trasera por defecto.\
   <b>Automático (experimental)</b>: la nueva jaula automática.\
   <b>Archivo personalizado</b>: la forma anterior de cargar un archivo de malla personalizado como una jaula.
@@ -261,7 +253,7 @@ En esta versión también se han añadido otras funciones:
 ### 11.0.0
 
 Fecha de publicación: <b>2025/03/11</b>\
-Resumen: <b>Versión principal, nueva función de actualización automática, herramienta de ruta rellena y otras mejoras en la ruta, así como nuevos filtros y una generación experimental de jaula automática para hornear</b>
+Resumen: <b>Versión principal, nueva función de actualización automática, herramienta de ruta rellena y otras mejoras en la ruta, así como nuevos filtros y una generación experimental de jaula automática para hacer un bake</b>
 
 <b>Agregado</b>:
 
@@ -291,39 +283,39 @@ Resumen: <b>Versión principal, nueva función de actualización automática, he
 * [Path] Los vértices deben conservar el estado de selección al activar o desactivar la IU de nuevo
 * [Ruta] Permitir eliminar la ruta con la barra espaciadora
 * [Path] Mantenga abierta la lista de rutas si el usuario la expande
-* [Ruta] [Pila de capas] Cambiar el nombre de los duplicados correctamente al copiar y pegar
+* [Ruta]&#x200B;[Pila de capas] Cambiar correctamente el nombre de los duplicados al copiar y pegar
 * [Path] Mejoras en la interfaz de usuario y la información sobre herramientas
 * Rendimiento
 * [Rendimiento] Mejore el rendimiento de la ventanilla al utilizar un nivel de teselación alto
 * [Rendimiento] Habilite solo el primer canal en las nuevas capas/efectos de relleno
 * [Rendimiento] Paralelizar el cálculo de trazos de pincel
 * Baking
-* [Horneado] Añadir nueva opción de generación de jaulas totalmente automática para horneado con mallas de alto contenido de polietileno (Experimental)
+* [Hacer un bake] Añadir nueva opción de generación de jaulas totalmente automática para hacer un bake con mallas de alto contenido de polietileno (experimental)
 * Contenido
 * [Contenido] Añade 6 filtros nuevos: estilización, cuantificar, anisotrópico kuwahara, suavizado de bisel, distancia direccional, conversión de escala de grises
 * [Contenido] Actualización de Noises y Grunges a la versión más reciente de Designer (con el nuevo 2D Voronoi)
-* [Contenido] Añada 3 nuevos generadores de texturas (Aleatorio de azulejos, Triangle Grid, Generador de Scratches)
+* [Contenido] Añada 3 nuevos generadores de textura (Aleatorio de azulejos, Triangle Grid, Generador de Scratches)
 * [Contenido] Cambiar nombre de plantilla de Unreal Engine y exportar ajustes preestablecidos
 * Python
-* [Shelf] [Python] Guarda material inteligente o máscara inteligente en el disco desde Python
-* [Python] Adición de la jaula automática de banca a la API de Python
-* [Python] Permite editar nombres y descripciones de conjuntos de texturas y mosaicos UV
+* [Shelf] [Python] Guardar material inteligente o máscara inteligente en disco desde Python
+* [Python] Adición de la jaula automática de hace un bake a la API de Python
+* [Python] Permite editar nombres y descripciones de conjuntos de texturas/Mosaicos de UV
 * [Python] Compartir la configuración de resolución en fuentes de fuentes y vectores
 * [Actualización automática] [Python] Exponer las funcionalidades de actualización automática del proyecto en Python
 * Varios
 * [Exportar] Facilite el acceso a las opciones de Enviar a con un nuevo panel
 * [Nvidia] Añadir advertencia sobre los controladores más recientes de Nvidia (572.16)
 * El ajuste de ángulo debe verse afectado por la &#x200B; de selección de espacio Objeto/Mundo
-* [Lista de conjuntos de texturas] Permite añadir un nombre personalizado a los mosaicos UV y utilizarlos en la exportación
+* [Lista de conjuntos de texturas] Permitir agregar nombres personalizados a los Mosaicos de UV y utilizarlos en la exportación
 * Mac
 * [Mac] Uso de Metal en lugar de OpenGL para el procesamiento de gráficos
 * [Mac] Se retira la asistencia de Mac Intel
 
 <b>Corregido</b>:
 
-* [Nvidia] [Horneado] Los resultados del panadero de oclusión ambiental tienen defectos
+* [Nvidia]&#x200B;[Haciendo un bake] Los resultados del baker de Oclusión ambiental tienen defectos
 * [Bloqueo] Al pulsar la tecla Alt, se cambia la visibilidad del conjunto de texturas desactivado y se abre un bloqueo
-* [Horneado] La jaula se tiene en cuenta con un bajo nivel de poli como un alto parámetro de poli
+* [Haciendo un bake] La jaula se tiene en cuenta con un bajo nivel de poli como un alto parámetro de poli
 * [Haciendo un bake] El color del material para el baker del mapa de ID no funciona con USD formato de archivo
 * [Rendimiento] Procesamiento lento en la ventana gráfica con mallas y muchos objetos superpuestos
 * [Qt] El selector de color personalizado no tiene ajustes de Administración de color
@@ -337,9 +329,9 @@ Resumen: <b>Versión principal, nueva función de actualización automática, he
 
 <b>Problemas conocidos</b>:
 
-* [Gestión de color] Las conversiones de espacio de color HDR con ACE en Linux producen colores con sujeción
+* [Gestión de color] HDR. las conversiones de espacio de color con ACE en Linux producen colores con sujeción
 * [Regresión]&#x200B;[IU] El menú contextual es demasiado pequeño en pantallas HD
-* [Bloqueo] [Python] Exportación de USD desencadenada por TextureStateEvent
-* [Motor] Pintar con la herramienta Clonar en colores de cambio de canal normales incorrectamente
+* [Bloqueo] [Python] USD exportación desencadenada por TextureStateEvent
+* [Motor] Pintura con la herramienta Clonar en colores de cambio de canal normales incorrectamente
 * [Python] El widget fantasma aparece eliminado por la secuencia de comandos y sigue funcionando
 * [RedHat] Problemas con el selector de color

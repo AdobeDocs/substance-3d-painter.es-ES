@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/getting-started/export/export-presets/default-presets.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Obtenga más información sobre las plantillas de salida predeterminadas en Substance 3D Painter para conocer las configuraciones y los formatos de exportación estándar.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Export > Export presets > Default Output templates
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Plantillas de salida predeterminadas
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
-
 ---
-
 
 # Plantillas de salida predeterminadas
 
@@ -57,8 +49,8 @@ A continuación se muestra una lista de Plantillas de salida adicionales proporc
 | <b>Canalización de procesamiento de HD de Unity (Specular)</b> | Ajuste preestablecido para la canalización de procesamiento HD de Unity con mapa de specular añadido. |
 | <b>Canalización de procesamiento universal de Unity (estándar metálico)</b> | Ajuste preestablecido para la canalización de procesamiento universal de Unity mediante mapas metálicos y de Smoothness. |
 | <b>Canalización de procesamiento universal de Unity (Specular)</b> | Ajuste preestablecido para la canalización de procesamiento universal de Unity con mapas de Specular y Smoothness. |
-| Motor no real <b> (empaquetado) </b> | Nombra y empaqueta las texturas para ser utilizadas en el Unreal Engine con la menor huella de memoria posible. |
+| Motor no real <b> (empaquetado) </b> | Nombre y paquete de texturas que se utilizarán en Unreal Engine con el menor espacio de memoria posible. |
 | <b>Sistema de seguridad de motor irreal (empaquetado)</b> | Texturas de nombre y paquete que se usarán en Unreal Engine con la menor huella de memoria posible, reemplazando el mapa de opacidad con la dispersión subsuperficial. |
 | <b> Vray Next (Rugosidad metálica)</b> | Ajuste preestablecido para el procesador de Vray mediante el flujo de trabajo de PBR. |
 | <b>Vray Next (Brillo de Specular)</b> | Ajuste preestablecido para el procesador de Vray mediante un flujo de trabajo que no sea PBR. |
-| <b> UDIM heredado (rugosidad metálica) de vray</b> | Ajuste preestablecido para el procesador de Vray (convención de nomenclatura de UDIM). |
+| <b> UDIM heredado de varios tipos (Rugosidad metálica)</b> | Ajuste preestablecido para el procesador de Vray (convención de nomenclatura de UDIM). |

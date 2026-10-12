@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/color-management.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a configurar la gestión de color en Substance 3D Painter para garantizar una precisión de color uniforme en todo el flujo de trabajo.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Color management
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Gestión de colores
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 4%
-
 ---
-
 
 # Gestión de colores
 
@@ -34,7 +26,7 @@ En la aplicación, la administración del color se controla mediante la integrac
 
 Ajustes de gestión de color:
 
-* [Gestión de color con Adobe ACE - ICC](color-management-with-adobe-ace-icc.md)
+* [Gestión de color con ACE de Adobe - ICC](color-management-with-adobe-ace-icc.md)
 * [Gestión de color con OpenColorIO](color-management-with-opencolorio.md)
 
 ## Vocabulario
@@ -44,9 +36,9 @@ Puede resultar útil conocer algunos términos técnicos relacionados con la ges
 | Palabra clave | Descripción |
 | --- | --- |
 | **Espacio de color** | Sistema de coordenadas en el que se definen los colores. |
-| **Espacio de trabajo** | Espacio de color utilizado dentro de la aplicación para fusionar texturas, pintura, etc. |
-| **Mostrar transformación** | Transformar visualización convierte los colores lineales del espacio de trabajo al espacio de color del monitor para mostrar los colores de forma perceptual (para que los vean los ojos humanos). Las transformes de visualización a menudo incluyen una pasada de asignación de tonos para comprimir colores para que se ajusten al rango limitado de valores permitido por una pantalla. |
-| **Configuración** | Un archivo de configuración de OCIO. Define qué es el espacio de trabajo, una lista de espacios de color y una lista de transformaciones de visualización. |
+| **Espacio de trabajo** | Espacio de color utilizado dentro de la aplicación para fusionar textura, pintura, etc. |
+| **Mostrar transformar** | Transformar visualización convierte los colores lineales del espacio de trabajo al espacio de color del monitor para mostrar los colores de forma perceptual (para que los vean los ojos humanos). Las transformes de visualización a menudo incluyen una pasada de asignación de tonos para comprimir colores para que se ajusten al rango limitado de valores permitido por una pantalla. |
+| **Configuración** | Un archivo de configuración de OCIO. Define qué es el espacio de trabajo, una lista de espacios de color y una lista de transformes de visualización. |
 | **ACE** | ACE significa Academy Color Encoding System y es el estándar en muchas aplicaciones para intercambiar archivos de imagen digital. Dos versiones de este estándar se incluyen dentro de la aplicación de forma predeterminada. |
 | **Asignación de tonos** | Es el proceso de asignar valores de color de HDR. (alto rango dinámico) a LDR (rango dinámico bajo). Este proceso ayuda a mostrar aproximadamente la visualización de una amplia gama de colores. |
 

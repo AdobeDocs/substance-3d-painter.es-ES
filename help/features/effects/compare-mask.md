@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/features/effects/compare-mask.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a utilizar el efecto Máscara de comparación en Substance 3D Painter para crear máscaras basadas en operaciones de comparación de texturas.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Effects > Compare Mask
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Máscara de comparación
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 1%
-
 ---
-
 
 # Máscara de comparación
 

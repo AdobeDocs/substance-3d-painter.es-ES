@@ -1,28 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/interface/color-picker.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a utilizar el selector de color en Substance 3D Painter para seleccionar colores de sus texturas y materiales.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Color picker
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Selector de color
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1066'
 ht-degree: 1%
-
 ---
-
 
 # Selector de color
 
 ![](../assets/color-picker-12.jpg)
 
-El selector de color permite definir un color para pintar o proyectar en la malla. Se puede utilizar para seleccionar colores de imágenes externas o para ajustar uno existente dentro de la aplicación.
+El selector de color permite definir un color en una pintura o proyecto en la malla. Se puede utilizar para seleccionar colores de imágenes externas o para ajustar uno existente dentro de la aplicación.
 
 La ventana del selector de color aparece al hacer clic en cualquier campo de color de Painter, que se puede encontrar en Propiedades o en cualquier configuración o menú adicional, como Visualización o Parámetros de Sombreador.
 

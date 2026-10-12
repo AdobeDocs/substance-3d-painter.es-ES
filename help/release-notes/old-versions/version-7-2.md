@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-painter/release-notes/old-versions/version-7-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte las notas de la versión 7.2 de Substance 3D Painter para obtener más información sobre las nuevas funciones, mejoras y correcciones de errores.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 7.2
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Versión 7.2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2333'
 ht-degree: 1%
-
 ---
-
 
 # Versión 7.2
 
@@ -100,7 +92,7 @@ Se ha agregado un nuevo sombreador, denominado **Adobe Standard Material** (ASM)
 
 * **Nuevas características de API del sombreador con if y recompilación visibles**\
   Con el desarrollo del sombreador de ASM se han realizado algunos cambios en la API con dos características notables:
-  * **Visible Si**: Los parámetros de sombreado se pueden mostrar u ocultar según la condición para que la IU de sombreado sea más fácil de leer.
+  * **Visible Si**: Los parámetros de sombreador se pueden mostrar u ocultar en función de la condición para que la interfaz de usuario del sombreador sea más fácil de leer.
   * **Recompilación**: al declarar los parámetros de una manera específica, ahora es posible desactivar parte de un sombreador y volver a compilarlo para optimizarlo cuando cambie el parámetro. Esto permite descartar las funcionalidades no utilizadas.
 
 ### Nuevo intercambio de ecosistemas de Substance 3D
@@ -232,28 +224,28 @@ Resumen : **Versión principal: proporciona una actualización del panel de recu
 * [Ajustes del conjunto de texturas] [IU] Reorganización de la IU de los canales
 * [Ajustes del conjunto de texturas] El límite de canales de usuario se eleva a 16 canales
 * [Ajustes del conjunto de texturas]&#x200B;[IU] Indica qué canales son compatibles con el sombreador seleccionado actualmente
-* [Shader]&#x200B;[ASM] Nuevo sombreador de Adobe Standard Material
-* [Shader] [ASM] Se ha agregado compatibilidad con Anisotropía, capa transparente, dispersión subsuperficial, Specular edge color y brillo
-* [Shader]&#x200B;[ASM] Cambiar los valores de color de los canales predeterminados
-* [Shader]&#x200B;[ASM]&#x200B;[Export] Plantilla de exportación actualizada de Adobe Dimension a Adobe Substance 3D Stager
-* [Shader] [ASM] Se han añadido etiquetas y sugerencias de herramientas para los parámetros de sombreado y MDL
-* [Shader]&#x200B;[ASM] Haga visible el color de la Dispersión en la vista 2D aunque no se admita SSS
-* [Shader]&#x200B;[ASM]&#x200B;[Iray] Se admite el sombreado de ASM en Iray con el nuevo MDL.
-* [Shader]&#x200B;[ASM]&#x200B;[Iray] Dispersión subsuperficial actualizada en brillo y revestimiento de especificaciones PBR heredadas
-* [Shader]&#x200B;[ASM]&#x200B;[Content] Se ha cambiado el tipo de SSS predeterminado para las muestras.
-* [Shader]&#x200B;[ASM] Se ha añadido documentación para la API de ASM
-* [Shader]&#x200B;[ASM] Optimizar sombreadores para ignorar los canales no utilizados
-* [Shader] Exponer nuevos canales de conjunto de texturas
-* [Shader] Dispersión subsuperficial mejorada
-* [Shader] Se han ocultado nuevos parámetros de sombreado para algunos sombreadores.
-* [Shader] Visible si para parámetros de sombreado
+* [Sombreador] [ASM] Nuevo sombreador de Adobe Standard Material
+* [Sombreador] [ASM] Se ha agregado compatibilidad con Anisotropía, capa transparente, dispersión subsuperficial, Specular edge color y brillo
+* [Sombreador]&#x200B;[ASM] Cambiar los valores de color de los canales predeterminados
+* [Sombreador]&#x200B;[ASM]&#x200B;[Export] Plantilla de exportación actualizada de Adobe Dimension a Adobe Substance 3D Stager
+* [Sombreador] [ASM] Se han añadido rótulos y consejos para los parámetros de sombreador y MDL
+* [Sombreador] [ASM] Hacer visible el color de la Dispersión en vista 2D incluso si no se admite SSS
+* [Sombreador] [ASM] [Israel] Apoyo al sombreador de ASM en Irak con nuevos MDL
+* [Sombreador]&#x200B;[ASM]&#x200B;[Iray] Dispersión subsuperficial actualizada en brillo y revestimiento de especificaciones PBR heredadas
+* [Sombreador]&#x200B;[ASM]&#x200B;[Content] Se ha cambiado el tipo de SSS predeterminado para las muestras.
+* [Sombreador]&#x200B;[ASM] Se ha añadido documentación para la API de ASM
+* [Sombreador]&#x200B;[ASM] Optimizar sombreadores para ignorar los canales no utilizados
+* [Sombreador] Exponer nuevos canales de Conjunto de texturas
+* [Sombreador] Dispersión subsuperficial mejorada
+* [Sombreador] Se ocultaron nuevos parámetros de sombreador para algunos sombreadores.
+* [Sombreador] Visible si para los parámetros de sombreador
 * [Rendimiento]
 * [Bibliotecas] Mejoras en el tiempo de carga y el rendimiento de cálculo de la vista previa de recursos
 * [Motor] Mejoras en el rendimiento de pintura
 * [Auto Unwrap] Mejoras en el rendimiento del Empaquetado
 * [Auto Unwrap]
-* [Auto Unwrap] Auto unwrap compatible con el flujo de trabajo de UV Tile
-* [Auto-Unwrap] Nueva opción para colocar las coordenadas UV según la orientación de la malla
+* [Auto Unwrap] Auto unwrap compatible con el flujo de trabajo de Mosaico de UV
+* [Desenvolvimiento automático] Nueva opción para colocar los UV según la orientación de la malla
 * [Otros]
 * [Configuración] Se ha cambiado la dirección de zoom predeterminada
 * [UI] Actualización general de la IU

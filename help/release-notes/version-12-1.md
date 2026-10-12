@@ -1,8 +1,7 @@
 ---
 title: Versión 12.1
 description: Notas de la versión 12.1
-helpx_description: Substance 3D Painter
-source-git-commit: a652271a4b12d9c27513ebc4d5974fa87da29580
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1790'
 ht-degree: 0%
@@ -10,7 +9,7 @@ ht-degree: 0%
 
 # Versión 12.1
 
-<b>Substance 3D Painter 12.1</b> ofrece un flujo de trabajo de horneado mejorado con pintura de corrección de sesgo y rehorneado automático, compatibilidad con la definición de materiales de OpenPBR y un nuevo modo de superficie dura para el desenvolver UV automático.
+<b>Substance 3D Painter 12.1</b> ofrece un flujo de trabajo de hace un bake mejorado con pintura de corrección de sesgo y rehorneado automático, compatibilidad con la definición de materiales de OpenPBR y un nuevo modo de superficie dura para el desenvolvimiento automático de UV.
 
 Fecha de publicación: <b>22 de junio de 2026</b>
 
@@ -20,15 +19,15 @@ Fecha de publicación: <b>22 de junio de 2026</b>
 
 ## Funciones principales
 
-### Flujo de trabajo de panadería mejorado con pintura sesgada
+### Se ha mejorado el flujo de trabajo de hacer un bake con pintura sesgada
 
 ![](../assets/v12/v12_banner_skew.jpg)
 
-El flujo de trabajo de banqueo se ha rediseñado para admitir la rebanada continua, la pintura de corrección de sesgo en malla, la protección de bordes y una lista de mapas de malla rediseñada.
+El flujo de trabajo de hacer un bake se ha rediseñado para admitir la reconfiguración continua, la corrección de sesgo en malla, la protección de bordes y una lista de mapas de malla rediseñada.
 
 * <b>Reprocesamiento automático</b>
 
-  Un mapa de malla se puede volver a hornear continuamente a medida que se ajustan sus parámetros de horneado, lo que elimina la necesidad de activar manualmente un horneado después de cada cambio. La reconversión automática se activa por mapa y se aplica a un solo mapa cada vez. Esto resulta especialmente adecuado para el flujo de trabajo de pintura de sesgado, pero también al ajustar la configuración general de horneado.
+  Un mapa de malla se puede rehornear continuamente a medida que se ajustan sus parámetros de hace un bake, lo que elimina la necesidad de activar manualmente un haga un bake después de cada cambio. La reconversión automática se activa por mapa y se aplica a un solo mapa cada vez. Esto resulta especialmente adecuado para el flujo de trabajo de pintura de sesgo, pero también al ajustar la configuración general de hago un bake.
 
   ![](../assets/v12/v12_auto_rebake.png)
 
@@ -184,7 +183,7 @@ Resumen: **Versión secundaria**
 **Corregido:**
 
 * El selector [Escala de grises] permanece abierto después de cambiar la herramienta
-* [Procesamiento de sesgo]: se producen saltos de corrección de sesgo al pintar y deshacer
+* [Hacer un bake sesgo] La corrección de sesgo se interrumpe al pintar y deshacer
 * La herramienta de proyección [Projection Tool] bloquea la interacción de la ventana gráfica
 * [Trazo dinámico]: faltan parámetros de trazo dinámico en las propiedades del pincel
 * La exportación a una red ya no funciona
@@ -197,12 +196,12 @@ Resumen: **Versión secundaria**
 
 **Corregido:**
 
-* \[Bloqueo\] Algunos Substance pueden producir un bloqueo al procesarse
-* \[Bloqueo\] Volver a importar la malla en el modo de procesamiento
+* \[Bloqueo\] Algunos Substance pueden provocar un bloqueo al procesarse
+* \[Bloqueo\] Volver a importar la malla mientras está en modo de hacer un bake
 * \[Bloqueo\] Si no se inicializa la visualización de gráficos, se puede producir un bloqueo
-* \[Bloqueo\] La exportación de texturas puede bloquearse en algunos casos al actualizar el registro
-* \[Crash\] Bloqueo en el modo de procesamiento en algunos casos al cargar o actualizar el mapa de entorno
-* \[Horneado\] Si se vuelve a iniciar el horneado después de modificar el archivo de alta densidad, se puede producir un bloqueo
+* \[Bloqueo\] La exportación de texturas puede producir bloqueos en algunos casos al actualizar el registro
+* \[Bloqueo\] Bloqueo en modo de hace un bake en algunos casos al cargar o actualizar el mapa de entorno
+* \[Hacer un bake\] Si se vuelve a iniciar hacer un bake después de modificar el archivo de alta poly, se puede producir un bloqueo
 * \[Enviar a Photoshop\] No se puede exportar la máscara de capa
 * \[Motor\] El resultado del punto de ancla no se procesa entre una máscara y un canal de color
 
@@ -214,19 +213,19 @@ Resumen: Versión secundaria
 
 Añadido:
 
-* [Horneado de sesgo] Exponer modo normal de base de sesgo: malla o por triángulo
+* [Sesgar Haciendo un bake] Exponer el modo normal de base de sesgo: malla o por triángulo
 * [Propiedades] Hacer que los colores uniformes siempre se restablezcan al valor predeterminado de su canal
-* [OpenPBR] reagrupa los canales por categorías en la ventana Exportar texturas para crear plantillas de salida
+* [OpenPBR] reagrupa los canales por categorías en la ventana Exportar Texturas para crear plantillas de salida
 * Actualizar el motor de Substance a la versión 9.4.5
 
 Corregido:
 
 * [Proyecto] Abrir y guardar algunos proyectos puede tardar más de lo habitual
 * [Bloqueo] La recarga de varias mallas puede provocar un bloqueo
-* [Bloqueo] Al eliminar un canal en el modo de vista de máscara, se produce un bloqueo
-* [Bloqueo] Algunos Substance pueden producir un bloqueo al procesarse
-* [Sesgar pintura] La herramienta seleccionada en el sesgo de pintura permanece seleccionada después de cambiar al modo de pintura
-* [Configuración común de horneado] La configuración de la distancia de la jaula no actualiza la visualización de la malla metálica de la jaula y del sombreador
+* [Bloqueo] Si se elimina un canal mientras se está en el modo de vista de máscara, se produce un bloqueo
+* [Bloqueo] Algunos Substance pueden provocar un bloqueo cuando se procesan
+* [Sesgo de Pintura] La herramienta seleccionada en el sesgo de pintura permanece seleccionada después de cambiar al modo de pintura
+* [Haciendo un bake configuración común] La configuración de la distancia de la jaula no actualiza la visualización de la malla metálica de la jaula y del sombreador
 * El modo &quot;Vecino del espacio 3D&quot; del relleno UV [Engine] no funciona bien en triángulos finos
 * El resultado del punto de anclaje [Engine] no se procesa entre una máscara y un canal de color
 
@@ -234,40 +233,40 @@ Corregido:
 
 Fecha de publicación: <b>2026/06/23</b>
 
-Resumen: <b>Esta actualización es una versión importante, contiene mejoras en los panaderos con el nuevo estado predeterminado de la interfaz de usuario para panificación, mapa de sesgo de pintura, reprocesamiento automático, nueva opción para el desempaquetado UV automático para mallas de superficie dura y OpenPBRs. Para obtener más detalles, vea las notas de la versión completas.</b>
+Resumen: <b>Esta actualización es una versión importante, contiene mejoras de bakeres con el nuevo estado de IU predeterminado de hace un bake, mapa de sesgo de pintura, reprocesamiento automático, nueva opción para el desajuste UV automático para mallas de superficie dura y OpenPBRs. Para obtener más detalles, vea las notas de la versión completas.</b>
 
 <b>Agregado</b>:
 
-* [Skew baking] Herramientas de pintura de sesgo
-* [Skew Baking] Añada sombreador de previsualización de sesgo y elementos visuales de dirección de sesgo al pintar el mapa de sesgo
-* [Skew Baking] Añadir protección de bordes, opción
-* [Sesgar la cocción] Auto rehacer
-* [Skew Baking] Interfaz de usuario de lista de mapas de malla de reprocesamiento
-* [Sesgar horneado] Dividir mapa de malla / Configuración común de horneado + Mover ajustes comunes de la lista de mapas de malla solo en color o máscara
-* [Sesgar horneado] Cambiar botones de la barra de herramientas de la ventana gráfica
-* [Sesgar horneado] Mostrar alternancia de simetría para el pincel en la barra de herramientas superior
-* [Skew Baking] Cambiar nombre de opciones en el menú de sincronización de lista de mapa de malla
-* [Skew Baking] Cuadro de diálogo Actualizar sincronización y estado marcado
-* [Sesgar horneado] Crear variante del selector de color de escala de grises
-* [Sesgar horneado] Icono Actualizar modo de horneado
+* [Sesgar haciendo un bake] Herramientas de Pintura de Sesgado
+* [Sesgar Haciendo un bake] Añadir sombreador de previsualización de sesgo y elementos visuales de dirección de sesgo al pintar mapa de sesgo
+* [Sesgar Haciendo un bake] Añadir protección de bordes, opción
+* [Sesgar haciendo un bake] Auto rehacer
+* [Sesgar Haciendo un bake] Interfaz de usuario de lista de mapa de malla de reprocesamiento
+* [Sesgar Haciendo un bake] Dividir mapa de malla / Ajustes comunes de Hace un bake + Mover ajustes comunes fuera de la lista de mapas de malla solo para colores o máscaras
+* [Sesgar Haciendo un bake] Cambiar botones de la barra de herramientas de la ventana gráfica
+* [Sesgar Haciendo un bake] Mostrar el conmutador de Simetría para el pincel en la barra de herramientas superior
+* [Sesgar Haciendo un bake] Cambiar el nombre de las opciones en el menú de sincronización de lista de mapa de malla
+* [Sesgar Haciendo un bake] Cuadro de diálogo Actualizar estado de sincronización y activado
+* [Sesgar Haciendo un bake] Crear variante del selector de color de escala de grises
+* [Sesgar Haciendo un bake] Icono Actualizar modo de hacer un bake
 * [Auto Unwrap] opción Integrar superficie dura
 * [OpenPBR] Añadir apoyo para el OpenPBR 1.1
-* [OpenPBR] Hacer que OpenPBR sea el flujo de trabajo y el sombreado predeterminados
+* [OpenPBR] Hacer que OpenPBR sea el flujo de trabajo y el sombreador predeterminados
 * [OpenPBR] Importar materiales y texturas de OpenPBR a través de USD
 * [OpenPBR] Exportar materiales y texturas de OpenPBR a través de USD
-* [OpenPBR] Actualice la ventana Exportar texturas para mostrar la convención de nomenclatura del OpenPBR
+* [OpenPBR] Actualice la ventana Exportar Texturas para mostrar la convención de nomenclatura de OpenPBRs
 * [OpenPBR] Añadir documentación sobre los cambios en el OpenPBR de asistencia
 * [OpenPBR] [Israel] Añádase un nuevo MDL para prestar apoyo al OpenPBR 1.1 de Israel
-* Varias mejoras menores de las exportaciones en dólares
-* [UI] Añada una advertencia en la ventana gráfica al intentar pintar en otro conjunto de texturas
+* Varias mejoras menores de las exportaciones USD
+* [UI] Se añade una advertencia en la ventana gráfica al intentar realizar una pintura en otro conjunto de texturas
 * [Aplanar] Permite acoplar todas las capas con instancias en los conjuntos de texturas
 * [Ajustes del conjunto de texturas] Permite seleccionar varios canales a la vez mediante una nueva ventana
 * [Historial] Actualizar &quot;valor&quot; Deshacer texto de entrada para reflejar el nombre del parámetro
-* [Pila de capas] Hacer que los efectos de relleno de las máscaras se vean en blanco de forma predeterminada (1.0)
+* [Pila de capas] Los efectos de relleno de las máscaras se establecen de forma predeterminada en blanco (1.0)
 * [Substance] Añadir nueva entrada de mapa del motor &quot;mesh_hard_edges_triangle&quot;
 * [Substance] Añadir nueva entrada de mapa del motor &quot;mesh_hard_edges&quot;
-* [Shader] Evita que las instancias de sombreado compartan los mismos nombres
-* [Shader] Utilice el sombreado de la plantilla de proyecto al importar un archivo USD o GLTF
+* [Sombreador] Evitar que las instancias del sombreador compartan los mismos nombres
+* [Sombreador] Utilice el sombreador de la plantilla de proyecto al importar un archivo USD o GLTF
 * Actualizar Adobe Color Engine a la versión 7.0
 * Actualizar la versión mínima de MacOSX a 13.0 (Ventura)
 * [Contenido] Nuevas plantillas de proyecto para el OpenPBR
@@ -276,20 +275,20 @@ Resumen: <b>Esta actualización es una versión importante, contiene mejoras en 
 
 <b>Corregido</b>:
 
-* [Bloqueo] [Configuración de mapas de malla] Aplicación de ajustes a otros conjuntos de texturas
-* [Bloqueo] Al hornear la curvatura desde el mapa sin el espacio normal del mundo
-* [Bloqueo] [Horneado] Horneado con la jaula personalizada activada, pero sin seleccionar ningún archivo se bloquea
-* [Bloqueo] Cancelación del procesamiento de archivos AO
+* [Bloqueo] [Ajustes de Mapas de Malla] Aplicación de ajustes a otros conjuntos de texturas
+* [Bloqueo] Al hacer un bake la curvatura del mapa sin espacio mundial normal
+* [Bloqueo]&#x200B;[Hacer un bake] Hacer un bake con la jaula personalizada activada, pero sin bloqueos de archivo seleccionados
+* [Bloqueo] Cancelación de hace un bake de AO
 * [Auto-Cage] Carga infinita cuando la ruta del archivo de poli alto no es válida
 * [Linux] [Windows] En ocasiones, el selector de color puede ser completamente negro o no aparecer
 * [Herramienta Relleno poligonal] La herramienta no funciona con PBR
-* &lbrack;[Paint] Al eliminar el canal de color base no se elimina el color pintado anteriormente
-* [USD] No se detectan correctamente todas las instancias de sombreado
+* &lbrack;[Pintura] Al eliminar el canal de color base no se elimina el color pintado anteriormente
+* [USD] No se detectan correctamente todas las Instancias del sombreador
 * [Substance] Solo se tiene en cuenta el primer uso de un nodo de entrada/salida
-* [Sombreado] La Oclusión ambiental se aplica dos veces con conjuntos de texturas mediante diferentes métodos de mezcla
+* [Sombreador] La Oclusión ambiental se aplica dos veces con los conjuntos de texturas usando diferentes métodos de mezcla
 * [Motor] Las texturas normales con un canal azul vacío (negro) pueden producir resultados de mezclas incorrectos
 * [Importación GLTF] La fusión alfa está activada en todos los conjuntos de texturas
-* [GLTF Export] La fusión de Alpha siempre está activada al exportar
+* [GLTF Export] La fusión alfa siempre está activada en la exportación
 * [Exportar] La geometría de doble cara siempre está desactivada al importar un archivo GLTF
 * [Javascript] La modificación de la configuración de los sombreadores no contribuye al historial de deshacer
 * [Muestras] La dispersión subsuperficial no está activada en Configuración de visualización para Meet Mat

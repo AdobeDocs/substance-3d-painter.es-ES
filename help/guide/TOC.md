@@ -2,9 +2,9 @@
 user-guide-title: Substance 3D Painter
 breadcrumb-title: Substance 3D Painter
 user-guide-description: Substance 3D Painter
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+source-git-commit: eb0b1c111b0c96a87283785cf702def7305f0aa9
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1348'
 ht-degree: 14%
 ---
 
@@ -244,6 +244,7 @@ ht-degree: 14%
   + [Hacer un bake interfaz](/help/baking/baking-interface.md)
   + [Cómo hacer un bake mapas de malla](/help/baking/how-to-bake-mesh-maps.md)
   + [Corrección de sesgo](/help/baking/skew-correction.md)
+  + {hide-from-toc}[Pintura de jaula](/help/baking/cage-painting.md)
   + [Configuración del mapa de malla](/help/baking/mesh-map-settings.md)
   + [Hacer un bake la configuración de visualización](/help/baking/baking-visualization-settings.md)
 + Contenido{#content}
