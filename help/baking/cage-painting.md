@@ -89,7 +89,7 @@ La herramienta Borrador le permite eliminar la pintura de la jaula, lo que rever
 
 ### Relleno poligonal
 
-En **Modo de pintura en jaula****3}, la** herramienta Relleno poligonal **tiene una característica adicional, un regulador de** Intensidad **aparece en la** Ventana gráfica **al realizar cambios que puede usar para ajustar el valor del último conjunto de polígonos seleccionados.**
+En **Modo de pintura en jaula**&#x200B;**3&rbrace;, la** herramienta Relleno poligonal **tiene una característica adicional, un regulador de** Intensidad **aparece en la** Ventana gráfica **al realizar cambios que puede usar para ajustar el valor del último conjunto de polígonos seleccionados.**
 
 Esta función es especialmente útil para realizar ajustes por elemento con **Modo de relleno de malla** en escenas con varias mallas independientes.
 
