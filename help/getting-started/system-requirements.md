@@ -107,7 +107,7 @@ Para habilitar el Trazado de rayos de GPU a través de Optix o DXR se deben inst
 
 **DXR** también requiere la siguiente configuración mínima:
 
-* **Windows 10** versión 1809, consulte [esta página](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) para obtener más información
+* **Windows 10** versión 1809, consulte [esta página](https://experienceleague.adobe.com/es/docs/substance-3d/bakers/features/gpu-raytracing) para obtener más información
 * **GPU con arquitectura Pascal** (NVIDIA GeForce 10XX)
 
 >[!TIP]
