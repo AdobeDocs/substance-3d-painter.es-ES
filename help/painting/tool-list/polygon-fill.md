@@ -76,7 +76,7 @@ Esta configuración controla cómo se mezcla el resultado del relleno con los p�
 
 >[!NOTE]
 >
-> La herramienta admite los mismos modos de fusión disponibles en la pila de capas. Para obtener más información, consulte la [página de documentación de modos de fusión](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/interface/layer-stack/blending-modes).
+> La herramienta admite los mismos modos de fusión disponibles en la pila de capas. Para obtener más información, consulte la [página de documentación de modos de fusión](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/interface/layer-stack/blending-modes).
 
 ### Material
 
@@ -100,5 +100,5 @@ La herramienta Relleno poligonal se puede utilizar de forma eficaz con la ayuda 
 Se aplican algunas limitaciones a la herramienta:
 
 * **Relleno de bucle de polígono** y **Relleno de bucle de polígono parcial** solo funcionan en cuadrantes, de modo que los triángulos y los n-gones no se pueden rellenar con estos modos.
-* La compatibilidad con **simetría radial** también es limitada y puede no ser confiable. Para usar la simetría, prefiera usar el modo espejo en su lugar. Consulte la [página de documentación de la simetría](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/symmetry/symmetry) para obtener más información.
+* La compatibilidad con **simetría radial** también es limitada y puede no ser confiable. Para usar la simetría, prefiera usar el modo espejo en su lugar. Consulte la [página de documentación de la simetría](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/painting/symmetry/symmetry) para obtener más información.
 * La herramienta rellena la geometría solo del **conjunto de texturas activo**. La malla metálica se muestra para ese conjunto de texturas y se actualiza cuando cambia el conjunto de texturas activo.
