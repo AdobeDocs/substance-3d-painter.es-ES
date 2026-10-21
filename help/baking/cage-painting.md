@@ -1,8 +1,7 @@
 ---
 title: Pintura en jaula
 description: Aprenda a evitar artefactos y personalizar la jaula durante el proceso de hacer un bake con la pintura de la jaula en Substance 3D Painter.
-hold: true
-source-git-commit: 8e09732a300f321ad8fc04883db7a338b8c6a5a7
+source-git-commit: 4fa8be7a1541a441d2476bc10ddddbed39c82366
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 0%
@@ -89,7 +88,7 @@ La herramienta Borrador le permite eliminar la pintura de la jaula, lo que rever
 
 ### Relleno poligonal
 
-En **Modo de pintura en jaula**&#x200B;**3&rbrace;, la** herramienta Relleno poligonal **tiene una característica adicional, un regulador de** Intensidad **aparece en la** Ventana gráfica **al realizar cambios que puede usar para ajustar el valor del último conjunto de polígonos seleccionados.**
+En **Modo de pintura en jaula****3}, la** herramienta Relleno poligonal **tiene una característica adicional, un regulador de** Intensidad **aparece en la** Ventana gráfica **al realizar cambios que puede usar para ajustar el valor del último conjunto de polígonos seleccionados.**
 
 Esta función es especialmente útil para realizar ajustes por elemento con **Modo de relleno de malla** en escenas con varias mallas independientes.
 
