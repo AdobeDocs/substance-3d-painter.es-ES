@@ -94,7 +94,7 @@ La herramienta **Relleno de polígono** se ha rediseñado con una nueva interfaz
 
 >[!NOTE]
 >
-> Para obtener más información sobre la herramienta **Relleno poligonal**, consulta la [página de documentación dedicada](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/paint-tools/polygon-fill).
+> Para obtener más información sobre la herramienta **Relleno poligonal**, consulta la [página de documentación dedicada](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/painting/paint-tools/polygon-fill).
 
 ### Nueva pintura de jaula en modo de Hacer un bake
 
@@ -158,7 +158,7 @@ El nuevo **modo de pintura de jaula** es un desplazamiento de jaula por píxel q
 
 >[!NOTE]
 >
-> Para obtener más información sobre cómo hacer un bake, consulte la [página de documentación dedicada](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/baking/baking).
+> Para obtener más información sobre cómo hacer un bake, consulte la [página de documentación dedicada](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/baking/baking).
 
 ### Nuevo resaltado de conjunto de texturas en la ventana gráfica
 
@@ -228,7 +228,7 @@ Se han añadido funciones y mejoras adicionales en esta versión:
 
   Hay disponible una nueva entrada de mapa del motor `mesh_uv_neighbor` para los materiales y filtros de Substance. Funciona como una textura de advección UV para encontrar el otro lado de una costura de Isla de UV. Sus canales rojo y verde almacenan la advección UV utilizada para alcanzar el píxel vecino a través de una costura UV.
 
-  Para obtener más información sobre estas texturas del motor, consulte la [página de documentación dedicada](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/mesh-based-input).
+  Para obtener más información sobre estas texturas del motor, consulte la [página de documentación dedicada](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/content/creating-custom-effects/mesh-based-input).
 
 ## Notas de la versión
 
