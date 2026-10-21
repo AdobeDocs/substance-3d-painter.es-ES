@@ -241,45 +241,45 @@ Resumen: **Esta actualización es una versión importante, agrega una nueva cara
 **Agregado:**
 
 * Hacer un bake, Jaula
-* &amp;lbrack;Pintura de jaula&amp;rbrack; Crear interfaz de usuario básica de Pintura de jaula
-* &amp;lbrack;Pintura de jaula&amp;rbrack; Nuevas opciones de visualización de jaulas
-* &amp;lbrack;Pintura de jaula&amp;rbrack; Herramienta Selección/Relleno editable
-* &amp;lbrack;Pintura de jaula&amp;rbrack; Mostrar modo de Fusión en la barra de herramientas
-* &amp;lbrack;Pintura de jaula&amp;rbrack; HDR. cambios de IU del regulador
-* &amp;lbrack;Pintura de jaula&amp;rbrack; Sombreador de visualización
-* &amp;lbrack;Pintura de jaula&amp;rbrack; Restablecer opciones de pila
+* &lbrack;Pintura de jaula&rbrack; Crear interfaz de usuario básica de Pintura de jaula
+* &lbrack;Pintura de jaula&rbrack; Nuevas opciones de visualización de jaulas
+* &lbrack;Pintura de jaula&rbrack; Herramienta Selección/Relleno editable
+* &lbrack;Pintura de jaula&rbrack; Mostrar modo de Fusión en la barra de herramientas
+* &lbrack;Pintura de jaula&rbrack; HDR. cambios de IU del regulador
+* &lbrack;Pintura de jaula&rbrack; Sombreador de visualización
+* &lbrack;Pintura de jaula&rbrack; Restablecer opciones de pila
 * Mejoras de la herramienta Relleno poligonal
-* &amp;lbrack;Relleno poligonal&amp;rbrack; Añadir parche de polígono
-* &amp;lbrack;Relleno poligonal&amp;rbrack; Añadir bucle de polígono
-* &amp;lbrack;Relleno poligonal&amp;rbrack; Compatibilidad de simetría con Bucle/Parche
-* &amp;lbrack;Relleno poligonal&amp;rbrack; Vista previa de borde de simetría
-* &amp;lbrack;Relleno poligonal&amp;rbrack; Eliminar triángulos con bucles y bucles parciales
-* &amp;lbrack;Relleno poligonal&amp;rbrack; Malla metálica visible solo para el conjunto de texturas activo
-* &amp;lbrack;Relleno poligonal&amp;rbrack; Resaltado de borde rojo en triángulos que no se pueden hacer clic
-* &amp;lbrack;Relleno poligonal&amp;rbrack; No desactive las opciones del modo de relleno
-* &amp;lbrack;Relleno poligonal&amp;rbrack; Permitir definir todas las propiedades de canal con Relleno poligonal
-* &amp;lbrack;Relleno poligonal&amp;rbrack; El trazo anterior de la reanudación funciona con el relleno poligonal
-* &amp;lbrack;Relleno poligonal&amp;rbrack; Mostrar el cursor prohibido en conjuntos de texturas no activos
-* &amp;lbrack;Relleno poligonal&amp;rbrack; Previsualización instantánea ALT
-* &amp;lbrack;Relleno poligonal&amp;rbrack; Método abreviado para cambiar temporalmente a Polyloop (MAYÚS+A)
-* &amp;lbrack;Viewport&amp;rbrack; Mostrar conjunto de texturas/resaltado de selección de Mosaico de UV
-* &amp;lbrack;Viewport&amp;rbrack; Añadir soporte para Transparencia Independiente de Pedidos en la ventana gráfica en tiempo real
-* &amp;lbrack;Configuración de visualización&amp;rbrack; Reorganizar la configuración de visualización en nuevos grupos
-* &amp;lbrack;Herramienta&amp;rbrack; Añadir compatibilidad con la fusión aditiva con trazos de pincel
-* &amp;lbrack;Herramienta&amp;rbrack; Añadir compatibilidad con la fusión aditiva con relleno poligonal
-* &amp;lbrack;USD&amp;rbrack; Las USD exportadas con mapa de opacidad se vuelven transparentes en Arnold
-* &amp;lbrack;Nvidia&amp;rbrack; Agregar advertencia sobre los controladores más recientes de NVIDIA (616.56 a 617.14)
+* &lbrack;Relleno poligonal&rbrack; Añadir parche de polígono
+* &lbrack;Relleno poligonal&rbrack; Añadir bucle de polígono
+* &lbrack;Relleno poligonal&rbrack; Compatibilidad de simetría con Bucle/Parche
+* &lbrack;Relleno poligonal&rbrack; Vista previa de borde de simetría
+* &lbrack;Relleno poligonal&rbrack; Eliminar triángulos con bucles y bucles parciales
+* &lbrack;Relleno poligonal&rbrack; Malla metálica visible solo para el conjunto de texturas activo
+* &lbrack;Relleno poligonal&rbrack; Resaltado de borde rojo en triángulos que no se pueden hacer clic
+* &lbrack;Relleno poligonal&rbrack; No desactive las opciones del modo de relleno
+* &lbrack;Relleno poligonal&rbrack; Permitir definir todas las propiedades de canal con Relleno poligonal
+* &lbrack;Relleno poligonal&rbrack; El trazo anterior de la reanudación funciona con el relleno poligonal
+* &lbrack;Relleno poligonal&rbrack; Mostrar el cursor prohibido en conjuntos de texturas no activos
+* &lbrack;Relleno poligonal&rbrack; Previsualización instantánea ALT
+* &lbrack;Relleno poligonal&rbrack; Método abreviado para cambiar temporalmente a Polyloop (MAYÚS+A)
+* &lbrack;Viewport&rbrack; Mostrar conjunto de texturas/resaltado de selección de Mosaico de UV
+* &lbrack;Viewport&rbrack; Añadir soporte para Transparencia Independiente de Pedidos en la ventana gráfica en tiempo real
+* &lbrack;Configuración de visualización&rbrack; Reorganizar la configuración de visualización en nuevos grupos
+* &lbrack;Herramienta&rbrack; Añadir compatibilidad con la fusión aditiva con trazos de pincel
+* &lbrack;Herramienta&rbrack; Añadir compatibilidad con la fusión aditiva con relleno poligonal
+* &lbrack;USD&rbrack; Las USD exportadas con mapa de opacidad se vuelven transparentes en Arnold
+* &lbrack;Nvidia&rbrack; Agregar advertencia sobre los controladores más recientes de NVIDIA (616.56 a 617.14)
 * Añadir nueva entrada de mapa del motor &quot;mesh_uv_next&quot;
 * Actualizar bakeres a la versión 3.23.0
 * Actualizar el motor de Substance a la versión 9.6.1
 
 **Corregido:**
 
-* &amp;lbrack;Haciendo un bake&amp;rbrack; La oclusión ambiental Ignorar cara posterior por nombre de malla no funciona
-* &amp;lbrack;Haciendo un bake&amp;rbrack; &amp;lbrack;AMD&amp;rbrack; Dispositivo perdido al hacer un bake con mallas de polietileno altas y pesadas
-* &amp;lbrack;Performance&amp;rbrack; Uso de cerdos VRAM Painter
-* &amp;lbrack;Viewport&amp;rbrack; Faltan texturas al abrir proyectos en pantallas HDPI
-* &amp;lbrack;Herramienta&amp;rbrack; El modo de fusión aparece atenuado al pintar en una máscara
+* &lbrack;Haciendo un bake&rbrack; La oclusión ambiental Ignorar cara posterior por nombre de malla no funciona
+* &lbrack;Haciendo un bake&rbrack; &lbrack;AMD&rbrack; Dispositivo perdido al hacer un bake con mallas de polietileno altas y pesadas
+* &lbrack;Performance&rbrack; Uso de cerdos VRAM Painter
+* &lbrack;Viewport&rbrack; Faltan texturas al abrir proyectos en pantallas HDPI
+* &lbrack;Herramienta&rbrack; El modo de fusión aparece atenuado al pintar en una máscara
 * Carpetas temporales no eliminadas después de la exportación en la red
-* &amp;lbrack;USD&amp;rbrack; La geometría de USD exportada se divide a lo largo de los bordes UV
-* &amp;lbrack;USD&amp;rbrack; Bloqueo al cargar USDz mal formado
+* &lbrack;USD&rbrack; La geometría de USD exportada se divide a lo largo de los bordes UV
+* &lbrack;USD&rbrack; Bloqueo al cargar USDz mal formado
