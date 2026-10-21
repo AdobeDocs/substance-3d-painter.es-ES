@@ -21,4 +21,4 @@ Añadido:
 
 Corregido:
 
-* &amp;lbrack;Haciendo un bake&amp;rbrack; Problema de rendimiento en la ventana gráfica del modo hacer un bake en Mac con pintura en jaula.
+* &lbrack;Haciendo un bake&rbrack; Problema de rendimiento en la ventana gráfica del modo hacer un bake en Mac con pintura en jaula.
