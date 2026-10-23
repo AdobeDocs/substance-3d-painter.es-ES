@@ -4,10 +4,10 @@ description: Da tus primeros pasos con Substance 3D Painter para pintura textura
 title: Substance 3D Painter
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
+source-git-commit: 99552782763c4f8313c5f8e7aeeb3a860ecf943d
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 9%
+ht-degree: 10%
 ---
 
 # Substance 3D Painter
@@ -116,7 +116,6 @@ Si tienes alguna pregunta que no se responde en este manual, no dudes en pregunt
 ### Notas de la versión
 
 * [Todos los cambios](release-notes/all-changes.md)
-* [Versión 11.1](release-notes/version-11-1.md)
-* [Versión 11.0](release-notes/version-11-0.md)
-* [Versión 10.1](release-notes/version-10-1.md)
-
+* [Versión 12.2](release-notes/version-12-2.md)
+* [Versión 12.1](release-notes/version-12-1.md)
+* [Versión 12.0](release-notes/version-12-0.md)
