@@ -4,9 +4,9 @@ description: Accede a las notas de la versión de Substance 3D Painter para esta
 title: Notas de la versión
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 956741845e5808dd59eda31b0c0915ce463cb87a
+source-git-commit: 8b8828624dd415b766eb6d663b6ec175cd3847b1
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '70'
 ht-degree: 11%
 ---
 
@@ -18,7 +18,6 @@ Descubre todo lo que se ha añadido, cambiado o corregido para cada versión:
 * [Versión 12.2](version-12-2.md)
 * [Versión 12.1](version-12-1.md)
 * [Versión 12.0](version-12-0.md)
-* [Versión 11.1](version-11-1.md)
 * [Última versión beta](beta.md)
 * [Problemas conocidos](known-issues.md)
 
