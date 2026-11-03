@@ -19,13 +19,13 @@ Fecha de publicación: **29 de octubre de 2026**
 
 **Agregado**:
 
-* &amp;lbrack;Haciendo un bake&amp;rbrack; La visualización de errores de coincidencia alta utiliza Coincidencia por nombre
+* &lbrack;Haciendo un bake&rbrack; La visualización de errores de coincidencia alta utiliza Coincidencia por nombre
 
 **Corregido**:
 
-* &amp;lbrack;Python&amp;rbrack; Algunas funciones obsoletas generan una advertencia, pero no dicen quiénes son
-* &amp;lbrack;Haciendo un bake&amp;rbrack; La geometría de jaula puede tener orificios al pintar en una Isla de UV
-* &amp;lbrack;Mac&amp;rbrack;&amp;lbrack;Haciendo un bake&amp;rbrack; Problema de rendimiento en la ventanilla del modo de hace un bake con la pintura en jaula
+* &lbrack;Python&rbrack; Algunas funciones obsoletas generan una advertencia, pero no dicen quiénes son
+* &lbrack;Haciendo un bake&rbrack; La geometría de jaula puede tener orificios al pintar en una Isla de UV
+* &lbrack;Mac&rbrack;&lbrack;Haciendo un bake&rbrack; Problema de rendimiento en la ventanilla del modo de hace un bake con la pintura en jaula
 
 ### **Compilación 1**
 
@@ -37,4 +37,4 @@ Fecha de publicación: **21 de octubre de 2026**
 
 **Corregido**:
 
-* &amp;lbrack;Haciendo un bake&amp;rbrack; Problema de rendimiento en la ventana gráfica del modo hacer un bake en Mac con pintura en jaula.
+* &lbrack;Haciendo un bake&rbrack; Problema de rendimiento en la ventana gráfica del modo hacer un bake en Mac con pintura en jaula.
