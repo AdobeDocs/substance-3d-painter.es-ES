@@ -1,9 +1,9 @@
 ---
 description: Conozca la versión beta actual de Substance 3D Painter, incluidas las nuevas funciones y un registro de cambios completo.
 title: Versión beta
-source-git-commit: d84430d131a0857e981006698faf536d59aa707b
+source-git-commit: 3f87068a5a29fd50d7b1e3857691e9a396775175
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '196'
 ht-degree: 0%
 ---
 
@@ -13,7 +13,15 @@ ht-degree: 0%
 
 Esta versión beta de Substance 3D Painter agrega compatibilidad nativa para Windows en sistemas ARM (ARM64). Se esperan más lanzamientos en las próximas semanas a medida que el equipo trabaje para mejorar la estabilidad.
 
-### **Compilación 2**
+### Compilación 3
+
+**Corregido**:
+
+* &lbrack;Mac&rbrack;&lbrack;OpenPBR&rbrack; Artefactos de textura en la ventana gráfica con valores de escala de radio subsuperficial específicos
+* &lbrack;Mac&rbrack; El sesgo de mipmap del filtrado de Texturas en Configuración de visualización no tiene efecto
+* &lbrack;Windows&rbrack;&lbrack;Nvidia&rbrack; La generación de vistas previas de pinceles y materiales puede dar lugar a un TDR.
+
+### Compilación 2
 
 Fecha de publicación: **2 de noviembre de 2026**
 
@@ -27,7 +35,7 @@ Fecha de publicación: **2 de noviembre de 2026**
 * &lbrack;Haciendo un bake&rbrack; La geometría de jaula puede tener orificios al pintar en una Isla de UV
 * &lbrack;Mac&rbrack;&lbrack;Haciendo un bake&rbrack; Problema de rendimiento en la ventanilla del modo de hace un bake con la pintura en jaula
 
-### **Compilación 1**
+### Compilación 1
 
 Fecha de publicación: **21 de octubre de 2026**
 
