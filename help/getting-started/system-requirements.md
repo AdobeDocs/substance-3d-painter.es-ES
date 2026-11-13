@@ -4,9 +4,9 @@ description: Revise los requisitos del sistema de Substance 3D Painter para aseg
 title: Requisitos del sistema
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: fbfe7e52b226b5a92f5b46ebbf82728f0ff9e3c5
+source-git-commit: 0937bc291815e86b7a33d804729dbef599748d13
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '798'
 ht-degree: 1%
 ---
 
@@ -56,9 +56,8 @@ Para obtener un buen rendimiento al utilizar el flujo de trabajo de Mosaico de U
 Varios:
 
 * Muchas aplicaciones de Substance dependen de OpenSSL 1.1.1 para la compatibilidad con RHEL8/9. En el caso de los sistemas con versiones más recientes de OpenSSL, el cliente deberá proporcionarlo manualmente
-* Para trabajar en condiciones cómodas, recomendamos un monitor con una resolución vertical superior a 1000 píxeles y más ancho que 1280 píxeles.
-* La exportación a **8K** (8192\*8192 píxeles) requiere una GPU con **más de** 2 GB de VRam.
-* Solo se han notarizado las versiones 2019.x y superiores para poder ejecutarse en MacOS 10.15 (Catalina).
+* Para unas condiciones de trabajo cómodas, recomendamos un monitor con una resolución vertical superior a 1000 píxeles y una anchura superior a 1280 píxeles.
+* La exportación a **8K** (8192\*8192 píxeles) no está disponible en GPU con **menos de** 2 GB de VRAM.
 * Para usar el software mediante RDP (Escritorio remoto), consulte la [página de documentación](../pipeline-and-integration/configuration/remote-desktop.md) dedicada.
 * El bloqueo de la CPU Ryzen al hacer un bake se puede corregir actualizando el BIOS.
 
@@ -107,7 +106,7 @@ Para habilitar el Trazado de rayos de GPU a través de Optix o DXR se deben inst
 
 **DXR** también requiere la siguiente configuración mínima:
 
-* **Windows 10** versión 1809, consulte [esta página](https://experienceleague.adobe.com/es/docs/substance-3d/bakers/features/gpu-raytracing) para obtener más información
+* **Windows 10** versión 1809, consulte [esta página](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) para obtener más información
 * **GPU con arquitectura Pascal** (NVIDIA GeForce 10XX)
 
 >[!TIP]
