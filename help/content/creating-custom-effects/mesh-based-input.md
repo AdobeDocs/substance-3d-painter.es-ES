@@ -4,9 +4,9 @@ description: Aprenda a utilizar entradas basadas en malla en efectos personaliza
 title: Entrada basada en malla
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
+source-git-commit: 4432887b652896f77fc3c99010436ef44aeb8a3e
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '279'
 ht-degree: 1%
 ---
 
@@ -28,3 +28,4 @@ La entrada basada en malla es la textura que proporciona el motor de Substance 3
 | *Bitangent espacial mundial (RGB)* | **mesh\_world\_space\_bitangent** | **meshBitangentWS** | Recupere una textura que contenga el vértice bi-tangente (bi-normal) en el espacio de entorno. |
 | *Tamaño de texto (escala de grises)* | **mesh\_texel\_size** | **meshTexelSize** | Recupere una textura que contenga el tamaño del texel (diferencia entre la densidad de píxeles y la malla UV). |
 | *Máscara UV (escala de grises)* | **mesh\_uv\_mask** | **meshUVMask** | Recupere una textura como máscara negra (exterior) y blanca (interior) de las Islas de UV de malla. |
+| *Vecino UV (RGB)* | **mesh\_uv\_vecino** | **meshUVNeighbor** | Recupere una textura con dos datos. El interior de las Islas de UV almacena coordenadas UV regulares. El exterior de las Islas de UV almacena las coordenadas UV del píxel del otro lado de las costuras UV. Esta textura se puede utilizar para crear efectos perfectos. |
